@@ -1,0 +1,57 @@
+{
+  "id": "fade-compendiums",
+  "title": "Fantastic Depths Compendiums",
+  "version": "0.7.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "fantastic-depths",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "forelius",
+      "flags": {}
+    }
+  ],
+  "packs": [
+      {
+         "name": "item-compendium",
+         "label": "Item Compendium",
+         "system": "fantastic-depths",
+         "path": "packs/items.db",
+         "type": "Item"
+      },
+      {
+         "name": "actor-compendium",
+         "label": "Actor Compendium",
+         "system": "fantastic-depths",
+         "path": "packs/actors.db",
+         "type": "Actor"
+      },
+      {
+         "name": "roll-table-compendium",
+         "label": "Roll Table Compendium",
+         "system": "fantastic-depths",
+         "path": "packs/rollTables.db",
+         "type": "RollTable"
+      }
+   ],
+       "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/Forelius/fade-compendiums",
+    "manifest": "",
+    "download": ""
+}
