@@ -6,8 +6,7 @@ on:
       - "[0-9]+.[0-9]+.[0-9]+"
 
 permissions:
-  contents: write  # Required to create releases
-  packages: read   # If you're using packages
+  contents: write
 
 jobs:
   build:
@@ -20,7 +19,7 @@ jobs:
       - name: Prepare release files
         run: |
           mkdir release
-          cp -R * release/
+          cp -R !(release) release/
           cd release
           zip -r ../fade-compendiums.zip ./*
           cd ..
