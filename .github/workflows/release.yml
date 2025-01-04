@@ -1,0 +1,32 @@
+name: Build and Release Foundry VTT Module
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+
+permissions:
+  contents: write  # Required to create releases
+  packages: read   # If you're using packages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Prepare release files
+        run: |
+          mkdir release
+          cp -R * release/
+          cd release
+          zip -r ../fade-compendiums.zip ./*
+          cd ..
+
+      - name: Create GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: fade-compendiums.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
