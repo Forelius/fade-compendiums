@@ -19,7 +19,7 @@ jobs:
       - name: Prepare release files
         run: |
           mkdir release
-          cp -R !(release) release/
+          rsync -av --exclude='.github/' ./ release/
           cd release
           zip -r ../fade-compendiums.zip ./*
           cd ..
