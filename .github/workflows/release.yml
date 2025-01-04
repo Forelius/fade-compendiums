@@ -16,13 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Prepare release files
+      - name: Prepare release zip
         run: |
-          mkdir release
-          rsync -av --exclude='.github/' ./ release/
-          cd release
-          zip -r ../fade-compendiums.zip ./*
-          cd ..
+          zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*'
 
       - name: Create GitHub release
         uses: ncipollo/release-action@v1
