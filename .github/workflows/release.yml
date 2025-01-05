@@ -2,12 +2,12 @@
 # git tag 0.7.12
 # git push origin main
 # git push origin 0.7.12
-name: Build and Release Foundry VTT Module
+name: Build and Release fade-compendiums
 
 on:
   push:
     tags:
-      - "[0-9]+\\.[0-9]+\\.[0-9]+"
+      - "[0-9]+.[0-9]+.[0-9]+"
 
 permissions:
   contents: write
@@ -20,19 +20,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Extract version and generate release notes
-      - name: Generate release notes
-        id: release_notes
-        run: |
-          LAST_TAG=$(git describe --tags --abbrev=0 HEAD^)
-          NEW_TAG=${GITHUB_REF#refs/tags/}
-          echo "LAST_TAG=${LAST_TAG}" >> $GITHUB_ENV
-          echo "NEW_TAG=${NEW_TAG}" >> $GITHUB_ENV
-
-          # Generate commit messages since the last tag, filtering for lines starting with '-'
-          COMMITS=$(git log ${LAST_TAG}..HEAD --pretty=format:"%B" | grep '^-' || true)
-          echo "COMMITS=${COMMITS}" >> $GITHUB_ENV
-
       - name: Prepare release zip
         run: |
           zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*'
@@ -42,10 +29,4 @@ jobs:
         with:
           artifacts: fade-compendiums.zip
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ env.NEW_TAG }}
-          name: Release ${{ env.NEW_TAG }}
-          body: |
-            **Full Changelog**: https://github.com/Forelius/fade-compendiums/compare/${{ env.LAST_TAG }}...${{ env.NEW_TAG }}
 
-            **Changes:**
-            ${{ env.COMMITS }}
