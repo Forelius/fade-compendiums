@@ -1,0 +1,59 @@
+# EXAMPLE:
+# git tag 0.7.12
+# git push origin main
+# git push origin 0.7.12
+name: Build and Release fade-compendiums (Stable)
+
+on:
+  push:
+    tags:
+      - '[0-9]+\.[0-9]+\.[0-9]+'  # Stable release tags
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Fetch all branches and tags
+        run: git fetch --all --tags
+
+      - name: Extract version from tag
+        id: get_version
+        run: |
+          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
+      - name: Check if the tag commit is in the stable branch
+        id: check_stable
+        run: |
+          TAG_COMMIT=$(git rev-parse ${{ env.VERSION }})
+          if git merge-base --is-ancestor $TAG_COMMIT origin/stable; then
+            echo "The tag is in the stable branch history."
+            echo "is_valid=true" >> $GITHUB_ENV
+          else
+            echo "The tag (${{ env.VERSION }}) is NOT in the stable branch history. Skipping release."
+            echo "is_valid=false" >> $GITHUB_ENV
+          fi
+
+      - name: Prepare release zip
+        if: env.is_valid == 'true'
+        run: |
+          zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*'
+
+      - name: Create GitHub pre-release
+        if: env.is_valid == 'true'
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.VERSION }}
+          name: "Release ${{ env.VERSION }} (STABLE)"
+          prerelease: false
+          artifacts: fade-compendiums.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
+
