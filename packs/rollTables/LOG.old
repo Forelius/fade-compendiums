@@ -1,3 +1,7 @@
-2025/01/16-11:56:20.057 2cdc Recovering log #1361
-2025/01/16-11:56:20.062 2cdc Delete type=0 #1361
-2025/01/16-11:56:20.062 2cdc Delete type=3 #1359
+2025/01/18-05:07:49.569 4984 Recovering log #1366
+2025/01/18-05:07:49.574 4984 Delete type=0 #1366
+2025/01/18-05:07:49.574 4984 Delete type=3 #1365
+2025/01/18-05:07:56.395 4ccc Level-0 table #1370: started
+2025/01/18-05:07:56.395 4ccc Level-0 table #1370: 0 bytes OK
+2025/01/18-05:07:56.396 4ccc Delete type=0 #1368
+2025/01/18-05:07:56.400 4ccc Manual compaction at level-0 from '!folders!5KkUhPJkGW8cPfpE' @ 72057594037927935 : 1 .. '!tables.results!tCShAkJWflIjH4B4.slAhthaDlVE9bBjS' @ 0 : 0; will stop at (end)
