@@ -1,75 +1,76 @@
 {
-  "id": "fade-compendiums",
-  "title": "Fantastic Depths Compendiums",
-  "version": "0.7.21-rc.6",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "12"
-  },
-  "relationships": {
-    "systems": [
+   "id": "fade-compendiums",
+   "title": "Fantastic Depths Compendiums",
+   "version": "0.7.21-rc.7",
+   "compatibility": {
+      "minimum": 11,
+      "verified": 12,
+      "maximum": 13
+   },
+   "relationships": {
+      "systems": [
+         {
+            "id": "fantastic-depths",
+            "type": "system",
+            "compatibility": {}
+         }
+      ]
+   },
+   "authors": [
       {
-        "id": "fantastic-depths",
-        "type": "system",
-        "compatibility": {}
+         "name": "forelius",
+         "url": "https://github.com/Forelius",
+         "discord": "forelius",
+         "flags": {}
       }
-    ]
-  },
-  "authors": [
-    {
-      "name": "forelius",
-      "url": "https://github.com/Forelius",
-      "discord": "forelius",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "item-compendium",
-      "label": "Item Compendium",
-      "path": "packs/items",
-      "type": "Item",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+   ],
+   "packs": [
+      {
+         "name": "item-compendium",
+         "label": "Item Compendium",
+         "path": "packs/items",
+         "type": "Item",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
+      },
+      {
+         "name": "actor-compendium",
+         "label": "Actor Compendium",
+         "path": "packs/actors",
+         "type": "Actor",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
+      },
+      {
+         "name": "roll-table-compendium",
+         "label": "Roll Table Compendium",
+         "path": "packs/rollTables",
+         "type": "RollTable",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
+      },
+      {
+         "name": "macro-compendium",
+         "label": "Macro Compendium",
+         "path": "packs/macros",
+         "type": "Macro",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
       }
-    },
-    {
-      "name": "actor-compendium",
-      "label": "Actor Compendium",
-      "path": "packs/actors",
-      "type": "Actor",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "roll-table-compendium",
-      "label": "Roll Table Compendium",
-      "path": "packs/rollTables",
-      "type": "RollTable",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "macro-compendium",
-      "label": "Macro Compendium",
-      "path": "packs/macros",
-      "type": "Macro",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "url": "https://github.com/Forelius/fade-compendiums",
-  "manifest": "https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/stable/module.json",
-  "download": "https://github.com/Forelius/fade-compendiums/releases/download/0.7.21-rc.6/fade-compendiums.zip"
+   ],
+   "url": "https://github.com/Forelius/fade-compendiums",
+   "manifest": "https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/stable/module.json",
+   "download": "https://github.com/Forelius/fade-compendiums/releases/download/0.7.21-rc.7/fade-compendiums.zip"
 }
