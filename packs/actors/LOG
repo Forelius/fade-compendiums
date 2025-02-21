@@ -1,3 +1,24 @@
-2025/02/18-11:51:35.298 2164 Recovering log #1932
-2025/02/18-11:51:35.303 2164 Delete type=0 #1932
-2025/02/18-11:51:35.303 2164 Delete type=3 #1931
+2025/02/20-05:06:03.748 38d0 Recovering log #1938
+2025/02/20-05:06:03.754 38d0 Level-0 table #1940: started
+2025/02/20-05:06:03.767 38d0 Level-0 table #1940: 1513254 bytes OK
+2025/02/20-05:06:03.772 38d0 Delete type=0 #1938
+2025/02/20-05:06:03.772 38d0 Delete type=3 #1937
+2025/02/20-05:06:03.929 3eb4 Compacting 1@0 + 2@1 files
+2025/02/20-05:06:03.953 3eb4 Generated table #1942@0: 2209 keys, 2127154 bytes
+2025/02/20-05:06:03.971 3eb4 Generated table #1943@0: 2327 keys, 1522319 bytes
+2025/02/20-05:06:03.971 3eb4 Compacted 1@0 + 2@1 files => 3649473 bytes
+2025/02/20-05:06:03.972 3eb4 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/02/20-13:38:56.356 3eb4 Level-0 table #1945: started
+2025/02/20-13:38:56.402 3eb4 Level-0 table #1945: 4919185 bytes OK
+2025/02/20-13:38:56.405 3eb4 Delete type=2 #1923
+2025/02/20-13:38:56.406 3eb4 Delete type=2 #1924
+2025/02/20-13:38:56.406 3eb4 Delete type=2 #1940
+2025/02/20-13:38:56.406 3eb4 Delete type=0 #1941
+2025/02/20-15:18:06.044 3eb4 Compacting 1@0 + 2@1 files
+2025/02/20-15:18:06.071 3eb4 Generated table #1946@0: 2055 keys, 2128392 bytes
+2025/02/20-15:18:06.093 3eb4 Generated table #1947@0: 2954 keys, 1925350 bytes
+2025/02/20-15:18:06.093 3eb4 Compacted 1@0 + 2@1 files => 4053742 bytes
+2025/02/20-15:18:06.094 3eb4 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/02/20-15:18:06.094 3eb4 Delete type=2 #1942
+2025/02/20-15:18:06.094 3eb4 Delete type=2 #1943
+2025/02/20-15:18:06.095 3eb4 Delete type=2 #1945
