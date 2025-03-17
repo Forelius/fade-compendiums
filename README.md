@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1d0e4dcf-0df7-4f48-8b0b-a35c2d2ba83b)
+![image](./assets/img/banner.jpg)
 
 # Fantastic Depths Compendiums
 ![Foundry v11](https://img.shields.io/badge/foundry-v11-green)![Foundry v12](https://img.shields.io/badge/foundry-v12-green)
