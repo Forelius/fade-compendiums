@@ -1,7 +1,9 @@
-2025/03/23-14:53:21.955 31c8 Recovering log #2429
-2025/03/23-14:53:21.961 31c8 Delete type=0 #2429
-2025/03/23-14:53:21.961 31c8 Delete type=3 #2427
-2025/03/23-14:54:01.093 4be8 Level-0 table #2434: started
-2025/03/23-14:54:01.093 4be8 Level-0 table #2434: 0 bytes OK
-2025/03/23-14:54:01.095 4be8 Delete type=0 #2432
-2025/03/23-14:54:01.099 4be8 Manual compaction at level-0 from '!actors!05bBlAyUEaYfxZQ8' @ 72057594037927935 : 1 .. '!folders!xyIrb6GYNyFjZwEN' @ 0 : 0; will stop at (end)
+2025/03/25-13:02:29.211 38d8 Log #2436: 0 ops saved to Table #2474 OK
+2025/03/25-13:02:29.212 38d8 Archiving D:\Media\Foundry12dev\Data\modules\fade-compendiums\packs\actors/002436.log: OK
+2025/03/25-13:02:29.212 38d8 Log #2473: 0 ops saved to Table #2475 OK
+2025/03/25-13:02:29.212 38d8 Archiving D:\Media\Foundry12dev\Data\modules\fade-compendiums\packs\actors/002473.log: OK
+2025/03/25-13:02:29.217 38d8 Table #2353: 1687 entries OK
+2025/03/25-13:02:29.223 38d8 Table #2354: 3069 entries OK
+2025/03/25-13:02:29.225 38d8 Table #2358: 1036 entries OK
+2025/03/25-13:02:29.228 38d8 Archiving D:\Media\Foundry12dev\Data\modules\fade-compendiums\packs\actors/MANIFEST-002472: OK
+2025/03/25-13:02:29.231 38d8 **** Repaired leveldb D:\Media\Foundry12dev\Data\modules\fade-compendiums\packs\actors; recovered 3 files; 4958547 bytes. Some data may have been lost. ****
