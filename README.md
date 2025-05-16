@@ -1,7 +1,7 @@
 ![image](./assets/img/banner.jpg)
 
 # Fantastic Depths Compendiums
-![Foundry v11](https://img.shields.io/badge/foundry-v11-green)![Foundry v12](https://img.shields.io/badge/foundry-v12-green)
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dplastic%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffantastic-depths%2Frefs%2Fheads%2Fstable%2Fsystem.json)
 
 Compendiums module for Fantastic Depths Foundry VTT System.
 
