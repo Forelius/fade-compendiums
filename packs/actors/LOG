@@ -1,14 +1,11 @@
-2025/06/23-07:51:00.084 3808 Recovering log #3189
-2025/06/23-07:51:00.085 3808 Level-0 table #3193: started
-2025/06/23-07:51:00.087 3808 Level-0 table #3193: 114172 bytes OK
-2025/06/23-07:51:00.091 3808 Delete type=0 #3189
-2025/06/23-07:51:00.091 3808 Delete type=3 #3187
-2025/06/23-07:51:00.261 381c Compacting 1@0 + 2@1 files
-2025/06/23-07:51:00.284 381c Generated table #3195@0: 1688 keys, 2124538 bytes
-2025/06/23-07:51:00.308 381c Generated table #3196@0: 3141 keys, 2132423 bytes
-2025/06/23-07:51:00.310 381c Generated table #3197@0: 7 keys, 934 bytes
-2025/06/23-07:51:00.310 381c Compacted 1@0 + 2@1 files => 4257895 bytes
-2025/06/23-07:51:00.311 381c compacted to: files[ 0 3 0 0 0 0 0 ]
-2025/06/23-07:51:00.311 381c Delete type=2 #3190
-2025/06/23-07:51:00.311 381c Delete type=2 #3191
-2025/06/23-07:51:00.311 381c Delete type=2 #3193
+2025/06/24-05:32:51.985 678 Recovering log #3194
+2025/06/24-05:32:51.985 678 Level-0 table #3199: started
+2025/06/24-05:32:51.987 678 Level-0 table #3199: 57253 bytes OK
+2025/06/24-05:32:51.991 678 Delete type=0 #3194
+2025/06/24-05:32:51.991 678 Delete type=3 #3192
+2025/06/24-05:32:52.170 9d4 Compacting 1@0 + 2@1 files
+2025/06/24-05:32:52.198 9d4 Generated table #3201@0: 1688 keys, 2124969 bytes
+2025/06/24-05:32:52.226 9d4 Generated table #3202@0: 3131 keys, 2131975 bytes
+2025/06/24-05:32:52.227 9d4 Generated table #3203@0: 10 keys, 1102 bytes
+2025/06/24-05:32:52.227 9d4 Compacted 1@0 + 2@1 files => 4258046 bytes
+2025/06/24-05:32:52.228 9d4 compacted to: files[ 0 4 0 0 0 0 0 ]
