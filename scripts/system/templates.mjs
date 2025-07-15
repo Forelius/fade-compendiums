@@ -4,5 +4,7 @@
  * @return {Promise}
  */
 export const preloadHandlebarsTemplates = async function () {
-   return loadTemplates({});
+   // TODO: Remove after v12 support.
+   const fn = foundry?.applications?.handlebars?.loadTemplates ? foundry.applications.handlebars.loadTemplates : loadTemplates;
+   await fn({});
 };
