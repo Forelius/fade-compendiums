@@ -47,6 +47,16 @@ jobs:
         run: |
           zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*'
 
+      - name: Prepare release notes
+        if: env.is_valid == 'true'
+        id: prepare_notes
+        run: |
+          echo "## Fantastic Depths Compendiums STABLE" > release_notes.txt
+          echo "" >> release_notes.txt
+          echo "This is a STABLE version of Fantastic Depths Compendiums." >> release_notes.txt
+          echo "To install manually, use this URL:" >> release_notes.txt
+          echo "https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/stable/module.json" >> release_notes.txt
+
       - name: Create GitHub pre-release
         if: env.is_valid == 'true'
         uses: ncipollo/release-action@v1
@@ -55,5 +65,6 @@ jobs:
           name: "Release ${{ env.VERSION }} (STABLE)"
           prerelease: false
           artifacts: fade-compendiums.zip
+          bodyfile: release_notes.txt
           token: ${{ secrets.GITHUB_TOKEN }}
 
