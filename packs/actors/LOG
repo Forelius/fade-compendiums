@@ -1,15 +1,19 @@
-2025/08/22-12:27:28.776 66e4 Recovering log #3579
-2025/08/22-12:27:28.781 66e4 Level-0 table #3582: started
-2025/08/22-12:27:28.800 66e4 Level-0 table #3582: 2146003 bytes OK
-2025/08/22-12:27:28.805 66e4 Delete type=0 #3579
-2025/08/22-12:27:28.805 66e4 Delete type=3 #3577
-2025/08/22-12:27:29.002 5910 Compacting 1@0 + 3@1 files
-2025/08/22-12:27:29.030 5910 Generated table #3584@0: 1025 keys, 2121800 bytes
-2025/08/22-12:27:29.059 5910 Generated table #3585@0: 2998 keys, 2131814 bytes
-2025/08/22-12:27:29.075 5910 Generated table #3586@0: 1551 keys, 1115530 bytes
-2025/08/22-12:27:29.075 5910 Compacted 1@0 + 3@1 files => 5369144 bytes
-2025/08/22-12:27:29.076 5910 compacted to: files[ 0 3 0 0 0 0 0 ]
-2025/08/22-12:27:29.076 5910 Delete type=2 #3575
-2025/08/22-12:27:29.076 5910 Delete type=2 #3576
-2025/08/22-12:27:29.077 5910 Delete type=2 #3580
-2025/08/22-12:27:29.077 5910 Delete type=2 #3582
+2025/08/24-09:24:04.829 2500 Recovering log #3583
+2025/08/24-09:24:04.832 2500 Level-0 table #3588: started
+2025/08/24-09:24:04.837 2500 Level-0 table #3588: 700795 bytes OK
+2025/08/24-09:24:04.841 2500 Delete type=0 #3583
+2025/08/24-09:24:04.841 2500 Delete type=3 #3581
+2025/08/24-09:24:05.033 38c0 Compacting 1@0 + 3@1 files
+2025/08/24-09:24:05.061 38c0 Generated table #3590@0: 1025 keys, 2123597 bytes
+2025/08/24-09:24:05.091 38c0 Generated table #3591@0: 2992 keys, 2133074 bytes
+2025/08/24-09:24:05.106 38c0 Generated table #3592@0: 1557 keys, 1123054 bytes
+2025/08/24-09:24:05.106 38c0 Compacted 1@0 + 3@1 files => 5379725 bytes
+2025/08/24-09:24:05.107 38c0 compacted to: files[ 0 3 0 0 0 0 0 ]
+2025/08/24-09:24:05.107 38c0 Delete type=2 #3584
+2025/08/24-09:24:05.107 38c0 Delete type=2 #3585
+2025/08/24-09:24:05.109 38c0 Delete type=2 #3586
+2025/08/24-09:24:05.109 38c0 Delete type=2 #3588
+2025/08/24-10:48:29.345 38c0 Level-0 table #3594: started
+2025/08/24-10:48:29.345 38c0 Level-0 table #3594: 0 bytes OK
+2025/08/24-10:48:29.346 38c0 Delete type=0 #3589
+2025/08/24-10:48:29.352 38c0 Manual compaction at level-0 from '!actors!05bBlAyUEaYfxZQ8' @ 72057594037927935 : 1 .. '!folders!xyIrb6GYNyFjZwEN' @ 0 : 0; will stop at (end)
