@@ -23087,36 +23087,6 @@
           "documentCollection": "fade-compendiums.actor-compendium",
           "weight": 1,
           "range": [
-            5,
-            5
-          ],
-          "drawn": false,
-          "text": "Phantasmal Panther",
-          "documentId": "eA4eRFSfiBxY19ll",
-          "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-          "_id": "NJLeFJrKac8hIAGv",
-          "flags": {}
-        },
-        {
-          "type": "text",
-          "documentCollection": "fade-compendiums.actor-compendium",
-          "weight": 1,
-          "range": [
-            5,
-            5
-          ],
-          "drawn": false,
-          "_id": "hrGP2djJ8W7ZOghr",
-          "text": "1 Phantasmal Panther",
-          "img": "icons/svg/d20-black.svg",
-          "documentId": null,
-          "flags": {}
-        },
-        {
-          "type": "pack",
-          "documentCollection": "fade-compendiums.actor-compendium",
-          "weight": 1,
-          "range": [
             6,
             6
           ],
@@ -23197,7 +23167,7 @@
           ],
           "drawn": false,
           "_id": "vu8l2itOAlxs0WTl",
-          "text": "[[1d4+1] Harpy",
+          "text": "[[1d4+1]] Harpy",
           "img": "icons/svg/d20-black.svg",
           "documentId": null,
           "flags": {}
@@ -23256,7 +23226,7 @@
             11
           ],
           "drawn": false,
-          "text": "Lycanthrope, Werewolf",
+          "text": "Lycanthrope, Werewolf*",
           "documentId": "tMx78dywgwuL5NJW",
           "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
           "_id": "olW4GyNDljW6ynll",
@@ -23546,6 +23516,36 @@
           "img": "icons/svg/d20-black.svg",
           "documentId": null,
           "flags": {}
+        },
+        {
+          "type": "pack",
+          "documentCollection": "fade-compendiums.actor-compendium",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "text": "Displacer Beast",
+          "documentId": "eA4eRFSfiBxY19ll",
+          "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+          "_id": "uGFThZ0WQRPtpBfH",
+          "flags": {}
+        },
+        {
+          "type": "text",
+          "documentCollection": "fade-compendiums.actor-compendium",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "_id": "6kV0j7R38vAsjPY0",
+          "text": "1 Displacer Beast",
+          "img": "icons/svg/d20-black.svg",
+          "documentId": null,
+          "flags": {}
         }
       ],
       "replacement": true,
@@ -23556,7 +23556,7 @@
         "systemId": "fantastic-depths",
         "systemVersion": "0.12.0-rc.1",
         "createdTime": 1753184514652,
-        "modifiedTime": 1753190606174,
+        "modifiedTime": 1761310156220,
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "formula": "1d20",
