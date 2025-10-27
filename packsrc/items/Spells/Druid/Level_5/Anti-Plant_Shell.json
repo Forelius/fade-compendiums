@@ -1,0 +1,54 @@
+{
+  "name": "Anti-Plant Shell",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "GY1VRctDzQD5WVvu",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away) that blocks all plant attacks and prevents damage from plant-like monsters.</p>\n                      <p><strong>Effect on Movement:</strong> While protected, the druid can push through dense growth, creating a path that others may follow. The barrier prevents the druid from physically attacking plants, though spells may still be cast against them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "0 (druid only)",
+    "duration": "1 round per level of the druid",
+    "effect": "Personal barrier which blocks plants",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.giWnzPcR2emBTBnk",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822339611,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "giWnzPcR2emBTBnk",
+  "sort": 0,
+  "_originalKey": "!items!giWnzPcR2emBTBnk"
+}

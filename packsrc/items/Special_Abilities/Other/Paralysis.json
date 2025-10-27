@@ -1,0 +1,58 @@
+{
+  "name": "Paralysis",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Any creature hit by an attack must make a saving throw against paralysis or become paralyzed for a duration determined by rolling [[/r 2d4 #Paralyzed for this many turns.]] turns. This paralysis can be cured through magical means or will eventually wear off on its own.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "paralysis",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "uuid": "",
+        "name": "Paralyzed",
+        "durationFormula": "2d4*60"
+      }
+    ]
+  },
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "effects": [],
+  "folder": "164Li2oYfnb0Z7S7",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.7",
+    "createdTime": 1757514950872,
+    "modifiedTime": 1761495672973,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "zHEFmDM2pEjHtbMK",
+  "sort": 900000,
+  "_originalKey": "!items!zHEFmDM2pEjHtbMK"
+}

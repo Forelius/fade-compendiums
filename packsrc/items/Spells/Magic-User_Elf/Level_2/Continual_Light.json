@@ -1,0 +1,65 @@
+{
+  "name": "Continual Light*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a globe of light 60' across. It is much brighter than a torch but not as bright as full daylight. It will continue to glow forever, or until it is magically removed. It may be cast on an object, just as the first level <em>light</em> spell. If cast at a creature's eyes, the victim must make a saving throw vs. spells. If the saving throw is failed, the victim is blinded permanently, or until the spell is dispelled. If the saving throw is successful, the globe will remain in the place it was cast, and the intended victim will suffer no ill effects.</p><p>The reverse of this spell, <em>continual darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "Volume of 60' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "6k6WDJ5VohAD5D8G",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.6k6WDJ5VohAD5D8G",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749834757812,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!6k6WDJ5VohAD5D8G"
+}

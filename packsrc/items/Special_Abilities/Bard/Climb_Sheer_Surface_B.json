@@ -1,0 +1,58 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Climb Sheer Surface (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "rRFP5Ol7NedFgEUd",
+  "system": {
+    "tags": [],
+    "description": "<p>A Bard can climb walls, cliffs, and other vertical surfaces with the same chance as a Thief of the same level. The Bard must have <strong>both hands free</strong> and cannot climb while holding a weapon or instrument. Climbing takes <strong>one round per 10 feet</strong> and failure means slipping at the halfway point, with a chance to catch themselves if the DM allows.</p><h4>Armor Penalties:</h4><ul><li><strong>Scale Mail:</strong> –15%</li><li><strong>Chain Mail:</strong> –20% (–10% if Elven Chain)</li><li><strong>Shield Worn:</strong> Additional –5% (if slung on the back)</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "87",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.7.21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.rRFP5Ol7NedFgEUd",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!rRFP5Ol7NedFgEUd"
+}

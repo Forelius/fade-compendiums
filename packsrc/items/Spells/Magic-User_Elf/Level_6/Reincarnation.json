@@ -1,0 +1,58 @@
+{
+  "name": "Reincarnation",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to return a deceased character to life by magically creating a new body for their life force to inhabit. The spell requires at least a small part of the dead character's body to work.</p><h4>Effects:</h4><ul><li>The new body may not be the same race as the original. The DM may choose or roll on the provided tables.</li><li>If reincarnated as a different race, the character loses all racial abilities of the former body and gains those of the new form.</li><li>If reincarnated as a monster, the monster must be semi-intelligent (at least) and must be able to have the character's original alignment.</li><li>Class Restrictions: If a non-human character is reincarnated as a human, the DM may allow them to choose a new class. If an elf, dwarf, or halfling is reincarnated into another race, they follow the racial limitations.</li></ul><h4>Reincarnation Results:</h4><table style=\"width:97%\"><thead><tr><th>1d8 Roll</th><th>New Body Type</th></tr></thead><tbody><tr><td>1</td><td>Human</td></tr><tr><td>2</td><td>Human</td></tr><tr><td>3</td><td>Human</td></tr><tr><td>4</td><td>Dwarf</td></tr><tr><td>5</td><td>Elf</td></tr><tr><td>6</td><td>Halfling</td></tr><tr><td>7</td><td>Original Race</td></tr><tr><td>8</td><td>Monster (see below)</td></tr></tbody></table><h4>Monster Reincarnation:</h4><table style=\"width:97%\"><thead><tr><th>1d6 Roll</th><th>Lawful</th><th>Neutral</th><th>Chaotic</th></tr></thead><tbody><tr><td>1</td><td>Blink Dog</td><td>White Ape</td><td>Bugbear</td></tr><tr><td>2</td><td>Gnome</td><td>Bear*</td><td>Gnoll</td></tr><tr><td>3</td><td>Neanderthal</td><td>Centaur</td><td>Kobold</td></tr><tr><td>4</td><td>Giant Owl</td><td>Griffon</td><td>Manticore</td></tr><tr><td>5</td><td>Pegasus</td><td>Lizard Man</td><td>Orc</td></tr><tr><td>6</td><td>Treant</td><td>Pixie</td><td>Troglodyte</td></tr></tbody></table><p><em>* Any normal bear</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "10'",
+    "duration": "Permanent",
+    "effect": "Creates a new body",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "OfRJsnY9nXl8HEbP",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.OfRJsnY9nXl8HEbP",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903374247,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!OfRJsnY9nXl8HEbP"
+}

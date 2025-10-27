@@ -1,0 +1,63 @@
+{
+  "name": "Invisibility (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>This magical effect renders a single creature or object invisible. When a creature becomes invisible, all carried and worn items also become invisible. Invisible items return to visibility when dropped or separated from the creature. A light source can be made invisible, but its light remains visible. If an unattended object is made invisible, it becomes visible again upon contact with any living creature. An invisible creature remains invisible until they attack or cast a spell.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "240'",
+    "duration": "7-12 turns",
+    "effect": "One creature or object",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758901112822,
+    "modifiedTime": 1759149073084,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "zSP6JKLtnQuPehus",
+  "sort": 700000,
+  "_originalKey": "!items!zSP6JKLtnQuPehus"
+}

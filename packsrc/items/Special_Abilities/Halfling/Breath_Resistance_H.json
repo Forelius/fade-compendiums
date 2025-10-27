@@ -1,0 +1,51 @@
+{
+  "folder": "GS7EOEGEZk6UwIUu",
+  "name": "Breath Resistance (H)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "xKQzsDmIxITf5owp",
+  "system": {
+    "tags": [],
+    "description": "<p>Upon reaching 2,100,000 XP, a Halfling gains resistance to breath weapons, including dragon breath and other breath-based attacks. They automatically take half damage from such effects, and if a saving throw is allowed, a successful save further reduces the damage to one-quarter.</p><p data-start=\"878\" data-end=\"1021\" data-is-last-node=\"\">As with magic resistance, fractions are rounded down, and any final damage of ½ a point or less results in 1 point of damage taken.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.xKQzsDmIxITf5owp",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1744200621265,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 300000,
+  "_originalKey": "!items!xKQzsDmIxITf5owp"
+}

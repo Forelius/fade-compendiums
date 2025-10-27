@@ -1,0 +1,677 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 3",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "edWBvEXAmcjIm5kL",
+    "vEquioIzudb1aFgN",
+    "IH4LgG2xj9aLHIJj",
+    "FHSHV1jBlXCNIlxt",
+    "dhynYE7WoqaGMHHv",
+    "otPdkIw9O3I5IV41",
+    "M8pxovumFPQrIQMD",
+    "p1FwBvRScXLWNI16",
+    "1tRkgMrodCnRySEn",
+    "mb868boKXrb68hvL",
+    "xfZwDRhpaDBeUtlt",
+    "nHmQQz13gm6kDAQo",
+    "pomD5FGbGeR0icJe",
+    "tMBdFhSEDPihknbP",
+    "8cSJWgjOQHCRqo7z",
+    "nbJzh1y7ToOdtXg2",
+    "KvLJK5S1PK8j4VAi",
+    "fEZtzq0ovB78sCiH",
+    "wNjcrVnNKlbShxnS",
+    "jnMveeNyNm4RywXk",
+    "p4qB1woxBWqqeLe2",
+    "3tFAHZygzzqCA68Z",
+    "CgagDfVqSHS9eftY",
+    "9ru4cXrIib8VnO4N",
+    "qfsFvtKgg9j4BZ1G",
+    "63h8vPFRSNFs4T6x",
+    "W7c8ecaaBLrQIlb0",
+    "ueE3YISzNg41q6rV",
+    "nIbXC0pnJ6BaqIVW",
+    "829JzI4dzRsW0yZo",
+    "tZjv1IIN5Hoz18Yp",
+    "8WxtuknvfKOZ4KQW",
+    "eDuulJ7hJAeYoAWX",
+    "6gODMUuzigptShfJ",
+    "GMKA83ISYiYlgkCc",
+    "Bw1OXwPTKz5zFzbX",
+    "518k4fUxEjUb4Sfr",
+    "Px9iNnaGP0q5mr3R"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.13",
+    "createdTime": 1750806078417,
+    "modifiedTime": 1753190599402,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d20",
+  "_id": "8mc94fTer85XHxW0",
+  "sort": 200000,
+  "_originalKey": "!tables!8mc94fTer85XHxW0",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.1tRkgMrodCnRySEn",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Gargoyle*",
+      "documentId": "rkGvs3K7rorFT3Gb",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "1tRkgMrodCnRySEn",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.3tFAHZygzzqCA68Z",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "3tFAHZygzzqCA68Z",
+      "text": "1 Medusa",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.518k4fUxEjUb4Sfr",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Doppleganger",
+      "documentId": "StmKdEWX0dDnGDbj",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "518k4fUxEjUb4Sfr",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.63h8vPFRSNFs4T6x",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "63h8vPFRSNFs4T6x",
+      "text": "1 Ochre Jelly",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.6gODMUuzigptShfJ",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "6gODMUuzigptShfJ",
+      "text": "[[1d4]] Thoul",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.829JzI4dzRsW0yZo",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "829JzI4dzRsW0yZo",
+      "text": "[[1d4]] Shadow",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.8WxtuknvfKOZ4KQW",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "8WxtuknvfKOZ4KQW",
+      "text": "1 Spider, Giant (Tarantella)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.8cSJWgjOQHCRqo7z",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "text": "Normal Human",
+      "documentId": "kDl71qaMaLB7XFhb",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "8cSJWgjOQHCRqo7z",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.9ru4cXrIib8VnO4N",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "9ru4cXrIib8VnO4N",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.Bw1OXwPTKz5zFzbX",
+      "type": "text",
+      "documentCollection": "Actor",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "Bw1OXwPTKz5zFzbX",
+      "text": "[[1d3]] Wight*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.CgagDfVqSHS9eftY",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "CgagDfVqSHS9eftY",
+      "text": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.FHSHV1jBlXCNIlxt",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "FHSHV1jBlXCNIlxt",
+      "text": "[[1d4]] Giant Tiger Beetle",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.GMKA83ISYiYlgkCc",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "text": "Wight*",
+      "documentId": "ZfcAxCNjJXUQ7I5M",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "GMKA83ISYiYlgkCc",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.IH4LgG2xj9aLHIJj",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Beetle, Giant Tiger",
+      "documentId": "AL9hNMkeO2mhlUGU",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "IH4LgG2xj9aLHIJj",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.KvLJK5S1PK8j4VAi",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "Living Statue, Crystal",
+      "documentId": "NeHQm48hdxpZdWh1",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "KvLJK5S1PK8j4VAi",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.M8pxovumFPQrIQMD",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Carrion Crawler",
+      "documentId": "93HCqREXiA2BbHR1",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "M8pxovumFPQrIQMD",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.Px9iNnaGP0q5mr3R",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Px9iNnaGP0q5mr3R",
+      "text": "[[1d2]] Doppleganger",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.W7c8ecaaBLrQIlb0",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "text": "Ogre",
+      "documentId": "R811fYr1SDwwKNGd",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "W7c8ecaaBLrQIlb0",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.dhynYE7WoqaGMHHv",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Bugbear",
+      "documentId": "5px1PtF3VqfpotTy",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "dhynYE7WoqaGMHHv",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.eDuulJ7hJAeYoAWX",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "text": "Thoul",
+      "documentId": "UtG2e4IznhIDIw09",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "eDuulJ7hJAeYoAWX",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.edWBvEXAmcjIm5kL",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Ape, White",
+      "documentId": "mqQUEpLtIFtwsKuW",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "edWBvEXAmcjIm5kL",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.fEZtzq0ovB78sCiH",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "fEZtzq0ovB78sCiH",
+      "text": "[[1d4]] Living Statue, Crystal",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.jnMveeNyNm4RywXk",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "jnMveeNyNm4RywXk",
+      "text": "[[1d6]] Lycanthrope, Wererat",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.mb868boKXrb68hvL",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "mb868boKXrb68hvL",
+      "text": "[[1d3]] Gargoyle",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.nHmQQz13gm6kDAQo",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "nHmQQz13gm6kDAQo",
+      "text": "1 Gelatinous Cube",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.nIbXC0pnJ6BaqIVW",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "text": "Shadow",
+      "documentId": "vrLI7AenWNUxigst",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "nIbXC0pnJ6BaqIVW",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.nbJzh1y7ToOdtXg2",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "nbJzh1y7ToOdtXg2",
+      "text": "[[1d3]] Human",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.otPdkIw9O3I5IV41",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "otPdkIw9O3I5IV41",
+      "text": "[[1d6]] Bugbear",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.p1FwBvRScXLWNI16",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "p1FwBvRScXLWNI16",
+      "text": "[[1d3]] Carrion Crawler",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.p4qB1woxBWqqeLe2",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "text": "Medusa",
+      "documentId": "CbLFxjJOLryKlL0R",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "p4qB1woxBWqqeLe2",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.pomD5FGbGeR0icJe",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "Harpy",
+      "documentId": "d4XNKn2BtRF9i2b4",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "pomD5FGbGeR0icJe",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.qfsFvtKgg9j4BZ1G",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "text": "Ochre Jelly*",
+      "documentId": "Q8aL94FCQODJRQ9B",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "qfsFvtKgg9j4BZ1G",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.tMBdFhSEDPihknbP",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "tMBdFhSEDPihknbP",
+      "text": "[[1d3]] Harpy",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.tZjv1IIN5Hoz18Yp",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "text": "Spider, Giant (Tarantella)",
+      "documentId": "iJ7j1FXCvNGwiKYh",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "tZjv1IIN5Hoz18Yp",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.ueE3YISzNg41q6rV",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "ueE3YISzNg41q6rV",
+      "text": "[[1d3]] Ogre",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.vEquioIzudb1aFgN",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "vEquioIzudb1aFgN",
+      "text": "[[1d4]] Ape, White",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.wNjcrVnNKlbShxnS",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Wererat",
+      "documentId": "9YkdFwvOyR1jMv0d",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "wNjcrVnNKlbShxnS",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!8mc94fTer85XHxW0.xfZwDRhpaDBeUtlt",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "Gelatinous Cube",
+      "documentId": "SWp5CtREyIQOwrPt",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "xfZwDRhpaDBeUtlt",
+      "flags": {}
+    }
+  ]
+}

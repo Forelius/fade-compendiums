@@ -1,0 +1,43 @@
+{
+  "name": "Bravery",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill allows the character to resist the effects of magical fear, as well as the results of morale checks or skills like Intimidation. NPCs using this skill can ignore fear effects with a successful skill check.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "KUDcPgg9JIsngP7x",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.KUDcPgg9JIsngP7x",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565882587,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!KUDcPgg9JIsngP7x"
+}

@@ -1,0 +1,54 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Detect Evil (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>When the spell is cast, the caster will see evilly enchanted objects within 120' glow dark red. It also causes creates that intent to harm the caster to glow when they are within the area of effect. Not all Chaotic alignment creatures will have evil intentions, but many do. Traps and poisons are neither good nor evil, merely dangerous; this spell does not reveal them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "6 turns (1 hour)",
+    "effect": "Everything within 120'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.evcGalskzeP10Rk5",
+    "duplicateSource": "Item.JzeyzIRCcFnKk07P",
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749818062167,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "evcGalskzeP10Rk5",
+  "sort": 0,
+  "_originalKey": "!items!evcGalskzeP10Rk5"
+}

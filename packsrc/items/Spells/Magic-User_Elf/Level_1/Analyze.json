@@ -1,0 +1,65 @@
+{
+  "name": "Analyze",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to handle one item and learn about its enchantment. The caster must use the item correctly: helms must be worn, swords held, bracelets worn on the wrist, etc. Any consequences, such as from cursed or trapped items, will affect the caster as usual, with saving throws if applicable.</p>\n                <p>The caster has a 15% chance plus 5% per level to determine one magical property, or to confirm that the item is non-magical. The spell provides general information, such as whether a weapon’s bonus is “many” or “few,” and estimates the number of charges within 25% accuracy.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0 (Touch only)",
+    "duration": "1 round",
+    "effect": "Analyzes magic on one item",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "Pa7U3AXE759MBl3L",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.Pa7U3AXE759MBl3L",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753447706185,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 500000,
+  "_originalKey": "!items!Pa7U3AXE759MBl3L"
+}

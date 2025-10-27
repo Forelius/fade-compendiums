@@ -1,0 +1,56 @@
+{
+  "name": "The Hero's Chant",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "k9fcbR0oQznbrWf7",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This spell-song functions similarly to a <em>bless</em> spell, providing combat and morale benefits to the bard and nearby allies. However, the bard must continue singing for the effect to remain active.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures gain a +1 bonus to attack rolls and +1 to damage rolls.</li><li>They also gain a +1 bonus to all saving throws.</li><li>Morale is improved, granting a +1 bonus to morale checks.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may sing for a number of rounds equal to his or her Constitution score.</li><li>If the bard exceeds this limit, he or she will fall unconscious for 1d4 turns [[/r 1d4 #Unconscious Turns]].</li><li>If the bard stops singing before reaching the limit, there are no ill effects.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 10' + 2' per bard level.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0 (bard + recipients only)",
+    "duration": "Special (up to Constitution rounds)",
+    "effect": "Grants combat and morale bonuses",
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@actor.system.abilities.con.value",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "_id": "u4oAZCLlZb13ZidQ",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.u4oAZCLlZb13ZidQ",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727269553,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!u4oAZCLlZb13ZidQ"
+}

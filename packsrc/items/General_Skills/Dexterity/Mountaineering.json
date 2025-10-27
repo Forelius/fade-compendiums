@@ -1,0 +1,43 @@
+{
+  "name": "Mountaineering",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill covers the techniques and physical ability required for climbing steep and hazardous terrains, such as mountains and cliffs. Characters with Mountaineering can navigate difficult slopes, secure safe paths, and assist others in ascent or descent. The skill can also be used to avoid dangers like rockslides or falling.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "r3KuejALttcqwWiw",
+  "effects": [],
+  "folder": "IkRJGH236ypzekkN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.r3KuejALttcqwWiw",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565576783,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!r3KuejALttcqwWiw"
+}

@@ -1,0 +1,351 @@
+{
+  "name": "Missile Talents",
+  "formula": "1d100",
+  "results": [
+    "TlqamJOl6Q8HxZmy",
+    "YsOKqhGqWVccclGz",
+    "R2WA2pV3qp9PhzWo",
+    "8wQHP03VAbOeGVaj",
+    "Ew6YUIoTCi3lZX5d",
+    "usJrFc1Wbwu1V4WI",
+    "ml27Po8JGW0Dh2M0",
+    "ImihAUfUwMpYp8Ed",
+    "nQSkzwrXfRLzJ6ht",
+    "PoiZiURH47ywyzka",
+    "BBaf7J7hDp024wvZ",
+    "DXfstxkG5kfd4JPv",
+    "qvTXaqjhjSkX3INt",
+    "usVluuLmaSdDr81S",
+    "yJnlZvrOnOYkvrJ8",
+    "1AuALtN1d3FLdGBM",
+    "C2gX58KMSw4bvRq7",
+    "d0mXpJ45izN0N2wp",
+    "FijTvU5rtG021fRu",
+    "2CI5KfalyCAcxi1e"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the specific talent of a magical missile, such as Biting, Stunning, or Wounding.</p>",
+  "folder": "KdAs2wEF7A5AGw7s",
+  "_id": "soz3NhuvLcvgVC72",
+  "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.soz3NhuvLcvgVC72",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!soz3NhuvLcvgVC72",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.1AuALtN1d3FLdGBM",
+      "text": "Talent: Speaking",
+      "range": [
+        79,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "1AuALtN1d3FLdGBM",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.2CI5KfalyCAcxi1e",
+      "text": "Talent: Wounding",
+      "range": [
+        97,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "2CI5KfalyCAcxi1e",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.8wQHP03VAbOeGVaj",
+      "text": "Talent: Climbing",
+      "range": [
+        15,
+        21
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "8wQHP03VAbOeGVaj",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.BBaf7J7hDp024wvZ",
+      "text": "Talent: Refilling",
+      "range": [
+        58,
+        61
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "BBaf7J7hDp024wvZ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.C2gX58KMSw4bvRq7",
+      "text": "Talent: Stunning",
+      "range": [
+        86,
+        89
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "C2gX58KMSw4bvRq7",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.DXfstxkG5kfd4JPv",
+      "text": "Talent: Screaming",
+      "range": [
+        62,
+        67
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "DXfstxkG5kfd4JPv",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.Ew6YUIoTCi3lZX5d",
+      "text": "Talent: Curing",
+      "range": [
+        22,
+        31
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "Ew6YUIoTCi3lZX5d",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.FijTvU5rtG021fRu",
+      "text": "Talent: Transporting",
+      "range": [
+        92,
+        96
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "FijTvU5rtG021fRu",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.ImihAUfUwMpYp8Ed",
+      "text": "Talent: Flying",
+      "range": [
+        39,
+        45
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "ImihAUfUwMpYp8Ed",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.PoiZiURH47ywyzka",
+      "text": "Talent: Penetrating",
+      "range": [
+        53,
+        57
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "PoiZiURH47ywyzka",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.R2WA2pV3qp9PhzWo",
+      "text": "Talent: Charming",
+      "range": [
+        10,
+        14
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "R2WA2pV3qp9PhzWo",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.TlqamJOl6Q8HxZmy",
+      "text": "Talent: Biting",
+      "range": [
+        1,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "TlqamJOl6Q8HxZmy",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.YsOKqhGqWVccclGz",
+      "text": "Talent: Blinking",
+      "range": [
+        5,
+        9
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "YsOKqhGqWVccclGz",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.d0mXpJ45izN0N2wp",
+      "text": "Talent: Teleporting",
+      "range": [
+        90,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "d0mXpJ45izN0N2wp",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.ml27Po8JGW0Dh2M0",
+      "text": "Talent: Dispelling",
+      "range": [
+        35,
+        38
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "ml27Po8JGW0Dh2M0",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.nQSkzwrXfRLzJ6ht",
+      "text": "Talent: Lighting",
+      "range": [
+        46,
+        52
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "nQSkzwrXfRLzJ6ht",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.qvTXaqjhjSkX3INt",
+      "text": "Talent: Seeking",
+      "range": [
+        68,
+        72
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "qvTXaqjhjSkX3INt",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.usJrFc1Wbwu1V4WI",
+      "text": "Talent: Disarming",
+      "range": [
+        32,
+        34
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "usJrFc1Wbwu1V4WI",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.usVluuLmaSdDr81S",
+      "text": "Talent: Sinking",
+      "range": [
+        73,
+        76
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "usVluuLmaSdDr81S",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!soz3NhuvLcvgVC72.yJnlZvrOnOYkvrJ8",
+      "text": "Talent: Slaying",
+      "range": [
+        77,
+        78
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "yJnlZvrOnOYkvrJ8",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

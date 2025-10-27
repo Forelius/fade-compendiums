@@ -1,0 +1,66 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Polymorph Self",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This effect allows the user to change shape, taking the physical form of another living creature. The Hit Dice of the new form must be equal to or less than the Hit Dice of the user, or the effect will fail.</p><p>The user's armor class, hit points, attack rolls, and saving throws do not change, and they do not gain special abilities (such as a ghoul's paralysis) or special immunities of the new form; however, they do gain the natural physical abilities of the new form. For example, a user changed into a frost giant has the strength of a frost giant and the ability to hurl boulders, but not immunity to cold. A user changed into a dragon could fly but would not be able to use any breath weapons or spells.</p><p>The user cannot cast spells while in the different form. The effect lasts for the listed duration, or until dispelled, or until the user is killed. This effect will not enable the user to take the form of a specific individual.</p><p>It lasts for 12 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.I40bMA5dkrQ7q3Oq",
+        "action": "consume",
+        "castAs": "",
+        "name": "Polymorph Self (Potion)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.7",
+    "createdTime": 1759582975417,
+    "modifiedTime": 1760903435103,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "4cLqy4AlTdIzAKNG",
+  "sort": 1000000,
+  "_originalKey": "!items!4cLqy4AlTdIzAKNG"
+}

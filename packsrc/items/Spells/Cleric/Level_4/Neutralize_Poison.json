@@ -1,0 +1,58 @@
+{
+  "name": "Neutralize Poison*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell renders any poison harmless in a creature, container, or on an object. It can revive a creature poisoned within the last 10 rounds but does not heal any other damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Makes poison harmless",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.0iucZAQXi3gN0V09",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821340411,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "0iucZAQXi3gN0V09",
+  "sort": 0,
+  "_originalKey": "!items!0iucZAQXi3gN0V09"
+}

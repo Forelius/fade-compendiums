@@ -1,0 +1,67 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Free Person* (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p><em>Free person</em>, lifts the paralysis from up to four victims affected by the normal form of the spell (including *hold person* cast by a magic-user or an elf). It has no effect on other forms of paralysis, such as that caused by a ghoul.</p><p>This spell paralyzes up to four creatures, affecting any human, demihuman, or human-like beings such as bugbears, dryads, gnolls, hobgoblins, kobolds, lizard men, ogres, orcs, nixies, pixies, or sprites. It does not affect undead or creatures larger than ogres. Each target must make a saving throw vs. spells or be paralyzed for nine turns. If the spell is cast at a single target, that creature receives a -2 penalty to their saving throw. If cast at a group, up to four creatures of the spellcaster's choice can be affected, but without any penalty to their saving throws. The paralysis can only be removed by the reversed form of this spell or a dispel magic spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "180'",
+    "duration": "9 turns",
+    "effect": "Paralyzes up to 4 creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "540",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.137JttQ1FqES2qQv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749819058618,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "137JttQ1FqES2qQv",
+  "sort": 100000,
+  "_originalKey": "!items!137JttQ1FqES2qQv"
+}

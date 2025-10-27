@@ -1,0 +1,63 @@
+{
+  "folder": "6UrIsG9bN6Yyc41C",
+  "name": "The Eternal Wanderer",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "36EKs9PVxea1gCBe",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>By singing this enchanted melody, the bard grants themselves and nearby allies the ability to travel with supernatural endurance and speed.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures have their movement rates tripled for the duration.</li><li>While moving under this effect, recipients do not tire and suffer no fatigue.</li><li>Travelers may cover great distances in a short time, with no physical strain.</li></ul><p><strong>Rest Requirement:</strong></p><p>After the spell ends, all affected creatures must rest for a duration equal to the time spent traveling under its effects.</p><p><strong>Range & Area of Effect:</strong></p><p>The spell affects the bard and all allies within 10 feet, plus an additional 2 feet per level of the bard.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0 (bard + recipients only)",
+    "duration": "4 hours +1 hour per level",
+    "effect": "Triples movement speed and prevents fatigue",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1440 + (@actor.details.level * 360)",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.7.21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.36EKs9PVxea1gCBe",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727071117,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!36EKs9PVxea1gCBe"
+}

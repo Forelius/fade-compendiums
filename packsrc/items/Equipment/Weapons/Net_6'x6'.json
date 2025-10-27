@@ -1,0 +1,84 @@
+{
+  "name": "Net (6'x6')",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/net.webp",
+  "system": {
+    "tags": [
+      "thrown",
+      "magic-user"
+    ],
+    "description": "<p>A net is an open weave of rope or cord that serves as a versatile tool and weapon. Small nets, measuring up to 10' x 10', are commonly used in hunting and adventuring. They can function as either hand-to-hand or thrown weapons. The encumbrance of a net depends on its size. Widely available in most campaign settings, nets are inexpensive but easily damaged. They are one of humanity’s earliest tools, used since prehistoric times, and are popular among humanoid monsters for hunting and defense.</p><p>Nets are only effective against creatures with a solid form. They do not work on wraiths, spectres, ethereal beings, or creatures made of water, like water elementals. While nets cause no physical damage, they can entangle, slow, or delay a target. To ensnare a target, the wielder must succeed on a normal attack roll. If successful, the target must then make a saving throw vs. death ray, potentially with bonuses from the Weapon Special Effects Table. A successful save negates the effect, and the net falls away harmlessly. Failure results in one of several effects depending on the target's size or experience.</p><p>An entangled victim may attempt a saving throw each round during the hand-to-hand combat phase to free themselves. Success indicates the net has been removed. If the target has a dagger (but not a longer or non-bladed weapon) in hand when ensnared, they gain a +4 bonus to their saving throw. If successful, the dagger cuts through and destroys the net.</p><h3>Net and Target Size:</h3><p>Nets are sized to correspond with the dimensions of their intended targets. Targets larger than the net gain bonuses to their saving throw based on the difference in size. For each size category larger, the target receives a +4 bonus to the save. A natural roll of 1 is always a failure unless the total bonus is +20 or more. The Nets Table provides the appropriate net size for various victim sizes.</p><h4>Nets Table:</h4><table><thead><tr><th>Victim's Size</th><th>Approximate Height</th><th>Net Size</th></tr></thead><tbody><tr><td>Very small</td><td>Up to 1'</td><td>2' x 2'</td></tr><tr><td>Small</td><td>1+ to 3'</td><td>4' x 4'</td></tr><tr><td>Medium</td><td>3+ to 6'</td><td>6' x 6'</td></tr><tr><td>Large</td><td>6+ to 10'</td><td>9' x 9'</td></tr><tr><td>Very large</td><td>10+ to 15'</td><td>12' x 12'</td></tr><tr><td>Huge</td><td>15+ to 20'</td><td>16' x 16'</td></tr><tr><td>Mammoth</td><td>20+ to 30'</td><td>25' x 25'</td></tr></tbody></table><p>Nets measuring 6' x 6' or smaller can be wielded with one hand. Larger nets require two hands and are subject to penalties associated with two-handed weapons. The wielder cannot use a shield, always loses individual initiative against those not using two-handed weapons, and halflings or small humanoids (like goblins) cannot use nets larger than 6' x 6'.</p><h3>Magical Nets:</h3><p>Magical nets are rare and impervious to all but fire or acid. Daggers and other weapons cannot cut through them, and an ensnared victim can only remove the net, not destroy it.</p><h3>Effects of Ensnarement:</h3><p>When ensnared, a victim suffers one of the following effects, as determined by the Weapon Special Effects Table:</p><ul><li><strong>Entangle</strong>: The victim cannot move, attack, or cast spells until a successful saving throw.</li><li><strong>Slow</strong>: The victim’s movement and attacks are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><h3>Durability and Repair:</h3><p>A net is easily damaged by edged weapons, claws, or bites. If damaged, it becomes useless unless repaired. Repairing a net requires 1d3 turns of uninterrupted work with rope or cord.</p><p>A well-maintained net remains a practical and effective tool for adventurers, offering non-lethal means of control and strategy in combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 36,
+    "cost": 3.6,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "damageRoll": "0",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "death",
+    "saveDmgFormula": "",
+    "mastery": "Net",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A net is an open weave of rope or cord that serves as a versatile tool and weapon. Small nets, measuring up to 10' x 10', are commonly used in hunting and adventuring. They can function as either hand-to-hand or thrown weapons. The encumbrance of a net depends on its size. Widely available in most campaign settings, nets are inexpensive but easily damaged. They are one of humanity’s earliest tools, used since prehistoric times, and are popular among humanoid monsters for hunting and defense.</p><p>Nets are only effective against creatures with a solid form. They do not work on wraiths, spectres, ethereal beings, or creatures made of water, like water elementals. While nets cause no physical damage, they can entangle, slow, or delay a target. To ensnare a target, the wielder must succeed on a normal attack roll. If successful, the target must then make a saving throw vs. death ray, potentially with bonuses from the Weapon Special Effects Table. A successful save negates the effect, and the net falls away harmlessly. Failure results in one of several effects depending on the target's size or experience.</p><p>An entangled victim may attempt a saving throw each round during the hand-to-hand combat phase to free themselves. Success indicates the net has been removed. If the target has a dagger (but not a longer or non-bladed weapon) in hand when ensnared, they gain a +4 bonus to their saving throw. If successful, the dagger cuts through and destroys the net.</p><h3>Net and Target Size:</h3><p>Nets are sized to correspond with the dimensions of their intended targets. Targets larger than the net gain bonuses to their saving throw based on the difference in size. For each size category larger, the target receives a +4 bonus to the save. A natural roll of 1 is always a failure unless the total bonus is +20 or more. The Nets Table provides the appropriate net size for various victim sizes.</p><h4>Nets Table:</h4><table><thead><tr><th>Victim's Size</th><th>Approximate Height</th><th>Net Size</th></tr></thead><tbody><tr><td>Very small</td><td>Up to 1'</td><td>2' x 2'</td></tr><tr><td>Small</td><td>1+ to 3'</td><td>4' x 4'</td></tr><tr><td>Medium</td><td>3+ to 6'</td><td>6' x 6'</td></tr><tr><td>Large</td><td>6+ to 10'</td><td>9' x 9'</td></tr><tr><td>Very large</td><td>10+ to 15'</td><td>12' x 12'</td></tr><tr><td>Huge</td><td>15+ to 20'</td><td>16' x 16'</td></tr><tr><td>Mammoth</td><td>20+ to 30'</td><td>25' x 25'</td></tr></tbody></table><p>Nets measuring 6' x 6' or smaller can be wielded with one hand. Larger nets require two hands and are subject to penalties associated with two-handed weapons. The wielder cannot use a shield, always loses individual initiative against those not using two-handed weapons, and halflings or small humanoids (like goblins) cannot use nets larger than 6' x 6'.</p><h3>Magical Nets:</h3><p>Magical nets are rare and impervious to all but fire or acid. Daggers and other weapons cannot cut through them, and an ensnared victim can only remove the net, not destroy it.</p><h3>Effects of Ensnarement:</h3><p>When ensnared, a victim suffers one of the following effects, as determined by the Weapon Special Effects Table:</p><ul><li><strong>Entangle</strong>: The victim cannot move, attack, or cast spells until a successful saving throw.</li><li><strong>Slow</strong>: The victim’s movement and attacks are halved, and they cannot cast spells.</li><li><strong>Delay</strong>: The victim automatically loses initiative in the next round.</li></ul><h3>Durability and Repair:</h3><p>A net is easily damaged by edged weapons, claws, or bites. If damaged, it becomes useless unless repaired. Repairing a net requires 1d3 turns of uninterrupted work with rope or cord.</p><p>A well-maintained net remains a practical and effective tool for adventurers, offering non-lethal means of control and strategy in combat.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.P1Kk60QR6X1bRO0H",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1744469838804,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "P1Kk60QR6X1bRO0H",
+  "sort": 1800000,
+  "_originalKey": "!items!P1Kk60QR6X1bRO0H"
+}

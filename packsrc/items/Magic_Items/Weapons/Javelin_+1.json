@@ -1,0 +1,83 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Javelin +1",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+  "system": {
+    "tags": [
+      "thrown"
+    ],
+    "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 20,
+    "cost": 1,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Javelin",
+    "weaponType": "handheld",
+    "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 90
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Javelin",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.tey8URAGAh0XjWIv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1756057351733,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "tey8URAGAh0XjWIv",
+  "sort": 0,
+  "_originalKey": "!items!tey8URAGAh0XjWIv"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Know Alignment*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "TUnisF39NzEdcPpS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p><p>The reversed form, <em>confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0 (caster only)",
+    "duration": "1 round",
+    "effect": "One creature within 10'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.TUnisF39NzEdcPpS",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749819058618,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 600000,
+  "_originalKey": "!items!TUnisF39NzEdcPpS"
+}

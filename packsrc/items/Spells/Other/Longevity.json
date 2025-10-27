@@ -1,0 +1,50 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Longevity",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "TrmlDV7npXaxOyG9",
+  "system": {
+    "tags": [],
+    "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target immediately becomes 10 years younger. The effect is permanent, does not wear off, and cannot be dispelled. This potion will have no effect on any creature forced to drink it. In addition, age cannot be reduced below 15 (or below midadolescence for creatures other than humans), and the change cannot adversely affect any ability scores or other abilities.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Instant",
+    "effect": "Become 10 years younger (min 15 years old)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.11",
+    "createdTime": 1759495801270,
+    "modifiedTime": 1760904635816,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!TrmlDV7npXaxOyG9"
+}

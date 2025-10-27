@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Levitating",
+  "type": "condition",
+  "img": "icons/svg/wing.svg",
+  "_id": "4Iauq7Udw9uScfcJ",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Allows the caster to move vertically, up or down, without support. The caster cannot move side to side without pushing against something. Vertical movement is at a rate of 20' per round.</p><p>Caster can carry up to 2,000 cn (200 lbs) while levitating. The caster can carry another man-sized creature if it isn’t wearing metal armor or heavily burdened. No saving throw is allowed for the levitated target.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "LBDuaaG3G0ccXh0I"
+  ],
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1749835286006,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!4Iauq7Udw9uScfcJ",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!4Iauq7Udw9uScfcJ.LBDuaaG3G0ccXh0I",
+      "name": "Levitating",
+      "img": "icons/svg/wing.svg",
+      "disabled": false,
+      "_id": "LBDuaaG3G0ccXh0I",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.11.0-rc.6",
+        "createdTime": 1749835286025,
+        "modifiedTime": 1749835422863,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

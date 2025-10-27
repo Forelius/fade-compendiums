@@ -1,0 +1,60 @@
+{
+  "name": "Shrink Plants*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reverse of *Growth of Plants*, this spell causes normal plants within the area of effect to shrink, becoming passable. It can be used to negate the effects of *Growth of Plants* but does not affect plant-like monsters such as treants.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "Special",
+    "effect": "Shrinks 3000 square feet of plants",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.QHkUXTrqcgEYgeAp",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902474549,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "QHkUXTrqcgEYgeAp",
+  "sort": 0,
+  "_originalKey": "!items!QHkUXTrqcgEYgeAp"
+}

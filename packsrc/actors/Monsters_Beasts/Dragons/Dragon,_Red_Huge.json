@@ -1,0 +1,1577 @@
+{
+  "name": "Dragon, Red (Huge)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "G",
+      "morale": 11,
+      "xpAward": 9575,
+      "attacks": "3/6",
+      "abilityCount": 4,
+      "monsterType": "Dragon",
+      "saveAs": "F36",
+      "castAs": "RDR3",
+      "classAbilityAs": "",
+      "level": 3,
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "20",
+      "value": 90,
+      "max": 90
+    },
+    "na": {
+      "wandering": "1d2",
+      "lair": "1d2"
+    },
+    "treasure": "Hx3, Ix2",
+    "thac0": {
+      "value": 5,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 150,
+      "round": 50,
+      "day": 30,
+      "run": 150,
+      "max": 150
+    },
+    "biography": "<p>The Huge Red Dragon is a terrifyingly powerful force of destruction. Its fiery breath can engulf entire groups of foes in a devastating cone of fire, stretching 180 feet long and 30 feet wide. As one of the largest and most intelligent dragons, the Huge Red Dragon is not only deadly in combat but also possesses powerful magical abilities, making it a fearsome enemy on the battlefield.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Huge dragons use all attacks effectively against any opponent within melee range through maneuvering. Wing attacks can be aimed at any opponents to the sides, or, if more than one opponent is in front of the dragon, against those on either side. If its swoop attack hits, a huge dragon can pick up one, two, or three man-sized victims, two horse-sized victims, or one giant-sized opponent.</p><p>Large and huge dragons use breath weapons intelligently, not randomly. They rarely aim at single opponents and normally save the attack for use against groups. The volume of the breath weapon increases with the size of the dragon.</p><p></p><p><strong>Breath Weapon:</strong> Fire, 180 feet long and 30 feet wide, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Mountains, Caves</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
+    "wrestling": 49,
+    "gm": {
+      "notes": ""
+    },
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "label": "Unencumbered",
+      "mv": 150,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 5,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": -5,
+      "total": -5,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 14,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 15,
+        "total": 15,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 40,
+        "total": 40,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 360,
+      "max": 360,
+      "round": 120,
+      "day": 72,
+      "run": 360
+    },
+    "actorGroups": [
+      "dragonkind",
+      "reptiles-dinosaurs"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Dragon, Red (Huge)",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "enabled": true,
+        "range": null
+      },
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "hexagonalShape": 0
+  },
+  "items": [
+    "7gqWuUbmVY30Ggnk",
+    "QnCAAhRezy21qFai",
+    "sevoTNwHuT9RDIR3",
+    "CZI1oLtSaJYQFHC9",
+    "cZkO2UMsuHS7mlN6",
+    "iPQMahb0N4P1IO5S",
+    "9aZ5u8ewd0jBIODc",
+    "W49vhVAiFKpJHRgN",
+    "as33LEB2U7AiTlRp",
+    "h3ulyuARYx2wmj3Z",
+    "B8FAIPqQZF3wwLDS",
+    "haTP7y0pEoQrBV5y",
+    "1LFUkXcGpnkCPHfk",
+    "fBdChxOQmjcQk2vi",
+    "pcdBLWKxB0T2tZST",
+    "a0GeLu07YpjEhSRX",
+    "4v9SaLnMEndAK7lB"
+  ],
+  "_id": "427IcdQRRKlAjeLF",
+  "effects": [
+    "atTZxwNLzziK9NGo"
+  ],
+  "folder": "ljumlk9ou1wMTBmE",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.427IcdQRRKlAjeLF",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.2",
+    "createdTime": 1754659676039,
+    "modifiedTime": 1761500942699,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!actors!427IcdQRRKlAjeLF",
+  "embedded": [
+    {
+      "_originalKey": "!actors.effects!427IcdQRRKlAjeLF.atTZxwNLzziK9NGo",
+      "name": "Huge Dragon Attack Bonus",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.actor-compendium.Actor.427IcdQRRKlAjeLF",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "atTZxwNLzziK9NGo",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.1LFUkXcGpnkCPHfk",
+      "name": "Wing",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "<p>A wing attack can be used against any opponent within range-which is great. The range is 3' per Hit Die of the dragon. Any victim hit by a wing attack must make a saving throw vs. paralysis or be stunned. A penalty applies to the saving throw, equal to the damage inflicted.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 1,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "paralysis",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "1d12+2",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": 42,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
+      "_id": "1LFUkXcGpnkCPHfk",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb.Item.1LFUkXcGpnkCPHfk",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.4v9SaLnMEndAK7lB",
+      "name": "Spellcasting (Dragon)",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>This dragon can cast spells.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "spellcasting",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "DRGN",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4v9SaLnMEndAK7lB",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.2",
+        "createdTime": 1761500934917,
+        "modifiedTime": 1761500934917,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "4v9SaLnMEndAK7lB",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.7gqWuUbmVY30Ggnk",
+      "name": "Claw",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "The dragon slashes with its sharp claws.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "1d12+2",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 2,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/creatures/claws/claw-scaled-red.webp",
+      "_id": "7gqWuUbmVY30Ggnk",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.9aZ5u8ewd0jBIODc",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "9aZ5u8ewd0jBIODc",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.B8FAIPqQZF3wwLDS",
+      "name": "Hover",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>When using this attack form, the dragon pauses in flight directly above its targets, its wings beating furiously. The dragon may attack up to six opponents in one round while hovering, using 1 bite, 2 front claws, 2 rear kicks, and 1 tail (but no wing attacks). A breath weapon cannot be used while hovering, because of the wind from the wings.</p><p><strong>After I round of hover attacks, the dragon must land immediately, but the dragon cannot crush after hovering.</strong> (Note that the location of opponents might prevent the use of some attack forms.)</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "B8FAIPqQZF3wwLDS",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb.Item.B8FAIPqQZF3wwLDS",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.CZI1oLtSaJYQFHC9",
+      "name": "Fire Breath",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "<p>Breathes a cone of fire, 180 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "@actor.hp.value",
+        "damageType": "breath",
+        "breath": "Fire",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "breath",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": 180,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 1,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
+      "_id": "CZI1oLtSaJYQFHC9",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Scene.RUgHC6blvKLOjKJq.Token.gZ6GND4TMadsIk67.Actor.e5RafGI3Ufyu1cVs.Item.uyhx6lhTGpgAFx93",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.QnCAAhRezy21qFai",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "A powerful bite that can crush armor.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "4d8+8",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "QnCAAhRezy21qFai",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.W49vhVAiFKpJHRgN",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "W49vhVAiFKpJHRgN",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.a0GeLu07YpjEhSRX",
+      "name": "Swoop (Dragon)",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>When a dragon swoops. its victims suffer a -1 penalty to their surprise roll, because of the creature's silent glide. If the dragon surprises the victim, each hit inflicts double damage.</p><p>The dragon may pick up one or more victims if its attack rolls are high enough (see table).</p><table style=\"width:400px; text-align: left;\"><thead><tr><th>Size</th><th>Attack Roll Needed</th><th>Swoop Attack Forms</th></tr></thead><tbody><tr><td>Small</td><td>20</td><td>1 claw</td></tr><tr><td>Large</td><td>18-20</td><td>2 claws</td></tr><tr><td>Huge</td><td>16-20</td><td>2 claws + 1 bite</td></tr></tbody></table><p>A victim caught by a swoop can attack the dragon. but with a -2 penalty to all attack rolls, and each hit inflicts only minimum damage.</p><p>A victim held in a claw automatically takes normal claw damage each round, but if the victim wins initiative, he may act first (cast a spell, use a device. etc.).</p><p>A victim held in a bite automatically takes normal bite damage each round, and cannot concentrate (regardless of initiative). When the victim is dead he is swallowed. A dragon can bite a victim held in a claw, but with a -2 penalty to the attack roll. If successful. the victim is transferred to the mouth.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "swoop",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.a0GeLu07YpjEhSRX",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.2",
+        "createdTime": 1761495417310,
+        "modifiedTime": 1761495417310,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "a0GeLu07YpjEhSRX",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.as33LEB2U7AiTlRp",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "as33LEB2U7AiTlRp",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.cZkO2UMsuHS7mlN6",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "cZkO2UMsuHS7mlN6",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.fBdChxOQmjcQk2vi",
+      "name": "Tail",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "<p>Any victim hit by the tail attack of a large or huge dragon must make a saving throw vs. paralysis or be knocked over (as with a kick) and is disarmed. A penalty applies to the saving throw, equal to the damage inflicted. A disarmed opponent can spend one round picking up the weapon , or can switch weapons, merely losing initiative.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 1,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "paralysis",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "1d12+2",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "_id": "fBdChxOQmjcQk2vi",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb.Item.fBdChxOQmjcQk2vi",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.h3ulyuARYx2wmj3Z",
+      "name": "Crush",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>This maneuver is often used if the dragon surprises nonhuman victims, or possibly against any opponents if the dragon is seriously wounded. When crushing, the dragon actually lands on its victims. Each may make a saving throw vs. death ray; success indicates complete evasion of the crush, and no damage is inflicted.</p><p>A victim may choose to remain in the area, taking the full damage of the crush; if he holds a weapon in hand, he may make an attack roll with a +4 bonus. If he hits, he inflicts double damage.</p><p><strong>A huge dragon can crush all in a 20' radius circle.</strong></p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "death",
+        "dmgFormula": "4d8+8",
+        "healFormula": "",
+        "damageType": "physical",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "crush",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "h3ulyuARYx2wmj3Z",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb.Item.h3ulyuARYx2wmj3Z",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.2",
+        "createdTime": null,
+        "modifiedTime": 1761496236045,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.h7U0ay2U060gXKIu",
+      "name": "Fire Breath",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Breathes a cone of fire, 180 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": 0,
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "dmgRoll": null
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "h7U0ay2U060gXKIu",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.5.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.haTP7y0pEoQrBV5y",
+      "name": "Kick",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "<p>Any victim hit by a kick attack must make a saving throw vs. paralysis or be knocked over. A penalty applies to the saving throw, equal to the amount of damage inflicted. Any victim knocked over can get up during the next round, but will automatically lose initiative.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 1,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "paralysis",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "1d12+2",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 2,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+      "_id": "haTP7y0pEoQrBV5y",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb.Item.haTP7y0pEoQrBV5y",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.iPQMahb0N4P1IO5S",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "iPQMahb0N4P1IO5S",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.7",
+        "createdTime": 1757510592688,
+        "modifiedTime": 1757510592688,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!427IcdQRRKlAjeLF.sevoTNwHuT9RDIR3",
+      "name": "Dragon Scales (Armor)",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The tough red dragon scales provide a natural armor class of -5.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": -5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "icons/commodities/leather/scales-white.webp",
+      "_id": "sevoTNwHuT9RDIR3",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!427IcdQRRKlAjeLF.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

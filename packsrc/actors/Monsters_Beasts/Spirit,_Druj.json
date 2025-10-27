@@ -1,0 +1,827 @@
+{
+  "name": "Spirit, Druj*",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 14,
+      "xpAward": 5500,
+      "attacks": "1/4",
+      "abilityCount": 4,
+      "monsterType": "Undead, Enchanted",
+      "saveAs": "F14",
+      "castAs": "",
+      "level": 1,
+      "classAbilityAs": "",
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "14",
+      "value": 63,
+      "max": null
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1"
+    },
+    "treasure": "I, O, V",
+    "thac0": {
+      "value": 8,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 90,
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
+    },
+    "biography": "<p>Druj appear as body parts, floating or crawling about in a horrible way. A druj is usually encountered in the form of a hand, eye, or skull. Druj are very intelligent and strongly evil, far more dangerous than they may seem.</p><p>A druj can split its essence, creating four (identical) forms instead of one. This can be performed only once per night. Each of the forms can attack separately, but only one of the forms is able to cast spells (as given above). The form using the spells can often be distinguished, as it will hover nearby while the other forms attack. If that form is slain, one of the surviving forms immediately gains all unused spellcasting abilities. All four forms are poisonous.</p><p>If turned by a cleric, the parts of a druj turned are forced to reunite into one creature, remaining united for [[/r 1d4 + 1 #Rounds united]] rounds. Further success at turning is handled normally.</p><p>Druj are always encountered singly unless commanded into service by a lich or more powerful member of the Sphere of Death. In such cases, two druj eyes may rest within a druj skull, accompanied by two druj hands; no more than these five druj can ever gather in one place.</p><p><strong>Eye:</strong> An eye druj darts about, trying to touch (poison) its opponent; a touch does not inflict any damage other than poisoning. Each eye druj can also gaze at one victim per round (30' range), in addition to its physical attack. The victim must make a saving throw vs. paralysis or be paralyzed for [[/r 1d4 #Turns paralyzed]] turns. The eye druj may touch a paralyzed victim automatically.</p><p><strong>Hand:</strong> A hand druj inflicts [[/r 1d4 #Points of damage]] when it hits, and thereafter holds onto its victim, causing automatic damage each round thereafter. The damage caused is equal to the AC of the victim, ignoring dexterity and shield bonuses, plus [[/r 1d4 #Points]] each round. If the adjusted armor class is a negative number, the attack will still inflict [[/r 1d4 #Points of damage]] each round.</p><p><strong>Skull:</strong> A skull druj floats toward and bites its victim. When first approached, the victim must make a saving throw vs. spells or be frozen with fear, allowing the skull druj to bite (no attack roll needed) for [[/r 2d4 #Points of damage]]. The normal saving throw vs. poison applies to each bite.</p><h3>All Spirits</h3><p>Spirits are powerful evil beings inhabiting the bodies (or body parts) of others; they are among the nastiest of undead monsters. They are immune to spells below 4th level, and cannot be harmed by normal weapons or magical weapons of less than +2 enchantment.</p><p>All spirits are travelers, never staying in one place for more than one night; they become invisible and nearly powerless (except to move) with the light of dawn, regaining their powers at dusk. In daylight, any spirit can travel up to 24 miles per day (1 hex).</p><p>All spirits are poisonous. When hit by a spirit in hand-to-hand combat, the victim must make a saving throw vs. poison or die immediately. A new saving throw must be made for each hit by the spirit.</p><p>The poisonous presence of a spirit causes all consumable items within 30', including normal food and water, holy water, all rations (even iron) and even magical potions to become spoiled and useless (but not poisoned), with no saving throw allowed. Even living plants and small insects within this area are paralyzed, dying if the spirit remains there more than an hour. This effect negates all forms of plant control, insect swarms and plagues, both normal and magical.</p><p>All spirits can sense invisible things, and can attack them without penalty. All spirits can, once per round, at will, create the following cleric spell effects: <em>darkness</em>, <em>silence</em> 15' radius, <em>cause disease</em>, <em>animate dead</em>, <em>finger of death</em> (all as if cast by a 16th level cleric). A spirit will often pause to animate the body of a fallen victim, creating and controlling it as a zombie to fight for it and add to the chaos. (Attempts at turning such zombies are made as if turning the spirit itself!) All of these spell-like abilities require concentration, as do normal spells, so while using an ability, a spirit cannot attack physically. Unlike normal cleric spells, no words or gestures are needed.</p><p>A spirit normally has no treasure, though it may occasionally serve as a guard for some special item. Those characters who risk travel at night may encounter a spirit with 1d6 of its victims, who may carry treasure.</p><p><strong>Terrain:</strong> Any (usually Barren Lands and Ruins)</p>",
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 11,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 37,
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": true,
+    "abilities": {
+      "int": {
+        "value": 14,
+        "total": 14,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 28,
+        "total": 28,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "undead",
+      "enchanted"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Spirit*, Druj",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "hexagonalShape": 0
+  },
+  "items": [
+    "IDzT8IVv7oqs8XGf",
+    "rAmb3JFGo9AfXtHI",
+    "acWCPKA4Hh0bSeov",
+    "JZ6VJnIolTLHMte3",
+    "WJl6tjiD5eVYtukU",
+    "0gjmShnkzVtJETIW",
+    "StDACZLwOSF9yHtb",
+    "ATQmp5MNNcgEEDyt",
+    "cxQKWgUSOH9Rbyms"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.68mi9MYvttCrn0w5",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.2",
+    "createdTime": 1754659676039,
+    "modifiedTime": 1757768729193,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "68mi9MYvttCrn0w5",
+  "sort": 2300000,
+  "_originalKey": "!actors!68mi9MYvttCrn0w5",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.0gjmShnkzVtJETIW",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "0gjmShnkzVtJETIW",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "6",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.j3TIIGM9mWiQXVKp",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.ATQmp5MNNcgEEDyt",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ATQmp5MNNcgEEDyt",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "8",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.FWPTVC5W45aZzZMY",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.IDzT8IVv7oqs8XGf",
+      "name": "Hide",
+      "type": "armor",
+      "system": {
+        "description": "The druj's ethereal form makes it highly resistant to physical damage, requiring +2 or better weapons to hit.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": -4,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "IDzT8IVv7oqs8XGf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.2",
+        "createdTime": null,
+        "modifiedTime": 1757599722989,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.JZ6VJnIolTLHMte3",
+      "name": "Poisonous Presence",
+      "type": "specialAbility",
+      "system": {
+        "description": "Spoils all consumables within 30 feet and paralyzes plants and insects, potentially leading to death if prolonged.",
+        "gm": {
+          "notes": "No saving throw for items; affects living organisms."
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "JZ6VJnIolTLHMte3",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.StDACZLwOSF9yHtb",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "StDACZLwOSF9yHtb",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.J5SgmaRRd8UeZroR",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.WJl6tjiD5eVYtukU",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "WJl6tjiD5eVYtukU",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "6",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.y2oCWVc2M1yTE20R",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.acWCPKA4Hh0bSeov",
+      "name": "Spell-like Abilities",
+      "type": "specialAbility",
+      "system": {
+        "description": "Can cast darkness, silence, cause disease, animate dead, and finger of death once per round, requiring concentration.",
+        "gm": {
+          "notes": "Only one form can use these abilities at a time."
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "acWCPKA4Hh0bSeov",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.cxQKWgUSOH9Rbyms",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "cxQKWgUSOH9Rbyms",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.TSY8SHAE8ovvNBvu",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!68mi9MYvttCrn0w5.rAmb3JFGo9AfXtHI",
+      "name": "Touch",
+      "type": "weapon",
+      "system": {
+        "description": "Each druj form can touch to poison, causing death if the victim fails a save vs. poison.",
+        "quantity": 4,
+        "equipped": true,
+        "damageRoll": "0",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "savingThrow": "death",
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "Touch",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 4,
+          "group": 0
+        }
+      },
+      "img": "icons/magic/death/hand-withered-gray.webp",
+      "_id": "rAmb3JFGo9AfXtHI",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.2",
+        "createdTime": null,
+        "modifiedTime": 1757768959315,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

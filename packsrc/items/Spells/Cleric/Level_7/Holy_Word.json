@@ -1,0 +1,54 @@
+{
+  "name": "Holy Word",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This powerful spell affects all creatures, friend or foe, within a 40' radius of the caster. Creatures of alignments other than the cleric's suffer the following effects, with no saving throw allowed:</p>\n                      <table>\n                        <thead>\n                          <tr><th>Creature Level / HD</th><th>Effect</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Up to 5th Level / HD</td><td>Killed instantly</td></tr>\n                          <tr><td>6th - 8th Level / HD</td><td>Stunned for [[/r 2d10 #turns]] turns</td></tr>\n                          <tr><td>9th - 12th Level / HD</td><td>Deafened for [[/r 1d6 #turns]] turns</td></tr>\n                          <tr><td>13+ Level / HD</td><td>Stunned for [[/r 1d10 #rounds]] rounds</td></tr>\n                        </tbody>\n                      </table>\n                      <p><strong>Saving Throw:</strong> Any creature of 13th level / HD or higher, or one that shares the cleric’s alignment, may attempt a saving throw vs. spells to negate all effects.</p>\n                      <p><strong>Obstructions:</strong> *Holy Word* is not blocked by stone or solid materials, except for lead. It is also stopped by an *Anti-Magic Shell*.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "0",
+    "duration": "Instantaneous",
+    "effect": "All creatures within 40'",
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "save",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "pHCqcNxNfzlipR5x",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.pHCqcNxNfzlipR5x",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821931895,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!pHCqcNxNfzlipR5x"
+}

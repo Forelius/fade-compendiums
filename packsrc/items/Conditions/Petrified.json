@@ -1,0 +1,71 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Petrified",
+  "type": "condition",
+  "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+  "_id": "QDhoYE22lDX8YzSd",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "WSEQHjP0kuMRD7sS"
+  ],
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.10",
+    "createdTime": 1756300173824,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!QDhoYE22lDX8YzSd",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!QDhoYE22lDX8YzSd.WSEQHjP0kuMRD7sS",
+      "name": "Petrified",
+      "img": "icons/svg/aura.svg",
+      "disabled": false,
+      "_id": "WSEQHjP0kuMRD7sS",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.10",
+        "createdTime": 1756300173838,
+        "modifiedTime": 1756300173838,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

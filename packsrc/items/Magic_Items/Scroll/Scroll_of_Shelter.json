@@ -1,0 +1,66 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Shelter",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll is inscribed with an elaborate drawing of a 10'-square room, lit, with two beds, a table and two chairs, food and drink for two on the table, and a pair of normal swords on the far wall, each hung over a shield. If the scroll is hung on any vertical surface, the room pictured may be entered and the items used. The food and drink are pure and will nourish any living thing. The swords and shields may be taken down and used. However, none of the items can be removed from the room.</p><p>If the scroll is taken down, the room cannot be entered or left, but remains in existence on another dimension. If any creatures are in the room when the scroll is taken down, the air inside permits survival for up to 24 hours. No creatures so caught can escape by any means other than a wish. The food and drink are replenished each time the scroll is taken down. The room can be created once per day and will remain for up to 12 hours per use; if not removed in that time, the scroll will fall down by itself.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.5",
+    "createdTime": 1761569610559,
+    "modifiedTime": 1761569957846,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "bcP7FpEZNwtsBwWn",
+  "sort": 700000,
+  "_originalKey": "!items!bcP7FpEZNwtsBwWn"
+}

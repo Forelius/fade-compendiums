@@ -1,0 +1,65 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Snake Charm",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "D2fBEiTrMwOo9pKT",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the spellcaster to charm a number of Hit Dice of snakes equal to their level, with no saving throw allowed. For example, a 5th-level spellcaster could charm one 5 HD snake, five 1 HD snakes, or any combination of snakes totaling 5 Hit Dice or less. The charmed snakes will rise up and sway, but will not attack unless provoked.</p><p>If the spell is cast on snakes that are attacking the spellcaster, the duration is [[/r 1d4 + 1 #Snake Charm duration in rounds]] rounds. Otherwise, the spell lasts for [[/r 1d4 + 1 #Snake Charm duration in turns]] turns. Once the spell ends, the snakes return to their normal behavior, but they will not automatically be hostile unless provoked.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "2-5 rounds or 2-5 turns",
+    "effect": "Charms 1 HD of snakes per level of the caster",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.D2fBEiTrMwOo9pKT",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749819489573,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 300000,
+  "_originalKey": "!items!D2fBEiTrMwOo9pKT"
+}

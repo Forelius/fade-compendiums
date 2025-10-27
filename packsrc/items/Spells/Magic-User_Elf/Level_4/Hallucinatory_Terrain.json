@@ -1,0 +1,58 @@
+{
+  "name": "Hallucinatory Terrain",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an illusion of a terrain feature, either indoors or outdoors, to hide or mimic terrain. The caster could create an illusory terrain over pits or quicksand, or a forest around a camp.</p>\n                      <p><strong>Area:</strong> The spell affects up to a 240' radius, and the caster may choose a smaller area, such as a room or a specific feature. For larger areas (such as hills), the entire terrain feature must be within 240' of the caster. Features over 480' in diameter cannot be affected.</p>\n                      <p><strong>Duration:</strong> The illusion lasts until an intelligent creature touches it or until dispelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "Special",
+    "effect": "Changes or hides terrain in 240' radius (or less)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.x75uYBhphlnkpZXR",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902358479,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "x75uYBhphlnkpZXR",
+  "sort": 0,
+  "_originalKey": "!items!x75uYBhphlnkpZXR"
+}

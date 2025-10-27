@@ -1,0 +1,85 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Dagger +1",
+  "type": "weapon",
+  "_id": "Kx9PdtUp3tKhphl8",
+  "img": "modules/fade-compendiums/assets/img/weapon/dagger.webp",
+  "system": {
+    "tags": [
+      "magic-user",
+      "thrown",
+      "magic"
+    ],
+    "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. This dagger has a damage bonus of [[@mod.dmg]] and a to-hit bonus of [[@mod.toHit]].</p><p></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Dagger",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "container": false,
+    "equippable": false,
+    "size": "S",
+    "grip": "1H",
+    "unidentifiedName": "Dagger",
+    "isIdentified": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+    "isCursed": false,
+    "canSet": false,
+    "isSlow": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.Kx9PdtUp3tKhphl8",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1756057243305,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Kx9PdtUp3tKhphl8"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Read Scroll (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "1T8ETnpQhB52LNsz",
+  "system": {
+    "tags": [],
+    "description": "<p>A Thief of <strong>10th level or higher</strong> can attempt to cast spells from <strong>magic-user scrolls</strong>. This requires <strong>one round of reading</strong>, and the scroll is consumed upon use. There is a <strong>10% chance of backfire</strong>, which may cause the spell to fail, produce a random effect, or target the wrong creature (DM’s discretion). Thieves cannot use cleric or druid scrolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "90",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.7.21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.1T8ETnpQhB52LNsz",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!1T8ETnpQhB52LNsz"
+}

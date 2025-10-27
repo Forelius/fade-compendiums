@@ -1,0 +1,54 @@
+{
+  "name": "Summon Elemental",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "V4F1GzuReHr8xnu8",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell summons a single 16 Hit Dice elemental to obey the druid’s commands.</p><h4>Effects:</h4><ul><li>The caster may summon one elemental per casting (air, earth, fire, or water).</li><li>A druid may only summon one of each elemental type per day.</li><li>The elemental will understand spoken commands and will obey them within its abilities.</li><li>No concentration is needed to control the elemental.</li><li>The druid may dismiss the elemental at will, returning it to its home plane.</li><li>A dispel magic or dispel evil spell will also send the elemental back.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "One hour",
+    "effect": "Summons one 16 HD elemental",
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "RE2xhHJVnOB26v1d",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.RE2xhHJVnOB26v1d",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822950020,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!RE2xhHJVnOB26v1d"
+}

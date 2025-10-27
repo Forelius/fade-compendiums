@@ -1,0 +1,61 @@
+{
+  "name": "Obscure",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "NSAKhDqsY64cjSXH",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes a misty vapor to rise from the ground, forming a large cloud. The cloud's height is 1 foot per caster level, and its diameter is 10 feet per level. For example, a 20th-level caster could create a cloud 20 feet high and 200 feet in diameter.</p>\n                <p>The cloud blocks vision, though the caster and creatures that can see invisible objects can see dimly through it. Other creatures in the cloud are effectively blind, delayed, and confused by the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0 (Druid only)",
+    "duration": "1 turn per level of the caster",
+    "effect": "Creates a huge misty cloud",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "edxGW3VtyjXflYZj",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.edxGW3VtyjXflYZj",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822173707,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!edxGW3VtyjXflYZj"
+}

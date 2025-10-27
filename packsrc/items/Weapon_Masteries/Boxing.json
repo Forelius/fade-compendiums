@@ -1,0 +1,112 @@
+{
+  "folder": "MAZAED6MvpyUHsNh",
+  "name": "Boxing",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "name": "",
+    "primaryType": "monster",
+    "levels": [
+      {
+        "name": "basic",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "0",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "Stun, knockout",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "skilled",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "2",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "Stun, knockout",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "expert",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "3",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "No off-hand penalty; Stun, knockout (save - 1)",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "master",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "5",
+        "pToHit": 0,
+        "sDmgFormula": "4",
+        "sToHit": 0,
+        "special": "No off-hand penalty; Stun, knockout (save - 3)",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "grandMaster",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "6",
+        "pToHit": 0,
+        "sDmgFormula": "5",
+        "sToHit": 0,
+        "special": "No off-hand penalty; Stun, knockout (save - 5)",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      }
+    ],
+    "weaponType": "handheld"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.jeQMk0xOptkHZKu5",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219190750,
+    "modifiedTime": 1744414840019,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "jeQMk0xOptkHZKu5",
+  "sort": 3200000,
+  "_originalKey": "!items!jeQMk0xOptkHZKu5"
+}

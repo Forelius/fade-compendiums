@@ -1,0 +1,54 @@
+{
+  "name": "Teleport",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell instantly transports the caster or another creature within 10' to any unoccupied destination on the same plane. Distance does not matter, and the recipient arrives at the destination with all carried equipment. An unwilling target can make a saving throw vs. spells to avoid teleportation.</p><p><strong>Restrictions on Destination:</strong> The caster cannot deliberately teleport to an occupied space, and must choose a solid surface for arrival (such as ground level or a building top), not mid-air.</p><p><strong>Teleportation Accuracy:</strong> Teleporting carries a risk of inaccuracy based on the caster’s familiarity with the location. Familiarity levels—Casual, General, and Exact—impact the chance of success. The DM rolls d% and consults the table below.</p><table style=\"width:97%\"><thead><tr><th>Knowledge of Destination</th><th>Success</th><th>Too High</th><th>Too Low</th></tr></thead><tbody><tr><td>Casual (visited once or twice, or by description)</td><td>01-50</td><td>51-75</td><td>76-00</td></tr><tr><td>General (visited often or studied magically)</td><td>01-80</td><td>81-90</td><td>91-00</td></tr><tr><td>Exact (detailed personal study)</td><td>01-95</td><td>96-99</td><td>00</td></tr></tbody></table><p><strong>Teleport Results:</strong></p><ul><li><strong>Success:</strong> The recipient arrives at the chosen location.</li><li><strong>Too High:</strong> The recipient arrives 1d10 x 10' above the destination, taking 1d6 points of damage per 10' fallen, unless flying or levitating.</li><li><strong>Too Low:</strong> The recipient arrives 1d10 x 10' below the destination. Teleporting into solid objects results in instant death unless an open area (e.g., a cave) exists there, at the DM's discretion.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "10'",
+    "duration": "Instantaneous",
+    "effect": "Transports one creature with equipment",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "1d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.9odcKQwwvJit7xwl",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902908748,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "9odcKQwwvJit7xwl",
+  "sort": 0,
+  "_originalKey": "!items!9odcKQwwvJit7xwl"
+}

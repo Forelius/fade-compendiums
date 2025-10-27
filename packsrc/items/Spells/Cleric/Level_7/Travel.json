@@ -1,0 +1,54 @@
+{
+  "name": "Travel",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the caster incredible mobility, allowing flight, planar travel, and even transformation into gaseous form.</p><p>Effects:</p><ul><li>The caster can fly at a rate of 360' (120'), similar to the <em>Fly</em> spell.</li><li>Once per turn, the caster may shift into a nearby plane by concentrating for one round.</li><li>The cleric may bring one additional creature per 5 levels (rounded down), provided they are touching at the moment of planar travel.</li><li>Unwilling creatures may make a saving throw vs. spells to resist being taken.</li></ul><p>Gaseous Form:</p><ul><li>By concentrating for one full round, the caster may become gaseous.</li><li>In gaseous form, the caster and all carried equipment transform into mist.</li><li>While gaseous, the cleric may move at 720' (240') but cannot attack, cast spells, or use items.</li><li>In this form, the caster is immune to non-magical damage but cannot pass through a <em>Protection from Evil</em> spell or <em>Anti-Magic Shell</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "0",
+    "duration": "One turn per caster level",
+    "effect": "Allows aerial or gaseous travel",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "@actor.details.level",
+    "durationFormula": "@classes.C.castLevel * 60",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "0YsvPReEgJGz7v1P",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.0YsvPReEgJGz7v1P",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822025140,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!0YsvPReEgJGz7v1P"
+}

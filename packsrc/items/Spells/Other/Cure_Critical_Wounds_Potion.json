@@ -1,0 +1,50 @@
+{
+  "name": "Cure Critical Wounds (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>This effect heals one living creature of 3d6 + 3 points of damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Self",
+    "duration": "Permanent",
+    "effect": "Heals one living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "3d6+3",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "heal",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.9",
+    "createdTime": 1760188220389,
+    "modifiedTime": 1760188220389,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "TT3jPZQxzw1vRXbk",
+  "sort": 0,
+  "_originalKey": "!items!TT3jPZQxzw1vRXbk"
+}

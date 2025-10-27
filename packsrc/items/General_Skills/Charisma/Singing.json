@@ -1,0 +1,43 @@
+{
+  "name": "Singing",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Singing skill enables a character to perform vocal music with skill and emotion. It is used in performances to entertain, in rituals to invoke magic, or in social situations to charm or persuade. A successful Singing check can captivate an audience, enhance the effects of other abilities, or even distract or charm creatures through melody and lyrics.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "CswpHMvbCzDkedf2",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.CswpHMvbCzDkedf2",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565489192,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!CswpHMvbCzDkedf2"
+}

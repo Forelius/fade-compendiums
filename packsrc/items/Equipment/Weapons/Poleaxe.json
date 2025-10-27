@@ -1,0 +1,84 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Poleaxe",
+  "type": "weapon",
+  "_id": "bdF776Lh1mZnFNEa",
+  "img": "icons/weapons/polearms/halberd-engraved-steel.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>A poleaxe consists of an axe blade (usually single sided, but occasionally double sided) with a 6’ to 8' long shaft. It is wielded in both hands like a large two-handed axe.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 120,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d10",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Poleaxe",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A poleaxe consists of an axe blade (usually single sided, but occasionally double sided) with a 6’ to 8' long shaft. It is wielded in both hands like a large two-handed axe.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.bdF776Lh1mZnFNEa",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1747584989527,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 2600000,
+  "_originalKey": "!items!bdF776Lh1mZnFNEa"
+}

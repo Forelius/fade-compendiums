@@ -1,0 +1,65 @@
+{
+  "name": "Hold Portal",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell magically holds a door, gate, or similar portal shut for [[/r 2d6 #Hold Portal turns]] turns. A <em>knock</em> spell can open it, or a creature with three or more Hit Dice (or levels) above the caster can break it in one round. If the portal closes within the spell’s duration, it will relock.</p><p><strong>Example:</strong> A 5th level character can break through a <em>hold portal</em> spell cast by a 2nd level spellcaster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "10'",
+    "duration": "2d6 turns",
+    "effect": "One door, gate, or similar portal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "2d6*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "mJNVixMZzg2ISVck",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.mJNVixMZzg2ISVck",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749833224335,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 800000,
+  "_originalKey": "!items!mJNVixMZzg2ISVck"
+}

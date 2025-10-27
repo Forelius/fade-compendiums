@@ -1,0 +1,235 @@
+{
+  "folder": "5KkUhPJkGW8cPfpE",
+  "name": "Unusual",
+  "_id": "40hxo4CHuoAzvkEb",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Unusual encounter.</p>",
+  "results": [
+    "JS7eahbVScepr9wu",
+    "2EhJ0Qlq6S7o7K8k",
+    "VMvuy0QHmp4M19NW",
+    "NQCRemyEsBytzoF6",
+    "51lmcDJx7rWcrnGL",
+    "JjzRHFthXh51HP9l",
+    "9Lep5HZUhKe5c7PR",
+    "q2yWWMEgEXbEqko2",
+    "oefhpFk6fIOsFRvF",
+    "2Jo17fcp02OhLztf",
+    "7TV9G1Z5997brM5U",
+    "fPEk5eFS3bSp8bV1"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.40hxo4CHuoAzvkEb",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749688332,
+    "modifiedTime": 1760705526538,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d12",
+  "sort": 0,
+  "_originalKey": "!tables!40hxo4CHuoAzvkEb",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.2EhJ0Qlq6S7o7K8k",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Blink Dog",
+      "documentId": "QyDZ7pag954K5Xam",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "2EhJ0Qlq6S7o7K8k",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.2Jo17fcp02OhLztf",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Werewolf*",
+      "documentId": "tMx78dywgwuL5NJW",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "2Jo17fcp02OhLztf",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.51lmcDJx7rWcrnGL",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Gorgon",
+      "documentId": "fJfDm9Y5LUKURGXM",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "51lmcDJx7rWcrnGL",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.7TV9G1Z5997brM5U",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "Medusa",
+      "documentId": "CbLFxjJOLryKlL0R",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "7TV9G1Z5997brM5U",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.9Lep5HZUhKe5c7PR",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Wereboar*",
+      "documentId": "3CvtVynSBywJGlxi",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9Lep5HZUhKe5c7PR",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.JS7eahbVScepr9wu",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Basilisk",
+      "documentId": "rqWVOdrALlCdouwK",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "JS7eahbVScepr9wu",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.JjzRHFthXh51HP9l",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Werebear*",
+      "documentId": "6hjGF6YQqdBvvMS7",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "JjzRHFthXh51HP9l",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.NQCRemyEsBytzoF6",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Displacer Beast",
+      "documentId": "eA4eRFSfiBxY19ll",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "NQCRemyEsBytzoF6",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.VMvuy0QHmp4M19NW",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Centaur",
+      "documentId": "Ta2HEFfce6G1k3g8",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "VMvuy0QHmp4M19NW",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.fPEk5eFS3bSp8bV1",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Treant",
+      "documentId": "qAqnOTZKwi0J5UyR",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "fPEk5eFS3bSp8bV1",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.oefhpFk6fIOsFRvF",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Weretiger*",
+      "documentId": "VdCp0J7KP6O47sh0",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oefhpFk6fIOsFRvF",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!40hxo4CHuoAzvkEb.q2yWWMEgEXbEqko2",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Wererat*",
+      "documentId": "9YkdFwvOyR1jMv0d",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "q2yWWMEgEXbEqko2",
+      "flags": {}
+    }
+  ]
+}

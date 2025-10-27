@@ -1,0 +1,54 @@
+{
+  "name": "Cloudkill",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a poisonous cloud, 30' wide and 20' tall, that appears next to the caster and moves at a rate of 60' (20' per round) in one direction. The cloud is heavier than air and will sink where possible, but it will dissipate when encountering trees or thick vegetation. In confined spaces, the cloud’s size may be limited.</p>\n                      <p><strong>Effects on Creatures:</strong> All living creatures within the cloud take 1 point of damage per round. Creatures with less than 5 Hit Dice must make a saving throw vs. poison or die.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "1'",
+    "duration": "6 turns",
+    "effect": "Creates a moving poisonous cloud",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "1",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "death",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "poison",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.bEL6kvbai8WmFQf6",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902554233,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "bEL6kvbai8WmFQf6",
+  "sort": 0,
+  "_originalKey": "!items!bEL6kvbai8WmFQf6"
+}

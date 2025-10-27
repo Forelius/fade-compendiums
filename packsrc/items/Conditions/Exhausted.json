@@ -1,0 +1,98 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Exhausted",
+  "type": "condition",
+  "img": "icons/svg/unconscious.svg",
+  "_id": "CZSZgo8zfKwz42nZ",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "cp7uX7fFTHZNvBDr"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.CZSZgo8zfKwz42nZ",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219177148,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 4700000,
+  "_originalKey": "!items!CZSZgo8zfKwz42nZ",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!CZSZgo8zfKwz42nZ.cp7uX7fFTHZNvBDr",
+      "name": "Exhausted",
+      "img": "icons/svg/unconscious.svg",
+      "disabled": false,
+      "_id": "cp7uX7fFTHZNvBDr",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ff8e7a",
+      "transfer": true,
+      "statuses": [
+        "downgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": 1744118298376,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

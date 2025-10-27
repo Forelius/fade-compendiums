@@ -1,0 +1,43 @@
+{
+  "name": "Acrobatics",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The character can perform impressive acrobatic feats, balance on ropes and wires, and so forth. A successful skill roll is required to perform any acrobatic feat; failure may result in the character falling. A successful roll allows the character to reduce the effective height of a fall by 10 feet. This skill also grants a +2 bonus on saves vs. mechanical traps where agility would help, such as tilting floors and pit traps.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "kocrVMi5oKYaISqG",
+  "effects": [],
+  "folder": "IkRJGH236ypzekkN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.kocrVMi5oKYaISqG",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565543733,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!kocrVMi5oKYaISqG"
+}

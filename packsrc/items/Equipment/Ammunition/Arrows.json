@@ -1,0 +1,57 @@
+{
+  "folder": "u7s4NR16AZdcIm0l",
+  "name": "Arrows",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrows-war-white.webp",
+  "_id": "uqmGGpdhi0ydtN5f",
+  "system": {
+    "shortName": "",
+    "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 20,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 5,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {}
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.8",
+    "createdTime": 1755808926773,
+    "modifiedTime": 1755808970242,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!uqmGGpdhi0ydtN5f"
+}

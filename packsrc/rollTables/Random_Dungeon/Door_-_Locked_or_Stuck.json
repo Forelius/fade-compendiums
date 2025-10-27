@@ -1,0 +1,95 @@
+{
+  "folder": "GUcSoEJjBu3wxZuZ",
+  "name": "Door - Locked or Stuck",
+  "_id": "RmoNBcu257iVudpT",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "V0KtsDuhFdjK1EgG",
+    "vPAX9n5Xor8aBl7c",
+    "GQ59SnHkR9lCVXlt",
+    "z32fQSshbyhPSV6v"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.1",
+    "createdTime": 1753190393320,
+    "modifiedTime": 1755385316284,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d20",
+  "_originalKey": "!tables!RmoNBcu257iVudpT",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!RmoNBcu257iVudpT.GQ59SnHkR9lCVXlt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        12
+      ],
+      "drawn": false,
+      "_id": "GQ59SnHkR9lCVXlt",
+      "text": "Door is unlocked, but stuck shut",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!RmoNBcu257iVudpT.V0KtsDuhFdjK1EgG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "V0KtsDuhFdjK1EgG",
+      "text": "The door is both locked and stuck shut",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!RmoNBcu257iVudpT.vPAX9n5Xor8aBl7c",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        7
+      ],
+      "drawn": false,
+      "_id": "vPAX9n5Xor8aBl7c",
+      "text": "Door is locked",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!RmoNBcu257iVudpT.z32fQSshbyhPSV6v",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        20
+      ],
+      "drawn": false,
+      "_id": "z32fQSshbyhPSV6v",
+      "text": "Door is unlocked and will open freely",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

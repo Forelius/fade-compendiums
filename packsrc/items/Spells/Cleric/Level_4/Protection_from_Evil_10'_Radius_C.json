@@ -1,0 +1,60 @@
+{
+  "name": "Protection from Evil 10' Radius (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible barrier around the caster, extending 10' in all directions. It grants each creature within the barrier a +1 bonus to all saving throws, while attacks against those inside suffer a -1 penalty on attack rolls.</p>\n                      <p><strong>Effect:</strong> Enchanted creatures (such as magically summoned or controlled beings) cannot engage in melee with anyone inside the barrier. However, if a protected creature attacks an enchanted one, the barrier no longer prevents melee attacks, though saving throw bonuses and attack roll penalties remain active.</p>\n                      <p>Missile and magical attacks from outside the barrier still suffer the -1 attack penalty but are otherwise unaffected.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "0",
+    "duration": "12 turns",
+    "effect": "Creates a 20' diameter barrier",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Protected",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.zbJS8ZQ3soIFqaWA",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821382372,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "zbJS8ZQ3soIFqaWA",
+  "sort": 0,
+  "_originalKey": "!items!zbJS8ZQ3soIFqaWA"
+}

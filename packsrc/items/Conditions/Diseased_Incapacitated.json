@@ -1,0 +1,71 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Diseased (Incapacitated)",
+  "type": "condition",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This condition represent a serious disease causes the victim to be sick in bed, unable to adventure.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "IVbwafZoj8njYk8A"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.2",
+    "createdTime": 1757596413923,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "GXKrN7Bjvj1A2aMS",
+  "sort": 600000,
+  "_originalKey": "!items!GXKrN7Bjvj1A2aMS",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!GXKrN7Bjvj1A2aMS.IVbwafZoj8njYk8A",
+      "name": "Diseased (Incapacitated)",
+      "img": "icons/svg/aura.svg",
+      "disabled": false,
+      "_id": "IVbwafZoj8njYk8A",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": 2419200,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.2",
+        "createdTime": 1757596736504,
+        "modifiedTime": 1757596781122,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

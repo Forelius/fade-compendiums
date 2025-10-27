@@ -1,0 +1,54 @@
+{
+  "name": "Magic Door*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a magical, invisible doorway that only the spellcaster may use. It forms a passage through up to 10 feet of non-living solid material (wall, floor, ceiling, or ground). The door cannot be created in living objects.</p><h4>Mechanics & Rules:</h4><ul><li>The door is invisible and can only be detected by <em>Detect Magic</em>.</li><li>It cannot be destroyed except by <em>Dispel Magic</em> (normal chances for success).</li><li>The passage remains until it has been used seven times (each one-way passage counts as a use) or is dispelled.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "10'",
+    "duration": "Until dispelled or 7 uses",
+    "effect": "Creates one passage",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "7",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "tfo6CcVjlewdkl0R",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.tfo6CcVjlewdkl0R",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903901661,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!tfo6CcVjlewdkl0R"
+}

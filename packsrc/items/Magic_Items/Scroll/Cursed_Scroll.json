@@ -1,0 +1,66 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Cursed Scroll",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>Unfortunately, when any writing on a cursed scroll is even seen, the victim is immediately cursed. No reading is necessary. The GM must make up each scroll's curse. Examples of a few common curses include the following:</p><ul><li><p>The reader turns into a frog (or some other harmless animal).</p></li><li><p>A wandering monster of the same level as the reader appears and attacks the reader by surprise (a free attack with bonuses).</p></li><li><p>One magical item owned by the reader disappears (the item is chosen or randomly determined by the GM).</p></li><li><p>The reader loses one level of experience, as if struck by a wight. (The GM should roll again for a first-level character to avoid unfair \"instant death.\")</p></li><li><p>The reader's Prime Requisite must be re-rolled.</p></li><li><p>Future wounds will take twice as long to heal, and healing spells will only restore half normal amounts until the curse is lifted.</p></li></ul><p>Only a <em>remove curse</em> spell can remove a curse of this nature. However, the GM may allow the cursed character to be cured by a high-level NPC cleric or magic-user, who will demand that the character complete a special adventure or perform a worthy but difficult task.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.5",
+    "createdTime": 1761567739205,
+    "modifiedTime": 1761569957846,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "1PLVb4ReYx16KRAK",
+  "sort": 2000000,
+  "_originalKey": "!items!1PLVb4ReYx16KRAK"
+}

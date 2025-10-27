@@ -1,0 +1,54 @@
+{
+  "name": "Power Word Blind",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>With this spell, the caster may blind one victim within 120'. The effect is automatic—no saving throw is allowed. The duration of the blindness depends on the victim's current hit points.</p><h4>Effect Based on Hit Points:</h4><ul><li>1-40 HP: Blinded for [[/r 1d4 #Days Blinded]] days.</li><li>41-80 HP: Blinded for [[/r 2d4 #Hours Blinded]] hours.</li><li>81+ HP: The spell has no effect.</li></ul><h4>Blinded Condition:</h4><ul><li>Blinded creatures suffer a -4 penalty to all saving throws.</li><li>Blinded creatures also suffer a +4 penalty to their armor class.</li></ul><h4>Removing the Blindness:</h4><ul><li>A <em>Cure Blindness</em> or <em>Cureall</em> spell can remove the effect, but only if cast by a cleric whose level is equal to or higher than the caster of <em>Power Word Blind</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "120'",
+    "duration": "1d4 days or 2d4 hours (see description)",
+    "effect": "Blinds 1 creature with 80 HP or less",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "2JFKkTAXwgOuFOgg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.2JFKkTAXwgOuFOgg",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904510546,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!2JFKkTAXwgOuFOgg"
+}

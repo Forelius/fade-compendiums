@@ -1,0 +1,43 @@
+{
+  "folder": "8w4pVPrvcigDH9W5",
+  "name": "Alchemy",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "_id": "ElIRM6n2nojWJJdh",
+  "system": {
+    "description": "<p>This skill provides the ability to recognize and identify common  alchemical substances, potions, and poisons. Success with this skill will allow a character to create an antidote potion for one specific type of poison—if the DM says that this is possible in his campaign.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.ElIRM6n2nojWJJdh",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565625019,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ElIRM6n2nojWJJdh"
+}

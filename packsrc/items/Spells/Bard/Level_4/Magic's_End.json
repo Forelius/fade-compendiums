@@ -1,0 +1,56 @@
+{
+  "name": "Magic's End",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "TnEmaPQavdbpoj5v",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>When sung, this spell-song dispels all spells and magical effects within its area of effect. However, unlike the <em>Dispel Magic</em> spell, there is always a chance that a spell or effect will resist being dispelled.</p><p><strong>Effects:</strong></p><ul><li>Dispels all spells and magical effects within a 20' x 20' x 20' cube.</li><li>Each affected spell or effect has a base 20% resistance if its level is equal to or lower than the bard's level.</li><li>For every level higher than the bard's, the resistance increases by +5%.</li></ul><p><strong>Resistance Calculation:</strong></p><ul><li>Example: A 7th-level bard attempts to dispel a <em>Cloudkill</em> spell cast by a 12th-level magic-user.</li><li>The resistance chance is 20% + (5% x 5) = 45%.</li><li>Roll [[/r 1d100 #Dispel Resistance]]; if the result is lower than or equal to the resistance chance, the spell resists being dispelled.</li></ul><p><strong>Additional Notes:</strong></p><ul><li>Applies to spell-like effects from magic items, with the DM estimating the original caster's level.</li><li>Permanent magical effects are subject to DM discretion for dispelling.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Attempts to dispel all magical effects in the area",
+    "targetSelf": false,
+    "targetOther": true,
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "cDelNgr5HTdbMfjR",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.cDelNgr5HTdbMfjR",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727537053,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!cDelNgr5HTdbMfjR"
+}

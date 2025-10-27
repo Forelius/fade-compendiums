@@ -1,0 +1,54 @@
+{
+  "name": "Survival",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the recipient complete protection against all <strong>non-magical</strong> environmental hazards. While the spell is in effect, the recipient does not need air, food, water, or sleep.</p>\n                      <p><strong>Protection Includes:</strong></p>\n                      <ul>\n                        <li>Survival in extreme heat or cold (such as deserts or blizzards).</li>\n                        <li>Breathing in airless environments (underground, underwater, space, etc.).</li>\n                        <li>Survival in vacuum or toxic natural atmospheres.</li>\n                        <li>Immunity to environmental damage from other planes (such as the Elemental Plane of Fire).</li>\n                      </ul>\n                      <p><strong>Limitations:</strong></p>\n                      <ul>\n                        <li>Does <strong>not</strong> protect against <em>magical</em> damage, including spells.</li>\n                        <li>Does <strong>not</strong> prevent attack damage, poisons, breath weapons, or physical blows.</li>\n                      </ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Touch",
+    "duration": "One hour per caster level",
+    "effect": "Protects one creature against all non-magical damage from the environment",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.C.castLevel*360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "chuJwAFSZjZnW2qR",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.chuJwAFSZjZnW2qR",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822002871,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!chuJwAFSZjZnW2qR"
+}

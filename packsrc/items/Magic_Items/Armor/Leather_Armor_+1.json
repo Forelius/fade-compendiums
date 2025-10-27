@@ -1,0 +1,112 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Leather Armor +1",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/leather.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Magical leather armor gives an armor class of 7 plus magic bonus, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 20,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 7,
+    "isShield": false,
+    "unidentifiedName": "Leather Armor",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "dmgFormula": null,
+    "armorWeight": "light",
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "effects": [
+    "GScqQb7t782IgoZN"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.cn8r8ahxrpcuHAyn",
+    "duplicateSource": "Item.HcStaQSC3tAeJT1C",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1743219182967,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "cn8r8ahxrpcuHAyn",
+  "sort": 0,
+  "_originalKey": "!items!cn8r8ahxrpcuHAyn",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!cn8r8ahxrpcuHAyn.GScqQb7t782IgoZN",
+      "name": "Armor+1",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.cn8r8ahxrpcuHAyn",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "GScqQb7t782IgoZN",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

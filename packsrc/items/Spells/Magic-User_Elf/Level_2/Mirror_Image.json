@@ -1,0 +1,64 @@
+{
+  "name": "Mirror Image",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates [[/r 1d4 #Number of Images]] illusory duplicates of the spellcaster that move and act like them. The images stay within 3' of the caster and imitate their movements and speech without requiring concentration.</p>\n        <p>The images are not real and cannot take any actions. Any successful attack that would hit the spellcaster instead destroys one of the images, regardless of damage. This continues until all images are gone. Area attacks, such as a fireball, destroy all images at once and also affect the spellcaster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0",
+    "duration": "6 turns",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Mirror Imaged",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Rrz0UWOcxz19lYiW"
+      }
+    ]
+  },
+  "_id": "SRQDDFpENaW4rjuo",
+  "effects": [],
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.SRQDDFpENaW4rjuo",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749836206943,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!SRQDDFpENaW4rjuo"
+}

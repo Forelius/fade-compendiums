@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Poisoned",
+  "type": "condition",
+  "img": "icons/svg/poison.svg",
+  "_id": "OlbYsU9500kvLF3F",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "9NPE6yhaOOZaeNaH"
+  ],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.4",
+    "createdTime": 1758290821249,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!OlbYsU9500kvLF3F",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!OlbYsU9500kvLF3F.9NPE6yhaOOZaeNaH",
+      "name": "Poisoned",
+      "img": "icons/svg/poison.svg",
+      "disabled": false,
+      "_id": "9NPE6yhaOOZaeNaH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "poison"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.4",
+        "createdTime": 1758290821271,
+        "modifiedTime": 1758290896347,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

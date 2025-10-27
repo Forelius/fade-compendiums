@@ -1,0 +1,43 @@
+{
+  "name": "Engineering",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill covers the planning, design, and construction of large-scale projects like buildings, bridges, and dams. A character with this skill can oversee such projects to ensure they are structurally sound and meet the desired specifications. The skill can also be used to assess the stability and integrity of existing structures, determining their age, origin, and current condition. Without proper engineering oversight, large projects may collapse or otherwise fail catastrophically. In certain situations, the skill may also be applied to analyze and solve complex mechanical problems or to disable traps and devices constructed with advanced engineering.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "u65kTuqJAwWlvGzh",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.u65kTuqJAwWlvGzh",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565654608,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!u65kTuqJAwWlvGzh"
+}

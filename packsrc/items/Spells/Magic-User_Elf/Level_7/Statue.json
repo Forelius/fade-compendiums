@@ -1,0 +1,54 @@
+{
+  "name": "Statue",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to transform into a stone statue at will for the duration. The caster may change to or from statue form once per round.</p><h4>Effects While in Statue Form:</h4><ul><li>Armor Class: -4</li><li>Immune to normal weapons</li><li>Immune to fire and cold (normal and magical)</li><li>Immune to gas attacks, drowning, and suffocation (does not breathe)</li><li>Cannot move or cast new spells</li><li>Can concentrate on ongoing spells</li><li>Still takes damage from magical weapons and spells (e.g., lightning bolt)</li></ul><h4>Additional Rules:</h4><ul><li>Not immune to petrification effects (e.g., gorgon breath) but can revert to normal after 1 round.</li><li>When attacked by fire or cold spells in normal form, the caster gains a +2 initiative bonus to change into statue form before being hit.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "0 (Caster only)",
+    "duration": "2 turns per level",
+    "effect": "Allows caster to turn to stone",
+    "targetSelf": true,
+    "targetOther": false,
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel * 120",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "IwPK4G2eMwIw7eyC",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.IwPK4G2eMwIw7eyC",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904033671,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!IwPK4G2eMwIw7eyC"
+}

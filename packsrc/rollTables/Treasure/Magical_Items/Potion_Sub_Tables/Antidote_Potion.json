@@ -1,0 +1,95 @@
+{
+  "name": "Antidote Potion",
+  "formula": "1d10",
+  "results": [
+    "2oubgmOwh0E2qaOM",
+    "KWtNTHtokhoHi4ls",
+    "VX446qBw0hrTnK76",
+    "0DSRzdLh42Ux66Kr"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the effectiveness of an Antidote Potion, ranging from poisons caused by creatures with 3-HD to all poisons.</p>",
+  "folder": "X85Fi9NfqjhLiHIy",
+  "_id": "cBV9JQLQe5bgnUho",
+  "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cBV9JQLQe5bgnUho",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!cBV9JQLQe5bgnUho",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.0DSRzdLh42Ux66Kr",
+      "text": "All poisons",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+      "_id": "0DSRzdLh42Ux66Kr",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.2oubgmOwh0E2qaOM",
+      "text": "Poisons from 3-HD (or lesser) creatures",
+      "range": [
+        1,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+      "_id": "2oubgmOwh0E2qaOM",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.KWtNTHtokhoHi4ls",
+      "text": "Poisons from 7-HD (or lesser) creatures. Also works on Poison Potion.",
+      "range": [
+        5,
+        7
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+      "_id": "KWtNTHtokhoHi4ls",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.VX446qBw0hrTnK76",
+      "text": "Poisons from 15-HD (or lesser) creatures. Also works on Poison Potion.",
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
+      "_id": "VX446qBw0hrTnK76",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

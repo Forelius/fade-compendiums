@@ -1,0 +1,27 @@
+{
+  "name": "Set Prototype Token HP Display Mode",
+  "type": "script",
+  "command": "(async () => {\n  // Define the resource key for HP\n  const hpResourceKey = \"hp\";\n\n  // Map of display mode options using Foundry's constants\n  const displayModeOptions = {\n    [CONST.TOKEN_DISPLAY_MODES.NONE]: \"None\",\n    [CONST.TOKEN_DISPLAY_MODES.HOVER]: \"Hovered by Anyone\",\n    [CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER]: \"Hovered by Owner\",\n    [CONST.TOKEN_DISPLAY_MODES.CONTROL]: \"Controlled\",\n    [CONST.TOKEN_DISPLAY_MODES.OWNER]: \"Always for Owner\",\n    [CONST.TOKEN_DISPLAY_MODES.ALWAYS]: \"Always for Anyone\"\n  };\n\n  // Create a dialog to let the user select the display mode\n  const content = `\n    <form>\n      <div class=\"form-group\">\n        <label for=\"display-mode\">Choose Display Mode:</label>\n        <select id=\"display-mode\" name=\"display-mode\">\n          ${Object.entries(displayModeOptions)\n            .map(([value, label]) => `<option value=\"${value}\">${label}</option>`)\n            .join(\"\")}\n        </select>\n      </div>\n    </form>\n  `;\n\n  // Display the dialog\n  new Dialog({\n    title: \"Set Prototype Token HP Display Mode\",\n    content,\n    buttons: {\n      apply: {\n        label: \"Apply\",\n        callback: async (html) => {\n          const selectedMode = parseInt(html.find(\"#display-mode\").val(), 10);\n\n          // Update all prototype tokens of world actors\n          const updates = game.actors.map(actor => ({\n            _id: actor.id,\n            \"prototypeToken.bar1.attribute\": hpResourceKey,\n            \"prototypeToken.displayBars\": selectedMode\n          }));\n\n          if (updates.length > 0) {\n            await Actor.updateDocuments(updates);\n            ui.notifications.info(`Updated ${updates.length} actor(s) prototype tokens with the selected display mode.`);\n          } else {\n            ui.notifications.warn(\"No actors found to update.\");\n          }\n        }\n      },\n      cancel: {\n        label: \"Cancel\",\n        callback: () => ui.notifications.info(\"Operation canceled.\")\n      }\n    },\n    default: \"apply\"\n  }).render(true);\n})();",
+  "img": "icons/svg/dice-target.svg",
+  "_id": "s9CtJzfYxfohqgid",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "folder": "8QnG4j2FXrIxRegn",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Macro.s9CtJzfYxfohqgid",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.21-rc.3",
+    "createdTime": 1737723274725,
+    "modifiedTime": 1743687205930,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!macros!s9CtJzfYxfohqgid"
+}

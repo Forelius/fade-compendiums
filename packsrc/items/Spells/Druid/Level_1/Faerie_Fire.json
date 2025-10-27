@@ -1,0 +1,61 @@
+{
+  "name": "Faerie Fire",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "g3jvAcmryr9gDGqS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell outlines one or more creatures or objects with a pale, flickering, greenish fire, which does not cause damage. The outlined creatures or objects become more visible, granting a +2 bonus to attack rolls against them. The druid can outline one man-sized creature for each 5 levels of experience, up to a maximum of 48 feet of fire at 20th level.</p><p>The objects or creatures need only be detected in some way (such as by sight, or a <em>detect invisible</em> spell) to be the object of this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60'",
+    "duration": "1 round per level of caster",
+    "effect": "Illuminates creatures or objects",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "hwRKnWiSCNQcSzjG",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.hwRKnWiSCNQcSzjG",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822122006,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!hwRKnWiSCNQcSzjG"
+}

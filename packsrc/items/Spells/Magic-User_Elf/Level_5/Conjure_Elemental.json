@@ -1,0 +1,54 @@
+{
+  "name": "Conjure Elemental",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to summon one elemental (AC -2, HD 16, Damage 3d8) within range. The caster may only summon one elemental of each type (earth, air, fire, water) per day.</p>\n                      <p><strong>Control:</strong> The elemental will follow the caster's commands as long as concentration is maintained. The caster cannot fight, cast other spells, or move more than half speed while maintaining control. If control is lost, the elemental will attempt to kill the caster, attacking anyone in its path while pursuing.</p>\n                      <p>The caster can dismiss a controlled elemental by concentration, while an uncontrolled elemental can be dismissed by a *Dispel Magic* or *Dispel Evil* spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "Concentration",
+    "effect": "Summons one 16 HD elemental",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "3d8",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "physical",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.1swkhnr0VEO6edzd",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902565206,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "1swkhnr0VEO6edzd",
+  "sort": 0,
+  "_originalKey": "!items!1swkhnr0VEO6edzd"
+}

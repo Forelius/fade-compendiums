@@ -1,0 +1,1355 @@
+{
+  "name": "Efreeti (Greater, Amir)*",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "G",
+      "morale": 11,
+      "xpAward": 7775,
+      "attacks": "2",
+      "abilityCount": 3,
+      "monsterType": "Planar Monster, Enchanted",
+      "saveAs": "M36",
+      "castAs": "M20",
+      "classAbilityAs": "",
+      "level": 20,
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "20",
+      "value": 90,
+      "max": 90
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1"
+    },
+    "treasure": "Nil",
+    "thac0": {
+      "value": 5,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 120,
+      "max": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120
+    },
+    "biography": "<p>On the elemental plane of Fire, the rulers of the efreet are known as amirs. These mighty beings appear as enormous efreet, standing between 15 and 30 feet tall. Unlike lesser efreet, an amir <strong>cannot be harmed by normal weapons or even by magical weapons of less than +2</strong> enchantment. They also regenerate 2 hit points per round.</p><p>Amirs possess all the abilities of a lesser efreeti and can use them as often as desired, once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for one full round.</p><p>Once per day, an amir can grant another's wish, cast <em>fireball</em>, or unleash an <em>explosive cloud</em>, all as if cast by a 20th-level magic-user.</p><p>Amirs can assume a pillar of flame form without limit, igniting all flammable objects within 15 feet. While in this form, their melee attacks deal an additional 2d8 fire damage.</p><p>These beings cannot be summoned by spells and are resistant to most magical items. They rarely appear on the Prime Plane, doing so only in response to the cries of mistreated efreeti. When they do, they can appear anywhere but prefer hot environments such as deserts.</p><p><strong>Terrain:</strong> Plane of Fire</p><p><strong>Load:</strong> Flies with up to 10,000 cn at full speed or 20,000 cn at half speed. Walks with up to 20,000 cn at full speed or 40,000 cn at half speed.</p>",
+    "config": {
+      "maxSpellLevel": 9,
+      "firstSpellLevel": 1
+    },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 14,
+    "encumbrance": {
+      "value": 0,
+      "max": 20000,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 49,
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": true,
+    "abilities": {
+      "int": {
+        "value": 14,
+        "total": 14,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 40,
+        "total": 40,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "movement2": {
+      "turn": 0,
+      "max": 360,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "actorGroups": [
+      "spellcasters",
+      "enchanted",
+      "planar"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Efreeti (Greater; Amir)*",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "enabled": true,
+        "range": null
+      },
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "hexagonalShape": 0
+  },
+  "items": [
+    "TdzmsfLynbNijNyd",
+    "q0wZe1hk3X28QF5I",
+    "Xg7L1dRpPQeE3Yfy",
+    "C70FZIEFd8JdE6tr",
+    "VP1jrGmNSxDrwNvS",
+    "ALo8sDe6YIIxDGhS",
+    "RxBOLfPjXfKFroiQ",
+    "LS2QScDvTkxIP2HJ",
+    "BsIQA9vV5sCbfTkl",
+    "bDxRsTdCoYDpNrCq",
+    "q9EEZNUW5enhMryR",
+    "EyOUfosKEsCSNJ7l",
+    "CZooGZ0vFrVZ6D3s",
+    "sBlqcp8vJLw3Sswf",
+    "4ziiafnwn68rWOcO",
+    "5Lx4E9f3NLdUoXi5",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "effects": [
+    "PQIhNJU5OjpU9PJU"
+  ],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.7Tn6jB63dFj6MA2L",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.7",
+    "createdTime": 1754659676039,
+    "modifiedTime": 1757514386429,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "7Tn6jB63dFj6MA2L",
+  "sort": 2900000,
+  "_originalKey": "!actors!7Tn6jB63dFj6MA2L",
+  "embedded": [
+    {
+      "_originalKey": "!actors.effects!7Tn6jB63dFj6MA2L.PQIhNJU5OjpU9PJU",
+      "name": "Flame Form Damage Bonus",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.actor-compendium.Actor.7Tn6jB63dFj6MA2L",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "PQIhNJU5OjpU9PJU",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 5,
+          "value": "2d8",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 5,
+          "value": "2d8",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.4ziiafnwn68rWOcO",
+      "name": "Fireball",
+      "type": "spell",
+      "img": "systems/fantastic-depths/assets/img/item/spell.png",
+      "folder": "SHIX4pYpBO0PFIgd",
+      "system": {
+        "tags": [],
+        "description": "<p>This spell creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 1d6 fire damage per caster level to every creature in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. spells for half damage.</p>\n                      <p>For example, a fireball cast by a 6th-level caster deals 6d6 (6-36) points of damage. On a successful saving throw, the damage is halved.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "spellLevel": 3,
+        "range": "240'",
+        "duration": "Instantaneous",
+        "effect": "Explosion in a sphere 40' diameter",
+        "memorized": 1,
+        "cast": 0,
+        "targetSelf": false,
+        "targetOther": true,
+        "dmgFormula": "(@classes.M.castLevel)d6",
+        "healFormula": "",
+        "maxTargetFormula": "1",
+        "durationFormula": "0",
+        "savingThrow": "spell",
+        "saveDmgFormula": null,
+        "attackType": "",
+        "damageType": "fire",
+        "classes": [
+          {
+            "name": "Magic-User",
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+          },
+          {
+            "name": "Elf",
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+          }
+        ],
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4ziiafnwn68rWOcO",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "4ziiafnwn68rWOcO",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.5Lx4E9f3NLdUoXi5",
+      "name": "Explosive Cloud",
+      "type": "spell",
+      "img": "systems/fantastic-depths/assets/img/item/spell.png",
+      "folder": "tpOpaJqww9ZZvZT2",
+      "system": {
+        "tags": [],
+        "description": "<p>This spell creates a 30' diameter, 20' tall cloud of greenish gas filled with sparkling explosions, appearing next to the caster. It visually resembles the <em>Cloudkill</em> spell but has different effects.</p><h4>Effects:</h4><ul><li>The cloud moves away from the caster at a speed of 20' per round in a direction chosen by the caster.</li><li>Poisonous Gas: Each creature in the cloud must make a saving throw vs. spells or be **paralyzed** for 1 round. They may attempt a new saving throw each round.</li><li>Explosions: The cloud is filled with **tiny detonations**, dealing damage each round to all creatures inside.</li></ul><h4>Damage:</h4><p>Each creature inside the cloud takes 1 point of damage per 2 caster levels (rounded down). This damage ignores resistances (affecting creatures immune to fire, gas, electricity, etc.).</p><ul><li>Levels 18-19: [[/r 9 #Explosive Cloud Damage]]</li><li>Levels 20-21: [[/r 10 #Explosive Cloud Damage]]</li><li>Levels 22-23: [[/r 11 #Explosive Cloud Damage]]</li><li>Levels 24-25: [[/r 12 #Explosive Cloud Damage]]</li><li>Levels 26-27: [[/r 13 #Explosive Cloud Damage]]</li><li>Levels 28-29: [[/r 14 #Explosive Cloud Damage]]</li><li>Levels 30-31: [[/r 15 #Explosive Cloud Damage]]</li><li>Levels 32-33: [[/r 16 #Explosive Cloud Damage]]</li><li>Levels 34-35: [[/r 17 #Explosive Cloud Damage]]</li><li>Level 36: [[/r 18 #Explosive Cloud Damage]]</li></ul><h4>Duration:</h4><p>The cloud persists for 6 turns (60 rounds).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "spellLevel": 8,
+        "range": "1'",
+        "duration": "6 turns",
+        "effect": "Creates a moving poisonous cloud",
+        "targetSelf": false,
+        "targetOther": true,
+        "dmgFormula": "Math.floor(@classes.M.castLevel / 2)",
+        "attackType": "",
+        "damageType": "magic",
+        "healFormula": "",
+        "maxTargetFormula": "-",
+        "durationFormula": "360",
+        "savingThrow": "death",
+        "memorized": 1,
+        "cast": 0,
+        "saveDmgFormula": null,
+        "classes": [
+          {
+            "name": "Magic-User",
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+          }
+        ],
+        "conditions": []
+      },
+      "effects": [],
+      "_id": "5Lx4E9f3NLdUoXi5",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.5Lx4E9f3NLdUoXi5",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.ALo8sDe6YIIxDGhS",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ALo8sDe6YIIxDGhS",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.y2oCWVc2M1yTE20R",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.BsIQA9vV5sCbfTkl",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "BsIQA9vV5sCbfTkl",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.FWPTVC5W45aZzZMY",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.C70FZIEFd8JdE6tr",
+      "name": "Ethereal Travel",
+      "type": "specialAbility",
+      "system": {
+        "description": "Can enter or leave the Ethereal Plane by concentrating for one full round.",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "C70FZIEFd8JdE6tr",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.CZooGZ0vFrVZ6D3s",
+      "name": "Create Illusion",
+      "type": "specialAbility",
+      "system": {
+        "description": "<p>Can produce illusions at will.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "CZooGZ0vFrVZ6D3s",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.HWOPi9LeCcJY2qoW.Item.CZooGZ0vFrVZ6D3s",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.EyOUfosKEsCSNJ7l",
+      "name": "Create Object",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Can create objects at will.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "EyOUfosKEsCSNJ7l",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.HWOPi9LeCcJY2qoW.Item.EyOUfosKEsCSNJ7l",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.LS2QScDvTkxIP2HJ",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "LS2QScDvTkxIP2HJ",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.J5SgmaRRd8UeZroR",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.RxBOLfPjXfKFroiQ",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "RxBOLfPjXfKFroiQ",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.j3TIIGM9mWiQXVKp",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.TdzmsfLynbNijNyd",
+      "name": "Flame-Wreathed Body",
+      "type": "armor",
+      "system": {
+        "description": "Superheated form grants an AC of 2. Cannot be harmed by normal weapons or by magical weapons of less than +2 enchantment.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": -2,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "TdzmsfLynbNijNyd",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.2",
+        "createdTime": null,
+        "modifiedTime": 1757599723015,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.VP1jrGmNSxDrwNvS",
+      "name": "Regeneration",
+      "type": "specialAbility",
+      "system": {
+        "description": "Regenerates 2 hit points per round.",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "VP1jrGmNSxDrwNvS",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.Xg7L1dRpPQeE3Yfy",
+      "name": "Pillar of Flame",
+      "type": "specialAbility",
+      "system": {
+        "description": "Can transform into a pillar of fire at will, igniting all flammable objects within 15 feet. While in this form, melee attacks deal an additional 2d8 fire damage.",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "icons/magic/fire/elemental-fire-flying.webp",
+      "_id": "Xg7L1dRpPQeE3Yfy",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.bDxRsTdCoYDpNrCq",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "bDxRsTdCoYDpNrCq",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "2",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.TSY8SHAE8ovvNBvu",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.7",
+        "createdTime": 1757514394453,
+        "modifiedTime": 1757514394453,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.q0wZe1hk3X28QF5I",
+      "name": "Fists",
+      "type": "weapon",
+      "system": {
+        "description": "<p>A devastating and fiery melee attack.</p>",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "3d10",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 2,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "_id": "q0wZe1hk3X28QF5I",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.q9EEZNUW5enhMryR",
+      "name": "Invisibility",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Can turn invisible at will.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "q9EEZNUW5enhMryR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.HWOPi9LeCcJY2qoW.Item.q9EEZNUW5enhMryR",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_originalKey": "!actors.items!7Tn6jB63dFj6MA2L.sBlqcp8vJLw3Sswf",
+      "name": "Wish",
+      "type": "spell",
+      "img": "systems/fantastic-depths/assets/img/item/spell.png",
+      "folder": "6NeTFZvE9Eu29rQY",
+      "system": {
+        "tags": [],
+        "description": "<p>The Wish spell is the most powerful spell a magic-user can cast. It is never found on scrolls but may be placed in rare magical items, such as rings. Only magic-users of 36th level with a Wisdom score of 18 or greater may cast this spell.</p><h4>Wording the Wish:</h4><p>The player must clearly state or write the exact wish. The wording is critically important, as the wish will usually follow the literal meaning of the words spoken—regardless of the caster's intentions.</p><p>The DM is responsible for maintaining game balance. Poorly worded wishes may have unintended consequences, while selfish or greedy wishes may be deliberately twisted by the DM. If a wish is unreasonable, the DM may simply rule that it has no effect.</p><h4>Examples of Faulty Wishes:</h4><ul><li>\"I wish that I knew everything about this dungeon.\" - The character gains full knowledge for a moment but then immediately forgets everything.</li><li>\"I wish for a million gold pieces.\" - The gold pieces may appear, but they might land on the caster (crushing them) and then vanish.</li><li>\"I wish to permanently gain the gaze power of a basilisk while retaining all my abilities.\" - This could result in the caster growing an additional basilisk head.</li></ul><h4>Wish Limitations & Effects:</h4><ul><li>A wish cannot be used to gain experience points or levels.</li><li>A properly worded wish can substitute for any magic-user spell of 8th level or lower or any clerical or druidic spell of 6th level or lower at the DM’s discretion.</li><li>If the wish is used to harm a creature, the target may make a saving throw vs. spells. If successful, the effect is halved, and the other half rebounds on the caster (who may save with a -4 penalty).</li><li>If the wish is used to inconvenience rather than harm (such as teleporting a victim into a prison cell), no saving throw is allowed.</li></ul><h4>Special Uses of a Wish:</h4><ul><li>A wish can create treasure, up to 50,000 gold pieces. However, the caster loses 1 XP per gold piece gained, and this loss cannot be restored.</li><li>A wish can temporarily change one ability score to a minimum of 3 or maximum of 18, lasting six turns.</li><li>Permanent ability score increases require casting a number of wishes equal to the desired score (e.g., raising Strength from 15 to 16 requires 16 wishes within one week).</li><li>Wishes cannot permanently lower ability scores.</li></ul><h4>Racial & Class Effects:</h4><ul><li>A wish cannot raise a human character beyond 36th level, but it can grant a demihuman one additional Hit Die (maximum HD: Halflings 9, Elves 11, Dwarves 13).</li><li>A wish can change a demihuman to a human (or vice versa), allowing them to advance as a new class at the same level.</li><li>If a wish is used to change another character’s class, the target may make a saving throw vs. spells with a +5 bonus to resist.</li></ul><h4>Altering Past Events:</h4><p>A wish can alter events from the past 24 hours. However, it cannot fully overturn impossible odds. Examples include:</p><ul><li>A lost battle may be changed into a less severe defeat.</li><li>A character’s death could instead become a near-death experience.</li><li>A permanent loss may be converted into a temporary one.</li></ul><h4>Important Note:</h4><p>If an effect is stated to be unchangeable \"even with a wish\", this limitation overrides the spell’s normal capabilities.</p><h4>Game Balance & DM Discretion:</h4><p>The DM must ensure that wishes remain within reason. A wish cannot alter fundamental game mechanics (such as preventing dragons from using their breath weapons). The more unreasonable a wish is, the less likely it is to succeed as intended.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "spellLevel": 9,
+        "range": "Special",
+        "duration": "Special",
+        "effect": "Alters reality based on the caster’s wording",
+        "targetSelf": false,
+        "targetOther": true,
+        "dmgFormula": "",
+        "attackType": "",
+        "damageType": "magic",
+        "healFormula": "",
+        "maxTargetFormula": "1",
+        "durationFormula": "",
+        "savingThrow": "spell",
+        "memorized": 1,
+        "cast": 0,
+        "saveDmgFormula": null,
+        "classes": [
+          {
+            "name": "Magic-User",
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+          }
+        ],
+        "conditions": []
+      },
+      "effects": [],
+      "_id": "sBlqcp8vJLw3Sswf",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.sBlqcp8vJLw3Sswf",
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items.effects!7Tn6jB63dFj6MA2L.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.12.7",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

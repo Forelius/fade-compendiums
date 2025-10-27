@@ -1,0 +1,30 @@
+{
+  "folder": "8QnG4j2FXrIxRegn",
+  "name": "Set Folder Permission",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/svg/eye.svg",
+  "scope": "global",
+  "command": "new Dialog({\n  title: \"Update Folder and Content Permissions\",\n  content: `\n    <form>\n      <div class=\"form-group\">\n        <label for=\"folder-type\">Folder Type:</label>\n        <select id=\"folder-type\" name=\"folder-type\">\n          <option value=\"Actor\">Actor</option>\n          <option value=\"Item\">Item</option>\n        </select>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"folder-name\">Folder Name:</label>\n        <input type=\"text\" id=\"folder-name\" name=\"folder-name\" placeholder=\"Enter folder name\" />\n      </div>\n      <div class=\"form-group\">\n        <label for=\"permission-level\">Permission Level:</label>\n        <select id=\"permission-level\" name=\"permission-level\">\n          <option value=\"0\">None</option>\n          <option value=\"1\">Limited</option>\n          <option value=\"2\">Observer</option>\n          <option value=\"3\">Owner</option>\n        </select>\n      </div>\n    </form>\n  `,\n  buttons: {\n    apply: {\n      label: \"Update Permissions\",\n      callback: async (html) => {\n        const folderType = html.find('[name=\"folder-type\"]').val();\n        const folderName = html.find('[name=\"folder-name\"]').val();\n        const permissionLevel = parseInt(html.find('[name=\"permission-level\"]').val(), 10);\n\n        if (!folderType || !folderName) {\n          return ui.notifications.error(\"Please provide both a folder type and name.\");\n        }\n\n        const targetFolder = game.folders.find(f => f.type === folderType && f.name === folderName);\n\n        if (!targetFolder) {\n          return ui.notifications.error(`Folder \"${folderName}\" of type \"${folderType}\" not found.`);\n        }\n\n        console.log(\"Target Folder Data:\", targetFolder);\n\n        // Recursive Permission Update for Folders and Their Contents\n        async function updatePermissions(folder, level) {\n          const actualFolder = game.folders.get(folder.id);\n          if (!actualFolder) {\n            console.error(\"Invalid folder encountered:\", folder);\n            return;\n          }\n\n          try {\n            // Update folder permissions\n            await actualFolder.update({ ownership: { default: level } });\n            console.log(`Updated permissions for folder: ${actualFolder.name}`);\n\n            // Update permissions for all items/actors in the folder\n            const contents = folderType === \"Actor\" ? game.actors : game.items;\n            const folderContents = contents.filter(i => i.folder?.id === folder.id);\n            for (const item of folderContents) {\n              await item.update({ ownership: { default: level } });\n              console.log(`Updated permissions for item: ${item.name}`);\n            }\n          } catch (err) {\n            console.error(`Failed to update permissions for folder \"${actualFolder.name}\" or its contents`, err);\n          }\n\n          // Process child folders recursively\n          for (const childWrapper of folder.children) {\n            const childFolder = game.folders.get(childWrapper.folder._id);\n            if (childFolder) {\n              await updatePermissions(childFolder, level);\n            } else {\n              console.error(\"Failed to resolve child folder:\", childWrapper);\n            }\n          }\n        }\n\n        try {\n          await updatePermissions(targetFolder, permissionLevel);\n          ui.notifications.info(`Permissions updated recursively for \"${folderName}\" and its contents.`);\n        } catch (err) {\n          console.error(\"Recursive Update Failed:\", err);\n          ui.notifications.error(\"Recursive update encountered an error. Check the console.\");\n        }\n      }\n    },\n    cancel: {\n      label: \"Cancel\"\n    }\n  },\n  default: \"apply\"\n}).render(true);",
+  "ownership": {
+    "default": 0,
+    "QN7bnquJRbOJq0cq": 3,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.macro-compendium.Macro.IDiEUDHGtYBD4CNA",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.21-rc.3",
+    "createdTime": 1737723274725,
+    "modifiedTime": 1743687205930,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "NlCkDjvrQEzZ0TQx",
+  "sort": 500000,
+  "_originalKey": "!macros!NlCkDjvrQEzZ0TQx"
+}

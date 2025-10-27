@@ -1,0 +1,58 @@
+{
+  "name": "Stoneform",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a mass of 1,000 cubic feet of stone, which the caster can shape into a variety of solid forms. The created stone is nonmagical and cannot be dispelled.</p><h4>Shape & Casting Time:</h4><ul><li>A simple shape (wall, block, column) takes 1 round to form.</li><li>A basic structure (staircase, archway) takes 1 turn (10 minutes).</li><li>A complex design (statue, ornate fountain) takes up to 12 turns (2 hours).</li></ul><p>The object must be a single solid piece with no moving parts. The caster may later use <em>Stoneform</em> to modify an existing creation for up to 2 hours. Once satisfied, the caster can finalize the form with a last casting, preventing further modification.</p><h4>Restrictions & Properties:</h4><ul><li>The stone must rest on solid ground or similar support.</li><li>It cannot be formed in an occupied space.</li><li>Multiple castings can be seamlessly joined together.</li><li>The caster may choose the type of stone (within reason).</li><li>It is immune to dispel magic and lasts indefinitely unless physically destroyed.</li></ul><h4>Durability:</h4><ul><li>Stone walls have an AC of -4 (AC 6 if simplified) and 100 HP per 1' thickness.</li><li>Most exterior walls are about 7\" thick and have 60 HP.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates 1,000 cubic feet of stone",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "VWLo2PVQcVXfKOj9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.VWLo2PVQcVXfKOj9",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903470039,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!VWLo2PVQcVXfKOj9"
+}

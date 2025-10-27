@@ -1,0 +1,111 @@
+{
+  "name": "Armor Size Table",
+  "formula": "1d100",
+  "results": [
+    "vMyJUGh1R7DbYsPz",
+    "c2NajvsAnpKv1rSY",
+    "5PhzJH58l6E7wWDF",
+    "E9RJRI2zKIWBBLrI",
+    "sHXJpBKzze3xmK10"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the size category of the armor found, such as Human, Dwarf, Elf, Halfling, or Giant.</p>",
+  "folder": "TR10cmcdEZOUsSui",
+  "_id": "Plyb3V4zi41SFJqQ",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Plyb3V4zi41SFJqQ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743220229267,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 700000,
+  "_originalKey": "!tables!Plyb3V4zi41SFJqQ",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.5PhzJH58l6E7wWDF",
+      "text": "Elf-sized",
+      "range": [
+        82,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "5PhzJH58l6E7wWDF",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.E9RJRI2zKIWBBLrI",
+      "text": "Halfling-sized",
+      "range": [
+        92,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "E9RJRI2zKIWBBLrI",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.c2NajvsAnpKv1rSY",
+      "text": "Dwarf-sized",
+      "range": [
+        69,
+        81
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "c2NajvsAnpKv1rSY",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.sHXJpBKzze3xmK10",
+      "text": "Giant-sized",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "sHXJpBKzze3xmK10",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.vMyJUGh1R7DbYsPz",
+      "text": "Human-sized",
+      "range": [
+        1,
+        68
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "vMyJUGh1R7DbYsPz",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

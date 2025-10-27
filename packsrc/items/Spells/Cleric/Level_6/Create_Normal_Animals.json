@@ -1,0 +1,54 @@
+{
+  "name": "Create Normal Animals",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the cleric to create normal animals out of thin air. The animals appear at a chosen point within 30' and will obey the cleric at all times. They can be commanded to fight, carry items, guard areas, or perform other tasks within their natural abilities.</p>\n                      <p>Once created, the animals can be sent up to 240' away but will continue to follow the cleric's commands. However, if instructions are not carefully worded, they may act according to their natural instincts.</p>\n                      <p><strong>Number and Size of Animals:</strong> The cleric chooses the number of animals, but not their exact type. The DM determines the specific creatures, which may include:</p>\n                      <ul>\n                        <li>1 large animal (e.g., elephant, hippopotamus)</li>\n                        <li>3 medium-sized animals (e.g., bear, great cat)</li>\n                        <li>6 small animals (e.g., wolf, rock baboon)</li>\n                      </ul>\n                      <p>The spell <strong>cannot</strong> create giant animals. The animals disappear when slain or when the spell duration ends.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "30",
+    "duration": "10 turns",
+    "effect": "Creates 1-6 loyal animals",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1d6",
+    "durationFormula": "600",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "3KfubSzbjzLBE732",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.3KfubSzbjzLBE732",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821793925,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!3KfubSzbjzLBE732"
+}

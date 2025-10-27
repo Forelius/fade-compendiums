@@ -1,0 +1,58 @@
+{
+  "name": "Massmorph",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes up to 100 human- or man-sized creatures within a 240' diameter to appear as trees, such as in an orchard or dense forest. The type of tree or plant life should be appropriate to the terrain and environment (for instance, it typically would not work in a desert without large cacti).</p>\n                      <p><strong>Target Types:</strong> Only willing creatures are affected. Larger creatures, like horses, can be included, counting as two or three men-sized creatures each.</p>\n                      <p><strong>Effect:</strong> The illusion hides recipients from others moving through the affected area. A creature’s normal appearance returns if it moves out of the area, but movement within the area does not break the illusion. The spell lasts until dispelled or dismissed by the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "See below",
+    "effect": "Causes illusion of trees within 240' range",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "100",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.KowwUleUFltp9O0v",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902397805,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "KowwUleUFltp9O0v",
+  "sort": 0,
+  "_originalKey": "!items!KowwUleUFltp9O0v"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Rod of the Wyrm",
+  "formula": "1d10",
+  "results": [
+    "MqcOvLHu74oR4ktj",
+    "FmOsL8OVmXSrDm7r",
+    "HowMdwwAbcAJ6YML"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the attributes of the Rod of the Wyrm, including alignment, associated dragon type, AC modifier, and breath weapon.</p>",
+  "folder": "4RXHIPNv224QoWHB",
+  "_id": "4Cr4YxJKySCwR1LE",
+  "img": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.4Cr4YxJKySCwR1LE",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!4Cr4YxJKySCwR1LE",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!4Cr4YxJKySCwR1LE.FmOsL8OVmXSrDm7r",
+      "text": "<strong>Alignment:</strong> Neutral<br />          <strong>Dragon:</strong> Blue<br />          <strong>AC Modifier:</strong> 0<br />          <strong>Breath:</strong> Lightning",
+      "range": [
+        6,
+        8
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+      "_id": "FmOsL8OVmXSrDm7r",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Cr4YxJKySCwR1LE.HowMdwwAbcAJ6YML",
+      "text": "<strong>Alignment:</strong> Chaotic<br />          <strong>Dragon:</strong> Black<br />          <strong>AC Modifier:</strong> +2<br />          <strong>Breath:</strong> Acid",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+      "_id": "HowMdwwAbcAJ6YML",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Cr4YxJKySCwR1LE.MqcOvLHu74oR4ktj",
+      "text": "<strong>Alignment:</strong> Lawful<br />          <strong>Dragon:</strong> Gold<br />          <strong>AC Modifier:</strong> -2<br />          <strong>Breath:</strong> Fire/Gas",
+      "range": [
+        1,
+        5
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
+      "_id": "MqcOvLHu74oR4ktj",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

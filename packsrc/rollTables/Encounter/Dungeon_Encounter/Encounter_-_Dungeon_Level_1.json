@@ -1,0 +1,609 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 1",
+  "_id": "UgDPaRkvviPMEJGm",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "3cE2bRpZcx4C81ie",
+    "ExGlEjW5MiVpe4SU",
+    "MUm2vIXWF7wRzbQ5",
+    "oQF07OAPoPAytmYw",
+    "13IsDmd8uiYrHrNF",
+    "f3AbdgQB3SVoiHtP",
+    "2SmbNghSxuXrGoxz",
+    "7wLwpYgBluMfODVV",
+    "gG9BF1aLTxYVSODb",
+    "JPwHPTXTYXr5mVSb",
+    "gMc7k6t1KM75hPru",
+    "zIWTHBTtfn1AMHrx",
+    "ENSQx24T5UJpUmwl",
+    "ghGWgtbswF6L3Dfg",
+    "oS51BMqQV5kcMGqn",
+    "qs0N8BXas5At0ooH",
+    "EsX1gY2hpSJBrMu9",
+    "TanR7hRw6h8IGGy7",
+    "dRBK82hD8V9TvMxS",
+    "VofF8gsk4jirFezQ",
+    "16UFMH9CVZyh8DDQ",
+    "TyV3hdTNqN0OV4Sx",
+    "i35is9B9ncJdzV0E",
+    "jlDsenXCw1m2imge",
+    "mkuwXQ2eu5aqcP4H",
+    "n1rSFaudN6vcA5P6",
+    "c46rdlGcLvAw1IfE",
+    "Sd8XAJa6RRIR0Uaa",
+    "nPpAsEpsJf5Zp19V",
+    "oChYWPZ6lmHlXXiB",
+    "AGwkl7ThAUKQLRZc",
+    "zcolyBQT1QC24DXj",
+    "fcWdOicnTBTRq9Uq",
+    "aILdp22Hi8yfYhYY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.10.0-rc.30",
+    "createdTime": 1747407790293,
+    "modifiedTime": 1753190588191,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d20",
+  "_originalKey": "!tables!UgDPaRkvviPMEJGm",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.13IsDmd8uiYrHrNF",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Ghoul",
+      "documentId": "axQLZuNtlLVuaZ4B",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "13IsDmd8uiYrHrNF",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.16UFMH9CVZyh8DDQ",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "16UFMH9CVZyh8DDQ",
+      "text": "[[1d2]] Ghoul",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.2SmbNghSxuXrGoxz",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        10
+      ],
+      "drawn": false,
+      "text": "Normal Human",
+      "documentId": "kDl71qaMaLB7XFhb",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "2SmbNghSxuXrGoxz",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.3cE2bRpZcx4C81ie",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Bandit",
+      "documentId": "fc3OOJdQrP3lojfv",
+      "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+      "_id": "3cE2bRpZcx4C81ie",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.7wLwpYgBluMfODVV",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "Kobold",
+      "documentId": "LrFyA3hSCWV8vBQr",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "7wLwpYgBluMfODVV",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.AGwkl7ThAUKQLRZc",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "AGwkl7ThAUKQLRZc",
+      "text": "[[1d3]] Troglodyte",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.ENSQx24T5UJpUmwl",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "text": "Spider, Giant (Crab Spider)",
+      "documentId": "wREIzpLSLM49HnU1",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "ENSQx24T5UJpUmwl",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.EsX1gY2hpSJBrMu9",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "EsX1gY2hpSJBrMu9",
+      "text": "[[1d6]] Bandit",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.ExGlEjW5MiVpe4SU",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Beetle, Giant Fire",
+      "documentId": "6FcQ2B2dG5LRvwTC",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "ExGlEjW5MiVpe4SU",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.JPwHPTXTYXr5mVSb",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "text": "Orc",
+      "documentId": "x8wcYxKMfc0JxmnU",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "JPwHPTXTYXr5mVSb",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.MUm2vIXWF7wRzbQ5",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Insect Swarm (2 HD)",
+      "documentId": "46QLGSlGDLxcIg4D",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "MUm2vIXWF7wRzbQ5",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.Sd8XAJa6RRIR0Uaa",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "Sd8XAJa6RRIR0Uaa",
+      "text": "[[1d2]] Giant Racer Snake",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.TanR7hRw6h8IGGy7",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "TanR7hRw6h8IGGy7",
+      "text": "[[1d6]] Giant Fire Beetle",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.TyV3hdTNqN0OV4Sx",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "TyV3hdTNqN0OV4Sx",
+      "text": "[[1d6]] Goblin",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.VofF8gsk4jirFezQ",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "VofF8gsk4jirFezQ",
+      "text": "[[1d6]] Giant Centipede",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.aILdp22Hi8yfYhYY",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "aILdp22Hi8yfYhYY",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.c46rdlGcLvAw1IfE",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "c46rdlGcLvAw1IfE",
+      "text": "[[1d10]] Skeleton",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.dRBK82hD8V9TvMxS",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "dRBK82hD8V9TvMxS",
+      "text": "[[1d6]] Cave Locust",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.f3AbdgQB3SVoiHtP",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Goblin",
+      "documentId": "kq2aAg6OCWbOLOxR",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "f3AbdgQB3SVoiHtP",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.fcWdOicnTBTRq9Uq",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "fcWdOicnTBTRq9Uq",
+      "text": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.gG9BF1aLTxYVSODb",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Lizard, Gecko",
+      "documentId": "p2HAYW2LlRYOPOiv",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "gG9BF1aLTxYVSODb",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.gMc7k6t1KM75hPru",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "text": "Skeleton",
+      "documentId": "FZMd1uzbkuPkrIER",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "gMc7k6t1KM75hPru",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.ghGWgtbswF6L3Dfg",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "text": "Stirge",
+      "documentId": "TO5d1EBIWdJ5f7d5",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "ghGWgtbswF6L3Dfg",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.i35is9B9ncJdzV0E",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        10
+      ],
+      "drawn": false,
+      "_id": "i35is9B9ncJdzV0E",
+      "text": "[[1d3]] Human",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.jlDsenXCw1m2imge",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "jlDsenXCw1m2imge",
+      "text": "[[2d6]] Kobold",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.mkuwXQ2eu5aqcP4H",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "mkuwXQ2eu5aqcP4H",
+      "text": "[[1d2]] Giant Gecko Lizard",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.n1rSFaudN6vcA5P6",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "n1rSFaudN6vcA5P6",
+      "text": "[[1d6]] Orc",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.nPpAsEpsJf5Zp19V",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "nPpAsEpsJf5Zp19V",
+      "text": "[[1d2]] Giant Crab Spider",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.oChYWPZ6lmHlXXiB",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "oChYWPZ6lmHlXXiB",
+      "text": "[[1d8]] Stirge",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.oQF07OAPoPAytmYw",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Centipede, Giant",
+      "documentId": "g6XIqtw7I815FigN",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oQF07OAPoPAytmYw",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.oS51BMqQV5kcMGqn",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "text": "Troglodyte",
+      "documentId": "NiiZGvS7vbajX1n8",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oS51BMqQV5kcMGqn",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.qs0N8BXas5At0ooH",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "text": "Zombie",
+      "documentId": "fIxgBWMahQGjjZuP",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "qs0N8BXas5At0ooH",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.zIWTHBTtfn1AMHrx",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "text": "Snake, Giant Racer",
+      "documentId": "FIFnFyLFQBJpo4Q0",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "zIWTHBTtfn1AMHrx",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.zcolyBQT1QC24DXj",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "zcolyBQT1QC24DXj",
+      "text": "[[1d3]] Zombie",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

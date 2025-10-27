@@ -193,6 +193,9 @@ class dbConvert {
 
         // Separate top-level and embedded documents
         for (const [key, document] of Object.entries(allDocuments)) {
+            // Top-level documents also save their original key
+            document._originalKey = key;
+
             // Skip folder documents (handled separately)
             if (key.startsWith('!folders!')) {
                 continue;
@@ -405,15 +408,12 @@ class dbConvert {
         for (const fileData of collectedData.documents) {
             const document = fileData.document;
             
-            // Generate key for the top-level document
-            const topLevelKey = this.generateDocumentKey(document, fileData.relativePath);
-            
             // Create a clean copy of the document without the embedded array
             const cleanDocument = { ...document };
             delete cleanDocument.embedded;
             
             // Add the top-level document
-            allDocuments[topLevelKey] = cleanDocument;
+            allDocuments[document._originalKey] = cleanDocument;
             
             // Process embedded documents if they exist
             if (document.embedded && Array.isArray(document.embedded)) {
@@ -439,25 +439,6 @@ class dbConvert {
     }
 
     /**
-     * Generate a document key for a top-level document
-     * @param {Object} document - The document object
-     * @param {string} relativePath - Relative path of the file
-     * @returns {string} - Generated document key
-     */
-    generateDocumentKey(document, relativePath) {
-        // Extract pack type from the first part of the relative path
-        const pathParts = relativePath.split(path.sep);
-        const packType = this.packName; // Use the pack name as the type
-        
-        // Use the document's existing _id (all FoundryVTT documents have this)
-        if (!document._id) {
-            throw new Error(`Document missing _id in ${relativePath}`);
-        }
-        
-        return `!${packType}!${document._id}`;
-    }
-
-    /**
      * Write compiled documents to .db file format
      * @param {Object} documents - Object with all documents keyed by their database keys
      * @param {string} packName - Name of the pack
@@ -466,19 +447,14 @@ class dbConvert {
         const dbPath = path.join(process.cwd(), "packs", `${packName}.db`);
         
         try {
-            // Convert documents object to array, preserving original _id values
-            const documentEntries = Object.values(documents);
-            
-            // Convert each document to a JSON string (NeDB format)
-            const dbLines = documentEntries.map(doc => JSON.stringify(doc));
-            
-            // Join with newlines to create the .db file content
-            const dbContent = dbLines.join('\n');
+            // The documents object is already in the correct format - just write it as JSON
+            const dbContent = JSON.stringify(documents, null, 2);
             
             // Write to the .db file
             await fs.writeFile(dbPath, dbContent, 'utf8');
             
-            console.log(`Successfully compiled ${documentEntries.length} documents to ${dbPath}`);
+            const documentCount = Object.keys(documents).length;
+            console.log(`Successfully compiled ${documentCount} documents to ${dbPath}`);
             
         } catch (error) {
             console.error(`Error writing compiled database: ${error.message}`);

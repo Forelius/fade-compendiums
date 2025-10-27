@@ -1,0 +1,66 @@
+{
+  "folder": "j9i1UsTuEAW2VgKU",
+  "name": "Wand of Lightning Bolts",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "_id": "MOMsaZTVUe4ipRky",
+  "system": {
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slender, polished rod of dark wood, its surface etched with intricate silvery-blue lines that seem to crackle with barely contained energy, ending in a slightly tapered tip that gleams with an almost metallic sheen.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This creates a lightning bolt (as if using the magic-user spell), starting up to 240' away and 60' long from that point. The victims take 6d6 points of electrical damage, but they may make a saving throw vs. wands for half damage.</p><p>A slender, polished rod of dark wood, its surface etched with intricate silvery-blue lines that seem to crackle with barely contained energy, ending in a slightly tapered tip that gleams with an almost metallic sheen.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 10,
+    "chargesMax": 20,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "action": "none",
+        "castAs": "",
+        "name": "Lightning Bolt (Wand)",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BPhFOEPf9rdGESc1"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758660140738,
+    "modifiedTime": 1758660504311,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!MOMsaZTVUe4ipRky"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Magic Lock*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell permanently locks any one portal (door, gate, hatch, or empty 10' x 10' opening). Unlike <em>Wizard Lock</em>, this cannot be bypassed by <em>Knock</em> or magical items.</p><h4>Mechanics & Rules:</h4><ul><li>The locked portal remains impassable to all except the spellcaster.</li><li>The portal appears unchanged and cannot be detected as magical without <em>Detect Magic</em>.</li><li>The lock lasts until the portal has been used seven times (each time the caster passes through counts as a use) or until <em>Dispel Magic</em> is used.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "10'",
+    "duration": "Until dispelled or 7 uses",
+    "effect": "Seals a portal against all but the caster",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "7",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "XTMZM2LyzAkHpFbv",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.XTMZM2LyzAkHpFbv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903928031,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!XTMZM2LyzAkHpFbv"
+}

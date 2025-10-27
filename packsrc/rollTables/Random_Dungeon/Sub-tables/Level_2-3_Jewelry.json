@@ -1,0 +1,63 @@
+{
+  "name": "Level 2-3 Jewelry",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "m3hehQiCQgKwW584",
+    "opQqrZweVnzVYn3U"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "APhl7fhYB0s5L7Nl",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.10.0-rc.30",
+    "createdTime": 1747426211518,
+    "modifiedTime": 1753189399050,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d100",
+  "_id": "selGUJSmwroKJt1T",
+  "sort": 300000,
+  "_originalKey": "!tables!selGUJSmwroKJt1T",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!selGUJSmwroKJt1T.m3hehQiCQgKwW584",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        100
+      ],
+      "drawn": false,
+      "_id": "m3hehQiCQgKwW584",
+      "text": "No Jewelry",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!selGUJSmwroKJt1T.opQqrZweVnzVYn3U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_id": "opQqrZweVnzVYn3U",
+      "text": "[[1d6]] Jewelry. Worth [[/r 1d8*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Divine Spellcasting",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Clerics <strong data-start=\"309\" data-end=\"344\">do not cast spells at 1st level</strong> but gain access to <strong data-start=\"364\" data-end=\"394\">divine spells at 2nd level</strong>, progressing in power as they level up. Clerics do not need spellbooks but must pray for spells each day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "category": "spellcasting",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "C",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "BRiOjloSzFr5YjDZ",
+  "_id": "84xmy2DrZXk1gYpo",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.84xmy2DrZXk1gYpo",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.10",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1757069278491,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!84xmy2DrZXk1gYpo"
+}

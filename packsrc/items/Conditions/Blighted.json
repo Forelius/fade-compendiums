@@ -1,0 +1,104 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Blighted",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/blessed.webp",
+  "_id": "5LWVfGgOiopm8uyh",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Blight, places a -1 penalty on enemies' morale, attack rolls, and damage rolls. Each victim may make a saving throw vs. spells to avoid the penalties. It will only affect creatures in a 20' X 20' area.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "vCUlvxnq56L622VL"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.5LWVfGgOiopm8uyh",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219177148,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 4600000,
+  "_originalKey": "!items!5LWVfGgOiopm8uyh",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!5LWVfGgOiopm8uyh.vCUlvxnq56L622VL",
+      "name": "Blighted",
+      "img": "systems/fantastic-depths/assets/img/ui/blessed.webp",
+      "disabled": false,
+      "_id": "vCUlvxnq56L622VL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.details.morale",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ff3000",
+      "transfer": true,
+      "statuses": [
+        "downgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

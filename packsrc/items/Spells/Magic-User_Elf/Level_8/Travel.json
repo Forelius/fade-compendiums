@@ -1,0 +1,54 @@
+{
+  "name": "Travel",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the caster great mobility, including aerial flight, planar travel, and the ability to become gaseous. It lasts for one turn per caster level.</p><h4>Flight:</h4><ul><li>The caster can fly as per the <em>Fly</em> spell, at a speed of 360' (120').</li></ul><h4>Planar Travel:</h4><ul><li>The caster can enter a nearby plane of existence by concentrating for one round.</li><li>A maximum of one plane per turn can be traversed.</li><li>The caster may bring one additional creature per five levels (rounded down).</li><li>To bring others, they must be touching the caster at the moment of transition.</li><li>Unwilling creatures may make a saving throw vs. spells to resist the effect.</li><li>The caster cannot send others while remaining behind—he must accompany them.</li></ul><h4>Gaseous Form:</h4><ul><li>The caster may assume gaseous form by concentrating for one full round.</li><li>If interrupted, no transformation occurs.</li><li>Unlike the potion of gaseous form, all carried equipment transforms as well.</li><li>In gaseous form, the caster moves at double flight speed (720' / 240').</li><li>The caster cannot use items or cast spells while gaseous.</li><li>Only magical attacks (weapons or spells) can harm the caster in gaseous form.</li><li>The caster cannot pass through a <em>Protection from Evil</em> effect or an <em>Anti-Magic Shell</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "0 (caster only)",
+    "duration": "One turn per caster level",
+    "effect": "Allows aerial or gaseous travel",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "60*@classes.M.castLevel",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "iQALAILzrYSGlnyf",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.iQALAILzrYSGlnyf",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904629325,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!iQALAILzrYSGlnyf"
+}

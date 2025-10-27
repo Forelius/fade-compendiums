@@ -1,0 +1,64 @@
+{
+  "name": "Invisibility 10' Radius",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell makes the recipient and all other creatures within a 10' radius invisible at the time of casting. Creatures that move more than 10' away from the recipient lose their invisibility and cannot regain it by returning to the area.</p>\n                      <p>The invisibility effect is similar to the standard *Invisibility* spell, where invisible creatures and items carried remain unseen until the creature attacks or casts a spell.</p>\n                      <p>All items carried by affected creatures are also rendered invisible.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "Permanent until broken",
+    "effect": "All creatures within 10' become invisible",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.6t2CwLJ40BrEg8w9",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749847125376,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "6t2CwLJ40BrEg8w9",
+  "sort": 0,
+  "_originalKey": "!items!6t2CwLJ40BrEg8w9"
+}

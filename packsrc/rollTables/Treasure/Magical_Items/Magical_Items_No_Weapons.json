@@ -1,0 +1,133 @@
+{
+  "name": "Magical Items (No Weapons)",
+  "formula": "1d72",
+  "results": [
+    "l6vjcZD1GH9wPvqE",
+    "iHYTyScW3pA079Dc",
+    "bRW6ZDZUUvh9gjQY",
+    "kwFa7JJHk7oowvHs",
+    "9w14dcJQtkJx3to1",
+    "QFm9KXSy0ydVTa8P"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
+  "folder": "xXYnk3SGl1lMlDVD",
+  "img": "icons/svg/d20-highlight.svg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.374vX1ZDCXmJPWRk",
+    "duplicateSource": "RollTable.zsJcesRnrzLKi62n",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743219690118,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "374vX1ZDCXmJPWRk",
+  "sort": 0,
+  "_originalKey": "!tables!374vX1ZDCXmJPWRk",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.9w14dcJQtkJx3to1",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        53,
+        62
+      ],
+      "drawn": false,
+      "text": "Miscellaneous Items",
+      "documentId": "6TbdY8QOlvIWA7Nz",
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "_id": "9w14dcJQtkJx3to1",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.QFm9KXSy0ydVTa8P",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        63,
+        72
+      ],
+      "drawn": false,
+      "text": "Magic Armor",
+      "documentId": "mYpxzeQa9MJ3NsEI",
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "_id": "QFm9KXSy0ydVTa8P",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.bRW6ZDZUUvh9gjQY",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        38,
+        46
+      ],
+      "drawn": false,
+      "_id": "bRW6ZDZUUvh9gjQY",
+      "text": "Wands, Staves, and Rods",
+      "img": "icons/weapons/wands/wand-gem-purple.webp",
+      "documentId": "ijhIjC095Q38i6Nf",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.iHYTyScW3pA079Dc",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        26,
+        37
+      ],
+      "drawn": false,
+      "_id": "iHYTyScW3pA079Dc",
+      "text": "Scrolls",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-grey.webp",
+      "documentId": "d8izv97FUAkovQwX",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.kwFa7JJHk7oowvHs",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        47,
+        52
+      ],
+      "drawn": false,
+      "_id": "kwFa7JJHk7oowvHs",
+      "text": "Magic Rings",
+      "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+      "documentId": "3eunvWJn4eieoI28",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.l6vjcZD1GH9wPvqE",
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        1,
+        25
+      ],
+      "drawn": false,
+      "_id": "l6vjcZD1GH9wPvqE",
+      "text": "Potions",
+      "img": "icons/consumables/potions/potion-flash-open-blue.webp",
+      "documentId": "cHNzk2Ffn8VXtWUb",
+      "flags": {},
+      "documentCollection": "fade-compendiums.roll-table-compendium"
+    }
+  ]
+}

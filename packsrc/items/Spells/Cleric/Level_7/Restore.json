@@ -1,0 +1,54 @@
+{
+  "name": "Restore*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell restores one full level of experience lost due to energy drain (such as from a vampire's attack). It does not provide additional levels if no level has been lost.</p><p>Limitations:</p><ul><li>Only one level is restored per casting.</li><li>It cannot restore more than one level, nor increase a level beyond what was originally lost.</li></ul><p>Cost to the Cleric:</p><ul><li>Upon casting, the cleric temporarily loses one experience level, as if struck by a wight.</li><li>The cleric’s loss is not permanent—it is recovered after resting for [[/r 2d10 #days]].</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Restores 1 level lost to energy drain",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "iSPF4RwHIjm4d4hl",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.iSPF4RwHIjm4d4hl",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821983861,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!iSPF4RwHIjm4d4hl"
+}

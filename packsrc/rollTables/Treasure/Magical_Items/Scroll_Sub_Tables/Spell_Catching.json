@@ -1,0 +1,95 @@
+{
+  "name": "Spell Catching",
+  "formula": "1d10",
+  "results": [
+    "2JrRUhd0PUFZsp7Q",
+    "oaNIsLEN92TIntq7",
+    "eMuBiAeIHjVcjZDx",
+    "potcY817CARoNifI"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "description": "<p>Determines the range of spell levels that can be caught using Spell Catching.</p>",
+  "folder": "n7Qa1SlC67cGTPcX",
+  "_id": "mTybWf5hothiP0OG",
+  "img": "icons/sundries/scrolls/scroll-plain-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.mTybWf5hothiP0OG",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!mTybWf5hothiP0OG",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!mTybWf5hothiP0OG.2JrRUhd0PUFZsp7Q",
+      "text": "Spell Catching: 1st or 2nd level spells",
+      "range": [
+        1,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/sundries/scrolls/scroll-plain-red.webp",
+      "_id": "2JrRUhd0PUFZsp7Q",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!mTybWf5hothiP0OG.eMuBiAeIHjVcjZDx",
+      "text": "Spell Catching: 1st to 6th level spells",
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/sundries/scrolls/scroll-plain-red.webp",
+      "_id": "eMuBiAeIHjVcjZDx",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!mTybWf5hothiP0OG.oaNIsLEN92TIntq7",
+      "text": "Spell Catching: 1st to 4th level spells",
+      "range": [
+        5,
+        7
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/sundries/scrolls/scroll-plain-red.webp",
+      "_id": "oaNIsLEN92TIntq7",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!mTybWf5hothiP0OG.potcY817CARoNifI",
+      "text": "Spell Catching: 1st to 8th level spells",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/sundries/scrolls/scroll-plain-red.webp",
+      "_id": "potcY817CARoNifI",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

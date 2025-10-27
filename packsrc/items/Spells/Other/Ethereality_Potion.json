@@ -1,0 +1,63 @@
+{
+  "name": "Ethereality (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>The user can become ethereal once at any time during the effect and may then remain ethereal for up to 24 hours, returning to the Prime Plane at will. Once the user returns to the Prime Plane, the effect cannot be used again.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Become ethereal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Ethereal",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.61Xw1f6KQ9olpeuo",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.7",
+    "createdTime": 1759149288378,
+    "modifiedTime": 1759149288378,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "4YebdKbSArZGgMvq",
+  "sort": 0,
+  "_originalKey": "!items!4YebdKbSArZGgMvq"
+}

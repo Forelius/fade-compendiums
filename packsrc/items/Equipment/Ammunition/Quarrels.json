@@ -1,0 +1,57 @@
+{
+  "folder": "u7s4NR16AZdcIm0l",
+  "name": "Quarrels",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "_id": "FuxQr9nJjcG2TDlz",
+  "system": {
+    "shortName": "",
+    "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 30,
+    "quantityMax": 30,
+    "weight": 0.33,
+    "weightEquipped": 0.33,
+    "cost": 10,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "quarrel",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {}
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.8",
+    "createdTime": 1755809374237,
+    "modifiedTime": 1755809433790,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!FuxQr9nJjcG2TDlz"
+}

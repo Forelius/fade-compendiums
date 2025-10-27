@@ -1,0 +1,2293 @@
+{
+  "name": "Bard",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "key": "B",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 36,
+    "maxSpellLevel": 4,
+    "alignment": "Any",
+    "description": "<h2>The Bard: Keeper of Legends, Master of Song</h2><p>From the dawn of history, bards have roamed the world as keepers of lore, song, and heroism. They are the wandering minstrels, the poetic warriors, the storytellers whose words shape the deeds of kings and heroes alike. Bards are more than mere entertainers—they are the voice of history, the heart of culture, and, when needed, an inspiration on the battlefield.</p><p>Unlike the common thief-turned-minstrel, a true Bard has honed both the martial and mystical aspects of their craft. They wield the power of <em>spell-songs</em>, enchanting allies and bewitching foes with melodies imbued with arcane energy. These spell-songs, much like the incantations of wizards or the prayers of clerics, draw upon an ancient tradition that blends magic with performance. Through song and instrument, they can heal wounds, bolster courage, cloud minds, or even weave illusions so vivid they seem real.</p><p>Though bards may fight alongside warriors and thieves, their true strength lies in their ability to influence the world with words, music, and guile. They are welcome in the courts of kings as much as in the taverns of common folk, gathering news, uncovering secrets, and spreading the tales of legends—sometimes their own.</p><p>Each bard carries an enchanted instrument, a tool of their trade that is as vital as a wizard’s spellbook. Without it, their magic is silent. Some are gifted such instruments by mentors, while others must quest to find their own. A bard’s skill with an instrument is as much a part of their identity as the songs they know, and a seasoned bard can earn a fortune simply by performing for the right audience.</p><p>Whether they choose to settle and establish a great conservatory to pass their wisdom on to students, or continue their travels as a lone wanderer chronicling the stories of the world, all bards share a common purpose: to ensure that no great deed goes unsung, no legend is forgotten, and no soul is left without a melody to guide them.</p><p><em>Adapted from Geoff Gander and Marco Dalmonte’s article at </em><a href=\"https://pandius.com/bardclas.html\"><em>Pandius</em></a><em>.</em></p><h3>Key Characteristics</h3><h4>Prime Requisite</h4><p>Dexterity and Charisma. A Bard gains a 5% experience bonus if both Dexterity and Charisma are 13–15, and a 10% bonus if both are 16 or higher.</p><h4>Combat Skills</h4><ul><li>Bards may use <strong>any one-handed melee weapon and all missile weapons</strong>.</li><li>They <strong>cannot use two-handed weapons</strong>, as these interfere with playing instruments.</li><li>Bards may wear <strong>armor up to chain mail</strong>, but heavier armor imposes penalties on their Thief skills.</li><li>A Bard may wield <strong>shields of medium size or smaller</strong>, but doing so prevents playing an instrument.</li></ul><h4>Hit Dice</h4><ul><li>Bards roll <strong>1d6 for hit points per level</strong> until 9th level, after which they gain <strong>+2 hit points per level</strong>. Constitution adjustments no longer apply at this point.</li></ul><h4>Special Abilities</h4><p>Bards possess several skills similar to Thieves, along with unique abilities that set them apart.</p><ul><li><p><strong>Thief Abilities</strong> (affected by armor type):</p><table border=\"1\"><thead><tr><th>Armor Type</th><th>Hide in Shadows</th><th>Move Silently</th><th>Hear Noise</th><th>Climb Walls</th></tr></thead><tbody><tr><td>Leather Armor</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Scale Mail</td><td>-5%</td><td>-15%</td><td>-5%</td><td>-15%</td></tr><tr><td>Chain Mail</td><td>-10%</td><td>-20%*</td><td>-10%</td><td>-20%</td></tr></tbody></table><p><em>*This penalty may be halved if wearing Elven Chain Mail.</em></p></li><li><p><strong>Read Languages:</strong> At <strong>4th level</strong>, a Bard can read non-magical languages with an <strong>80% chance</strong>.</p></li><li><p><strong>Use Magic Scrolls:</strong> At <strong>10th level</strong>, a Bard can attempt to use magic-user scrolls, with a <strong>10% chance of backfire</strong>.</p></li><li><p><strong>Bardic Charm:</strong> At <strong>3rd level</strong>, a Bard gains the ability to <strong>charm others</strong> through song or poetry (similar to <em>charm person</em>). This improves at higher levels to affect intelligent monsters and, later, even plants.</p></li><li><p><strong>Spell-Songs:</strong> Bards can cast <strong>spell-songs</strong>, a unique form of magic that functions similarly to spells but requires performance and an enchanted instrument.</p></li><li><p><strong>Backstab (Modified):</strong></p><ul><li>When striking an <strong>unaware opponent</strong>, a Bard gains <strong>+2 to attack rolls</strong> and deals <strong>1.5x damage</strong> (round down).</li><li>This allows for precision strikes without the raw lethality of a Thief’s backstab.</li></ul></li></ul><h3>Advancement at Name Level (9th Level)</h3><p>At 9th level, a Bard earns renown and may establish a <strong>Conservatory</strong>, a place dedicated to training apprentices, preserving history, and refining spell-songs. This Conservatory attracts <strong>1d8 1st-level apprentice Bards</strong>, eager to learn from a master of the craft. These apprentices are loyal and dedicated students, though they will not follow the Bard into direct danger.</p><p>A Conservatory serves as a center of culture, storytelling, and music, drawing the attention of nobles, scholars, and fellow adventurers. It may take many forms—a grand hall in a city, a secluded retreat in the mountains, or a hidden sanctuary where lost songs and stories are recovered. The Bard may use this stronghold to research new spell-songs, store historical knowledge, and influence the world through their art.</p><h3>Stronghold Options</h3><p>Bards who choose to establish a Conservatory are expected to offer shelter and hospitality to traveling Bards who seek knowledge or rest. In exchange, these visitors bring news, songs, and secrets from across the land. The Conservatory may gain influential patrons, such as kings or powerful wizards, who see value in the Bard’s wisdom and the knowledge housed within.</p><p>Not all Bards settle in one place. Some prefer to <strong>remain travelers</strong>, continuing their journey as wandering minstrels, historians, and adventurers. These Traveling Bards have a unique connection to the world’s hidden stories. Once per month, they may <strong>learn of an unsung epic</strong>, a forgotten tale, or a legendary figure whose story has yet to be told. This knowledge can lead to lost treasures, rare spell-songs, or even legendary quests.</p><p>While a Bard may choose the life of a wanderer, they are always welcome at the Conservatories of their peers. These sanctuaries provide a place to rest, study, and exchange knowledge, ensuring that no great deed or legend is forgotten.</p>",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "cha",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "cha",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Minstrel",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 1200,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Balladeer",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 2400,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Skald",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 4800,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Lorekeeper",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 9600,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Chronicler",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 20000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Master of Tales",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Virtuoso",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "Bard",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 160000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6",
+        "hdcon": true,
+        "title": "Bardic Master",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 280000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 520000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 640000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 760000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 880000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1000000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1120000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1240000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1360000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1480000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1600000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1720000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1840000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+28",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 1960000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+30",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 2080000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+32",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 2200000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+34",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2320000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+36",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2440000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+38",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2560000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+40",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2680000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+42",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2800000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+44",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 2920000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+46",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 3040000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+48",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 3160000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+50",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 3280000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+52",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 3400000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d6+54",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 4,
+        "death": 13,
+        "wand": 14,
+        "paralysis": 13,
+        "breath": 16,
+        "spell": 15
+      },
+      {
+        "level": 8,
+        "death": 11,
+        "wand": 12,
+        "paralysis": 11,
+        "breath": 14,
+        "spell": 13
+      },
+      {
+        "level": 12,
+        "death": 9,
+        "wand": 10,
+        "paralysis": 9,
+        "breath": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "death": 7,
+        "wand": 8,
+        "paralysis": 7,
+        "breath": 10,
+        "spell": 9
+      },
+      {
+        "level": 20,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 5,
+        "breath": 8,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 4,
+        "breath": 6,
+        "spell": 5
+      },
+      {
+        "level": 28,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 3,
+        "breath": 4,
+        "spell": 4
+      },
+      {
+        "level": 32,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 2,
+        "breath": 3,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "spells": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1
+      ],
+      [
+        4,
+        3,
+        2,
+        2
+      ],
+      [
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ]
+    ],
+    "classItems": [],
+    "abilities": {
+      "cha": {
+        "min": 9
+      },
+      "dex": {
+        "min": 9
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "str": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "name": "Backstab",
+        "level": 1,
+        "target": 0,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 1,
+        "target": 87,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 1,
+        "target": 10,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 1,
+        "target": 30,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 1,
+        "target": 10,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 1,
+        "target": 20,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 1,
+        "target": 15,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 2,
+        "target": 88,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 2,
+        "target": 15,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 2,
+        "target": 35,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 2,
+        "target": 15,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 2,
+        "target": 25,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 2,
+        "target": 20,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Bardic Charm (B)",
+        "level": 3,
+        "target": 0,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 3,
+        "target": 89,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 3,
+        "target": 20,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 3,
+        "target": 40,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 3,
+        "target": 20,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 3,
+        "target": 30,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 3,
+        "target": 25,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 4,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 4,
+        "target": 25,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 4,
+        "target": 45,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 4,
+        "target": 24,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 4,
+        "target": 35,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 4,
+        "target": 30,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Read Languages (B)",
+        "level": 4,
+        "target": 80,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 5,
+        "target": 91,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 5,
+        "target": 30,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 5,
+        "target": 50,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 5,
+        "target": 28,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 5,
+        "target": 40,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 5,
+        "target": 35,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 6,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 6,
+        "target": 35,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 6,
+        "target": 54,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 6,
+        "target": 32,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 6,
+        "target": 44,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 6,
+        "target": 40,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 7,
+        "target": 93,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 7,
+        "target": 40,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 7,
+        "target": 58,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 7,
+        "target": 35,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 7,
+        "target": 48,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 7,
+        "target": 45,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 8,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 8,
+        "target": 45,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 8,
+        "target": 62,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 8,
+        "target": 38,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 8,
+        "target": 52,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 8,
+        "target": 50,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 9,
+        "target": 95,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 9,
+        "target": 50,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 9,
+        "target": 66,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 9,
+        "target": 41,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 9,
+        "target": 55,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 9,
+        "target": 54,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 10,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 10,
+        "target": 54,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 10,
+        "target": 70,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 10,
+        "target": 44,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 10,
+        "target": 58,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 10,
+        "target": 58,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Use Magic Scrolls (B)",
+        "level": 10,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 11,
+        "target": 97,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 11,
+        "target": 58,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 11,
+        "target": 74,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 11,
+        "target": 47,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 11,
+        "target": 61,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 11,
+        "target": 62,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 12,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 12,
+        "target": 62,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 12,
+        "target": 78,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 12,
+        "target": 50,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 12,
+        "target": 64,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 12,
+        "target": 66,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 13,
+        "target": 99,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 13,
+        "target": 66,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 13,
+        "target": 81,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 13,
+        "target": 53,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 13,
+        "target": 66,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 13,
+        "target": 69,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 14,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 14,
+        "target": 70,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 14,
+        "target": 84,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 14,
+        "target": 56,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 14,
+        "target": 68,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 14,
+        "target": 72,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 15,
+        "target": 101,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 15,
+        "target": 73,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 15,
+        "target": 87,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 15,
+        "target": 58,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 15,
+        "target": 70,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 15,
+        "target": 75,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 16,
+        "target": 102,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 16,
+        "target": 76,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 16,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 16,
+        "target": 60,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 16,
+        "target": 72,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 16,
+        "target": 78,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 17,
+        "target": 103,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 17,
+        "target": 80,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 17,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 17,
+        "target": 62,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 17,
+        "target": 74,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 17,
+        "target": 81,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 18,
+        "target": 104,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 18,
+        "target": 83,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 18,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 18,
+        "target": 64,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 18,
+        "target": 76,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 18,
+        "target": 84,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 19,
+        "target": 105,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 19,
+        "target": 86,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 19,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 19,
+        "target": 66,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 19,
+        "target": 78,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 19,
+        "target": 86,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 20,
+        "target": 106,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 20,
+        "target": 89,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 20,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 20,
+        "target": 68,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 20,
+        "target": 80,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 20,
+        "target": 88,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 21,
+        "target": 107,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 21,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 21,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 21,
+        "target": 70,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 21,
+        "target": 82,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 21,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 22,
+        "target": 108,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 22,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 22,
+        "target": 102,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 22,
+        "target": 72,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 22,
+        "target": 84,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 22,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 23,
+        "target": 109,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 23,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 23,
+        "target": 104,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 23,
+        "target": 74,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 23,
+        "target": 86,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 23,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 24,
+        "target": 110,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 24,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 24,
+        "target": 106,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 24,
+        "target": 76,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 24,
+        "target": 88,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 24,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 25,
+        "target": 111,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 25,
+        "target": 99,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 25,
+        "target": 108,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 25,
+        "target": 78,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 25,
+        "target": 89,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 25,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 26,
+        "target": 112,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 26,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 26,
+        "target": 110,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 26,
+        "target": 80,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 26,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 26,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 27,
+        "target": 113,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 27,
+        "target": 101,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 27,
+        "target": 112,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 27,
+        "target": 82,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 27,
+        "target": 91,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 27,
+        "target": 102,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 28,
+        "target": 114,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 28,
+        "target": 102,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 28,
+        "target": 114,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 28,
+        "target": 84,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 28,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 28,
+        "target": 104,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 29,
+        "target": 115,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 29,
+        "target": 103,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 29,
+        "target": 116,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 29,
+        "target": 86,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 29,
+        "target": 93,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 29,
+        "target": 106,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 30,
+        "target": 116,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 30,
+        "target": 104,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 30,
+        "target": 118,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 30,
+        "target": 88,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 30,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 30,
+        "target": 108,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 31,
+        "target": 117,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 31,
+        "target": 105,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 31,
+        "target": 120,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 31,
+        "target": 90,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 31,
+        "target": 95,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 31,
+        "target": 110,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 32,
+        "target": 118,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 32,
+        "target": 106,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 32,
+        "target": 122,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 32,
+        "target": 92,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 32,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 32,
+        "target": 112,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 33,
+        "target": 118,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 33,
+        "target": 107,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 33,
+        "target": 124,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 33,
+        "target": 94,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 33,
+        "target": 97,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 33,
+        "target": 114,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 34,
+        "target": 119,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 34,
+        "target": 108,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 34,
+        "target": 126,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 34,
+        "target": 96,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 34,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 34,
+        "target": 116,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 35,
+        "target": 119,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 35,
+        "target": 109,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 35,
+        "target": 128,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 35,
+        "target": 98,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 35,
+        "target": 99,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 35,
+        "target": 118,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Climb Sheer Surface (B)",
+        "level": 36,
+        "target": 120,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Find Traps (B)",
+        "level": 36,
+        "target": 110,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise (B)",
+        "level": 36,
+        "target": 130,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows (B)",
+        "level": 36,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently (B)",
+        "level": 36,
+        "target": 100,
+        "classKey": "B",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks (B)",
+        "level": 36,
+        "target": 120,
+        "classKey": "B",
+        "changes": ""
+      }
+    ],
+    "unskilledToHitMod": -3
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.8.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1745010527203,
+    "modifiedTime": 1749418408688,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "X4GvA2a9zMJ22NcL",
+  "sort": 600000,
+  "_originalKey": "!items!X4GvA2a9zMJ22NcL"
+}

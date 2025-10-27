@@ -1,0 +1,58 @@
+{
+  "name": "Raise Dead*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the cleric to raise any human, dwarf, halfling, or elf from the dead. The body must be present, and any missing parts will cause corresponding disabilities in the raised character.</p>\n                      <p><strong>Effect:</strong> An 8th-level cleric can raise a body that has been dead up to four days. Each level above 8th extends this limit by four additional days (e.g., a 10th-level cleric can raise bodies dead for up to twelve days).</p>\n                      <p>The character is raised with 1 hit point and is weakened: unable to fight, cast spells, or move faster than half speed. These penalties last for two weeks of complete bed rest, which cannot be hastened by magical healing.</p>\n                      <p><strong>Undead Effect:</strong> When cast on an undead creature within range, the target must make a saving throw vs. spells with a -2 penalty or be destroyed. Vampires that fail the save retreat to their coffins in gaseous form. Against undead creatures stronger than vampires, the spell deals 3d10 damage (saving throw for half).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "Raises one dead human or demihuman, or damages undead",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "save",
+    "damageType": "spell",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.MtqXgCiZnYRJXvb2",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821548747,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "MtqXgCiZnYRJXvb2",
+  "sort": 0,
+  "_originalKey": "!items!MtqXgCiZnYRJXvb2"
+}

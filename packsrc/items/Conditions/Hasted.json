@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Hasted",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/sprint.png",
+  "_id": "cXvJhpE5XD2k0Hmm",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A hasted creature moves at twice its normal speed and makes double the normal number of attacks in melee or with missile weapons, while magic use remains unaffected, meaning spellcasters can still only cast one spell per round and magical devices are not impacted.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "wL9fR9eNnUu0QEvk"
+  ],
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.9",
+    "createdTime": 1749843110719,
+    "modifiedTime": 1760188545305,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!cXvJhpE5XD2k0Hmm",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!cXvJhpE5XD2k0Hmm.wL9fR9eNnUu0QEvk",
+      "name": "Hasted",
+      "img": "systems/fantastic-depths/assets/img/ui/sprint.png",
+      "disabled": false,
+      "_id": "wL9fR9eNnUu0QEvk",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "hasted"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.11.0-rc.6",
+        "createdTime": 1749843110742,
+        "modifiedTime": 1760188570328,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

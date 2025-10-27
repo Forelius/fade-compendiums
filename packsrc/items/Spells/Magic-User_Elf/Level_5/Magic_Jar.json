@@ -1,0 +1,56 @@
+{
+  "name": "Magic Jar",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [
+      "magic-user"
+    ],
+    "description": "<p>This spell transfers the caster's life force into an inanimate object within 30' (referred to as a \"magic jar\" regardless of its form). The caster’s body falls into a trance. From the magic jar, the caster can attempt to possess a creature within 120' of the jar.</p>\n                      <p><strong>Possession Attempt:</strong> The target must make a saving throw vs. spells. If successful, the caster cannot attempt to possess that creature again for one turn. If failed, the caster takes over the creature’s body, and the creature’s life force is transferred to the magic jar.</p>\n                      <p><strong>Actions in Possessed Body:</strong> The caster can perform normal actions, but no special abilities (similar to *Polymorph Self*). A *Dispel Evil* spell forces the caster's life force back into the magic jar.</p>\n                      <p><strong>Destruction Effects:</strong> If the magic jar is destroyed while the caster's life force is within, the caster dies. If the jar is destroyed while the caster possesses a body, the caster is stranded in that body, and the original owner's life force is destroyed. If the caster’s original body is destroyed, they are stranded in the magic jar until a new body is taken.</p>\n                      <p>Taking over another body is considered a Chaotic act.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "See below",
+    "effect": "Take over one body",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.bkLL2LIXuyZd9pTJ",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749752311797,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "bkLL2LIXuyZd9pTJ",
+  "sort": 0,
+  "_originalKey": "!items!bkLL2LIXuyZd9pTJ"
+}

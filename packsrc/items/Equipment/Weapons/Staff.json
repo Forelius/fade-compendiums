@@ -1,0 +1,85 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Staff",
+  "type": "weapon",
+  "_id": "A4nQHbJt1qy5ByzL",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "tags": [
+      "cleric",
+      "magic-user",
+      "slow"
+    ],
+    "description": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 40,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A staff is one of the most simple weapons. It consists of just a length of wood 5’ to 7’ in length, which is wielded in two hands. Often, the head of the staff has some sort of ornamentation.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.A4nQHbJt1qy5ByzL",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1747585022578,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 900000,
+  "_originalKey": "!items!A4nQHbJt1qy5ByzL"
+}

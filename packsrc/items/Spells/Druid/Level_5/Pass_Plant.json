@@ -1,0 +1,54 @@
+{
+  "name": "Pass Plant",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "GY1VRctDzQD5WVvu",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to teleport between two trees of the same type. The trees must be large enough to enclose the druid. Upon casting, the druid can step into one tree and immediately step out of another within range.</p>\n                      <p><strong>Teleportation Range by Tree Type:</strong></p>\n                      <table>\n                        <thead>\n                          <tr><th>Tree Type</th><th>Range</th></tr>\n                        </thead>\n                        <tbody>\n                          <tr><td>Oak</td><td>600 yards</td></tr>\n                          <tr><td>Ash, Elm, Linden, Yew</td><td>360 yards</td></tr>\n                          <tr><td>Evergreen trees</td><td>300 yards</td></tr>\n                          <tr><td>Other trees</td><td>240 yards</td></tr>\n                        </tbody>\n                      </table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "0 (druid only)",
+    "duration": "Instantaneous",
+    "effect": "Short-range teleportation",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.X4HyQ7GHS6cenXbZ",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822375774,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "X4HyQ7GHS6cenXbZ",
+  "sort": 0,
+  "_originalKey": "!items!X4HyQ7GHS6cenXbZ"
+}

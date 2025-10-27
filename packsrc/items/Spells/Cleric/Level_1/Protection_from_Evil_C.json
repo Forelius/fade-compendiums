@@ -1,0 +1,62 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Protection from Evil (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "cytZb1jCrBiFli1y",
+  "system": {
+    "tags": [
+      "cleric"
+    ],
+    "description": "<p>This spell creates and invisible magical barrier all around the caster's body (less than an inch away). Here’s the revised text with all references to \"cleric\" changed to \"caster\":</p><p>While the spell is in effect, characters and monsters attacking the caster suffer a -1 penalty to their attack rolls, and the caster gains a +1 bonus to all saving throws.</p><p>Additionally, enchanted creatures are unable to touch the caster! (An enchanted creature is one that normal weapons cannot affect, only magical weapons can hit. A creature that can only be hit by a silver weapon—like a werewolf—is not considered enchanted. Any creature that is magically summoned or controlled, such as a <em>charmed</em> character, is also considered enchanted.) This barrier completely protects the caster from all melee or hand-to-hand attacks from such creatures; however, it does not prevent attacks from missile weapons. Enchanted creatures using missile weapons still suffer the -1 penalty to attack rolls but <em>can</em> still hit the caster.</p><p>This spell does not affect a <em>magic missile</em> spell used by magic-users.</p><p>If the caster attacks an enchanted creature during the spell's duration, the spell’s effect changes slightly. Enchanted creatures are then able to touch the caster, but still suffer the attack roll penalty; the penalty and the caster's saving throw adjustments remain until the spell's duration ends.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Personal",
+    "duration": "12 turns",
+    "effect": "The caster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Protected",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.cytZb1jCrBiFli1y",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749752311797,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!cytZb1jCrBiFli1y"
+}

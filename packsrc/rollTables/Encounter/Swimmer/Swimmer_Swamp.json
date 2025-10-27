@@ -1,0 +1,133 @@
+{
+  "folder": "cE8twDGnvfvbj3oA",
+  "name": "Swimmer (Swamp)",
+  "_id": "jGeGmWlUoQHsophs",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "KXWysEztJlrrSU7M",
+    "0APuqLZe5Z7MZGZP",
+    "9K5hrbEL1XXwhsgm",
+    "mohapJ2uZ57AiKUS",
+    "c7biRyEEh4OYVQQK",
+    "YAVZZCKw89NnZVmy"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760536282234,
+    "modifiedTime": 1760705559201,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d12",
+  "_originalKey": "!tables!jGeGmWlUoQHsophs",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.0APuqLZe5Z7MZGZP",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "text": "Crocodile, Normal",
+      "documentId": "Bp8x1u6QAFJvc1vU",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "0APuqLZe5Z7MZGZP",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.9K5hrbEL1XXwhsgm",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "text": "Crocodile, Large",
+      "documentId": "TYB76cjIxKDauCV9",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9K5hrbEL1XXwhsgm",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.KXWysEztJlrrSU7M",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Crab, Giant",
+      "documentId": "LOXvSIZsdvix1Avc",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "KXWysEztJlrrSU7M",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.YAVZZCKw89NnZVmy",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "text": "Termite, Water (Swamp)",
+      "documentId": "ecDYjGHXmlWgJzY7",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "YAVZZCKw89NnZVmy",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.c7biRyEEh4OYVQQK",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "text": "Lizard Man",
+      "documentId": "6rv1LKd6FIieRApr",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "c7biRyEEh4OYVQQK",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!jGeGmWlUoQHsophs.mohapJ2uZ57AiKUS",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "text": "Leech, Giant",
+      "documentId": "GgTjHx9hRlrtiCFy",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "mohapJ2uZ57AiKUS",
+      "flags": {}
+    }
+  ]
+}

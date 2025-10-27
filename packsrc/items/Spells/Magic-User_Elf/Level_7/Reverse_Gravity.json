@@ -1,0 +1,54 @@
+{
+  "name": "Reverse Gravity",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes all creatures and objects within a 30' x 30' x 30' cube to fall upward for 2 seconds (1/5 of a round).</p><h4>Effect:</h4><ul><li>Affects all creatures and objects in the area.</li><li>They \"fall\" up to 65' instantly.</li><li>Hitting a ceiling or obstruction causes 1d6 damage per 10' fallen.</li><li>After 2 seconds, gravity returns to normal, causing victims to fall back down and take additional falling damage.</li><li>NPCs affected must make a morale check.</li></ul><h4>Example:</h4><p>In a 40' tall room, giants hit the ceiling (4d6 damage) and then fall back to the floor (another 4d6 damage), taking a total of 8d6 damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "90'",
+    "duration": "1/5 round (2 seconds)",
+    "effect": "Causes victims in a 30' cubic volume to fall upward",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "hDALySTYE9P5d7Vd",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.hDALySTYE9P5d7Vd",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903995705,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!hDALySTYE9P5d7Vd"
+}

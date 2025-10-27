@@ -1,0 +1,56 @@
+{
+  "name": "Requiem Melody",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "d3Jd1iXmYjQy12BI",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This haunting spell-song fills the target with unbearable grief and sorrow, rendering them incapable of rational action.</p><p><strong>Effects:</strong></p><ul><li>The target suffers a -1 penalty to all attack and damage rolls (no saving throw).</li><li>The target must make a saving throw vs. spells to resist further effects.</li></ul><p><strong>On a Failed Saving Throw:</strong></p><ul><li>The target begins crying uncontrollably and falls into despair.</li><li>They must attack themselves with any available weapon or bare hands.</li><li>Self-inflicted damage is real, and weapon mastery bonuses do not apply.</li><li>This effect lasts for a number of rounds equal to the bard’s Constitution score.</li></ul><p><strong>On a Successful Saving Throw:</strong></p><ul><li>The penalty to attack and damage rolls remains as long as the bard continues singing.</li><li>The bard can sing for a maximum number of rounds equal to their Constitution score.</li></ul><p><strong>After the Song Ends:</strong></p><ul><li>The bard must make a Wisdom check to resist the psychic backlash.</li><li>If successful, the bard is stunned for [[/r 1d4 #Stunned rounds]].</li><li>If failed, the bard passes out for 1 round per round spent singing.</li></ul><p><strong>Additional Details:</strong></p><ul><li>This spell only affects creatures with an Intelligence score of 3 or higher.</li><li>The bard can end the song early to avoid the backlash.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "Special",
+    "effect": "Overwhelms a target with despair, causing self-inflicted harm",
+    "targetSelf": false,
+    "targetOther": true,
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "jQSVIf98eXPM8YAA",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.jQSVIf98eXPM8YAA",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727344206,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!jQSVIf98eXPM8YAA"
+}

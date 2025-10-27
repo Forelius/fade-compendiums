@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Paralyzed",
+  "type": "condition",
+  "img": "icons/svg/paralysis.svg",
+  "_id": "DY1qTMeTxES5AQ7b",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Various types of spells and monster attacks can paralyze, or \"freeze,\" a character. If a character is hit by a paralyzing attack and fails a saving throw vs. paralysis, the character is immobilized and unable to do anything. The character is not dead, and a character cannot die from mere paralysis.</p><p>A paralyzed character remains awake and aware of what is happening around him but cannot do anything that requires movement (including speaking, spellcasting, and so forth) until the paralysis ends.</p><p>Hand-to-hand attacks on a paralyzed character automatically hit, but an edged-weapon attack will not automatically kill a paralyzed character as it would a sleeping character. Ranged attacks are made against the victim as if he were AC 9.</p><p>Paralysis itself has no permanent effects of any kind. It lasts for [[/r 2d4 #Turns]] (unless a different number is given in the monster or spell description). The cleric spell cure light wounds can be used to remove the paralysis but will not cure any damage when used for this purpose.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "Eb1Wc8t93lzVPjoY"
+  ],
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.2",
+    "createdTime": 1749846522874,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!DY1qTMeTxES5AQ7b",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!DY1qTMeTxES5AQ7b.Eb1Wc8t93lzVPjoY",
+      "name": "Paralyzed",
+      "img": "icons/svg/paralysis.svg",
+      "disabled": false,
+      "_id": "Eb1Wc8t93lzVPjoY",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "paralysis"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.11.0-rc.6",
+        "createdTime": 1749846522896,
+        "modifiedTime": 1749846631108,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

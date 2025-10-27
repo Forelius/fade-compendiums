@@ -1,0 +1,81 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Shield, Sword",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "_id": "hzYAVJ6gLy56aebO",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This is a medium-sized shield, designed with one or two blades attached. Depending on the shield's shape, the blades extend from the sides if it is round, or from the ends if it is oblong. This combination provides both defensive protection and an additional offensive option in combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 185,
+    "cost": 200,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "damageRoll": "1d4+2",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Shield, Sword",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "1H",
+    "unidentifiedName": "Shield, Sword",
+    "size": "M",
+    "unidentifiedDesc": "<p>This is a medium-sized shield, designed with one or two blades attached. Depending on the shield's shape, the blades extend from the sides if it is round, or from the ends if it is oblong. This combination provides both defensive protection and an additional offensive option in combat.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.hzYAVJ6gLy56aebO",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1744469838804,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 3100000,
+  "_originalKey": "!items!hzYAVJ6gLy56aebO"
+}

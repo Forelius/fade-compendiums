@@ -1,0 +1,54 @@
+{
+  "name": "Steelform",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a mass of steel equal to 500 square feet, with a thickness of up to 2 inches. The shape and arrangement of the steel are determined by the caster.</p><h4>Creation Time:</h4><ul><li>Simple designs (walls, basic shapes) take 1 round.</li><li>Moderate designs (stairs, basic structures) take 1 turn (10 rounds).</li><li>Complex designs (fine weapons, intricate details) take up to 12 turns (2 hours), as determined by the DM.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The created steel is one solid piece with no moving parts.</li><li>The original caster may cast Steelform again on an existing Steelform structure to modify it for up to two hours.</li><li>When satisfied, the caster can \"lock\" the steel in place, preventing further modifications via Steelform.</li><li>The steel must rest on solid ground or a similar support.</li><li>Unlike <em>Wall of Iron</em>, the steel does not have to be vertical.</li><li>The caster may create tough sides that allow later Steelform castings to seamlessly fuse to them.</li></ul><h4>Weapon-Quality Steel:</h4><ul><li>The steel created by this spell is high-quality and suitable for crafting weapons and armor.</li><li>A skilled weapon or armor maker can use Steelform to create finely crafted items.</li><li>For example, a swordmaker could cast this spell to create a high-quality sword in 12 turns (2 hours) or less.</li></ul><h4>Durability:</h4><ul><li>Steel created by Steelform cannot be dispelled.</li><li>The steel lasts permanently until broken or destroyed by effects such as <em>Disintegrate</em> or Rust Monsters.</li><li><p>Following Fortifications Table guidelines, a steel wall has:</p><ul><li>Armor Class: -10 (2)</li><li>Hit Points: 20 per inch of thickness</li></ul></li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates 500 square feet of steel",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "NzDe6BSEX3gXmpnG",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.NzDe6BSEX3gXmpnG",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904558109,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!NzDe6BSEX3gXmpnG"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Growth of Plants*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes normal brush or woods to grow densely with vines, creepers, thorns, or similar plant life appropriate to the area. The spell affects up to 3,000 square feet, with dimensions chosen by the caster, and all plants must be entirely within 120' of the caster.</p>\n                      <p><strong>Effect:</strong> The overgrown area becomes impassable to creatures except for those of giant size. The effect remains until removed by the reverse of the spell or by a *Dispel Magic* spell.</p>\n                      <p><strong>Reverse Spell - Shrink Plants:</strong> The reversed form, *Shrink Plants*, reduces all normal plants within the affected area to a passable state, negating the effect of *Growth of Plants*. It does not affect plant-like monsters, such as treants.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "Special",
+    "effect": "Enlarges 3000 square feet of plants",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.tiGhDaWSsVSAYjyW",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902345384,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "tiGhDaWSsVSAYjyW",
+  "sort": 0,
+  "_originalKey": "!items!tiGhDaWSsVSAYjyW"
+}

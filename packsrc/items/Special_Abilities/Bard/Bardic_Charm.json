@@ -1,0 +1,58 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Bardic Charm",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "sIcjCSjMlKNXx14m",
+  "system": {
+    "tags": [],
+    "description": "<p>A Bard of <strong data-start=\"10\" data-end=\"33\">3rd level or higher</strong> can charm others through song, poetry, or music, similar to the <em data-start=\"98\" data-end=\"112\">charm person</em> spell. The Bard must perform for <strong data-start=\"146\" data-end=\"174\">three consecutive rounds</strong>, after which the target must make a <strong data-start=\"211\" data-end=\"244\">saving throw vs. Spells at +3</strong> or be charmed. The effect lasts until dispelled, the Bard dismisses it, or the Bard harms the target.</p><p data-start=\"350\" data-end=\"466\">At <strong data-start=\"353\" data-end=\"366\">9th level</strong>, this ability improves, allowing the Bard to charm <strong data-start=\"418\" data-end=\"442\">intelligent monsters</strong> (as <em data-start=\"447\" data-end=\"462\">charm monster</em>).</p><p data-start=\"468\" data-end=\"605\" data-is-last-node=\"\">At <strong data-start=\"471\" data-end=\"485\">15th level</strong>, the Bard can charm <strong data-start=\"506\" data-end=\"516\">plants</strong> (as <em data-start=\"521\" data-end=\"534\">charm plant</em>), influencing intelligent vegetation such as treants or magical flora.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "spell",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.7.21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.sIcjCSjMlKNXx14m",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sIcjCSjMlKNXx14m"
+}

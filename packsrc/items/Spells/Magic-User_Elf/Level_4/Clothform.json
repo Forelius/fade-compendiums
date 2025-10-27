@@ -1,0 +1,58 @@
+{
+  "name": "Clothform",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates up to 30' x 30' of non-magical cloth in a single piece. The cloth is permanent and cannot be dispelled.</p>\n                      <p><strong>Shaping:</strong> If the caster has an appropriate Craft skill (or similar character background in campaigns without skills), they can shape the cloth during creation, forming objects like tents, sails, garments, or ropes. Unshaped cloth can be cut and fashioned later.</p>\n                      <p><strong>Properties:</strong> The cloth resembles tough, undyed linen. It can be created with an unfinished edge to seamlessly join additional cloth created by another *Clothform* spell, making it ideal for sails or large, rugged fabrics.</p>\n                      <p>The cloth extrudes from the caster's hands along the ground, piling up against obstacles without pushing them. It cannot be created in a space occupied by another object or attached to anything except other *Clothform* cloth.</p>\n                      <p>This spell is commonly used for quick shelters or creating rope in adventuring situations.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates up to 30' x 30' cloth",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.RDFgEl3GFjrY7s5N",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902186728,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "RDFgEl3GFjrY7s5N",
+  "sort": 0,
+  "_originalKey": "!items!RDFgEl3GFjrY7s5N"
+}

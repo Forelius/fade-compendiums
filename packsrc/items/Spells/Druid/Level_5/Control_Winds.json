@@ -1,0 +1,54 @@
+{
+  "name": "Control Winds",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "GY1VRctDzQD5WVvu",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to control all air within range, causing it to increase to gale force or slow to dead calm as desired. The caster must concentrate for one full turn (without moving or attacking) to achieve a complete change in wind force.</p>\n                      <p><strong>Effect on Air Creatures:</strong> If the spell is directed at an air creature (like an air elemental), it may make a saving throw vs. spells. If it fails, the druid may slay or control the creature by manipulating the wind. The creature remains controlled as long as the druid concentrates and the spell remains active; if concentration is broken or the spell ends, the creature will turn hostile and attack the druid.</p>\n                      <p><strong>Countering:</strong> A higher-level spellcaster using *Control Winds* can easily counter this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "10' radius per level of the caster",
+    "duration": "1 turn per level of the caster",
+    "effect": "Calms or increases winds",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.sKDSucmLMTOnVwBk",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822356672,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "sKDSucmLMTOnVwBk",
+  "sort": 0,
+  "_originalKey": "!items!sKDSucmLMTOnVwBk"
+}

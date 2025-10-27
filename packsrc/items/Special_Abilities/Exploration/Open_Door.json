@@ -1,0 +1,51 @@
+{
+  "folder": "SSodW6IBMU8TbVXq",
+  "name": "Open Door",
+  "type": "specialAbility",
+  "img": "modules/fade-compendiums/assets/img/skill/opendoor.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>The Open Doors roll represents a character's ability to force open stuck doors. At the DM's discretion, it may also be used to determine the character's capability to perform other feats of strength, such as moving obstacles. Characters with high Strength apply their Strength adjustment to the roll. <br>Each character may attempt this action once per round. However, if the initial attempt fails, any monsters on the other side of the door will not be surprised, as they will have heard the noise.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "rollFormula": "1d6",
+    "operator": "gte",
+    "target": "5",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "abilityMod": "str",
+    "autoSuccess": 6,
+    "autoFail": 1,
+    "category": "explore",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.nPZLQJzGQ7b0g665",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.15",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743717314055,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "nPZLQJzGQ7b0g665",
+  "sort": 0,
+  "_originalKey": "!items!nPZLQJzGQ7b0g665"
+}

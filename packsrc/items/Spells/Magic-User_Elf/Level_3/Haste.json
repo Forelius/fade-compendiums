@@ -1,0 +1,64 @@
+{
+  "name": "Haste*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "240'",
+    "duration": "3 turns",
+    "effect": "Up to 24 creatures move double speed",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "24",
+    "durationFormula": "180",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "save",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Hasted",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.cXvJhpE5XD2k0Hmm"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.ywHAMJcAUkKGqvRv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749846434905,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ywHAMJcAUkKGqvRv",
+  "sort": 0,
+  "_originalKey": "!items!ywHAMJcAUkKGqvRv"
+}

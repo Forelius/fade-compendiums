@@ -1,0 +1,58 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Remove Fear*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "dFzEqqAaDPArn4X7",
+  "system": {
+    "tags": [],
+    "description": "<p>When the spellcaster casts this spell and then touches any living creature, it will calm the creature and remove any fear. If the creature has been affected by a <em>fear</em> spell or effect that normally does not allow a saving throw, the <em>remove fear</em> spell can still be effective. If the spellcaster uses the spell on someone afflicted by a magical fear effect, the victim gets to make a saving throw vs. spells, with a bonus to the roll equal to the spellcaster's level of experience (up to a maximum bonus of +6). If the saving throw is successful, the victim's fear is dispelled. Regardless of the spellcaster's level or any bonuses, a roll of 1 will always fail.</p><p>The reversed form of the spell, <em>cause fear</em>, will make any one creature flee for two turns. The victim may make a saving throw vs. spells to avoid the effect. This reversed spell has a range of 120'.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Touch",
+    "duration": "2 turns",
+    "effect": "Any one living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.dFzEqqAaDPArn4X7",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749818102154,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!dFzEqqAaDPArn4X7"
+}

@@ -1,0 +1,58 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Invisibility",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "AoXEPSwDTZ3Ol3zZ",
+  "system": {
+    "tags": [],
+    "description": "<p><strong>Invisibility</strong> allows a character or creature to become unseen by others, rendering them effectively invisible. While invisible, the user may be able to move and perform actions without being detected. Some attacks may require the user to become visible to target an opponent, while others can be executed while remaining invisible, allowing for stealthy strikes or surprise attacks. The duration of invisibility and any conditions that may end it can vary based on the specific context or rules governing the ability.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv",
+        "name": "Invisible",
+        "durationFormula": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.7",
+    "createdTime": 1757534145508,
+    "modifiedTime": 1761495672973,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!AoXEPSwDTZ3Ol3zZ"
+}

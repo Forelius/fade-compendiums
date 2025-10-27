@@ -1,0 +1,223 @@
+{
+  "name": "Extraordinary Power (NoReroll)",
+  "formula": "1d97",
+  "results": [
+    "1kpZ5P9r06mBuGUn",
+    "5Qjq6QGbGKL0lOY7",
+    "LHTy2CrAQVOXUJSr",
+    "5Usj2MK2n1xng3Vm",
+    "OxlcEC3vhWNZUwzh",
+    "j0uAk5cFG1DGhKQl",
+    "twNCWVanZd6yZx0p",
+    "dATXdLGHz7DtSh36",
+    "0yfu0D2BwTgAR4f9",
+    "BRFXLEW04oHTz1Q4",
+    "l7k8UqIkk9Wb4rGO",
+    "DWC0ZBtBshc6LCEq"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZFNAYkxvOVVY0FQf",
+    "duplicateSource": "RollTable.cCv4UIXmaNab1k6Y",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ZFNAYkxvOVVY0FQf",
+  "sort": 0,
+  "_originalKey": "!tables!ZFNAYkxvOVVY0FQf",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.0yfu0D2BwTgAR4f9",
+      "text": "Extraordinary Power: Telekinesis",
+      "range": [
+        60,
+        69
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "0yfu0D2BwTgAR4f9",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.1kpZ5P9r06mBuGUn",
+      "text": "Extraordinary Power: Clairaudience",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "1kpZ5P9r06mBuGUn",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.5Qjq6QGbGKL0lOY7",
+      "text": "Extraordinary Power: Clairvoyance",
+      "range": [
+        11,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "5Qjq6QGbGKL0lOY7",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.5Usj2MK2n1xng3Vm",
+      "text": "Extraordinary Power: Extra damage*",
+      "range": [
+        31,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "5Usj2MK2n1xng3Vm",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.BRFXLEW04oHTz1Q4",
+      "text": "Extraordinary Power: Telepathy",
+      "range": [
+        70,
+        79
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "BRFXLEW04oHTz1Q4",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.DWC0ZBtBshc6LCEq",
+      "text": "Extraordinary Power: X-ray vision",
+      "range": [
+        89,
+        97
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "DWC0ZBtBshc6LCEq",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.LHTy2CrAQVOXUJSr",
+      "text": "Extraordinary Power: ESP",
+      "range": [
+        21,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "LHTy2CrAQVOXUJSr",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.OxlcEC3vhWNZUwzh",
+      "text": "Extraordinary Power: Flying",
+      "range": [
+        36,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "OxlcEC3vhWNZUwzh",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.dATXdLGHz7DtSh36",
+      "text": "Extraordinary Power: Levitation",
+      "range": [
+        55,
+        59
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "dATXdLGHz7DtSh36",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.j0uAk5cFG1DGhKQl",
+      "text": "Extraordinary Power: Healing*",
+      "range": [
+        41,
+        45
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "j0uAk5cFG1DGhKQl",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.l7k8UqIkk9Wb4rGO",
+      "text": "Extraordinary Power: Teleportation",
+      "range": [
+        80,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "l7k8UqIkk9Wb4rGO",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.twNCWVanZd6yZx0p",
+      "text": "Extraordinary Power: Illusion",
+      "range": [
+        46,
+        54
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "twNCWVanZd6yZx0p",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

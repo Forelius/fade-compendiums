@@ -1,0 +1,65 @@
+{
+  "name": "Detect Magic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to see a glow surrounding all magical objects, creatures, and places within 60'. The caster can see the glow only if the objects are visible; hidden items will not show their glow. No saving throw is allowed.</p>\n                <p><strong>Example:</strong> After casting the spell, a magic-user can see a glowing door (locked by magic) and a glowing potion. A magical wand inside a treasure chest would not be visible as the chest hides its glow.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "2 turns",
+    "effect": "Everything within 60'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "7Rw96gGRTGQYu8f5",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.7Rw96gGRTGQYu8f5",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749833200806,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!7Rw96gGRTGQYu8f5"
+}

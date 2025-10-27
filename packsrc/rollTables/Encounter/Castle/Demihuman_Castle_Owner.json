@@ -1,0 +1,79 @@
+{
+  "folder": "Qh5wETOfRib0kt29",
+  "name": "Demihuman Castle Owner",
+  "_id": "lIbQyZDz3a92ISfG",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "PwCZYyWjsypm2gcR",
+    "l5M64XmkdLgK3E1U",
+    "2ojkrT1Xxj0rNHEC"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760627348886,
+    "modifiedTime": 1760705882491,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!lIbQyZDz3a92ISfG",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!lIbQyZDz3a92ISfG.2ojkrT1Xxj0rNHEC",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "2ojkrT1Xxj0rNHEC",
+      "text": "Owned by a level 8 Halfling",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!lIbQyZDz3a92ISfG.PwCZYyWjsypm2gcR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "PwCZYyWjsypm2gcR",
+      "text": "Owned by a level 12 Dwarf",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!lIbQyZDz3a92ISfG.l5M64XmkdLgK3E1U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "_id": "l5M64XmkdLgK3E1U",
+      "text": "Owned by a level 10 Elf",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

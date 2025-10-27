@@ -1,0 +1,111 @@
+{
+  "name": "Talisman of Elemental Travel",
+  "formula": "1d10",
+  "results": [
+    "A7NR8HRnAmZY04B6",
+    "rEh2TvR62aET99Ag",
+    "hdR7AwN95ZwgP8KY",
+    "VPHT1yeFmbm0LXKT",
+    "FlVryXfAuvsYKbsv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of Talisman of Elemental Travel found, such as a Lesser Talisman for a single element or a Greater Talisman for all elements.</p>",
+  "folder": "mStxdN6b4jPlJn4h",
+  "_id": "shPaghOgNqHhPdKH",
+  "img": "icons/svg/d20-grey.svg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.shPaghOgNqHhPdKH",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!shPaghOgNqHhPdKH",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.A7NR8HRnAmZY04B6",
+      "text": "Lesser Talisman of Air",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "A7NR8HRnAmZY04B6",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.FlVryXfAuvsYKbsv",
+      "text": "Greater Talisman (all elements)",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "FlVryXfAuvsYKbsv",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.VPHT1yeFmbm0LXKT",
+      "text": "Lesser Talisman of Water",
+      "range": [
+        7,
+        8
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "VPHT1yeFmbm0LXKT",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.hdR7AwN95ZwgP8KY",
+      "text": "Lesser Talisman of Fire",
+      "range": [
+        5,
+        6
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "hdR7AwN95ZwgP8KY",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.rEh2TvR62aET99Ag",
+      "text": "Lesser Talisman of Earth",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "rEh2TvR62aET99Ag",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

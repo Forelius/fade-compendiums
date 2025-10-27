@@ -1,0 +1,51 @@
+{
+  "folder": "wp4JNVGDTG8oFeQq",
+  "name": "Heal Self",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "TN9FYk1kTR0kPWdb",
+  "system": {
+    "tags": [],
+    "description": "<p><span style=\"font-family: sans-serif\">Once daily, the mystic can heal himself of [@actor.system.details.level] points of damage. That is 1 point of damage per experience level he possesses by focusing his concentration for a single round. </span></p><p><span style=\"font-family: sans-serif\">For instance, a mystic at 10th level can spend one round concentrating and restore 10 hit points of damage he has sustained.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "MY",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.TN9FYk1kTR0kPWdb",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!TN9FYk1kTR0kPWdb"
+}

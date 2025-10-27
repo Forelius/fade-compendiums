@@ -1,0 +1,58 @@
+{
+  "name": "Animate Dead (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell animates normal skeletons or dead bodies within range, transforming them into enchanted skeletons or zombies. These undead obey the caster until destroyed by a dispel magic spell or another cleric.</p>\n                      <p><strong>Effect:</strong> For each experience level, the caster can animate 1 HD of undead. Skeletons retain the HD of the original creature, while zombies have +1 HD.</p>\n                      <p>Humans and demihumans are treated as 1 HD for this spell. A human’s corpse would be animated as a 1 HD skeleton or a 2 HD zombie.</p>\n                      <p><strong>Notes:</strong> Animated undead are immune to sleep, charm, and poison effects. Using this spell for good is advised for lawful casters, as animating the dead is often seen as a Chaotic act.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Creates zombies or skeletons",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.1Rs1JwCagVsI0j5C",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821182912,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "1Rs1JwCagVsI0j5C",
+  "sort": 0,
+  "_originalKey": "!items!1Rs1JwCagVsI0j5C"
+}

@@ -1,0 +1,104 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Blessed",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/blessed.webp",
+  "_id": "H9QzS61QZdi0ex8l",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This effect improves the morale of friendly creatures by +1 and gives the recipients a +1 bonus on all attack and damage rolls. It will only affect creatures in a 20' X 20' area, and only those who are not yet in melee.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "8cqYT1yGDJSOCbp2"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.H9QzS61QZdi0ex8l",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219177148,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 4900000,
+  "_originalKey": "!items!H9QzS61QZdi0ex8l",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!H9QzS61QZdi0ex8l.8cqYT1yGDJSOCbp2",
+      "name": "Blessed",
+      "img": "systems/fantastic-depths/assets/img/ui/blessed.webp",
+      "disabled": false,
+      "_id": "8cqYT1yGDJSOCbp2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.details.morale",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#fde248",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Weapons Add. Mod. 15%",
+  "formula": "1d100",
+  "results": [
+    "bTE1saQLxEJlitPp",
+    "LziPqUXCzNOwzLB0"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines if a weapon has an additional modifier. Roll on the Additional Weapon Mods (Misc) table if successful.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "img": "icons/weapons/axes/axe-battle-orange.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ylxkEpFEU4KkoopP",
+    "duplicateSource": "RollTable.aoO2D4BQoVXA7sq2",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743221660587,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ylxkEpFEU4KkoopP",
+  "sort": 0,
+  "_originalKey": "!tables!ylxkEpFEU4KkoopP",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ylxkEpFEU4KkoopP.LziPqUXCzNOwzLB0",
+      "type": "text",
+      "documentCollection": "RollTable",
+      "weight": 1,
+      "range": [
+        16,
+        100
+      ],
+      "drawn": false,
+      "_id": "LziPqUXCzNOwzLB0",
+      "text": "No additional weapon modifiers",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ylxkEpFEU4KkoopP.bTE1saQLxEJlitPp",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        15
+      ],
+      "drawn": false,
+      "text": "Additional Weapon Mods (Misc)",
+      "documentId": "vWCjh3oONct14YM9",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "bTE1saQLxEJlitPp",
+      "flags": {}
+    }
+  ]
+}

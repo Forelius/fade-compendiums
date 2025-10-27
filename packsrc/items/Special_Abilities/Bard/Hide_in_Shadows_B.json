@@ -1,0 +1,58 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Hide in Shadows (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "RR64xWicTG3T5IGf",
+  "system": {
+    "tags": [],
+    "description": "<p>A Bard can remain unseen by blending into shadows, dimly lit areas, or natural cover, using the same chance as a Thief of the same level. This ability requires the Bard to be <strong>motionless</strong> and cannot be used while being directly observed. Moving while hidden requires a successful Move Silently check.</p><h4>Armor Penalties:</h4><ul><li>Scale Mail: –5%</li><li>Chain Mail: –10% (–5% if Elven Chain)</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "10",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.7.21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.RR64xWicTG3T5IGf",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!RR64xWicTG3T5IGf"
+}

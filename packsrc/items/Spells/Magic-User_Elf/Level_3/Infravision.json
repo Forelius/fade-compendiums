@@ -1,0 +1,64 @@
+{
+  "name": "Infravision",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the recipient the ability to see in the dark up to a 60' range, similar to the infravision of dwarves and elves. Infravision detects heat and works alongside normal vision, allowing the recipient to discern objects and creatures based on temperature differences.</p>\n                      <p><strong>Limitations:</strong> Infravision is ineffective in areas with normal or magical light. Heat sources like fires can obscure infravision, much like a flash of bright light can temporarily blind normal vision.</p>\n                      <p><strong>Vision Detail:</strong> Warm objects appear red, cold objects appear blue. Moving creatures appear as red shapes with faint red footprints, while cold water is deep blue. Items matching ambient temperature, such as tables or skeletons, appear as faint, light-blue shapes. Movement highlights these faint objects, making them obvious but blurry.</p>\n                      <p>Infravision cannot be used to read or recognize individuals from a distance. A creature’s unique features may be discerned within 10' if highly distinctive (e.g., very tall or using a crutch).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Touch",
+    "duration": "1 day",
+    "effect": "Grants infravision to one creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "8640",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Infravision",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.hYEizXtc25iDKcld"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.C1l3yWeTccS9HEfR",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749846920839,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "C1l3yWeTccS9HEfR",
+  "sort": 0,
+  "_originalKey": "!items!C1l3yWeTccS9HEfR"
+}

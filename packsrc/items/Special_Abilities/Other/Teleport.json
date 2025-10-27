@@ -1,0 +1,52 @@
+{
+  "name": "Teleport",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>The <strong>Teleport</strong> ability allows a character or creature to instantly move from one location to another without traversing the space in between, as long as the new location is within their sight or a known place.</p>",
+    "gm": {
+      "notes": "Teleport ability at will."
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "effects": [],
+  "folder": "164Li2oYfnb0Z7S7",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.7",
+    "createdTime": 1757509526706,
+    "modifiedTime": 1761495672973,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "DopHWlFppHP2WGmD",
+  "sort": 800000,
+  "_originalKey": "!items!DopHWlFppHP2WGmD"
+}

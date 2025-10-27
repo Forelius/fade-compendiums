@@ -1,0 +1,43 @@
+{
+  "name": "Veterinary Healing",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill is similar to the Healing skill but pertains to creatures other than humans or demihumans, such as monsters, animals, and other nonhuman creatures. A successful skill roll allows the character to restore [[/r 1d3 #Veterinary Healing (Hit Points Restored)]] hit points to a creature. This skill can be taken in two ways:</p><ul><li><strong>General Veterinary Healing</strong>: A +1 penalty applies for each type of creature the character treats.</li><li><strong>Specialized Veterinary Healing</strong>: Pertains to one specific class of creatures (e.g., equines), with no penalty for that class but a +2 penalty for all others.</li></ul><p>A character with this skill who attempts to treat humans or demihumans must roll with a +3 penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "Y9yunC6S9weMjcUE",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.Y9yunC6S9weMjcUE",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.4",
+    "createdTime": 1743219180041,
+    "modifiedTime": 1761565787342,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Y9yunC6S9weMjcUE"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Arcane Spellcasting (M)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p data-start=\"31\" data-end=\"347\">Magic-Users harness arcane energy through <strong data-start=\"73\" data-end=\"115\">intense study and careful memorization</strong> of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Magic-Users must <strong data-start=\"215\" data-end=\"244\">prepare spells in advance</strong> by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p data-start=\"349\" data-end=\"650\">Magic-Users have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em data-start=\"502\" data-end=\"514\">Read Magic</em> to devastating attacks like <em data-start=\"543\" data-end=\"553\">Fireball</em> and reality-warping incantations at higher levels​.</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">Because of their reliance on spellbooks, Magic-Users must protect and expand their libraries, seeking out <strong data-start=\"758\" data-end=\"804\">lost tomes, scrolls, and ancient knowledge</strong> to improve their magical repertoire.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "spellcasting",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "M",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "z35KFMVUIiDBzg5O",
+  "_id": "9aBRk0NyFMb2G2BP",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.9aBRk0NyFMb2G2BP",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.10",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1757069312175,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!9aBRk0NyFMb2G2BP"
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Staff of Element",
+  "formula": "1d100",
+  "results": [
+    "W3IrRPEFiy64AXe0",
+    "AR8aJR42MZNaVnNE",
+    "pPgA5afr2Y0pNLWb",
+    "I0Hdav4OzCFNtrKV",
+    "6X7TRjSzX045Y1f8",
+    "Ki8nO5qgyOBu7DWu",
+    "GcKyT5XkAhE0xPn8"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the specific type of Staff of Element found, such as Staff of Air, Staff of Fire, or the rare Staff of Elemental Power.</p>",
+  "folder": "4RXHIPNv224QoWHB",
+  "_id": "4Rs3dJmvVY3pBiZF",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.4Rs3dJmvVY3pBiZF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!4Rs3dJmvVY3pBiZF",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.6X7TRjSzX045Y1f8",
+      "text": "Staff of Air and Water",
+      "range": [
+        85,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "6X7TRjSzX045Y1f8",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.AR8aJR42MZNaVnNE",
+      "text": "Staff of Earth",
+      "range": [
+        22,
+        42
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "AR8aJR42MZNaVnNE",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.GcKyT5XkAhE0xPn8",
+      "text": "Staff of Elemental Power",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "GcKyT5XkAhE0xPn8",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.I0Hdav4OzCFNtrKV",
+      "text": "Staff of Water",
+      "range": [
+        64,
+        84
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "I0Hdav4OzCFNtrKV",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.Ki8nO5qgyOBu7DWu",
+      "text": "Staff of Earth and Fire",
+      "range": [
+        92,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "Ki8nO5qgyOBu7DWu",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.W3IrRPEFiy64AXe0",
+      "text": "Staff of Air",
+      "range": [
+        1,
+        21
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "W3IrRPEFiy64AXe0",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.pPgA5afr2Y0pNLWb",
+      "text": "Staff of Fire",
+      "range": [
+        43,
+        63
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "pPgA5afr2Y0pNLWb",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

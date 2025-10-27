@@ -1,0 +1,51 @@
+{
+  "folder": "qFF5HCKZq2M3Gc3M",
+  "name": "Dark Allegiance",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "NW1TkGifXyDgP2bI",
+  "system": {
+    "tags": [],
+    "description": "<p>An Avenger cannot have human or demihuman hirelings but may attempt to persuade Chaotic monsters to serve them. If a Chaotic creature is not immediately hostile, the Avenger may offer food or treasure, using words or gestures to signal friendship. If this fails, the Avenger may use threats or force, and if the creature surrenders, they may become a follower.</p><p data-start=\"419\" data-end=\"663\">If the creature’s Reaction Roll indicates friendship, they agree to follow and obey the Avenger. This effect lasts as long as a charm person spell, after which the creature is freed from influence and cannot be re-charmed.</p><p data-start=\"665\" data-end=\"820\" data-is-last-node=\"\">An Avenger may control a number of Chaotic monster hirelings equal to their Charisma limit. If one is lost, the Avenger may attempt to recruit another.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "AV",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.NW1TkGifXyDgP2bI",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!NW1TkGifXyDgP2bI"
+}

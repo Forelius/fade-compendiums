@@ -1,0 +1,72 @@
+{
+  "name": "Sleep",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell puts 2-16 Hit Dice of creatures to sleep within a 40' square area. It affects creatures with 4+1 HD or less and does not work against undead or very large creatures, such as dragons. Creatures outside the area of effect are not affected.</p><p>Slapping, kicking, or shaking a sleeping creature will wake it. A single blow with an edged weapon can kill a sleeping creature, regardless of its hit points.</p><p>Your Dungeon Master will roll [[/r 2d8 #Sleep total hit dice affected]] to determine the total Hit Dice or experience levels of creatures affected by the spell. No saving throw is allowed.</p><p>The spell will put the targets to sleep for [[/r 4d4 #Sleep duration in turns]] turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "240'",
+    "duration": "4d4 (4-16) turns",
+    "effect": "2d8 Hit Dice of living creatures within a 40' square area",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "4d4*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YONntmaFo6WUaJgs",
+        "name": "Asleep",
+        "remove": true
+      }
+    ],
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1747001212873,
+    "modifiedTime": 1758730194812,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "rSXA1lZDUozDSJwq",
+  "sort": 1100000,
+  "_originalKey": "!items!rSXA1lZDUozDSJwq"
+}

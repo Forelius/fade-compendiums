@@ -1,0 +1,58 @@
+{
+  "name": "Sticks to Snakes",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transforms [[/r 2d8 #sticks into snakes]] sticks into snakes, which may be poisonous (50% chance per snake). The snakes obey the caster's commands but will revert to sticks when slain or when the spell's duration ends.</p><p><strong>Snake Stats:</strong> AC 6; HD 1; AT 1 bite; Dmg 1d4; MV 90' (30'); Save F1; ML 12; AL Neutral; SA poison (50% chance per snake to be poisonous).</p><p>Non-poisonous snakes grant 10 XP each, while poisonous ones grant 13 XP each.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "6 turns",
+    "effect": "Turns up to 16 sticks into snakes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "2d8",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.NxbSKDDEzqONJp4A",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821407657,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "NxbSKDDEzqONJp4A",
+  "sort": 0,
+  "_originalKey": "!items!NxbSKDDEzqONJp4A"
+}

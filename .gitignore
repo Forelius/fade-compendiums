@@ -1,8 +1,10 @@
 .vs
 node_modules
 /fade-compendiums.zip
-/packs/items/LOCK
-/packs/items/LOG.old
 /notes.txt
-/packs/actors/LOCK
-/packs/rollTables/LOCK
+
+# Ignore FoundryVTT LevelDB folders
+/packs/actors/
+/packs/items/
+/packs/macros/
+/packs/rollTables/

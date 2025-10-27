@@ -1,0 +1,27 @@
+{
+  "folder": "KnvGWVgDGttFNMhM",
+  "name": "Fix Pack Spell Class",
+  "type": "script",
+  "_id": "sxxCksJXBeMZe1n1",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "(async () => {\n  try {\n    const packs = game.packs.filter(pack => pack.metadata.type === 'Item');\n    const allClassItems = [];\n\n    // Step 1: Load all class items\n    for (const pack of packs) {\n      const items = await pack.getDocuments();\n      const classItems = items.filter(item => item.type === 'class');\n      allClassItems.push(...classItems);\n    }\n\n    // Step 2: Create class name lookup map\n    const classLookup = new Map();\n    for (const classItem of allClassItems) {\n      classLookup.set(classItem.name.toLowerCase(), {\n        name: classItem.name,\n        uuid: classItem.uuid\n      });\n    }\n\n    // Step 3: Process each pack's spells\n    for (const pack of packs) {\n      if (pack.locked) {\n        console.warn(`Skipping locked pack: ${pack.metadata.label}`);\n        continue;\n      }\n\n      const items = await pack.getDocuments();\n      const spellsToUpdate = [];\n\n      for (const spell of items) {\n        if (spell.type !== 'spell') continue;\n\n        const tags = spell.system?.tags || spell.system?.properties || [];\n        const spellClasses = [];\n\n        for (const tag of tags) {\n          const match = classLookup.get(tag.toLowerCase());\n          if (match) {\n            spellClasses.push({ name: match.name, uuid: match.uuid });\n          }\n        }\n\n        // Only update if there's a change\n        if (spellClasses.length > 0) {\n          spellsToUpdate.push({\n            _id: spell.id,\n            'system.classes': spellClasses\n          });\n        }\n      }\n\n      if (spellsToUpdate.length > 0) {\n        console.log(`Updating ${spellsToUpdate.length} spells in ${pack.metadata.label}`);\n        await pack.documentClass.updateDocuments(spellsToUpdate, { pack: pack.collection });\n      }\n    }\n\n    ui.notifications.info('Spell class assignments complete.');\n  } catch (error) {\n    console.error('Error updating spell classes in compendiums:', error);\n    ui.notifications.error('Failed to update spell classes. Check console.');\n  }\n})();",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.20",
+    "createdTime": 1752069956151,
+    "modifiedTime": 1752069956151,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!macros!sxxCksJXBeMZe1n1"
+}

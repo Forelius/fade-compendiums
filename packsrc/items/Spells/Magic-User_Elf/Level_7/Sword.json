@@ -1,0 +1,54 @@
+{
+  "name": "Sword",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>When this spell is cast, a glowing sword made of magical energy appears next to the caster. The caster may direct the sword to attack any creature within 30 feet simply by concentrating.</p><h4>Combat Details:</h4><ul><li>The sword attacks twice per round.</li><li>It attacks using the caster's attack rolls and level.</li><li>Deals damage as a two-handed sword (1d10).</li><li>Can hit any target, including those requiring magical weapons to be harmed.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The caster must concentrate to control the sword.</li><li>If concentration is broken, the sword stops attacking but remains in existence.</li><li>The sword remains for 1 round per caster level.</li><li>It cannot be destroyed except by <em>Dispel Magic</em> (normal success chance) or a <em>Wish</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "30'",
+    "duration": "1 round per level",
+    "effect": "Creates a magical sword",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel",
+    "dmgFormula": "1d10",
+    "attackType": "melee",
+    "damageType": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "9cVcoYIeeBQ2IYC2",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.9cVcoYIeeBQ2IYC2",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904094437,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!9cVcoYIeeBQ2IYC2"
+}

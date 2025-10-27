@@ -1,0 +1,112 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Shield +1",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/shield.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>A magic shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1  (plus magic bonus) to the character’s armor class. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 10,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 1,
+    "isShield": true,
+    "dmgFormula": null,
+    "armorWeight": "light",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Shield",
+    "unidentifiedDesc": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides and extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8. Wooden shields may be used by druids, since they are made primarily of natural materials.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "effects": [
+    "aiM7GyjUjh8xdc3T"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.6u5aEXJG51eb6X5B",
+    "duplicateSource": "Item.efbE0gN8tqL8K94z",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1743219182967,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "6u5aEXJG51eb6X5B",
+  "sort": 0,
+  "_originalKey": "!items!6u5aEXJG51eb6X5B",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!6u5aEXJG51eb6X5B.aiM7GyjUjh8xdc3T",
+      "name": "Armor+1",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.6u5aEXJG51eb6X5B",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "aiM7GyjUjh8xdc3T",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

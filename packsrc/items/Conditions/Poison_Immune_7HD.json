@@ -1,0 +1,80 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Poison Immune (7HD)",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Immune to poisons from creatures of 7 Hit Dice or less and provides a +2 bonus to saving throws against poison. Poisons avoided during have no effect after it ends.</p><p>The effect lasts for one hour.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "dYxxYFUSDNpzrGK9"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758801646638,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "shgXt1YXWe1Ia8GV",
+  "sort": 2100000,
+  "_originalKey": "!items!shgXt1YXWe1Ia8GV",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!shgXt1YXWe1Ia8GV.dYxxYFUSDNpzrGK9",
+      "name": "Poison Immune (7HD)",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "dYxxYFUSDNpzrGK9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.death",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 360,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#adffb3",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.6",
+        "createdTime": null,
+        "modifiedTime": 1758888979811,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      }
+    }
+  ]
+}

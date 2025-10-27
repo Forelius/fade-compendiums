@@ -1,0 +1,120 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Monster Reaction Roll",
+  "_id": "lbFxDa6UITg6AId9",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The referee determines monsters’ reaction to the party. Sometimes, circumstances make it obvious how a monster will react. Otherwise, the referee may roll on the table below to determine how a monster reacts to the party.</p>",
+  "results": [
+    "ZKf4IQQNtzO8dpmx",
+    "q3WodAaJfDRc0VXz",
+    "xsfstqRk6tLdLS4F",
+    "WRuRqPONmku1Skcy",
+    "bqlilzyFew9GUPkj"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "cf": null,
+    "core": {},
+    "exportSource": {
+      "world": "dandd-1e",
+      "system": "gs-fantastic-depths",
+      "coreVersion": "11.315",
+      "systemVersion": "1.11.5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.lbFxDa6UITg6AId9",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749688332,
+    "modifiedTime": 1754183373015,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "2d6",
+  "sort": 0,
+  "_originalKey": "!tables!lbFxDa6UITg6AId9",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.WRuRqPONmku1Skcy",
+      "_id": "WRuRqPONmku1Skcy",
+      "flags": {},
+      "type": "text",
+      "text": "Indifferent, uninterested",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "documentId": null
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.ZKf4IQQNtzO8dpmx",
+      "_id": "ZKf4IQQNtzO8dpmx",
+      "flags": {},
+      "type": "text",
+      "text": "Hostile, attacks",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "documentId": null
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.bqlilzyFew9GUPkj",
+      "_id": "bqlilzyFew9GUPkj",
+      "flags": {},
+      "type": "text",
+      "text": "Friendly, helpful",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "documentId": null
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.q3WodAaJfDRc0VXz",
+      "_id": "q3WodAaJfDRc0VXz",
+      "flags": {},
+      "type": "text",
+      "text": "Unfriendly, may attack",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        5
+      ],
+      "drawn": false,
+      "documentId": null
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.xsfstqRk6tLdLS4F",
+      "_id": "xsfstqRk6tLdLS4F",
+      "flags": {},
+      "type": "text",
+      "text": "Neutral, uncertain",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "documentId": null
+    }
+  ]
+}

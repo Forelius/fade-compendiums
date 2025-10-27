@@ -1,0 +1,81 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Shield, Horned",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "_id": "c1Pb7jq7pyg6uRn6",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": 15,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "damageRoll": "1d2",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Shield, Horned",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "unidentifiedName": "Shield, Horned",
+    "unidentifiedDesc": "<p>This is a small, circular shield measuring about one foot in diameter. It is securely strapped to the wielder’s arm rather than being handheld. A sturdy spike protrudes from the center of the shield, allowing it to double as a weapon. Its robust construction ensures that it is resistant to breakage during combat.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.c1Pb7jq7pyg6uRn6",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1744469838804,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 2700000,
+  "_originalKey": "!items!c1Pb7jq7pyg6uRn6"
+}

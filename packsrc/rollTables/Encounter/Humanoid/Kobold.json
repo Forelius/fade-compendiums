@@ -1,0 +1,82 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Kobold",
+  "_id": "xz4y1gJicB7eMFX4",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "phTlavjn1RUzhzCO",
+    "tKoqTfpuAFmlwtnx",
+    "oYeQW0JkxZMPRqhG"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760547827507,
+    "modifiedTime": 1760705592652,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!xz4y1gJicB7eMFX4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.oYeQW0JkxZMPRqhG",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        90,
+        100
+      ],
+      "drawn": false,
+      "text": "Kobold, Bodyguard",
+      "documentId": "ksBFKbkxoksOtZ5E",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oYeQW0JkxZMPRqhG",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.phTlavjn1RUzhzCO",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "text": "Kobold",
+      "documentId": "LrFyA3hSCWV8vBQr",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "phTlavjn1RUzhzCO",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.tKoqTfpuAFmlwtnx",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "text": "Kobold Chieftain",
+      "documentId": "ZL3EScZF34Mluma5",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "tKoqTfpuAFmlwtnx",
+      "flags": {}
+    }
+  ]
+}

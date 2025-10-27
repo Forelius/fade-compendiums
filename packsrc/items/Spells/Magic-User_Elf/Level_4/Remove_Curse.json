@@ -1,0 +1,58 @@
+{
+  "name": "Remove Curse*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell removes one curse from a character, item, or area. Some powerful curses, especially on magical items, may only be temporarily lifted by *Remove Curse*, requiring a higher-level *Remove Curse* or a cleric's *Dispel Evil* spell to remove permanently. The DM determines if a curse requires additional magic to remove.</p>\n                      <p><strong>Reverse Spell - Curse:</strong> The reverse of this spell, *Curse*, imposes a misfortune or penalty on the target. Curses are limited only by the caster's imagination, but overly powerful curses may backfire on the caster at the DM's discretion. Typical curse effects include a -4 penalty on attack rolls, -2 on saving throws, or a halved prime requisite.</p>\n                      <p>The target may attempt a saving throw vs. spells to avoid the curse.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Removes any one curse",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.XID0MWHjUEzMNYRw",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902465876,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "XID0MWHjUEzMNYRw",
+  "sort": 0,
+  "_originalKey": "!items!XID0MWHjUEzMNYRw"
+}

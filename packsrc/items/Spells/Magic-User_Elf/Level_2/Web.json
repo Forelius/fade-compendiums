@@ -1,0 +1,64 @@
+{
+  "name": "Web",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell conjures a thick, sticky web that fills the affected area. The web traps creatures, restricting movement and blocking passage. Giants or creatures with great strength can break through the web in 2 rounds, while a human of average strength will take [[/r 2d4 #Escape Time in Turns]] turns to break free.</p>\n        <p>Flames, such as from a torch, will burn away the web in 2 rounds, dealing [[/r 1d6 #Fire Damage]] damage to anyone caught in it. Magical items like gauntlets of ogre power reduce escape time to 4 rounds.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "10'",
+    "duration": "48 turns",
+    "effect": "A volume 10' x 10' x 10'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "2880",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Restrained",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0kJsC2psxfPVJmm5"
+      }
+    ]
+  },
+  "_id": "OGK2GxR6EeHXrp4m",
+  "effects": [],
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.OGK2GxR6EeHXrp4m",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1758722973370,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!OGK2GxR6EeHXrp4m"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Entangle",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the spellcaster to use any rope-like object of living or once-living material (roots, vines, leather ropes, plant-fiber ropes, etc.) to behave as they order. About 50' of normal 1/2\" diameter vine plus 5' per level of the caster can be affected.</p>\n                  <p>The commands which can be given during an <em>entangle</em> spell include: coil (form a neat stack), coil and knot, loop, loop and knot, tie and knot, and the reverses of all the above. The vine or rope must be within 1' of any object it is to coil around or tie up, so it often must be thrown at the target. This spell is very useful in climbing situations; a spellcaster can toss a rope up the side of a wall or cliff and command it to loop and knot itself around a projection at the height of the throw. Coil and knot effectively ties up a victim.</p>\n                  <p>A person or monster attacked by any use of the spell may make a saving throw vs. spells to avoid the effects of the entangle.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "30'",
+    "duration": "1 round per level",
+    "effect": "Controls ropes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "M7mUmOOaukQeXz3H",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.M7mUmOOaukQeXz3H",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749834986371,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!M7mUmOOaukQeXz3H"
+}

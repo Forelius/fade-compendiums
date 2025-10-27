@@ -1,0 +1,137 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Crossbow, Lt +1",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-blue.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 30,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Crossbow, Light",
+    "weaponType": "all",
+    "range": {
+      "short": 60,
+      "medium": 120,
+      "long": 180
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "quarrel",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Crossbow, Lt",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [
+    "qYl4t4qbZduGgp9y"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.j6xhOOjjHSEBKzUH",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1747586869038,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "j6xhOOjjHSEBKzUH",
+  "sort": 0,
+  "_originalKey": "!items!j6xhOOjjHSEBKzUH",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!j6xhOOjjHSEBKzUH.qYl4t4qbZduGgp9y",
+      "name": "Damage/To-hit +1",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.GbaIlk3MgzzQuKiA",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "qYl4t4qbZduGgp9y",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.dmgRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.toHitRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

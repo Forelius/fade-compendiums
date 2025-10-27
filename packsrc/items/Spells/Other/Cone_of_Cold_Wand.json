@@ -1,0 +1,50 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Cone of Cold (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "ZCdGOD9myXZEleVA",
+  "system": {
+    "tags": [],
+    "description": "<p>Creates a cone of cold, 60' long and 30' wide at the far end. All within the cone take 6d6 points of cold damage, but they may make a saving throw vs. wands for half damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60'",
+    "duration": "Instant",
+    "effect": "Creates code of coldness 60' long by 30' wide",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "6d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "frost",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758631942767,
+    "modifiedTime": 1759149073084,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!ZCdGOD9myXZEleVA"
+}

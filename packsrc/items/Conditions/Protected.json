@@ -1,0 +1,92 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Protected",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/protectfromevil.webp",
+  "_id": "4iesuDY5xhbUiS86",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This effect creates an invisible magical barrier surrounding the spell target's body, less than an inch away.</p><p>In addition, enchanted creatures cannot touch the spell target. (An enchanted creature is one that cannot be harmed by normal weapons and can only be affected by magical weapons. A creature that can only be harmed by silver weapons, such as a werewolf, is not considered enchanted.</p><p>Creatures that are magically summoned or controlled, like a charmed character, are also classified as enchanted.) The barrier completely protects the spell target from all melee or hand- to - hand attacks from these creatures, although it does not block attacks from missile weapons.Enchanted creatures using missile weapons still suffer the - 1 attack penalty but can hit the spell target.</p><p>This effect does not block magic missile spells used by magic - users.</p><p>If the spell target attacks an enchanted creature while this effect is active, the barrier's properties change slightly. Enchanted creatures can then touch the spell target, but they still suffer the attack roll penalty.The attack penalty and the spell target's saving throw bonus remain until the effect ends.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "sJ2HmwZT3nzte98D"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219177148,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 4500000,
+  "_originalKey": "!items!4iesuDY5xhbUiS86",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!4iesuDY5xhbUiS86.sJ2HmwZT3nzte98D",
+      "name": "Protected",
+      "img": "systems/fantastic-depths/assets/img/ui/protectfromevil.webp",
+      "disabled": false,
+      "_id": "sJ2HmwZT3nzte98D",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.selfToHit",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.selfToHitRanged",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#f5e37a",
+      "transfer": true,
+      "statuses": [
+        "holyShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

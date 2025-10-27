@@ -1,0 +1,159 @@
+{
+  "name": "Giant Control",
+  "formula": "1d20",
+  "results": [
+    "xuKg5RTJ5M0Jzv1X",
+    "WykcfMVCxV0Tasrv",
+    "SatkVilHcN0LIPG0",
+    "h8v8muniIq46IR2i",
+    "QCzBK485EH4Z65Oz",
+    "xj5sqTypBVLDVili",
+    "E58lhHMGt2BwnEG5",
+    "BVqrYO6F3nW52l7M"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of giant controlled, such as Hill, Frost, or Storm Giant.</p>",
+  "folder": "X85Fi9NfqjhLiHIy",
+  "_id": "T2O234kz8VCwXL8r",
+  "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.T2O234kz8VCwXL8r",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!T2O234kz8VCwXL8r",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.BVqrYO6F3nW52l7M",
+      "text": "Storm Giant",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "BVqrYO6F3nW52l7M",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.E58lhHMGt2BwnEG5",
+      "text": "Cloud Giant",
+      "range": [
+        19,
+        19
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "E58lhHMGt2BwnEG5",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.QCzBK485EH4Z65Oz",
+      "text": "Mountain Giant",
+      "range": [
+        17,
+        17
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "QCzBK485EH4Z65Oz",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.SatkVilHcN0LIPG0",
+      "text": "Frost Giant",
+      "range": [
+        11,
+        14
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "SatkVilHcN0LIPG0",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.WykcfMVCxV0Tasrv",
+      "text": "Stone Giant",
+      "range": [
+        6,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "WykcfMVCxV0Tasrv",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.h8v8muniIq46IR2i",
+      "text": "Fire Giant",
+      "range": [
+        15,
+        16
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "h8v8muniIq46IR2i",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.xj5sqTypBVLDVili",
+      "text": "Sea Giant",
+      "range": [
+        18,
+        18
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "xj5sqTypBVLDVili",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!T2O234kz8VCwXL8r.xuKg5RTJ5M0Jzv1X",
+      "text": "Hill Giant",
+      "range": [
+        1,
+        5
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
+      "_id": "xuKg5RTJ5M0Jzv1X",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

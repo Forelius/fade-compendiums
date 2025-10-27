@@ -1,0 +1,65 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Speak with Animals",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "HyhChl3kXSj8POMV",
+  "system": {
+    "tags": [],
+    "description": "<p>When casting this spell, the spellcaster must name one type of animal (such as wolves). For the duration of the spell, the spellcaster can communicate with all animals of that type within 30'; the effect moves with the caster.</p><p>The spell allows the caster to speak to any normal or giant forms of the named animal type, but only to one type at a time. The spell cannot be used to communicate with intelligent animals or fantastic creatures.</p><p>The animals typically react favorably (with a +2 bonus to reaction rolls) and may be persuaded to perform a favor for the spellcaster if the reaction roll is high enough. The animal must be capable of understanding and carrying out the request.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0 (caster only)",
+    "duration": "6 turns",
+    "effect": "Allows conversation within 30'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.HyhChl3kXSj8POMV",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749819481334,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 400000,
+  "_originalKey": "!items!HyhChl3kXSj8POMV"
+}

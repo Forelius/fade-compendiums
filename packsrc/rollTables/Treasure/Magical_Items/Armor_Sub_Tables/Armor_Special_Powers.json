@@ -1,0 +1,223 @@
+{
+  "name": "Armor Special Powers",
+  "formula": "1d100",
+  "results": [
+    "GwncNLcqZg1ZFP40",
+    "qQIeIuLzatFGajGv",
+    "D04bVqk31ZaufWeZ",
+    "RdGvbHabWW0YXpl5",
+    "IwOLNc1pXbPl9byV",
+    "addFOJIFxUSz6N9D",
+    "lmQgpqhf7fFhkkAL",
+    "VBUhDQZomDfwRbXk",
+    "HhrD3PUA4dIZ1WlA",
+    "7eXhTrsuUVN22qZ2",
+    "MBzT5pD0etwrQI9t",
+    "lgWYncvKklpLCqCA"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the special power of an item or effect, such as Absorption, Fly, or Invisibility.</p>",
+  "folder": "TR10cmcdEZOUsSui",
+  "_id": "QS37hEkAQFZwApkJ",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.QS37hEkAQFZwApkJ",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743220229267,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 800000,
+  "_originalKey": "!tables!QS37hEkAQFZwApkJ",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.7eXhTrsuUVN22qZ2",
+      "text": "Special Power: Invisibility",
+      "range": [
+        76,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "7eXhTrsuUVN22qZ2",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.D04bVqk31ZaufWeZ",
+      "text": "Special Power: Cure wounds",
+      "range": [
+        18,
+        32
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "D04bVqk31ZaufWeZ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.GwncNLcqZg1ZFP40",
+      "text": "Special Power: Absorption",
+      "range": [
+        1,
+        7
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "GwncNLcqZg1ZFP40",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.HhrD3PUA4dIZ1WlA",
+      "text": "Special Power: Haste",
+      "range": [
+        67,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "HhrD3PUA4dIZ1WlA",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.IwOLNc1pXbPl9byV",
+      "text": "Special Power: Energy drain",
+      "range": [
+        43,
+        47
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "IwOLNc1pXbPl9byV",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.MBzT5pD0etwrQI9t",
+      "text": "Special Power: Reflection",
+      "range": [
+        86,
+        93
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "MBzT5pD0etwrQI9t",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.RdGvbHabWW0YXpl5",
+      "text": "Special Power: Electricity",
+      "range": [
+        33,
+        42
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "RdGvbHabWW0YXpl5",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.VBUhDQZomDfwRbXk",
+      "text": "Special Power: Gaseous form",
+      "range": [
+        61,
+        66
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "VBUhDQZomDfwRbXk",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.addFOJIFxUSz6N9D",
+      "text": "Special Power: Ethereality",
+      "range": [
+        48,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "addFOJIFxUSz6N9D",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.lgWYncvKklpLCqCA",
+      "text": "Special Power: Remove curse",
+      "range": [
+        94,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "lgWYncvKklpLCqCA",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.lmQgpqhf7fFhkkAL",
+      "text": "Special Power: Fly",
+      "range": [
+        51,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "lmQgpqhf7fFhkkAL",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!QS37hEkAQFZwApkJ.qQIeIuLzatFGajGv",
+      "text": "Special Power: Charm",
+      "range": [
+        8,
+        17
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+      "_id": "qQIeIuLzatFGajGv",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

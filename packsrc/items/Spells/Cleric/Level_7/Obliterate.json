@@ -1,0 +1,56 @@
+{
+  "name": "Obliterate*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reverse of <em>Raise Dead Fully</em>, this spell destroys living creatures the same way the normal version destroys undead.</p>\n                      <p><strong>Effects on Living Creatures:</strong></p>\n                      <ul>\n                        <li><strong>7 HD or less:</strong> The target is immediately slain (no saving throw).</li>\n                        <li><strong>7-12 HD:</strong> The target must make a saving throw vs. spells at <strong>-4 penalty</strong>; failure results in instant death.</li>\n                        <li><strong>12+ HD:</strong> The target takes [[/r 6d10 #damage]] damage; a successful saving throw vs. spells reduces damage by half.</li>\n                      </ul>\n                      <p><strong>Effects on Undead:</strong> This spell has the same effect as <em>Cureall</em> would on a living creature:</p>\n                      <ul>\n                        <li>Heals the undead to full hit points, leaving only [[/r 1d6 #damage]] remaining.</li>\n                        <li>Can remove afflictions such as blindness, disease, feeblemind, or paralysis.</li>\n                      </ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Destroys or heals undead",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "6d10",
+    "attackType": "save",
+    "damageType": "magic",
+    "healFormula": "@actor.system.attributes.hp.max - 1d6",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "LO1gWVSultoVkRnT",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.LO1gWVSultoVkRnT",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821952767,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!LO1gWVSultoVkRnT"
+}

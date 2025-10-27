@@ -1,0 +1,66 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Creation",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>The user of this valuable scroll may draw a picture of any nonliving item up to 5' × 10' × 1' in size (though drawn much smaller) and up to 5,000 cn in weight. The item may then be taken off the scroll and used. Magical items and living creatures cannot be created, but mundane armor, weapons, and other gear can be formed. The item vanishes on the creator’s command or after 24 hours. The scroll can create one item per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.5",
+    "createdTime": 1761567582686,
+    "modifiedTime": 1761569957846,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "45t8JABiey9MfnNq",
+  "sort": 2100000,
+  "_originalKey": "!items!45t8JABiey9MfnNq"
+}

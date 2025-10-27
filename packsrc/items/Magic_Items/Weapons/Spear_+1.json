@@ -1,0 +1,84 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Spear +1",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "tags": [
+      "magic",
+      "thrown"
+    ],
+    "description": "<p>The magic spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 30,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Spear",
+    "weaponType": "handheld",
+    "range": {
+      "short": 20,
+      "medium": 40,
+      "long": 60
+    },
+    "container": false,
+    "equippable": false,
+    "size": "L",
+    "grip": "1H",
+    "canSet": true,
+    "unidentifiedName": "Spear",
+    "isIdentified": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+    "isCursed": false,
+    "isSlow": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.6dIyYhvfAU19bgdD",
+    "duplicateSource": "Item.tfbRwWqAkCsIotTj",
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1756057446257,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "6dIyYhvfAU19bgdD",
+  "sort": 0,
+  "_originalKey": "!items!6dIyYhvfAU19bgdD"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "The Epic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "d3Jd1iXmYjQy12BI",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This spell-song allows the bard to create a realistic and awe-inspiring battle scene through illusionary magic. Those who witness it must resist its effects or be stunned in amazement.</p><p><strong>Effects:</strong></p><ul><li>The bard creates an illusion of a battle scene anywhere within range, covering an area of 20' x 20' x 20'.</li><li>All creatures that see it must make a saving throw vs. spells or be stunned for [[/r 1d4 #Stunned rounds]].</li><li>The illusion can depict warriors, wizards, or entire armies, shaped by the bard’s imagination.</li></ul><p><strong>Illusion Mechanics:</strong></p><ul><li>Anyone interacting with the illusion may attempt a new saving throw vs. spells to see through it.</li><li>The illusion has an armor class of 9 and disappears when touched.</li><li>If a creature \"dies\" within the illusion, they instead fall unconscious for [[/r 1d6 #Unconscious rounds]].</li></ul><p><strong>Additional Details:</strong></p><ul><li>The bard controls all visual elements of the illusion but cannot create sound or physical interaction.</li><li>Like <em>phantasmal force</em>, this illusion can trick enemies into reacting as if it were real.</li><li>The illusion remains for the spell’s duration unless dispelled or disbelieved.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "10' (+5'/level of bard)",
+    "duration": "12 rounds",
+    "effect": "Creates an illusory battle scene that stuns onlookers",
+    "targetSelf": false,
+    "targetOther": true,
+    "durationFormula": "12",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "oKtGwVbSmr08RM5D",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.oKtGwVbSmr08RM5D",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727423204,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!oKtGwVbSmr08RM5D"
+}

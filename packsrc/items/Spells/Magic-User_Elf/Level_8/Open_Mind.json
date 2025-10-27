@@ -1,0 +1,54 @@
+{
+  "name": "Open Mind*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell removes mental defenses from a target, making them highly vulnerable to psychic attacks for 1 hour per caster level. The caster must touch the target, requiring a normal attack roll.</p><h4>Effects:</h4><ul><li>The target becomes highly susceptible to ESP, <em>clairvoyance</em>, <em>clairaudience</em>, <em>crystal ball gazing</em>, and similar magical detection.</li><li>All saving throws vs. charm, illusion, phantasms, feeblemind, and similar effects suffer a -8 penalty.</li><li>The victim receives no warning that their mind is exposed.</li><li>The spell requires a successful touch attack to take effect.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "Touch",
+    "duration": "1 hour per caster level",
+    "effect": "Target suffers -8 to saves vs. mental attacks and is vulnerable to mind-affecting spells",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "melee",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360*@classes.M.castLevel",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "ow0u1Qpv5kXttSRc",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.ow0u1Qpv5kXttSRc",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904422127,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ow0u1Qpv5kXttSRc"
+}

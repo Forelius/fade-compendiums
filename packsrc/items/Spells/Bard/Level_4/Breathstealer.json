@@ -1,0 +1,56 @@
+{
+  "name": "Breathstealer",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "TnEmaPQavdbpoj5v",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>When sung, this spell-song begins to rob the air from those within its area of effect, potentially leading to suffocation.</p><p><strong>Effects:</strong></p><ul><li>Affects all creatures within a 30' x 30' x 30' area.</li><li>Each round, all within the area must make a saving throw vs. Spells at -2 or begin suffocating.</li><li>On a failed save, the victim loses 3 points of Constitution temporarily.</li><li>Those who fail a save must also make a Constitution check to move normally.</li><li>Movement speed is halved while suffocating.</li><li>Suffocating victims cannot cast spells, speak, or attack.</li><li>If a creature’s Constitution reaches 0, they die.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may sing for as many rounds as their Constitution score.</li><li>If the bard sings until reaching 0 Constitution, they pass out for [[/r 2d6 #Rounds Unconscious]].</li></ul><p><strong>Recovery:</strong></p><ul><li>Lost Constitution points recover at a rate of [[/r 1d3 #Points per full day of rest]].</li></ul><p><strong>Special Notes:</strong></p><ul><li>All creatures in the area—including the bard’s allies—are affected.</li><li>Creatures who succeed a saving throw take no penalties that round.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "20' + 10'/level of bard",
+    "duration": "Special",
+    "effect": "Causes victims to suffocate, losing Constitution each round",
+    "targetSelf": false,
+    "targetOther": true,
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "zqPZkZmpFpNyHBR4",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.zqPZkZmpFpNyHBR4",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727504120,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!zqPZkZmpFpNyHBR4"
+}

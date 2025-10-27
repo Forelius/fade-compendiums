@@ -1,0 +1,84 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Crossbow, Hvy +1",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-purple.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 30,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "2d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Crossbow, Heavy",
+    "weaponType": "monster",
+    "range": {
+      "short": 80,
+      "medium": 160,
+      "long": 240
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "quarrel",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Crossbow, Hvy",
+    "canSet": false,
+    "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.vr5fS9bhH8r4Cd8c",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1756057207320,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "vr5fS9bhH8r4Cd8c",
+  "sort": 0,
+  "_originalKey": "!items!vr5fS9bhH8r4Cd8c"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Fireball (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 6d6 fire damage to every creature in the area.</p><p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. wands for half damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "240'",
+    "duration": "Instantaneous",
+    "effect": "Explosion in a sphere 40' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "6d6",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "0",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "fire",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758659569320,
+    "modifiedTime": 1759149073084,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "Zf9mjBJtuoIc3tPK",
+  "sort": 1800000,
+  "_originalKey": "!items!Zf9mjBJtuoIc3tPK"
+}

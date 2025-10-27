@@ -1,0 +1,71 @@
+{
+  "name": "Protection from Evil",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible magical barrier around the caster, extending less than an inch away from their body. It grants a +1 bonus to all saving throws and imposes a -1 penalty to attack rolls made against the caster. The spell also protects the caster from attacks by enchanted creatures in melee combat.</p>\n                <p><strong>Enchanted Creatures:</strong> Creatures that cannot be harmed by non-magical weapons, creatures that can only be hit by magical weapons, or creatures that are magically summoned or controlled (such as a charmed creature). This does not include creatures that require silver weapons, like werewolves.</p>\n                <p>Enchanted creatures are unable to touch the caster with melee attacks but can still use missile weapons (at a -1 penalty to attack rolls). The barrier does not affect <em>magic missile</em> spells. If the caster attacks any creature in melee, the spell still provides the attack roll penalty and saving throw bonus but no longer prevents contact by enchanted creatures.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "6 turns",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Protected",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "93R1Oa3M1APgdg9G",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.93R1Oa3M1APgdg9G",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749833340984,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 200000,
+  "_originalKey": "!items!93R1Oa3M1APgdg9G"
+}

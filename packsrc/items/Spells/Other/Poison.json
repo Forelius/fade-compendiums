@@ -1,0 +1,58 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Poison",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p> Anyone ingesting or injected with any amount, even a sip, must make a saving throw vs. poison or die. The DM may instead have the poison deal a specific amount of damage as an alternative. The DM may require that the poison be in the system 1 round before taking effect or that its effect happens over a number of rounds.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Instant",
+    "effect": "Death or damage",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "4d4",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "death",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "poison",
+    "conditions": [
+      {
+        "name": "Poisoned",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.OlbYsU9500kvLF3F",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.7",
+    "createdTime": 1759582281834,
+    "modifiedTime": 1759582348268,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "Eqg0ClOBML8njkf0",
+  "sort": 0,
+  "_originalKey": "!items!Eqg0ClOBML8njkf0"
+}

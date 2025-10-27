@@ -1,0 +1,54 @@
+{
+  "name": "Wish",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>The Wish spell is the most powerful spell a magic-user can cast. It is never found on scrolls but may be placed in rare magical items, such as rings. Only magic-users of 36th level with a Wisdom score of 18 or greater may cast this spell.</p><h4>Wording the Wish:</h4><p>The player must clearly state or write the exact wish. The wording is critically important, as the wish will usually follow the literal meaning of the words spoken—regardless of the caster's intentions.</p><p>The DM is responsible for maintaining game balance. Poorly worded wishes may have unintended consequences, while selfish or greedy wishes may be deliberately twisted by the DM. If a wish is unreasonable, the DM may simply rule that it has no effect.</p><h4>Examples of Faulty Wishes:</h4><ul><li>\"I wish that I knew everything about this dungeon.\" - The character gains full knowledge for a moment but then immediately forgets everything.</li><li>\"I wish for a million gold pieces.\" - The gold pieces may appear, but they might land on the caster (crushing them) and then vanish.</li><li>\"I wish to permanently gain the gaze power of a basilisk while retaining all my abilities.\" - This could result in the caster growing an additional basilisk head.</li></ul><h4>Wish Limitations & Effects:</h4><ul><li>A wish cannot be used to gain experience points or levels.</li><li>A properly worded wish can substitute for any magic-user spell of 8th level or lower or any clerical or druidic spell of 6th level or lower at the DM’s discretion.</li><li>If the wish is used to harm a creature, the target may make a saving throw vs. spells. If successful, the effect is halved, and the other half rebounds on the caster (who may save with a -4 penalty).</li><li>If the wish is used to inconvenience rather than harm (such as teleporting a victim into a prison cell), no saving throw is allowed.</li></ul><h4>Special Uses of a Wish:</h4><ul><li>A wish can create treasure, up to 50,000 gold pieces. However, the caster loses 1 XP per gold piece gained, and this loss cannot be restored.</li><li>A wish can temporarily change one ability score to a minimum of 3 or maximum of 18, lasting six turns.</li><li>Permanent ability score increases require casting a number of wishes equal to the desired score (e.g., raising Strength from 15 to 16 requires 16 wishes within one week).</li><li>Wishes cannot permanently lower ability scores.</li></ul><h4>Racial & Class Effects:</h4><ul><li>A wish cannot raise a human character beyond 36th level, but it can grant a demihuman one additional Hit Die (maximum HD: Halflings 9, Elves 11, Dwarves 13).</li><li>A wish can change a demihuman to a human (or vice versa), allowing them to advance as a new class at the same level.</li><li>If a wish is used to change another character’s class, the target may make a saving throw vs. spells with a +5 bonus to resist.</li></ul><h4>Altering Past Events:</h4><p>A wish can alter events from the past 24 hours. However, it cannot fully overturn impossible odds. Examples include:</p><ul><li>A lost battle may be changed into a less severe defeat.</li><li>A character’s death could instead become a near-death experience.</li><li>A permanent loss may be converted into a temporary one.</li></ul><h4>Important Note:</h4><p>If an effect is stated to be unchangeable \"even with a wish\", this limitation overrides the spell’s normal capabilities.</p><h4>Game Balance & DM Discretion:</h4><p>The DM must ensure that wishes remain within reason. A wish cannot alter fundamental game mechanics (such as preventing dragons from using their breath weapons). The more unreasonable a wish is, the less likely it is to succeed as intended.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "Special",
+    "duration": "Special",
+    "effect": "Alters reality based on the caster’s wording",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "sBlqcp8vJLw3Sswf",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.sBlqcp8vJLw3Sswf",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749905139324,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sBlqcp8vJLw3Sswf"
+}

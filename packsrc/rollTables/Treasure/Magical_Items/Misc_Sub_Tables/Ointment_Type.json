@@ -1,0 +1,127 @@
+{
+  "name": "Ointment Type",
+  "formula": "1d6",
+  "results": [
+    "iWaGiEOYHMig6yUp",
+    "Xwaj6wZzX9aSsZ5E",
+    "FRU3N0G2Ls98e3sN",
+    "ujvSiqjWPb3j0krk",
+    "yVj8D3zI54gRwzKB",
+    "71AaFB3QYFwl5te9"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of magical ointment found, such as Blessing, Healing, Poison, or other effects.</p>",
+  "folder": "mStxdN6b4jPlJn4h",
+  "_id": "VLUqDOawBaSy5n08",
+  "img": "icons/svg/d20-grey.svg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VLUqDOawBaSy5n08",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!VLUqDOawBaSy5n08",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.71AaFB3QYFwl5te9",
+      "text": "<strong>Tanning:</strong> This salve causes the recipient's skin to turn a bright color [[1d6]] (1-red, 2-yellow, 3-orange, 4-blue, 5-green, or 6-brown). The effect cannot be removed but will wear off in [[1d4]] months.",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "71AaFB3QYFwl5te9",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.FRU3N0G2Ls98e3sN",
+      "text": "<strong>Poison:</strong> This salve seems to be an ointment of blessing, but it is a poison. The recipient must make a saving throw vs. poison, with a -2 penalty to the roll, or die.",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "FRU3N0G2Ls98e3sN",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.Xwaj6wZzX9aSsZ5E",
+      "text": "<strong>Healing:</strong> This salve cures [[/r 2d6+2 #points of damage cured]] points of damage.",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "Xwaj6wZzX9aSsZ5E",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.iWaGiEOYHMig6yUp",
+      "text": "<strong>Blessing:</strong> This salve gives the recipient a -2 bonus to armor class and a +2 bonus to all saving throws for 1 turn.",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "iWaGiEOYHMig6yUp",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.ujvSiqjWPb3j0krk",
+      "text": "<strong>Scarring:</strong> This salve seems to be an ointment of healing, but instead it inflicts [[/r 2d6 #points of severe burn damage]] points of severe burn damage. The damage can only be repaired by ointment of soothing, a cureall spell, or a wish.",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "ujvSiqjWPb3j0krk",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!VLUqDOawBaSy5n08.yVj8D3zI54gRwzKB",
+      "text": "<strong>Soothing:</strong> This salve cures the recipient of all burn damage, whether magical or normal.",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "yVj8D3zI54gRwzKB",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

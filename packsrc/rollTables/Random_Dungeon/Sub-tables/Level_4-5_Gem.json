@@ -1,0 +1,63 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Level 4-5 Gem",
+  "_id": "FR067bXHk1GiXMAN",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "4JrJtbk2JoebMJHI",
+    "38ckdURNGVqXGM4a"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.1",
+    "createdTime": 1753188626517,
+    "modifiedTime": 1760877704457,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!FR067bXHk1GiXMAN",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!FR067bXHk1GiXMAN.38ckdURNGVqXGM4a",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        100
+      ],
+      "drawn": false,
+      "_id": "38ckdURNGVqXGM4a",
+      "text": "No Gems",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!FR067bXHk1GiXMAN.4JrJtbk2JoebMJHI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_id": "4JrJtbk2JoebMJHI",
+      "text": "[[1d8]] Gems. Worth [[/r 1d6*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

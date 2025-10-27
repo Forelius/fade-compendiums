@@ -1,0 +1,287 @@
+{
+  "name": "Special Treasure Table",
+  "formula": "1d100",
+  "results": [
+    "1hBfX0K1Va00LWAS",
+    "lZYqDA1NQ359Yuz9",
+    "grykJo3YoRdvY65C",
+    "kMJckmz36zc1iyt4",
+    "096AWOEquMBsLoDX",
+    "IyH0JaisvVSGAI5M",
+    "FfgZGMiyl8ztoyq8",
+    "nfcmrf8fxrN9Lgqz",
+    "1slrGU2CSfX3TBjc",
+    "nFPzxzJ8APn3ERtQ",
+    "JvP8HMfuEMMcf1r2",
+    "SeE1uvKnyj7qqEm3",
+    "6HznFvKT4VV4i4G1",
+    "Iyl4jfl662klSzRZ",
+    "RTXTwWjYfCz5gKc8",
+    "8cUFkRbuPpuvtgxc"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>A table to determine special treasure values, encumbrances (in cn), and notes for various items.</p>",
+  "folder": "7n5BncgmbVRM9D92",
+  "_id": "Oai4svJgcMHtTnw2",
+  "img": "icons/commodities/treasure/bust-carved-stone.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Oai4svJgcMHtTnw2",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1739749690287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!Oai4svJgcMHtTnw2",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.096AWOEquMBsLoDX",
+      "text": "<strong>Pelt (Fur, rare**)</strong>: Encumbrance [[1d6 * 10]] cn, Value [[2d6]] gp.",
+      "range": [
+        21,
+        22
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "096AWOEquMBsLoDX",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.1hBfX0K1Va00LWAS",
+      "text": "<strong>Book, rare</strong>: Encumbrance [[2d100]] cn, Value [[1d100 * 10]] gp.",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "1hBfX0K1Va00LWAS",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.1slrGU2CSfX3TBjc",
+      "text": "<strong>Perfume, rare</strong>: Encumbrance 1 cn/vial, Value [[1d10 + 5]] * 10 gp/vial.",
+      "range": [
+        36,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "1slrGU2CSfX3TBjc",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.6HznFvKT4VV4i4G1",
+      "text": "<strong>Skin, monster</strong>: Encumbrance [[1d100 * 50]] cn, Value [[1d10 * 100]] gp.",
+      "range": [
+        76,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "6HznFvKT4VV4i4G1",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.8cUFkRbuPpuvtgxc",
+      "text": "<strong>Wine, rare</strong>: Encumbrance [[1d6 + 3]] * 10 cn per bottle, Value [[1d6]] gp/bottle.",
+      "range": [
+        96,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "8cUFkRbuPpuvtgxc",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.FfgZGMiyl8ztoyq8",
+      "text": "<strong>Coat (Fur, rare**)</strong>: Encumbrance [[2d6 + 8]] * 10 cn, Value [[1d6 * 1000]] gp.",
+      "range": [
+        28,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "FfgZGMiyl8ztoyq8",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.IyH0JaisvVSGAI5M",
+      "text": "<strong>Cape (Fur, rare**)</strong>: Encumbrance [[1d8 + 4]] * 10 cn, Value [[4d6 * 100]] gp.",
+      "range": [
+        23,
+        27
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "IyH0JaisvVSGAI5M",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.Iyl4jfl662klSzRZ",
+      "text": "<strong>Spice, rare</strong>: Encumbrance [[4d4]] cn, Value special (DM discretion).",
+      "range": [
+        86,
+        90
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "Iyl4jfl662klSzRZ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.JvP8HMfuEMMcf1r2",
+      "text": "<strong>Silk†</strong>: Encumbrance [[1d6 * 10]] cn, Value [[1d8]] gp (per square yard).",
+      "range": [
+        56,
+        65
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "JvP8HMfuEMMcf1r2",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.RTXTwWjYfCz5gKc8",
+      "text": "<strong>Statuette</strong>: Encumbrance [[1d10 * 100]] cn, Value varies (DM discretion).",
+      "range": [
+        91,
+        95
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "RTXTwWjYfCz5gKc8",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.SeE1uvKnyj7qqEm3",
+      "text": "<strong>Skin, animal</strong>: Encumbrance [[5d4 * 10]] cn, Value [[1d10]] gp.",
+      "range": [
+        66,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "SeE1uvKnyj7qqEm3",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.grykJo3YoRdvY65C",
+      "text": "<strong>Cape (Fur, common*)</strong>: Encumbrance [[1d8 + 4]] * 10 cn, Value [[1d6 * 100]] gp.",
+      "range": [
+        13,
+        17
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "grykJo3YoRdvY65C",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.kMJckmz36zc1iyt4",
+      "text": "<strong>Coat (Fur, common*)</strong>: Encumbrance [[2d6 + 8]] * 10 cn, Value [[3d4 * 100]] gp.",
+      "range": [
+        18,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "kMJckmz36zc1iyt4",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.lZYqDA1NQ359Yuz9",
+      "text": "<strong>Pelt (Fur, common*)</strong>: Encumbrance [[1d6 * 10]] cn, Value [[1d4]] gp.",
+      "range": [
+        11,
+        12
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "lZYqDA1NQ359Yuz9",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.nFPzxzJ8APn3ERtQ",
+      "text": "<strong>Rug or tapestry†</strong>: Encumbrance [[1d6 * 100]] cn, Value [[2d10]] gp (per square yard).",
+      "range": [
+        41,
+        55
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "nFPzxzJ8APn3ERtQ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Oai4svJgcMHtTnw2.nfcmrf8fxrN9Lgqz",
+      "text": "<strong>Incense, rare</strong>: Encumbrance 1 cn/stick, Value [[5d6]] gp/stick.",
+      "range": [
+        31,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/treasure/bust-carved-stone.webp",
+      "_id": "nfcmrf8fxrN9Lgqz",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

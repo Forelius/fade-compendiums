@@ -1,0 +1,54 @@
+{
+  "name": "Dissolve",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "GY1VRctDzQD5WVvu",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell turns soil or rock (but not constructed materials) within 240' into mud, affecting an area up to 3,000 square feet and up to 10' deep. The caster can determine the shape of the area within these limits (e.g., 20' x 150', 30' x 100').</p><p><strong>Movement Effects:</strong> Creatures moving through the mud are slowed to 10% of their normal speed and may become stuck. At the DM's discretion, creatures in the area may need to make a saving throw vs. spells to avoid being stuck.</p><p><strong>Duration:</strong> The effect lasts for [[/r 3d6 #days]] 3-18 days.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "3-18 days",
+    "effect": "Liquefies 3,000 square feet",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "3d6*8640",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.rlTibLGm7xkykcrv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822369151,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "rlTibLGm7xkykcrv",
+  "sort": 0,
+  "_originalKey": "!items!rlTibLGm7xkykcrv"
+}

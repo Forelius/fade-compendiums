@@ -1,0 +1,83 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Lance",
+  "type": "weapon",
+  "_id": "gUUAH9zgkDIZn6FS",
+  "img": "modules/fade-compendiums/assets/img/weapon/lance.webp",
+  "system": {
+    "tags": [
+      "special"
+    ],
+    "description": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 180,
+    "cost": 10,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d10",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Lance",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": true,
+    "unidentifiedDesc": "<p>A lance is an extremely long spear, 9’ to 12’ long. It is too unwieldy to use on foot, and can only be used when mounted—in which case it can be used in one hand despite its length. See rules for this weapon is used.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.gUUAH9zgkDIZn6FS",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1747584972626,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 2900000,
+  "_originalKey": "!items!gUUAH9zgkDIZn6FS"
+}

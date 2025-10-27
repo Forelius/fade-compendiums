@@ -1,0 +1,27 @@
+{
+  "folder": "S7Cp6NiLZ2Askw5G",
+  "name": "Treasure Type I",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/containers/chest/chest-reinforced-steel-oak-tan.webp",
+  "scope": "global",
+  "command": "const treasure = new game.fade.fadeTreasure();\nconst coinsArray = [\n{ type: \"pp\", formula: \"1d8*1000\", chance: 30 },\n{ type: \"gems\", formula: \"2d6\", chance: 50 },\n{ type: \"jewelry\", formula: \"2d6\", chance: 50 }\n];\nconst tableArray = [\n  { name: \"Special Treasure Table\", formula: \"1d2\", chance: 5 },\n  { name: \"Magical Items (Basic)\", formula: \"1\", chance: 15 },\n];\n// Call the method\nawait treasure.rollMultipleTables(coinsArray, tableArray, 'Treasure Type I');",
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Macro.AutKN8UwET4zhRRH",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739916140723,
+    "modifiedTime": 1739916140723,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "6VDZITwIXSRqiQ4z",
+  "_originalKey": "!macros!6VDZITwIXSRqiQ4z"
+}

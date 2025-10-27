@@ -1,0 +1,58 @@
+{
+  "name": "Wizard Lock",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell functions as a stronger version of the hold portal spell. It can be used on any portal or lock, not just doors, and it remains in effect indefinitely unless dispelled by magic.</p>\n        <p>A knock spell can bypass the wizard lock temporarily. The caster who placed the lock, as well as any spellcaster or creature with three or more levels (or Hit Dice) greater than the caster, can open the locked portal without removing the spell. Once the portal is closed again, the lock re-engages.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "10'",
+    "duration": "Permanent",
+    "effect": "One portal or lock",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "_id": "6bpC2qbPxF4PttlT",
+  "effects": [],
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.6bpC2qbPxF4PttlT",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749837654552,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!6bpC2qbPxF4PttlT"
+}

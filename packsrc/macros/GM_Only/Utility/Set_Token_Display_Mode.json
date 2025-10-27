@@ -1,0 +1,27 @@
+{
+  "name": "Set Token Display Mode",
+  "type": "script",
+  "command": "(async () => {\n  // Define the resource key for HP\n  const hpResourceKey = \"hp\";\n\n  // Map of display mode options using Foundry's constants\n  const displayModeOptions = {\n    [CONST.TOKEN_DISPLAY_MODES.NONE]: \"None\",\n    [CONST.TOKEN_DISPLAY_MODES.HOVER]: \"Hovered by Anyone\",\n    [CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER]: \"Hovered by Owner\",\n    [CONST.TOKEN_DISPLAY_MODES.CONTROL]: \"Controlled\",\n    [CONST.TOKEN_DISPLAY_MODES.OWNER]: \"Always for Owner\",\n    [CONST.TOKEN_DISPLAY_MODES.ALWAYS]: \"Always for Anyone\"\n  };\n\n  // Map of token selection options\n  const tokenFilterOptions = {\n    all: \"All Tokens on Canvas\",\n    friendly: \"Friendly Tokens\",\n    hostile: \"Hostile Tokens\",\n    selected: \"Selected Tokens\"\n  };\n\n  // Create a dialog to let the user select options\n  const content = `\n    <form>\n      <div class=\"form-group\">\n        <label for=\"display-mode\">Choose Display Mode:</label>\n        <select id=\"display-mode\" name=\"display-mode\">\n          ${Object.entries(displayModeOptions)\n            .map(([value, label]) => `<option value=\"${value}\">${label}</option>`)\n            .join(\"\")}\n        </select>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"token-filter\">Choose Token Filter:</label>\n        <select id=\"token-filter\" name=\"token-filter\">\n          ${Object.entries(tokenFilterOptions)\n            .map(([value, label]) => `<option value=\"${value}\">${label}</option>`)\n            .join(\"\")}\n        </select>\n      </div>\n    </form>\n  `;\n\n  // Display the dialog\n  new Dialog({\n    title: \"Set Token Display Mode and Filter\",\n    content,\n    buttons: {\n      apply: {\n        label: \"Apply\",\n        callback: async (html) => {\n          const selectedMode = parseInt(html.find(\"#display-mode\").val(), 10);\n          const tokenFilter = html.find(\"#token-filter\").val();\n\n          // Filter tokens based on the user's choice\n          let tokensToUpdate = [];\n          switch (tokenFilter) {\n            case \"all\":\n              tokensToUpdate = canvas.tokens.placeables;\n              break;\n            case \"friendly\":\n              tokensToUpdate = canvas.tokens.placeables.filter(t => t.document.disposition === CONST.TOKEN_DISPOSITIONS.FRIENDLY);\n              break;\n            case \"hostile\":\n              tokensToUpdate = canvas.tokens.placeables.filter(t => t.document.disposition === CONST.TOKEN_DISPOSITIONS.HOSTILE);\n              break;\n            case \"selected\":\n              tokensToUpdate = canvas.tokens.controlled;\n              break;\n          }\n\n          // Prepare updates for the filtered tokens\n          const updates = tokensToUpdate.map(token => ({\n            _id: token.id,\n            \"bar1.attribute\": hpResourceKey,\n            displayBars: selectedMode\n          }));\n\n          // Apply the updates\n          if (updates.length > 0) {\n            await canvas.scene.updateEmbeddedDocuments(\"Token\", updates);\n            ui.notifications.info(\n              `Updated ${updates.length} token(s) to display HP bars with mode: ${displayModeOptions[selectedMode]}.`\n            );\n          } else {\n            ui.notifications.warn(\"No tokens matched the selected filter.\");\n          }\n        }\n      },\n      cancel: {\n        label: \"Cancel\",\n        callback: () => ui.notifications.info(\"Operation canceled.\")\n      }\n    },\n    default: \"apply\"\n  }).render(true);\n})();",
+  "img": "icons/svg/dice-target.svg",
+  "folder": "8QnG4j2FXrIxRegn",
+  "_id": "oMQVwxdNH6SRdNrN",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Macro.oMQVwxdNH6SRdNrN",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.21-rc.3",
+    "createdTime": 1737723274725,
+    "modifiedTime": 1743687205930,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!macros!oMQVwxdNH6SRdNrN"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Maze",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an indestructible maze in the Astral Plane and instantly traps one victim within it. The target does not receive a saving throw.</p><h4>Escape Time:</h4><p>The intelligence of the victim determines how long they remain trapped.</p><ul><li>Non- to Low Intelligence (1-8): [[/r 1d6 #Turns trapped in maze]] turns</li><li>Average Intelligence (9-12): [[/r 2d20 #Rounds trapped in maze]] rounds</li><li>High Intelligence (13-17): [[/r 2d4 #Rounds trapped in maze]] rounds</li><li>Genius Intelligence (18+): [[/r 1d4 #Rounds trapped in maze]] rounds</li></ul><h4>Mechanics:</h4><ul><li>The victim is removed from the battlefield for the duration.</li><li>When they escape, they reappear in the exact location where they were originally trapped.</li><li>The maze is indestructible and exists only in the Astral Plane.</li><li>Teleportation and dimensional travel cannot bypass this effect.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "60'",
+    "duration": "See description",
+    "effect": "Traps one creature in an astral maze",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "IQzfJZ6OHnXzCDs9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.IQzfJZ6OHnXzCDs9",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904875794,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!IQzfJZ6OHnXzCDs9"
+}

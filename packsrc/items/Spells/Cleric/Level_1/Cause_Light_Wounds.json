@@ -1,0 +1,60 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Cause Light Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>This spell cures one living (not undead or non-living) creature of [[/r 1d6+1 #Cure Light Wounds]] points of damage. The caster can cure themselves with this spell.</p><p>Alternately, the spell can be used to cure paralysis (except that caused by a <em>Hold Person</em> or <em>Hold Monster</em> spell), although if it does so then no damage will be cured at the same time.</p><p>The spell will not increase the target's maximum hit points.</p><p>When reversed, this spell, <em>cause light wounds</em>, causes  [[/r 1d6+1 #Cause Light Wounds]] points of damage to the target. No saving throw is allowed, but the caster must make a normal attack roll to inflict this damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "One living creature",
+    "memorized": 2,
+    "cast": 1,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "1d6+1",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.NhJa2hvAUYV6YHJc",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749818015433,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "NhJa2hvAUYV6YHJc",
+  "sort": 0,
+  "_originalKey": "!items!NhJa2hvAUYV6YHJc"
+}

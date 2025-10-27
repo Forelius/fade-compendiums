@@ -1,0 +1,54 @@
+{
+  "name": "Aerial Servant",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell summons an intelligent elemental being called an <strong>Aerial Servant</strong> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <strong>Protection from Evil</strong> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60",
+    "duration": "1 day per level of caster",
+    "effect": "Servant fetches one item or creature",
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.C.castLevel * 8640",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "Z98kD0j1ZcCLYoLO",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.Z98kD0j1ZcCLYoLO",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749821740290,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Z98kD0j1ZcCLYoLO"
+}

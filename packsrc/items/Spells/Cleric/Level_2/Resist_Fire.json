@@ -1,0 +1,71 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Resist Fire",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "yCQaksSWA1LHJ1JR",
+  "system": {
+    "tags": [],
+    "description": "<p>For the duration of this spell, the recipient is immune to damage from normal fire and heat. They also receive a +2 bonus to all saving throws against magical fire (such as dragon breath or fireball). Additionally, any damage taken from such magical fire is reduced by 1 point per die of damage, with each die dealing at least 1 point of damage. For red dragon breath, the damage is reduced by 1 point per Hit Die of the dragon, but never below 1 point per Hit Die.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "30'",
+    "duration": "2 turns",
+    "effect": "One living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Fire Resistant",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ZOs6627VjmtefRvC"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.yCQaksSWA1LHJ1JR",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749819108738,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 1200000,
+  "_originalKey": "!items!yCQaksSWA1LHJ1JR"
+}

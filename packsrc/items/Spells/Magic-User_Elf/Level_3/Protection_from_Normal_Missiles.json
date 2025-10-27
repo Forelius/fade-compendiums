@@ -1,0 +1,58 @@
+{
+  "name": "Protection from Normal Missiles",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the recipient complete protection from all small, nonmagical missiles, such as arrows, quarrels, and thrown spears. All such missile attacks automatically miss the target.</p>\n                      <p><strong>Limitations:</strong> Large missiles (like catapult stones) and magical missiles (like magic arrows) are unaffected by this spell and can still hit the recipient.</p>\n                      <p>The spell can be cast on any one creature within a range of 30'.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "12 turns",
+    "effect": "One creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.Q8ZOhgQqiZGtDgz4",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749847241767,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "Q8ZOhgQqiZGtDgz4",
+  "sort": 0,
+  "_originalKey": "!items!Q8ZOhgQqiZGtDgz4"
+}

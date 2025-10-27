@@ -1,0 +1,58 @@
+{
+  "name": "Dimension Door",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transports one creature (either the caster or a target within 10') to a location up to 360' away. The caster specifies the destination, either by choosing a known location or by stating the direction and distance (up to a maximum of 360').</p>\n                      <p><strong>Destination:</strong> If the specified location is occupied by a solid object, the spell fails with no effect.</p>\n                      <p><strong>Saving Throw:</strong> An unwilling target can make a saving throw vs. spells to avoid being transported.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "10'",
+    "duration": "1 round",
+    "effect": "Safely transport one creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.T0NMbAG4mJ3tWpfl",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902317330,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "T0NMbAG4mJ3tWpfl",
+  "sort": 0,
+  "_originalKey": "!items!T0NMbAG4mJ3tWpfl"
+}

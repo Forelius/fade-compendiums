@@ -1,0 +1,71 @@
+{
+  "folder": "SOm66tqvBRVOnUR6",
+  "name": "Hit Location - Serpentoid",
+  "_id": "Z8J8ie81BkaUUNSV",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "description": "",
+  "results": [
+    "cftzXnCUF44ld2ex",
+    "yCZxm0wTGFvjiNQs"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "dandd-1e",
+      "system": "gs-fantastic-depths",
+      "coreVersion": "11.315",
+      "systemVersion": "1.11.5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Z8J8ie81BkaUUNSV",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749686178,
+    "modifiedTime": 1739749686178,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d20",
+  "sort": 0,
+  "_originalKey": "!tables!Z8J8ie81BkaUUNSV",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Z8J8ie81BkaUUNSV.cftzXnCUF44ld2ex",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        17
+      ],
+      "drawn": false,
+      "_id": "cftzXnCUF44ld2ex",
+      "text": "Body",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    },
+    {
+      "_originalKey": "!tables.results!Z8J8ie81BkaUUNSV.yCZxm0wTGFvjiNQs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        20
+      ],
+      "drawn": false,
+      "_id": "yCZxm0wTGFvjiNQs",
+      "text": "Head",
+      "documentId": null,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg"
+    }
+  ]
+}

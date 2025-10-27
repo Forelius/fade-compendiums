@@ -1,0 +1,937 @@
+{
+  "name": "Magic-User",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 36,
+    "maxSpellLevel": 9,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d4",
+        "hdcon": true,
+        "title": "Medium",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2500,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d4",
+        "hdcon": true,
+        "title": "Seer",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 5000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d4",
+        "hdcon": true,
+        "title": "Conjurer",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 10000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "4d4",
+        "hdcon": true,
+        "title": "Magician",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 20000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "5d4",
+        "hdcon": true,
+        "title": "Enchanter",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d4",
+        "hdcon": true,
+        "title": "Warlock",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "7d4",
+        "hdcon": true,
+        "title": "Sorcerer",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 150000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "8d4",
+        "hdcon": true,
+        "title": "Necromancer",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 300000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "9d4",
+        "hdcon": true,
+        "title": "Wizard",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 450000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "9d4+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 600000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 750000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+3",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 900000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 1050000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+5",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 1200000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1350000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+7",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1500000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1650000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1800000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1950000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+11",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 2100000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 2250000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+13",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 2400000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 2550000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+15",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 2700000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 2850000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+17",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 3000000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 3150000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+19",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 3300000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 3450000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+21",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 3600000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 3750000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+23",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 3900000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 4050000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+25",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 4200000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 4350000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+27",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 5,
+        "death": 13,
+        "wand": 14,
+        "paralysis": 13,
+        "breath": 16,
+        "spell": 15
+      },
+      {
+        "level": 10,
+        "death": 11,
+        "wand": 12,
+        "paralysis": 11,
+        "breath": 14,
+        "spell": 12
+      },
+      {
+        "level": 15,
+        "death": 9,
+        "wand": 10,
+        "paralysis": 9,
+        "breath": 12,
+        "spell": 9
+      },
+      {
+        "level": 20,
+        "death": 7,
+        "wand": 8,
+        "paralysis": 7,
+        "breath": 10,
+        "spell": 6
+      },
+      {
+        "level": 24,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 5,
+        "breath": 8,
+        "spell": 4
+      },
+      {
+        "level": 28,
+        "death": 4,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 6,
+        "spell": 3
+      },
+      {
+        "level": 32,
+        "death": 3,
+        "wand": 3,
+        "paralysis": 3,
+        "breath": 4,
+        "spell": 2
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2
+      ],
+      [
+        6,
+        6,
+        6,
+        6,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      [
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4,
+        3,
+        2
+      ],
+      [
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3
+      ],
+      [
+        7,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        7,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5,
+        4
+      ],
+      [
+        8,
+        8,
+        7,
+        6,
+        6,
+        6,
+        6,
+        5,
+        4
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        9,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6
+      ],
+      [
+        9,
+        9,
+        9,
+        8,
+        8,
+        8,
+        7,
+        7,
+        7
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        8,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "alignment": "Any",
+    "key": "M",
+    "description": "<p>A magic-user is a human character dedicated to the study of arcane knowledge and the casting of spells. They are among the most versatile and powerful classes but are physically fragile and limited in combat abilities. Their focus on magic allows them to wield extraordinary power as they gain experience.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Intelligence, granting an experience bonus for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Skills</strong>: Magic-users cannot wear armor or use shields and are restricted to using daggers. At the DM's discretion, other light weapons such as staves or slings may be permitted.</li><li><strong>Hit Dice</strong>: They use a d4 for hit points per level up to 9th level. Beyond that, they gain a fixed 1 hit point per level without Constitution bonuses.</li><li><strong>Spellcasting</strong>: Magic-users learn and prepare spells from a spellbook. Their magic includes a wide range of effects, such as attack spells (e.g., Fireball), utility spells (e.g., Knock), and defensive spells (e.g., Shield).</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong> (Name level), a magic-user becomes a \"Wizard\" (male) or \"Maga\" (female). Wizards can create magic items, such as scrolls or potions.</li><li>Magic-users may construct a tower as a personal stronghold. Once completed, the tower attracts 1d6 apprentices (1st–3rd level magic-users), who serve the wizard as students and assistants.</li><li>If a dungeon is built beneath or near the tower and left unguarded, it may attract monsters. Some wizards encourage this to create a ready source of material for research and training.</li></ul><h3>Stronghold Options:</h3><ul><li><strong>Independent Wizards</strong>: Magic-users building their own towers typically do so without seeking approval from local rulers. However, gaining the ruler's favor might result in gifts or an official title to the land.</li><li><strong>Magists</strong>: Magic-users can serve as court wizards, known as Magists, advising rulers on magical matters in exchange for room, board, and a stipend (usually 3,000 gp per month or more). This arrangement allows continued magical research, often funded by the ruler.</li></ul><p>Magic-users begin their careers as fragile and vulnerable adventurers but grow into formidable spellcasters capable of altering the course of campaigns with their arcane abilities. Their strongholds often serve as hubs of magical research and influence.</p>",
+    "classItems": [],
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Arcane Spellcasting (M)",
+        "target": 0,
+        "classKey": "M",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Spell Research",
+        "target": 0,
+        "classKey": "M",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Use Magic Items (M)",
+        "target": 0,
+        "classKey": "M",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Create Magic Items",
+        "target": 0,
+        "classKey": "M",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Establish Tower (M)",
+        "target": 0,
+        "classKey": "M",
+        "changes": ""
+      }
+    ],
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "unskilledToHitMod": -5
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "e38pLRiuy2U7gW1x",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1745010527203,
+    "modifiedTime": 1749418408688,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 900000,
+  "_originalKey": "!items!e38pLRiuy2U7gW1x"
+}

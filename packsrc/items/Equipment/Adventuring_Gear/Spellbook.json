@@ -1,0 +1,58 @@
+{
+  "name": "Spellbook",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>The spell book is a sizable, bulky item, approximately 2 feet square and 2–6 inches thick, weighing at least 20 pounds. It cannot fit inside any normal sack, regardless of size, but can be carried in a backpack or saddlebag. Written in magical script, the spell book can only be read by its owner unless another individual uses a read magic spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 200,
+    "cost": 200,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "shortName": "",
+    "isAmmo": false,
+    "unidentifiedName": "Spellbook",
+    "unidentifiedDesc": "<p>The spell book is a sizable, bulky item, approximately 2 feet square and 2–6 inches thick, weighing at least 20 pounds. It cannot fit inside any normal sack, regardless of size, but can be carried in a backpack or saddlebag. Written in magical script, the spell book can only be read by its owner unless another individual uses a read magic spell.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "img": "icons/sundries/books/book-symbol-triangle-silver-purple.webp",
+  "effects": [],
+  "folder": "QzAWBUfiEO1gIpUI",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.czXP6GqAtaCzXLli",
+    "duplicateSource": "Item.PCGgbMFsM6kbF0xg",
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219178638,
+    "modifiedTime": 1747586098939,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "czXP6GqAtaCzXLli",
+  "sort": 2400000,
+  "_originalKey": "!items!czXP6GqAtaCzXLli"
+}

@@ -1,0 +1,694 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 4-5",
+  "_id": "fEG9GihLnJZRP6tz",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "e0JwTUwuJAooq1BA",
+    "6KCTnXIxkUmAYUU4",
+    "3rzF1G9esuoNT96P",
+    "CxbSJTCagwFTDr6B",
+    "oSvIRrs0HLshePfG",
+    "G538tAgIEO3dPJj3",
+    "A7UnVoT9CyHyEgdf",
+    "k7UCNMDBDmgLpSxs",
+    "XHkYbBoQhMLKEpC2",
+    "XZl3Q4sZ2Rsksooo",
+    "nBzTpDpHWn72b7lu",
+    "CuYrEl5DPYqVnfTj",
+    "9ktjWXF1ES3dOtBE",
+    "vu8l2itOAlxs0WTl",
+    "OS8pN03ypR4rSffg",
+    "mBu5NAZ7yQ9YZ7R9",
+    "8jY1KLgNALHlWTWl",
+    "olW4GyNDljW6ynll",
+    "aRwb7iW1sgoFw5CL",
+    "52J32mflS2moND9v",
+    "SINYFqRGKI0FTZaM",
+    "FfEJE26HugBZj9JL",
+    "b7jB7aOeb9J9SDCf",
+    "g3BHrpXoalFLoGnY",
+    "x0bWnTkzgRxSMA7E",
+    "5MKdTkxYfnUMrqmf",
+    "ogbTyWyWGelKK5BV",
+    "nJz1N0ROcmrxQwNR",
+    "FxsItwo1v89Gvf5d",
+    "KE5eYo5YIaNFEdC7",
+    "1aALtXZ8LgxP6QmC",
+    "AfHuX3pxSsEgliik",
+    "Yc619DdPPZmU754z",
+    "XvtNzzDYzuKeX62p",
+    "8jG3ejYwCN7YatDm",
+    "PNZ3SUB94m1oomqI",
+    "NywzZZPCJTakZqkW",
+    "uGFThZ0WQRPtpBfH",
+    "6kV0j7R38vAsjPY0"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.1",
+    "createdTime": 1753184514652,
+    "modifiedTime": 1761310156220,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d20",
+  "_originalKey": "!tables!fEG9GihLnJZRP6tz",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.1aALtXZ8LgxP6QmC",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "1aALtXZ8LgxP6QmC",
+      "text": "[[1d2]] Rust Monster",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.3rzF1G9esuoNT96P",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Bugbear",
+      "documentId": "5px1PtF3VqfpotTy",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "3rzF1G9esuoNT96P",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.52J32mflS2moND9v",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Medusa",
+      "documentId": "CbLFxjJOLryKlL0R",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "52J32mflS2moND9v",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.5MKdTkxYfnUMrqmf",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "text": "Ochre Jelly*",
+      "documentId": "Q8aL94FCQODJRQ9B",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "5MKdTkxYfnUMrqmf",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.6KCTnXIxkUmAYUU4",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "6KCTnXIxkUmAYUU4",
+      "text": "[[1d4]] Blink Dog",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.6kV0j7R38vAsjPY0",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "6kV0j7R38vAsjPY0",
+      "text": "1 Displacer Beast",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.8jG3ejYwCN7YatDm",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "8jG3ejYwCN7YatDm",
+      "text": "[[1d2]] Troll",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.8jY1KLgNALHlWTWl",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "8jY1KLgNALHlWTWl",
+      "text": "1 Hydra (5HD)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.9ktjWXF1ES3dOtBE",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "Harpy",
+      "documentId": "d4XNKn2BtRF9i2b4",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9ktjWXF1ES3dOtBE",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.A7UnVoT9CyHyEgdf",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Cockatrice",
+      "documentId": "v4aafWntVG3WedsQ",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "A7UnVoT9CyHyEgdf",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.AfHuX3pxSsEgliik",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "text": "Scorpion, Giant",
+      "documentId": "ADrQi5xk73eXMTXz",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "AfHuX3pxSsEgliik",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.CuYrEl5DPYqVnfTj",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "CuYrEl5DPYqVnfTj",
+      "text": "1 Giant, Hill",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.CxbSJTCagwFTDr6B",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "CxbSJTCagwFTDr6B",
+      "text": "[[1d6+4]] Bugbear",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.FfEJE26HugBZj9JL",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "text": "Mummy*",
+      "documentId": "nBLaG6JjFPvk8RWt",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "FfEJE26HugBZj9JL",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.FxsItwo1v89Gvf5d",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "FxsItwo1v89Gvf5d",
+      "text": "[[1d3]] Rhagodessa",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.G538tAgIEO3dPJj3",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "G538tAgIEO3dPJj3",
+      "text": "1 Caecilia",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.KE5eYo5YIaNFEdC7",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "text": "Rust Monster",
+      "documentId": "FoegzkcfGSiKi9by",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "KE5eYo5YIaNFEdC7",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.NywzZZPCJTakZqkW",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "NywzZZPCJTakZqkW",
+      "text": "[[1d2]] Wraith*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.OS8pN03ypR4rSffg",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "OS8pN03ypR4rSffg",
+      "text": "[[1d4]] Hellhound ([[1d3+2]] HD)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.PNZ3SUB94m1oomqI",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "text": "Wraith*",
+      "documentId": "t8oTnKOxvMY04A2t",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "PNZ3SUB94m1oomqI",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.SINYFqRGKI0FTZaM",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "SINYFqRGKI0FTZaM",
+      "text": "[[1d2]] Medusa",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.XHkYbBoQhMLKEpC2",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Gargoyle*",
+      "documentId": "rkGvs3K7rorFT3Gb",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "XHkYbBoQhMLKEpC2",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.XZl3Q4sZ2Rsksooo",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "XZl3Q4sZ2Rsksooo",
+      "text": "[[1d4+1]] Gargoyle*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.XvtNzzDYzuKeX62p",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "text": "Troll",
+      "documentId": "KH8vjTQaWJ1CEjlp",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "XvtNzzDYzuKeX62p",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.Yc619DdPPZmU754z",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "Yc619DdPPZmU754z",
+      "text": "[[1d3]] Scorpion, Giant",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.aRwb7iW1sgoFw5CL",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "aRwb7iW1sgoFw5CL",
+      "text": "[[1d4]] Lycanthrope, Werewolf",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.b7jB7aOeb9J9SDCf",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "b7jB7aOeb9J9SDCf",
+      "text": "[[1d3]] Mummy*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.e0JwTUwuJAooq1BA",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Blink Dog",
+      "documentId": "QyDZ7pag954K5Xam",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "e0JwTUwuJAooq1BA",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.g3BHrpXoalFLoGnY",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "g3BHrpXoalFLoGnY",
+      "text": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.k7UCNMDBDmgLpSxs",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "k7UCNMDBDmgLpSxs",
+      "text": "[[1d2]] Cockatrice",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.mBu5NAZ7yQ9YZ7R9",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "text": "Hydra (5HD)",
+      "documentId": "n38wgSBUceafJ6a6",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "mBu5NAZ7yQ9YZ7R9",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.nBzTpDpHWn72b7lu",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "Giant, Hill",
+      "documentId": "UFb21ansA4HP2roM",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "nBzTpDpHWn72b7lu",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.nJz1N0ROcmrxQwNR",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "text": "Rhagodessa",
+      "documentId": "1HFdNum5FcVKAtXp",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "nJz1N0ROcmrxQwNR",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.oSvIRrs0HLshePfG",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Caecilia",
+      "documentId": "lYgXYeUclfcLHsrg",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oSvIRrs0HLshePfG",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.ogbTyWyWGelKK5BV",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "ogbTyWyWGelKK5BV",
+      "text": "1 Ochre Jelly",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.olW4GyNDljW6ynll",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "Lycanthrope, Werewolf*",
+      "documentId": "tMx78dywgwuL5NJW",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "olW4GyNDljW6ynll",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.uGFThZ0WQRPtpBfH",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Displacer Beast",
+      "documentId": "eA4eRFSfiBxY19ll",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "uGFThZ0WQRPtpBfH",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.vu8l2itOAlxs0WTl",
+      "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "vu8l2itOAlxs0WTl",
+      "text": "[[1d4+1]] Harpy",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!fEG9GihLnJZRP6tz.x0bWnTkzgRxSMA7E",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "x0bWnTkzgRxSMA7E",
+      "flags": {}
+    }
+  ]
+}

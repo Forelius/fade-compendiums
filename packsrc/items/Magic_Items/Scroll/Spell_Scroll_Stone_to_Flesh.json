@@ -1,0 +1,67 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Spell Scroll (Stone to Flesh)",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p><p>Use Spell Scrolls in the magical item subtable for scrolls to find exact spell levels or choose spells as appropriate. Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": false,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "4xTqIBnleQpdxOGF",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4xTqIBnleQpdxOGF",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.5",
+    "createdTime": 1743219182967,
+    "modifiedTime": 1761569957846,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 1800000,
+  "_originalKey": "!items!4xTqIBnleQpdxOGF"
+}

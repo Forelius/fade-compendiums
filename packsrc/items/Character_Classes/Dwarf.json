@@ -1,0 +1,404 @@
+{
+  "name": "Dwarf",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Dwarf",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 22,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d8",
+        "hdcon": true,
+        "title": "Veteran",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2200,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d8",
+        "hdcon": true,
+        "title": "Warrior",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 4400,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d8",
+        "hdcon": true,
+        "title": "Swordmaster",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 8800,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d8",
+        "hdcon": true,
+        "title": "Hero",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 17000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d8",
+        "hdcon": true,
+        "title": "Swashbuckler",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 35000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d8",
+        "hdcon": true,
+        "title": "Myrmidon",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 70000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d8",
+        "hdcon": true,
+        "title": "Champion",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 140000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "8d8",
+        "hdcon": true,
+        "title": "Superhero",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 270000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d8",
+        "hdcon": true,
+        "title": "Lord",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 400000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+3",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 530000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 660000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "C"
+      },
+      {
+        "level": 13,
+        "xp": 800000,
+        "thac0": 12,
+        "thbonus": 7,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "D"
+      },
+      {
+        "level": 14,
+        "xp": 1000000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "E"
+      },
+      {
+        "level": 15,
+        "xp": 1200000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "F"
+      },
+      {
+        "level": 16,
+        "xp": 1400000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "G"
+      },
+      {
+        "level": 17,
+        "xp": 1600000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "H"
+      },
+      {
+        "level": 18,
+        "xp": 1800000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "I"
+      },
+      {
+        "level": 19,
+        "xp": 2000000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "J"
+      },
+      {
+        "level": 20,
+        "xp": 2200000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "K"
+      },
+      {
+        "level": 21,
+        "xp": 2400000,
+        "thac0": 4,
+        "thbonus": 15,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "L"
+      },
+      {
+        "level": 22,
+        "xp": 2600000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "M"
+      }
+    ],
+    "saves": [
+      {
+        "level": 3,
+        "death": 8,
+        "wand": 9,
+        "paralysis": 10,
+        "breath": 13,
+        "spell": 12
+      },
+      {
+        "level": 6,
+        "death": 6,
+        "wand": 7,
+        "paralysis": 8,
+        "breath": 10,
+        "spell": 9
+      },
+      {
+        "level": 9,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 6,
+        "breath": 7,
+        "spell": 6
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 4,
+        "breath": 4,
+        "spell": 3
+      }
+    ],
+    "firstLevel": 1,
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "spells": [],
+    "key": "D",
+    "description": "<p>A dwarf is a sturdy, short-statured demi-human standing about 4 feet tall and weighing approximately 150 pounds. Known for their resilience and practicality, dwarves are experts in mining, construction, and combat. They often form close-knit clans and value craftsmanship and treasure.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for a score of 13–15, 10% for 16 or higher). A Constitution score of 9 is required to play a dwarf.</li><li><strong>Combat Abilities</strong>: Dwarves are skilled fighters, able to wield small and medium-sized weapons and use shields. They gain access to Fighter Combat Options, including advanced maneuvers like multiple attacks at higher levels.</li><li><strong>Armor and Weapons</strong>: They can wear any armor but are restricted from using longbows or large melee weapons.</li><li><p><strong>Special Abilities</strong>:</p><ul><li><strong>Infravision</strong>: Dwarves can see up to 60 feet in the dark.</li><li><strong>Stonework Detection</strong>: Their expertise allows them to detect traps, sliding walls, sloping passages, and new construction with a 1–2 roll on a d6.</li><li><strong>Magic Resistance</strong>: As they gain experience, dwarves take reduced damage from spells and magical effects.</li><li>Dwarves can speak the languages of Dwarves, Gnomes, Goblins, and Kobolds, in addition to Common and Alignment tongues.</li></ul></li></ul><h3>Advancement:</h3><ul><li>Dwarves can progress to a maximum of 12th level.</li><li>Upon reaching 9th level, a dwarf may establish a stronghold in the wilderness. These are typically underground and located in hills or mountains, reflecting their cultural heritage.</li><li>The stronghold attracts a community of loyal dwarves (up to 200), including skilled craftsmen, warriors, and other retainers, creating a self-sustaining settlement.</li></ul><p>Dwarves are resilient and resourceful adventurers, excelling in combat and defensive roles while contributing practical skills and unparalleled durability to any group.</p>",
+    "classItems": [],
+    "abilities": {
+      "con": {
+        "min": 9
+      },
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Detection (D)",
+        "target": 2,
+        "classKey": "D",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Infravision (D)",
+        "target": 0,
+        "classKey": "D",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Lance Attack",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Set Spear vs. Charge",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Magic Resistance (D)",
+        "target": 0,
+        "classKey": "D",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Establish Stronghold (D)",
+        "target": 0,
+        "classKey": "D",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Disarm",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Multiple Attacks",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Parry",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Smash",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      }
+    ],
+    "basicProficiency": true,
+    "unskilledToHitMod": -3
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "cpI6LKzjfDDxhm1w",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.cpI6LKzjfDDxhm1w",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.1",
+    "createdTime": 1745010527203,
+    "modifiedTime": 1749418408688,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 800000,
+  "_originalKey": "!items!cpI6LKzjfDDxhm1w"
+}

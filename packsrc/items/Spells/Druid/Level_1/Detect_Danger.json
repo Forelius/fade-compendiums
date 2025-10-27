@@ -1,0 +1,61 @@
+{
+  "name": "Detect Danger",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "g3jvAcmryr9gDGqS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to sense hazards by concentrating on places, objects, or creatures within range. The caster needs a full round of concentration to examine one square foot of area, one creature, or one small object. Larger objects require more time.</p>\n                <p>After examination, the caster knows if the target is immediately dangerous, potentially dangerous, or benign, from the caster's point of view. The spell can detect poisons, which other spells might not. The duration is one hour in natural outdoor settings on the Prime Plane; elsewhere, it lasts for only three turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "5' per level of the caster",
+    "duration": "One hour",
+    "effect": "Reveals hazards",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {
+    "exportSource": {
+      "world": "fantastic-depths",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.1.0"
+    }
+  },
+  "_id": "IQo6XWVxGe45pV2K",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.IQo6XWVxGe45pV2K",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822071959,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!IQo6XWVxGe45pV2K"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Wall of Fire",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a thin, vertical wall of fire in any shape or dimension, totaling 1,200 square feet (e.g., 10' x 120', 20' x 60', 30' x 40'). The wall is opaque and blocks sight, and it cannot be created in a space already occupied by another object.</p>\n                      <p><strong>Duration:</strong> The wall remains as long as the caster concentrates on it without moving.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot pass through the wall. Creatures with 4 HD or more may pass through, taking 1d6 fire damage in the process. Undead and cold-using creatures (e.g., white dragons, frost giants) each take double damage (2d6) when breaking through.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "Concentration",
+    "effect": "Creates 1200 square feet of fire",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "1d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "fire",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.eIV9zDJxnlwjpcGq",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902483858,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "eIV9zDJxnlwjpcGq",
+  "sort": 0,
+  "_originalKey": "!items!eIV9zDJxnlwjpcGq"
+}

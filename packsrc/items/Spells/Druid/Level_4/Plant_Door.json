@@ -1,0 +1,54 @@
+{
+  "name": "Plant Door",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v3vt9QC6X4dDbc82",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to pass freely through any plant growth or barrier, no matter how dense. Trees, vines, and other plants will bend or magically open to create a passage for the druid, who can carry equipment while moving through but cannot bring other creatures with them.</p>\n                      <p>The druid may also hide inside a large tree after casting this spell, though they cannot see what is happening outside the tree while within.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "0 (druid only)",
+    "duration": "1 turn per level of the caster",
+    "effect": "Opens a path through growth",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.EVw7fwpo3UGzcQpk",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749822286418,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "EVw7fwpo3UGzcQpk",
+  "sort": 0,
+  "_originalKey": "!items!EVw7fwpo3UGzcQpk"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "e4MHzfcZGPAOJt8x",
+  "name": "Establish Stronghold (D)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Upon reaching Name Level (9th level, 660,000 XP), a Dwarf is recognized as a Dwarf Lord (or Dwarf Lady for female characters) and may establish a stronghold. This stronghold is typically an underground cavern complex built in mountainous or hilly terrain, in keeping with dwarven tradition.</p><p data-start=\"348\" data-end=\"598\">If the Dwarf has forsaken their Clan and lives among humans, they may construct a sturdy stone fortress in human style. However, even in such cases, the Dwarf will still prefer to have an underground complex connected to their dwelling.</p><h3 data-start=\"600\" data-end=\"638\">Stronghold Forces & Defenses</h3><ul data-start=\"639\" data-end=\"1019\"><li data-start=\"639\" data-end=\"717\">The Dwarf may hire only dwarven mercenaries for their military forces.</li><li data-start=\"718\" data-end=\"852\">Specialists and hirelings of other races may still be employed, such as human engineers, elven scouts, or halfling messengers.</li><li data-start=\"853\" data-end=\"1019\">The stronghold is expected to be heavily fortified, often featuring stone walls, hidden tunnels, reinforced gates, and mechanical traps to repel invaders.</li></ul><p data-start=\"1021\" data-end=\"1207\" data-is-last-node=\"\">This stronghold serves as the Dwarf’s seat of power, a center of trade, craftsmanship, and military strength, often attracting fellow dwarves seeking refuge or work within its halls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "D",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.8le7pm3J3pWdZjaa",
+    "duplicateSource": "Item.9Ed5yBeX9T1SLjaa",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743252885245,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "8le7pm3J3pWdZjaa",
+  "sort": 0,
+  "_originalKey": "!items!8le7pm3J3pWdZjaa"
+}

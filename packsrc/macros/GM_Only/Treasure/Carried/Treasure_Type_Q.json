@@ -1,0 +1,27 @@
+{
+  "folder": "82lkvbbc5Yg9Obvr",
+  "name": "Treasure Type Q",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/containers/chest/chest-reinforced-steel-oak-tan.webp",
+  "scope": "global",
+  "command": "const treasure = new game.fade.fadeTreasure();\nconst coinsArray = [\n{ type: \"sp\", formula: \"3d6\", chance: 100 }\n];\nconst tableArray = [];\n// Call the method\nawait treasure.rollMultipleTables(coinsArray, tableArray, 'Treasure Type Q');",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Macro.QDOQM7Lz7VOWjf78",
+    "duplicateSource": "Macro.QDOQM7Lz7VOWjf78",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739916140723,
+    "modifiedTime": 1739916140723,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "Sr9WIltxV5HXO9hQ",
+  "_originalKey": "!macros!Sr9WIltxV5HXO9hQ"
+}

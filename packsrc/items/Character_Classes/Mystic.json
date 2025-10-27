@@ -1,0 +1,1091 @@
+{
+  "folder": "oRrldFwTAwccXhIv",
+  "name": "Mystic",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "key": "MY",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 16,
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "description": "<p>Mystics are monastic individuals who follow a strict discipline of meditation, self-denial, isolation, and mastery of their physical form, excelling in unarmed combat. They live in cloisters—monastic communities—and venture out to seek spiritual growth and life lessons, typically joining diverse adventuring parties rather than traveling with other mystics. Mystics gain experience from treasure only by donating it to the needy, and they must tithe ten percent to their cloister. Their oath is binding; breaking it results in expulsion, an inability to gain new experience levels, a loss of one level per year away from the cloister, and exclusion from similar cloisters, though a Dungeon Master may offer a grand quest for redemption.</p><p>Most mystics (75%) are Lawful, yet all are fully devoted to their neutral discipline, relying on inner strength and non-magical abilities rather than nature’s power, unlike druids. Recognizable by their robes or unique garb, mystics also perform a distinctive salute: upon meeting a presumed peaceful creature, they raise a fist, cover it with the other hand, and bow slightly, symbolizing a greeting (the bow), readiness to fight if necessary (the fist), and peaceful intent (the covered fist).</p><h3 style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); margin: 0px 0px 0.5rem; padding: 0px; font-weight: bold; font-size: 1.25em; border-bottom: 1px solid var(--color-underline-header); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"font-family: Barlow, sans-serif\"><strong>Key Characteristics</strong></span></h3><ul><li><p><strong>Minimum Scores:</strong> To become a mystic, a character must achieve scores of 13 or higher in both Wisdom and Dexterity abilities.</p></li><li><p><strong>Armor:</strong> Mystics are prohibited from wearing any form of armor and are also barred from using protective magical items (such as rings, cloaks, etc.); they depend entirely on their discipline for defense.</p></li><li><p><strong>Weapons:</strong> While mystics are trained in the use of all weapons, not all choose to carry them. Higher-level mystics, in particular, often travel unarmed or equipped solely with a walking-staff, which also serves as a quarter-staff.</p></li></ul><h3>Special Restrictions</h3><p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">Mystics are not permitted to use protective magical devices (such as rings, cloaks, etc.). All material possessions (money, magical items, etc.) earned, bought, or obtained as treasure by the mystic are considered to be owned by his cloister, rather than by the mystic himself. If the cloister requires something \"owned\" by a mystic, the head of the cloister need only request it.</span></p>",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Novice",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Seeker",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 4000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Disciple",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 8000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Adept",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 16000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Guardian",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 32000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Sage",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 64000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Venerable",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 120000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "Elightened",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 240000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6",
+        "hdcon": true,
+        "title": "Master",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 360000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 480000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 720000,
+        "thac0": 11,
+        "thbonus": 4,
+        "hd": "9d6+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 840000,
+        "thac0": 11,
+        "thbonus": 4,
+        "hd": "9d6+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 960000,
+        "thac0": 11,
+        "thbonus": 4,
+        "hd": "9d6+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1080000,
+        "thac0": 9,
+        "thbonus": 6,
+        "hd": "9d6+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 3,
+        "breath": 12,
+        "paralysis": 13,
+        "spell": 14,
+        "wand": 15,
+        "death": 16
+      },
+      {
+        "level": 6,
+        "breath": 10,
+        "paralysis": 11,
+        "spell": 12,
+        "wand": 13,
+        "death": 14
+      },
+      {
+        "level": 9,
+        "breath": 8,
+        "paralysis": 9,
+        "spell": 10,
+        "wand": 11,
+        "death": 12
+      },
+      {
+        "level": 12,
+        "breath": 6,
+        "paralysis": 7,
+        "spell": 8,
+        "wand": 9,
+        "death": 10
+      },
+      {
+        "level": 15,
+        "breath": 6,
+        "paralysis": 6,
+        "spell": 7,
+        "wand": 8,
+        "death": 9
+      },
+      {
+        "level": 16,
+        "breath": 5,
+        "paralysis": 6,
+        "spell": 6,
+        "wand": 7,
+        "death": 8
+      }
+    ],
+    "spells": [],
+    "classItems": [
+      {
+        "level": 1,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"9\" }"
+      },
+      {
+        "level": 1,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d4\" }"
+      },
+      {
+        "level": 2,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"8\" }"
+      },
+      {
+        "level": 2,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d4+1\" }"
+      },
+      {
+        "level": 3,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"7\" }"
+      },
+      {
+        "level": 3,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d6\" }"
+      },
+      {
+        "level": 4,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"6\" }"
+      },
+      {
+        "level": 4,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d6+1\" }"
+      },
+      {
+        "level": 5,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"5\" }"
+      },
+      {
+        "level": 5,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d8\" }"
+      },
+      {
+        "level": 6,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"4\" }"
+      },
+      {
+        "level": 6,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d8+1\" }"
+      },
+      {
+        "level": 7,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"3\" }"
+      },
+      {
+        "level": 7,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d10\" }"
+      },
+      {
+        "level": 8,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"2\" }"
+      },
+      {
+        "level": 8,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"1d12\" }"
+      },
+      {
+        "level": 9,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"1\" }"
+      },
+      {
+        "level": 9,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"2d8\" }"
+      },
+      {
+        "level": 10,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"0\" }"
+      },
+      {
+        "level": 10,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"2d10\" }"
+      },
+      {
+        "level": 11,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-1\" }"
+      },
+      {
+        "level": 11,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"2d12\" }"
+      },
+      {
+        "level": 12,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-2\" }"
+      },
+      {
+        "level": 12,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"3d8+1\" }"
+      },
+      {
+        "level": 13,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-3\" }"
+      },
+      {
+        "level": 13,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"4d6+2\" }"
+      },
+      {
+        "level": 14,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-4\" }"
+      },
+      {
+        "level": 14,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"5d6\" }"
+      },
+      {
+        "level": 15,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-5\" }"
+      },
+      {
+        "level": 15,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"4d8\" }"
+      },
+      {
+        "level": 16,
+        "type": "armor",
+        "name": "Mystic Natural Armor",
+        "changes": "{ \"system.ac\": \"-6\" }"
+      },
+      {
+        "level": 16,
+        "type": "weapon",
+        "name": "Unarmed Strike (MY)",
+        "changes": "{ \"system.damageRoll\": \"3d12\" }"
+      }
+    ],
+    "abilities": {
+      "wis": {
+        "min": 13
+      },
+      "dex": {
+        "min": 13
+      },
+      "int": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "str": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 0,
+        "name": "Awareness",
+        "target": 1,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Climb Sheer Surface",
+        "target": 87,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Find Traps",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Hide in Shadows",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Move Silently",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Remove Traps",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Climb Sheer Surface",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Find Traps",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Hide in Shadows",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Move Silently",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Remove Traps",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Climb Sheer Surface",
+        "target": 89,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Find Traps",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Hide in Shadows",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Move Silently",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Remove Traps",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Climb Sheer Surface",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Find Traps",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Heal Self",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Hide in Shadows",
+        "target": 24,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Move Silently",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Remove Traps",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Climb Sheer Surface",
+        "target": 91,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Find Traps",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Hide in Shadows",
+        "target": 28,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Move Silently",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Remove Traps",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Climb Sheer Surface",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Find Traps",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Hide in Shadows",
+        "target": 32,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Move Silently",
+        "target": 44,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Remove Traps",
+        "target": 34,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Speak With Animals",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Climb Sheer Surface",
+        "target": 93,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Find Traps",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Hide in Shadows",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Move Silently",
+        "target": 48,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Remove Traps",
+        "target": 38,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Climb Sheer Surface",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Find Traps",
+        "target": 45,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Hide in Shadows",
+        "target": 38,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Move Silently",
+        "target": 52,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Remove Traps",
+        "target": 42,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Resistance (MY)",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Climb Sheer Surface",
+        "target": 95,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Find Traps",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Hide in Shadows",
+        "target": 41,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Move Silently",
+        "target": 55,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Remove Traps",
+        "target": 46,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Climb Sheer Surface",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Find Traps",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Hide in Shadows",
+        "target": 44,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Move Silently",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Remove Traps",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Speak with Anyone",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Climb Sheer Surface",
+        "target": 97,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Find Traps",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Hide in Shadows",
+        "target": 47,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Move Silently",
+        "target": 61,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Remove Traps",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Climb Sheer Surface",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Find Traps",
+        "target": 62,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Hide in Shadows",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Mind Block",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Move Silently",
+        "target": 64,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Remove Traps",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Climb Sheer Surface",
+        "target": 99,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Find Traps",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Hide in Shadows",
+        "target": 53,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Move Silently",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Remove Traps",
+        "target": 61,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Blankout",
+        "target": null,
+        "classKey": "MY",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Climb Sheer Surface",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Find Traps",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Hide in Shadows",
+        "target": 56,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Move Silently",
+        "target": 68,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Remove Traps",
+        "target": 64,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Climb Sheer Surface",
+        "target": 101,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Find Traps",
+        "target": 73,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Hide in Shadows",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Move Silently",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Remove Traps",
+        "target": 67,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Climb Sheer Surface",
+        "target": 102,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Find Traps",
+        "target": 76,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Hide in Shadows",
+        "target": 60,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Move Silently",
+        "target": 72,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Remove Traps",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      }
+    ],
+    "unskilledToHitMod": -3
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4iFyMLedeiC3qsQL",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.2",
+    "createdTime": 1745010527203,
+    "modifiedTime": 1749418408688,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "4iFyMLedeiC3qsQL",
+  "sort": 300000,
+  "_originalKey": "!items!4iFyMLedeiC3qsQL"
+}

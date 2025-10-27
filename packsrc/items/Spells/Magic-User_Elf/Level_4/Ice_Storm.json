@@ -1,0 +1,58 @@
+{
+  "name": "Ice Storm",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a storm of ice in a 20' x 20' x 20' area, or the largest available space within those dimensions, dealing 1d6 cold damage per caster level to all creatures in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature may make a saving throw vs. spells for half damage. Fire-type creatures (e.g., red dragons, flame salamanders) suffer a -4 penalty to their saving throws, while cold-type creatures (e.g., frost giants, frost salamanders) are unaffected.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "1 round",
+    "effect": "Storm in 20' x 20' x 20' volume",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "1d6 * @classes.M.castLevel",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "1",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "frost",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.ifzidTKvHXX6mTmj",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902382675,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ifzidTKvHXX6mTmj",
+  "sort": 0,
+  "_originalKey": "!items!ifzidTKvHXX6mTmj"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Establish Tower (M)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"94e4c5d5-5098-4cde-a312-9426bf7d6f38\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p data-start=\"59\" data-end=\"403\">Upon reaching <strong data-start=\"73\" data-end=\"86\">9th level</strong>, a Magic-User may choose to <strong data-start=\"115\" data-end=\"132\">build a tower</strong>, establishing themselves as a land-owning wizard. Unlike Fighters or Clerics, a Magic-User does not need <strong data-start=\"238\" data-end=\"273\">permission from the local ruler</strong> to construct a stronghold, as rulers generally avoid antagonizing powerful wizards​.</p><h4 data-start=\"405\" data-end=\"438\">Attracting Apprentices</h4><p data-start=\"439\" data-end=\"770\">Once a tower is built, the Magic-User will attract <strong data-start=\"490\" data-end=\"509\">1d6 apprentices</strong>, all <strong data-start=\"515\" data-end=\"544\">Magic-Users of levels 1–3</strong>. These apprentices seek training, and while they are loyal, they will not sacrifice themselves for their master. The <strong data-start=\"662\" data-end=\"723\">DM determines their names, backgrounds, and personalities</strong>​.</p><h4 data-start=\"772\" data-end=\"818\">Stronghold and Dungeon Construction</h4><p data-start=\"819\" data-end=\"1303\">A wizard's tower may include a <strong data-start=\"850\" data-end=\"880\">dungeon beneath or near it</strong>. Some wizards construct dungeons as secure laboratories, while others <strong data-start=\"951\" data-end=\"971\">leave an opening</strong>, attracting <strong data-start=\"984\" data-end=\"1006\">wandering monsters</strong> that take up residence. Some wizards encourage this, using monsters for research, spell experimentation, or personal defense​. However, monster-infested dungeons often cause conflict with <strong data-start=\"1238\" data-end=\"1259\">local communities</strong> and attract adventurers seeking treasure.</p><h4 data-start=\"1305\" data-end=\"1357\">Alternative to a Tower: Becoming a Magist</h4><p data-start=\"1358\" data-end=\"1754\">Instead of building a tower, a Name-level Magic-User may <strong data-start=\"1415\" data-end=\"1446\">seek employment as a Magist</strong> in an existing stronghold. A Magist serves a ruler as an <strong data-start=\"1504\" data-end=\"1534\">advisor on magical matters</strong>, handles magical needs, and is well-compensated—typically <strong data-start=\"1593\" data-end=\"1624\">at least 3,000 gp per month</strong>. However, this requires the Magic-User to swear an <strong data-start=\"1676\" data-end=\"1694\">oath of fealty</strong> to the ruler​.</p><p data-start=\"1756\" data-end=\"1843\" data-is-last-node=\"\">Would you like additional details, such as construction costs or typical tower layouts?</p></div></div></div></div><div class=\"mb-2 flex gap-3 empty:hidden -ml-2\"><div class=\"items-center justify-start rounded-xl p-1 flex\"><div class=\"flex items-center\"><p></p></div></div></div>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "M",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "z35KFMVUIiDBzg5O",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.PPxlO1veFk0wrCpw",
+    "duplicateSource": "Item.9aBRk0NyFMb2G2BP",
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "PPxlO1veFk0wrCpw",
+  "sort": 0,
+  "_originalKey": "!items!PPxlO1veFk0wrCpw"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Diseased (Dying)",
+  "type": "condition",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This condition represent a deadly disease that kill in a number of days if not treated.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "j60CyM0fapdd0O7E"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.2",
+    "createdTime": 1757596411506,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "VGj4HQF0HCZqs7js",
+  "sort": 1400000,
+  "_originalKey": "!items!VGj4HQF0HCZqs7js",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!VGj4HQF0HCZqs7js.j60CyM0fapdd0O7E",
+      "name": "Diseased (Dying)",
+      "img": "icons/svg/biohazard.svg",
+      "disabled": false,
+      "_id": "j60CyM0fapdd0O7E",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "disease"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.13.0-rc.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

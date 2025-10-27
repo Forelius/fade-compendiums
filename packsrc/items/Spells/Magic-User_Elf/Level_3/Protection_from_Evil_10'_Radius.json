@@ -1,0 +1,64 @@
+{
+  "name": "Protection from Evil 10' Radius",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible magical barrier around the caster, extending in a 10' radius (20' diameter). This barrier protects against attacks from creatures with an alignment different from the caster's.</p>\n                      <p><strong>Effects on Allies:</strong> Each creature within the barrier gains a +1 bonus to all saving throws, while attacks against them suffer a -1 penalty on the attack roll.</p>\n                      <p><strong>Enchanted Creatures:</strong> Enchanted creatures (e.g., magically summoned or controlled creatures) cannot engage in melee with anyone within the barrier. However, if someone within the barrier attacks an enchanted creature, this melee protection ends for that creature, though the +1 save bonus and -1 attack penalty remain in effect.</p>\n                      <p><strong>Missile and Magical Attacks:</strong> Missile and magical attacks from outside the barrier can target those inside, suffering only the -1 attack penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "0",
+    "duration": "12 turns",
+    "effect": "Creates a 20' diameter protective barrier",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Protected",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.D0CngnO7ZLjqnzff",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749847201395,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "D0CngnO7ZLjqnzff",
+  "sort": 0,
+  "_originalKey": "!items!D0CngnO7ZLjqnzff"
+}

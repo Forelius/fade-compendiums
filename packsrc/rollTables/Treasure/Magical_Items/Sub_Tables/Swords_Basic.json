@@ -1,0 +1,528 @@
+{
+  "name": "Swords (Basic)",
+  "formula": "1d100",
+  "results": [
+    "k8dkESLMJEJuwgJe",
+    "c91xT47CuQZTcluO",
+    "q3p35VMKd3jYW10J",
+    "pjuWOcQ1whdmDTqt",
+    "IwcCjJuXG0K1rfbc",
+    "LiDFixUfHAbYzxvL",
+    "7A80DTVAa63iVuoO",
+    "x3754AIvOq9MSOD7",
+    "uaO6UUmth2HWImC7",
+    "Oh1sf3lBlC7tiQP6",
+    "17QQnYoGFF22D2Vj",
+    "nbjQjRCqVdTjYzVF",
+    "yWvyKNnRL25T2Isc",
+    "fuScvuOkUp8BtBWQ",
+    "CCFq7QhP0DU9AIey",
+    "mckykQyI0DlSEDfT",
+    "nbp0U8OXT40knEyb",
+    "L3JsIXoI0mtUmYVS",
+    "53c0gnWBR1X902pF",
+    "6CEfXLpQosPUYgC9",
+    "pBapXheFQgb80bV8",
+    "qD4ixN1Hgm0J1wht",
+    "hIgMANRuWSE99uEJ",
+    "i2XSeUEmOsw3Wenw",
+    "BrL2qmDJhqDgKktF",
+    "ew9DLNwwrdXs9dCU",
+    "9mvYNXFVh28tADcJ",
+    "ZbseeDgz1WcAq7Cx",
+    "l86drfkj7VSFe07S",
+    "RjbUR8DBuI9pvGCL",
+    "rmX7ODTemT5ryzsU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Generates a specific magical sword, including short, normal, bastard, and two-handed types, with bonuses or special effects.</p>",
+  "folder": "rWQmXw0xnkTcorjC",
+  "_id": "0vTcps3bBiFte5EK",
+  "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.0vTcps3bBiFte5EK",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743221199308,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!0vTcps3bBiFte5EK",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.17QQnYoGFF22D2Vj",
+      "text": "Sword, normal +2",
+      "range": [
+        41,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "17QQnYoGFF22D2Vj",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.53c0gnWBR1X902pF",
+      "text": "Sword, bastard +1, +3 vs undead",
+      "range": [
+        70,
+        70
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "53c0gnWBR1X902pF",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.6CEfXLpQosPUYgC9",
+      "text": "Sword, bastard +2",
+      "range": [
+        71,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "6CEfXLpQosPUYgC9",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.7A80DTVAa63iVuoO",
+      "text": "Sword, normal +1, +3 vs lycanthropes",
+      "range": [
+        37,
+        37
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "7A80DTVAa63iVuoO",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.9mvYNXFVh28tADcJ",
+      "text": "Sword, two-handed +1, +3 vs spellcasters",
+      "range": [
+        89,
+        89
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "9mvYNXFVh28tADcJ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.BrL2qmDJhqDgKktF",
+      "text": "Sword, two-handed +1, +3 vs lycanthropes",
+      "range": [
+        87,
+        87
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "BrL2qmDJhqDgKktF",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.CCFq7QhP0DU9AIey",
+      "text": "Sword, bastard +1, +3 vs giantkind",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "CCFq7QhP0DU9AIey",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.IwcCjJuXG0K1rfbc",
+      "text": "Sword, normal +1, +3 vs dragonkind",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "IwcCjJuXG0K1rfbc",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.L3JsIXoI0mtUmYVS",
+      "text": "Sword, bastard +1, +3 vs spellcasters",
+      "range": [
+        69,
+        69
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "L3JsIXoI0mtUmYVS",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.LiDFixUfHAbYzxvL",
+      "text": "Sword, normal +1, +3 vs giantkind",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "LiDFixUfHAbYzxvL",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.Oh1sf3lBlC7tiQP6",
+      "text": "Sword, normal +1, +3 vs undead",
+      "range": [
+        40,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "Oh1sf3lBlC7tiQP6",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.RjbUR8DBuI9pvGCL",
+      "text": "Sword, two-handed +3",
+      "range": [
+        96,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "RjbUR8DBuI9pvGCL",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.ZbseeDgz1WcAq7Cx",
+      "text": "Sword, two-handed +1, +3 vs undead",
+      "range": [
+        90,
+        90
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "ZbseeDgz1WcAq7Cx",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.c91xT47CuQZTcluO",
+      "text": "Sword, short +2",
+      "range": [
+        11,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "c91xT47CuQZTcluO",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.ew9DLNwwrdXs9dCU",
+      "text": "Sword, two-handed +1, +3 vs regenerating monsters",
+      "range": [
+        88,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "ew9DLNwwrdXs9dCU",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.fuScvuOkUp8BtBWQ",
+      "text": "Sword, bastard +1, +3 vs dragonkind",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "fuScvuOkUp8BtBWQ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.hIgMANRuWSE99uEJ",
+      "text": "Sword, two-handed +1, +3 vs dragonkind",
+      "range": [
+        85,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "hIgMANRuWSE99uEJ",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.i2XSeUEmOsw3Wenw",
+      "text": "Sword, two-handed +1, +3 vs giantkind",
+      "range": [
+        86,
+        86
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "i2XSeUEmOsw3Wenw",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.k8dkESLMJEJuwgJe",
+      "text": "Sword, short +1",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "k8dkESLMJEJuwgJe",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.l86drfkj7VSFe07S",
+      "text": "Sword, two-handed +2",
+      "range": [
+        91,
+        95
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "l86drfkj7VSFe07S",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.mckykQyI0DlSEDfT",
+      "text": "Sword, bastard +1, +3 vs lycanthropes",
+      "range": [
+        67,
+        67
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "mckykQyI0DlSEDfT",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.nbjQjRCqVdTjYzVF",
+      "text": "Sword, normal +3",
+      "range": [
+        51,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "nbjQjRCqVdTjYzVF",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.nbp0U8OXT40knEyb",
+      "text": "Sword, bastard +1, +3 vs regenerating monsters",
+      "range": [
+        68,
+        68
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "nbp0U8OXT40knEyb",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.pBapXheFQgb80bV8",
+      "text": "Sword, bastard +3",
+      "range": [
+        76,
+        80
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "pBapXheFQgb80bV8",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.pjuWOcQ1whdmDTqt",
+      "text": "Sword, normal +1",
+      "range": [
+        31,
+        34
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "pjuWOcQ1whdmDTqt",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.q3p35VMKd3jYW10J",
+      "text": "Sword, short +3",
+      "range": [
+        21,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "q3p35VMKd3jYW10J",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.qD4ixN1Hgm0J1wht",
+      "text": "Sword, two-handed +1",
+      "range": [
+        81,
+        84
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "qD4ixN1Hgm0J1wht",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.rmX7ODTemT5ryzsU",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "text": "Cursed Sword Check",
+      "documentId": "xINohxxAaSY6Bn7r",
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "rmX7ODTemT5ryzsU",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.uaO6UUmth2HWImC7",
+      "text": "Sword, normal +1, +3 vs spellcasters",
+      "range": [
+        39,
+        39
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "uaO6UUmth2HWImC7",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.x3754AIvOq9MSOD7",
+      "text": "Sword, normal +1, +3 vs regenerating monsters",
+      "range": [
+        38,
+        38
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "x3754AIvOq9MSOD7",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.yWvyKNnRL25T2Isc",
+      "text": "Sword, bastard +1",
+      "range": [
+        61,
+        64
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "yWvyKNnRL25T2Isc",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

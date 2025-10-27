@@ -1,0 +1,63 @@
+{
+  "folder": "TR10cmcdEZOUsSui",
+  "name": "Cursed Armor Check",
+  "_id": "DiBm2M0JVor1hnMe",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "description": "<p>Check top see if the armor is cursed.</p>",
+  "results": [
+    "GMIYghqXYj3owshV",
+    "PvntPV0RNStv0aVU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DiBm2M0JVor1hnMe",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743220229267,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d8",
+  "sort": 500000,
+  "_originalKey": "!tables!DiBm2M0JVor1hnMe",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!DiBm2M0JVor1hnMe.GMIYghqXYj3owshV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "GMIYghqXYj3owshV",
+      "text": "<strong>Cursed!</strong>",
+      "img": "icons/svg/hazard.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!DiBm2M0JVor1hnMe.PvntPV0RNStv0aVU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        8
+      ],
+      "drawn": false,
+      "_id": "PvntPV0RNStv0aVU",
+      "text": "",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

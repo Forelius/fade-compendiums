@@ -1,0 +1,66 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Merging",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The effect is quite unusual. The user can permit others to merge their forms with the user's, including all equipment carried, as if all were gaseous. A maximum of seven other creatures can <em>merge</em> with the user. The merging cannot be forced; the user can, at will, prevent anyone from merging. A creature merged with the user can leave the merger by merely stepping out. No creature merged with another (including the user) can attack or cast a spell, but may speak. Damage to the user does not affect those <em>merged</em>.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": "Due to the unusual nature of this potion's effect, it is up to the DM to keep track of the duration."
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YIOpqdLR0B1lgJ0A",
+        "action": "consume",
+        "castAs": "",
+        "name": "Merge"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.7",
+    "createdTime": 1759494922781,
+    "modifiedTime": 1760903435103,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "aHzhAWEL7dxZp5N1",
+  "sort": 900000,
+  "_originalKey": "!items!aHzhAWEL7dxZp5N1"
+}

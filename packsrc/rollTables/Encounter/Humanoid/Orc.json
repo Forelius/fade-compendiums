@@ -1,0 +1,82 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Orc",
+  "_id": "Y4Gb1ERUmgujnIBz",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "UOCohE69BBBpzGGd",
+    "LihmyuCMze5ovfsA",
+    "Bzo5zhqWqgmgB5XK"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760447229831,
+    "modifiedTime": 1760705588830,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!Y4Gb1ERUmgujnIBz",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.Bzo5zhqWqgmgB5XK",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        80,
+        100
+      ],
+      "drawn": false,
+      "text": "Orc, Leader",
+      "documentId": "ksBY6HIuAo5RhU3E",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "Bzo5zhqWqgmgB5XK",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.LihmyuCMze5ovfsA",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "text": "Orc, Chieftain",
+      "documentId": "JNrudHb64zpfOJA5",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "LihmyuCMze5ovfsA",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.UOCohE69BBBpzGGd",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "text": "Orc",
+      "documentId": "x8wcYxKMfc0JxmnU",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "UOCohE69BBBpzGGd",
+      "flags": {}
+    }
+  ]
+}

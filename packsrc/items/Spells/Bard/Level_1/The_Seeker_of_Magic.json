@@ -1,0 +1,56 @@
+{
+  "name": "The Seeker of Magic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6UrIsG9bN6Yyc41C",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This mystical song reveals the magical nature of all enchanted items within a 20' x 20' x 20' area. All magical items, including those being worn or carried, will emit a soft blue halo for the duration of the spell.</p><p><strong>Effects:</strong></p><ul><li>All magical items within the area glow with a blue halo.</li><li>Chance to Identify: The bard has a 3% chance per level to correctly identify the exact nature of a magical item.</li><li>Limitations: The bard cannot determine the number of charges an item has (if any).</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0 (bard only)",
+    "duration": "6 turns",
+    "effect": "Reveals the magical nature of items in a 20' x 20' x 20' area",
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "2WHGHtIaag2crbGm",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.2WHGHtIaag2crbGm",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727092974,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!2WHGHtIaag2crbGm"
+}

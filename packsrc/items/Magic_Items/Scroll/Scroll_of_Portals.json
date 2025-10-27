@@ -1,0 +1,66 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Portals",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This effect creates a pass‑wall effect identical to the magic‑user spell. When placed on a surface and commanded to function, the scroll disappears and a 5'‑diameter hole appears up to 10' deep. The effect does not affect living or magical things. The hole disappears after 3 turns or when commanded by the reader; when it vanishes, the scroll reappears. The scroll may be used twice per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.14.0-rc.5",
+    "createdTime": 1761568516648,
+    "modifiedTime": 1761569957846,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "hKPPROdUWOi9dTRW",
+  "sort": 1600000,
+  "_originalKey": "!items!hKPPROdUWOi9dTRW"
+}

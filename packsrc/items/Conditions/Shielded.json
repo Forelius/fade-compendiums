@@ -1,0 +1,86 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Shielded",
+  "type": "condition",
+  "img": "icons/svg/shield.svg",
+  "_id": "uMmwIcaquFAFivpq",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<h2>Shield</h2><p>A magical barrier envelops the affected individual, forming less than an inch from their body and moving with them. While this status is active, the individual's Armor Class is set to <strong>2</strong> against missile attacks and <strong>4</strong> against all other attacks.</p><p>If the individual is targeted by a <em>magic missile</em>, they may make a <strong>saving throw vs. spells</strong> for each missile. On a successful save, the magic missile is absorbed by the barrier and evaporates without causing harm.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "ehw0Pm4dWKf47N0L"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.uMmwIcaquFAFivpq",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219177148,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 5200000,
+  "_originalKey": "!items!uMmwIcaquFAFivpq",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!uMmwIcaquFAFivpq.ehw0Pm4dWKf47N0L",
+      "name": "Shielded",
+      "img": "icons/svg/shield.svg",
+      "disabled": false,
+      "_id": "ehw0Pm4dWKf47N0L",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.upgradeAc",
+          "mode": 5,
+          "value": "4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.upgradeRangedAc",
+          "mode": 5,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 1200,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#bbffcc",
+      "transfer": true,
+      "statuses": [
+        "magicShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.9.0-rc.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

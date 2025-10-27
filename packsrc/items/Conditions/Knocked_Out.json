@@ -1,0 +1,73 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Knocked Out",
+  "type": "condition",
+  "img": "icons/svg/sleep.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Knockout is simply a short sleep. The victim is unconscious and completely helpless. Feel free to cut their throat.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "cVa0DLjD227N86Nt"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.10.0-rc.1",
+    "createdTime": 1744395607105,
+    "modifiedTime": 1760187520428,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ZkWvxkBhIFpe4wEn",
+  "sort": 4000000,
+  "_originalKey": "!items!ZkWvxkBhIFpe4wEn",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!ZkWvxkBhIFpe4wEn.cVa0DLjD227N86Nt",
+      "name": "Knocked Out",
+      "img": "icons/svg/sleep.svg",
+      "disabled": false,
+      "_id": "cVa0DLjD227N86Nt",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "unconscious"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.10.0-rc.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

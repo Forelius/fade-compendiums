@@ -1,0 +1,66 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Undead Control",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The user may control up to 18 Hit Dice of undead monsters. The undead will be hostile when the control ends.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.G7fQH02xug76RotU",
+        "action": "consume",
+        "castAs": "",
+        "name": "Control Undead"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.11",
+    "createdTime": 1760903510175,
+    "modifiedTime": 1760904750491,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "Ou78rI1WTxCtbWEL",
+  "sort": 0,
+  "_originalKey": "!items!Ou78rI1WTxCtbWEL"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Appear*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell negates invisibility within a 20' x 20' x 20' area. It affects all invisible creatures and objects inside the area, making them fully visible.</p><h4>Effect:</h4><ul><li>Affects all forms of invisibility (both magical and natural).</li><li>Creatures on the Astral and Ethereal planes are not affected.</li><li>All affected creatures cannot become invisible again for 1 full turn.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "Instantaneous (prevents re-invisibility for 1 turn)",
+    "effect": "Reveals all invisible creatures/objects in a 20' cube",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "nC2idcdlOsVGpzEc",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.nC2idcdlOsVGpzEc",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903736406,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!nC2idcdlOsVGpzEc"
+}

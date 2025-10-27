@@ -1,0 +1,54 @@
+{
+  "name": "Create Any Monster",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell is the most powerful version of the <em>Create Monsters</em> series, allowing the caster to summon nearly any creature.</p><h4>Spell Details:</h4><ul><li>Summoned creatures appear out of thin air and obey the caster’s commands.</li><li>The maximum total Hit Dice of all creatures created is equal to the caster’s level (drop fractions).</li><li>Creatures disappear when the duration ends, unless a construct is created.</li></ul><h4>Creature Restrictions:</h4><ul><li>The spell cannot create humans or demihumans.</li><li>Unlike lesser versions, this spell can summon creatures with any number of special abilities (asterisks).</li><li>To create a creature with three or more asterisks, the caster must have studied such a creature (alive or dead) for at least one hour.</li></ul><h4>Construct Creation:</h4><ul><li>The spell can create a permanent construct, provided the necessary materials are used.</li><li>Only one construct can be created per casting, regardless of the caster’s level.</li><li>The construct remains permanent but can be destroyed by <em>Dispel Magic</em> (normal chances for success).</li><li>The cost of materials is 5,000 gp per asterisk, or double for constructs with four or more asterisks (e.g., a drolem).</li><li>Chapter 16 contains more rules for enchanting nondispellable constructs.</li></ul><h4>Countermeasures:</h4><ul><li>Summoned creatures cannot penetrate a <em>Protection from Evil</em> or <em>Anti-Magic Shell</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "90'",
+    "duration": "3 turns",
+    "effect": "Creates one or more monsters",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "@classes.M.castLevel",
+    "durationFormula": "180",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "xHjJ11vMXWgOBaF9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.xHjJ11vMXWgOBaF9",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904768287,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!xHjJ11vMXWgOBaF9"
+}

@@ -1,0 +1,196 @@
+{
+  "name": "Misc. Weapons (Class C)",
+  "formula": "1d100",
+  "results": [
+    "XOk3V8tiBjvFsbVf",
+    "Jxgr0w6B71zNZYVi",
+    "kIerbAhKPmeKaYmN",
+    "ConAZPGeS1AzuGhB",
+    "jkhdROSlummvAqkb",
+    "FrixkREZzbYZ96U5",
+    "tlZTdiid5UjRoMZJ",
+    "VXZwCcjZVFJAqTqf",
+    "80Edhejaxn5oUIZA",
+    "Fj3RiReejwbzvLPC"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the magic bonus and chance of additional modifiers for Class C weapons.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "ldLflykBrJaFx8wF",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ldLflykBrJaFx8wF",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749690287,
+    "modifiedTime": 1743221478836,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!ldLflykBrJaFx8wF",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.80Edhejaxn5oUIZA",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        93,
+        98
+      ],
+      "drawn": false,
+      "text": "Weapons Add. Mod. 15%",
+      "documentId": "ylxkEpFEU4KkoopP",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "80Edhejaxn5oUIZA",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.ConAZPGeS1AzuGhB",
+      "text": "+4 Bonus, 15% chance of additional modifier",
+      "range": [
+        93,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "ConAZPGeS1AzuGhB",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.Fj3RiReejwbzvLPC",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "text": "Weapons Add. Mod. 10%",
+      "documentId": "aoO2D4BQoVXA7sq2",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "Fj3RiReejwbzvLPC",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.FrixkREZzbYZ96U5",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        60
+      ],
+      "drawn": false,
+      "text": "Weapons Add. Mod. 40%",
+      "documentId": "6DDYjWp0w7WJHQCe",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "FrixkREZzbYZ96U5",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.Jxgr0w6B71zNZYVi",
+      "text": "+2 Bonus, 30% chance of additional modifier",
+      "range": [
+        61,
+        81
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "Jxgr0w6B71zNZYVi",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.VXZwCcjZVFJAqTqf",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        82,
+        92
+      ],
+      "drawn": false,
+      "text": "Weapons Add. Mod. 20%",
+      "documentId": "KxdPhkFmq42jUuIf",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "VXZwCcjZVFJAqTqf",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.XOk3V8tiBjvFsbVf",
+      "text": "+1 Bonus, 40% chance of additional modifier",
+      "range": [
+        1,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "XOk3V8tiBjvFsbVf",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.jkhdROSlummvAqkb",
+      "text": "+5 Bonus, 10% chance of additional modifier",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "jkhdROSlummvAqkb",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.kIerbAhKPmeKaYmN",
+      "text": "+3 Bonus, 20% chance of additional modifier",
+      "range": [
+        82,
+        92
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "kIerbAhKPmeKaYmN",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.tlZTdiid5UjRoMZJ",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        61,
+        81
+      ],
+      "drawn": false,
+      "text": "Weapons Add. Mod. 30%",
+      "documentId": "xYSdiB1uGhHtFjyp",
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "tlZTdiid5UjRoMZJ",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Swamp Encounter",
+  "_id": "wrz2a9O59UtD7aBo",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Swamp Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "VxOt2pR60LtGcofA",
+    "t67T7Np4jl55oful",
+    "dPvYT8XRU3qKrE3i",
+    "OZgB6hYXNuAjinxa",
+    "QMvMjjV6s6nZDUWg",
+    "LIKqawvQI2XlN7kb",
+    "OI5EqwN1i7CLcAdg"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760534535029,
+    "modifiedTime": 1760705424079,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!wrz2a9O59UtD7aBo",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.LIKqawvQI2XlN7kb",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "Insects",
+      "documentId": "rTDT2KFmD2xPIwSz",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "LIKqawvQI2XlN7kb",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.OI5EqwN1i7CLcAdg",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "Dragons",
+      "documentId": "JjKeOku91T3TOM2Q",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "OI5EqwN1i7CLcAdg",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.OZgB6hYXNuAjinxa",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Swimmer (Swamp)",
+      "documentId": "jGeGmWlUoQHsophs",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "OZgB6hYXNuAjinxa",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.QMvMjjV6s6nZDUWg",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "text": "Undead",
+      "documentId": "bWs9O1f5vjCdqbYN",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "QMvMjjV6s6nZDUWg",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.VxOt2pR60LtGcofA",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Flyers (All Other)",
+      "documentId": "ZA3rLpJZCGOprVjT",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "VxOt2pR60LtGcofA",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.dPvYT8XRU3qKrE3i",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Human (Swamp)",
+      "documentId": "I5HBIRGB2lNbHqTb",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "dPvYT8XRU3qKrE3i",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.t67T7Np4jl55oful",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Humanoid (Swamp)",
+      "documentId": "rWU6V44ZFWo039o7",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "t67T7Np4jl55oful",
+      "flags": {}
+    }
+  ]
+}

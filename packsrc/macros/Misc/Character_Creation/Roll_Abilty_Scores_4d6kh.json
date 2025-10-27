@@ -1,0 +1,28 @@
+{
+  "name": "Roll Abilty Scores 4d6kh",
+  "type": "script",
+  "command": "let results = '<h2>Rolling Ability Scores</h2><p>Method: 4d6 keep highest 3</p>'; \nlet accum = 0; \nlet rolls = []; // Array to store the rolled values\n\nfor (let i = 0; i < 6; i++) { \n    let roll; \n    do {   \n        roll = new Roll('4d6kh3');   \n        await roll.evaluate(); \n    } while (roll.total < 6); \n    accum += roll.total; \n    rolls.push(roll.total); // Store the rolled value\n    results += `Roll ${i + 1}: ${roll.total}<br>`; \n} \n\nlet average = Math.round(accum / 6, 2); \nresults += `<strong>Average:</strong> ${average}<br>`; \n\n// Generate a unique ID for the button\nconst buttonId = `apply-ability-scores-${Date.now()}`; // Unique ID based on timestamp\nresults += `<button id=\"${buttonId}\">Apply to Selected</button>`;\n\nlet chatMessage = await ChatMessage.create({\n    content: results,\n    flavor: 'Ability Score Rolls'\n});\n\n// Function to check for the button and add the event listener\nconst checkForButton = async () => {\n    const button = document.getElementById(buttonId);\n    if (button) {\n        button.addEventListener(\"click\", async () => {\n            const actor = canvas.tokens.controlled[0]?.actor; // Get the selected actor\n            if (!actor) {\n                ui.notifications.warn(\"Please select an actor.\");\n                return;\n            }\n\n            // Get the ability keys from the actor's system.abilities\n            const abilityKeys = Object.keys(actor.system.abilities);\n            \n            // Ensure we only apply scores to the first 6 abilities\n            for (let i = 0; i < Math.min(rolls.length, abilityKeys.length); i++) {\n                const abilityKey = abilityKeys[i];\n                console.log(`Setting ${actor.name} ${abilityKey} from ${actor.system.abilities[abilityKey].value} to ${rolls[i]}.`);\n                await actor.update({\n                    [`system.abilities.${abilityKey}.value`]: rolls[i]\n                });\n            }\n\n            ui.notifications.info(\"Ability scores applied successfully!\");\n        });\n    } else {\n        // If the button is not found, check again after a short delay\n        setTimeout(checkForButton, 100); // Check again after 100ms\n    }\n};\n\n// Start checking for the button\ncheckForButton();",
+  "img": "systems/fantastic-depths/assets/img//ui/import.webp",
+  "folder": "67qKQ0AnYHFK0qmj",
+  "author": "a3HxsdUIMWfuuSdj",
+  "scope": "global",
+  "ownership": {
+    "default": 2,
+    "0eyrbleKg5gmY59g": 3,
+    "a3HxsdUIMWfuuSdj": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.10",
+    "createdTime": 1740495693856,
+    "modifiedTime": 1742217909480,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "yUHDEvDvszTJwoxx",
+  "sort": 200000,
+  "_originalKey": "!macros!yUHDEvDvszTJwoxx"
+}

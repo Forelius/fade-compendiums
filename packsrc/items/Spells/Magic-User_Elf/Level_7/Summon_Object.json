@@ -1,0 +1,54 @@
+{
+  "name": "Summon Object",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to retrieve one nonliving object from their home, instantly summoning it into their hand. The object must meet the following conditions:</p><h4>Object Requirements:</h4><ul><li>Weighs no more than 500 cn (50 lbs).</li><li>No larger than a staff or small chest.</li><li>The caster must be very familiar with the object and its exact location.</li><li>The object must have been prepared in advance by sprinkling it with a special powder costing 1,000 gp.</li></ul><h4>Spell Limitations:</h4><ul><li>The spell only summons one object at a time; contents of a chest do not travel with it.</li><li>If another being possesses the item, it will not appear, but the caster will know approximately who and where the possessor is.</li><li>The spell works from any location, even across different planes of existence.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Infinite",
+    "duration": "Instantaneous",
+    "effect": "Retrieves one object from caster's home",
+    "targetSelf": false,
+    "targetOther": false,
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "7G1jl5xW4QqRhIlV",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.7G1jl5xW4QqRhIlV",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749904053840,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!7G1jl5xW4QqRhIlV"
+}

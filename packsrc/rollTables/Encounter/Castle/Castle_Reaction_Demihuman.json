@@ -1,0 +1,79 @@
+{
+  "folder": "Qh5wETOfRib0kt29",
+  "name": "Castle Reaction (Demihuman)",
+  "_id": "0ogZj5BBIZFOcG54",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "xVbADfiQqWS46LRG",
+    "BUacwm9TnBKieHcG",
+    "WnVuEUL554axcm0N"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.10",
+    "createdTime": 1760631302923,
+    "modifiedTime": 1760705865799,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!0ogZj5BBIZFOcG54",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!0ogZj5BBIZFOcG54.BUacwm9TnBKieHcG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        5
+      ],
+      "drawn": false,
+      "_id": "BUacwm9TnBKieHcG",
+      "text": "Ignore: No attempt is made to aid or hinder the party.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0ogZj5BBIZFOcG54.WnVuEUL554axcm0N",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WnVuEUL554axcm0N",
+      "text": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!0ogZj5BBIZFOcG54.xVbADfiQqWS46LRG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "xVbADfiQqWS46LRG",
+      "text": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}

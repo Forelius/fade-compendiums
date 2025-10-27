@@ -1,0 +1,51 @@
+{
+  "folder": "wp4JNVGDTG8oFeQq",
+  "name": "Gentle Touch",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "l1rCDWmTOUGvt2xC",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, the mystic can use the Gentle Touch on any one living creature (a normal roll to hit is required; if he misses, he can attempt the Gentle Touch again). The mystic must declare his intention to use the Gentle Touch before rolling to hit and must specify which result (explained below) he is aiming for. The victim does not receive a saving throw, but a creature with more Hit Dice than the mystic's experience level is not affected.</p><p>The Touch will produce one of the following results (the mystic decides and announces which one before rolling to hit): <em>charm</em>, <em>cureall</em>, <em>death</em>, <em>quest</em>, or <em>paralysis</em>. These effects replicate the same outcomes as the following spells in all respects except for duration: <em>charm person</em>, <em>cureall</em>, <em>death spell</em>, <em>quest</em>, and <em>hold person</em>. The effect lasts for 24 hours, except for <em>death</em> and <em>cureall</em>, which is have permanent effects.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "MY",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.l1rCDWmTOUGvt2xC",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219185430,
+    "modifiedTime": 1743219185430,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!l1rCDWmTOUGvt2xC"
+}

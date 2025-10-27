@@ -1,0 +1,27 @@
+{
+  "folder": "8QnG4j2FXrIxRegn",
+  "name": "Class Clear",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "// Prompt for actor name and class\nlet actorName = await new Promise(resolve => {\n    new Dialog({\n        title: \"Clear Class Data\",\n        content: `\n            <form>\n                <div class=\"form-group\">\n                    <label>Actor Name</label>\n                    <input type=\"text\" id=\"actor-name\" name=\"actor-name\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label>Class Name</label>\n                    <input type=\"text\" id=\"class-name\" name=\"class-name\" required>\n                </div>\n            </form>\n        `,\n        buttons: {\n            ok: {\n                label: \"Submit\",\n                callback: html => {\n                    const name = html.find(\"#actor-name\").val();\n                    const className = html.find(\"#class-name\").val();\n                    resolve({ name, className });\n                }\n            }\n        },\n        default: \"ok\",\n        close: () => resolve(null)\n    }).render(true);\n});\n\n// Check if the user provided input\nif (actorName) {\n    const { name, className } = actorName;\n\n    // Get the actor by name\n    const actor = game.actors.getName(name);\n    if (actor) {\n        // Call the method to clear class data\n        await actor.clearClassData(className);\n        ui.notifications.info(`Cleared class data for ${name} - ${className}`);\n    } else {\n        ui.notifications.error(`Actor \"${name}\" not found.`);\n    }\n}",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.15",
+    "createdTime": 1743687205915,
+    "modifiedTime": 1743687205930,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "g51y20CR2Zemnelv",
+  "sort": 200000,
+  "_originalKey": "!macros!g51y20CR2Zemnelv"
+}

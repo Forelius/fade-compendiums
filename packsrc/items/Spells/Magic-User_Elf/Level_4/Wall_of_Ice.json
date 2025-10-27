@@ -1,0 +1,58 @@
+{
+  "name": "Wall of Ice",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a thin, opaque wall of ice covering up to 1,200 square feet (e.g., 10' x 120' or 30' x 40'). The caster chooses the shape, but the wall must rest on the ground or similar support and cannot overlap with other objects.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot break through the wall. Creatures with 4 HD or more can break through, taking 1d6 damage in the process. Fire-type creatures suffer double damage (2d6) when breaking through.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "12 turns",
+    "effect": "Wall of 1,200 square feet",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "1d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "frost",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.ejNLlGeTXPh0w7h0",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902499076,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "ejNLlGeTXPh0w7h0",
+  "sort": 0,
+  "_originalKey": "!items!ejNLlGeTXPh0w7h0"
+}

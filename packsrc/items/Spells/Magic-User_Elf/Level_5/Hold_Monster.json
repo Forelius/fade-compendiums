@@ -1,0 +1,54 @@
+{
+  "name": "Hold Monster*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell paralyzes [[/r 1d4 #living creatures]] 1-4 living creatures, with effects similar to a *Hold Person* spell, but able to target any living creature (not undead).</p><p><strong>Saving Throw:</strong> Each creature must make a saving throw vs. spells to resist. If cast on a single target, the creature suffers a -2 penalty to the saving throw. If cast on a group, it affects 1d4 creatures (chosen by the caster and within range) with no saving throw penalty.</p><p><strong>Reverse Spell - Free Monster:</strong> The reverse of this spell, *Free Monster*, removes the paralysis from up to four creatures affected by *Hold Person* or *Hold Monster*. It has no other effects.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "6 turns + 1 turn per level of the caster",
+    "effect": "Paralyzes 1-4 creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1d4",
+    "durationFormula": "(@classes.M.castLevel*60)+360",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.WcGm5u19S9DBZhCK",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749902792040,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_id": "WcGm5u19S9DBZhCK",
+  "sort": 0,
+  "_originalKey": "!items!WcGm5u19S9DBZhCK"
+}

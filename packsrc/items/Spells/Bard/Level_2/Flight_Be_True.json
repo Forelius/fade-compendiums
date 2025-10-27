@@ -1,0 +1,56 @@
+{
+  "name": "Flight Be True",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "k9fcbR0oQznbrWf7",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This spell-song allows the bard to temporarily enchant one missile attack per round while singing and playing an instrument. The bard must succeed in all required checks to maintain the song.</p><p><strong>Effects:</strong></p><ul><li>One arrow, quarrel, or sling stone per round is enchanted.</li><li>The enchanted missile gains +4 to hit.</li><li>The missile can damage creatures normally immune to non-silvered or non-magical weapons.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may continue this song for a maximum number of rounds equal to their Constitution score.</li><li>After reaching this limit, the bard passes out for [[/r 1d4 #Hours Unconscious]] hours.</li><li>If the bard stops singing before reaching their limit, there are no negative effects.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "20' + 10'/level of bard",
+    "duration": "Special",
+    "effect": "Enhances one missile attack per round",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@actor.system.abilities.con.value",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "4WT3sLIAFYLEESej",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.4WT3sLIAFYLEESej",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1753727189526,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!4WT3sLIAFYLEESej"
+}

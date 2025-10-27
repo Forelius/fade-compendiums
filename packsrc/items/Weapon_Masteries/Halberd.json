@@ -1,0 +1,112 @@
+{
+  "name": "Halberd",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Hook + disarm"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10+2",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -1,
+        "acBonusAT": 1,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Hook (save -1) + disarm"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10+5",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 1,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Hook (save -2) + deflect (1) + disarm"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d8+10",
+        "sDmgFormula": "1d8+8",
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 2,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Hook (save -3) + deflect (1) + disarm"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d6+15",
+        "sDmgFormula": "1d6+12",
+        "acBonusType": "handheld",
+        "acBonus": -3,
+        "acBonusAT": 2,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Hook (save -4) + deflect (2) + disarm"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "75QE39yfWqwqyWqL",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.75QE39yfWqwqyWqL",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.9.0-rc.5",
+    "createdTime": 1743219190750,
+    "modifiedTime": 1744414840019,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 400000,
+  "_originalKey": "!items!75QE39yfWqwqyWqL"
+}

@@ -1,0 +1,235 @@
+{
+  "folder": "uLboNwWIgBWl1stW",
+  "name": "Animal (Woods)",
+  "_id": "INlt8TKiJ6fFhCiv",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Woodland animal encounter.</p>",
+  "results": [
+    "P0wzOnLRS9Iw2WwQ",
+    "FwyhVvCGhbTfQANc",
+    "Joj0kKJprxecQs0z",
+    "pUUJxTzrOeKTX0Kj",
+    "TKDyCbPjfybSlDUD",
+    "QhMDs1mOR6qcJ92A",
+    "Dvx2oDxPtrMTZ61x",
+    "4DT4woqeYERRR6Fu",
+    "cDwsEUjfsndMptwH",
+    "111o41nQIW81W8ee",
+    "AKgks0X42wwt6XwJ",
+    "ZJWlMLROVVnN5wMw"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.INlt8TKiJ6fFhCiv",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.7.22-rc.4",
+    "createdTime": 1739749688332,
+    "modifiedTime": 1760705920820,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "formula": "1d12",
+  "sort": 0,
+  "_originalKey": "!tables!INlt8TKiJ6fFhCiv",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.111o41nQIW81W8ee",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "text": "Unicorn",
+      "documentId": "zeO7AilbaN8pCcTx",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "111o41nQIW81W8ee",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.4DT4woqeYERRR6Fu",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "text": "Snake, Pit Viper",
+      "documentId": "3aTlHWeNiA4JEzhP",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "4DT4woqeYERRR6Fu",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.AKgks0X42wwt6XwJ",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "text": "Wolf, Normal",
+      "documentId": "WKbSIoK7it7NgLXg",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "AKgks0X42wwt6XwJ",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.Dvx2oDxPtrMTZ61x",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "text": "Lizard, Tuatara",
+      "documentId": "RjJiJmaFm2Y81NT5",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "Dvx2oDxPtrMTZ61x",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.FwyhVvCGhbTfQANc",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Cat, Panther",
+      "documentId": "5e9ubDSrAn1y3y2n",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "FwyhVvCGhbTfQANc",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.Joj0kKJprxecQs0z",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Cat, Tiger",
+      "documentId": "m2ikW85KDtolURpU",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "Joj0kKJprxecQs0z",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.P0wzOnLRS9Iw2WwQ",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Boar, Normal",
+      "documentId": "WjjNYqNlATmZeytu",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "P0wzOnLRS9Iw2WwQ",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.QhMDs1mOR6qcJ92A",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Lizard, Draco",
+      "documentId": "BdUPcdGAJLxUvwgO",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "QhMDs1mOR6qcJ92A",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.TKDyCbPjfybSlDUD",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Lizard, Gecko",
+      "documentId": "p2HAYW2LlRYOPOiv",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "TKDyCbPjfybSlDUD",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.ZJWlMLROVVnN5wMw",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "text": "Wolf, Dire",
+      "documentId": "4PUXUMLbZwb9SaDM",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "ZJWlMLROVVnN5wMw",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.cDwsEUjfsndMptwH",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "text": "Spider, Giant (Crab Spider)",
+      "documentId": "wREIzpLSLM49HnU1",
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "cDwsEUjfsndMptwH",
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!INlt8TKiJ6fFhCiv.pUUJxTzrOeKTX0Kj",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Animal Herd",
+      "documentId": "bupXplrBx8WFzbSm",
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "pUUJxTzrOeKTX0Kj",
+      "flags": {}
+    }
+  ]
+}

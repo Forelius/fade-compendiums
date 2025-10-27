@@ -1,0 +1,54 @@
+{
+  "name": "Lore",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the caster knowledge of one item, place, or person. The amount of time required depends on the subject being studied.</p><h4>Identifying an Item:</h4><ul><li>If the caster holds the item being studied, the spell takes [[/r 1d4 #Turns to complete Lore spell]] turns to complete.</li><li><p>The caster learns the following details:</p><ul><li>Name of the item.</li><li>Method of operation and command words (if any).</li><li>Approximate number of charges (within 5 of the correct number).</li></ul></li><li>If the item has multiple functions or command words, only one function will be revealed per casting.</li><li>The spell will not hint at additional functions beyond the one revealed.</li></ul><h4>Investigating a Place, Person, or Distant Item:</h4><ul><li>If the subject is not held by the caster, the spell takes [[/r 1d100 #Days to complete Lore spell]] days to complete.</li><li>Legendary topics may take the maximum amount of time.</li><li>Information may be revealed as riddles, poems, or vague descriptions.</li><li>For large places or powerful beings, the DM may reveal only general details.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "0 (Caster only)",
+    "duration": "Permanent",
+    "effect": "Reveals details of 1 item, place, or person",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "puRhz3foycxIVDFP",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.puRhz3foycxIVDFP",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903884823,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!puRhz3foycxIVDFP"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Control Animals",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "acyuYs9pfqyDAcSv",
+  "system": {
+    "tags": [],
+    "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Control up to 3d6 Hit Dice worth of animals",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Controlled",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.NhnrHKk7jsxQEdM1"
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.0-rc.6",
+    "createdTime": 1758723342493,
+    "modifiedTime": 1759149073084,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "_originalKey": "!items!acyuYs9pfqyDAcSv"
+}

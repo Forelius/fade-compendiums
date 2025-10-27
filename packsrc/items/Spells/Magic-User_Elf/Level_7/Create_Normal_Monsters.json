@@ -1,0 +1,54 @@
+{
+  "name": "Create Normal Monsters",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes monsters to appear out of thin air, obeying the caster's commands for the spell duration.</p><h4>Effects:</h4><ul><li>The caster may summon one or more monsters within 30'.</li><li>The summoned creatures obey the caster's commands—fighting, carrying objects, fetching items, etc.</li><li>Each monster appears fully equipped with its normal weapons and armor (if any) but no other possessions.</li><li>At the end of 1 turn (10 minutes), all summoned monsters vanish, along with any equipment they dropped.</li></ul><h4>Summoning Rules:</h4><ul><li>The total number of summoned Hit Dice (HD) equals the caster’s level.</li><li>Only monsters with no special abilities (i.e., no asterisk * next to their Hit Dice in the monster manual) may be summoned.</li><li>The caster chooses the specific monsters within these limitations.</li><li>This spell cannot create humans, demihumans, or undead.</li><li>Monsters of 1-1 HD count as 1 HD each.</li><li>Monsters of 1/2 HD or less count as 1/2 HD each.</li></ul><h4>Examples:</h4><p>A 15th-level caster could summon:</p><ul><li>30 giant bats, rats, or kobolds (1/2 HD creatures).</li><li>15 goblins, orcs, or hobgoblins (1 HD creatures).</li><li>7 rock baboons, gnolls, or lizard men (2 HD creatures).</li><li>5 boars, draco lizards, or bugbears (3 HD creatures).</li><li>3 black bears, panthers, or giant weasels (5 HD creatures).</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "30'",
+    "duration": "1 turn",
+    "effect": "Summons monsters up to caster's level in total HD",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "YehJ5dulCYVb6PGw",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.YehJ5dulCYVb6PGw",
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.11.0-rc.6",
+    "createdTime": 1743219187623,
+    "modifiedTime": 1749903787340,
+    "lastModifiedBy": "0eyrbleKg5gmY59g"
+  },
+  "sort": 0,
+  "_originalKey": "!items!YehJ5dulCYVb6PGw"
+}
