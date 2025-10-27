@@ -759,6 +759,122 @@
       "_id": "1C1rT6HoYUB2A6hX"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Cursed Scroll",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Unfortunately, when any writing on a cursed scroll is even seen, the victim is immediately cursed. No reading is necessary. The GM must make up each scroll's curse. Examples of a few common curses include the following:</p><ul><li><p>The reader turns into a frog (or some other harmless animal).</p></li><li><p>A wandering monster of the same level as the reader appears and attacks the reader by surprise (a free attack with bonuses).</p></li><li><p>One magical item owned by the reader disappears (the item is chosen or randomly determined by the GM).</p></li><li><p>The reader loses one level of experience, as if struck by a wight. (The GM should roll again for a first-level character to avoid unfair \"instant death.\")</p></li><li><p>The reader's Prime Requisite must be re-rolled.</p></li><li><p>Future wounds will take twice as long to heal, and healing spells will only restore half normal amounts until the curse is lifted.</p></li></ul><p>Only a <em>remove curse</em> spell can remove a curse of this nature. However, the GM may allow the cursed character to be cured by a high-level NPC cleric or magic-user, who will demand that the character complete a special adventure or perform a worthy but difficult task.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761567739205,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "1PLVb4ReYx16KRAK"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Protection (Lycanthropes)",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Protection from Lycanthropes: When read, this scroll will protect all those within the circle for <strong>6 turns</strong> against a variable number of lycanthropes. The number of lycanthropes affected varies according to their type, as follows.</p><ul><li><p>Werebats, wererats, werefoxes: [[/r 1d10 #Werebats, wererats, werefoxes affected]] affected</p></li><li><p>Wereboars, werewolves: [[/r 1d8 #Wereboars, werewolves affected]] affected</p></li><li><p>Wereseals, weresharks: [[/r 1d6 #Wereseals, weresharks affected]] affected</p></li><li><p>Werebears, weretigers: [[/r 1d4 #Werebears, weretigers affected]] affected</p></li><li><p>Devil swine: [[/r 1d2 #Devil swine affected]] affected</p></li></ul><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569133644,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "1R0ost069nEIMfqP"
+    },
+    {
       "name": "Animate Dead (C)",
       "type": "spell",
       "img": "systems/fantastic-depths/assets/img/item/spell.png",
@@ -3739,6 +3855,64 @@
       "_id": "3ychxCDKsk8FguyY"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Creation",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The user of this valuable scroll may draw a picture of any nonliving item up to 5' × 10' × 1' in size (though drawn much smaller) and up to 5,000 cn in weight. The item may then be taken off the scroll and used. Magical items and living creatures cannot be created, but mundane armor, weapons, and other gear can be formed. The item vanishes on the creator’s command or after 24 hours. The scroll can create one item per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761567582686,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "45t8JABiey9MfnNq"
+    },
+    {
       "folder": "r1PrA7ouTjXcMV7h",
       "name": "Chain Mail",
       "type": "armor",
@@ -3885,6 +4059,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "4Avt5OIsgPFfAALk"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Trapping",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll can create one trap. The type of trap differs by the placement of the scroll. The scroll is destroyed when the trap is created. If placed on a floor, a hidden pit trap is created; if on a ceiling, a falling block trap appears. On walls, a poison dart or gas trap will be created. The exact trap is left to the GM's design. The trap created is real and is not illusory or magical.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569996930,
+        "modifiedTime": 1761569996930,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "4BqiLPBPu0Vma6p7"
     },
     {
       "folder": "DHxEnc4I068rxlES",
@@ -6055,19 +6287,19 @@
     },
     {
       "folder": "XPb0HndbAuYWphwr",
-      "name": "Scroll of Stone to Flesh",
+      "name": "Spell Scroll (Stone to Flesh)",
       "type": "item",
-      "img": "icons/sundries/scrolls/scroll-symbol-eye-blue.webp",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
       "system": {
         "tags": [],
-        "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p>",
+        "description": "<p>This scroll contains the magic-user spell <strong>Stone to Flesh</strong>, which is a 6th-level spell. When read aloud, it can turn a statue or an amount of stone up to 10' x 10' x 10' into flesh. Commonly used to restore those petrified by effects like a gorgon’s breath. The reverse spell, <strong>Flesh to Stone</strong>, will transform a living creature into stone unless the target succeeds on a save versus petrification.</p><p>Use Spell Scrolls in the magical item subtable for scrolls to find exact spell levels or choose spells as appropriate. Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
         "weight": 1,
-        "cost": 300,
+        "cost": null,
         "containerId": "",
         "equipped": false,
         "unidentifiedName": "Mysterious Scroll",
@@ -6104,9 +6336,9 @@
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths",
-        "systemVersion": "0.13.0-rc.6",
+        "systemVersion": "0.14.0-rc.5",
         "createdTime": 1743219182967,
-        "modifiedTime": 1758630749012,
+        "modifiedTime": 1761569957846,
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "4xTqIBnleQpdxOGF"
@@ -8542,6 +8774,64 @@
       "_id": "7G1jl5xW4QqRhIlV"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Delay",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This is a scroll of a single spell. When casting the spell from the scroll, the user states a delay from 0 to 12 rounds. If the user keeps the scroll on their person, they have complete control of the spell when it occurs. If the scroll is not carried by the user, the spell effect appears around the scroll itself, affecting the nearest creature if the spell requires a recipient. <em>The scroll is not harmed by its own effect, even for fire-type spells.</em> For example, an elf reads a delay lightning bolt scroll, delays it 8 rounds, and then puts the scroll away. Eight rounds later, when the <em>lightning bolt</em> appears, the elf may choose range and direction by concentration, as if casting the spell then.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761567971339,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "7IjtYxKRpxcozypU"
+    },
+    {
       "folder": "v09OaHHDLUBrw7Db",
       "name": "Luck",
       "type": "spell",
@@ -10541,6 +10831,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "9jEHRoSKHrskRMcW"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Equipment",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This parchment is inscribed with the names of six normal items (which the GM selects or randomly determines from the standard adventuring gear). When any item's name is read aloud, the item appears within 10' of the scroll; the name disappears. The item will remain for 24 hours or until the user commands it to vanish. The name reappears on the scroll when the item vanishes. Any three of the six items listed on the scroll can be created each day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568116770,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "9nU654SAWeXqTshI"
     },
     {
       "name": "Teleport",
@@ -18040,6 +18388,64 @@
       "_id": "GPIOMmkUycfinAOE"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Questioning",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The user of this scroll may ask questions of any nonliving nonmagical objects; their answers will appear on the scroll. The scroll will display up to three answers per day. The answers are given as if the objects were living beings, but are limited to simple observations as if the objects could see, hear, and smell. The scroll <em>cannot</em> be used to question living or magical things.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569441461,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "GQrWMFYT5nij8f7V"
+    },
+    {
       "folder": "GigLOpvAQa3AJoup",
       "name": "Potion of Longevity",
       "type": "item",
@@ -19980,6 +20386,122 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "J5SgmaRRd8UeZroR"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Truth",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is blank when found. The user may ask a question of any living being within 30'; the complete and true answer appears on the scroll, read from the victim's mind by a powerful version of <em>ESP</em>. Note that the answer is true only within the limits of the victim's knowledge. The scroll will display one answer per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761570043929,
+        "modifiedTime": 1761570043929,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "J6qDyfoYq67Lg3FY"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Spell Catching",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is blank when found. It may be used to \"catch\" a spell cast at the user. It cannot catch spell‑like effects, nor can it catch device‑produced effects (such as from a wand), but a spell cast from a scroll can be caught. There are four types of this scroll; roll [[/r 1d10 #See spell capacity table for results.]] to determine the capacity.</p><p>1–4: 1st or 2nd level spells</p><p>5–7: 1st to 4th level spells</p><p>8–9: 1st to 6th level spells</p><p>10: 1st to 8th level spells</p><p>The user of the scroll must hold it up like a shield; no other action is possible while using the scroll. The user must then make a saving throw vs. spells, with a +4 bonus to the roll; if successful, the incoming spell has no effect and is instead transferred to the scroll, appearing as a normal scroll spell. The exact spell caught will not be known until a <em>read magic</em> spell is used to identify it.</p><p>The scroll can only hold one spell at a time; the spell caught must either be used or copied into a spellbook (magic‑user spells only) before the scroll can catch another spell. Any type of spell (magical, clerical, or druidic) can be caught as long as the level does not exceed the scroll's capacity. The <em>scroll of spell catching</em> cannot affect spells of levels greater than the given capacity, and it can catch a maximum of one spell per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569745930,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "J8pN9aRXVnPnfc3m"
     },
     {
       "name": "Scroll Case",
@@ -34541,6 +35063,64 @@
       "_id": "XYcs5FLZAqCiMp6Y"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Protection (Undead)",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Protection from Undead: When read, this scroll will protect all those within the circle from a variable number of undead for <strong>6 turns</strong>. The number of undead affected varies according to their type, as follows.</p><ul><li><p>Skeletons, zombies, ghouls: [[/r 2d12 #Skeletons, zombies, ghouls affected]] affected</p></li><li><p>Wights, wraiths, mummies: [[/r 2d6 #Wights, wraiths, mummies affected]] affected</p></li><li><p>Specters (or larger monsters): [[/r 1d6 #Specters (or larger monsters) affected]] affected</p></li></ul><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569380496,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "XfsH42cAIEgKnhuU"
+    },
+    {
       "name": "Axe, Hand",
       "type": "weaponMastery",
       "img": "icons/svg/combat.svg",
@@ -34927,6 +35507,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "Y9yunC6S9weMjcUE"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Spell Scroll (Choose spell)",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569957795,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "YAt0y5ygEq0F5oHt"
     },
     {
       "folder": "DHxEnc4I068rxlES",
@@ -38027,6 +38665,64 @@
       "_id": "bb3UJkNeyH6FblOV"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Shelter",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is inscribed with an elaborate drawing of a 10'-square room, lit, with two beds, a table and two chairs, food and drink for two on the table, and a pair of normal swords on the far wall, each hung over a shield. If the scroll is hung on any vertical surface, the room pictured may be entered and the items used. The food and drink are pure and will nourish any living thing. The swords and shields may be taken down and used. However, none of the items can be removed from the room.</p><p>If the scroll is taken down, the room cannot be entered or left, but remains in existence on another dimension. If any creatures are in the room when the scroll is taken down, the air inside permits survival for up to 24 hours. No creatures so caught can escape by any means other than a wish. The food and drink are replenished each time the scroll is taken down. The room can be created once per day and will remain for up to 12 hours per use; if not removed in that time, the scroll will fall down by itself.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569610559,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "bcP7FpEZNwtsBwWn"
+    },
+    {
       "name": "Spear",
       "type": "weaponMastery",
       "img": "icons/svg/combat.svg",
@@ -40019,6 +40715,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "d8sgeEijt9IL8m1w"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Mapping",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is blank. When held and commanded to write, this scroll will draw a map of an area chosen (that is, the GM accurately draws the map for the players). The area must be completely within 100' of the scroll, and it may be up to 10,000 square feet in size. The scroll has a 1-in-6 chance to detect secret doors, but it will not draw what lies beyond them. The scroll functions once per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568460492,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "dDr80CfodmJwagr0"
     },
     {
       "folder": "p1aj0Sz0kq5wdoye",
@@ -43755,6 +44509,64 @@
       "_id": "hHOXKk3lbivWaQaB"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Portals",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This effect creates a pass‑wall effect identical to the magic‑user spell. When placed on a surface and commanded to function, the scroll disappears and a 5'‑diameter hole appears up to 10' deep. The effect does not affect living or magical things. The hole disappears after 3 turns or when commanded by the reader; when it vanishes, the scroll reappears. The scroll may be used twice per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568516648,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "hKPPROdUWOi9dTRW"
+    },
+    {
       "name": "Craft",
       "type": "skill",
       "img": "systems/fantastic-depths/assets/img/item/skill.png",
@@ -43841,6 +44653,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "hNCINTKf5Btd5KgB"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Mages",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is blank; it is used to identify magical effects. The user may hold the scroll and command it to identify any one chosen magical effect within 30'. The name of the magical spell or effect then appears on the scroll, along with the level of the caster of the spell effect. The scroll will identify one magical effect per day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568278111,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "hNMpQNxvhYyHrTiB"
     },
     {
       "name": "Contingency",
@@ -44129,6 +44999,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "hV3svzJe2x2GJW4H"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Communication",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This is actually two scrolls, one stored inside the other. They are easily separated. If a message is written on one scroll, it immediately appears on the other. There is no limit to the range, as long as both scrolls are on the same plane of existence. The message may be up to 100 words in length. If one message is erased, the other disappears as well. Each message must be erased before another can be written, and there is a 5% chance (not cumulative) that any erasing will destroy the magic of both scrolls.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761567476376,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "hW6tPzcNBljxdjUF"
     },
     {
       "folder": "DHxEnc4I068rxlES",
@@ -45550,6 +46478,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "jQSVIf98eXPM8YAA"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Seeing",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll is blank. When held and commanded to write, it will draw pictures of creatures within 100' in any area chosen by the user. Up to four different types of creatures can be pictured. The scroll will function once per day, regardless of the number of creatures pictured.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569541223,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "jbrSLZmP761Qi5Qv"
     },
     {
       "folder": "GigLOpvAQa3AJoup",
@@ -46975,6 +47961,64 @@
       "_id": "lq0bfGhMfuFl5Aig"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Protection (Magic)",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Protection from Magic: This scroll creates a circle of protection (10' radius) around the reader. No spells or spell effects (including those from items) may enter or leave the circle. The effect lasts for [[/r 1d4 #Protection from Magic circle duration in turns]] turns, moves with the reader, and may not be broken except by a wish.</p><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569250234,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "lzHRGdNQd0SotI46"
+    },
+    {
       "folder": "GigLOpvAQa3AJoup",
       "name": "Potion of Agility",
       "type": "item",
@@ -47178,6 +48222,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "mJNVixMZzg2ISVck"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Repetition",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll appears to be a normal scroll of one spell, and the standard restrictions apply to its use. However, 1 turn after the spell is cast, the scroll creates the same spell effect a second time, centered on the scroll or affecting the nearest creature if a recipient is part of the spell process. As with a normal spell scroll, any spell cast from it is then gone; however, another spell may be written on the scroll <em>if it is of the same level</em>, and the <em>repetition</em> effect will again apply.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761569505665,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "mTEtRM5EpXC8rTQV"
     },
     {
       "folder": "v09OaHHDLUBrw7Db",
@@ -54517,6 +55619,64 @@
       "_id": "vaqgRYfuxTJsW4iQ"
     },
     {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Illumination",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll bears the drawing of a flame. If the scroll is set afire, it will burn with a clear light in a 60' radius, lasting for up to 6 hours per day. The burning does not harm the scroll, but it is nevertheless normal fire (and can be used to light torches, for example). The flame cannot be extinguished except by water or on command of the user; no wind, normal or magical, can cause it to flicker. This item may already be lit when found.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568232967,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "vb44o5MgHEKSEHBC"
+    },
+    {
       "folder": "v09OaHHDLUBrw7Db",
       "name": "Climbing",
       "type": "spell",
@@ -55185,6 +56345,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "wXmLfsbA9Jbrs9i0"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Treasure Map",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Each map should be made in advance by the GM. Such maps show a route to the location of a treasure in a dungeon or a wilderness area. The treasure is usually hidden or protected by monsters, traps, and/or magic. Based on the type of treasure given, the GM should select a challenging monster (who has a similar treasure type) and design the map and monster lair accordingly. Note that the map may be partially incorrect, omitting an important detail (such as the type of monsters, dangerous traps, etc.) or giving some false information; however, the treasure mentioned should actually be there. Sometimes maps are only partially complete or are written in the form of a riddle. And some can only be read by a <em>read languages</em> spell.</p><p><em>Normal treasure</em> contains coins and gems but no magical items, while a <em>magical treasure</em> may include some coins and a few gems of low value in addition to magical items. A <em>combined treasure</em> has coins, magical items, and valuable gems or jewelry in roughly equal proportions. <em>Special treasure</em> should contain at least one permanent magical item, such as a staff or sword; these items should be mentioned on the map.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568402532,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "waEj1pjEjD7IP7sJ"
     },
     {
       "folder": "QzAWBUfiEO1gIpUI",
@@ -57875,6 +59093,64 @@
         "lastModifiedBy": "0eyrbleKg5gmY59g"
       },
       "_id": "zgg5G5Bxhodo2bGl"
+    },
+    {
+      "folder": "XPb0HndbAuYWphwr",
+      "name": "Scroll of Protection (Elementals)",
+      "type": "item",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This scroll creates a circle of protection (10' radius) around the reader. No elemental can attack those within the circle unless attacked first in hand-to-hand combat. Once attacked, an elemental may attack in return. The effect lasts for <strong>2 turns</strong> and moves with the reader.</p><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": null,
+        "containerId": "",
+        "equipped": false,
+        "unidentifiedName": "Mysterious Scroll",
+        "isIdentified": false,
+        "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "isTreasure": true,
+        "spells": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+            "action": "cast",
+            "castAs": "M6",
+            "name": "Flesh to Stone*"
+          }
+        ],
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "specialAbilities": [],
+        "conditions": []
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths",
+        "systemVersion": "0.14.0-rc.5",
+        "createdTime": 1761568644262,
+        "modifiedTime": 1761569957846,
+        "lastModifiedBy": "0eyrbleKg5gmY59g"
+      },
+      "_id": "zpVO6hbfBT1QXQfO"
     },
     {
       "name": "Breathstealer",
