@@ -1,23 +1,4 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Debug dbConvert Compile (actors)",
-            "type": "node",
-            "request": "launch",
-            "program": "${workspaceFolder}/scripts/build/dbConvert.mjs",
-            "args": ["compile", "--pack", "actors"],
-            "console": "integratedTerminal",
-            "skipFiles": ["<node_internals>/**"]
-        },
-        {
-            "name": "Debug dbConvert Extract (actors)",
-            "type": "node",
-            "request": "launch",
-            "program": "${workspaceFolder}/scripts/build/dbConvert.mjs",
-            "args": ["extract", "--pack", "actors"],
-            "console": "integratedTerminal",
-            "skipFiles": ["<node_internals>/**"]
-        }
-    ]
+    "configurations": []
 }

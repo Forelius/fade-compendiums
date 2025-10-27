@@ -569,24 +569,63 @@ Examples:
      * Handle the extract command
      */
     async handleExtract() {
-        const packName = this.options.pack || 'actors';
         const customFile = this.options.file;
 
-        const converter = new dbConvert(packName);
-        
+        // If a custom file is specified, extract just that file
         if (customFile) {
+            const converter = new dbConvert('actors'); // Default pack name for custom file
             await converter.extract(customFile);
-        } else {
-            await converter.extract();
+            return;
         }
+
+        // If no pack is specified, extract all available packs
+        if (!this.options.pack) {
+            console.log('No pack specified, extracting all available packs...\n');
+            
+            for (const packName of dbConvert.AVAILABLE_PACKS) {
+                console.log(`Extracting ${packName}...`);
+                const converter = new dbConvert(packName);
+                
+                try {
+                    await converter.extract();
+                    console.log(`✓ Successfully extracted ${packName}\n`);
+                } catch (error) {
+                    console.error(`✗ Failed to extract ${packName}: ${error.message}\n`);
+                }
+            }
+            return;
+        }
+
+        // Extract specific pack
+        const packName = this.options.pack;
+        const converter = new dbConvert(packName);
+        await converter.extract();
     }
 
     /**
      * Handle the compile command
      */
     async handleCompile() {
-        const packName = this.options.pack || 'actors';
+        // If no pack is specified, compile all available packs
+        if (!this.options.pack) {
+            console.log('No pack specified, compiling all available packs...\n');
+            
+            for (const packName of dbConvert.AVAILABLE_PACKS) {
+                console.log(`Compiling ${packName}...`);
+                const converter = new dbConvert(packName);
+                
+                try {
+                    await converter.compile(packName);
+                    console.log(`✓ Successfully compiled ${packName}\n`);
+                } catch (error) {
+                    console.error(`✗ Failed to compile ${packName}: ${error.message}\n`);
+                }
+            }
+            return;
+        }
 
+        // Compile specific pack
+        const packName = this.options.pack;
         const converter = new dbConvert(packName);
         await converter.compile(packName);
     }

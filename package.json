@@ -4,8 +4,10 @@
   "type": "module",
   "description": "![image](./assets/img/banner.jpg)",
   "scripts": {
-    "dump": "node scripts/build/LdbActions.mjs dump && echo 'Packs dumped to Json db files.'",
-    "restore": "node scripts/build/LdbActions.mjs restore && echo 'Json .db files restored to pack LevelDb files.'"
+    "packdump": "node scripts/build/LdbActions.mjs dump",
+    "packrestore": "node scripts/build/LdbActions.mjs restore",
+    "packextract": "node scripts/build/dbConvert.mjs extract",
+    "packcompile": "node scripts/build/dbConvert.mjs compile"
   },
   "repository": {
     "type": "git",
