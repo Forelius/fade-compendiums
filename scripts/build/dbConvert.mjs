@@ -46,7 +46,7 @@ class dbConvert {
         }
 
         // Delete destination folder before extracting.
-        this.deletePackFolder(this.packName);
+        await this.deletePackFolder(this.packName);
 
         // Read and parse the .db file
         const dbContent = await fs.readFile(dbFile, 'utf8');
@@ -142,7 +142,7 @@ class dbConvert {
         // Windows invalid chars: < > : " | ? * \ /
         // Also replace spaces and other special chars for consistency
         return filename
-            .replace(/[<>:"|?*\\/\s&]+/g, '_')
+            .replace(/[<>:"|?*\\/\s&()]+/g, '_')
             .replace(/_{2,}/g, '_')  // Replace multiple underscores with single
             .replace(/^_+|_+$/g, '') // Remove leading/trailing underscores
             .trim() || 'unnamed';
@@ -233,7 +233,10 @@ class dbConvert {
         // Add embedded documents to their parent documents
         for (const [parentKey, embeddedList] of Object.entries(embeddedDocuments)) {
             if (topLevelDocuments[parentKey]) {
-                topLevelDocuments[parentKey].embedded = embeddedList.map(item => item.document);
+                topLevelDocuments[parentKey].embedded = embeddedList.map(item => ({
+                    _originalKey: item.key,
+                    ...item.document
+                }));
             }
         }
 
@@ -277,6 +280,224 @@ class dbConvert {
         }
         
         console.log(`Extracted ${extractedCount} documents to individual JSON files.`);
+    }
+
+    /**
+     * Compile individual JSON files back into a .db file
+     * @param {string} packName - Name of the pack to compile
+     */
+    async compile(packName) {
+        if (!packName) {
+            throw new Error('Pack name is required for compilation');
+        }
+        
+        this.packName = packName;
+        this.paths = this.getPackPaths(packName);
+        const packsrcPath = this.paths.outputDir;
+        
+        // Check if packsrc directory exists
+        if (!(await this.directoryExists(packsrcPath))) {
+            throw new Error(`Pack source directory not found: ${packsrcPath}`);
+        }
+        
+        console.log(`Starting compilation of pack: ${packName}`);
+        console.log(`Reading from: ${packsrcPath}`);
+        
+        try {
+            // Step 1: Collect all JSON files from packsrc folder structure
+            console.log('Collecting JSON files...');
+            const collectedData = await this.collectJsonFiles(packsrcPath);
+            
+            // Step 2: Reconstruct embedded documents from parent documents' embedded arrays
+            console.log('Reconstructing embedded documents...');
+            const allDocuments = this.reconstructEmbeddedDocuments(collectedData);
+            
+            // Step 3: Write compiled documents to .db file format
+            console.log('Writing compiled database...');
+            await this.writeCompiledDatabase(allDocuments, packName);
+            
+            console.log(`Compilation completed successfully for pack: ${packName}`);
+            
+        } catch (error) {
+            console.error(`Error during compilation: ${error.message}`);
+            throw error;
+        }
+    }
+
+    /**
+     * Collect all JSON files from the packsrc folder structure
+     * @param {string} packsrcPath - Path to the packsrc directory
+     * @returns {Object} - Object containing folders and documents
+     */
+    async collectJsonFiles(packsrcPath) {
+        const result = {
+            folders: {},
+            documents: []
+        };
+        
+        // Read _folders.json if it exists
+        const foldersPath = path.join(packsrcPath, '_folders.json');
+        try {
+            const foldersContent = await fs.readFile(foldersPath, 'utf8');
+            result.folders = JSON.parse(foldersContent);
+            console.log(`Loaded ${Object.keys(result.folders).length} folder documents from _folders.json`);
+        } catch (error) {
+            console.warn(`No _folders.json found or error reading it: ${error.message}`);
+        }
+        
+        // Recursively collect all JSON files (except _folders.json)
+        await this.collectJsonFilesRecursive(packsrcPath, result.documents, packsrcPath);
+        
+        console.log(`Collected ${result.documents.length} document files`);
+        return result;
+    }
+
+    /**
+     * Recursively collect JSON files from a directory
+     * @param {string} dirPath - Directory path to search
+     * @param {Array} documents - Array to collect documents into
+     * @param {string} basePath - Base path for calculating relative paths
+     */
+    async collectJsonFilesRecursive(dirPath, documents, basePath) {
+        try {
+            const entries = await fs.readdir(dirPath, { withFileTypes: true });
+            
+            for (const entry of entries) {
+                const fullPath = path.join(dirPath, entry.name);
+                
+                if (entry.isDirectory()) {
+                    // Recursively search subdirectories
+                    await this.collectJsonFilesRecursive(fullPath, documents, basePath);
+                } else if (entry.isFile() && entry.name.endsWith('.json') && entry.name !== '_folders.json') {
+                    // Read and parse JSON file
+                    try {
+                        const content = await fs.readFile(fullPath, 'utf8');
+                        const document = JSON.parse(content);
+                        documents.push({
+                            filePath: fullPath,
+                            relativePath: path.relative(basePath, fullPath),
+                            document: document
+                        });
+                    } catch (error) {
+                        console.warn(`Error reading JSON file ${fullPath}: ${error.message}`);
+                    }
+                }
+            }
+        } catch (error) {
+            console.warn(`Error reading directory ${dirPath}: ${error.message}`);
+        }
+    }
+
+    /**
+     * Reconstruct embedded documents from parent documents' embedded arrays
+     * @param {Object} collectedData - Object containing folders and documents from collectJsonFiles
+     * @returns {Object} - Object with all documents keyed by their database keys
+     */
+    reconstructEmbeddedDocuments(collectedData) {
+        const allDocuments = {};
+        
+        // Add folder documents first
+        for (const [key, folderDoc] of Object.entries(collectedData.folders)) {
+            allDocuments[key] = folderDoc;
+        }
+        
+        // Process each document file
+        for (const fileData of collectedData.documents) {
+            const document = fileData.document;
+            
+            // Generate key for the top-level document
+            const topLevelKey = this.generateDocumentKey(document, fileData.relativePath);
+            
+            // Create a clean copy of the document without the embedded array
+            const cleanDocument = { ...document };
+            delete cleanDocument.embedded;
+            
+            // Add the top-level document
+            allDocuments[topLevelKey] = cleanDocument;
+            
+            // Process embedded documents if they exist
+            if (document.embedded && Array.isArray(document.embedded)) {
+                for (const embeddedDoc of document.embedded) {
+                    if (embeddedDoc._originalKey) {
+                        // Use the stored original key
+                        const embeddedKey = embeddedDoc._originalKey;
+                        
+                        // Create a clean copy without the _originalKey property
+                        const cleanEmbeddedDoc = { ...embeddedDoc };
+                        delete cleanEmbeddedDoc._originalKey;
+                        
+                        allDocuments[embeddedKey] = cleanEmbeddedDoc;
+                    } else {
+                        console.warn(`Embedded document missing _originalKey in ${fileData.relativePath}`);
+                    }
+                }
+            }
+        }
+        
+        console.log(`Reconstructed ${Object.keys(allDocuments).length} total documents`);
+        return allDocuments;
+    }
+
+    /**
+     * Generate a document key for a top-level document
+     * @param {Object} document - The document object
+     * @param {string} relativePath - Relative path of the file
+     * @returns {string} - Generated document key
+     */
+    generateDocumentKey(document, relativePath) {
+        // Extract pack type from the first part of the relative path
+        const pathParts = relativePath.split(path.sep);
+        const packType = this.packName; // Use the pack name as the type
+        
+        // Use the document's existing _id (all FoundryVTT documents have this)
+        if (!document._id) {
+            throw new Error(`Document missing _id in ${relativePath}`);
+        }
+        
+        return `!${packType}!${document._id}`;
+    }
+
+    /**
+     * Write compiled documents to .db file format
+     * @param {Object} documents - Object with all documents keyed by their database keys
+     * @param {string} packName - Name of the pack
+     */
+    async writeCompiledDatabase(documents, packName) {
+        const dbPath = path.join(process.cwd(), "packs", `${packName}.db`);
+        
+        try {
+            // Convert documents object to array, preserving original _id values
+            const documentEntries = Object.values(documents);
+            
+            // Convert each document to a JSON string (NeDB format)
+            const dbLines = documentEntries.map(doc => JSON.stringify(doc));
+            
+            // Join with newlines to create the .db file content
+            const dbContent = dbLines.join('\n');
+            
+            // Write to the .db file
+            await fs.writeFile(dbPath, dbContent, 'utf8');
+            
+            console.log(`Successfully compiled ${documentEntries.length} documents to ${dbPath}`);
+            
+        } catch (error) {
+            console.error(`Error writing compiled database: ${error.message}`);
+            throw error;
+        }
+    }
+
+    /**
+     * Check if a directory exists
+     * @param {string} dirPath - Directory path to check
+     * @returns {boolean} - True if directory exists
+     */
+    async directoryExists(dirPath) {
+        try {
+            const stats = await fs.stat(dirPath);
+            return stats.isDirectory();
+        } catch (error) {
+            return false;
+        }
     }
 }
 
@@ -324,16 +545,18 @@ Usage: node dbConvert.mjs <command> [options]
 
 Commands:
   extract                 Extract documents from .db file to individual JSON files
+  compile                 Compile individual JSON files back into a .db file
   help                    Show this help message
 
 Options:
   --pack <name>          Specify pack name (actors, items, macros, rollTables)
-  --file <path>          Specify custom .db file path
+  --file <path>          Specify custom .db file path (extract only)
   --help                 Show help
 
 Examples:
   node "scripts/build/dbConvert.mjs" extract --pack actors
   node "scripts/build/dbConvert.mjs" extract --file ./packs/actors.db
+  node "scripts/build/dbConvert.mjs" compile --pack actors
   node "scripts/build/dbConvert.mjs" help
         `);
     }
@@ -346,6 +569,9 @@ Examples:
             switch (this.command) {
                 case 'extract':
                     await this.handleExtract();
+                    break;
+                case 'compile':
+                    await this.handleCompile();
                     break;
                 case 'help':
                 case '--help':
@@ -377,6 +603,16 @@ Examples:
         } else {
             await converter.extract();
         }
+    }
+
+    /**
+     * Handle the compile command
+     */
+    async handleCompile() {
+        const packName = this.options.pack || 'actors';
+
+        const converter = new dbConvert(packName);
+        await converter.compile(packName);
     }
 }
 
