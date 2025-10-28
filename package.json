@@ -7,7 +7,9 @@
     "packdump": "node scripts/build/LdbActions.mjs dump",
     "packrestore": "node scripts/build/LdbActions.mjs restore",
     "packextract": "node scripts/build/dbConvert.mjs extract",
-    "packcompile": "node scripts/build/dbConvert.mjs compile"
+    "packcompile": "node scripts/build/dbConvert.mjs compile",
+    "decomppacks": "npm run packdump && npm run packextract && echo \"Decompiled packs\"",
+    "comppacks": "npm run packcompile && npm run packrestore && echo \"Compiled packs\""
   },
   "repository": {
     "type": "git",
