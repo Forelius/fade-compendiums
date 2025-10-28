@@ -5,7 +5,7 @@ import path from "path";
  * Database Converter - ES6 Class for converting FoundryVTT database formats
  */
 class dbConvert {
-    static AVAILABLE_PACKS = ["actors", "items", "macros", "rollTables"];
+    static AVAILABLE_PACKS = ["actors", "items", "macros", "rollTables", "journals"];
 
     constructor(packName = "actors") {
         this.validatePackName(packName);
