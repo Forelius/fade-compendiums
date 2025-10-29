@@ -6,7 +6,7 @@ import path from "path";
  * LevelDB Pack Manager - ES6 Class for managing FoundryVTT pack data
  */
 class LdbActions {
-    static AVAILABLE_PACKS = ["actors", "items", "macros", "rollTables", "journals"];
+    static AVAILABLE_PACKS = ["actors", "items", "macros", "rollTables", "journals", "scenes"];
     static BACKUP_SUFFIX = ".bak";
 
     constructor(packName = "rollTables") {
