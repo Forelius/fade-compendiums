@@ -195,6 +195,7 @@ class dbConvert {
         for (const [key, document] of Object.entries(allDocuments)) {
             // Top-level documents also save their original key
             document._originalKey = key;
+            this.removeStats(document);
 
             // Skip folder documents (handled separately)
             if (key.startsWith('!folders!')) {
@@ -218,8 +219,6 @@ class dbConvert {
                         if (!embeddedDocuments[parentKey]) {
                             embeddedDocuments[parentKey] = [];
                         }
-
-                        this.removeStats(document);
 
                         embeddedDocuments[parentKey].push({
                             key: key,
