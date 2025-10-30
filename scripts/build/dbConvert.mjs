@@ -46,7 +46,7 @@ class dbConvert {
         }
 
         // Delete destination folder before extracting.
-        await this.deletePackFolder(this.packName);
+        await this.deletePackSourceFolder(this.packName);
 
         // Read and parse the .db file
         const dbContent = await fs.readFile(dbFile, 'utf8');
@@ -106,24 +106,24 @@ class dbConvert {
      * Delete the pack type folder and all its contents
      * @param {string} packName - Name of the pack folder to delete
      */
-    async deletePackFolder(packName) {
+    async deletePackSourceFolder(packName) {
         this.validatePackName(packName);
         
-        const packFolderPath = path.join(process.cwd(), "packsrc", packName);
+        const packSourceFolder = path.join(process.cwd(), "packsrc", packName);
         
         try {
             // Check if the folder exists before attempting to delete
-            await fs.access(packFolderPath);
+            await fs.access(packSourceFolder);
             
             // Delete the folder and all its contents recursively
-            await fs.rm(packFolderPath, { recursive: true, force: true });
-            console.log(`Successfully deleted pack folder: ${packFolderPath}`);
+            await fs.rm(packSourceFolder, { recursive: true, force: true });
+            console.log(`Successfully deleted pack folder: ${packSourceFolder}`);
             
         } catch (error) {
             if (error.code === 'ENOENT') {
-                console.log(`Pack folder does not exist: ${packFolderPath}`);
+                console.log(`Pack folder does not exist: ${packSourceFolder}`);
             } else {
-                throw new Error(`Failed to delete pack folder: ${packFolderPath} - ${error.message}`);
+                throw new Error(`Failed to delete pack folder: ${packSourceFolder} - ${error.message}`);
             }
         }
     }
@@ -195,6 +195,7 @@ class dbConvert {
         for (const [key, document] of Object.entries(allDocuments)) {
             // Top-level documents also save their original key
             document._originalKey = key;
+            this.removeStats(document);
 
             // Skip folder documents (handled separately)
             if (key.startsWith('!folders!')) {
@@ -218,7 +219,7 @@ class dbConvert {
                         if (!embeddedDocuments[parentKey]) {
                             embeddedDocuments[parentKey] = [];
                         }
-                        
+
                         embeddedDocuments[parentKey].push({
                             key: key,
                             document: document,
@@ -260,7 +261,7 @@ class dbConvert {
             try {
                 // Get folder path for this document
                 const folderPath = this.resolveFolderPath(document, folderDocuments);
-                
+
                 // Create sanitized filename
                 const sanitizedName = this.sanitizeFilename(document.name);
                 const filename = `${sanitizedName}.json`;
@@ -271,7 +272,7 @@ class dbConvert {
                 
                 // Ensure directory exists
                 await fs.mkdir(fullFolderPath, { recursive: true });
-                
+
                 // Write document to file
                 await fs.writeFile(fullFilePath, JSON.stringify(document, null, 2), 'utf8');
                 
@@ -283,6 +284,14 @@ class dbConvert {
         }
         
         console.log(`Extracted ${extractedCount} documents to individual JSON files.`);
+    }
+
+    /**
+    * Do stuff to the document
+    * @param {Object} documents - All documents from the .db file
+    */
+    async removeStats(document) {
+        document._stats = {};
     }
 
     /**

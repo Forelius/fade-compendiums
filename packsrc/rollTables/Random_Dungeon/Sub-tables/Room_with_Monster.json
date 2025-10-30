@@ -22,16 +22,7 @@
       "systemVersion": "0.11.0-rc.2"
     }
   },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.343",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.11.0-rc.2",
-    "createdTime": 1747918812135,
-    "modifiedTime": 1760877766589,
-    "lastModifiedBy": "0eyrbleKg5gmY59g"
-  },
+  "_stats": {},
   "formula": "1d6",
   "_id": "ew4G96cAhEQOZ31r",
   "sort": 0,
@@ -50,7 +41,8 @@
       "text": "Room has treasure! Roll on appropriate treasure table for dungeon level.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
-      "flags": {}
+      "flags": {},
+      "_stats": {}
     },
     {
       "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.dBDATHEKdrhTI6Nc",
@@ -65,7 +57,8 @@
       "text": "Lair! This room is part of a monster's lair. Roll on the appropriate encounter table to determine the type of monster and how many there are.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
-      "flags": {}
+      "flags": {},
+      "_stats": {}
     },
     {
       "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.m7vWuDDrsUJzoKuT",
@@ -80,7 +73,8 @@
       "text": "Encounter! One or more monsters are in this room. Roll on the appropriate wandering monster table.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
-      "flags": {}
+      "flags": {},
+      "_stats": {}
     }
   ]
 }

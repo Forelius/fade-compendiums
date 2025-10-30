@@ -118,7 +118,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "acDigest": [],
@@ -133,7 +133,7 @@
         "tempMod": 0
       },
       "int": {
-        "value": 10,
+        "value": 3,
         "total": 10,
         "mod": 0,
         "tempMod": 0
@@ -293,17 +293,8 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": "Compendium.fade-compendiums.actor-compendium.Actor.x5z9ER9RfXBw1zo8",
-    "duplicateSource": null,
-    "coreVersion": "12.343",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.12.0-rc.8",
-    "createdTime": 1754659676039,
-    "modifiedTime": 1755865799676,
-    "lastModifiedBy": "0eyrbleKg5gmY59g"
-  },
-  "sort": 0,
+  "_stats": {},
+  "sort": 1400000,
   "_originalKey": "!actors!x5z9ER9RfXBw1zo8",
   "embedded": [
     {
@@ -347,16 +338,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.HvX34Osxxl5PpFH7",
@@ -399,16 +381,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.J0rd9ZY0wP7KxX0w",
@@ -471,16 +444,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": "Actor.UdfRsOKiWaiPNUPw.Item.NErEwdCiNWL27r9f",
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.bpHb36oyQHH6DmsF",
@@ -523,16 +487,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.cbNoeSLG5dOuT3C6",
@@ -612,16 +567,7 @@
         "default": 0
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.hNKKIpYYi7BJlITo",
@@ -701,16 +647,7 @@
         "default": 0
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.jRjOO88KClpHJgpR",
@@ -753,16 +690,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!actors.items!x5z9ER9RfXBw1zo8.vEaj7HIqlBzMRf73",
@@ -805,16 +733,7 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.12.0-rc.5",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
+      "_stats": {}
     }
   ]
 }

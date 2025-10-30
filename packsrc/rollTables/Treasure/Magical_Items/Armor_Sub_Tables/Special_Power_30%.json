@@ -14,16 +14,7 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.uRhEAH6gYz76RWzs",
-    "duplicateSource": "RollTable.5CGwKanZINmL8I8h",
-    "coreVersion": "12.331",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.7.22-rc.4",
-    "createdTime": 1739749690287,
-    "modifiedTime": 1743220364608,
-    "lastModifiedBy": "0eyrbleKg5gmY59g"
-  },
+  "_stats": {},
   "formula": "1d100",
   "_id": "uRhEAH6gYz76RWzs",
   "sort": 1100000,
@@ -43,7 +34,8 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "documentId": "QS37hEkAQFZwApkJ",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium"
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "_stats": {}
     },
     {
       "_originalKey": "!tables.results!uRhEAH6gYz76RWzs.ti6hlub5F2T9H88t",
@@ -59,7 +51,8 @@
       "text": "No special power",
       "img": "icons/svg/cancel.svg",
       "documentId": null,
-      "flags": {}
+      "flags": {},
+      "_stats": {}
     }
   ]
 }

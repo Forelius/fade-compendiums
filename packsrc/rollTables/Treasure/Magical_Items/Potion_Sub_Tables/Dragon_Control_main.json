@@ -15,16 +15,7 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": "Compendium.fade-compendiums.roll-table-compendium.RollTable.IVq9mBJA2L9gFsjV",
-    "duplicateSource": "RollTable.XUki9WQB9dUCeQ91",
-    "coreVersion": "12.331",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.7.22-rc.4",
-    "createdTime": 1739749690287,
-    "modifiedTime": 1743220605730,
-    "lastModifiedBy": "0eyrbleKg5gmY59g"
-  },
+  "_stats": {},
   "_id": "IVq9mBJA2L9gFsjV",
   "sort": 0,
   "_originalKey": "!tables!IVq9mBJA2L9gFsjV",
@@ -43,7 +34,8 @@
       "text": "Dragon Control (normal)",
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
       "documentId": "hvKrIU8Qx89wAauH",
-      "flags": {}
+      "flags": {},
+      "_stats": {}
     },
     {
       "_originalKey": "!tables.results!IVq9mBJA2L9gFsjV.v99BMXNyN4Jb7URs",
@@ -59,7 +51,8 @@
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
       "documentId": "XUki9WQB9dUCeQ91",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium"
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "_stats": {}
     }
   ]
 }
