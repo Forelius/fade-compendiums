@@ -1,0 +1,63 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 6-7",
+  "_id": "Z49Hm79EcpM0o5eF",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Encounter - Dungeon Level 6-7</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "nKp0UsD1KmNoM5hd",
+    "PFcHffn8Ra2UIR3B"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "mto4pnyhrYytwsO6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.13.1",
+    "createdTime": 1761789762749,
+    "modifiedTime": 1761790671480,
+    "lastModifiedBy": "mto4pnyhrYytwsO6"
+  },
+  "formula": "1d2",
+  "_originalKey": "!tables!Z49Hm79EcpM0o5eF",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Z49Hm79EcpM0o5eF.PFcHffn8Ra2UIR3B",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "PFcHffn8Ra2UIR3B",
+      "text": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.lYgXYeUclfcLHsrg]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "_originalKey": "!tables.results!Z49Hm79EcpM0o5eF.nKp0UsD1KmNoM5hd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "nKp0UsD1KmNoM5hd",
+      "text": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ]
+}
