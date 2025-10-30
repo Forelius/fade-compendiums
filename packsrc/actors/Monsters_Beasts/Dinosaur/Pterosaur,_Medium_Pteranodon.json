@@ -1,66 +1,95 @@
 {
-  "name": "Dinosaur, Flying Carnivorous  (1HD)",
   "type": "monster",
+  "folder": "o6aWrufzG9NSRVSI",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Neutral",
-      "size": "L",
-      "morale": null,
-      "xpAward": 10,
-      "attacks": "3",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 175,
+      "attacks": "1",
       "abilityCount": 0,
-      "monsterType": "Monster",
-      "saveAs": "F0",
+      "monsterType": "Prehistoric Animal",
+      "saveAs": "F3",
       "castAs": "",
-      "classAbilityAs": "",
       "level": 1,
-      "rarity": "Rare",
+      "classAbilityAs": "",
+      "rarity": "Very Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1",
-      "value": 5,
-      "max": 5
+      "hd": "5",
+      "value": 22,
+      "max": null
     },
     "na": {
-      "wandering": "1d4",
+      "wandering": "0",
       "lair": "1d4"
     },
     "treasure": "Nil",
     "thac0": {
-      "value": 19,
+      "value": 15,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "max": 240,
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240
     },
-    "biography": "<p>Flying carnivorous dinosaurs are dangerous aerial predators with sharp teeth and claws. They may swoop down on unsuspecting prey, inflicting severe damage. Some can even pick up halfling-sized creatures, carrying them off to devour later.</p>\n    <p><strong>Terrain:</strong> Mountains, Forest, Jungle.</p>",
-    "wrestling": 11,
-    "gm": {
-      "notes": ""
-    },
-    "encumbrance": {
-      "max": 0,
-      "value": 0,
-      "label": "Unencumbered",
-      "mv": 150,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
-    },
+    "biography": "<p>These are hollow-boned flying and gliding reptiles. They have long beaks filled with numerous teeth, and reptilian arm structures with skin webbing which constitutes their wings.<br>Pteranodons are much larger and more aggressive. They have a wingspan of up to 50'. They will often attack and carry off man-sized creatures.</p><p><strong>Load:</strong> 2,000 cn at full speed; 3,000 cn at half speed.<br><strong>Terrain:</strong> Hill, Mountain, Jungle (prehistoric)<br><strong>Barding Multiplier:</strong> x1</p>",
     "config": {
       "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 4,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
     "mod": {
-      "ac": null,
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
       "initiative": 0,
       "combat": {
         "toHit": 0,
@@ -75,65 +104,29 @@
         "selfDmgFire": 0,
         "selfToHit": 0,
         "selfToHitRanged": 0,
-        "selfDmgRanged": 0
+        "selfDmgRanged": 0,
+        "dmgScale": 1
       },
       "save": {
-        "all": 0,
-        "death": 0,
-        "wand": 0,
-        "paralysis": 0,
-        "breath": 0,
-        "spell": 0
+        "all": 0
       },
-      "baseAc": 0,
-      "upgradeAc": null,
-      "upgradeRangedAc": null,
       "rangedAc": 0,
       "wrestling": null,
       "masteryLevelOverride": null
     },
-    "ac": {
-      "naked": 9,
-      "value": 7,
-      "total": 7,
-      "mod": 0,
-      "shield": 0,
-      "nakedAAC": 10,
-      "totalAAC": 10,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
-      "av": "0"
-    },
-    "thbonus": 0,
-    "initiative": {
-      "value": 0
-    },
-    "languages": "",
-    "combat": {
-      "attacks": 0,
-      "deathCount": 0,
-      "isDead": false,
-      "declaredAction": "attack",
-      "attAgainstH": 0,
-      "attAgainstM": 0,
-      "basicProficiency": true,
-      "unskilledToHitMod": -2
-    },
+    "wrestling": 19,
     "acDigest": [],
     "activeLight": null,
     "isEnchanted": false,
-    "monsterTypes": [],
     "abilities": {
-      "str": {
-        "value": 10,
-        "total": 10,
+      "int": {
+        "value": 2,
+        "total": 2,
         "mod": 0,
         "tempMod": 0
       },
-      "int": {
-        "value": 3,
+      "str": {
+        "value": 10,
         "total": 10,
         "mod": 0,
         "tempMod": 0
@@ -177,13 +170,13 @@
     ]
   },
   "prototypeToken": {
-    "name": "Dinosaur, Flying Carnivorous",
+    "name": "Pterosaur, Medium (Pteranodon)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
-      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "scaleX": 0.9,
       "scaleY": 0.9,
       "rotation": 0,
@@ -239,21 +232,21 @@
       "angle": 360,
       "visionMode": "basic",
       "color": null,
-      "attenuation": 0,
+      "attenuation": 0.1,
       "brightness": 0,
-      "saturation": -1,
+      "saturation": 0,
       "contrast": 0
     },
     "detectionModes": [
       {
         "id": "lightPerception",
-        "enabled": true,
-        "range": null
+        "range": null,
+        "enabled": true
       },
       {
         "id": "basicSight",
-        "enabled": true,
-        "range": 60
+        "range": 0,
+        "enabled": true
       }
     ],
     "occludable": {
@@ -275,100 +268,101 @@
     "randomImg": false,
     "hexagonalShape": 0
   },
+  "name": "Pterosaur, Medium (Pteranodon)",
   "items": [
-    "ApBn44FUaRG44DAu",
-    "GnOwmV49RL2ZuD1E",
-    "iPy86hZXIQnmZzSZ",
-    "KSHeffzhmxkpAV2X",
-    "FMtjQqxSryn3MGT4",
-    "gnmeie2OGmnzMJ8Y",
-    "jxh8GlYjnxv9eQ8T",
-    "qjOqAAsEivhzbkfz",
+    "g3FQ0X0Iic29iRiD",
+    "4ELO3gDWjD5keXwk",
+    "mcUFQDPJ2UkTwcAL",
+    "VTrMxddKpuTBJNHn",
+    "BCPt8llWsvgZyGS1",
+    "71zYf65edaReyllN",
+    "zABEcCjCNEycQMWw",
     "pcdBLWKxB0T2tZST"
   ],
-  "_id": "v5TeihlknxR3Cd1v",
   "effects": [],
-  "folder": "o6aWrufzG9NSRVSI",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
   "_stats": {},
+  "_id": "tgQEWSWbRBRDiEKj",
   "sort": 0,
-  "_originalKey": "!actors!v5TeihlknxR3Cd1v",
+  "_originalKey": "!actors!tgQEWSWbRBRDiEKj",
   "embedded": [
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.ApBn44FUaRG44DAu",
-      "name": "Bite",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.4ELO3gDWjD5keXwk",
+      "name": "Beak",
       "type": "weapon",
       "system": {
+        "description": "",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "1d12",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "shortName": "",
         "tags": [],
-        "description": "The flying carnivorous dinosaur bites, dealing 1d4 damage.",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
+        "charges": 0,
         "quantityMax": 0,
         "weight": 0,
         "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
         "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "1d4",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
         "damageType": "physical",
-        "breath": null,
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
           "long": null
         },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
+        "size": "null",
+        "grip": "null",
         "mod": {
           "dmg": 0,
           "toHit": 0,
           "dmgRanged": 0,
-          "toHitRanged": 0
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
         },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": null,
-        "grip": null,
-        "charges": null,
         "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
+        "weightEquipped": 1,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        },
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": []
       },
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
-      "_id": "ApBn44FUaRG44DAu",
+      "img": "icons/svg/sword.svg",
+      "_id": "4ELO3gDWjD5keXwk",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -379,12 +373,98 @@
       "_stats": {}
     },
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.FMtjQqxSryn3MGT4",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.71zYf65edaReyllN",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "71zYf65edaReyllN",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {},
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.BCPt8llWsvgZyGS1",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "BCPt8llWsvgZyGS1",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {},
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.VTrMxddKpuTBJNHn",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Magic Wand",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "FMtjQqxSryn3MGT4",
+      "_id": "VTrMxddKpuTBJNHn",
       "system": {
         "tags": [],
         "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
@@ -393,7 +473,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "13",
         "rollMode": "publicroll",
         "savingThrow": "",
         "autoSuccess": null,
@@ -413,85 +493,65 @@
         "conditions": []
       },
       "effects": [],
-      "sort": 0,
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {},
+      "sort": 0
     },
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.GnOwmV49RL2ZuD1E",
-      "name": "Claw",
-      "type": "weapon",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.g3FQ0X0Iic29iRiD",
+      "name": "Hide",
+      "type": "armor",
       "system": {
+        "description": "",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 6,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
         "tags": [],
-        "description": "The flying carnivorous dinosaur uses its claws, dealing 1d3 damage.",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
+        "charges": 0,
         "quantityMax": 0,
         "weight": 0,
         "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "1d3",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
         "totalWeight": 0,
         "totalCost": 0,
+        "containerId": "",
         "container": false,
         "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
         "unidentifiedName": "",
         "unidentifiedDesc": "",
         "isIdentified": true,
         "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
         "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 2,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
+        "weightEquipped": 1,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "av": "",
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": []
       },
-      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
-      "_id": "GnOwmV49RL2ZuD1E",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "g3FQ0X0Iic29iRiD",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -502,12 +562,12 @@
       "_stats": {}
     },
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.KSHeffzhmxkpAV2X",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.mcUFQDPJ2UkTwcAL",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Death Ray or Poison",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "KSHeffzhmxkpAV2X",
+      "_id": "mcUFQDPJ2UkTwcAL",
       "system": {
         "tags": [],
         "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -516,7 +576,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "12",
         "rollMode": "publicroll",
         "savingThrow": "",
         "autoSuccess": null,
@@ -536,165 +596,16 @@
         "conditions": []
       },
       "effects": [],
-      "sort": 0,
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {},
+      "sort": 0
     },
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.gnmeie2OGmnzMJ8Y",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Turn to Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "gnmeie2OGmnzMJ8Y",
-      "system": {
-        "shortName": "Stone",
-        "tags": [],
-        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "16",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {}
-    },
-    {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.iPy86hZXIQnmZzSZ",
-      "name": "Natural",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 7,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "",
-        "unidentifiedDesc": "",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "_id": "iPy86hZXIQnmZzSZ",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {}
-    },
-    {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.jxh8GlYjnxv9eQ8T",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Dragon Breath",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "jxh8GlYjnxv9eQ8T",
-      "system": {
-        "shortName": "Breath",
-        "tags": [],
-        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "17",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "breath",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {}
-    },
-    {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.pcdBLWKxB0T2tZST",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.pcdBLWKxB0T2tZST",
       "name": "Flight",
       "type": "specialAbility",
       "system": {
@@ -736,15 +647,15 @@
       "flags": {},
       "_stats": {},
       "_id": "pcdBLWKxB0T2tZST",
-      "sort": 0
+      "sort": 400000
     },
     {
-      "_originalKey": "!actors.items!v5TeihlknxR3Cd1v.qjOqAAsEivhzbkfz",
+      "_originalKey": "!actors.items!tgQEWSWbRBRDiEKj.zABEcCjCNEycQMWw",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Spells or Magic Staff",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "qjOqAAsEivhzbkfz",
+      "_id": "zABEcCjCNEycQMWw",
       "system": {
         "shortName": "Spell",
         "tags": [],
@@ -754,7 +665,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "17",
+        "target": "16",
         "rollMode": "publicroll",
         "savingThrow": "",
         "autoSuccess": null,
@@ -773,16 +684,16 @@
         "conditions": []
       },
       "effects": [],
-      "sort": 0,
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {},
+      "sort": 0
     },
     {
-      "_originalKey": "!actors.items.effects!v5TeihlknxR3Cd1v.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "_originalKey": "!actors.items.effects!tgQEWSWbRBRDiEKj.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
       "name": "Flying",
       "img": "icons/svg/wing.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",

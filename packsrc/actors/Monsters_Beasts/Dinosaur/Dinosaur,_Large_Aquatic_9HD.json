@@ -133,7 +133,7 @@
         "tempMod": 0
       },
       "int": {
-        "value": 10,
+        "value": 3,
         "total": 10,
         "mod": 0,
         "tempMod": 0
@@ -166,11 +166,11 @@
     },
     "tags": [],
     "movement2": {
-      "turn": 0,
+      "turn": 150,
       "max": 150,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "round": 50,
+      "day": 30,
+      "run": 150
     },
     "actorGroups": [
       "reptiles-dinosaurs"
