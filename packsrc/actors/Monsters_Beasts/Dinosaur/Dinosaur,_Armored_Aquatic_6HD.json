@@ -10,12 +10,12 @@
       "xpAward": 275,
       "attacks": "1",
       "abilityCount": 0,
-      "monsterType": "Prehistoric Animal",
+      "monsterType": "Monster",
       "saveAs": "F3",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
@@ -166,11 +166,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
+      "turn": 90,
       "max": 90,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "round": 30,
+      "day": 18,
+      "run": 90
     },
     "actorGroups": [
       "reptiles-dinosaurs"
@@ -294,7 +294,7 @@
   "flags": {},
   "_stats": {},
   "_id": "YhQjQ46MNqGwKU15",
-  "sort": 0,
+  "sort": 600000,
   "_originalKey": "!actors!YhQjQ46MNqGwKU15",
   "embedded": [
     {
