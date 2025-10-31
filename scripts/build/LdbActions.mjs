@@ -1,4 +1,4 @@
-﻿import { Level } from "level";
+import { Level } from "level";
 import fs from "fs/promises";
 import path from "path";
 
@@ -75,7 +75,8 @@ class LdbActions {
 
         // Read JSON file
         const raw = await fs.readFile(outFile, "utf8");
-        const data = JSON.parse(raw);
+        const cleanRaw = this.removeBOM(raw);
+        const data = JSON.parse(cleanRaw);
 
         // Handle both old array format and new object format
         let entries;
@@ -151,6 +152,19 @@ class LdbActions {
 
         console.log('sampled keys:', n);
         await db.close();
+    }
+
+    /**
+     * Remove BOM (Byte Order Mark) from file content
+     * @param {string} content - The file content that may contain BOM
+     * @returns {string} - Content with BOM removed
+     */
+    removeBOM(content) {
+        // Check for UTF-8 BOM (EF BB BF) which appears as \uFEFF in JavaScript strings
+        if (content.charCodeAt(0) === 0xFEFF) {
+            return content.slice(1);
+        }
+        return content;
     }
 
     /**

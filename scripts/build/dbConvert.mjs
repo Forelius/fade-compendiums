@@ -50,7 +50,8 @@ class dbConvert {
 
         // Read and parse the .db file
         const dbContent = await fs.readFile(dbFile, 'utf8');
-        const documents = JSON.parse(dbContent);
+        const cleanDbContent = this.removeBOM(dbContent);
+        const documents = JSON.parse(cleanDbContent);
 
         // Ensure output directory structure exists
         await this.ensureDirectoryStructure();
@@ -89,6 +90,19 @@ class dbConvert {
         }
         
         return folderDocuments;
+    }
+
+    /**
+     * Remove BOM (Byte Order Mark) from file content
+     * @param {string} content - The file content that may contain BOM
+     * @returns {string} - Content with BOM removed
+     */
+    removeBOM(content) {
+        // Check for UTF-8 BOM (EF BB BF) which appears as \uFEFF in JavaScript strings
+        if (content.charCodeAt(0) === 0xFEFF) {
+            return content.slice(1);
+        }
+        return content;
     }
 
     /**
@@ -384,7 +398,8 @@ class dbConvert {
                     // Read and parse JSON file
                     try {
                         const content = await fs.readFile(fullPath, 'utf8');
-                        const document = JSON.parse(content);
+                        const cleanContent = this.removeBOM(content);
+                        const document = JSON.parse(cleanContent);
                         documents.push({
                             filePath: fullPath,
                             relativePath: path.relative(basePath, fullPath),
