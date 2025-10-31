@@ -6,7 +6,7 @@
   "system": {
     "shortName": "",
     "tags": [],
-    "description": "<p>When a charge is expended, this item causes all enemies within 60 feet (including those who are hidden or invisible) to emit a glowing light, as if they were aflame.</p><p>This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</p>",
+    "description": "<p>When a charge is expended, this item causes all enemies within 60 feet (including those who are hidden or invisible) to emit a glowing light, as if they were aflame.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p><p>This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</p>",
     "gm": {
       "notes": ""
     },
@@ -14,7 +14,7 @@
     "quantityMax": 0,
     "charges": 10,
     "chargesMax": 20,
-    "weight": 1,
+    "weight": 10,
     "cost": 0,
     "totalWeight": 0,
     "totalCost": 0,
@@ -26,8 +26,8 @@
     "fuelType": "",
     "ammoType": "",
     "isAmmo": false,
-    "unidentifiedName": "Strange Wand",
-    "unidentifiedDesc": "<p>This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</p>",
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
     "isIdentified": false,
     "isCursed": false,
     "isCarried": true,
@@ -36,7 +36,16 @@
     "healFormula": "",
     "damageType": "",
     "isUsable": true,
-    "isTreasure": false
+    "isTreasure": true,
+    "weightEquipped": 10,
+    "spells": [
+      {
+        "action": "none",
+        "castAs": "",
+        "name": "Detect Enemy (Wand)",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.vo6VfzQDU4im1h2O"
+      }
+    ]
   },
   "effects": [],
   "ownership": {
