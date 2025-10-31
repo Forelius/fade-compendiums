@@ -1,18 +1,18 @@
 {
   "folder": "v09OaHHDLUBrw7Db",
-  "name": "Detect Secret Doors (Wand)",
+  "name": "Detect Magic (Wand)",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
     "tags": [],
-    "description": "<p>The user may find any secret door within 20', using one charge per secret door found.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
+    "description": "<p>Cause any magical item within 20' to glow. If the item cannot normally be seen (within a closed chest, for example), the glow will not be seen.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "Self",
     "duration": "Concentrate",
-    "effect": "Detect secret doors",
+    "effect": "Detect magic",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {},
-  "_id": "07uznv75M8uSThw9",
-  "sort": 100000,
-  "_originalKey": "!items!07uznv75M8uSThw9"
+  "_id": "cFj3mGKIynfu4vtJ",
+  "sort": 2000000,
+  "_originalKey": "!items!cFj3mGKIynfu4vtJ"
 }

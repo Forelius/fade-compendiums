@@ -1,18 +1,18 @@
 {
   "folder": "v09OaHHDLUBrw7Db",
-  "name": "Detect Secret Doors (Wand)",
+  "name": "Negation (Wand)",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
     "tags": [],
-    "description": "<p>The user may find any secret door within 20', using one charge per secret door found.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
+    "description": "<p>Cancel the effects of one other wand or staff. If the other effect has a duration, the negation lasts for one round.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "Self",
-    "duration": "Concentrate",
-    "effect": "Detect secret doors",
+    "duration": "1 round",
+    "effect": "Negate wand or staff effect",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "",
-    "durationFormula": "",
+    "durationFormula": "1",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {},
-  "_id": "07uznv75M8uSThw9",
-  "sort": 100000,
-  "_originalKey": "!items!07uznv75M8uSThw9"
+  "_id": "ZXSbD0LZFyYTzpBO",
+  "sort": 1200000,
+  "_originalKey": "!items!ZXSbD0LZFyYTzpBO"
 }

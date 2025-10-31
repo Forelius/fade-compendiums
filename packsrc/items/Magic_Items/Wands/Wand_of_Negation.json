@@ -1,12 +1,12 @@
 {
   "folder": "j9i1UsTuEAW2VgKU",
-  "name": "Wand of Fear",
+  "name": "Wand of Negation",
   "type": "item",
   "img": "icons/weapons/wands/wand-gem-blue.webp",
   "system": {
     "shortName": "",
     "tags": [],
-    "description": "<p>This wand generates a cone of fear that extends 60 feet long and 30 feet wide at its far end. Anyone caught within the cone must make a saving throw against wands or flee from the user at three times their normal speed for 30 rounds.</p><p>This wand is crafted from dark, polished wood, featuring a sleek and slightly curved design. At the end, it is adorned with a menacing skull motif, intricately carved and detailed, giving it a foreboding presence. The skull's eye sockets glow faintly with an eerie light, while the shaft of the wand is etched with subtle, arcane symbols.</p>",
+    "description": "<p>This wand can be used to cancel the effects of one other wand or staff. If the other effect has a duration, the negation lasts for one round.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,22 +30,19 @@
     "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
     "isIdentified": false,
     "isCursed": false,
-    "isCarried": true,
-    "savingThrow": "wand",
-    "dmgFormula": "",
-    "healFormula": "",
-    "damageType": "",
-    "isUsable": true,
     "isTreasure": true,
     "spells": [
       {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.FE71NaPCXqnDtXOU",
         "action": "none",
         "castAs": "",
-        "name": "Cause Fear (Wand)"
+        "name": "Negation (Wand)",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ZXSbD0LZFyYTzpBO"
       }
     ],
-    "weightEquipped": 10
+    "weightEquipped": 10,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
   },
   "effects": [],
   "ownership": {
@@ -54,7 +51,7 @@
   },
   "flags": {},
   "_stats": {},
-  "_id": "PNJiLnux17vWrYvs",
-  "sort": 600000,
-  "_originalKey": "!items!PNJiLnux17vWrYvs"
+  "_id": "EGY9ph6TM7yRshO7",
+  "sort": 100000,
+  "_originalKey": "!items!EGY9ph6TM7yRshO7"
 }
