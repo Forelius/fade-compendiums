@@ -61,7 +61,7 @@ jobs:
       - name: Prepare release zip
         if: env.is_valid == 'true'
         run: |
-          zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*' -x 'packsrc/*' -x 'scripts/build/*' -x 'package.json' -x 'package-lock.json' -x '.vscode/*'
+          zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*' -x 'packsrc/*' -x 'node_modules/*' -x 'scripts/build/*' -x 'scripts/ps/*' -x 'package.json' -x 'package-lock.json' -x '.vscode/*'
 
       - name: Prepare release notes
         if: env.is_valid == 'true'
