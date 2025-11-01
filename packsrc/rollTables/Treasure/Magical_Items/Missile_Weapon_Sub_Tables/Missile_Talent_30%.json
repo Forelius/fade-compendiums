@@ -15,31 +15,34 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "_id": "Xvr6mjwjFqKsR23a",
   "sort": 0,
   "_originalKey": "!tables!Xvr6mjwjFqKsR23a",
   "embedded": [
     {
       "_originalKey": "!tables.results!Xvr6mjwjFqKsR23a.6Bb7ktdu5FAtgNCc",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         30
       ],
       "drawn": false,
-      "text": "Missile Talents",
-      "documentId": "soz3NhuvLcvgVC72",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "6Bb7ktdu5FAtgNCc",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Talents",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.soz3NhuvLcvgVC72",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!Xvr6mjwjFqKsR23a.O2v9BanssZaa7HHQ",
-      "text": "No Talent",
       "range": [
         31,
         100
@@ -49,9 +52,12 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "O2v9BanssZaa7HHQ",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No Talent",
+      "name": ""
     }
   ]
 }

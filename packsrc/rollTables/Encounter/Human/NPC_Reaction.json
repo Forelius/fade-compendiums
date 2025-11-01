@@ -17,7 +17,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "2d6",
   "_originalKey": "!tables!MoeToN39GjFx9u9G",
   "embedded": [
@@ -31,11 +33,13 @@
       ],
       "drawn": false,
       "_id": "CYYMdKCbMvMpWLDQ",
-      "text": "Offer to buy or sell information [[1d100*5]] gp",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Offer to buy or sell information [[1d100*5]] gp",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!MoeToN39GjFx9u9G.HmY1YBoh2NNwmxjD",
@@ -47,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "HmY1YBoh2NNwmxjD",
-      "text": "Depart in Anger",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Depart in Anger",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!MoeToN39GjFx9u9G.fXlzxWHjYfXh3DSH",
@@ -63,11 +69,13 @@
       ],
       "drawn": false,
       "_id": "fXlzxWHjYfXh3DSH",
-      "text": "Negotiate",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Negotiate",
+      "name": ""
     }
   ]
 }

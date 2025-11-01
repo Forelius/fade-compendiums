@@ -17,60 +17,68 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!X8OQuEdiJD9clDQO",
   "embedded": [
     {
       "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.GVFV3OWTUeGo28Yn",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         99
       ],
       "drawn": false,
-      "text": "Hobgoblin",
-      "documentId": "pqMSUZDTxBkzJRXt",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "GVFV3OWTUeGo28Yn",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.r4LQrIlQTwE28Ghv",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         99,
         100
       ],
       "drawn": false,
-      "text": "Hobgoblin, King",
-      "documentId": "EMgHTzvjVhVgleVc",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "r4LQrIlQTwE28Ghv",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin, King",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.EMgHTzvjVhVgleVc",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.r6Zdpa88K09HeEd1",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         90,
         100
       ],
       "drawn": false,
-      "text": "Hobgoblin, Bodyguard",
-      "documentId": "cqA8bRxYul1fKqrx",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "r6Zdpa88K09HeEd1",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin, Bodyguard",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.cqA8bRxYul1fKqrx",
+      "description": ""
     }
   ]
 }

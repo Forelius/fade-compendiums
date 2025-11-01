@@ -23,15 +23,10 @@
     "default": 0,
     "0eyrbleKg5gmY59g": 3
   },
-  "flags": {
-    "exportSource": {
-      "world": "becmirc-dungeons-and-dragons",
-      "system": "fantastic-depths",
-      "coreVersion": "12.331",
-      "systemVersion": "0.8.6"
-    }
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
   },
-  "_stats": {},
   "formula": "1d100",
   "_id": "rwnLnpBgEh6DbW9D",
   "sort": 400000,
@@ -47,33 +42,36 @@
       ],
       "drawn": false,
       "_id": "0g3RgyxZ5ISWjIAg",
-      "text": "Armor: AC +4",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Armor: AC +4",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.3ebpFWSN2Ggr2HKo",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Armor Size Table",
-      "documentId": "Plyb3V4zi41SFJqQ",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "_id": "3ebpFWSN2Ggr2HKo",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Armor Size Table",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Plyb3V4zi41SFJqQ",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.5s8B4mOvrim1C9pE",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         89,
@@ -81,16 +79,18 @@
       ],
       "drawn": false,
       "_id": "5s8B4mOvrim1C9pE",
-      "text": "Special Power 25%",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "f2pXUfXLRGjZXOLE",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Special Power 25%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.f2pXUfXLRGjZXOLE",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.67fQNWA3e1anAloc",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         51,
@@ -98,16 +98,18 @@
       ],
       "drawn": false,
       "_id": "67fQNWA3e1anAloc",
-      "text": "Special Power 15%",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "68J1VioJ0ZmCxOSN",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Special Power 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.68J1VioJ0ZmCxOSN",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.9e9L4cITuFXMto8z",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         97,
@@ -115,11 +117,14 @@
       ],
       "drawn": false,
       "_id": "9e9L4cITuFXMto8z",
-      "text": "Special Power 30%",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "uRhEAH6gYz76RWzs",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Special Power 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.uRhEAH6gYz76RWzs",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.B4mhRV6pNXQ8q4Km",
@@ -131,11 +136,13 @@
       ],
       "drawn": false,
       "_id": "B4mhRV6pNXQ8q4Km",
-      "text": "Armor: AC +1",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Armor: AC +1",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.HuPs8nkrGi8pAaak",
@@ -147,16 +154,17 @@
       ],
       "drawn": false,
       "_id": "HuPs8nkrGi8pAaak",
-      "text": "Armor: AC +5",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Armor: AC +5",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.J0rBQslHGemnBkRt",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         75,
@@ -164,11 +172,14 @@
       ],
       "drawn": false,
       "_id": "J0rBQslHGemnBkRt",
-      "text": "Special Power 20%",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "5CGwKanZINmL8I8h",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Special Power 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.5CGwKanZINmL8I8h",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.JaAPi059dDx59lGm",
@@ -180,15 +191,17 @@
       ],
       "drawn": false,
       "_id": "JaAPi059dDx59lGm",
-      "text": "Armor: AC +2",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Armor: AC +2",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.KkOpHRo5A67QfmuV",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -196,12 +209,14 @@
       ],
       "drawn": false,
       "_id": "KkOpHRo5A67QfmuV",
-      "text": "Special Power 10%",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "JMxiGHRIkCQB1aPE",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Special Power 10%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JMxiGHRIkCQB1aPE",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.d9nEB8FccMszaNFE",
@@ -213,28 +228,32 @@
       ],
       "drawn": false,
       "_id": "d9nEB8FccMszaNFE",
-      "text": "Armor: AC +3",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Armor: AC +3",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!rwnLnpBgEh6DbW9D.k3tMm1ODCTIWosxD",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Cursed Armor Check",
-      "documentId": "DiBm2M0JVor1hnMe",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "_id": "k3tMm1ODCTIWosxD",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Cursed Armor Check",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DiBm2M0JVor1hnMe",
+      "description": ""
     }
   ]
 }

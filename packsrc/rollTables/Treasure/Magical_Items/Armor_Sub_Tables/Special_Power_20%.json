@@ -14,7 +14,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_id": "5CGwKanZINmL8I8h",
   "sort": 100000,
@@ -22,7 +24,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!5CGwKanZINmL8I8h.Rm84wSRKCH8uJbRC",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -30,17 +32,18 @@
       ],
       "drawn": false,
       "_id": "Rm84wSRKCH8uJbRC",
-      "text": "Armor Special Powers",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "QS37hEkAQFZwApkJ",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Armor Special Powers",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.QS37hEkAQFZwApkJ",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!5CGwKanZINmL8I8h.ti6hlub5F2T9H88t",
       "type": "text",
-      "documentCollection": "RollTable",
       "weight": 1,
       "range": [
         21,
@@ -48,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "ti6hlub5F2T9H88t",
-      "text": "No special power",
       "img": "icons/svg/cancel.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No special power",
+      "name": ""
     }
   ]
 }

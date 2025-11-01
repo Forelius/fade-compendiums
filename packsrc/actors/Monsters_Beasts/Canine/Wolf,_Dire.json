@@ -241,11 +241,6 @@
     },
     "detectionModes": [
       {
-        "id": "lightPerception",
-        "enabled": true,
-        "range": null
-      },
-      {
         "id": "basicSight",
         "enabled": true,
         "range": 60
@@ -268,7 +263,13 @@
     },
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     "eyi2UxZCILIKIHJa",
@@ -288,7 +289,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "_id": "4PUXUMLbZwb9SaDM",
   "sort": 200000,
   "_originalKey": "!actors!4PUXUMLbZwb9SaDM",
@@ -320,7 +323,9 @@
       "transfer": false,
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.4V3KBiLRiRFzVCrq",
@@ -363,7 +368,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.HeB0EizIaWAiEM9s",
@@ -406,7 +413,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.WxjPDrhWW3TCAWhL",
@@ -449,7 +458,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.Zw3oipvqG4vpLNKc",
@@ -492,7 +503,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.eyi2UxZCILIKIHJa",
@@ -572,7 +585,9 @@
         "default": 0
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.k2REANuPTEftEiOG",
@@ -615,7 +630,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.nmc5SxuBNadk1jsp",
@@ -677,7 +694,9 @@
         "default": 0
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

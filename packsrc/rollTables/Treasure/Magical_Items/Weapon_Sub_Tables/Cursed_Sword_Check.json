@@ -14,7 +14,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d20",
   "_id": "xINohxxAaSY6Bn7r",
   "sort": 0,
@@ -30,11 +32,13 @@
       ],
       "drawn": false,
       "_id": "GMIYghqXYj3owshV",
-      "text": "<strong>Cursed!</strong>",
       "img": "icons/svg/hazard.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Cursed!</strong>",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!xINohxxAaSY6Bn7r.PvntPV0RNStv0aVU",
@@ -46,11 +50,13 @@
       ],
       "drawn": false,
       "_id": "PvntPV0RNStv0aVU",
-      "text": "",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": ""
     }
   ]
 }

@@ -16,7 +16,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!FR067bXHk1GiXMAN",
   "embedded": [
@@ -30,11 +32,13 @@
       ],
       "drawn": false,
       "_id": "38ckdURNGVqXGM4a",
-      "text": "No Gems",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No Gems",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!FR067bXHk1GiXMAN.4JrJtbk2JoebMJHI",
@@ -46,11 +50,13 @@
       ],
       "drawn": false,
       "_id": "4JrJtbk2JoebMJHI",
-      "text": "[[1d8]] Gems. Worth [[/r 1d6*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d8]] Gems. Worth [[/r 1d6*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
+      "name": ""
     }
   ]
 }

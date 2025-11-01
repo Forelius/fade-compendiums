@@ -18,13 +18,14 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "sort": 0,
   "_originalKey": "!tables!ejDdE0YQv58PopY9",
   "embedded": [
     {
       "_originalKey": "!tables.results!ejDdE0YQv58PopY9.5x7sFOTB0x3DY4gE",
-      "text": "4 Wishes",
       "range": [
         10,
         10
@@ -34,13 +35,15 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "5x7sFOTB0x3DY4gE",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "4 Wishes",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!ejDdE0YQv58PopY9.ab1oP1PHyG8kE046",
-      "text": "3 Wishes",
       "range": [
         8,
         9
@@ -50,13 +53,15 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "ab1oP1PHyG8kE046",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "3 Wishes",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!ejDdE0YQv58PopY9.e5nm0NxdQUwKyyWC",
-      "text": "2 Wishes",
       "range": [
         5,
         7
@@ -66,13 +71,15 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "e5nm0NxdQUwKyyWC",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "2 Wishes",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!ejDdE0YQv58PopY9.n9RgmOJRy4bskU1l",
-      "text": "1 Wish",
       "range": [
         1,
         4
@@ -82,9 +89,12 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "n9RgmOJRy4bskU1l",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 Wish",
+      "name": ""
     }
   ]
 }

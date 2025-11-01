@@ -19,26 +19,30 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!QAPjaRCX0d55TAup",
   "embedded": [
     {
       "_originalKey": "!tables.results!QAPjaRCX0d55TAup.98IDtfZfC2etG4Es",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Level 1 Gem",
-      "documentId": "13N82RGAIAzW85MX",
       "img": "icons/svg/d20-grey.svg",
       "_id": "98IDtfZfC2etG4Es",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 1 Gem",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.13N82RGAIAzW85MX",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!QAPjaRCX0d55TAup.R4xZ19D4NiSfPHE9",
@@ -50,45 +54,51 @@
       ],
       "drawn": false,
       "_id": "R4xZ19D4NiSfPHE9",
-      "text": "[[1d6*10]] Gold Pieces",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6*10]] Gold Pieces",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!QAPjaRCX0d55TAup.jdhrjUJkOEuiOHgz",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Level 1 Magic Item",
-      "documentId": "bdPg8G95IuKtLyBd",
       "img": "icons/svg/d20-grey.svg",
       "_id": "jdhrjUJkOEuiOHgz",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 1 Magic Item",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.bdPg8G95IuKtLyBd",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!QAPjaRCX0d55TAup.jyRxGK6cbb2EYk8v",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Level 1 Jewelry",
-      "documentId": "m4wDDsw9TPW1U8k8",
       "img": "icons/svg/d20-grey.svg",
       "_id": "jyRxGK6cbb2EYk8v",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 1 Jewelry",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.m4wDDsw9TPW1U8k8",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!QAPjaRCX0d55TAup.s90F3IY6hY2NYTLH",
@@ -100,11 +110,13 @@
       ],
       "drawn": false,
       "_id": "s90F3IY6hY2NYTLH",
-      "text": "[[1d6*100]] Silver Pieces",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6*100]] Silver Pieces",
+      "name": ""
     }
   ]
 }

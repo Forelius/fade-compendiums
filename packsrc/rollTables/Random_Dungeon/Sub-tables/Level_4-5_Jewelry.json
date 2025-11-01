@@ -16,7 +16,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!1ib77YvoBYoro3OF",
   "embedded": [
@@ -30,11 +32,13 @@
       ],
       "drawn": false,
       "_id": "1cuQ6VIsb9hzNkTY",
-      "text": "No Jewelry",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No Jewelry",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!1ib77YvoBYoro3OF.DvsjBmiRMJjTpw32",
@@ -46,11 +50,13 @@
       ],
       "drawn": false,
       "_id": "DvsjBmiRMJjTpw32",
-      "text": "[[1d8]] Jewelry. Worth [[/r 1d8*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d8]] Jewelry. Worth [[/r 1d8*50 #Gold piece value of jewelry]] gold pieces each. Roll for each item of jewelry separately.  @Compendium[fade-compendiums.roll-table-compendium.RollTable.YTfrzt8Tsat7r6BU]",
+      "name": ""
     }
   ]
 }

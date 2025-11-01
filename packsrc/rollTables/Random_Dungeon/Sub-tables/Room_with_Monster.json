@@ -14,15 +14,10 @@
     "default": 0,
     "0eyrbleKg5gmY59g": 3
   },
-  "flags": {
-    "exportSource": {
-      "world": "fantastic-depths",
-      "system": "fantastic-depths",
-      "coreVersion": "12.343",
-      "systemVersion": "0.11.0-rc.2"
-    }
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
   },
-  "_stats": {},
   "formula": "1d6",
   "_id": "ew4G96cAhEQOZ31r",
   "sort": 0,
@@ -38,11 +33,13 @@
       ],
       "drawn": false,
       "_id": "LKPasBl8UDqYwdZ9",
-      "text": "Room has treasure! Roll on appropriate treasure table for dungeon level.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Room has treasure! Roll on appropriate treasure table for dungeon level.",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.dBDATHEKdrhTI6Nc",
@@ -54,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "dBDATHEKdrhTI6Nc",
-      "text": "Lair! This room is part of a monster's lair. Roll on the appropriate encounter table to determine the type of monster and how many there are.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lair! This room is part of a monster's lair. Roll on the appropriate encounter table to determine the type of monster and how many there are.",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.m7vWuDDrsUJzoKuT",
@@ -70,11 +69,13 @@
       ],
       "drawn": false,
       "_id": "m7vWuDDrsUJzoKuT",
-      "text": "Encounter! One or more monsters are in this room. Roll on the appropriate wandering monster table.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Encounter! One or more monsters are in this room. Roll on the appropriate wandering monster table.",
+      "name": ""
     }
   ]
 }

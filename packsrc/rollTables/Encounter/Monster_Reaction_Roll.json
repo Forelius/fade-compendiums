@@ -18,16 +18,12 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {
-    "cf": null,
-    "core": {},
-    "exportSource": {
-      "world": "dandd-1e",
-      "system": "gs-fantastic-depths",
-      "coreVersion": "11.315",
-      "systemVersion": "1.11.5"
-    }
+    "cf": {},
+    "core": {}
   },
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "2d6",
   "sort": 0,
   "_originalKey": "!tables!lbFxDa6UITg6AId9",
@@ -37,7 +33,6 @@
       "_id": "WRuRqPONmku1Skcy",
       "flags": {},
       "type": "text",
-      "text": "Indifferent, uninterested",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -45,15 +40,17 @@
         11
       ],
       "drawn": false,
-      "documentId": null,
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Indifferent, uninterested",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!lbFxDa6UITg6AId9.ZKf4IQQNtzO8dpmx",
       "_id": "ZKf4IQQNtzO8dpmx",
       "flags": {},
       "type": "text",
-      "text": "Hostile, attacks",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -61,15 +58,17 @@
         2
       ],
       "drawn": false,
-      "documentId": null,
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hostile, attacks",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!lbFxDa6UITg6AId9.bqlilzyFew9GUPkj",
       "_id": "bqlilzyFew9GUPkj",
       "flags": {},
       "type": "text",
-      "text": "Friendly, helpful",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -77,15 +76,17 @@
         12
       ],
       "drawn": false,
-      "documentId": null,
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Friendly, helpful",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!lbFxDa6UITg6AId9.q3WodAaJfDRc0VXz",
       "_id": "q3WodAaJfDRc0VXz",
       "flags": {},
       "type": "text",
-      "text": "Unfriendly, may attack",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -93,15 +94,17 @@
         5
       ],
       "drawn": false,
-      "documentId": null,
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Unfriendly, may attack",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!lbFxDa6UITg6AId9.xsfstqRk6tLdLS4F",
       "_id": "xsfstqRk6tLdLS4F",
       "flags": {},
       "type": "text",
-      "text": "Neutral, uncertain",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
       "range": [
@@ -109,8 +112,11 @@
         8
       ],
       "drawn": false,
-      "documentId": null,
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Neutral, uncertain",
+      "name": ""
     }
   ]
 }

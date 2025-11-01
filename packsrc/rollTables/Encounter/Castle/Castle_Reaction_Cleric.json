@@ -17,7 +17,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d6",
   "_originalKey": "!tables!aJvlM8nyVHkGuMJ5",
   "embedded": [
@@ -31,11 +33,13 @@
       ],
       "drawn": false,
       "_id": "5F5CK3ukL7fSkkZl",
-      "text": "Ignore: No attempt is made to aid or hinder the party.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Ignore: No attempt is made to aid or hinder the party.",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!aJvlM8nyVHkGuMJ5.fiSdJIupdvJ6iqnC",
@@ -47,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "fiSdJIupdvJ6iqnC",
-      "text": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!aJvlM8nyVHkGuMJ5.jVBiGTHvfBQpwR52",
@@ -63,11 +69,13 @@
       ],
       "drawn": false,
       "_id": "jVBiGTHvfBQpwR52",
-      "text": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+      "name": ""
     }
   ]
 }

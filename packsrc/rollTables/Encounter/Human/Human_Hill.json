@@ -27,7 +27,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d12",
   "_originalKey": "!tables!fQHNgGKNhklg0VrZ",
   "embedded": [
@@ -41,33 +43,36 @@
       ],
       "drawn": false,
       "_id": "8IeUFqK6G1WWHj5Q",
-      "text": "Adventurer",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Adventurer",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.AOn54UkVUuYTT7Hq",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         12,
         12
       ],
       "drawn": false,
-      "text": "Normal Human",
-      "documentId": "kDl71qaMaLB7XFhb",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "AOn54UkVUuYTT7Hq",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Normal Human",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.AVE5bLDqsJ21UePD",
       "type": "text",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         12,
@@ -75,33 +80,36 @@
       ],
       "drawn": false,
       "_id": "AVE5bLDqsJ21UePD",
-      "text": "Merchant",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Merchant",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.Ca3GE4sx6RTvsX4E",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         10,
         10
       ],
       "drawn": false,
-      "text": "NPC Adventurer Alignment",
-      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "Ca3GE4sx6RTvsX4E",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "NPC Adventurer Alignment",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.fPcCRKw8Wgi1yQMH",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.EmJRbQmy0tQbD0Gj",
       "type": "text",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         11,
@@ -109,50 +117,55 @@
       ],
       "drawn": false,
       "_id": "EmJRbQmy0tQbD0Gj",
-      "text": "Magic-User Basic: [[1d3]] Expert: [[1d6+3]]",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magic-User Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.Jxt76SK5dsAK6cAo",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         11,
         11
       ],
       "drawn": false,
-      "text": "NPC Adventurer Alignment",
-      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "Jxt76SK5dsAK6cAo",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "NPC Adventurer Alignment",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.fPcCRKw8Wgi1yQMH",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.QYit1AbRNoXUeK0z",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
-      "text": "Human, Brigand",
-      "documentId": "tRFwfLgZS4oCLlNn",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "QYit1AbRNoXUeK0z",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human, Brigand",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.tRFwfLgZS4oCLlNn",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.SdQeXkh2Yp9UigIl",
       "type": "text",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         9,
@@ -160,84 +173,93 @@
       ],
       "drawn": false,
       "_id": "SdQeXkh2Yp9UigIl",
-      "text": "Cleric Basic: [[1d3]] Expert: [[1d6+3]]",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Cleric Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.TmsRtJbWulUDQjXz",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         3,
         4
       ],
       "drawn": false,
-      "text": "Berserker",
-      "documentId": "rcNI8ENf9jLEaPRa",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "TmsRtJbWulUDQjXz",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Berserker",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.rcNI8ENf9jLEaPRa",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.bxzUaoSi3N105QPe",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         9,
         9
       ],
       "drawn": false,
-      "text": "NPC Adventurer Alignment",
-      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "bxzUaoSi3N105QPe",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "NPC Adventurer Alignment",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.fPcCRKw8Wgi1yQMH",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.i1LvdOk6daZ7VBQ5",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         6,
         8
       ],
       "drawn": false,
-      "text": "Caveman (Neanderthal)",
-      "documentId": "NCwiOHYUOdV9iC8Q",
       "img": "icons/svg/d20-grey.svg",
       "_id": "i1LvdOk6daZ7VBQ5",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Caveman (Neanderthal)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.NCwiOHYUOdV9iC8Q",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.sqdMtfYfef5ALQ6P",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
-      "text": "Bandit",
-      "documentId": "XiGvytbkLZ4gQAyj",
       "img": "icons/svg/d20-grey.svg",
       "_id": "sqdMtfYfef5ALQ6P",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bandit",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.XiGvytbkLZ4gQAyj",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!fQHNgGKNhklg0VrZ.y7Af8SKwacBb4NnI",
       "type": "text",
-      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         10,
@@ -245,11 +267,13 @@
       ],
       "drawn": false,
       "_id": "y7Af8SKwacBb4NnI",
-      "text": "Fighter Basic: [[1d3]] Expert: [[1d6+5]]",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Fighter Basic: [[1d3]] Expert: [[1d6+5]]",
+      "name": ""
     }
   ]
 }

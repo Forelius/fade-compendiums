@@ -18,13 +18,14 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "sort": 0,
   "_originalKey": "!tables!cBV9JQLQe5bgnUho",
   "embedded": [
     {
       "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.0DSRzdLh42Ux66Kr",
-      "text": "All poisons",
       "range": [
         10,
         10
@@ -34,13 +35,15 @@
       "drawn": false,
       "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
       "_id": "0DSRzdLh42Ux66Kr",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "All poisons",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.2oubgmOwh0E2qaOM",
-      "text": "Poisons from 3-HD (or lesser) creatures",
       "range": [
         1,
         4
@@ -50,13 +53,15 @@
       "drawn": false,
       "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
       "_id": "2oubgmOwh0E2qaOM",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Poisons from 3-HD (or lesser) creatures",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.KWtNTHtokhoHi4ls",
-      "text": "Poisons from 7-HD (or lesser) creatures. Also works on Poison Potion.",
       "range": [
         5,
         7
@@ -66,13 +71,15 @@
       "drawn": false,
       "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
       "_id": "KWtNTHtokhoHi4ls",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Poisons from 7-HD (or lesser) creatures. Also works on Poison Potion.",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!cBV9JQLQe5bgnUho.VX446qBw0hrTnK76",
-      "text": "Poisons from 15-HD (or lesser) creatures. Also works on Poison Potion.",
       "range": [
         8,
         9
@@ -82,9 +89,12 @@
       "drawn": false,
       "img": "icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp",
       "_id": "VX446qBw0hrTnK76",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Poisons from 15-HD (or lesser) creatures. Also works on Poison Potion.",
+      "name": ""
     }
   ]
 }

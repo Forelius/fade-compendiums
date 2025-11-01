@@ -17,60 +17,68 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!Y4Gb1ERUmgujnIBz",
   "embedded": [
     {
       "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.Bzo5zhqWqgmgB5XK",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         80,
         100
       ],
       "drawn": false,
-      "text": "Orc, Leader",
-      "documentId": "ksBY6HIuAo5RhU3E",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "Bzo5zhqWqgmgB5XK",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Orc, Leader",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ksBY6HIuAo5RhU3E",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.LihmyuCMze5ovfsA",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         96,
         100
       ],
       "drawn": false,
-      "text": "Orc, Chieftain",
-      "documentId": "JNrudHb64zpfOJA5",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "LihmyuCMze5ovfsA",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Orc, Chieftain",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.JNrudHb64zpfOJA5",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!Y4Gb1ERUmgujnIBz.UOCohE69BBBpzGGd",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Orc",
-      "documentId": "x8wcYxKMfc0JxmnU",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "UOCohE69BBBpzGGd",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Orc",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU",
+      "description": ""
     }
   ]
 }

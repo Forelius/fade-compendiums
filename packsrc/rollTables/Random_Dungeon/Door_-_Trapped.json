@@ -17,26 +17,30 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d10",
   "_originalKey": "!tables!tRCR6UWqFEXGriEI",
   "embedded": [
     {
       "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.BdNJH7NOCiNSWVaO",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         8,
         10
       ],
       "drawn": false,
-      "text": "Trap Type",
-      "documentId": "Tk715KuZhA0PruGs",
       "img": "icons/svg/d20-grey.svg",
       "_id": "BdNJH7NOCiNSWVaO",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Trap Type",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Tk715KuZhA0PruGs",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.CL8jeXF6nE7p9uHo",
@@ -48,11 +52,13 @@
       ],
       "drawn": false,
       "_id": "CL8jeXF6nE7p9uHo",
-      "text": "The door is not trapped",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The door is not trapped",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.qcYo7WJi8cOkxg5g",
@@ -64,11 +70,13 @@
       ],
       "drawn": false,
       "_id": "qcYo7WJi8cOkxg5g",
-      "text": "The door is trapped!",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The door is trapped!",
+      "name": ""
     }
   ]
 }

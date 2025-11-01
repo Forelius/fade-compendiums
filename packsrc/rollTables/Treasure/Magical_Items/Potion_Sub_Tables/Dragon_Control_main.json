@@ -15,15 +15,16 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "_id": "IVq9mBJA2L9gFsjV",
   "sort": 0,
   "_originalKey": "!tables!IVq9mBJA2L9gFsjV",
   "embedded": [
     {
       "_originalKey": "!tables.results!IVq9mBJA2L9gFsjV.c2oQ54AcIWBN5Av4",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         31,
@@ -31,15 +32,18 @@
       ],
       "drawn": false,
       "_id": "c2oQ54AcIWBN5Av4",
-      "text": "Dragon Control (normal)",
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
-      "documentId": "hvKrIU8Qx89wAauH",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon Control (normal)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.hvKrIU8Qx89wAauH",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!IVq9mBJA2L9gFsjV.v99BMXNyN4Jb7URs",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -47,12 +51,14 @@
       ],
       "drawn": false,
       "_id": "v99BMXNyN4Jb7URs",
-      "text": "Dragon Control (gemstone)",
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
-      "documentId": "XUki9WQB9dUCeQ91",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon Control (gemstone)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.XUki9WQB9dUCeQ91",
+      "description": ""
     }
   ]
 }

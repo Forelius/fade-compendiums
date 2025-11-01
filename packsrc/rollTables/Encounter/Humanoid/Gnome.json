@@ -17,60 +17,68 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_originalKey": "!tables!d6LqFYEPC2FcVJl0",
   "embedded": [
     {
       "_originalKey": "!tables.results!d6LqFYEPC2FcVJl0.DHyTZqfJABqkfjd8",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         96,
         100
       ],
       "drawn": false,
-      "text": "Gnome, Chieftain",
-      "documentId": "8qrZ6BR4mnos5TNV",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "DHyTZqfJABqkfjd8",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Gnome, Chieftain",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.8qrZ6BR4mnos5TNV",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!d6LqFYEPC2FcVJl0.mx6DqA7NO87r2ikj",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         86,
         100
       ],
       "drawn": false,
-      "text": "Gnome, Leader",
-      "documentId": "6GjqbxA4jbF43hks",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "mx6DqA7NO87r2ikj",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Gnome, Leader",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.6GjqbxA4jbF43hks",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!d6LqFYEPC2FcVJl0.vSmP4lvL3tqiFQWn",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.actor-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
-      "text": "Gnome",
-      "documentId": "n1P5QlOhEaopZPeT",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "vSmP4lvL3tqiFQWn",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Gnome",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.n1P5QlOhEaopZPeT",
+      "description": ""
     }
   ]
 }

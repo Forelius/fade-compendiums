@@ -268,7 +268,13 @@
     },
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 0
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "items": [
     "sr74W9WmDynURqBd",
@@ -287,15 +293,11 @@
   "flags": {
     "fantastic-depths": {
       "collapsed-armorItems": false
-    },
-    "exportSource": {
-      "world": "becmirc-dungeons-and-dragons",
-      "system": "fantastic-depths",
-      "coreVersion": "12.331",
-      "systemVersion": "0.7.18"
     }
   },
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "sort": 23400000,
   "_originalKey": "!actors!vrLI7AenWNUxigst",
   "embedded": [
@@ -340,7 +342,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.BoqsVhOLjyDIKkHI",
@@ -383,7 +387,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.XF4bQn3Y7WjLN9nN",
@@ -472,7 +478,9 @@
         "M8QHXsfKwLsKK3Op": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.im6OZp6ax2vYaYOR",
@@ -515,7 +523,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.r30TL67s8SLZ2Bzb",
@@ -558,7 +568,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.sr74W9WmDynURqBd",
@@ -621,7 +633,9 @@
         "M8QHXsfKwLsKK3Op": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!actors.items!vrLI7AenWNUxigst.wx6BBt8XvG2Kh1Sy",
@@ -664,7 +678,9 @@
         "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

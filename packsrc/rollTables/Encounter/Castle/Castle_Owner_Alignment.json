@@ -17,7 +17,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d6",
   "_originalKey": "!tables!BU7Se0FD8mmVNJnb",
   "embedded": [
@@ -31,11 +33,13 @@
       ],
       "drawn": false,
       "_id": "Fk7T4PPny0sMeIYA",
-      "text": "Neutral",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Neutral",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!BU7Se0FD8mmVNJnb.O1pDDwfqo558nKTV",
@@ -47,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "O1pDDwfqo558nKTV",
-      "text": "Lawful",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lawful",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!BU7Se0FD8mmVNJnb.WIQ8FP4gRzqqlJsf",
@@ -63,11 +69,13 @@
       ],
       "drawn": false,
       "_id": "WIQ8FP4gRzqqlJsf",
-      "text": "Chaotic",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Chaotic",
+      "name": ""
     }
   ]
 }

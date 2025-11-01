@@ -15,7 +15,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d4+2",
   "_id": "jLvjks49sEHNh7c8",
   "sort": 0,
@@ -31,11 +33,13 @@
       ],
       "drawn": false,
       "_id": "FCC28yylHbjlBGmc",
-      "text": "x2 Range (+100%)",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "x2 Range (+100%)",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!jLvjks49sEHNh7c8.GIG9ztgI4no0izEd",
@@ -47,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "GIG9ztgI4no0izEd",
-      "text": "x1.5 Range (+50%)",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "x1.5 Range (+50%)",
+      "name": ""
     },
     {
       "_originalKey": "!tables.results!jLvjks49sEHNh7c8.ldIvPbnZvGi1z5K0",
@@ -63,11 +69,13 @@
       ],
       "drawn": false,
       "_id": "ldIvPbnZvGi1z5K0",
-      "text": "No range multiplier",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No range multiplier",
+      "name": ""
     }
   ]
 }

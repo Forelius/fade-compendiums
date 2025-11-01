@@ -19,49 +19,54 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "_id": "374vX1ZDCXmJPWRk",
   "sort": 0,
   "_originalKey": "!tables!374vX1ZDCXmJPWRk",
   "embedded": [
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.9w14dcJQtkJx3to1",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         53,
         62
       ],
       "drawn": false,
-      "text": "Miscellaneous Items",
-      "documentId": "6TbdY8QOlvIWA7Nz",
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "9w14dcJQtkJx3to1",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Miscellaneous Items",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6TbdY8QOlvIWA7Nz",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.QFm9KXSy0ydVTa8P",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         63,
         72
       ],
       "drawn": false,
-      "text": "Magic Armor",
-      "documentId": "mYpxzeQa9MJ3NsEI",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "_id": "QFm9KXSy0ydVTa8P",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic Armor",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.mYpxzeQa9MJ3NsEI",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.bRW6ZDZUUvh9gjQY",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         38,
@@ -69,16 +74,18 @@
       ],
       "drawn": false,
       "_id": "bRW6ZDZUUvh9gjQY",
-      "text": "Wands, Staves, and Rods",
       "img": "icons/weapons/wands/wand-gem-purple.webp",
-      "documentId": "ijhIjC095Q38i6Nf",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Wands, Staves, and Rods",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ijhIjC095Q38i6Nf",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.iHYTyScW3pA079Dc",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         26,
@@ -86,16 +93,18 @@
       ],
       "drawn": false,
       "_id": "iHYTyScW3pA079Dc",
-      "text": "Scrolls",
       "img": "icons/sundries/scrolls/scroll-runed-brown-grey.webp",
-      "documentId": "d8izv97FUAkovQwX",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Scrolls",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.d8izv97FUAkovQwX",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.kwFa7JJHk7oowvHs",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         47,
@@ -103,15 +112,18 @@
       ],
       "drawn": false,
       "_id": "kwFa7JJHk7oowvHs",
-      "text": "Magic Rings",
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
-      "documentId": "3eunvWJn4eieoI28",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic Rings",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.3eunvWJn4eieoI28",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.l6vjcZD1GH9wPvqE",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
@@ -119,12 +131,14 @@
       ],
       "drawn": false,
       "_id": "l6vjcZD1GH9wPvqE",
-      "text": "Potions",
       "img": "icons/consumables/potions/potion-flash-open-blue.webp",
-      "documentId": "cHNzk2Ffn8VXtWUb",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Potions",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cHNzk2Ffn8VXtWUb",
+      "description": ""
     }
   ]
 }

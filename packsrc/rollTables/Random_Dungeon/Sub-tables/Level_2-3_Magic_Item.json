@@ -14,7 +14,9 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
   "formula": "1d100",
   "_id": "xRgqzH5hOKVLcu30",
   "sort": 400000,
@@ -22,20 +24,22 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!xRgqzH5hOKVLcu30.0ACfDgImLocKrvOO",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         8
       ],
       "drawn": false,
-      "text": "Magical Items (Basic)",
-      "documentId": "zsJcesRnrzLKi62n",
       "img": "icons/svg/d20-highlight.svg",
       "_id": "0ACfDgImLocKrvOO",
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magical Items (Basic)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.zsJcesRnrzLKi62n",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!xRgqzH5hOKVLcu30.FuKjpfifHEtcrCbV",
@@ -47,11 +51,13 @@
       ],
       "drawn": false,
       "_id": "FuKjpfifHEtcrCbV",
-      "text": "No magic items",
       "img": "icons/svg/d20-black.svg",
-      "documentId": null,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No magic items",
+      "name": ""
     }
   ]
 }

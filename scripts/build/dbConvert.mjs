@@ -305,7 +305,16 @@ class dbConvert {
     * @param {Object} documents - All documents from the .db file
     */
     async removeStats(document) {
-        document._stats = {};
+        document._stats = {
+            //"coreVersion": "12.343",
+            "systemId": "fantastic-depths",
+            //"systemVersion": document.systemVersion,
+        //    "createdTime": null,
+        //    "modifiedTime": null,
+        //    "lastModifiedBy": null,
+        //    "compendiumSource": null,
+        //    "duplicateSource": null
+        };
     }
 
     /**
@@ -471,6 +480,9 @@ class dbConvert {
         const dbPath = path.join(process.cwd(), "packs", `${packName}.db`);
         
         try {
+            // Ensure pack directory exists
+            await fs.mkdir(path.dirname(dbPath), { recursive: true });
+
             // The documents object is already in the correct format - just write it as JSON
             const dbContent = JSON.stringify(documents, null, 2);
             
