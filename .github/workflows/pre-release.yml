@@ -67,24 +67,12 @@ jobs:
         if: env.is_valid == 'true'
         id: prepare_notes
         run: |
-          # Try to get existing release notes
-          EXISTING_NOTES=$(gh release view ${{ env.VERSION }} --json body --jq '.body' 2>/dev/null || echo "")
-          
           # Create new release notes
           echo "## Fantastic Depths Compendiums Pre-Release" > release_notes.txt
           echo "" >> release_notes.txt
           echo "This is a pre-release version of Fantastic Depths Compendiums." >> release_notes.txt
           echo "To install manually, use this URL:" >> release_notes.txt
           echo "https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/main/module.json" >> release_notes.txt
-          
-          # If there were existing notes, append them
-          if [ ! -z "$EXISTING_NOTES" ] && [ "$EXISTING_NOTES" != "null" ]; then
-            echo "" >> release_notes.txt
-            echo "---" >> release_notes.txt
-            echo "" >> release_notes.txt
-            echo "### Previous Release Notes:" >> release_notes.txt
-            echo "$EXISTING_NOTES" >> release_notes.txt
-          fi
 
       - name: Create GitHub pre-release
         if: env.is_valid == 'true'
@@ -99,4 +87,3 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           updateOnlyUnreleased: false
-
