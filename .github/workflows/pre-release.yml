@@ -83,7 +83,7 @@ jobs:
           artifacts: fade-compendiums.zip
           bodyfile: release_notes.txt
           token: ${{ secrets.GITHUB_TOKEN }}
-          skipIfReleaseExists: true
           allowUpdates: true
           replacesArtifacts: true
+          updateOnlyUnreleased: false
 
