@@ -1,0 +1,74 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Shield, Knife",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "_id": "qfCLTbwrUKRukz0d",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This is a compact buckler equipped with one or two short blades extending from its edges. These protrusions allow it to serve both as a defensive tool and an offensive weapon. Its small size makes it easier to maneuver compared to larger shields.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 70,
+    "cost": 65,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "damageRoll": "1d4+1",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Shield, Knife",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "unidentifiedName": "Shield, Knife",
+    "unidentifiedDesc": "<p>This is a compact buckler equipped with one or two short blades extending from its edges. These protrusions allow it to serve both as a defensive tool and an offensive weapon. Its small size makes it easier to maneuver compared to larger shields.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3500000,
+  "_originalKey": "!items!qfCLTbwrUKRukz0d"
+}

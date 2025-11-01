@@ -1,0 +1,49 @@
+{
+  "name": "Still Night",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6UrIsG9bN6Yyc41C",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This haunting melody creates a sphere of absolute silence, 20' in diameter, centered on the bard. Within this sphere, no sound may escape, but those inside can still hear sounds from the outside. The effect moves with the bard for the duration of the spell.</p><p><strong>Effects:</strong></p><ul><li>Prevents all sound from being heard outside the sphere.</li><li>Nullifies all spellcasting within the sphere (verbal components cannot be spoken).</li><li>The sphere moves with the bard while the effect lasts.</li><li>Creatures inside can still hear sounds coming from outside the sphere.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0 (bard only)",
+    "duration": "6 turns",
+    "effect": "Creates a sphere of absolute silence (20' diameter)",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "LtFWYYEG7va14PIK",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!LtFWYYEG7va14PIK"
+}

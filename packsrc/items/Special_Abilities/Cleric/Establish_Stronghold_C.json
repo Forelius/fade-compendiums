@@ -1,0 +1,44 @@
+{
+  "folder": "BRiOjloSzFr5YjDZ",
+  "name": "Establish Stronghold (C)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "xYHaQEB17PlkH1h5",
+  "system": {
+    "tags": [],
+    "description": "<p>A cleric who chooses to establish a stronghold with the approval of his clerical order is known as a \"land-owning cleric.\" This term is convenient, as a land-owning cleric can still adventure with friends and is not bound to his land.</p><p><strong>Advantages:</strong> The cleric can advance within his order, receive financial support for building the stronghold, and potentially expand his lands, leading to significant wealth.</p><p><strong>Disadvantages:</strong> The cleric becomes the primary authority for his order in the area, bearing responsibilities to the local populace that may hinder his ability to travel with old adventuring companions or present him with challenging issues.</p><p>When a 9th-level cleric decides to build a stronghold, he must seek permission from a superior, either an official of his order or a local ruler. The ruler should grant the land unless there are past issues; in such cases, the ruler may require a service, like a quest, before approval. The DM will determine if the cleric's order has the authority to grant land based on the campaign's setting.</p><p>If the cleric has a clean record, his order may assist with construction costs, typically covering up to 50% of the expenses. The player can design the stronghold, and the DM will assess the costs, deciding what portion the order will fund. Regardless of the financial support, the stronghold remains the cleric's property, and he cannot deny access to order members, nor can he be reassigned against his will.</p><p>Once the stronghold is built, a number of lower-level clerics (typically 1d6) will arrive to assist with its clerical functions. These clerics are there to help operate the stronghold, not to join the cleric on adventures. The DM should create each assistant cleric with their own name, personality, background, goals, and abilities.</p><p>If the cleric manages his land and serves his order well, he is likely to gain power within the clerical hierarchy, receive additional land, and see an increase in tax income from the growing settlements around his stronghold.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "C",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!xYHaQEB17PlkH1h5"
+}

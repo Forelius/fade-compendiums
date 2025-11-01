@@ -1,0 +1,59 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Antidote",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "JlvoPb0iHSdreTTV",
+  "system": {
+    "tags": [],
+    "description": "<p>Grants immunity to certain poisons and provides a <strong>+2 bonus to saving throws against poison</strong>. The weakest version protects against poisons from creatures with 3 Hit Dice or less, while stronger versions counter poisons from more powerful creatures. Poisons avoided during the potion's duration have no effect after it ends.</p><p>Roll [[/br 1d10 #Counter poison type: 1-4=3HD, 5-7=7HD, 8-9=15HD, and 10=All types of poison.]] to determine which poisons it counters.</p><p>1-4: Protects against poisons from creatures of 3 Hit Dice or less. <br>5-7: Protects against poisons from creatures of 7 Hit Dice or less. <br>8-9: Protects against poisons from creatures of 15 Hit Dice or less. <br>10: Protects against all types of poison.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>A potion of poison is normally treated as poison from a 7-HD monster. The DM can adjust this option as necessary.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Grants immunity to certain types of poison",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.hHOXKk3lbivWaQaB",
+        "name": "Poison Immune (3HD)",
+        "remove": false
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.shgXt1YXWe1Ia8GV",
+        "name": "Poison Immune (7HD)",
+        "remove": false
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.76zgCIDcaQqkXuNS",
+        "name": "Poison Immune (15HD)",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!JlvoPb0iHSdreTTV"
+}

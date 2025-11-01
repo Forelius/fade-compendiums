@@ -1,0 +1,665 @@
+{
+  "name": "Druid",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "alignment": "Neutral",
+    "maxLevel": 36,
+    "maxSpellLevel": 7,
+    "firstLevel": 9,
+    "levels": [
+      {
+        "level": 9,
+        "xp": 200000,
+        "thac0": 12,
+        "thbonus": 7,
+        "hd": "9d8",
+        "hdcon": true,
+        "title": "Druid",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 300000,
+        "thac0": 12,
+        "thbonus": 7,
+        "hd": "9d8+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 500000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+3",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 600000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 700000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "9d8+5",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 800000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "9d8+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 900000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "9d8+7",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1000000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1100000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1200000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1300000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "9d8+11",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1400000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "9d8+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1500000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "9d8+13",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1600000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 1700000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+15",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 1800000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 1900000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "9d8+17",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2000000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "9d8+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2100000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "9d8+19",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2200000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2300000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+21",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2400000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 2500000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+23",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 2600000,
+        "thac0": 4,
+        "thbonus": 15,
+        "hd": "9d8+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 2700000,
+        "thac0": 4,
+        "thbonus": 15,
+        "hd": "9d8+25",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 2800000,
+        "thac0": 4,
+        "thbonus": 15,
+        "hd": "9d8+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 2900000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+27",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 12,
+        "death": 7,
+        "wand": 8,
+        "paralysis": 10,
+        "breath": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "death": 6,
+        "wand": 7,
+        "paralysis": 8,
+        "breath": 10,
+        "spell": 9
+      },
+      {
+        "level": 20,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 6,
+        "breath": 8,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 5,
+        "breath": 6,
+        "spell": 5
+      },
+      {
+        "level": 28,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 4,
+        "spell": 4
+      },
+      {
+        "level": 32,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 3,
+        "breath": 3,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "spells": [
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        0
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4
+      ],
+      [
+        7,
+        7,
+        6,
+        6,
+        5,
+        4,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5
+      ],
+      [
+        8,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        6,
+        6,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6
+      ],
+      [
+        9,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7
+      ],
+      [
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      [
+        9,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "key": "DR",
+    "description": "<p>A druid is a Neutral-aligned cleric who dedicates themselves to preserving and balancing nature, transitioning from traditional clerical duties upon reaching 9th level. To become a druid, a cleric must spend 1–4 months meditating in a woodland home under the guidance of a higher-level druid. Druids emphasize harmony with nature and avoid spells or actions tied to Good or Evil.</p><p>Druids have several distinct characteristics:</p><ul><li><strong>Armor and Weapons</strong>: They cannot use metal items, relying on leather armor, wooden shields, and non-metal, non-piercing weapons like staves.</li><li><strong>Living and Philosophy</strong>: Druids must live in a natural setting, caring for and protecting a specific woodland area. They view themselves as stewards of nature, punishing deliberate harm while tolerating minor, necessary disruptions.</li><li><strong>Spells</strong>: Druids can cast clerical spells along with a unique set of nature-oriented spells, including abilities to control plants, predict weather, and summon animals.</li><li><strong>Advancement</strong>: Higher-level druids must challenge and defeat others of equal rank to advance, with only one \"Great Druid\" existing at the 36th level.</li></ul><p>Druids blend magical abilities with a deep commitment to the balance and protection of nature.</p>",
+    "classItems": [],
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [],
+    "unskilledToHitMod": -3,
+    "firstSpellLevel": 1,
+    "castAsKey": "C",
+    "basicProficiency": false
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2bY72FXD6Eh3eXAU",
+  "sort": 0,
+  "_originalKey": "!items!2bY72FXD6Eh3eXAU"
+}

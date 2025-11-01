@@ -1,0 +1,44 @@
+{
+  "name": "Spell Research",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>A character can attempt to create a new spell, provided it is of a level they can cast. The process requires:</p><ul><li><p>1,000 gp per spell level</p></li><li><p>Two weeks of research per spell level</p></li><li><p>Rare components, often necessitating an adventure to obtain</p></li><li><p>A fully stocked laboratory or library</p></li></ul><p>The chance of success depends on the character's Intelligence score and level, with modifications for spell difficulty. If a research attempt fails, the process must be restarted, but each failure grants a +5% cumulative bonus to future attempts.</p><p>Typically, a character does not have a sufficient library for advanced research until reaching 18th level, or at least 9th level if they have collected extensive magical tomes. While research is technically possible at any level, lower-level characters may struggle to meet the requirements.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "M",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "z35KFMVUIiDBzg5O",
+  "_id": "RiQf6DTXCGNocoOA",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!RiQf6DTXCGNocoOA"
+}

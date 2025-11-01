@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Restrained",
+  "type": "condition",
+  "img": "icons/svg/net.svg",
+  "_id": "0kJsC2psxfPVJmm5",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Victim is completely immobilized. Cannot attack or defend. Melee attackers may hit automatically. Missile attacks still require a roll, but the victim loses Dexterity bonus to AC.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "5f9c5woYZ3SlG18E"
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!0kJsC2psxfPVJmm5",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!0kJsC2psxfPVJmm5.5f9c5woYZ3SlG18E",
+      "name": "Restrained",
+      "img": "icons/svg/net.svg",
+      "disabled": false,
+      "_id": "5f9c5woYZ3SlG18E",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "restrain"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

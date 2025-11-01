@@ -1,0 +1,44 @@
+{
+  "name": "Listen Door",
+  "type": "specialAbility",
+  "img": "modules/fade-compendiums/assets/img/skill/listendoor.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>Listening for noises is a skill any character can attempt, commonly used at doors or in other quiet environments. To attempt this, the area must be silent, and all party members must remain still to avoid interfering with the attempt. The Dungeon Master rolls or the player rolls blind, whether or not a sound exists, to maintain player uncertainty. A successful roll  allows the character to hear any detectable noises if conditions permit. <br>Demi-humans, such as dwarves, elves, and halflings, get a bonus of 1 for their listen roll. Thieves also gain increased effectiveness at this task as they progress in levels​​.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "rollFormula": "1d6",
+    "operator": "lte",
+    "target": "1",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": 1,
+    "autoFail": 6,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "explore",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true
+  },
+  "effects": [],
+  "folder": "SSodW6IBMU8TbVXq",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "qTQsTNYfcHpEki7V",
+  "sort": 0,
+  "_originalKey": "!items!qTQsTNYfcHpEki7V"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Spellcasting (Dragon)",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>This dragon can cast spells.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "spellcasting",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "DRGN",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "effects": [],
+  "folder": "164Li2oYfnb0Z7S7",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4v9SaLnMEndAK7lB",
+  "sort": 0,
+  "_originalKey": "!items!4v9SaLnMEndAK7lB"
+}

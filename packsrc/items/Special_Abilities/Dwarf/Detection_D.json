@@ -1,0 +1,44 @@
+{
+  "name": "Detection (D)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Dwarves can detect traps, sliding walls, sloping corridors, and new construction with a 1 in 2 chance. To search, the dwarf must actively look for these features, and the DM rolls 1d6; a roll of 1 or 2 indicates success.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d6",
+    "operator": "lte",
+    "target": "2",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": 1,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "explore",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "D",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "e4MHzfcZGPAOJt8x",
+  "_id": "2qW92cLRKfFbFelj",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!2qW92cLRKfFbFelj"
+}

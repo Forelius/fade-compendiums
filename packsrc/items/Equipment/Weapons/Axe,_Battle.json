@@ -1,0 +1,76 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Axe, Battle",
+  "type": "weapon",
+  "_id": "cmPtfMLPOc8Qdt2X",
+  "img": "modules/fade-compendiums/assets/img/weapon/battleaxe.webp",
+  "system": {
+    "tags": [
+      "slow"
+    ],
+    "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 60,
+    "cost": 7,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d8",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Axe, Battle",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2800000,
+  "_originalKey": "!items!cmPtfMLPOc8Qdt2X"
+}

@@ -1,0 +1,757 @@
+{
+  "name": "Green Slime*",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "isEnchanted": true,
+    "details": {
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 7,
+      "xpAward": 30,
+      "attacks": "1",
+      "abilityCount": 2,
+      "monsterType": "Lowlife",
+      "saveAs": "F1",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Common",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "2",
+      "value": 9,
+      "max": 9
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "0"
+    },
+    "treasure": "P+S, B",
+    "thac0": {
+      "value": 18,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 3,
+      "turn": 3,
+      "round": 1,
+      "day": 0,
+      "run": 3
+    },
+    "biography": "<p>The green slime is a horrifying, mindless ooze that clings to ceilings and walls, waiting to drop onto unsuspecting victims.</p><p><strong>Always Hit:</strong> The green slime is AC 20 and can always be hit by attacks.</p><p><strong>Destructive Touch:</strong> It dissolves cloth and leather instantly, wood and metal in 6 rounds, but cannot dissolve stone.</p><p><strong>Body Transformation:</strong> When green slime touches flesh, it sticks and starts transforming the victim into green slime. The process is irreversible after 1d4 rounds unless it is burned off or removed with <em>cure disease</em>.</p><p><strong>Burning & Removal:</strong> Green slime cannot be scraped off. Fire and cold damage it, but fire also harms the victim (splitting damage between both).</p><p><strong>Resistances & Weaknesses:</strong></p><ul><li>Immune to all attacks except fire or cold.</li><li>Cannot be harmed by normal weapons.</li></ul><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 1,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 13,
+    "acDigest": [],
+    "activeLight": null,
+    "abilities": {
+      "int": {
+        "value": 0,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "enchanted"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Green Slime*",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "9JElIjXdGGxpbWlr",
+    "W3mMRNOtN61uDis6",
+    "3DRjHIRtRi52v7x1",
+    "eEMvbIGHWI3H3Niu",
+    "b2uXLWxsPLhEhYmh",
+    "zeNIASrLCk7BT83l",
+    "l2Zx8lwwzatUWWNS",
+    "42mRXA6v7qrLdxCM",
+    "SlooXiw4qtRvRd5H"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "56ljouoCm7aDOC3Q",
+  "sort": 1800000,
+  "_originalKey": "!actors!56ljouoCm7aDOC3Q",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.3DRjHIRtRi52v7x1",
+      "name": "Flesh to Slime",
+      "type": "specialAbility",
+      "system": {
+        "description": "<p>Once in contact with flesh, the slime <strong>sticks and transforms the victim into green slime in 1d4 rounds</strong> unless burned off or cured with <strong>cure disease.</strong></p>",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "3DRjHIRtRi52v7x1",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.42mRXA6v7qrLdxCM",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "42mRXA6v7qrLdxCM",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.9JElIjXdGGxpbWlr",
+      "name": "Slime Body",
+      "type": "armor",
+      "system": {
+        "description": "<p>The green slime is an amorphous, sticky mass with <strong>AC 20</strong>. It can always be hit.</p>",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 20,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "9JElIjXdGGxpbWlr",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.SlooXiw4qtRvRd5H",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "SlooXiw4qtRvRd5H",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.W3mMRNOtN61uDis6",
+      "name": "Dissolving Touch",
+      "type": "weapon",
+      "system": {
+        "description": "<p>The green slime <strong>dissolves cloth and leather instantly</strong>, <strong>wood and metal in 6 rounds</strong>, but <strong>cannot dissolve stone.</strong></p>",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "0",
+        "canMelee": false,
+        "canRanged": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/svg/acid.svg",
+      "_id": "W3mMRNOtN61uDis6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.b2uXLWxsPLhEhYmh",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "b2uXLWxsPLhEhYmh",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.eEMvbIGHWI3H3Niu",
+      "name": "Fire & Cold Vulnerability",
+      "type": "specialAbility",
+      "system": {
+        "description": "<p>Green slime can only be harmed by <strong>fire or cold.</strong> Burning it <strong>splits damage between the slime and its victim.</strong></p>",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "eEMvbIGHWI3H3Niu",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.l2Zx8lwwzatUWWNS",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "l2Zx8lwwzatUWWNS",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!56ljouoCm7aDOC3Q.zeNIASrLCk7BT83l",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "zeNIASrLCk7BT83l",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    }
+  ]
+}

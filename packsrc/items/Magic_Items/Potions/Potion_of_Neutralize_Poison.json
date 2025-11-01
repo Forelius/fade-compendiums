@@ -1,0 +1,52 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Neutralize Poison",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This potion contains a shimmering green liquid that neutralizes any poison affecting the drinker. It is effective against poisons that have been ingested, inhaled, or injected, but must be consumed within one hour of exposure to work. The drinker is immediately cured of all poison effects upon consumption.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 500,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Potion",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true
+  },
+  "effects": [],
+  "_id": "KYHOaxgV79HXVaTh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3100000,
+  "_originalKey": "!items!KYHOaxgV79HXVaTh"
+}

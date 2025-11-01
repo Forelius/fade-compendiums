@@ -1,0 +1,47 @@
+{
+  "name": "Passwall",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a hole 5' in diameter and 10' deep in solid rock or stone only. The hole may be oriented horizontally or vertically.</p>\n                      <p><strong>End of Duration:</strong> When the spell ends, the stone reappears. Any creature still in the hole at that time must make a saving throw vs. turn to stone. On a success, the creature is ejected from the nearest end of the tunnel; on a failure, the creature is trapped and killed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "3 turns",
+    "effect": "Creates a hole 10' deep",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "180",
+    "savingThrow": "paralysis",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "c575QGhnXcF8obg8",
+  "sort": 0,
+  "_originalKey": "!items!c575QGhnXcF8obg8"
+}

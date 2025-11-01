@@ -1,0 +1,47 @@
+{
+  "name": "Wizardry",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the cleric to temporarily wield the magical powers of a magic-user, enabling the use of certain restricted items.</p>\n                      <h3>Effects:</h3>\n                      <ul>\n                        <li>The cleric may use <strong>one magic-user-only item</strong>, choosing between:</li>\n                        <ul>\n                          <li>A magic-user device (such as a wand, staff, or rod).</li>\n                          <li>A magic-user scroll containing a <strong>1st or 2nd level spell</strong>.</li>\n                        </ul>\n                        <li><strong>Spell Level Restriction:</strong> The cleric <strong>cannot</strong> use spells of 3rd level or higher, even if present on the scroll.</li>\n                      </ul>\n                      \n                      <h3>Duration:</h3>\n                      <ul>\n                        <li>The spell lasts for <strong>one turn</strong> (10 minutes) or until the cleric uses the item.</li>\n                      </ul>\n                      \n                      <h3>Temporary Knowledge:</h3>\n                      <ul>\n                        <li>During the spell’s duration, the cleric <strong>magically understands</strong> how to operate the selected item.</li>\n                        <li>For a scroll spell, the cleric is treated as the <strong>minimum level</strong> required to cast the spell.</li>\n                      </ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "0 (Cleric only)",
+    "duration": "One turn",
+    "effect": "Allows the use of one magic-user device or scroll spell",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "EClSq3iu7ChbfXE9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!EClSq3iu7ChbfXE9"
+}

@@ -1,0 +1,20 @@
+{
+  "folder": "82lkvbbc5Yg9Obvr",
+  "name": "Treasure Type R",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/containers/chest/chest-reinforced-steel-oak-tan.webp",
+  "scope": "global",
+  "command": "const treasure = new game.fade.fadeTreasure();\nconst coinsArray = [\n{ type: \"ep\", formula: \"2d6\", chance: 100 }\n];\nconst tableArray = [];\n// Call the method\nawait treasure.rollMultipleTables(coinsArray, tableArray, 'Treasure Type R');",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "bRKmjmRZsHgY2kSf",
+  "_originalKey": "!macros!bRKmjmRZsHgY2kSf"
+}

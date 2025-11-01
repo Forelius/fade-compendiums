@@ -1,0 +1,76 @@
+{
+  "name": "Bola",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/bola.webp",
+  "_id": "4u775b0uMAQXFZp4",
+  "system": {
+    "tags": [
+      "thrown"
+    ],
+    "description": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 cn</li><li>2 bolas = 15 cn</li><li>3 bolas = 45 cn, and so on.</li></ul></li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 5,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "damageRoll": "1d2",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "death",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "monster",
+    "range": {
+      "short": 20,
+      "medium": 40,
+      "long": 60
+    },
+    "natural": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>This weapon consists of a cord with weighted balls at the ends, designed to be whirled and thrown at a target. While it deals minimal damage (1d2 points), it has the potential to entangle, slow, or delay the victim.</p><ul><li><p><strong>Critical Effect</strong>: If the attack roll is a natural 20 (excluding modifiers), the victim must make a saving throw vs. death ray. On a failed save, the victim is immediately paralyzed and will die from strangulation in [[/r 1d6+2#Rounds before dying of strangulation]]<strong> (3-8 rounds total)</strong> unless rescued. If freed, the victim remains paralyzed for [[/r 2d6#Rounds paralyzed]]<strong> (2-12 rounds)</strong>. Creatures that do not breathe (e.g., constructs) are immune to this effect.</p></li><li><p><strong>Normal Effect</strong>: If the attack roll succeeds but is not a natural 20, the victim must still make a saving throw vs. death ray. A successful save negates all effects except for damage. On a failed save, the effect depends on the victim’s size or experience level, as determined by the <strong>Weapon Special Effects Table</strong>.</p></li><li><p><strong>Escaping the Bola</strong>:</p><ul><li>The victim may attempt a new saving throw during the hand-to-hand combat phase of each round. A successful save means the bola has been removed.</li><li>If another character helps to remove the bola, the victim rolls their own saving throw vs. death ray with a <strong>+2 bonus</strong>.</li><li>The bola can also be destroyed. If the victim has an edged weapon and chooses to destroy it, they may spend <strong>1 round</strong> doing so. Otherwise, the bola remains intact, and the victim may choose to drop it or hold onto it.</li></ul></li><li><p><strong>Possible Effects (from the Weapon Special Effects Table)</strong>:</p><ul><li><strong>Entangle</strong>: The victim cannot attack, move, or cast spells until they successfully make a saving throw.</li><li><strong>Slow</strong>: The victim is slowed, moving and attacking at half their normal rate and unable to cast spells.</li><li><strong>Delay</strong>: The victim automatically loses individual initiative for the next round.</li></ul></li></ul><p>This weapon only affects solid creatures. Creatures such as wraiths, spectres, ethereal beings, or water-based monsters (e.g., water elementals) are immune.</p><ul><li><p><strong>Encumbrance</strong>: Bolas are cumbersome to carry and can become tangled. For each additional bola carried, the encumbrance triples:</p><ul><li>1 bola = 5 en</li><li>2 bolas = 15 en</li><li>3 bolas = 45 en, and so on.</li></ul></li></ul>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 400000,
+  "_originalKey": "!items!4u775b0uMAQXFZp4"
+}

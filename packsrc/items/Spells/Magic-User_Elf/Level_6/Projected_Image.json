@@ -1,0 +1,51 @@
+{
+  "name": "Projected Image",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a perfect illusionary duplicate of the caster at any location within 240'. The projected image mimics the caster’s movements and actions precisely and remains active without requiring concentration.</p><h4>Effects:</h4><ul><li>The image is visually indistinguishable from the caster, except by touch.</li><li>The caster can cast spells from the image’s location; however, the caster must still be able to see the target of the spell.</li><li>The image is immune to missile attacks and spells—they pass through harmlessly.</li><li>If the image is touched or struck in melee combat, it immediately vanishes.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "240'",
+    "duration": "6 turns",
+    "effect": "Creates one image",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "kgLXMDVsatUofA9K",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!kgLXMDVsatUofA9K"
+}

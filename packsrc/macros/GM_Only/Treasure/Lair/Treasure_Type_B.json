@@ -1,0 +1,20 @@
+{
+  "folder": "S7Cp6NiLZ2Askw5G",
+  "name": "Treasure Type B",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/containers/chest/chest-reinforced-steel-oak-tan.webp",
+  "scope": "global",
+  "command": "const treasure = new game.fade.fadeTreasure();\nconst coinsArray = [\n{ type: \"cp\", formula: \"1d8*1000\", chance: 50 },\n{ type: \"sp\", formula: \"1d6*1000\", chance: 25 },\n{ type: \"ep\", formula: \"1d4*1000\", chance: 25 },\n{ type: \"gp\", formula: \"1d3*1000\", chance: 35 },\n{ type: \"gems\", formula: \"1d6\", chance: 25 },\n{ type: \"jewelry\", formula: \"1d6\", chance: 25 }\n];\nconst tableArray = [\n  { name: \"Sword, Weapon or Armor (Basic)\", formula: \"1\", chance: 10 },\n];\n// Call the method\nawait treasure.rollMultipleTables(coinsArray, tableArray, 'Treasure Type B');",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "zK2d1Creag9WQX1c",
+  "_originalKey": "!macros!zK2d1Creag9WQX1c"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Tossed Item",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 10,
+          "medium": 30,
+          "long": 50
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Stun (s)"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 10,
+          "medium": 30,
+          "long": 50
+        },
+        "pDmgFormula": "1d8",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Ignite"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 10,
+          "medium": 30,
+          "long": 50
+        },
+        "pDmgFormula": "1d8",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Ignite"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 10,
+          "medium": 30,
+          "long": 50
+        },
+        "pDmgFormula": "1d8",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Ignite"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 10,
+          "medium": 30,
+          "long": 50
+        },
+        "pDmgFormula": "1d8",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Ignite"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "AHjBTmRs7bYHQjmg",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 500000,
+  "_originalKey": "!items!AHjBTmRs7bYHQjmg"
+}

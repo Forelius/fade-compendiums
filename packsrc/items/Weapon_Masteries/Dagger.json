@@ -1,0 +1,105 @@
+{
+  "name": "Dagger",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d4",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        }
+      },
+      {
+        "name": "skilled",
+        "acBonus": -1,
+        "acBonusType": "handheld",
+        "acBonusAT": 1,
+        "pDmgFormula": "1d6",
+        "pToHit": 2,
+        "sDmgFormula": "",
+        "sToHit": 1,
+        "special": "x2 damage (20)",
+        "range": {
+          "short": 15,
+          "medium": 25,
+          "long": 35
+        }
+      },
+      {
+        "name": "expert",
+        "acBonus": -2,
+        "acBonusType": "handheld",
+        "acBonusAT": 2,
+        "pDmgFormula": "2d4",
+        "pToHit": 4,
+        "sDmgFormula": "",
+        "sToHit": 2,
+        "special": "x2 damage (19-20)",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 45
+        }
+      },
+      {
+        "name": "master",
+        "acBonus": -2,
+        "acBonusType": "handheld",
+        "acBonusAT": 2,
+        "pDmgFormula": "3d4",
+        "pToHit": 6,
+        "sDmgFormula": "2d4+2",
+        "sToHit": 4,
+        "special": "x2 damage (18-20)",
+        "range": {
+          "short": 25,
+          "medium": 35,
+          "long": 50
+        }
+      },
+      {
+        "name": "grandMaster",
+        "acBonus": -3,
+        "acBonusType": "handheld",
+        "acBonusAT": 3,
+        "pDmgFormula": "4d4",
+        "pToHit": 8,
+        "sDmgFormula": "3d4+1",
+        "sToHit": 6,
+        "special": "x2 damage (17-20)",
+        "range": {
+          "short": 30,
+          "medium": 50,
+          "long": 60
+        }
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "BNJmlgLFy9eGjCnQ",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 600000,
+  "_originalKey": "!items!BNJmlgLFy9eGjCnQ"
+}

@@ -1,0 +1,104 @@
+{
+  "folder": "uLboNwWIgBWl1stW",
+  "name": "Animal Herd",
+  "_id": "bupXplrBx8WFzbSm",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Animal herd encounter.</p>",
+  "results": [
+    "yz7qa8jJl51FVHks",
+    "zVyAuFHAC9Au8cXk",
+    "60KHn01MvRTFQoF6",
+    "9PdqJwE7ubytM2eE"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d4",
+  "sort": 0,
+  "_originalKey": "!tables!bupXplrBx8WFzbSm",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!bupXplrBx8WFzbSm.60KHn01MvRTFQoF6",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "60KHn01MvRTFQoF6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal Herd (3 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ZHORkcj3Jp2d9aIr",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!bupXplrBx8WFzbSm.9PdqJwE7ubytM2eE",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9PdqJwE7ubytM2eE",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal Herd (4 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.Hktyl676CO9F2CqQ",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!bupXplrBx8WFzbSm.yz7qa8jJl51FVHks",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "yz7qa8jJl51FVHks",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal Herd (1 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ScSV1GwwMG8SLXBV",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!bupXplrBx8WFzbSm.zVyAuFHAC9Au8cXk",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "zVyAuFHAC9Au8cXk",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal Herd (2 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.Qs4gN2CgWpZDGLig",
+      "description": ""
+    }
+  ]
+}

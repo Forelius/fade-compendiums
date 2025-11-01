@@ -1,0 +1,90 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Stunned",
+  "type": "condition",
+  "img": "icons/svg/stoned.svg",
+  "_id": "UCDe2AQYs7QPyt22",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Certain types of spells, attacks, or magical effects can stun a character. The duration of the stun is determined by the type of attack; the description of each type of attack that can stun will describe its duration.</p><p>A stunned character suffers the following penalties:</p><ol><li><p>The stunned character cannot attack anyone for the first turn he is stunned (or until the stun wears off, if that is faster); after the first turn, he is at a -4 to hit until the stun wears off.</p></li><li><p>He moves at one-third the normal movement rate for whatever speed he is attempting.</p></li><li><p>He suffers a -4 penalty to all his saving throws.</p></li><li><p>He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9).</p></li><li><p>He cannot concentrate, cast spells, or use magical items.</p></li><li><p>He cannot use general skills.</p></li><li><p>Any weapon mastery the character possesses above Basic level is reduced to Basic level.</p></li></ol><p>The cleric spell <em>cure light wounds</em> can be used to remove the stun effect but will not cure any damage when used for this purpose.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "iy1Lq3kx1M7zEIO5"
+  ],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!UCDe2AQYs7QPyt22",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!UCDe2AQYs7QPyt22.iy1Lq3kx1M7zEIO5",
+      "name": "Stunned",
+      "img": "icons/svg/stoned.svg",
+      "disabled": false,
+      "_id": "iy1Lq3kx1M7zEIO5",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.ac",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.masteryLevelOverride",
+          "mode": 5,
+          "value": "basic",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "stun"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

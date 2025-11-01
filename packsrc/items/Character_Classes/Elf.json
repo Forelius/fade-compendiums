@@ -1,0 +1,541 @@
+{
+  "name": "Elf",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Elf",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "int",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "int",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 20,
+    "maxSpellLevel": 5,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Veteran Medium",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 4000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Warrior Seer",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 8000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Swordmaster Conjurer",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 16000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Hero Magician",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 32000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Swashbuckler Enchanter",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 64000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Myrmidon Warlock",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 120000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Champion Sorcerer",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 250000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "Superhero Necromancer",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 400000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6",
+        "hdcon": true,
+        "title": "Lord Wizard",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "C"
+      },
+      {
+        "level": 11,
+        "xp": 850000,
+        "thac0": 12,
+        "thbonus": 7,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "D"
+      },
+      {
+        "level": 12,
+        "xp": 1100000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "E"
+      },
+      {
+        "level": 13,
+        "xp": 1350000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "F"
+      },
+      {
+        "level": 14,
+        "xp": 1600000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "G"
+      },
+      {
+        "level": 15,
+        "xp": 1850000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "H"
+      },
+      {
+        "level": 16,
+        "xp": 2100000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "I"
+      },
+      {
+        "level": 17,
+        "xp": 2350000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "J"
+      },
+      {
+        "level": 18,
+        "xp": 2600000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "K"
+      },
+      {
+        "level": 19,
+        "xp": 2850000,
+        "thac0": 4,
+        "thbonus": 15,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "L"
+      },
+      {
+        "level": 20,
+        "xp": 3100000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": "M"
+      }
+    ],
+    "saves": [
+      {
+        "level": 3,
+        "death": 12,
+        "wand": 13,
+        "paralysis": 13,
+        "breath": 15,
+        "spell": 15
+      },
+      {
+        "level": 6,
+        "death": 8,
+        "wand": 10,
+        "paralysis": 10,
+        "breath": 11,
+        "spell": 11
+      },
+      {
+        "level": 9,
+        "death": 4,
+        "wand": 7,
+        "paralysis": 7,
+        "breath": 7,
+        "spell": 7
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 3,
+        "spell": 3
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        0
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ],
+      [
+        5,
+        4,
+        3,
+        3,
+        1
+      ]
+    ],
+    "alignment": "Any",
+    "key": "E",
+    "description": "<p>Elves are slender, graceful demi-humans with delicate features and pointed ears. They typically stand between 5 and 5½ feet tall and weigh around 120 pounds. As a blend of fighters and magic-users, elves are skilled in combat and capable of casting spells, making them versatile and powerful adventurers.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Intelligence. If both scores are 13 or higher, the elf gains a 5% experience bonus. If Intelligence is 16 or greater, this bonus increases to 10%.</li><li><strong>Combat and Spellcasting</strong>: Elves can use all types of armor and weapons while also casting magic-user spells. They are particularly effective in combat when uninjured and can utilize both fighting and magical strategies.</li><li><strong>Hit Dice</strong>: Elves roll 1d6 per level for hit points, with a maximum level of 10. They gain an additional +2 hit points at 10th level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Infravision allows them to see up to 60 feet in the dark.</li><li>A natural immunity to ghoul paralysis.</li><li>They excel at finding secret doors, succeeding on a 1 or 2 when rolling a d6.</li><li>Elves gain resistance to dragon breath attacks at higher experience levels, taking half or one-quarter damage depending on their saving throw success.</li><li>Elves can speak the languages of Elves, Gnolls, Hobgoblins, and Orcs, in addition to Common and their alignment tongue.</li></ul></li></ul><h3>Advancement and Strongholds:</h3><p>Elves reach Name level at 9th level and may establish a stronghold in a natural, beautiful location, such as atop great trees or near waterfalls. These strongholds foster harmony with nearby animals, enabling communication and mutual protection. Elves can only advance to 10th level, but their combination of skills and magical abilities balances this limitation.</p><p>Their dual nature as fighters and magic-users makes elves both formidable allies and dangerous foes in any adventure.</p>",
+    "classItems": [],
+    "abilities": {
+      "int": {
+        "min": 9
+      },
+      "str": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Arcane Spellcasting (E)",
+        "target": 0,
+        "changes": "",
+        "classKey": "M"
+      },
+      {
+        "level": 1,
+        "name": "Detect Secret Door",
+        "target": 3,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 1,
+        "name": "Ghoul Paralysis Immunity (E)",
+        "target": 0,
+        "changes": "",
+        "classKey": "E"
+      },
+      {
+        "level": 1,
+        "name": "Infravision (E)",
+        "target": 0,
+        "changes": "",
+        "classKey": "E"
+      },
+      {
+        "level": 1,
+        "name": "Lance Attack",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      },
+      {
+        "level": 1,
+        "name": "Set Spear vs. Charge",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      },
+      {
+        "level": 9,
+        "name": "Establish Stronghold (E)",
+        "target": 0,
+        "changes": "",
+        "classKey": "E"
+      },
+      {
+        "level": 11,
+        "name": "Disarm",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      },
+      {
+        "level": 11,
+        "name": "Multiple Attacks",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      },
+      {
+        "level": 11,
+        "name": "Parry",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      },
+      {
+        "level": 11,
+        "name": "Smash",
+        "target": 0,
+        "changes": "",
+        "classKey": "F"
+      }
+    ],
+    "basicProficiency": true,
+    "castAsKey": "M"
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "2NiEMVh69JDCqp8d",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!2NiEMVh69JDCqp8d"
+}

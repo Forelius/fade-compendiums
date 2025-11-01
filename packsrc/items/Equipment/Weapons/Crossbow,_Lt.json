@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Crossbow, Lt",
+  "type": "weapon",
+  "_id": "F9MPYJFMoaKIuqeW",
+  "img": "icons/weapons/crossbows/crossbow-blue.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 30,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Crossbow, Light",
+    "weaponType": "all",
+    "range": {
+      "short": 60,
+      "medium": 120,
+      "long": 180
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "quarrel",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1200000,
+  "_originalKey": "!items!F9MPYJFMoaKIuqeW"
+}

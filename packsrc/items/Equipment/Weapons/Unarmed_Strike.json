@@ -1,0 +1,78 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Unarmed Strike",
+  "type": "weapon",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "system": {
+    "tags": [
+      "Mystic"
+    ],
+    "description": "<p>During the hand-to-hand combat phase of a combat round, a player may strike their target with their fist, foot (kick), head (butt), elbow, or knee. If the attacker intends to use their fist, they must be empty-handed, or may drop or put away an item in their striking hand.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 0,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "damageRoll": "0",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Unarmed Combat",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "natural": true,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "canSet": false,
+    "shortName": "",
+    "unidentifiedName": "Unarmed Strike",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "size": "S",
+    "grip": "1H",
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "isOpen": false,
+    "isTreasure": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "M3tlcSo9qIaqTad9",
+  "sort": 2100000,
+  "_originalKey": "!items!M3tlcSo9qIaqTad9"
+}

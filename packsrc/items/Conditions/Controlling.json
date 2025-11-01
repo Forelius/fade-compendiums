@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Controlling",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Able to exert active will to dominate nearby creatures or animate matter; specifics (range, targets, effects, duration) are set by the effect that applies the condition.</p><p></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "ph7YADDITRLfId4s"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Xrile5iqpO0m6P73",
+  "sort": 1500000,
+  "_originalKey": "!items!Xrile5iqpO0m6P73",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!Xrile5iqpO0m6P73.ph7YADDITRLfId4s",
+      "name": "Controlling",
+      "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+      "disabled": false,
+      "_id": "ph7YADDITRLfId4s",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#d1ffb3",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

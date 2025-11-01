@@ -1,0 +1,36 @@
+{
+  "name": "Hunting",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill covers the ability to locate, stalk, and hunt game with weapons like bows, slings, or spears. A successful skill roll grants a +1 to hit against unaware targets in peaceful outdoor settings. This bonus does not apply in combat. The character can automatically supply themselves with food in fertile areas and make skill rolls in less abundant regions. The roll has penalties when trying to supply more than one person, with a -1 penalty per additional person.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "VGLFW8JeQGfDfO8Z",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!VGLFW8JeQGfDfO8Z"
+}

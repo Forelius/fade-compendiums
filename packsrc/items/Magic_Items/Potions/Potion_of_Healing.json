@@ -1,0 +1,62 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Healing",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This potion restores 2-7 hit points [[/r 1d6+1 #Potion of Healing hit points restored.]] or cures paralysis for a single creature. Its effects take place immediately upon consumption.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 400,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.QduPGcSp0HSondZZ",
+        "action": "consume",
+        "castAs": "M6",
+        "name": "Cure Light Wounds*"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "pEWiuVNkUrvzUgQP",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3600000,
+  "_originalKey": "!items!pEWiuVNkUrvzUgQP"
+}

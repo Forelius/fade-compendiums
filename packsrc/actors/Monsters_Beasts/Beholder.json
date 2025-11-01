@@ -1,0 +1,798 @@
+{
+  "name": "Beholder",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 12,
+      "xpAward": 5100,
+      "attacks": "1",
+      "abilityCount": 5,
+      "monsterType": "Monster",
+      "saveAs": "M11",
+      "castAs": "M11",
+      "classAbilityAs": "",
+      "level": 11,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "11",
+      "value": 50,
+      "max": 50
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "0"
+    },
+    "treasure": "L, N, O",
+    "thac0": {
+      "value": 10,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 30,
+      "round": 10,
+      "day": 6,
+      "run": 30,
+      "max": 30
+    },
+    "biography": "<p>A beholder, also known as a “sphere of many eyes,” resembles a large floating ball about 4 feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks atop its body, each with its own unique magical power, and a large central eye positioned on the front, with a toothy mouth below.</p><p>The beholder moves by means of a slow, natural flight that cannot be dispelled. It is highly intelligent, cruel, and greedy, and speaks many languages. This creature is typically found alone but may be accompanied by 1d6 young (each with 1/10 normal Hit Dice and eye effects, dealing 1d4 points of bite damage) with a 5% chance.</p><p>The central eye of an beholder emits an anti-magic ray, which negates all magical effects within 60 feet in front of it. Magical weapons in this area are treated as non-magical, and spells cast within the area of effect are instantly disrupted. Spells cast from outside the area are ruined when they enter its range. The beholder will turn to face any character who begins spellcasting, disrupting the spell. Once the anti-magic ray is no longer directed at an object or area, magical items and effects return to their normal function.</p><p>The anti-magic ray cannot be directed above or below the creature, only straight ahead. As the ray can negate any magic, even that of the smaller eyes, the beholder cannot use its smaller eye powers on targets within this area.</p><p>When attacking an beholder, players must declare whether they are aiming at the body, the large central eye, or an eye stalk, each with distinct armor class and hit points:</p><ul><li>The body has AC 0 and 50 hit points.</li><li>The central eye has AC 2 and 20 hit points.</li><li>An eye stalk has AC 7 and can withstand 12 hit points of damage. Damage to eye stalks does not contribute to killing the creature.</li></ul><p><strong>Small Eyes and Eyestalks:</strong> If an attack hits an eye stalk, the GM should randomly determine which stalk is damaged. A severed eye stalk is rendered nonfunctional, but partial damage does not impede its operation. Lost eyes regenerate in 2d4 days, and partially damaged stalks heal at a rate of 1 hit point per day.</p><p>The beholder can only direct four small eyes in one direction at a time and cannot target directly beneath its body. Each eye can fire a ray with a different spell-like effect once per round. The spell effects are detailed below, with reversed versions indicated by an asterisk.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Charm Person</strong> (range 120')</li><li><strong>Charm Monster</strong> (range 120')</li><li><strong>Sleep</strong> (range 240')</li><li><strong>Telekinesis</strong> (range 120', up to 5,000 cn weight)</li><li><strong>Flesh to Stone</strong>* (range 120')</li><li><strong>Disintegrate</strong> (range 60')</li><li><strong>Cause Fear</strong>* (range 120')</li><li><strong>Slow</strong>* (range 240')</li><li><strong>Cause Serious Wounds</strong>* (range 60')</li><li><strong>Death Spell</strong> (range 240')</li></ol><p><strong>Terrain:</strong> Caverns, Ruins.</p>",
+    "wrestling": 31,
+    "gm": {
+      "notes": ""
+    },
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "label": "Unencumbered",
+      "mv": 0,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 9,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": 0,
+      "total": 0,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 9,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 16,
+        "total": 16,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 12,
+        "total": 22,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "spellcasters"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Orb Guardian",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "z0aXIBteCOH4Pbdq",
+    "AnRVPVf6BAaZ5gQi",
+    "A1QA0e17KkEGOXKs",
+    "i6Mr4WGlfqRZXvGb",
+    "N89be1UFUb4ZnXUZ",
+    "9RffGkGpxWKeublU",
+    "ShkqG00NRHacNUFW",
+    "thM5OAzfcK0eMeme",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "_id": "TiDwqTfBvfJop4IF",
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 12500000,
+  "_originalKey": "!actors!TiDwqTfBvfJop4IF",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.9RffGkGpxWKeublU",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "9RffGkGpxWKeublU",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.A1QA0e17KkEGOXKs",
+      "name": "Anti-Magic Ray",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "The large central eye projects an anti-magic ray that nullifies all magic within 60' in front of it.",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "A1QA0e17KkEGOXKs",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.AnRVPVf6BAaZ5gQi",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "A powerful bite attack from the Orb Guardian.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "2d8",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "AnRVPVf6BAaZ5gQi",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.N89be1UFUb4ZnXUZ",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "N89be1UFUb4ZnXUZ",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "10",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.ShkqG00NRHacNUFW",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ShkqG00NRHacNUFW",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.i6Mr4WGlfqRZXvGb",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "i6Mr4WGlfqRZXvGb",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.thM5OAzfcK0eMeme",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "thM5OAzfcK0eMeme",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!TiDwqTfBvfJop4IF.z0aXIBteCOH4Pbdq",
+      "name": "Tough Armor",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The Orb Guardian's tough, armor-plated skin gives it an Armor Class of 0.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 0,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "z0aXIBteCOH4Pbdq",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!TiDwqTfBvfJop4IF.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

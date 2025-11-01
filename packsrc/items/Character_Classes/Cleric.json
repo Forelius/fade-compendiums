@@ -1,0 +1,855 @@
+{
+  "name": "Cleric",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 36,
+    "maxSpellLevel": 7,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Acolyte",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 1500,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Adept",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 3000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Priest",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 6000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Vicar",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 12000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Curate",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 25000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Elder",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 50000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Bishop",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 100000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "Lama",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 200000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6",
+        "hdcon": true,
+        "title": "Patriarch",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 300000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+1",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 500000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d6+3",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 700000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+5",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 800000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 900000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6+7",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1000000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1100000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+9",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1200000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1300000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d6+11",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1400000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1500000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+13",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1600000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 1700000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d6+15",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 1800000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 1900000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+17",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2000000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2100000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d6+19",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2200000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2300000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+21",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2400000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 2500000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d6+23",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 2600000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 2700000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+25",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 2800000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d6+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 2900000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d6+27",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 4,
+        "death": 11,
+        "wand": 12,
+        "paralysis": 14,
+        "breath": 16,
+        "spell": 15
+      },
+      {
+        "level": 8,
+        "death": 9,
+        "wand": 10,
+        "paralysis": 12,
+        "breath": 14,
+        "spell": 13
+      },
+      {
+        "level": 12,
+        "death": 7,
+        "wand": 8,
+        "paralysis": 10,
+        "breath": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "death": 6,
+        "wand": 7,
+        "paralysis": 8,
+        "breath": 10,
+        "spell": 9
+      },
+      {
+        "level": 20,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 6,
+        "breath": 8,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 5,
+        "breath": 6,
+        "spell": 5
+      },
+      {
+        "level": 28,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 4,
+        "spell": 4
+      },
+      {
+        "level": 32,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 3,
+        "breath": 3,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "spells": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        0
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4
+      ],
+      [
+        7,
+        7,
+        6,
+        6,
+        5,
+        4,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5
+      ],
+      [
+        8,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        6,
+        6,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6
+      ],
+      [
+        9,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7
+      ],
+      [
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      [
+        9,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "alignment": "Any",
+    "key": "C",
+    "description": "<p>A cleric is a human character devoted to a significant cause, such as serving an Immortal or embodying the ideals of their alignment. Clerics combine martial prowess with divine magic, using their faith and beliefs to heal, protect, and combat evil. They are restricted to blunt weapons like maces and staves, reflecting their spiritual focus.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Wisdom, granting an experience bonus for scores of 13 or higher.</li><li><strong>Combat and Armor</strong>: Clerics can wear any armor and use shields, but they are limited to non-edged weapons.</li><li><strong>Special Abilities</strong>: Clerics can turn undead, using their divine power to repel or destroy them. They begin casting clerical spells at 2nd level, focusing on healing, protection, and divination.</li><li><strong>Experience Table</strong>: They advance steadily, gaining hit points and new spell slots with each level.</li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a cleric reaches \"Name level\" and is referred to as a patriarch or matriarch. They have the option to establish a stronghold, which can be a fortress or temple serving their clerical order.</li><li><strong>Stronghold Details</strong>: Building a stronghold requires land, which is usually granted by their clerical hierarchy or local rulers. The cleric's order may subsidize construction costs, often covering up to 50%.</li><li>A stronghold attracts retainers: 1d6 x 50 loyal troops of the cleric’s alignment and 1d6 low-level clerics to assist with religious duties. These followers do not require pay and have high morale, reflecting their devotion.</li><li>Alternatively, a cleric may choose to remain a traveling cleric, free from the responsibilities of landownership, focusing on aiding others and spreading their faith through quests and adventures.</li></ul><p>Clerics are pivotal in both spiritual and martial roles, capable of influencing the world through faith, leadership, and divine power. Their journey often balances personal growth, the needs of their order, and the demands of their adventuring life.</p>",
+    "classItems": [],
+    "specialAbilities": [
+      {
+        "name": "Turn Undead (C)",
+        "uuid": "",
+        "level": 1,
+        "target": 0,
+        "classKey": "C",
+        "changes": ""
+      },
+      {
+        "name": "Divine Spellcasting",
+        "uuid": "",
+        "level": 2,
+        "target": 0,
+        "classKey": "C",
+        "changes": ""
+      },
+      {
+        "name": "Establish Stronghold (C)",
+        "uuid": "",
+        "level": 9,
+        "target": 0,
+        "classKey": "C",
+        "changes": ""
+      }
+    ],
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "unskilledToHitMod": -3
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "MVzAiO7qKr1Kw8vg",
+  "sort": 500000,
+  "_originalKey": "!items!MVzAiO7qKr1Kw8vg"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Music (choose type)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Music skill represents a character's proficiency with a specific type of musical instrument, such as a lute, harp, or drum. The chosen instrument type must be specified when the skill is selected. Characters with this skill can perform melodies that entertain, inspire, or soothe. A successful Music check can influence the mood of an audience, enhance the effects of magical performances, or distract opponents.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "N3kBK1Va0Mxb0qJW",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!N3kBK1Va0Mxb0qJW"
+}

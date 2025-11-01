@@ -1,0 +1,51 @@
+{
+  "name": "Disintegrate",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes a single creature or nonmagical object to crumble into dust, destroying it instantly.</p><h4>Effects:</h4><ul><li>Affected targets include creatures of any size (such as dragons) and nonmagical objects (such as ships or 10' sections of walls).</li><li>The victim may attempt a saving throw vs. death ray to avoid the effect.</li><li>This spell does not affect magical items or ongoing spell effects.</li><li>Anything disintegrated is completely reduced to fine dust with no remains left intact.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "Instantaneous",
+    "effect": "Destroys one creature or object",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "save",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "death",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "X94CNmMjTaZBSttf",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!X94CNmMjTaZBSttf"
+}

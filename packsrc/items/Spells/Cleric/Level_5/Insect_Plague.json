@@ -1,0 +1,51 @@
+{
+  "name": "Insect Plague",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell summons a vast swarm of insects in a 30' radius, obscuring vision and driving off creatures with less than 3 Hit Dice (no saving throw). The caster can direct the swarm to move up to 20' per round within a range of 480' but must remain still and concentrate.</p>\n                      <p>If the caster is disturbed, the insects scatter and the spell ends. This spell can only be cast outdoors and above ground.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "480'",
+    "duration": "1 day",
+    "effect": "Creates a swarm of 30' radius",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "8640",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "nOYdNjRtj0fdiFhB",
+  "sort": 0,
+  "_originalKey": "!items!nOYdNjRtj0fdiFhB"
+}

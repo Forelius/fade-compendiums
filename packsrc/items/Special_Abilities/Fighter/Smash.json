@@ -1,0 +1,44 @@
+{
+  "folder": "mNmtATMCAjwUeGOs",
+  "name": "Smash",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "ECX8f0Oyyw2prDVk",
+  "system": {
+    "tags": [],
+    "description": "<p>This maneuver allows a character to perform a powerful hand-to-hand attack. When using this option, the character automatically loses initiative and takes a -5 penalty to their attack roll (but still applies their Strength and magic bonuses).</p><p>If the attack hits, the character adds their Strength bonus, magic bonuses, and their full Strength score to the weapon's normal damage.</p><p>For example, a character with a Strength of 17 (+2 to attack and damage) using a sword +2 (+2 to attack, 1d8 + 2 damage) would execute the attack as follows: the attack roll is made with a net penalty of -1 (+2 +2 -5). If successful, they roll 1d8 + 21 (17 + 2 + 2) for damage!</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "smash",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "F",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ECX8f0Oyyw2prDVk"
+}

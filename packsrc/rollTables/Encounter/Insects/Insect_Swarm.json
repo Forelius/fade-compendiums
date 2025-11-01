@@ -1,0 +1,84 @@
+{
+  "folder": "eLyulDtD41mnwEsj",
+  "name": "Insect Swarm",
+  "_id": "L0Bofe3TQDT2iWXq",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "lAQNTew2yifjvDDm",
+    "4OMfVnTqWSnI44JF",
+    "aYN3j0eCX8dALN1h"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "_originalKey": "!tables!L0Bofe3TQDT2iWXq",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!L0Bofe3TQDT2iWXq.4OMfVnTqWSnI44JF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "4OMfVnTqWSnI44JF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insect Swarm (3 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.Umq3U1ICORIFSwfP",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!L0Bofe3TQDT2iWXq.aYN3j0eCX8dALN1h",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "aYN3j0eCX8dALN1h",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insect Swarm (4 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.riVXLsP8TWWXRRIA",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!L0Bofe3TQDT2iWXq.lAQNTew2yifjvDDm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "lAQNTew2yifjvDDm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insect Swarm (2 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.46QLGSlGDLxcIg4D",
+      "description": ""
+    }
+  ]
+}

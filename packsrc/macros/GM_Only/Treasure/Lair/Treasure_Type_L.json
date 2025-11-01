@@ -1,0 +1,20 @@
+{
+  "folder": "S7Cp6NiLZ2Askw5G",
+  "name": "Treasure Type L",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/containers/chest/chest-reinforced-steel-oak-tan.webp",
+  "scope": "global",
+  "command": "const treasure = new game.fade.fadeTreasure();\nconst coinsArray = [\n{ type: \"gems\", formula: \"1d4\", chance: 50 }\n];\nconst tableArray = [];\n// Call the method\nawait treasure.rollMultipleTables(coinsArray, tableArray, 'Treasure Type L');",
+  "sort": 100098,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "CvH1RGATaNb2SVVt",
+  "_originalKey": "!macros!CvH1RGATaNb2SVVt"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Nightwalker Curse",
+  "type": "condition",
+  "img": "icons/svg/sun.svg",
+  "_id": "XPI2b9cKvvUH8P0x",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The victim has a -4 penalty on all attack rolls and saving throws until the curse is removed. (A dispel evil spell will caned the curse, but a remove curse spell will only work if cast by a 25th or higher level caster.)</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "kTfvBYeTZOUpI0JU"
+  ],
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XPI2b9cKvvUH8P0x",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!XPI2b9cKvvUH8P0x.kTfvBYeTZOUpI0JU",
+      "name": "Nightwalker Curse",
+      "img": "icons/svg/sun.svg",
+      "disabled": false,
+      "_id": "kTfvBYeTZOUpI0JU",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ff3838",
+      "transfer": true,
+      "statuses": [
+        "curse"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

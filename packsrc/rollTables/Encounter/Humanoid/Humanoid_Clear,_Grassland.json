@@ -1,0 +1,264 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Humanoid (Clear, Grassland)",
+  "_id": "FWOkQABX12KUl2OY",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "7o1EWIYPR2gsvvrH",
+    "soFaiqyo6RAomxFc",
+    "LLaOdtCkTRUZQC3f",
+    "uQ8xrtkBfKRZeFpR",
+    "YX57ZwcyMpiO5cyJ",
+    "8fXYC8NhfCIFh6VM",
+    "bgKfX5wpaOHP2Idj",
+    "QzmFhixIsHRt2L3E",
+    "7cNWZ0OU5r9zicKe",
+    "fz2aG08gCyX9yNVB",
+    "RX1H2gTlz35Z496V",
+    "BnLzIjxhydwKkjTe"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_originalKey": "!tables!FWOkQABX12KUl2OY",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.7cNWZ0OU5r9zicKe",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "7cNWZ0OU5r9zicKe",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Orc",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Y4Gb1ERUmgujnIBz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.7o1EWIYPR2gsvvrH",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "7o1EWIYPR2gsvvrH",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bugbear",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.8fXYC8NhfCIFh6VM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "8fXYC8NhfCIFh6VM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Halfling",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.7FNtKWGZeBCnMAnO",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.BnLzIjxhydwKkjTe",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "BnLzIjxhydwKkjTe",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Troll",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.LLaOdtCkTRUZQC3f",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "LLaOdtCkTRUZQC3f",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Giant, Hill",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.QzmFhixIsHRt2L3E",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "QzmFhixIsHRt2L3E",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Ogre",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.RX1H2gTlz35Z496V",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "RX1H2gTlz35Z496V",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Thoul",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.UtG2e4IznhIDIw09",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.YX57ZwcyMpiO5cyJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "YX57ZwcyMpiO5cyJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Goblin",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.EqVWG32EA1WJBYwI",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.bgKfX5wpaOHP2Idj",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "bgKfX5wpaOHP2Idj",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.X8OQuEdiJD9clDQO",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.fz2aG08gCyX9yNVB",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "fz2aG08gCyX9yNVB",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Pixie",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.iyFIu2ealciOWv8b",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.soFaiqyo6RAomxFc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "soFaiqyo6RAomxFc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Elf",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.06c5awqtfBT2ybd4",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!FWOkQABX12KUl2OY.uQ8xrtkBfKRZeFpR",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "uQ8xrtkBfKRZeFpR",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Gnoll",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.nSCIPTtFkj2Z5Pup",
+      "description": ""
+    }
+  ]
+}

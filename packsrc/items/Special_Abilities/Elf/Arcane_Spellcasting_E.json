@@ -1,0 +1,44 @@
+{
+  "name": "Arcane Spellcasting (E)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Elves harness arcane energy through natural affinity and careful memorization of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Elves must prepare spells in advance by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p>Elves have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em>Read Magic</em> to devastating attacks like <em>Fireball</em> and reality-warping incantations at higher levels.</p><p>Because of their reliance on spellbooks, Elves must protect and expand their libraries, seeking out lost tomes, scrolls, and ancient knowledge to improve their magical repertoire. Unlike Magic-Users, however, Elves also train in combat, allowing them to wield swords and bows while wearing armor without disrupting their spellcasting.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "spellcasting",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "M",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "mxj8cmXCM6SRKtWt",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "PQxPI7VRXX6fcbYm",
+  "sort": 0,
+  "_originalKey": "!items!PQxPI7VRXX6fcbYm"
+}

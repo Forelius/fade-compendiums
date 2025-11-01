@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Detect Metal (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The casting item will point toward any type of metal named if within 20' and if 1,000 gp or more in weight. The user cannot detect the amount of metal.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Concentrate",
+    "effect": "Detect metal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rpv0OmWMudfFF13b",
+  "sort": 2100000,
+  "_originalKey": "!items!rpv0OmWMudfFF13b"
+}

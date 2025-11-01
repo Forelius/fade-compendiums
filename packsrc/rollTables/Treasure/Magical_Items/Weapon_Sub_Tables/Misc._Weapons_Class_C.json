@@ -1,0 +1,219 @@
+{
+  "name": "Misc. Weapons (Class C)",
+  "formula": "1d100",
+  "results": [
+    "XOk3V8tiBjvFsbVf",
+    "Jxgr0w6B71zNZYVi",
+    "kIerbAhKPmeKaYmN",
+    "ConAZPGeS1AzuGhB",
+    "jkhdROSlummvAqkb",
+    "FrixkREZzbYZ96U5",
+    "tlZTdiid5UjRoMZJ",
+    "VXZwCcjZVFJAqTqf",
+    "80Edhejaxn5oUIZA",
+    "Fj3RiReejwbzvLPC"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the magic bonus and chance of additional modifiers for Class C weapons.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "ldLflykBrJaFx8wF",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!ldLflykBrJaFx8wF",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.80Edhejaxn5oUIZA",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        93,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "80Edhejaxn5oUIZA",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ylxkEpFEU4KkoopP",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.ConAZPGeS1AzuGhB",
+      "range": [
+        93,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "ConAZPGeS1AzuGhB",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+4 Bonus, 15% chance of additional modifier",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.Fj3RiReejwbzvLPC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "Fj3RiReejwbzvLPC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 10%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.aoO2D4BQoVXA7sq2",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.FrixkREZzbYZ96U5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "FrixkREZzbYZ96U5",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 40%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6DDYjWp0w7WJHQCe",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.Jxgr0w6B71zNZYVi",
+      "range": [
+        61,
+        81
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "Jxgr0w6B71zNZYVi",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+2 Bonus, 30% chance of additional modifier",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.VXZwCcjZVFJAqTqf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        82,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "VXZwCcjZVFJAqTqf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.KxdPhkFmq42jUuIf",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.XOk3V8tiBjvFsbVf",
+      "range": [
+        1,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "XOk3V8tiBjvFsbVf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+1 Bonus, 40% chance of additional modifier",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.jkhdROSlummvAqkb",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "jkhdROSlummvAqkb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+5 Bonus, 10% chance of additional modifier",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.kIerbAhKPmeKaYmN",
+      "range": [
+        82,
+        92
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "kIerbAhKPmeKaYmN",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+3 Bonus, 20% chance of additional modifier",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ldLflykBrJaFx8wF.tlZTdiid5UjRoMZJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        61,
+        81
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "tlZTdiid5UjRoMZJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xYSdiB1uGhHtFjyp",
+      "description": ""
+    }
+  ]
+}

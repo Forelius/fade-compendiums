@@ -1,0 +1,47 @@
+{
+  "name": "Summon Weather",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Z9Sy2YBHKkjF5u6a",
+  "system": {
+    "tags": [],
+    "description": "<p>The druid magically pulls existing weather conditions from a nearby area to their location.</p><h4>Effects:</h4><ul><li>The druid does not control the weather, but can summon an existing condition to their location.</li><li>At levels 12-15, the spell pulls weather from up to 5 miles away.</li><li>Each level beyond 15th adds 1 extra mile to the range (e.g., a 20th-level druid can summon weather from 10 miles away).</li><li>Only druids of 25th level or higher may summon severe weather (hurricanes, blizzards, etc.).</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "5 miles or more",
+    "duration": "One hour per caster level",
+    "effect": "Brings weather to druid's area",
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "@classes.DR.castLevel * 360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "JVnik52rzryhPmgC",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!JVnik52rzryhPmgC"
+}

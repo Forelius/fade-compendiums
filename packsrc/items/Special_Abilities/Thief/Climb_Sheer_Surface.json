@@ -1,0 +1,44 @@
+{
+  "name": "Climb Sheer Surface",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "87",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "quantity": 1,
+    "quantityMax": 0,
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true
+  },
+  "folder": "dweUdoWqUwjtcc0d",
+  "_id": "8DS4Eq9AqVBUh6sk",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!8DS4Eq9AqVBUh6sk"
+}

@@ -1,0 +1,163 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Settled Encounter",
+  "_id": "GJ8hFSviPlMOZioS",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Settled Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "z6VfP25yGVQH61oU",
+    "QJolRfDizj8TaGpd",
+    "zqa9LIm4uXtUc7Lz",
+    "esQr9rBYguFeiiSW",
+    "SYCIpE39kSz0sxIW",
+    "RiTky1LUWmd7tcDp",
+    "snMHzh1KOf3S8QNG"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!GJ8hFSviPlMOZioS",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.QJolRfDizj8TaGpd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "QJolRfDizj8TaGpd",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Humanoid (City and Inhabited)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Dy1tzGKmG2ofEjnt",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.RiTky1LUWmd7tcDp",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "RiTky1LUWmd7tcDp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal (Settled)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cRYHiXUu4WGDEkYF",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.SYCIpE39kSz0sxIW",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "SYCIpE39kSz0sxIW",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Castle Encounter",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.NbZ6FnpIXKiQbtnS",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.esQr9rBYguFeiiSW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "esQr9rBYguFeiiSW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Castle",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.snMHzh1KOf3S8QNG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "snMHzh1KOf3S8QNG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragons",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JjKeOku91T3TOM2Q",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.z6VfP25yGVQH61oU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "z6VfP25yGVQH61oU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Flyers (All Other)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZA3rLpJZCGOprVjT",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!GJ8hFSviPlMOZioS.zqa9LIm4uXtUc7Lz",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "zqa9LIm4uXtUc7Lz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (Settled)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.7fksMvZLFfpQTuW5",
+      "description": ""
+    }
+  ]
+}

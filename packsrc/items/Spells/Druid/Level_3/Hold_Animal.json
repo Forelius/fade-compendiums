@@ -1,0 +1,47 @@
+{
+  "name": "Hold Animal",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "ITBl84G3mrEdxxqh",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell paralyzes normal or giant-sized animals within a range of 180'. The spell does not affect creatures with greater than animal intelligence (2) or fantastic creatures.</p>\n                      <p><strong>Effect:</strong> Each animal makes a saving throw vs. spells to resist paralysis for the spell’s duration. The druid can affect 1 Hit Die of animals per caster level, ignoring any “pluses” to Hit Dice. For example, a 20th-level druid could hold 10 giant toads (2 + 2 HD each).</p>\n                      <p>This spell can also affect summoned, conjured, or controlled animals.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "180'",
+    "duration": "1 turn per level of the caster",
+    "effect": "Paralyzes several animals",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ljGwGOb3dwOmrwRT",
+  "sort": 0,
+  "_originalKey": "!items!ljGwGOb3dwOmrwRT"
+}

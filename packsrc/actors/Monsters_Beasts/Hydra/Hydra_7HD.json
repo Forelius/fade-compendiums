@@ -1,0 +1,672 @@
+{
+  "name": "Hydra (7HD)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 11,
+      "xpAward": 450,
+      "attacks": "7",
+      "abilityCount": 0,
+      "monsterType": "Monster",
+      "saveAs": "F7",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "7",
+      "value": 32,
+      "max": 32
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1"
+    },
+    "treasure": "B",
+    "thac0": {
+      "value": 13,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
+    },
+    "biography": "<p>The hydra is a massive beast with a dragon-like body and multiple heads resembling snakes. Each hydra has between 5 and 12 heads, with one Hit Die and 8 hit points per head. The hydra attacks ferociously, using each of its heads every round. If a hydra loses a head, the damage it takes determines how many heads remain in the fight.</p>\n        <p>For every 8 points of damage taken, one of the hydra's heads is destroyed, reducing its ability to attack. For example, a hydra with 7 heads that takes 16 points of damage will lose two heads and attack with only five heads the following round.</p>\n        <p>Hydras can be found guarding treasures in remote and dangerous locations. While most hydras are found in swamps or other wilderness areas, variations of this creature exist with specialized abilities.</p>\n        <strong>Terrain:</strong> Swamp.<br>",
+    "wrestling": 23,
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "gm": {
+      "notes": ""
+    },
+    "ac": {
+      "naked": 9,
+      "nakedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 6,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "mod": {
+      "ac": 0,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "masteryLevelOverride": null,
+      "rangedAc": 0
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 2,
+        "total": 2,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "movement2": {
+      "turn": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0,
+      "max": 0
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "actorGroups": [
+      "reptiles-dinosaurs"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Hydra",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "snr3Gtp9GkvHmKHW",
+    "u6Eo9BQK8phh7uqs",
+    "OnZJeUgTI5kMt88n",
+    "siGalQsIN6gFEWfh",
+    "QDjZWs1Z7wFI4WOh",
+    "9S9ifQ4dLSZDTVoN",
+    "ussB75fchPzjwKL0"
+  ],
+  "effects": [],
+  "folder": "EVlrcbxUaA1dQRZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "XSk7palknSt0AJF5",
+  "sort": 0,
+  "_originalKey": "!actors!XSk7palknSt0AJF5",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.9S9ifQ4dLSZDTVoN",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "9S9ifQ4dLSZDTVoN",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "11",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.OnZJeUgTI5kMt88n",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "OnZJeUgTI5kMt88n",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "8",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.QDjZWs1Z7wFI4WOh",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "QDjZWs1Z7wFI4WOh",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "10",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.siGalQsIN6gFEWfh",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "siGalQsIN6gFEWfh",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.snr3Gtp9GkvHmKHW",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "Each head delivers a bite that deals 1d10 damage.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "1d10",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 7,
+          "group": 0
+        }
+      },
+      "_id": "snr3Gtp9GkvHmKHW",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.u6Eo9BQK8phh7uqs",
+      "name": "Natural Armor",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The hydra's tough, scaly hide offers natural protection.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "_id": "u6Eo9BQK8phh7uqs",
+      "img": "icons/svg/shield.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XSk7palknSt0AJF5.ussB75fchPzjwKL0",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ussB75fchPzjwKL0",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

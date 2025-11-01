@@ -1,0 +1,44 @@
+{
+  "name": "Find Traps",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "10",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "healFormula": "",
+    "dmgFormula": "",
+    "quantity": 1,
+    "quantityMax": 0,
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true
+  },
+  "folder": "dweUdoWqUwjtcc0d",
+  "_id": "8S7I45ND2XGwlJ45",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!8S7I45ND2XGwlJ45"
+}

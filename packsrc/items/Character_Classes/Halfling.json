@@ -1,0 +1,364 @@
+{
+  "name": "Halfling",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Halfling",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "or",
+        "ability": "dex",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "dex",
+        "minScore": 13,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 18,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Halfling Veteran",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Halfling Warrior",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 4000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Halfling Swordmaster",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 8000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Halfling Hero",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 16000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Halfling Swashbuckler",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 32000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Halfling Myrmidon",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 64000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Halfling Champion",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 120000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "Sheriff",
+        "attackRank": "A"
+      },
+      {
+        "level": 9,
+        "xp": 300000,
+        "thac0": 14,
+        "thbonus": 5,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "B"
+      },
+      {
+        "level": 10,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "C"
+      },
+      {
+        "level": 11,
+        "xp": 900000,
+        "thac0": 12,
+        "thbonus": 7,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "D"
+      },
+      {
+        "level": 12,
+        "xp": 1200000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "E"
+      },
+      {
+        "level": 13,
+        "xp": 1500000,
+        "thac0": 10,
+        "thbonus": 9,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "F"
+      },
+      {
+        "level": 14,
+        "xp": 1800000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "G"
+      },
+      {
+        "level": 15,
+        "xp": 2100000,
+        "thac0": 8,
+        "thbonus": 11,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "H"
+      },
+      {
+        "level": 16,
+        "xp": 2400000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "I"
+      },
+      {
+        "level": 17,
+        "xp": 2700000,
+        "thac0": 6,
+        "thbonus": 13,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "J"
+      },
+      {
+        "level": 18,
+        "xp": 3000000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": "K"
+      }
+    ],
+    "saves": [
+      {
+        "level": 3,
+        "death": 8,
+        "wand": 9,
+        "paralysis": 10,
+        "breath": 13,
+        "spell": 12
+      },
+      {
+        "level": 6,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 7,
+        "breath": 9,
+        "spell": 8
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 4,
+        "breath": 5,
+        "spell": 4
+      }
+    ],
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "spells": [],
+    "firstLevel": 1,
+    "key": "H",
+    "description": "<p>A halfling is a small, childlike demi-human standing about 3 feet tall and weighing around 60 pounds. Known for their love of comfort and community, halflings are woodland folk who excel in outdoor abilities and camaraderie with elves and dwarves. Despite their size, they are resourceful and capable combatants.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisites</strong>: Strength and Dexterity, granting an experience bonus (5% for either score of 13 or higher, 10% for both).</li><li><p><strong>Abilities</strong>:</p><ul><li>Halflings receive a +2 bonus to AC against larger creatures, a +1 bonus to attack rolls with missile weapons, and a +1 bonus to individual initiative.</li><li>They have a 90% chance to hide in woodlands and a 33% chance to hide in shadows within buildings or dungeons, provided they remain motionless.</li></ul></li><li><strong>Weapons and Armor</strong>: Halflings may use any small-sized weapons (e.g., short swords, daggers) and wear any armor specifically tailored to their size. Shields are allowed.</li><li><strong>Combat Skills</strong>: They gain access to fighter combat options, including multiple attacks at higher levels.</li></ul><h3>Advancement:</h3><ul><li>Halflings can advance to a maximum of 8th level, gaining the title \"Sheriff\" upon reaching this level.</li><li>As they progress, halflings develop enhanced resistances, such as taking half damage from spells and breath weapons at high experience thresholds.</li></ul><h3>Strongholds:</h3><ul><li>Halflings can construct strongholds at any level if they have the resources. A stronghold often attracts a community of other halflings, creating a new settlement or shire.</li><li>These strongholds are typically located in tranquil, scenic areas like rolling hills or near streams, reflecting their preference for a peaceful lifestyle.</li></ul><p>Halflings balance their physical limitations with their keen abilities and resilience, making them adaptable and valuable members of any adventuring party.</p>",
+    "classItems": [],
+    "abilities": {
+      "dex": {
+        "min": 9
+      },
+      "con": {
+        "min": 9
+      },
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Combat Bonuses (H)",
+        "target": 0,
+        "classKey": "H",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Hide, Indoors (H)",
+        "target": 0,
+        "classKey": "H",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Hide, Natural (H)",
+        "target": 0,
+        "classKey": "H",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Set Spear vs. Charge",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Magic Resistance (H)",
+        "target": 0,
+        "classKey": "H",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Disarm",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Multiple Attacks",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Parry",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Smash",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Breath Resistance (H)",
+        "target": 0,
+        "classKey": "H",
+        "changes": ""
+      }
+    ],
+    "basicProficiency": true
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "3Vh2Nk2U8MuRK26l",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 200000,
+  "_originalKey": "!items!3Vh2Nk2U8MuRK26l"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Protection (Elementals)",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll creates a circle of protection (10' radius) around the reader. No elemental can attack those within the circle unless attacked first in hand-to-hand combat. Once attacked, an elemental may attack in return. The effect lasts for <strong>2 turns</strong> and moves with the reader.</p><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "zpVO6hbfBT1QXQfO",
+  "sort": 1700000,
+  "_originalKey": "!items!zpVO6hbfBT1QXQfO"
+}

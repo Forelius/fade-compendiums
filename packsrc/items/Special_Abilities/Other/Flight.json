@@ -1,0 +1,80 @@
+{
+  "name": "Flight",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+    "gm": {
+      "notes": "Flying ability of giant bats."
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": false,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "effects": [
+    "dVk7ObKq7OLVfn9j"
+  ],
+  "folder": "164Li2oYfnb0Z7S7",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "pcdBLWKxB0T2tZST",
+  "sort": 1100000,
+  "_originalKey": "!items!pcdBLWKxB0T2tZST",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

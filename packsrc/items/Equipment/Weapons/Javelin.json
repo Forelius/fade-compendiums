@@ -1,0 +1,76 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Javelin",
+  "type": "weapon",
+  "_id": "4PRKm7wgHL8tjrkB",
+  "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+  "system": {
+    "tags": [
+      "thrown"
+    ],
+    "description": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 20,
+    "cost": 1,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Javelin",
+    "weaponType": "handheld",
+    "range": {
+      "short": 30,
+      "medium": 60,
+      "long": 90
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A javelin is a light one-handed throwing spear. Although primarily used as a thrown weapon, it can also be used in melee. Halflings and other small races <em>can</em> use this weapon.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 300000,
+  "_originalKey": "!items!4PRKm7wgHL8tjrkB"
+}

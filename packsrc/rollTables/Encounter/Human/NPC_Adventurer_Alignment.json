@@ -1,0 +1,83 @@
+{
+  "folder": "syhUzFkpaYBv54Vu",
+  "name": "NPC Adventurer Alignment",
+  "_id": "fPcCRKw8Wgi1yQMH",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Adventurer alignment</p>",
+  "results": [
+    "uQEhPBUiVzlAesMY",
+    "RlGDvDacfQFRvYXJ",
+    "pkX1zOM8M3y0KY0M"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "sort": 200000,
+  "_originalKey": "!tables!fPcCRKw8Wgi1yQMH",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!fPcCRKw8Wgi1yQMH.RlGDvDacfQFRvYXJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "RlGDvDacfQFRvYXJ",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Neutral",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!fPcCRKw8Wgi1yQMH.pkX1zOM8M3y0KY0M",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "pkX1zOM8M3y0KY0M",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Chaotic",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!fPcCRKw8Wgi1yQMH.uQEhPBUiVzlAesMY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "uQEhPBUiVzlAesMY",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lawful",
+      "name": ""
+    }
+  ]
+}

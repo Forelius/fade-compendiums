@@ -1,0 +1,77 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Trident +1",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/trident-curved-steel.webp",
+  "system": {
+    "tags": [
+      "special",
+      "thrown"
+    ],
+    "description": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 25,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Trident",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Trident",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A trident is a short (4’ to 6’) spear which is split at the end into three tines, like a fork. Each tine is usually barbed. A trident is used in one hand either in melee or as a thrown weapon, and is often used as a fishing spear, since the barbs on the points can lift the fish out of the water when the trident is withdrawn.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6l8gdAcW4XmmqcF3",
+  "sort": 0,
+  "_originalKey": "!items!6l8gdAcW4XmmqcF3"
+}

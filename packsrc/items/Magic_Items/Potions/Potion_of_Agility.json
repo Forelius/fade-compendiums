@@ -1,0 +1,64 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Agility",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Increases Dexterity score to 18. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Potion",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true,
+    "conditions": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.JFO4Fr89NVxx4Dgz",
+        "action": "consume",
+        "castAs": "",
+        "name": "Boost Agility"
+      }
+    ],
+    "specialAbilities": []
+  },
+  "effects": [],
+  "_id": "m1k89dZXHJF6v4pS",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3400000,
+  "_originalKey": "!items!m1k89dZXHJF6v4pS"
+}

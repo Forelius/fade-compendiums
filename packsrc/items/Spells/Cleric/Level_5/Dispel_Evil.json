@@ -1,0 +1,47 @@
+{
+  "name": "Dispel Evil",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell affects all undead and enchanted monsters within 30'. Each affected creature must make a saving throw vs. spells or be destroyed. If cast on a single creature, it takes a -2 penalty to its saving throw.</p>\n                      <p><strong>Effect:</strong> Banishes creatures from other planes if they fail their saving throw. Those that save must flee and stay away as long as the caster concentrates, remaining stationary.</p>\n                      <p>The spell can also remove a curse from one item or dispel a magical charm effect on a creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "1 turn",
+    "effect": "Affects undead, enchanted creatures, or one curse or charm",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "tJU1aUTiekYhsK3F",
+  "sort": 0,
+  "_originalKey": "!items!tJU1aUTiekYhsK3F"
+}

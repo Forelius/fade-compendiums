@@ -1,0 +1,59 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Seeing",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll is blank. When held and commanded to write, it will draw pictures of creatures within 100' in any area chosen by the user. Up to four different types of creatures can be pictured. The scroll will function once per day, regardless of the number of creatures pictured.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "jbrSLZmP761Qi5Qv",
+  "sort": 500000,
+  "_originalKey": "!items!jbrSLZmP761Qi5Qv"
+}

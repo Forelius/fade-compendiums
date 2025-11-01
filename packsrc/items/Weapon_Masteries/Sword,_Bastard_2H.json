@@ -1,0 +1,105 @@
+{
+  "name": "Sword, Bastard (2H)",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d8+1",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        }
+      },
+      {
+        "name": "skilled",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d8+3",
+        "pToHit": 2,
+        "sDmgFormula": "",
+        "sToHit": 1,
+        "special": "Deflect (1)",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        }
+      },
+      {
+        "name": "expert",
+        "acBonus": -1,
+        "acBonusType": "handheld",
+        "acBonusAT": 1,
+        "pDmgFormula": "1d8+5",
+        "pToHit": 4,
+        "sDmgFormula": "",
+        "sToHit": 2,
+        "special": "Deflect (1)",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": 5
+        }
+      },
+      {
+        "name": "master",
+        "acBonus": -2,
+        "acBonusType": "handheld",
+        "acBonusAT": 2,
+        "pDmgFormula": "1d10+8",
+        "pToHit": 6,
+        "sDmgFormula": "1d8+7",
+        "sToHit": 4,
+        "special": "Deflect (2)",
+        "range": {
+          "short": null,
+          "medium": 5,
+          "long": 10
+        }
+      },
+      {
+        "name": "grandMaster",
+        "acBonus": -3,
+        "acBonusType": "handheld",
+        "acBonusAT": 2,
+        "pDmgFormula": "1d12+10",
+        "pToHit": 8,
+        "sDmgFormula": "1d10+8",
+        "sToHit": 6,
+        "special": "Deflect (3)",
+        "range": {
+          "short": 5,
+          "medium": 10,
+          "long": null
+        }
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "JMNhDfXCgxyVbdeS",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1000000,
+  "_originalKey": "!items!JMNhDfXCgxyVbdeS"
+}

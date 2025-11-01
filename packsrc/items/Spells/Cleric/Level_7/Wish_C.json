@@ -1,0 +1,47 @@
+{
+  "name": "Wish (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>Wish is the most powerful spell available to a cleric, capable of altering reality itself. However, its effects are subject to strict interpretation by the DM.</p><h3>Requirements</h3><ul><li>Only clerics of 36th level with 18+ Wisdom may cast this spell.</li><li>Wishes are never found on scrolls but may exist in rare items such as rings.</li></ul><h3>Wording the Wish</h3><p>The caster must clearly state their wish. The exact wording is crucial, as the spell follows the literal meaning rather than the intent. The DM may interpret the wish strictly, generously, or even maliciously.</p><ul><li>If a wish is made with greed or malice, the DM should distort its results.</li><li>The DM may disallow unreasonable wishes, causing the spell to fail.</li><li>After a misinterpreted wish, the DM should explain the flaw in the phrasing.</li></ul><p>Examples of badly phrased wishes:</p><ul><li><em>\"I wish to know everything about this dungeon.\"</em> → The character knows all but forgets it in a second.</li><li><em>\"I wish for a million gold pieces.\"</em> → The gold lands on the character, crushing them, then disappears.</li><li><em>\"I wish for permanent basilisk gaze powers.\"</em> → The caster grows an extra basilisk head.</li></ul><h3>Allowed Effects</h3><p>Spell Substitution: A wish can replicate:</p><ul><li>Any 8th-level or lower magic-user spell</li><li>Any 6th-level or lower cleric/druid spell</li><li>This use of a wish is least likely to be distorted.</li></ul><h3>Harming Others</h3><p>If a wish directly harms a creature:</p><ul><li>The victim gets a saving throw vs. spells.</li><li>If they succeed, half of the effect rebounds onto the caster, who also saves (at -4 penalty).</li><li>If the wish only inconveniences (e.g., teleporting them into a prison), no saving throw is allowed.</li></ul><h3>Gaining Treasure</h3><p>A wish can conjure up to 50,000 gp, but:</p><ul><li>The caster loses 1 XP per gold piece gained.</li><li>This XP loss cannot be restored by any means.</li></ul><h3>Ability Score Changes</h3><ul><li>A wish can temporarily raise an ability score to a maximum of 18 for 6 turns.</li><li><p>A wish can permanently raise an ability score by 1 point per number of wishes used:</p><ul><li>Raising Strength from 15 to 16 requires 16 wishes.</li><li>Raising it from 16 to 17 requires 17 more wishes.</li><li>All wishes must be cast within 1 week.</li><li>Wishes cannot permanently lower ability scores.</li></ul></li></ul><h3>Maximum Experience Levels</h3><ul><li>A wish cannot exceed the 36th-level cap for human characters.</li><li>However, a wish can grant demihumans +1 Hit Die (new max: 9 for halflings, 11 for elves, 13 for dwarves).</li></ul><h3>Race Changes</h3><p>A wish can permanently change a character's race:</p><ul><li>Demihumans become human fighters of the same level.</li><li>Elves become magic-users or fighters (chosen by the wish caster).</li><li>Humans become demihumans, but never above their racial level cap.</li><li>If unwilling, the target gains a +5 bonus to their saving throw vs. spells to resist the change.</li></ul><h3>Rewriting Past Events</h3><p>A wish may alter one event from the previous day:</p><ul><li>Turning a lost battle into a victory (if feasible).</li><li>Changing a death to a near-death survival.</li><li>Changing a permanent loss to a temporary one.</li></ul><p>The DM may warn players if their wish exceeds the spell's limits.</p><h3>Important Restrictions</h3><ul><li>Effects labeled as \"unchangeable even by a wish\" cannot be altered.</li><li>Wishes cannot alter game mechanics (e.g., \"dragons cannot breathe fire anymore\").</li><li>Unreasonable or greedy wishes are less likely to succeed.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Special",
+    "duration": "Special",
+    "effect": "Alters reality",
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "5ttokyxBufCf3yIr",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!5ttokyxBufCf3yIr"
+}

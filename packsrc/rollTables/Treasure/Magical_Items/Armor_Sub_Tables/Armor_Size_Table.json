@@ -1,0 +1,119 @@
+{
+  "name": "Armor Size Table",
+  "formula": "1d100",
+  "results": [
+    "vMyJUGh1R7DbYsPz",
+    "c2NajvsAnpKv1rSY",
+    "5PhzJH58l6E7wWDF",
+    "E9RJRI2zKIWBBLrI",
+    "sHXJpBKzze3xmK10"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the size category of the armor found, such as Human, Dwarf, Elf, Halfling, or Giant.</p>",
+  "folder": "TR10cmcdEZOUsSui",
+  "_id": "Plyb3V4zi41SFJqQ",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 700000,
+  "_originalKey": "!tables!Plyb3V4zi41SFJqQ",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.5PhzJH58l6E7wWDF",
+      "range": [
+        82,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "5PhzJH58l6E7wWDF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Elf-sized",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.E9RJRI2zKIWBBLrI",
+      "range": [
+        92,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "E9RJRI2zKIWBBLrI",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Halfling-sized",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.c2NajvsAnpKv1rSY",
+      "range": [
+        69,
+        81
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "c2NajvsAnpKv1rSY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dwarf-sized",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.sHXJpBKzze3xmK10",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "sHXJpBKzze3xmK10",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Giant-sized",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Plyb3V4zi41SFJqQ.vMyJUGh1R7DbYsPz",
+      "range": [
+        1,
+        68
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "vMyJUGh1R7DbYsPz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Human-sized",
+      "name": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Javelin",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 30,
+          "medium": 60,
+          "long": 90
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 30,
+          "medium": 60,
+          "long": 90
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": null
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 120
+        },
+        "pDmgFormula": "1d6+4",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": null
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 120
+        },
+        "pDmgFormula": "1d6+6",
+        "sDmgFormula": "1d4+6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": null
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 80,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d6+9",
+        "sDmgFormula": "1d4+8",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": null
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "28Xz895ZHD2UMukN",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!28Xz895ZHD2UMukN"
+}

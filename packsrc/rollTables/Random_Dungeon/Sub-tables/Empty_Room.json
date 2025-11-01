@@ -1,0 +1,62 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Empty Room",
+  "_id": "ZETFZP7n1dLjRxq2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The room is empty except for cobwebs and random debris.</p>",
+  "results": [
+    "EphrCoMiz301EGg4",
+    "lbPFnMhI9pHWdc6z"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!ZETFZP7n1dLjRxq2",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ZETFZP7n1dLjRxq2.EphrCoMiz301EGg4",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "EphrCoMiz301EGg4",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The room is empty except for a small sack lying near a skeleton in the corner. Roll on the appropriate treasure table for the dungeon level.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZETFZP7n1dLjRxq2.lbPFnMhI9pHWdc6z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        6
+      ],
+      "drawn": false,
+      "_id": "lbPFnMhI9pHWdc6z",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The room is empty except for cobwebs and random debris.",
+      "name": ""
+    }
+  ]
+}

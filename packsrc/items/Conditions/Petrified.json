@@ -1,0 +1,57 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Petrified",
+  "type": "condition",
+  "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+  "_id": "QDhoYE22lDX8YzSd",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "WSEQHjP0kuMRD7sS"
+  ],
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!QDhoYE22lDX8YzSd",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!QDhoYE22lDX8YzSd.WSEQHjP0kuMRD7sS",
+      "name": "Petrified",
+      "img": "icons/svg/aura.svg",
+      "disabled": false,
+      "_id": "WSEQHjP0kuMRD7sS",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

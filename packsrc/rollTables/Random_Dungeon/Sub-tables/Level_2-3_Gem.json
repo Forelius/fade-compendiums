@@ -1,0 +1,62 @@
+{
+  "name": "Level 2-3 Gem",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "HZTiiMkrnEkjrBWq",
+    "eo0TCeOLNPbXfDII"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "APhl7fhYB0s5L7Nl",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_id": "dq04YASys6BVcThz",
+  "sort": 500000,
+  "_originalKey": "!tables!dq04YASys6BVcThz",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!dq04YASys6BVcThz.HZTiiMkrnEkjrBWq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        100
+      ],
+      "drawn": false,
+      "_id": "HZTiiMkrnEkjrBWq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No Gems",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!dq04YASys6BVcThz.eo0TCeOLNPbXfDII",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "_id": "eo0TCeOLNPbXfDII",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] Gems. Worth [[/r (1d6+1)*50 #Gold piece value of gem]] gold pieces each.  Roll for each gem separately.",
+      "name": ""
+    }
+  ]
+}

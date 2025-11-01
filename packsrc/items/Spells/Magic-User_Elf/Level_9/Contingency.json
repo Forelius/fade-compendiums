@@ -1,0 +1,47 @@
+{
+  "name": "Contingency",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell prepares a secondary spell to be automatically cast when a specified condition is met. The spell stored must be a 4th level or lower magic-user spell that does not cause damage.</p><h4>Contingency Mechanics:</h4><ul><li>The caster defines a specific situation (the trigger) and the spell that will be cast when the situation occurs.</li><li>Once the condition is met, the stored spell takes effect immediately as if the caster had just cast it.</li><li>The contingency applies only to events occurring within 120' of the triggering event.</li><li>No creature or item may have more than one contingency active at a time.</li><li>A <em>wish</em> cannot override this restriction.</li><li>The contingency remains indefinitely until triggered.</li></ul><h4>Example Contingencies:</h4><ul><li><em>\"If I am struck by a living creature that is not a Lawful or Neutral cleric, except for my allies Charlie McGonigle and Sally Silvernose, then cast Charm Monster on the attacker.\"</em></li><li><em>\"If I fall below 8 HP and am about to take damage, then cast Dimension Door on myself to a location I have seen in the last 12 hours.\"</em></li></ul><h4>Duration:</h4><ul><li>The contingency lasts indefinitely until the event occurs.</li><li>It may remain dormant for centuries if the situation never arises.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "Touch",
+    "duration": "Indefinite (until triggered)",
+    "effect": "Prepares one other spell",
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "hNseQvU3xw52Xwvk",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!hNseQvU3xw52Xwvk"
+}

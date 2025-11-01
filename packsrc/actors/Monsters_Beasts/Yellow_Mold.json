@@ -1,0 +1,704 @@
+{
+  "name": "Yellow Mold",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "isEnchanted": false,
+    "details": {
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 12,
+      "xpAward": 25,
+      "attacks": "1",
+      "abilityCount": 1,
+      "monsterType": "Lowlife",
+      "saveAs": "F2",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Common",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "2",
+      "value": 9,
+      "max": 9
+    },
+    "na": {
+      "wandering": "1d8",
+      "lair": "1d4"
+    },
+    "treasure": "Nil",
+    "thac0": {
+      "value": 18,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 0,
+      "turn": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "biography": "<p>Yellow Mold is a dangerous fungus that covers an area of up to 100 square feet. It does not move, but reacts aggressively when disturbed.</p><p>It is immune to all damage except fire, which deals normal damage. Torches inflict 1d4 damage per round when used to burn it. Yellow mold can dissolve wood and leather in an instant, but it cannot harm stone or metal.</p><p>When touched, there is a 50% chance that it releases a cloud of spores in a 10' x 10' x 10' area. Anyone caught in the spores takes 1d6 damage and must make a saving throw vs. death ray or suffocate within six rounds.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 1,
+    "encumbrance": {
+      "value": 0,
+      "max": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 13,
+    "acDigest": [],
+    "activeLight": null,
+    "monsterTypes": [],
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 0,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Yellow Mold*",
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "lO5AqhgouvxTEZJg",
+    "uVOcEE9KYnzymzj5",
+    "dm5e8jMXxFjoQ7wq",
+    "lZt7QdFYODhbRAmb",
+    "7vjp40gdO2goYM0i",
+    "u9XSXLRMPilOKjJ7",
+    "Fs12GBYdLdAoyvrw",
+    "2oCQTiFSJk88AnoL"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "RDng9w4AKnph2koA",
+  "sort": 11300000,
+  "_originalKey": "!actors!RDng9w4AKnph2koA",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.2oCQTiFSJk88AnoL",
+      "name": "Spores (Suffocate)",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>When touched, there is a 50% chance that it releases a cloud of spores in a 10' x 10' x 10' area. Anyone caught in the spores takes 1d6 damage and must make a saving throw vs. death ray or suffocate within six rounds.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "50",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "death",
+        "dmgFormula": "1d6",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "2oCQTiFSJk88AnoL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.7vjp40gdO2goYM0i",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "7vjp40gdO2goYM0i",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.Fs12GBYdLdAoyvrw",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "Fs12GBYdLdAoyvrw",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.dm5e8jMXxFjoQ7wq",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "dm5e8jMXxFjoQ7wq",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.lO5AqhgouvxTEZJg",
+      "name": "Mold Defense",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "description": "<p>Yellow Mold does not move and is incredibly resilient to damage. It is immune to all attacks except fire.</p>",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 20,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "_id": "lO5AqhgouvxTEZJg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.lZt7QdFYODhbRAmb",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "lZt7QdFYODhbRAmb",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.u9XSXLRMPilOKjJ7",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "u9XSXLRMPilOKjJ7",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!RDng9w4AKnph2koA.uVOcEE9KYnzymzj5",
+      "name": "Spore Cloud",
+      "type": "weapon",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "description": "<p>If disturbed, Yellow Mold may release a cloud of spores in a 10' x 10' x 10' area. Victims take 1d6 damage and must make a saving throw vs. death ray or suffocate in six rounds.</p>",
+        "damageRoll": "1d6",
+        "canMelee": false,
+        "canRanged": true,
+        "natural": true,
+        "range": {
+          "medium": 10,
+          "short": null,
+          "long": null
+        },
+        "savingThrow": "death",
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": null,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "size": null,
+        "grip": null,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        }
+      },
+      "_id": "uVOcEE9KYnzymzj5",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "name": "Termite, Water (Swamp)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "morale": 10,
+      "alignment": "Neutral",
+      "xpAward": 15,
+      "abilityCount": 0,
+      "monsterType": "Lowlife",
+      "rarity": "Common",
+      "saveAs": "F1",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "attacks": "1",
+      "weight": "",
+      "size": "S"
+    },
+    "na": {
+      "wandering": "0",
+      "lair": "1d4"
+    },
+    "treasure": "Nil",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "unskilledToHitMod": -2,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {},
+      "masteryLevelOverride": null
+    },
+    "wrestling": 11,
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "isEnchanted": false,
+    "tags": [],
+    "biography": "<p>Water termites range from 1'-5' long, the largest found only in ocean waters. All are shaped like normal termites, except for an elastic sac in their abdomen that can intake and expel water for movement and feeding. When the sac is completely expanded, the creature looks like a large balloon with a small insect-like head on the front.</p><p>The creature does not bite unless cornered; instead, it uses an inky spray for defense. When frightened above water, a normal attack roll must be made. A victim hit by the spray must make a saving throw vs. poison or be paralyzed for 1 turn. If the creature is frightened underwater, its ink does not paralyze, but merely provides an inky cover for the creature's retreat.</p><p>The real terror of these creatures is the destruction they bring to ships. They cling to hulls, each causing points of hull damage equal to their bite before letting go. Once any damage has been inflicted, there is a 50% chance per round that someone will notice the leakage.</p><p><strong>Terrain:</strong> Swamp, Lake, Ocean.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1+1",
+      "value": 5,
+      "max": 5
+    },
+    "movement": {
+      "turn": 90,
+      "max": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
+    },
+    "movement2": {
+      "turn": 0,
+      "max": 90,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [
+      "bugs",
+      "water-breathing"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Termite, Water",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "UPlKhJxXUzdhoRxB",
+    "dXuVmjeXpkf3phd1",
+    "0xShEkTSnV6izJr3",
+    "PHVMJuff6WT628vL",
+    "AUcLg91b5jNpaP5N",
+    "GThyejywGQ2Jb66H",
+    "GiAXKVTqk4NngD9D",
+    "Tg0Q2xqtXDuZyEtY"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ecDYjGHXmlWgJzY7",
+  "sort": 0,
+  "_originalKey": "!actors!ecDYjGHXmlWgJzY7",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.0xShEkTSnV6izJr3",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "0xShEkTSnV6izJr3",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.AUcLg91b5jNpaP5N",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "AUcLg91b5jNpaP5N",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.GThyejywGQ2Jb66H",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "GThyejywGQ2Jb66H",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.GiAXKVTqk4NngD9D",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "GiAXKVTqk4NngD9D",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.PHVMJuff6WT628vL",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "PHVMJuff6WT628vL",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.Tg0Q2xqtXDuZyEtY",
+      "folder": "164Li2oYfnb0Z7S7",
+      "name": "Swim",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "Tg0Q2xqtXDuZyEtY",
+      "system": {
+        "tags": [],
+        "description": "<p>The <strong>Swim</strong> ability allows a character or creature to move through water, typically at a specified speed. It enables navigation in aquatic environments and may have limitations, such as the need for air or effects from water conditions.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.UPlKhJxXUzdhoRxB",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d3",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "UPlKhJxXUzdhoRxB",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ecDYjGHXmlWgJzY7.dXuVmjeXpkf3phd1",
+      "name": "Natural Protection",
+      "type": "armor",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": null,
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 4,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "dXuVmjeXpkf3phd1",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Silence 15' Radius",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "jsA1Te86M809f0PW",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an area of total silence within a 15' radius, making it impossible to converse or cast spells inside the affected area for the duration of the spell. Those within the sphere can still hear sounds from outside. If the spell is cast on a creature, the target must make a saving throw vs. spells. If the saving throw fails, the effect moves with the creature. If successful, the silence remains stationary, and the creature can leave the affected area.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "180'",
+    "duration": "12 turns",
+    "effect": "Sphere of silence 30' across",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Silenced",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.91rjfvMRLiIEw3ws"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 900000,
+  "_originalKey": "!items!jsA1Te86M809f0PW"
+}

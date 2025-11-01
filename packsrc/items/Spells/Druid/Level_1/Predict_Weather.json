@@ -1,0 +1,47 @@
+{
+  "name": "Predict Weather",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "g3jvAcmryr9gDGqS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell enables the druid to learn the accurate weather forecast for the next 12 hours within an area of 1 mile in diameter per level of the caster. For example, a 20th-level druid would know the weather within a 20-mile diameter (10-mile radius). This spell does not allow the caster to control the weather, merely to predict it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0 (Druid only)",
+    "duration": "12 hours",
+    "effect": "Gives knowledge of coming weather",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "4320",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "1eyJd7gmOHQqzrha",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!1eyJd7gmOHQqzrha"
+}

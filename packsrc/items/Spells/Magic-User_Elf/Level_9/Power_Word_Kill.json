@@ -1,0 +1,47 @@
+{
+  "name": "Power Word Kill",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to instantly kill or stun one or more creatures within 120 feet, with no saving throw unless stated otherwise.</p><h4>Effects:</h4><ul><li>Single Target: If the target has 1-60 HP, it is instantly slain (no saving throw).</li><li>If the target has 61-100 HP, it is stunned for [[/r 1d4 #Turns Stunned]] (as <em>Power Word Stun</em>).</li><li>No creature with 101+ HP is affected.</li><li>Multiple Targets: Instead of a single victim, the caster may choose to slay up to five creatures if each has 20 HP or less (no saving throw).</li><li>Exception: A magic-user or any creature capable of casting magic-user spells may attempt a saving throw vs. spells at -4 penalty to resist the effect.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "120'",
+    "duration": "Instantaneous",
+    "effect": "Slays or stuns one or more creatures",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "5",
+    "durationFormula": "0",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "ti2IXa4DrGO7rC6P",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ti2IXa4DrGO7rC6P"
+}

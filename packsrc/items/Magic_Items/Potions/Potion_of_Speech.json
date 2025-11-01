@@ -1,0 +1,52 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Speech",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The user can understand any language heard within 60' and can respond in the same tongues. A language must be heard to be used unless already known.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "bxzhUmCyqR28X663",
+  "sort": 300000,
+  "_originalKey": "!items!bxzhUmCyqR28X663"
+}

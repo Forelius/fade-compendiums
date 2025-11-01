@@ -1,0 +1,105 @@
+{
+  "name": "Net",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "monster",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 15,
+          "medium": 25,
+          "long": 35
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -2,
+        "acBonusAT": 1,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": null
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 40
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -4,
+        "acBonusAT": 2,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": null
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 25,
+          "medium": 35,
+          "long": 45
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -6,
+        "acBonusAT": 3,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": null
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 30,
+          "medium": 40,
+          "long": 50
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -8,
+        "acBonusAT": 4,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": null
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "tVjpiTRMN8LnzXan",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3600000,
+  "_originalKey": "!items!tVjpiTRMN8LnzXan"
+}

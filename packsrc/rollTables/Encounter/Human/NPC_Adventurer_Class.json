@@ -1,0 +1,178 @@
+{
+  "folder": "syhUzFkpaYBv54Vu",
+  "name": "NPC Adventurer Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>*In campaigns where Underworld races are common, a duergar, drow, or svirfneblin may be encountered in place of a dwarf, elf, or gnome.</p>",
+  "results": [
+    "Md0x8CGWDazOWCwM",
+    "Aq7pH0R2pd1PWnrh",
+    "3mPnT4SOcPxE6ujK",
+    "ZVtZbkkqCxY7hz55",
+    "6z5UglpXMn8J7tjQ",
+    "UXYomPeNYbp78P5Z",
+    "5vVQ1sOmOqJzpJSb",
+    "8FQ65AdxveDvquxU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_id": "NGg7TfmVYNtMfm97",
+  "sort": 300000,
+  "_originalKey": "!tables!NGg7TfmVYNtMfm97",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.3mPnT4SOcPxE6ujK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "3mPnT4SOcPxE6ujK",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dwarf",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.5vVQ1sOmOqJzpJSb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "5vVQ1sOmOqJzpJSb",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magic-User",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.6z5UglpXMn8J7tjQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "6z5UglpXMn8J7tjQ",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Fighter",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.8FQ65AdxveDvquxU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "_id": "8FQ65AdxveDvquxU",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Thief",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.Aq7pH0R2pd1PWnrh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "Aq7pH0R2pd1PWnrh",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Druid",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.Md0x8CGWDazOWCwM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Md0x8CGWDazOWCwM",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Cleric",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.UXYomPeNYbp78P5Z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "UXYomPeNYbp78P5Z",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Halfling",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!NGg7TfmVYNtMfm97.ZVtZbkkqCxY7hz55",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ZVtZbkkqCxY7hz55",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Elf",
+      "name": ""
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Stone to Flesh*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transforms one statue (or up to a 10' x 10' x 10' section of stone) into flesh. The spell is commonly used to restore a creature that has been petrified by effects such as a gorgon’s breath.</p><p>When cast on a petrified character, the recipient is restored with all previous abilities and equipment intact.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "One creature or object",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "p3hJhO4bJ06P6Dp1",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!p3hJhO4bJ06P6Dp1"
+}

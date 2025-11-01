@@ -1,0 +1,44 @@
+{
+  "name": "Lance Attack",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "lance",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "F",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "mNmtATMCAjwUeGOs",
+  "_id": "8vKN92QKEN0pjx3Y",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!8vKN92QKEN0pjx3Y"
+}

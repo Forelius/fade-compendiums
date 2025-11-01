@@ -1,0 +1,63 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Room with Trap",
+  "_id": "Nk22YRiauIBIKE6t",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The room contains a hidden trap. If there's treasure, it's likely trapped; otherwise, the danger may be near an exit or somewhere on the floor.</p>",
+  "results": [
+    "lgZhYR3hJDi5aQJ7",
+    "EXj3A1fus8LqfRtG"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!Nk22YRiauIBIKE6t",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Nk22YRiauIBIKE6t.EXj3A1fus8LqfRtG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "EXj3A1fus8LqfRtG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Room has treasure. Roll on appropriate treasure table for dungeon level.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Nk22YRiauIBIKE6t.lgZhYR3hJDi5aQJ7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "lgZhYR3hJDi5aQJ7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Trap Type",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Tk715KuZhA0PruGs",
+      "description": ""
+    }
+  ]
+}

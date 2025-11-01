@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Pike",
+  "type": "weapon",
+  "_id": "UV2uwnF90kcSTHnz",
+  "img": "icons/weapons/polearms/pike-flared-red.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 80,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d10",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Pike",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": true,
+    "unidentifiedDesc": "<p>A pike is an extremely long spear, 7’ to 15’ long. It can only be wielded using two hands. See polearm rules for special usage.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2300000,
+  "_originalKey": "!items!UV2uwnF90kcSTHnz"
+}

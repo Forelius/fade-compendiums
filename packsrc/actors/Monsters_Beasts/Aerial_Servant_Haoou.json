@@ -1,0 +1,843 @@
+{
+  "name": "Aerial Servant (Haoou)*",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 9,
+      "xpAward": 4050,
+      "attacks": "1",
+      "abilityCount": 2,
+      "monsterType": "Planar Monster, Enchanted",
+      "saveAs": "F16",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "16",
+      "value": 72,
+      "max": 72
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1d4"
+    },
+    "treasure": "Nil or Special",
+    "thac0": {
+      "value": 7,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240,
+      "max": 240
+    },
+    "gm": {
+      "notes": ""
+    },
+    "biography": "<p>Aerial servants, also known as haoou, are humanoid figures composed of roiling fog and have an ominous presence. They are native to the elemental plane of Air and are only found on the Prime Plane when summoned by a cleric using the aerial servant spell.</p><p>These beings do not relish being summoned for service and are resentful towards those who bring them to the Prime Plane. Despite this, they do not intentionally misinterpret commands. They are powerful beings who do not engage in combat but are exceptionally skilled at capturing and retrieving objects or creatures as ordered by their summoners.</p><p>Only magical weapons or spells can harm them, and they can travel at incredible speeds, often surprising their targets. Their grip is nearly impossible to escape, with a victim's chance of breaking free equal to their Hit Dice or level percentage.</p><p>On their home plane, haoou have an empire in regions with few other inhabitants, where they often clash with helions and djinn. They fear creatures and attacks related to the element of earth.</p><p><strong>Terrain:</strong> Plane of Air; Any.</p><p><strong>Load:</strong> 5,000 cn at full speed; 10,000 cn at half speed when carrying items or prisoners.</p>",
+    "wrestling": 41,
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "label": "Unencumbered",
+      "mv": 240,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": 0,
+      "total": 0,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "thbonus": 12,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": true,
+    "abilities": {
+      "int": {
+        "value": 12,
+        "total": 12,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 32,
+        "total": 32,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 720,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "enchanted"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Aerial Servant (Haoou)",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "pPE64L1R45rjmzlY",
+    "8zMkH5NaF4ejB9yM",
+    "Vm7JtHuwwBL9REHf",
+    "uFYQ6bS7GFxnBjeT",
+    "TYoG1PCpaTsXXl0G",
+    "6s7kRzblnCjJD7My",
+    "QaZuffv2gFcs9iDt",
+    "WhnVKEKWHIpzvMQJ",
+    "iwVGNYowk2JNtnNH",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "OlYmiMKOeZtTim0B",
+  "sort": 9900000,
+  "_originalKey": "!actors!OlYmiMKOeZtTim0B",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.6s7kRzblnCjJD7My",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "6s7kRzblnCjJD7My",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "6",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.8zMkH5NaF4ejB9yM",
+      "name": "Seize Attack",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "The Aerial Servant attempts to seize its target. If successful, the target must make a save vs. spells or be held fast.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "4d8",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "spell",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Seize Attack",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/svg/sword.svg",
+      "_id": "8zMkH5NaF4ejB9yM",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.QaZuffv2gFcs9iDt",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "QaZuffv2gFcs9iDt",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "6",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.TYoG1PCpaTsXXl0G",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "TYoG1PCpaTsXXl0G",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "5",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.Vm7JtHuwwBL9REHf",
+      "name": "Super-Speed",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Aerial Servant can move at super-speed, surprising its targets with a 1-7 on a 1d8 roll. This ability allows it to catch targets unawares and quickly complete tasks.</p>",
+        "gm": {
+          "notes": "Super-speed ability for surprise and rapid movement."
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "Vm7JtHuwwBL9REHf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.WhnVKEKWHIpzvMQJ",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "WhnVKEKWHIpzvMQJ",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.iwVGNYowk2JNtnNH",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "iwVGNYowk2JNtnNH",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "8",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.pPE64L1R45rjmzlY",
+      "name": "Formless Armor",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The swirling fog of the Aerial Servant provides natural protection.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 0,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "pPE64L1R45rjmzlY",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!OlYmiMKOeZtTim0B.uFYQ6bS7GFxnBjeT",
+      "name": "Magical Resistance",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Aerial Servant can only be harmed by spells or magical weapons, making it nearly impervious to most physical attacks.</p>",
+        "gm": {
+          "notes": "Resistance to non-magical attacks."
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "uFYQ6bS7GFxnBjeT",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!OlYmiMKOeZtTim0B.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

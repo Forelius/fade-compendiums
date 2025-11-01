@@ -1,0 +1,51 @@
+{
+  "name": "Locate Object (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "kXFO22VpYT8uU03F",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to sense the direction of a known object within range, but not its distance. It can detect a common object with a partial description, such as \"stairs leading up,\" but will only indicate the direction of the nearest such object.  To find a specific object, the caster must <em>know</em> exactly what the object looks like (size, shape, color, etc.). The spell will not locate a creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "0 (Caster only)",
+    "duration": "6 turns",
+    "effect": "Detects one object within 120'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "vF1VrJPd7AK8dZdh",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!vF1VrJPd7AK8dZdh"
+}

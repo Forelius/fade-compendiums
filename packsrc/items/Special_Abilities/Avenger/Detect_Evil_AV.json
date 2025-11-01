@@ -1,0 +1,44 @@
+{
+  "folder": "qFF5HCKZq2M3Gc3M",
+  "name": "Detect Evil (AV)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "KEoKDzu3vPGv03is",
+  "system": {
+    "tags": [],
+    "description": "<p>An Avenger can use Detect Evil (as the cleric spell) once per round by concentrating. This ability has a 120' range but cannot be used in the same round as an attack.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "AV",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!KEoKDzu3vPGv03is"
+}

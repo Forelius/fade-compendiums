@@ -1,0 +1,520 @@
+{
+  "name": "Horde (17HD)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "morale": 12,
+      "alignment": "Lawful",
+      "xpAward": 3150,
+      "abilityCount": 1,
+      "monsterType": "Planar Monster",
+      "rarity": "Very Rare",
+      "saveAs": "F1",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "attacks": "1",
+      "weight": "",
+      "size": "L"
+    },
+    "monsterTypes": [],
+    "na": {
+      "wandering": "2d4",
+      "lair": "1d100*10"
+    },
+    "treasure": "Special",
+    "isEnchanted": false,
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 7,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 12,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "unskilledToHitMod": -2,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack"
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {},
+      "masteryLevelOverride": null,
+      "rangedAc": 0
+    },
+    "wrestling": 43,
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 13,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "tags": [],
+    "biography": "<p>\"The hordes\" are life forms native to the elemental plane of Earth. Each single life force has hundreds of separate insect-like bodies. The size of the bodies ranges from <strong>3 to 21 feet long</strong>; the length corresponds to the Hit Dice (i.e., a <strong>3-HD body will be 3 feet long</strong>). Details on the individual bodies are given above.</p><p>One horde life force can control up to <strong>10,000 Hit Dice</strong> of bodies. Replacement bodies can be created at the rate of <strong>1 Hit Die per turn</strong>. Unlike insects, there is no \"queen\" body: the life force is widely spread, occupying all the bodies evenly. The life force can only control bodies within a volume <strong>100 miles across</strong>; if taken outside that range, a body becomes a mindless thing, dying in [[/r 1d10 #Days until death]] <strong>1-10 days</strong>. Each planet in the realm of the hordes is occupied by [[/r 1d100 #Life forces]]<strong> life forces</strong>.</p><p>Each individual life force has its own name. All the bodies of a single life force will respond to the same name, and this can cause confusion in dealing with a horde creature. The creature itself can only die if all of its bodies are destroyed. The horde creatures do not consider any other life forms to be intelligent. When a horde needs more room, it will simply try to take it, without regard for other creatures; thus, they are considered evil. The horde creatures often grapple with each other in this war for living space.</p><p>A horde creature can use <strong>ESP</strong> and <strong>telekinesis</strong> (up to <strong>2,000 cn</strong>) as often as desired, up to once per round. It communicates by telepathy, speaking directly to the minds of others. It is incredibly intelligent and can easily handle dozens of conversations at once.</p><p>Each horde is very Lawful and always dangerous. A horde creature sacrifices as many bodies as needed to reach a goal, and thus the morale of a body is <strong>12</strong>. The creature is immune to all mental effects (charm, hold, sleep, etc.), but the bodies are susceptible to blows and damage-causing attacks of most types. Because of its disregard for individual bodies, a horde normally does not bother to attempt to save them; in play, it simply fails all saving throws voluntarily. However, if <strong>10% or more</strong> of a horde's bodies are lost in a single activity (an encounter with enemies, for example), the creature will either resolve the problem peacefully (negotiating, avoiding, etc.) or call other hordes for assistance.</p><p>Each horde can have a different species of insect as its bodies. One horde might consist of bodies that look like huge gold praying mantises with wings, while another might consist of smallish black beetles with glowing red tips on their antennae.</p><p>The hordes' enemies are the kryst and the undines. They fear fire-type creatures and attacks.</p><p><strong>Terrain:</strong> Plane of Earth.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "17",
+      "value": 77,
+      "max": null
+    },
+    "movement": {
+      "turn": 150,
+      "max": 150,
+      "round": 50,
+      "day": 30,
+      "run": 150
+    },
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Horde",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "59AzLY3J7kwDsvOR",
+    "Nir5wJ2u14kXvEmZ",
+    "82hrDesqzpRPsh0K",
+    "rgE9H2hP8QteDAm7"
+  ],
+  "effects": [],
+  "folder": "0fvjQe6vNJz3WuuO",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SrEp7qwyoSd5upmI",
+  "sort": 0,
+  "_originalKey": "!actors!SrEp7qwyoSd5upmI",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!SrEp7qwyoSd5upmI.59AzLY3J7kwDsvOR",
+      "name": "Natural Protection",
+      "type": "armor",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": null,
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "isTreasure": false,
+        "ac": 3,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "natural": true,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "59AzLY3J7kwDsvOR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!SrEp7qwyoSd5upmI.82hrDesqzpRPsh0K",
+      "name": "ESP",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Like the spell and can be used once per round.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "82hrDesqzpRPsh0K",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!SrEp7qwyoSd5upmI.Nir5wJ2u14kXvEmZ",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 1,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "4d6",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "Nir5wJ2u14kXvEmZ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!SrEp7qwyoSd5upmI.rgE9H2hP8QteDAm7",
+      "name": "Telekinesis",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Like the spell. Up to 2,000 cn and can be used once per round.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "rgE9H2hP8QteDAm7",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

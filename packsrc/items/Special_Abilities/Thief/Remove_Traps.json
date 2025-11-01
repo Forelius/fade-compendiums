@@ -1,0 +1,44 @@
+{
+  "name": "Remove Traps",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "10",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "healFormula": "",
+    "dmgFormula": "",
+    "quantity": 1,
+    "quantityMax": 0,
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true
+  },
+  "folder": "dweUdoWqUwjtcc0d",
+  "_id": "F8V6gczW0AFzCTgK",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!F8V6gczW0AFzCTgK"
+}

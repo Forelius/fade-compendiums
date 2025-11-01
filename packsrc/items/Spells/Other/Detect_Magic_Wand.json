@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Detect Magic (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Cause any magical item within 20' to glow. If the item cannot normally be seen (within a closed chest, for example), the glow will not be seen.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Concentrate",
+    "effect": "Detect magic",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "cFj3mGKIynfu4vtJ",
+  "sort": 2000000,
+  "_originalKey": "!items!cFj3mGKIynfu4vtJ"
+}

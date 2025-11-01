@@ -1,0 +1,47 @@
+{
+  "name": "Call Lightning",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "ITBl84G3mrEdxxqh",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "360'",
+    "duration": "1 turn per level of the caster",
+    "effect": "Calls lightning bolts from a storm",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "8d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gpk8FJaYQjSSDOn9",
+  "sort": 0,
+  "_originalKey": "!items!gpk8FJaYQjSSDOn9"
+}

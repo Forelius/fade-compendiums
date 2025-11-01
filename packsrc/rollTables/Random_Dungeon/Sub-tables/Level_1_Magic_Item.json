@@ -1,0 +1,63 @@
+{
+  "name": "Level 1 Magic Item",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "FuKjpfifHEtcrCbV",
+    "0ACfDgImLocKrvOO"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "APhl7fhYB0s5L7Nl",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_id": "bdPg8G95IuKtLyBd",
+  "sort": 200000,
+  "_originalKey": "!tables!bdPg8G95IuKtLyBd",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!bdPg8G95IuKtLyBd.0ACfDgImLocKrvOO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-highlight.svg",
+      "_id": "0ACfDgImLocKrvOO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magical Items (Basic)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.zsJcesRnrzLKi62n",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!bdPg8G95IuKtLyBd.FuKjpfifHEtcrCbV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        100
+      ],
+      "drawn": false,
+      "_id": "FuKjpfifHEtcrCbV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No magic items",
+      "name": ""
+    }
+  ]
+}

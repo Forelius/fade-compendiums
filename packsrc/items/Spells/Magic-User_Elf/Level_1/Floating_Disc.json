@@ -1,0 +1,51 @@
+{
+  "name": "Floating Disc",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible, horizontal disc capable of carrying up to 5000 cn (500 lbs). The disc remains at the caster's waist height and follows them, staying within 6' at all times. It cannot be used as a weapon or pass through obstacles. When the spell ends, the disc disappears, dropping anything it carried.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "6 turns",
+    "effect": "Disc remains within 6'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "bXT2pQuLZaHwwuEP",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 700000,
+  "_originalKey": "!items!bXT2pQuLZaHwwuEP"
+}

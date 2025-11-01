@@ -1,0 +1,51 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Find Traps",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "ruJLZD4L4Qkzg8RU",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes all mechanical and magical traps within 30' of the spellcaster to emit a faint blue glow. While it reveals the presence of traps, it does not provide information on their type or how to disarm them. Ambushes or natural hazards like quicksand are not considered traps and will not be revealed by this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "0 (caster only)",
+    "duration": "2 turns",
+    "effect": "Traps within 30' glow",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1100000,
+  "_originalKey": "!items!ruJLZD4L4Qkzg8RU"
+}

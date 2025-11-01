@@ -1,0 +1,36 @@
+{
+  "name": "Deception",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Deception skill enables a character to lie convincingly, mislead others, and create believable falsehoods. It is used to conceal intentions, bluff, or forge information. This skill can be vital for characters trying to hide the truth or manipulate others' perceptions in various social or investigative situations.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "blindroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "FJXhahzqumGLuWHB",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!FJXhahzqumGLuWHB"
+}

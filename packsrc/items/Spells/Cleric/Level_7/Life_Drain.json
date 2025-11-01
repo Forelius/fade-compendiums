@@ -1,0 +1,49 @@
+{
+  "name": "Life Drain*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reverse of <em>Restore</em>, this spell drains one level of experience from the touched victim, just like the touch of a wight or wraith.</p>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>The victim loses one full level of experience immediately.</li>\n                        <li>If the victim is reduced to zero levels, they perish.</li>\n                      </ul>\n                      <p><strong>Cleric Effects:</strong></p>\n                      <ul>\n                        <li>Unlike *Restore*, casting this spell does <strong>not</strong> cause any level loss to the cleric.</li>\n                        <li>No rest is required after casting.</li>\n                      </ul>\n                      <p><strong>Alignment:</strong> This is a <strong>Chaotic act</strong>, generally avoided by Lawful clerics.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Drains 1 level from the target",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "melee",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "xpoXovkh7BODLvdP",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!xpoXovkh7BODLvdP"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Agility Boost",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "_id": "57mIPexb6UaUq1Th",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Raise the Dexterity score to 18.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "hoX0hHwnsS5vO2T2"
+  ],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!57mIPexb6UaUq1Th",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!57mIPexb6UaUq1Th.hoX0hHwnsS5vO2T2",
+      "name": "Agility Boost",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "hoX0hHwnsS5vO2T2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.total",
+          "mode": 4,
+          "value": "18",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#b8f47b",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

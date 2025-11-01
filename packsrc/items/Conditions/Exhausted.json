@@ -1,0 +1,84 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Exhausted",
+  "type": "condition",
+  "img": "icons/svg/unconscious.svg",
+  "_id": "CZSZgo8zfKwz42nZ",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "cp7uX7fFTHZNvBDr"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 4700000,
+  "_originalKey": "!items!CZSZgo8zfKwz42nZ",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!CZSZgo8zfKwz42nZ.cp7uX7fFTHZNvBDr",
+      "name": "Exhausted",
+      "img": "icons/svg/unconscious.svg",
+      "disabled": false,
+      "_id": "cp7uX7fFTHZNvBDr",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ff8e7a",
+      "transfer": true,
+      "statuses": [
+        "downgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

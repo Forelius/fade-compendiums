@@ -1,0 +1,29 @@
+{
+  "name": "fade-compendiums",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "![image](./assets/img/banner.jpg)",
+  "scripts": {
+    "packdump": "node scripts/build/LdbActions.mjs dump",
+    "packrestore": "node scripts/build/LdbActions.mjs restore",
+    "packextract": "node scripts/build/dbConvert.mjs extract",
+    "packcompile": "node scripts/build/dbConvert.mjs compile",
+    "decomppacks": "npm run packdump && npm run packextract && echo \"Decompiled packs\"",
+    "comppacks": "npm run packcompile && npm run packrestore && echo \"Compiled packs\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forelius/fade-compendiums.git"
+  },
+  "keywords": [],
+  "author": "forelius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Forelius/fade-compendiums/issues"
+  },
+  "homepage": "https://github.com/Forelius/fade-compendiums#readme",
+  "dependencies": {
+    "level": "^10.0.0",
+    "uuid": "^13.0.0"
+  }
+}

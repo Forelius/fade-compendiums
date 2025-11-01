@@ -1,0 +1,47 @@
+{
+  "name": "Power Word Stun",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell stuns a single creature within 120' with no saving throw.</p><h4>Effect:</h4><ul><li>If the target has 1-35 hit points, it is stunned for [[/r 2d6 #Stunned for this many turns.]] turns.</li><li>If the target has 36-70 hit points, it is stunned for [[/r 1d6 #Stunned for this many turns.]] turns.</li><li>Creatures with 71 or more hit points are unaffected.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "2d6 or 1d6 turns",
+    "effect": "Stuns 1 creature of 70 hp or less",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "eRp1V5q6Lh7WsOV5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!eRp1V5q6Lh7WsOV5"
+}

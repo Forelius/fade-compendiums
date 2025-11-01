@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Clairaudience",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The user can listen to sounds, including speech, within a 60-foot radius by using the ears of a creature present in that area.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Hear through other's ears",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "E91EG7DfrhXEJahe",
+  "sort": 2200000,
+  "_originalKey": "!items!E91EG7DfrhXEJahe"
+}

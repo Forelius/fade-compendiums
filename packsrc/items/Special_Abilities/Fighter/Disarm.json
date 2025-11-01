@@ -1,0 +1,44 @@
+{
+  "folder": "mNmtATMCAjwUeGOs",
+  "name": "Disarm",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "XYcs5FLZAqCiMp6Y",
+  "system": {
+    "tags": [],
+    "description": "<p>This combat option allows a character to attempt to disarm an opponent armed with a weapon. When making the attack, the character applies their usual Strength and magic bonuses to the attack roll. If the attack hits, no damage is dealt. Instead, the opponent rolls 1d20, subtracts their Dexterity bonuses, and adds the character’s Dexterity bonuses. If the final result exceeds the opponent's Dexterity score, they drop their weapon.</p><p>For example, a character faces a warrior they wish to capture alive. The warrior has AC 0 and a Dexterity of 13. The character has a Strength of 16 and wields a +2 sword, giving them a +4 to attack rolls. Their Dexterity is 12, with no bonus. The character needs a 7 to hit AC 0. They roll a 6, adding their +4 bonus to make a total of 10, successfully hitting the warrior.</p><p>The warrior then rolls 1d20 and gets a 15. Subtracting their Dexterity bonus of +1 (from their Dexterity of 13) results in 14. Since the character has no Dexterity bonus, the final roll remains 14, which is greater than the warrior’s Dexterity score of 13. The disarm attempt succeeds.</p><p>Once disarmed, the opponent can either switch weapons, losing initiative for the next round, or attempt to retrieve the dropped weapon. To retrieve it, the opponent must retreat and pick up the weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "disarm",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "F",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!XYcs5FLZAqCiMp6Y"
+}

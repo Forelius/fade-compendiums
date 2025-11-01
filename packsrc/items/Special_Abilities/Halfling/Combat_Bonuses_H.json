@@ -1,0 +1,158 @@
+{
+  "name": "Combat Bonuses (H)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and a -2 AC bonus when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "GS7EOEGEZk6UwIUu",
+  "effects": [
+    "USsPJi89yOvhMuPL",
+    "m17nznbg8xOnJYvf",
+    "ZErQ5xWnSL3z4Gcl"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "j1FIuV7aJhu48YOk",
+  "sort": 400000,
+  "_originalKey": "!items!j1FIuV7aJhu48YOk",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!j1FIuV7aJhu48YOk.USsPJi89yOvhMuPL",
+      "name": "Initiative Bonus",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.ZfID3ksMSPpUiGFM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "USsPJi89yOvhMuPL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.initiative",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!items.effects!j1FIuV7aJhu48YOk.ZErQ5xWnSL3z4Gcl",
+      "name": "+1 Missile Attack",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.j1FIuV7aJhu48YOk",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "ZErQ5xWnSL3z4Gcl",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!items.effects!j1FIuV7aJhu48YOk.m17nznbg8xOnJYvf",
+      "name": "AC +1 vs Large",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.j1FIuV7aJhu48YOk",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "m17nznbg8xOnJYvf",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.acVsLarge",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

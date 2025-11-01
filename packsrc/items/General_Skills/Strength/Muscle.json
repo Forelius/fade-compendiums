@@ -1,0 +1,36 @@
+{
+  "name": "Muscle",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Muscle skill represents a character's training in heavy lifting and strenuous physical tasks, such as opening stuck doors, breaking objects, or moving large weights. Characters with this skill can direct groups of laborers to optimize their efforts when moving heavy loads or using simple machinery like pulleys and levers.</p>\n            <p>With a successful skill check, the character gains a +2 bonus on Strength checks for tasks involving raw physical power, such as forcing open a door or bending bars. This skill is invaluable for characters who frequently engage in physically demanding situations.</p>\n            <p>The skill also allows the character to apply basic principles of physics to their advantage, using leverage and technique to multiply their effective strength. Many characters who are laborers, warriors, or athletes commonly possess this skill.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "x7OckEYbJkVxtHV5",
+  "effects": [],
+  "folder": "PrQiYjt2ZGESSP4i",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!x7OckEYbJkVxtHV5"
+}

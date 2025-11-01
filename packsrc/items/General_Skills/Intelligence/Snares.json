@@ -1,0 +1,36 @@
+{
+  "name": "Snares",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This is the skill of building traps to capture animals, monsters, and unwanted visitors. A successful skill roll means the trap functions properly. The DM can assign modifiers to the skill roll based on the time the character had to set up the trap, the availability of materials, etc.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "mYQGimpGqoze78tO",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!mYQGimpGqoze78tO"
+}

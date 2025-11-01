@@ -1,0 +1,47 @@
+{
+  "name": "Shapechange",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to completely transform into another creature or object while retaining their own mind, hit points, and saving throws.</p><h4>Transformation Details:</h4><ul><li>The caster gains the new form’s Armor Class, attack rolls, special attack forms, immunities, and abilities.</li><li>The caster cannot cast spells unless in a bipedal humanoid form (demihuman, goblin, ogre, giant, etc.).</li><li>The caster cannot take the form of a specific individual, Elemental Ruler, or Immortal.</li><li>The caster cannot use spellbooks or scrolls in non-humanoid forms.</li><li>If the caster assumes another class's form, he does not gain that class's abilities.</li></ul><h4>Size Limitations:</h4><ul><li>The caster cannot assume huge inanimate forms.</li><li>The maximum size for an inanimate object is 1 foot per caster level and 100 cn per caster level.</li></ul><h4>Restrictions:</h4><ul><li>The caster may only change into creatures or objects that he has personally seen.</li><li>The caster cannot invent new creatures (e.g., a ten-armed troll unless they exist in the campaign).</li><li>The caster inherits the weaknesses of the chosen form (e.g., a dragon form is vulnerable to <em>swords +2, +5 vs. dragons</em>).</li><li>The caster may change form at will, but each transformation requires 1 full round of concentration.</li><li>The effect cannot be made permanent and is subject to dispel magic.</li><li>The caster cannot pass through <em>protection from evil</em> or <em>anti-magic shell</em> effects.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "0 (caster only)",
+    "duration": "One turn per level",
+    "effect": "Allows caster to change form completely",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60*@classes.M.castLevel",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "0aUWNVQfrZHPiAmu",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!0aUWNVQfrZHPiAmu"
+}

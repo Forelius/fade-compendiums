@@ -1,0 +1,48 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Boost Agility",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "JFO4Fr89NVxx4Dgz",
+  "system": {
+    "tags": [],
+    "description": "<p>Increases Dexterity score to 18. All applicable Dexterity bonuses, such as improved Armor Class and ranged attack bonuses, are applied during this time.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Raises Dexterity to 18",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Agility Boost",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.57mIPexb6UaUq1Th"
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!JFO4Fr89NVxx4Dgz"
+}

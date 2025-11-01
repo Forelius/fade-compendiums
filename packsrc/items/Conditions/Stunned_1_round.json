@@ -1,0 +1,90 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Stunned (1 round)",
+  "type": "condition",
+  "img": "icons/svg/stoned.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>With the one-round stuns caused in unarmed combat, the victim cannot make any attacks until the stun wears off. (In some other types of stun, the stun might go on awhile, allowing the stunned character to attack, ineffectually, after a certain amount of time has passed.)</p><p>Also, while stunned, the victim moves at one-third the normal movement rate for whatever speed he is attempting. He suffers a -4 penalty to all his saving throws. He suffers a +4 penalty to his armor class (thus an AC 5 becomes a 9). He cannot concentrate, cast spells, or use magical items. He cannot use general skills. Any weapon mastery skill he possesses above Basic level is reduced to Basic level.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "iURIaHsKjMoDrOVa"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "7xtCLb5Evbw9XC8K",
+  "sort": 2600000,
+  "_originalKey": "!items!7xtCLb5Evbw9XC8K",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!7xtCLb5Evbw9XC8K.iURIaHsKjMoDrOVa",
+      "name": "Stun",
+      "img": "icons/svg/stoned.svg",
+      "disabled": false,
+      "_id": "iURIaHsKjMoDrOVa",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.ac",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.masteryLevelOverride",
+          "mode": 5,
+          "value": "basic",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 10,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "stun"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

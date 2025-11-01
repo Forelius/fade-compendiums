@@ -1,0 +1,77 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Mace +1",
+  "type": "weapon",
+  "_id": "zIvpjluLzsyVYTPH",
+  "img": "icons/weapons/maces/mace-flanged-steel.webp",
+  "system": {
+    "tags": [
+      "cleric",
+      "magic"
+    ],
+    "description": "<p>A magic mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Mace",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "size": "M",
+    "grip": "1H",
+    "unidentifiedName": "Mace",
+    "isIdentified": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "isCursed": false,
+    "canSet": false,
+    "isSlow": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!zIvpjluLzsyVYTPH"
+}

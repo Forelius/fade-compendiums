@@ -1,0 +1,51 @@
+{
+  "name": "Cure Serious Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell heals 2d6 + 2 points of damage on one living creature when touched by the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Heals one living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "2d6 + 2",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "heal",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "VGi9Wcmf6tzIvLP2",
+  "sort": 0,
+  "_originalKey": "!items!VGi9Wcmf6tzIvLP2"
+}

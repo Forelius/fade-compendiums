@@ -1,0 +1,36 @@
+{
+  "name": "Quick Draw",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Quick Draw skill allows a character to swiftly draw and ready a weapon or item, such as a sword or potion, even in stressful situations like combat. This skill can grant an advantage in initiative or allow an immediate action that would normally take longer to perform.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "DJkPF2vfxSh2hjtO",
+  "effects": [],
+  "folder": "IkRJGH236ypzekkN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!DJkPF2vfxSh2hjtO"
+}

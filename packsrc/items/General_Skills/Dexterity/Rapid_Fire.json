@@ -1,0 +1,36 @@
+{
+  "folder": "IkRJGH236ypzekkN",
+  "name": "Rapid Fire",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "_id": "qE631qXVFMWD3qEJ",
+  "system": {
+    "description": "<p>A successful Check enables a character to fire a bow twice instead of once. Each shot is made with a penalty of ‐3 to hit. The first arrow is fired according to which side wins initiative, the second arrow is always fired at the end of the round.</p><p>From GAZ13.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!qE631qXVFMWD3qEJ"
+}

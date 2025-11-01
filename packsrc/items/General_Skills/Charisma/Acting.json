@@ -1,0 +1,36 @@
+{
+  "name": "Acting",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Acting skill enables a character to convincingly portray different personalities, emotions, or even other characters. It is used to deceive others, blend into a new role, or perform on stage. This skill can be crucial when impersonating someone or maintaining a disguise, and can also help in social situations where creating the right impression is essential.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "sOceUpHHbyMvimoS",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sOceUpHHbyMvimoS"
+}

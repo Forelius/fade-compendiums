@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Merge",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "YIOpqdLR0B1lgJ0A",
+  "system": {
+    "tags": [],
+    "description": "<p>The effect is quite unusual. The user can permit others to merge their forms with the user's, including all equipment carried, as if all were gaseous. A maximum of seven other creatures can <em>merge</em> with the user. The merging cannot be forced; the user can, at will, prevent anyone from merging. A creature merged with the user can leave the merger by merely stepping out. No creature merged with another (including the user) can attack or cast a spell, but may speak. Damage to the user does not affect those <em>merged</em>.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "5'",
+    "duration": "Instant",
+    "effect": "Merge into gaseous form",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "7",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YIOpqdLR0B1lgJ0A"
+}

@@ -1,0 +1,49 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Control  Plant",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60'",
+    "duration": "7-12 turns",
+    "effect": "Control plants and plantlike creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Xrile5iqpO0m6P73",
+        "name": "Controlling Plants",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "WP9qlLF2ysZW0e7L",
+  "sort": 1400000,
+  "_originalKey": "!items!WP9qlLF2ysZW0e7L"
+}

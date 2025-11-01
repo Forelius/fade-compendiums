@@ -1,0 +1,20 @@
+{
+  "folder": "KnvGWVgDGttFNMhM",
+  "name": "Fix World Actor Spell Class",
+  "type": "script",
+  "_id": "FZVoe0lT83ZUJegT",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "(async () => {\n  try {\n    const packs = game.packs.filter(p => p.metadata.type === 'Item');\n    const allClassItems = [];\n\n    // Step 1: Load all class items from all packs\n    for (const pack of packs) {\n      const items = await pack.getDocuments();\n      const classItems = items.filter(item => item.type === 'class');\n      allClassItems.push(...classItems);\n    }\n\n    // Step 2: Build class name lookup map\n    const classLookup = new Map();\n    for (const classItem of allClassItems) {\n      classLookup.set(classItem.name.toLowerCase(), {\n        name: classItem.name,\n        uuid: classItem.uuid\n      });\n    }\n\n    // Step 3: Process all world actors\n    let totalUpdated = 0;\n\n    for (const actor of game.actors.contents) {\n      const updates = [];\n\n      for (const item of actor.items) {\n        if (item.type !== 'spell') continue;\n\n        const tags = item.system?.tags || item.system?.properties || [];\n        const spellClasses = [];\n\n        for (const tag of tags) {\n          const match = classLookup.get(tag.toLowerCase());\n          if (match) {\n            spellClasses.push({ name: match.name, uuid: match.uuid });\n          }\n        }\n\n        // Only update if there are matching classes\n        if (spellClasses.length > 0) {\n          updates.push({\n            _id: item.id,\n            'system.classes': spellClasses\n          });\n        }\n      }\n\n      if (updates.length > 0) {\n        await actor.updateEmbeddedDocuments('Item', updates);\n        console.log(`Updated ${updates.length} spell(s) for actor \"${actor.name}\"`);\n        totalUpdated += updates.length;\n      }\n    }\n\n    ui.notifications.info(`Updated ${totalUpdated} spell items on world actors.`);\n  } catch (error) {\n    console.error('Error updating actor spell items:', error);\n    ui.notifications.error('Failed to update actor spell items. Check console.');\n  }\n})();",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!FZVoe0lT83ZUJegT"
+}

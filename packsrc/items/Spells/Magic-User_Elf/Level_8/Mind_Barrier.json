@@ -1,0 +1,47 @@
+{
+  "name": "Mind Barrier*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants one creature powerful protection against mental effects for 1 hour per caster level. An unwilling target may make a saving throw vs. spells to resist.</p><h4>Effects:</h4><ul><li>The target is completely immune to ESP, <em>clairvoyance</em>, <em>clairaudience</em>, <em>crystal ball gazing</em>, and similar magical detection.</li><li>Prevents magical information gathering (such as <em>contact higher plane</em> or <em>summon object</em>).</li><li>For the duration, the caster or recipient effectively does not exist to these effects.</li><li>The target gains +8 to all saving throws against charm, illusion, phantasms, feeblemind, and other mental attacks.</li><li>A natural roll of 1 always fails, regardless of bonuses.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "1 hour per caster level",
+    "effect": "Grants immunity to mind-affecting magic and +8 to saves vs. mental attacks",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360*@classes.M.castLevel",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "8G6nPq8dhG3DShs0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!8G6nPq8dhG3DShs0"
+}

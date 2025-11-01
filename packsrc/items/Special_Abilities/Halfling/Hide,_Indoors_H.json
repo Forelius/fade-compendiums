@@ -1,0 +1,44 @@
+{
+  "name": "Hide, Indoors (H)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p data-start=\"478\" data-end=\"814\">Indoors or in dungeons, a Halfling can attempt to hide in deep shadows or cover, but with less success than in natural environments. If sufficient shadows or concealment exist, they have a 33% chance to remain unseen (rolled secretly by the DM). If there is no available cover, the Halfling cannot hide at all.</p><p data-start=\"816\" data-end=\"993\" data-is-last-node=\"\">A bright light, such as a magical light source that eliminates shadows, prevents hiding. A Halfling cannot use this ability while carrying a light source themselves.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "33",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "GS7EOEGEZk6UwIUu",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "t6qpHms5RyGJuAls",
+  "sort": 200000,
+  "_originalKey": "!items!t6qpHms5RyGJuAls"
+}

@@ -1,0 +1,81 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Room with Monster",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The room has a one or more monsters in it.</p>",
+  "results": [
+    "LKPasBl8UDqYwdZ9",
+    "dBDATHEKdrhTI6Nc",
+    "m7vWuDDrsUJzoKuT"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "ew4G96cAhEQOZ31r",
+  "sort": 0,
+  "_originalKey": "!tables!ew4G96cAhEQOZ31r",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.LKPasBl8UDqYwdZ9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "LKPasBl8UDqYwdZ9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Room has treasure! Roll on appropriate treasure table for dungeon level.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.dBDATHEKdrhTI6Nc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "dBDATHEKdrhTI6Nc",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lair! This room is part of a monster's lair. Roll on the appropriate encounter table to determine the type of monster and how many there are.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ew4G96cAhEQOZ31r.m7vWuDDrsUJzoKuT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_id": "m7vWuDDrsUJzoKuT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Encounter! One or more monsters are in this room. Roll on the appropriate wandering monster table.",
+      "name": ""
+    }
+  ]
+}

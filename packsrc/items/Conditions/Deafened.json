@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Deafened",
+  "type": "condition",
+  "img": "icons/svg/deaf.svg",
+  "_id": "NR89m2SgUz6espzk",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A character made deaf by magic (a curse or a <em>horn of blasting</em>, for example) is certainly inconvenienced. Since he cannot hear, he will miss many warnings shouted at him by his allies. The deaf character should make a saving throw vs. death ray; if he fails it, he is facing the wrong way when the warning is called. A <em>curse of deafness</em> would be cured by a remove curse spell, while deafness caused by a <em>horn of blasting</em> could be cured by a <em>cureall</em> spell.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "ZJfBV3o4IEjAGF2y"
+  ],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NR89m2SgUz6espzk",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!NR89m2SgUz6espzk.ZJfBV3o4IEjAGF2y",
+      "name": "Deafened",
+      "img": "icons/svg/deaf.svg",
+      "disabled": false,
+      "_id": "ZJfBV3o4IEjAGF2y",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "deaf"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

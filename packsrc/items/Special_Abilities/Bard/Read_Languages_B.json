@@ -1,0 +1,44 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Read Languages (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "qd6REmUxTW4iCyax",
+  "system": {
+    "tags": [],
+    "description": "<p>At <strong data-start=\"2735\" data-end=\"2748\">4th level</strong>, a Bard can decipher <strong data-start=\"2770\" data-end=\"2785\">non-magical</strong> writings, such as ancient scripts, inscriptions, or coded messages, with an <strong data-start=\"2862\" data-end=\"2887\">80% chance of success</strong>. This requires <strong data-start=\"2903\" data-end=\"2936\">one turn of study per passage</strong>. A failed attempt means the Bard cannot understand the text until they gain another level. This skill does not allow the Bard to read magical writings or scrolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!qd6REmUxTW4iCyax"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Polymorph Self",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to take on the physical form of another living creature, provided the new form’s Hit Dice are equal to or less than the caster's. If this condition is not met, the spell fails.</p>\n                      <p><strong>Physical Abilities:</strong> The caster retains their own AC, hit points, attack rolls, and saving throws, and does not gain special abilities (like a ghoul's paralysis) or immunities of the new form. However, they gain the physical capabilities of the form. For example, a caster polymorphed into a frost giant would gain giant strength and the ability to throw boulders, but not cold immunity. A dragon form would allow flight but not breath attacks or spellcasting.</p>\n                      <p><strong>Limitations:</strong> The caster cannot cast spells while polymorphed. The spell lasts for 6 turns + 1 turn per caster level, until dispelled, or until the caster is killed. This spell cannot be used to assume the form of a specific individual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "0 (Caster only)",
+    "duration": "6 turns + 1 turn per level of the caster",
+    "effect": "Caster may change shapes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(@classes.M.castLevel*60)+360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "17pZeQhr2R8Jw3cy",
+  "sort": 0,
+  "_originalKey": "!items!17pZeQhr2R8Jw3cy"
+}

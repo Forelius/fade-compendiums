@@ -1,0 +1,59 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Ethereality",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The user can become ethereal once at any time during the effect and may then remain ethereal for up to 24 hours, returning to the Prime Plane at will. Once the user returns to the Prime Plane, the effect cannot be used again.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4YebdKbSArZGgMvq",
+        "action": "consume",
+        "castAs": "",
+        "name": "Ethereality (Potion)"
+      }
+    ],
+    "weightEquipped": 10,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "GZHpQ0CYx2JSl48W",
+  "sort": 1200000,
+  "_originalKey": "!items!GZHpQ0CYx2JSl48W"
+}

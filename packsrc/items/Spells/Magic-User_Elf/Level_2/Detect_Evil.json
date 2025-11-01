@@ -1,0 +1,51 @@
+{
+  "name": "Detect Evil",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the spellcaster to see a glow surrounding all evilly enchanted objects within 60'. It will also cause creatures that want to harm the spellcaster to glow when they are within range. However, the spell does not allow the spellcaster to hear the actual thoughts of the creatures.</p><p>Remember that Chaotic alignment is not automatically the same as evil, although many Chaotic monsters have evil intentions. Traps and poison are neither good nor evil but are merely dangerous.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "2 turns",
+    "effect": "Everything within 60'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "KL0W8Ac8fT2ATyG5",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!KL0W8Ac8fT2ATyG5"
+}

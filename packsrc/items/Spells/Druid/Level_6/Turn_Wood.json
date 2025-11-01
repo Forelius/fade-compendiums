@@ -1,0 +1,47 @@
+{
+  "name": "Turn Wood",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Z9Sy2YBHKkjF5u6a",
+  "system": {
+    "tags": [],
+    "description": "<p>With this spell, the druid creates an invisible wave of magical force that repels all wooden objects within range. The wave originates within 30 feet of the caster and extends into a 120-foot-long and 60-foot-tall area in a direction chosen by the druid.</p><p>Once the wave is created, it immediately begins moving in a straight line at a rate of 10 feet per round. The druid may halt the wave at any time, but once stopped, it remains stationary for the remainder of the spell’s duration and cannot be moved again.</p><h4>Effects of the Wave</h4><ul><li>All wooden objects touched by the wave become stuck to it and are pushed along as it moves.</li><li>Objects caught in the wave are not damaged, but they are effectively unusable while trapped.</li><li>Any wooden weapons (such as bows, crossbows, spears, javelins, clubs, quarterstaffs, and slings) become useless while within the effect.</li><li>Magical wooden items (such as wands and staves) are also caught in the wave, unless they are being actively wielded by a creature with a stronger magical force than the wave itself (at the DM’s discretion).</li><li>Wooden doors, gates, and barriers are unaffected unless not securely fastened—a loose wooden fence might be swept along, while a sturdy wooden door in a stone wall would remain in place.</li></ul><h4>Applications & Limitations</h4><ul><li>The wave cannot move permanent wooden constructions (such as buildings, wooden towers, or firmly rooted trees).</li><li>Secured wooden objects, such as a wooden door locked within a stone frame, will not be affected.</li><li>The druid does not need to concentrate to maintain the effect; however, they may dismiss the wave early by concentrating for one full round.</li><li>The wave continues to move forward until it reaches the maximum range of 360 feet, at which point it stops and remains fixed in place for the rest of the spell’s duration.</li></ul><p>This spell is highly effective in mass combat scenarios, particularly against archers, cavalry, or siege engines. It is also useful in naval battles, as it can push away wooden rowboats, masts, or cargo.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "30'",
+    "duration": "One turn per caster level",
+    "effect": "Pushes all wooden items away",
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "@classes.DR.castLevel * 60",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "vXlPWa3iVUmL8NWo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!vXlPWa3iVUmL8NWo"
+}

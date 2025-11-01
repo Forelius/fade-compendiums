@@ -1,0 +1,144 @@
+{
+  "name": "Magical Items (No Weapons)",
+  "formula": "1d72",
+  "results": [
+    "l6vjcZD1GH9wPvqE",
+    "iHYTyScW3pA079Dc",
+    "bRW6ZDZUUvh9gjQY",
+    "kwFa7JJHk7oowvHs",
+    "9w14dcJQtkJx3to1",
+    "QFm9KXSy0ydVTa8P"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of magical item found, such as a Potion, Scroll, Wand, or Sword.</p>",
+  "folder": "xXYnk3SGl1lMlDVD",
+  "img": "icons/svg/d20-highlight.svg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "374vX1ZDCXmJPWRk",
+  "sort": 0,
+  "_originalKey": "!tables!374vX1ZDCXmJPWRk",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.9w14dcJQtkJx3to1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        53,
+        62
+      ],
+      "drawn": false,
+      "img": "icons/magic/symbols/star-yellow.webp",
+      "_id": "9w14dcJQtkJx3to1",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Miscellaneous Items",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6TbdY8QOlvIWA7Nz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.QFm9KXSy0ydVTa8P",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        63,
+        72
+      ],
+      "drawn": false,
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "_id": "QFm9KXSy0ydVTa8P",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic Armor",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.mYpxzeQa9MJ3NsEI",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.bRW6ZDZUUvh9gjQY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        38,
+        46
+      ],
+      "drawn": false,
+      "_id": "bRW6ZDZUUvh9gjQY",
+      "img": "icons/weapons/wands/wand-gem-purple.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Wands, Staves, and Rods",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ijhIjC095Q38i6Nf",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.iHYTyScW3pA079Dc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        26,
+        37
+      ],
+      "drawn": false,
+      "_id": "iHYTyScW3pA079Dc",
+      "img": "icons/sundries/scrolls/scroll-runed-brown-grey.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Scrolls",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.d8izv97FUAkovQwX",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.kwFa7JJHk7oowvHs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        47,
+        52
+      ],
+      "drawn": false,
+      "_id": "kwFa7JJHk7oowvHs",
+      "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic Rings",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.3eunvWJn4eieoI28",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!374vX1ZDCXmJPWRk.l6vjcZD1GH9wPvqE",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        25
+      ],
+      "drawn": false,
+      "_id": "l6vjcZD1GH9wPvqE",
+      "img": "icons/consumables/potions/potion-flash-open-blue.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Potions",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cHNzk2Ffn8VXtWUb",
+      "description": ""
+    }
+  ]
+}

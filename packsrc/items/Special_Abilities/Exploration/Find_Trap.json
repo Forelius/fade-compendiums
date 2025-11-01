@@ -1,0 +1,44 @@
+{
+  "name": "Find Trap",
+  "type": "specialAbility",
+  "img": "modules/fade-compendiums/assets/img/skill/findtrap.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>To search for traps, the player must specify the exact area they are examining, such as a 20-foot square room or a 20-foot corridor. Searching takes one turn (10 minutes) per area, and the Dungeon Master rolls to determine success. Thieves have a percentage-based chance to detect traps, determined by their level, while dwarves have a superior chance to locate large mechanical traps, such as pit traps, due to their natural affinity with stonework. The DM may modify the difficulty for especially hidden traps. Non-thief characters generally cannot detect traps unless their presence is obvious​​.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "rollFormula": "1d6",
+    "operator": "lte",
+    "target": "1",
+    "rollMode": "gmroll",
+    "savingThrow": "",
+    "autoSuccess": 1,
+    "autoFail": 6,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "explore",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true
+  },
+  "effects": [],
+  "folder": "SSodW6IBMU8TbVXq",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "BDFBtg7fOKRvlzbd",
+  "sort": 0,
+  "_originalKey": "!items!BDFBtg7fOKRvlzbd"
+}

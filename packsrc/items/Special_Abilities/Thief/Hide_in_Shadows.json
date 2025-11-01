@@ -1,0 +1,44 @@
+{
+  "name": "Hide in Shadows",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "10",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "healFormula": "",
+    "dmgFormula": "",
+    "quantity": 1,
+    "quantityMax": 0,
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true
+  },
+  "folder": "dweUdoWqUwjtcc0d",
+  "_id": "inFMixIFMcZpW6xM",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!inFMixIFMcZpW6xM"
+}

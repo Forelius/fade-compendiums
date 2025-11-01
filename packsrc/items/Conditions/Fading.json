@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Fading",
+  "type": "condition",
+  "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+  "_id": "SAMkZMLhz0bea7hM",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A character under the effect of this condition gradually becomes translucent over the course of 24 hours, eventually resembling a spectral hound in appearance. Their equipment remains unaffected. Once fully faded, the character is unable to hold normal items or communicate with unfaded characters through hearing or speech.</p><p>From the faded character's perspective, normal objects appear translucent, while faded entities, including other affected characters and spectral hounds, seem solid and normal.</p><p>The condition can be reversed at any time by a <em>dimension door</em> spell, allowing the affected character(s) to step through and return to the normal world.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "EDkhHcSRfkJBZNkW"
+  ],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!SAMkZMLhz0bea7hM",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!SAMkZMLhz0bea7hM.EDkhHcSRfkJBZNkW",
+      "name": "Fading",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "disabled": false,
+      "_id": "EDkhHcSRfkJBZNkW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fading"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

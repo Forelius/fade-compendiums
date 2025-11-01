@@ -1,0 +1,51 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Fear",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "QMnq62lBb1rxYaMF",
+  "system": {
+    "tags": [],
+    "description": "<p>The target(s) of this ability must make a saving throw against spells or flee in fear. Some variants of the ability may automatically affect creatures of a certain hit dice or lower (no saving throw), causing them to refuse to return to the area where the ability was used until the situation changes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "spell",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": false,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.oYjWYjpLycaMM1ME",
+        "name": "Fear",
+        "durationFormula": "2d6"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!QMnq62lBb1rxYaMF"
+}

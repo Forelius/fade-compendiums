@@ -1,0 +1,36 @@
+{
+  "name": "Gambling",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill is the ability to win money in games of skill (competitive card games, for example) and betting. It covers honest games only. A successful check increases the character's chances of winning money at these games.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "9fF9cqiRRyPOxOjJ",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!9fF9cqiRRyPOxOjJ"
+}

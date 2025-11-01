@@ -1,0 +1,51 @@
+{
+  "name": "Dispel Magic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell removes existing spell effects within a 20' x 20' x 20' area. Spell effects cast by a spellcaster of equal or lower level are automatically dispelled.</p>\n                      <p><strong>Higher-Level Casters:</strong> Effects created by a higher-level spellcaster may resist dispelling. The chance of failure is 5% per level difference. For example, a 7th-level magic-user dispelling a spell cast by a 9th-level cleric has a 10% chance of failure.</p>\n                      <p><strong>Magical Items:</strong> This spell does not affect magical items themselves, but it can disrupt active effects they produce. For instance, dispel magic can free a person from the control of a ring of human control.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "Destroys spells in a 20' cube",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "c1IT8bcwWwTwpgws",
+  "sort": 0,
+  "_originalKey": "!items!c1IT8bcwWwTwpgws"
+}

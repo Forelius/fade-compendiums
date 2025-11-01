@@ -1,0 +1,47 @@
+{
+  "name": "Summon Animals",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v3vt9QC6X4dDbc82",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to summon any or all normal animals within 360'. Only normal, non-magical creatures of animal intelligence are affected, including mammals, reptiles, and amphibians. It does not affect insects, arthropods, humans, or demihumans.</p>\n                      <p><strong>Animal Types:</strong> The druid may summon specific types or every animal within range. The total Hit Dice of responding animals equals the druid’s level, with small creatures (frogs, mice, squirrels, small birds) treated as 1/10 HD each.</p>\n                      <p><strong>Behavior:</strong> Animals respond by coming at their fastest movement rate, understand the druid’s speech, and will assist the druid as able. If harmed, a summoned animal will usually flee, breaking the spell for that animal. If the druid is attacked as a summoned animal arrives, the animal will attack the druid’s opponent, fleeing only if it fails a morale check.</p>\n                      <p>This spell can also be used to calm hostile animals encountered while adventuring.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "360'",
+    "duration": "3 turns",
+    "effect": "Calls and befriends normal animals",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "@classes.DR.castLevel",
+    "durationFormula": "180",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZroWn8Fz204LclBH",
+  "sort": 0,
+  "_originalKey": "!items!ZroWn8Fz204LclBH"
+}

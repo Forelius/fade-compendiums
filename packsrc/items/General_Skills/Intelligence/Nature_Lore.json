@@ -1,0 +1,36 @@
+{
+  "name": "Nature Lore",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill provides knowledge of plant and animal life in a specific terrain (e.g., desert, forest, jungle). The character can identify edible and poisonous plants, spot signs of unnatural danger, and know when something is out of place in the natural environment. When used in the character's home terrain, they receive a -2 bonus to their skill check; in unfamiliar but similar terrain, no bonus or penalty applies; in very different terrain, a penalty of up to +4 may be imposed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "ZvYPxP0Zk0TY3an3",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ZvYPxP0Zk0TY3an3"
+}

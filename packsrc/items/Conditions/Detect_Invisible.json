@@ -1,0 +1,57 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Detect Invisible",
+  "type": "condition",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "Eb1Wc8t93lzVPjoY"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SweWOsKvrGVPiDno",
+  "sort": 1600000,
+  "_originalKey": "!items!SweWOsKvrGVPiDno",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!SweWOsKvrGVPiDno.Eb1Wc8t93lzVPjoY",
+      "name": "Detect Invisible",
+      "img": "icons/svg/paralysis.svg",
+      "disabled": false,
+      "_id": "Eb1Wc8t93lzVPjoY",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#e8b8ff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Sword, Bastard (1H)",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 80,
+    "cost": 15,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6+1",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Sword, Bastard (1H)",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A bastard sword, also known as a longsword, is a sword with  a long (3’ to 4’) narrow blade that is used either one-handed or two-handed. The same weapon proficiency covers both forms of usage.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Y1BN5kWs27xDnOaq",
+  "sort": 2400000,
+  "_originalKey": "!items!Y1BN5kWs27xDnOaq"
+}

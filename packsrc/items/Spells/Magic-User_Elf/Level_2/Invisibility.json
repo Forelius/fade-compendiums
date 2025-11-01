@@ -1,0 +1,57 @@
+{
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell makes any one creature or object invisible. When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible.</p>\n                  <p>If the spellcaster makes an object invisible that is not being carried or worn, it will become visible again when touched by any living creature. An invisible creature remains invisible until they attack or cast any spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "240'",
+    "duration": "Permanent until broken",
+    "effect": "One creature or object",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "CRokTWBgRgtlXqP1",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!CRokTWBgRgtlXqP1"
+}

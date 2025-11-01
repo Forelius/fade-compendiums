@@ -1,0 +1,70 @@
+{
+  "folder": "QzAWBUfiEO1gIpUI",
+  "name": "Torch",
+  "type": "light",
+  "_id": "FiWHs33UbwiJ1sQl",
+  "img": "icons/sundries/lights/torch-black.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is any 1' to 2' long piece of wood, its head sometimes covered with an inflammable substance such as pitch. It casts light in a 30' radius and burns for one hour (six turns). See the description from the Weapons Table for information on using a torch as a weapon;  clerics can use it as a weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 6,
+    "weight": 20,
+    "cost": 0.2,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "light": {
+      "fuelType": "",
+      "type": "lantern",
+      "duration": 6,
+      "radius": 30,
+      "bright": 6,
+      "color": "#d0a750",
+      "attenuation": 0.9,
+      "luminosity": 0.5,
+      "angle": 360,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 2
+      },
+      "enabled": false,
+      "secondsRemain": 0
+    },
+    "isLight": true,
+    "ammoType": "",
+    "shortName": "",
+    "isAmmo": false,
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>This is any 1' to 2' long piece of wood, its head sometimes covered with an inflammable substance such as pitch. It casts light in a 30' radius and burns for one hour (six turns). See the description from the Weapons Table for information on using a torch as a weapon;  clerics can use it as a weapon.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 800000,
+  "_originalKey": "!items!FiWHs33UbwiJ1sQl"
+}

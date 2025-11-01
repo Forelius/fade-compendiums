@@ -1,0 +1,252 @@
+{
+  "name": "Extraordinary Power (NoReroll)",
+  "formula": "1d97",
+  "results": [
+    "1kpZ5P9r06mBuGUn",
+    "5Qjq6QGbGKL0lOY7",
+    "LHTy2CrAQVOXUJSr",
+    "5Usj2MK2n1xng3Vm",
+    "OxlcEC3vhWNZUwzh",
+    "j0uAk5cFG1DGhKQl",
+    "twNCWVanZd6yZx0p",
+    "dATXdLGHz7DtSh36",
+    "0yfu0D2BwTgAR4f9",
+    "BRFXLEW04oHTz1Q4",
+    "l7k8UqIkk9Wb4rGO",
+    "DWC0ZBtBshc6LCEq"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the extraordinary power of a sword, including abilities like Clairvoyance, Telekinesis, or multiple rolls for additional powers.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZFNAYkxvOVVY0FQf",
+  "sort": 0,
+  "_originalKey": "!tables!ZFNAYkxvOVVY0FQf",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.0yfu0D2BwTgAR4f9",
+      "range": [
+        60,
+        69
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "0yfu0D2BwTgAR4f9",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Telekinesis",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.1kpZ5P9r06mBuGUn",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "1kpZ5P9r06mBuGUn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Clairaudience",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.5Qjq6QGbGKL0lOY7",
+      "range": [
+        11,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "5Qjq6QGbGKL0lOY7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Clairvoyance",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.5Usj2MK2n1xng3Vm",
+      "range": [
+        31,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "5Usj2MK2n1xng3Vm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Extra damage*",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.BRFXLEW04oHTz1Q4",
+      "range": [
+        70,
+        79
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "BRFXLEW04oHTz1Q4",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Telepathy",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.DWC0ZBtBshc6LCEq",
+      "range": [
+        89,
+        97
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "DWC0ZBtBshc6LCEq",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: X-ray vision",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.LHTy2CrAQVOXUJSr",
+      "range": [
+        21,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "LHTy2CrAQVOXUJSr",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: ESP",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.OxlcEC3vhWNZUwzh",
+      "range": [
+        36,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "OxlcEC3vhWNZUwzh",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Flying",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.dATXdLGHz7DtSh36",
+      "range": [
+        55,
+        59
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "dATXdLGHz7DtSh36",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Levitation",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.j0uAk5cFG1DGhKQl",
+      "range": [
+        41,
+        45
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "j0uAk5cFG1DGhKQl",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Healing*",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.l7k8UqIkk9Wb4rGO",
+      "range": [
+        80,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "l7k8UqIkk9Wb4rGO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Teleportation",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ZFNAYkxvOVVY0FQf.twNCWVanZd6yZx0p",
+      "range": [
+        46,
+        54
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "twNCWVanZd6yZx0p",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Extraordinary Power: Illusion",
+      "name": ""
+    }
+  ]
+}

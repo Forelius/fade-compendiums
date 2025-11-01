@@ -1,0 +1,796 @@
+{
+  "name": "Insect Swarm (2 HD)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Neutral",
+      "size": "S",
+      "morale": 11,
+      "xpAward": 25,
+      "attacks": "1",
+      "abilityCount": 1,
+      "monsterType": "Lowlife, Enchanted",
+      "saveAs": "F0",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "2",
+      "value": 9,
+      "max": 9
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1d3"
+    },
+    "treasure": "Nil",
+    "thac0": {
+      "value": 18,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 30,
+      "round": 10,
+      "day": 6,
+      "run": 30,
+      "max": 30
+    },
+    "biography": "<p>An insect swarm is a mass of small insects acting together as a single force. The swarm may fill a 10' x 10' x 30' area or larger, consisting of either crawling or flying insects, or a mix of both. These swarms may be drawn to light, strange smells, or may be defending a lair, such as a hive or nest.</p><p>The swarm does not make an attack roll, as it is an area effect attack that automatically hits. All armored characters and monsters with AC 5 or better take 2 points of damage per round. Unarmored characters or monsters with AC 6 or worse take 4 points of damage per round.</p><p>A victim who takes the time to swat at the insects (using a weapon or torch) instead of attacking or performing another action takes only 1 point of damage per round. Characters trying to swat with their hands or arms are ineffective.</p><p>If a swarm is attacked, it will relentlessly pursue its attacker. Victims can escape by disappearing from sight (such as with invisibility, moving around a corner, etc.) or by diving underwater, which kills all the insects after one round (normal damage applies during this round).</p><strong>Terrain:</strong> Any (except Arctic)</p>",
+    "wrestling": 13,
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "gm": {
+      "notes": ""
+    },
+    "ac": {
+      "naked": 9,
+      "nakedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 1,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "mod": {
+      "ac": 0,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "movement2": {
+      "max": 60,
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60
+    },
+    "abilities": {
+      "int": {
+        "value": 0,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "actorGroups": [
+      "bugs"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Insect Swarm",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "wtpMFDL133GDuQNo",
+    "6ndQni01MRotinjU",
+    "99KKUzyMXx85NoqB",
+    "KTkiXBEHTYvAOC8O",
+    "f8i3j1EuGRSUM2LJ",
+    "tHUNEW5U7Op9g1BR",
+    "eZOxSFI9C7iGiPcs",
+    "LUEAdTXeSkhjfUTp",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "46QLGSlGDLxcIg4D",
+  "sort": 1700000,
+  "_originalKey": "!actors!46QLGSlGDLxcIg4D",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.6ndQni01MRotinjU",
+      "name": "Area Effect",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "Area effect attack that automatically hits. Armored victims (AC 5 or better) take 2 points of damage per round; unarmored victims (AC 6 or worse) take 4 points of damage per round. Victims who swat at the insects with a weapon or torch only take 1 point per round.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "0",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/svg/sword.svg",
+      "_id": "6ndQni01MRotinjU",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.99KKUzyMXx85NoqB",
+      "name": "Relentless Pursuit",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "If attacked, the swarm will relentlessly pursue its attacker. A victim can escape by becoming invisible, moving out of sight, or diving underwater, which kills the insects after one round.",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "99KKUzyMXx85NoqB",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.KTkiXBEHTYvAOC8O",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "KTkiXBEHTYvAOC8O",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.LUEAdTXeSkhjfUTp",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "LUEAdTXeSkhjfUTp",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "17",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.eZOxSFI9C7iGiPcs",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "eZOxSFI9C7iGiPcs",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "17",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.f8i3j1EuGRSUM2LJ",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "f8i3j1EuGRSUM2LJ",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 400000
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.tHUNEW5U7Op9g1BR",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "tHUNEW5U7Op9g1BR",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!46QLGSlGDLxcIg4D.wtpMFDL133GDuQNo",
+      "name": "Swarm Body",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "Insect swarm provides natural protection with an AC of 7.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 7,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "wtpMFDL133GDuQNo",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!46QLGSlGDLxcIg4D.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

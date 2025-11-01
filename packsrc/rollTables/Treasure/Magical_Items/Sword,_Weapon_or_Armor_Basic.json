@@ -1,0 +1,64 @@
+{
+  "folder": "xXYnk3SGl1lMlDVD",
+  "name": "Sword, Weapon or Armor (Basic)",
+  "img": "icons/svg/d20-highlight.svg",
+  "description": "<p>Use this table to randomly select an item from either the weapons or armor table.</p>",
+  "results": [
+    "6e2IY7FE81V32ntI",
+    "Hll72SdJt3vi8Kkf"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d2",
+  "_id": "CCoEglWdNK6UZSuB",
+  "sort": 0,
+  "_originalKey": "!tables!CCoEglWdNK6UZSuB",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!CCoEglWdNK6UZSuB.6e2IY7FE81V32ntI",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "_id": "6e2IY7FE81V32ntI",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic Armor",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.mYpxzeQa9MJ3NsEI",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!CCoEglWdNK6UZSuB.Hll72SdJt3vi8Kkf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-highlight.svg",
+      "_id": "Hll72SdJt3vi8Kkf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magical Weapon (Basic)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xx8zGehAaHPv3FnW",
+      "description": ""
+    }
+  ]
+}

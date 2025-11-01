@@ -1,0 +1,63 @@
+{
+  "folder": "TR10cmcdEZOUsSui",
+  "name": "Special Power 15%",
+  "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+  "description": "<p>Armor has 15% chance of having a special power.</p>",
+  "results": [
+    "Rm84wSRKCH8uJbRC",
+    "ti6hlub5F2T9H88t"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_id": "68J1VioJ0ZmCxOSN",
+  "sort": 200000,
+  "_originalKey": "!tables!68J1VioJ0ZmCxOSN",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!68J1VioJ0ZmCxOSN.Rm84wSRKCH8uJbRC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        15
+      ],
+      "drawn": false,
+      "_id": "Rm84wSRKCH8uJbRC",
+      "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Armor Special Powers",
+      "documentUuid": null,
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!68J1VioJ0ZmCxOSN.ti6hlub5F2T9H88t",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        100
+      ],
+      "drawn": false,
+      "_id": "ti6hlub5F2T9H88t",
+      "img": "icons/svg/cancel.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No special power",
+      "name": ""
+    }
+  ]
+}

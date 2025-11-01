@@ -1,0 +1,105 @@
+{
+  "name": "Shield, Knife",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d4+1",
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Second attack + breaks"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d6+1",
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Second attack + breaks"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "2d4+1",
+        "sDmgFormula": null,
+        "acBonusType": "all",
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Second attack + breaks"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "3d4",
+        "sDmgFormula": "2d4+2",
+        "acBonusType": "all",
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Second attack + breaks"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "4d4",
+        "sDmgFormula": "3d4+1",
+        "acBonusType": "all",
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Second attack + breaks"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "O2NdirV4U5vXLo1D",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1300000,
+  "_originalKey": "!items!O2NdirV4U5vXLo1D"
+}

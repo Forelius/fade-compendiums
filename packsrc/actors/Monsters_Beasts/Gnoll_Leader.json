@@ -1,0 +1,721 @@
+{
+  "name": "Gnoll Leader",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "L",
+      "morale": 8,
+      "xpAward": 20,
+      "attacks": "1",
+      "abilityCount": 0,
+      "monsterType": "Humanoid",
+      "saveAs": "F2",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Common",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "3",
+      "value": 16,
+      "max": 16
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1"
+    },
+    "treasure": "(P) D",
+    "thac0": {
+      "value": 17,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
+    },
+    "biography": "<p>Gnolls are large, ferocious humanoids with low intelligence. They resemble a cross between a human and a hyena, and are often found in rough, rugged wasteland or wilderness areas. Though they are strong, they are lazy, preferring to bully and steal rather than work. Most gnolls do not craft their own metal weapons, instead stealing them from humans.</p><p>For every group of 20 gnolls, one will be a leader with 16 hit points who fights as a monster with 3 Hit Dice. Gnolls are rumored to have originated from a magical combination of a gnome and a troll created by an evil magic-user.</p><p><strong>Weapon Damage:</strong> By weapon +1.<br><strong>Terrain:</strong> Hills, Mountains.</p>",
+    "wrestling": 15,
+    "encumbrance": {
+      "max": 0,
+      "value": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "gm": {
+      "notes": ""
+    },
+    "combat": {
+      "attacks": 0,
+      "isDead": false,
+      "deathCount": 0,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "ac": {
+      "naked": 9,
+      "nakedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 2,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "mod": {
+      "ac": 0,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "masteryLevelOverride": null,
+      "rangedAc": 0
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 7,
+        "total": 7,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 4,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "movement2": {
+      "turn": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0,
+      "max": 0
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "actorGroups": [
+      "weapon-using"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Gnoll",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "dnAORK2UAvrxvOFj",
+    "Z4A925qemlBQ3Rny",
+    "UnLLXqw8Um3uv4ej",
+    "vPQstmTDO6YhjJsR",
+    "sJCQDCcuyTimc7IE",
+    "LlyqSUtAejz7OhVF",
+    "5joqSINce6bRZ02T"
+  ],
+  "effects": [
+    "XlQ0vRZ8YuGGceuu"
+  ],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "XBfBHqaqKPwFuREx",
+  "sort": 13600000,
+  "_originalKey": "!actors!XBfBHqaqKPwFuREx",
+  "embedded": [
+    {
+      "_originalKey": "!actors.effects!XBfBHqaqKPwFuREx.XlQ0vRZ8YuGGceuu",
+      "name": "Attack Bonus",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": 3,
+        "startTurn": 0
+      },
+      "disabled": false,
+      "_id": "XlQ0vRZ8YuGGceuu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.5joqSINce6bRZ02T",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "5joqSINce6bRZ02T",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.LlyqSUtAejz7OhVF",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "LlyqSUtAejz7OhVF",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.UnLLXqw8Um3uv4ej",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "UnLLXqw8Um3uv4ej",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.Z4A925qemlBQ3Rny",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Spear",
+      "type": "weapon",
+      "_id": "Z4A925qemlBQ3Rny",
+      "img": "icons/weapons/polearms/spear-flared-blue.webp",
+      "system": {
+        "tags": [
+          "thrown",
+          "set",
+          "large"
+        ],
+        "description": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 30,
+        "cost": 3,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "handheld",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Spear",
+        "unidentifiedDesc": "<p>The spear is a thrusting head attached to one end of a medium-to-long pole (6'-8'). Fighters, dwarves, elves, and mystics can use the set spear vs. charge maneuver.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "L",
+        "grip": "1H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 30,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.dnAORK2UAvrxvOFj",
+      "name": "Gnoll Hide (Armor)",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The tough hide of the gnoll provides a natural Armor Class of 5.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "dnAORK2UAvrxvOFj",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.sJCQDCcuyTimc7IE",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "sJCQDCcuyTimc7IE",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!XBfBHqaqKPwFuREx.vPQstmTDO6YhjJsR",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "vPQstmTDO6YhjJsR",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

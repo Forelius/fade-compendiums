@@ -1,0 +1,51 @@
+{
+  "name": "Flesh to Stone*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "N0yCBSqSeMYJe0JK",
+  "system": {
+    "tags": [],
+    "description": "<p>The reverse of <em>Stone to Flesh</em>, this spell turns a living creature to stone, including all equipment carried.</p><p>The victim may make a saving throw vs. turn to stone to avoid the effect. If the saving throw fails, the transformation is permanent unless dispelled or reversed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "One creature or object",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "paralysis",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "0racDRidqeps5ZyD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!0racDRidqeps5ZyD"
+}

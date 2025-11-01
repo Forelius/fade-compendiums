@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Asleep",
+  "type": "condition",
+  "img": "icons/svg/sleep.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A sleeping character is helpless. If an attacker can come up to a sleeping character without waking that character, he can kill the sleeper with a single blow of any edged weapon, regardless of the victim's hit points.</p><p>Attacks on a sleeping character made with other (i.e., blunt) hand-to-hand weapons automatically hit; ranged attacks are made against the victim as if he were AC 9.</p><p>Any sleeping creature, including one hit by a sleep spell, can be awakened by force, such as a shake, slap, or kick.</p><p>Some types of sleep are so heavy that the character will not awaken when disturbed; they are defined with individual spell or combat-result descriptions and are normally referred to as unconsciousness. A victim of unconsciousness is much like a sleeper but will not awaken and cannot resist when being tied up.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "78CydxKPXBH4x8wI"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "YONntmaFo6WUaJgs",
+  "sort": 3800000,
+  "_originalKey": "!items!YONntmaFo6WUaJgs",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!YONntmaFo6WUaJgs.78CydxKPXBH4x8wI",
+      "name": "Asleep",
+      "img": "icons/svg/sleep.svg",
+      "disabled": false,
+      "_id": "78CydxKPXBH4x8wI",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": 4200,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The affected actor is sleeping and will not awaken until the condition wears off or they are awakened by someone. To awaken someone who is magically asleep, one must slap their face, shake them, or pour cold or hot water on them—essentially, anything that will snap them out of their slumber.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "sleep"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

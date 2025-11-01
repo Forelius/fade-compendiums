@@ -1,0 +1,59 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Diminution",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "_id": "XJOAbt0yDWUx3gs3",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.JFMBKOd51QGPN8zl",
+        "action": "consume",
+        "castAs": "",
+        "name": "Diminution"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XJOAbt0yDWUx3gs3"
+}

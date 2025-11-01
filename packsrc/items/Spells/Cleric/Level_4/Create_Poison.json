@@ -1,0 +1,53 @@
+{
+  "name": "Create Poison*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>This spell creates poison in a creature or container upon touch. A creature must succeed on a saving throw vs. poison or die instantly. When cast on a container, the poison affects its contents with no save.</p>\n                      <p><strong>Notes:</strong> Poisoning is usually considered a Chaotic act.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates poison in a creature or container",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "death",
+    "saveDmgFormula": null,
+    "attackType": "save",
+    "damageType": "poison",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "S7YOjdlQbjL4OfNl",
+  "sort": 0,
+  "_originalKey": "!items!S7YOjdlQbjL4OfNl"
+}

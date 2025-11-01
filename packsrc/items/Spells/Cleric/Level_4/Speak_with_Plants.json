@@ -1,0 +1,51 @@
+{
+  "name": "Speak with Plants",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to communicate with plants within a 30' radius, treating them as if they have intelligence. The caster may ask simple favors, such as making a path through dense undergrowth, which the plants will grant if able.</p>\n                      <p><strong>Effect:</strong> Enables communication with plant creatures, including plantlike monsters such as treants.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "0",
+    "duration": "3 turns",
+    "effect": "Communicates with plants within 30'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "180",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Ud2QZfhXldwsA7nM",
+  "sort": 0,
+  "_originalKey": "!items!Ud2QZfhXldwsA7nM"
+}

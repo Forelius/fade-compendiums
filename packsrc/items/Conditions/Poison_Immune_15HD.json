@@ -1,0 +1,66 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Poison Immune (15HD)",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Immune to poisons from creatures of 3 Hit Dice or less and provides a +2 bonus to saving throws against poison. Poisons avoided during have no effect after it ends.</p><p>The effect lasts for one hour.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "dYxxYFUSDNpzrGK9"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "76zgCIDcaQqkXuNS",
+  "sort": 300000,
+  "_originalKey": "!items!76zgCIDcaQqkXuNS",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!76zgCIDcaQqkXuNS.dYxxYFUSDNpzrGK9",
+      "name": "Poison Immune (15HD)",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "dYxxYFUSDNpzrGK9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.death",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 360,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#adffb3",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

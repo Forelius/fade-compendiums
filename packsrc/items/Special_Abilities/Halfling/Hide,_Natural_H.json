@@ -1,0 +1,44 @@
+{
+  "name": "Hide, Natural (H)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>When outdoors, a Halfling can blend into woods, underbrush, or similar natural terrain, making them extremely difficult to spot. If they remain motionless in such cover, they have a 90% chance to remain unseen (rolled secretly by the DM). This ability functions only in natural environments and does not require shadows. If the Halfling moves, they immediately lose the effect and become visible.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "90",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "GS7EOEGEZk6UwIUu",
+  "_id": "dGY694KY9AV4GKtP",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!dGY694KY9AV4GKtP"
+}

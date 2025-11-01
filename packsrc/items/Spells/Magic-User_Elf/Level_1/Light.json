@@ -1,0 +1,51 @@
+{
+  "name": "Light*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a large ball of light with a 30' diameter, similar to bright torchlight. If cast on an object, the light moves with it. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the spell ends. If the saving throw succeeds, the light appears behind the target.</p>\n                <p>The reverse, <em>darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "6 turns + 1 turn/level",
+    "effect": "Volume of 30' diameter",
+    "memorized": 0,
+    "cast": 5,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(@classes.M.castLevel*60)+360",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "xZhBXm36HkKLREuv",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1400000,
+  "_originalKey": "!items!xZhBXm36HkKLREuv"
+}

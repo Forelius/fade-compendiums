@@ -1,0 +1,76 @@
+{
+  "name": "Blowgun, Long",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/blowgunlong.webp",
+  "system": {
+    "tags": [
+      "magic-user"
+    ],
+    "description": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 15,
+    "cost": 6,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "damageRoll": "",
+    "damageType": "poison",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "death",
+    "saveDmgFormula": "",
+    "mastery": "Blowgun, over 2'",
+    "weaponType": "monster",
+    "range": {
+      "short": 20,
+      "medium": 25,
+      "long": 30
+    },
+    "natural": false,
+    "ammoType": "dart",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>This weapon is a tube that measures between 6 inches and 4 feet in length. The user inserts a small dart or thorn into the tube, aims it at a target, and blows air into it, propelling the dart toward the target. The darts themselves do not cause any damage; however, they are typically coated with poison. A blowgun dart only scratches the victim, resulting in minimal penetration and no significant harm. If struck, the victim must make a saving throw against poison or experience its effects. Depending on the victim's size or level of experience, they may receive a bonus to the saving throw (refer to the Weapon Special Effects Table). No undead creatures or any beings immune to poison can be affected by a blowgun. </p><p>Using lethal poison as a weapon is considered an immoral act. Due to its risks, local or regional authorities may outlaw poison, and in such cases, Lawful characters generally refrain from using it. The Dungeon Master (DM) may decide to prohibit player characters from utilizing poisons in their campaign. Players should be informed that if they choose to equip their characters with blowguns, they should expect that monsters will also possess them. </p><p>Longer blowguns require two hands to wield; therefore, the user cannot use a shield and will always lose individual initiative to characters wielding one-handed weapons. Halflings and small nonhumans, such as goblins, are unable to use this weapon.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SukXJbCes7SWyoC3",
+  "sort": 2200000,
+  "_originalKey": "!items!SukXJbCes7SWyoC3"
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "xOcx6uZRMaIDLgxS",
+  "name": "Sacred Retinue (PA)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "P5cTkIa1JAFNUXyd",
+  "system": {
+    "tags": [],
+    "description": "<p>A Paladin may only travel with a number of hirelings equal to or less than their effective cleric level (one-third of their Paladin level, rounding down). For example, if a Paladin can cast spells or turn undead as a 5th-level cleric, they may have up to five hirelings accompany them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "PA",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!P5cTkIa1JAFNUXyd"
+}

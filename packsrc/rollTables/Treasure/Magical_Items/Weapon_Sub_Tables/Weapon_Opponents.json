@@ -1,0 +1,290 @@
+{
+  "name": "Weapon Opponents",
+  "formula": "1d100",
+  "results": [
+    "6MaALLNaRmwzBAJ3",
+    "7YzYl3feakRXJvCu",
+    "KlYfZOG72mG7Cp1e",
+    "iwo2FGbhAZ05OGcX",
+    "lx3DK08LoGHt2VwC",
+    "bXOoFllA3l7uQbk5",
+    "Kg0gfgy7wpNEzwlO",
+    "5bAAndtr6aJBAQIn",
+    "Fbpl3Ux8QlmJ87UU",
+    "RBo1S8htndSxAGh9",
+    "5AbfwzntmQJ6Wbr2",
+    "GWsieZycAavQZtwD",
+    "6bqDEoRSzRIh2LDa",
+    "lwVfC8IItJw9BgJp"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of opponent a weapon is specially effective against.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "iCEHHI0wuZdTpZgD",
+  "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!iCEHHI0wuZdTpZgD",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.5AbfwzntmQJ6Wbr2",
+      "range": [
+        71,
+        76
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "5AbfwzntmQJ6Wbr2",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Spellcasters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.5bAAndtr6aJBAQIn",
+      "range": [
+        53,
+        58
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "5bAAndtr6aJBAQIn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Regenerating monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.6MaALLNaRmwzBAJ3",
+      "range": [
+        1,
+        6
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "6MaALLNaRmwzBAJ3",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Bugs",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.6bqDEoRSzRIh2LDa",
+      "range": [
+        89,
+        94
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "6bqDEoRSzRIh2LDa",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Water-breathing monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.7YzYl3feakRXJvCu",
+      "range": [
+        7,
+        9
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "7YzYl3feakRXJvCu",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Constructs",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.Fbpl3Ux8QlmJ87UU",
+      "range": [
+        59,
+        67
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "Fbpl3Ux8QlmJ87UU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Reptiles and dinosaurs",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.GWsieZycAavQZtwD",
+      "range": [
+        77,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "GWsieZycAavQZtwD",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Undead",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.Kg0gfgy7wpNEzwlO",
+      "range": [
+        49,
+        52
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "Kg0gfgy7wpNEzwlO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Planar monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.KlYfZOG72mG7Cp1e",
+      "range": [
+        10,
+        15
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "KlYfZOG72mG7Cp1e",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Dragonkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.RBo1S8htndSxAGh9",
+      "range": [
+        68,
+        70
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "RBo1S8htndSxAGh9",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Spell-immune monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.bXOoFllA3l7uQbk5",
+      "range": [
+        37,
+        48
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "bXOoFllA3l7uQbk5",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Lycanthropes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.iwo2FGbhAZ05OGcX",
+      "range": [
+        16,
+        24
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "iwo2FGbhAZ05OGcX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Enchanted monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.lwVfC8IItJw9BgJp",
+      "range": [
+        95,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "lwVfC8IItJw9BgJp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Weapon-using monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!iCEHHI0wuZdTpZgD.lx3DK08LoGHt2VwC",
+      "range": [
+        25,
+        36
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "lx3DK08LoGHt2VwC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Opponent: Giantkind",
+      "name": ""
+    }
+  ]
+}

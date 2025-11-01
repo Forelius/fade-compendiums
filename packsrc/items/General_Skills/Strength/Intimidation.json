@@ -1,0 +1,36 @@
+{
+  "name": "Intimidation",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill allows the character to coerce or intimidate non-player characters (NPCs) into complying with their demands. Intimidation typically involves an implicit or explicit threat of violence or other consequences if the target does not comply. A successful skill check means the NPC is cowed into submission or action favorable to the character.</p>\n            <p>The skill is most effective against NPCs with lower levels or morale and is not usable on player characters. It has no effect on characters of 5th level or higher. NPCs subject to successful Intimidation are unlikely to view the character favorably in the future, and the relationship may be permanently damaged.</p>\n            <p>In situations where physical presence, strength, or combat prowess can be effectively displayed to bolster the threat, the DM may grant a bonus to the roll. However, this skill does not work against targets who are clearly in a superior position (such as a king surrounded by his elite guards).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "sV86baE4eHIBqEBA",
+  "effects": [],
+  "folder": "PrQiYjt2ZGESSP4i",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sV86baE4eHIBqEBA"
+}

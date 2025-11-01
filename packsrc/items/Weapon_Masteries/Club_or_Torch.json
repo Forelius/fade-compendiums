@@ -1,0 +1,105 @@
+{
+  "name": "Club or Torch",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "monster",
+    "levels": [
+      {
+        "name": "basic",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d4",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        }
+      },
+      {
+        "name": "skilled",
+        "acBonus": -1,
+        "acBonusType": "all",
+        "acBonusAT": 2,
+        "pDmgFormula": "1d6+1",
+        "pToHit": 2,
+        "sDmgFormula": "",
+        "sToHit": 1,
+        "special": "Deflect (1)",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        }
+      },
+      {
+        "name": "expert",
+        "acBonus": -2,
+        "acBonusType": "all",
+        "acBonusAT": 2,
+        "pDmgFormula": "1d6+3",
+        "pToHit": 4,
+        "sDmgFormula": "",
+        "sToHit": 2,
+        "special": "Deflect (1)",
+        "range": {
+          "short": null,
+          "medium": 15,
+          "long": 25
+        }
+      },
+      {
+        "name": "master",
+        "acBonus": -3,
+        "acBonusType": "all",
+        "acBonusAT": 3,
+        "pDmgFormula": "1d6+5",
+        "pToHit": 6,
+        "sDmgFormula": "1d4+5",
+        "sToHit": 4,
+        "special": "Deflect (2)",
+        "range": {
+          "short": 15,
+          "medium": 25,
+          "long": 40
+        }
+      },
+      {
+        "name": "grandMaster",
+        "acBonus": -4,
+        "acBonusType": "all",
+        "acBonusAT": 4,
+        "pDmgFormula": "1d6+6",
+        "pToHit": 8,
+        "sDmgFormula": "1d4+6",
+        "sToHit": 6,
+        "special": "Deflect (2)",
+        "range": {
+          "short": 10,
+          "medium": 25,
+          "long": 40
+        }
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "LHMTPIQQVJVtCxx5",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1100000,
+  "_originalKey": "!items!LHMTPIQQVJVtCxx5"
+}

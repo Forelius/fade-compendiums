@@ -1,0 +1,36 @@
+{
+  "name": "Blind Shooting",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill allows the character to shoot at a target without seeing it, typically used in darkness or when the target is outside the range of sight or infravision. The character must be able to hear the target to evaluate its position. A successful skill check allows a shot with no penalties due to darkness, though an attack roll is still required to hit the target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "6L9zBvdCXUheGxSN",
+  "effects": [],
+  "folder": "IkRJGH236ypzekkN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!6L9zBvdCXUheGxSN"
+}

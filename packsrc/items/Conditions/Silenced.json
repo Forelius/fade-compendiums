@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Silenced",
+  "type": "condition",
+  "img": "icons/svg/silenced.svg",
+  "_id": "91rjfvMRLiIEw3ws",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p><span style=\"font-family: Barlow, sans-serif\">This condition makes it impossible to converse or cast spells inside the affected area for the duration of the spell. Those within the sphere can still hear sounds from outside.</span></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "6G56PnDKZzBoJ3pd"
+  ],
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!91rjfvMRLiIEw3ws",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!91rjfvMRLiIEw3ws.6G56PnDKZzBoJ3pd",
+      "name": "Silenced",
+      "img": "icons/svg/silenced.svg",
+      "disabled": false,
+      "_id": "6G56PnDKZzBoJ3pd",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": 7200,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "silence"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

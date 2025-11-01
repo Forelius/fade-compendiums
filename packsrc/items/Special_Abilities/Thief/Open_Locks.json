@@ -1,0 +1,44 @@
+{
+  "name": "Open Locks",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "healFormula": "",
+    "dmgFormula": "",
+    "quantity": 1,
+    "quantityMax": 0,
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true
+  },
+  "folder": "dweUdoWqUwjtcc0d",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Of7mOGDWenS6EBs7",
+  "sort": 0,
+  "_originalKey": "!items!Of7mOGDWenS6EBs7"
+}

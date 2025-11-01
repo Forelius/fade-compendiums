@@ -1,0 +1,57 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Confused",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/confused.png",
+  "_id": "SHNKDrGrFKkzDuBs",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Confused creatures act randomly. To determine each creature's action, the DM should roll [[/r 2d6 # Find the result on the confusion results table]] each round, using the following chart:</p><p><strong>Confusion Results</strong></p><p>2-5: Attack the spellcaster's party</p><p>6-8: Do nothing</p><p>9-12: Attack the creature's own party</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "TYMuzI8kojal3sY5"
+  ],
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!SHNKDrGrFKkzDuBs",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!SHNKDrGrFKkzDuBs.TYMuzI8kojal3sY5",
+      "name": "Confused",
+      "img": "systems/fantastic-depths/assets/img/ui/confused.png",
+      "disabled": false,
+      "_id": "TYMuzI8kojal3sY5",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

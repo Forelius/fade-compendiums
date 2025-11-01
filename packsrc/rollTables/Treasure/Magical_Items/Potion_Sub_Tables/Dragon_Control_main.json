@@ -1,0 +1,64 @@
+{
+  "name": "Dragon Control (main)",
+  "formula": "1d100",
+  "results": [
+    "v99BMXNyN4Jb7URs",
+    "c2oQ54AcIWBN5Av4"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of dragon controlled.</p>",
+  "folder": "X85Fi9NfqjhLiHIy",
+  "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "IVq9mBJA2L9gFsjV",
+  "sort": 0,
+  "_originalKey": "!tables!IVq9mBJA2L9gFsjV",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!IVq9mBJA2L9gFsjV.c2oQ54AcIWBN5Av4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        31,
+        100
+      ],
+      "drawn": false,
+      "_id": "c2oQ54AcIWBN5Av4",
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon Control (normal)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.hvKrIU8Qx89wAauH",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!IVq9mBJA2L9gFsjV.v99BMXNyN4Jb7URs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        30
+      ],
+      "drawn": false,
+      "_id": "v99BMXNyN4Jb7URs",
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon Control (gemstone)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.XUki9WQB9dUCeQ91",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Roll Abilty Scores 2x3d6kh",
+  "type": "script",
+  "command": "// JavaScript source code\nlet results = '<h2>Rolling Ability Scores</h2><p>Method: 2x3d6kh</p>';\nlet accum = 0;\nlet rollTotals = []; // Array to store the rolled values\nlet rolls = [];\n\nfor (let i = 0; i < 6; i++) {\n   let roll;\n   do {\n      roll = new Roll('{3d6, 3d6}kh');\n      await roll.evaluate();\n   } while (roll.total < 6);\n   accum += roll.total;\n   rolls.push(roll);\n   rollTotals.push(roll.total); // Store the rolled value\n   let discarded =roll.terms[0].results.find(roll2 => roll2.discarded === true);\n   results += `Roll ${i + 1}: ${roll.total} (${discarded.result})<br>`;\n}\n\n//console.log(results, rolls.map(roll=>roll.terms[0].results.);\n\nlet average = Math.round(accum / 6, 2);\nresults += `<strong>Average:</strong> ${average}<br>`;\n\n// Generate a unique ID for the button\nconst buttonId = `apply-ability-scores-${Date.now()}`; // Unique ID based on timestamp\nresults += `<button id=\"${buttonId}\">Apply to Selected</button>`;\n\nlet chatMessage = await ChatMessage.create({\n   content: results,\n   flavor: 'Ability Score Rolls'\n});\n\n// Function to check for the button and add the event listener\nconst checkForButton = async () => {\n   const button = document.getElementById(buttonId);\n   if (button) {\n      button.addEventListener(\"click\", async () => {\n         const actor = canvas.tokens.controlled[0]?.actor; // Get the selected actor\n         if (!actor) {\n            ui.notifications.warn(\"Please select an actor.\");\n            return;\n         }\n\n         // Get the ability keys from the actor's system.abilities\n         const abilityKeys = Object.keys(actor.system.abilities);\n\n         // Ensure we only apply scores to the first 6 abilities\n         for (let i = 0; i < Math.min(rollTotals.length, abilityKeys.length); i++) {\n            const abilityKey = abilityKeys[i];\n            console.log(`Setting ${actor.name} ${abilityKey} from ${actor.system.abilities[abilityKey].value} to ${rollTotals[i]}.`);\n            await actor.update({\n               [`system.abilities.${abilityKey}.value`]: rollTotals[i]\n            });\n         }\n\n         ui.notifications.info(\"Ability scores applied successfully!\");\n      });\n   } else {\n      console.log('Button not found...');\n      // If the button is not found, check again after a short delay\n      setTimeout(checkForButton, 100); // Check again after 100ms\n   }\n};\n\n// Start checking for the button\ncheckForButton();",
+  "img": "systems/fantastic-depths/assets/img//ui/import.webp",
+  "folder": "67qKQ0AnYHFK0qmj",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "OV1vsVfAjFzARAIm",
+  "sort": 0,
+  "_originalKey": "!macros!OV1vsVfAjFzARAIm"
+}

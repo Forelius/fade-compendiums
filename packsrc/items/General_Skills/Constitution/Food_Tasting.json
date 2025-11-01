@@ -1,0 +1,36 @@
+{
+  "name": "Food Tasting",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Food Tasting skill provides a character with the ability to detect subtle flavors and potential poisons in food and drink. It can be used to identify the quality and freshness of ingredients or to recognize dangerous substances that might otherwise go unnoticed. A successful check may reveal whether a dish has been tampered with or if it contains any harmful elements. This skill is particularly useful for adventurers wary of sabotage or treachery.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "con",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "6Wn0rROdqvuCimI3",
+  "effects": [],
+  "folder": "8HgzOEIWO11b44fs",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!6Wn0rROdqvuCimI3"
+}

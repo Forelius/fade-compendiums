@@ -1,0 +1,51 @@
+{
+  "name": "Dispel Magic (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell destroys other spell effects within a 20' x 20' x 20' area. It does not affect magical items but can cancel temporary effects they produce.</p>\n                      <p><strong>Effect:</strong> Automatically dispels spells from casters of equal or lower level. For higher-level casters, there is a 5% chance of failure per level difference.</p>\n                      <p>Examples: A 7th-level caster trying to dispel a spell from a 9th-level caster has a 10% chance of failure.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "Destroys spells in a 20' cube",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "iy0Jj17AxGTfFL2X",
+  "sort": 0,
+  "_originalKey": "!items!iy0Jj17AxGTfFL2X"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Magic Resistance (H)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Upon reaching 300,000 XP, a Halfling gains innate resistance to magic. They automatically take half damage from any damage-causing spell or spell-like effect (including magical items). If the effect allows a saving throw, a successful save further reduces the damage to one-quarter.</p><p data-start=\"351\" data-end=\"514\">When calculating reduced damage, always round fractions down. If the final damage is ½ a point or less, the Halfling takes 1 point of damage instead.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "GS7EOEGEZk6UwIUu",
+  "_id": "y0Ufje6STJiiWgr2",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 500000,
+  "_originalKey": "!items!y0Ufje6STJiiWgr2"
+}

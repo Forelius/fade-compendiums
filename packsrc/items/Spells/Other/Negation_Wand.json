@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Negation (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Cancel the effects of one other wand or staff. If the other effect has a duration, the negation lasts for one round.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "1 round",
+    "effect": "Negate wand or staff effect",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "1",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZXSbD0LZFyYTzpBO",
+  "sort": 1200000,
+  "_originalKey": "!items!ZXSbD0LZFyYTzpBO"
+}

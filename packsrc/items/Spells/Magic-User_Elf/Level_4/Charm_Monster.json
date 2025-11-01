@@ -1,0 +1,51 @@
+{
+  "name": "Charm Monster",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell is identical in effect to the *Charm Person* spell but can affect any creature except an undead monster.</p>\n                      <p><strong>Multiple Targets:</strong> When cast on creatures with 3 Hit Dice or less, it charms 3d6 (3-18) creatures. For creatures with more than 3 Hit Dice, it affects only one target.</p>\n                      <p>Each creature may make a saving throw vs. spells to avoid the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "Special",
+    "effect": "One or more living creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "3d6",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "fGMM53dctu3Ctsyo",
+  "sort": 0,
+  "_originalKey": "!items!fGMM53dctu3Ctsyo"
+}

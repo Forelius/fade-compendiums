@@ -1,0 +1,44 @@
+{
+  "name": "Set Spear vs. Charge",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "setSpear",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "F",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "mNmtATMCAjwUeGOs",
+  "_id": "d02XjlCzyJb3tSrq",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!d02XjlCzyJb3tSrq"
+}

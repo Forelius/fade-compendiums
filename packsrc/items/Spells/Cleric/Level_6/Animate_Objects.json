@@ -1,0 +1,47 @@
+{
+  "name": "Animate Objects",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the cleric to animate non-living, non-magical objects, causing them to move and attack. Magical objects are unaffected.</p><p>The spell can animate either:</p><ul><li>One object up to 400 lbs (4,000 cn), roughly the size of two men.</li><li>Multiple smaller objects, as long as their total weight does not exceed 400 lbs.</li></ul><p><strong>Combat Abilities:</strong> The DM determines the movement rate, number of attacks, damage, and armor class of animated objects. As a guideline:</p><ul><li>A man-sized statue might move at 30' per round, attack once per round for [[/r 2d8 #points of damage]] damage, and have AC 1.</li><li>A chair might move at 180' per round, attack twice per round for [[/r 1d4 #points of damage]] damage per attack, and have AC 6.</li></ul><p>All animated objects use the cleric’s chance to hit in combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60",
+    "duration": "6 turns",
+    "effect": "Causes objects to move",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "melee",
+    "damageType": "physical",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "EQeifzizpOlBCXLm",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!EQeifzizpOlBCXLm"
+}

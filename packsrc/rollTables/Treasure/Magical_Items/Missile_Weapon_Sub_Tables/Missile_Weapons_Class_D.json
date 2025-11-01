@@ -1,0 +1,319 @@
+{
+  "name": "Missile Weapons (Class D)",
+  "formula": "1d100",
+  "results": [
+    "15FGVSe6cjW0O9Fm",
+    "N9hPRddfOtWWibDg",
+    "HTmt8FI0chIOjM6Z",
+    "ayr7e8FwtGCaWUC2",
+    "K3R5Yl1upKA3q1qX",
+    "MIaXpn1Ovhgi9aTO",
+    "bV7mGSsXJwClG6iS",
+    "qAi6NDhJ20tRBrce",
+    "BrQCa5TuFrfFGZDd",
+    "730jdoFrhCyCQ8lo",
+    "h5fPJOT74XwQski6",
+    "jfSFZA3IlsB5sC8z",
+    "lRmwNxiOLz3t2lGb",
+    "EuuPjkCGPTY6dyIO",
+    "2wDlbbzbu8vv8aEJ"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the magical bonus for Missile Weapons (Class D). Additional weapon modifiers may apply based on the roll.</p>",
+  "folder": "KdAs2wEF7A5AGw7s",
+  "_id": "1vUYQ0X2P2gPmlY4",
+  "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!1vUYQ0X2P2gPmlY4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.15FGVSe6cjW0O9Fm",
+      "range": [
+        1,
+        70
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "_id": "15FGVSe6cjW0O9Fm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+1 Magical Bonus",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.2wDlbbzbu8vv8aEJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "2wDlbbzbu8vv8aEJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 10%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.aoO2D4BQoVXA7sq2",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.730jdoFrhCyCQ8lo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        89,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "_id": "730jdoFrhCyCQ8lo",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Weapons Range (+3)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DJYi79sX690OOSBE",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.BrQCa5TuFrfFGZDd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        71,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "BrQCa5TuFrfFGZDd",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 25%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Ui9ZXgZNg4PW0Iix",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.EuuPjkCGPTY6dyIO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "_id": "EuuPjkCGPTY6dyIO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Weapons Range (+5)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.m27sYWOSr2IgS4a4",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.HTmt8FI0chIOjM6Z",
+      "range": [
+        89,
+        96
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "_id": "HTmt8FI0chIOjM6Z",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+3 Magical Bonus",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.K3R5Yl1upKA3q1qX",
+      "range": [
+        100,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "_id": "K3R5Yl1upKA3q1qX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+5 Magical Bonus",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.MIaXpn1Ovhgi9aTO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "_id": "MIaXpn1Ovhgi9aTO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Weapons Range (+1)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.OQntdFSGahd579oE",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.N9hPRddfOtWWibDg",
+      "range": [
+        71,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "_id": "N9hPRddfOtWWibDg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+2 Magical Bonus",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.ayr7e8FwtGCaWUC2",
+      "range": [
+        97,
+        99
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
+      "_id": "ayr7e8FwtGCaWUC2",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+4 Magical Bonus",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.bV7mGSsXJwClG6iS",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "bV7mGSsXJwClG6iS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xYSdiB1uGhHtFjyp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.h5fPJOT74XwQski6",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        89,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "h5fPJOT74XwQski6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.KxdPhkFmq42jUuIf",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.jfSFZA3IlsB5sC8z",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        97,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "_id": "jfSFZA3IlsB5sC8z",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Weapons Range (+4)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.1kLUHt22fFwrsQks",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.lRmwNxiOLz3t2lGb",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        97,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "lRmwNxiOLz3t2lGb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ylxkEpFEU4KkoopP",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1vUYQ0X2P2gPmlY4.qAi6NDhJ20tRBrce",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        71,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "_id": "qAi6NDhJ20tRBrce",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Weapons Range (+2)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.jLvjks49sEHNh7c8",
+      "description": ""
+    }
+  ]
+}

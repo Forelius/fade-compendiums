@@ -1,0 +1,84 @@
+{
+  "folder": "syhUzFkpaYBv54Vu",
+  "name": "Bandit",
+  "_id": "XiGvytbkLZ4gQAyj",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "nDv4DC8Zbnn2x7ta",
+    "HHrguMiAjKk6ULXC",
+    "gTJuYiU8hciUpJee"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "_originalKey": "!tables!XiGvytbkLZ4gQAyj",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.HHrguMiAjKk6ULXC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+      "_id": "HHrguMiAjKk6ULXC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bandit (2HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.RCPlgt1j0WEJmVMO",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.gTJuYiU8hciUpJee",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+      "_id": "gTJuYiU8hciUpJee",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bandit (3HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.iraH01OroqdGro5l",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.nDv4DC8Zbnn2x7ta",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+      "_id": "nDv4DC8Zbnn2x7ta",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bandit",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv",
+      "description": ""
+    }
+  ]
+}

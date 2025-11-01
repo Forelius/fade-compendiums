@@ -1,0 +1,49 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Fire Resistance",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The user is immune to normal fire and gains a +2 bonus on all saving throws versus fire attacks. Magical and dragon fire deal reduced damage: subtract 1 point per damage die (minimum 1 point per die).</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Immune or mitigates fire damage",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Fire Resistant",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ZOs6627VjmtefRvC",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "DfyOgDTgXCvdI6vH",
+  "sort": 500000,
+  "_originalKey": "!items!DfyOgDTgXCvdI6vH"
+}

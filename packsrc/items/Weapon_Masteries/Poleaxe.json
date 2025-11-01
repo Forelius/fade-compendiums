@@ -1,0 +1,105 @@
+{
+  "name": "Poleaxe",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10+3",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -1,
+        "acBonusAT": 1,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Deflect (1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10+6",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 1,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Deflect (1)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10+10",
+        "sDmgFormula": "1d10+8",
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 2,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Deflect (2)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d8+16",
+        "sDmgFormula": "1d8+12",
+        "acBonusType": "handheld",
+        "acBonus": -3,
+        "acBonusAT": 2,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Deflect (2)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "2W0EKMmhK88j375C",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 300000,
+  "_originalKey": "!items!2W0EKMmhK88j375C"
+}

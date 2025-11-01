@@ -1,0 +1,49 @@
+{
+  "name": "Haste (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>The effect gives the user the ability to move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Move and attack at double speed",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Hasted",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.cXvJhpE5XD2k0Hmm",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "d12D0SXmSkUGwuwe",
+  "sort": 1700000,
+  "_originalKey": "!items!d12D0SXmSkUGwuwe"
+}

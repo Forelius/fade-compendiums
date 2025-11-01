@@ -1,0 +1,122 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Monster Reaction Roll",
+  "_id": "lbFxDa6UITg6AId9",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The referee determines monsters’ reaction to the party. Sometimes, circumstances make it obvious how a monster will react. Otherwise, the referee may roll on the table below to determine how a monster reacts to the party.</p>",
+  "results": [
+    "ZKf4IQQNtzO8dpmx",
+    "q3WodAaJfDRc0VXz",
+    "xsfstqRk6tLdLS4F",
+    "WRuRqPONmku1Skcy",
+    "bqlilzyFew9GUPkj"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "cf": {},
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "2d6",
+  "sort": 0,
+  "_originalKey": "!tables!lbFxDa6UITg6AId9",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.WRuRqPONmku1Skcy",
+      "_id": "WRuRqPONmku1Skcy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Indifferent, uninterested",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.ZKf4IQQNtzO8dpmx",
+      "_id": "ZKf4IQQNtzO8dpmx",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hostile, attacks",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.bqlilzyFew9GUPkj",
+      "_id": "bqlilzyFew9GUPkj",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Friendly, helpful",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.q3WodAaJfDRc0VXz",
+      "_id": "q3WodAaJfDRc0VXz",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Unfriendly, may attack",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!lbFxDa6UITg6AId9.xsfstqRk6tLdLS4F",
+      "_id": "xsfstqRk6tLdLS4F",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Neutral, uncertain",
+      "name": ""
+    }
+  ]
+}

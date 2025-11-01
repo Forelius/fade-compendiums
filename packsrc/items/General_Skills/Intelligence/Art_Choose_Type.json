@@ -1,0 +1,36 @@
+{
+  "name": "Art (Choose Type)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill covers the creation of art, such as painting, sculpture, woodcarving, or mosaic. The player must specify the type of art the character practices. A successful skill check allows the character to create works that can improve NPC reactions. For example, presenting a well-crafted portrait or sculpture to an NPC may provide a +2 bonus to reaction rolls. If preferred, the player can choose to base this skill on Wisdom instead of Intelligence.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "0scKy2J7W5gWokFg",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!0scKy2J7W5gWokFg"
+}

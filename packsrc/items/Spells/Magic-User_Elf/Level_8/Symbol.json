@@ -1,0 +1,47 @@
+{
+  "name": "Symbol",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a written magical drawing (a rune) of great power. The caster must choose one of six possible symbols when memorizing the spell. The rune may be placed on an object (such as a door or wall) or even in mid-air, but it remains fixed in place and cannot move.</p><p>When any living creature:</p><ul><li>Passes over or through the rune</li><li>Touches the object bearing the rune</li><li>Reads the rune (foolishly)</li></ul><p>The rune's effect takes place immediately, with no saving throw.</p><h4>Saving Throw Exception:</h4><p>A magic-user or any creature capable of casting magic-user spells may make a saving throw vs. spells if they merely read or touch the symbol (rather than pass through it). If the save succeeds, the symbol has no effect.</p><h4>Symbol Effects:</h4><p>There are six standard symbol types:</p><ul><li>Death: Instantly slays any creature with 75 HP or less. Creatures with 76+ HP are unaffected.</li><li>Discord: Causes the victim to attack allies or suffer confusion (as the <em>confusion</em> spell). Permanent until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li>Fear: The victim flees at full Running Speed for 30 rounds (as a wand of fear).</li><li>Insanity: The victim becomes insane, unable to attack, cast spells, or use special abilities or items. The effect is permanent until removed by <em>dispel magic</em> or a cleric's <em>cureall</em> spell.</li><li>Sleep: The victim falls into an unbreakable sleep and cannot be awakened except by <em>dispel magic</em> or waiting [[/r 1d10+10 #Hours asleep]] hours.</li><li>Stunning: Affects creatures with 150 HP or less, stunning them for [[/r 2d6 #Turns stunned]] (as <em>power word stun</em>).</li></ul><h4>Additional Notes:</h4><ul><li>All symbols appear to be normal writings.</li><li>The rune remains active permanently until triggered or dispelled.</li><li>The DM may introduce additional symbols with effects such as polymorph, teleport, charm, or geas.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates one magical rune",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "dLepw9WEkDgp8iai",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!dLepw9WEkDgp8iai"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Magic Resistance (D)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p data-start=\"36\" data-end=\"448\">Upon reaching 1,400,000 experience points, a Dwarf gains an innate resistance to magic, reducing the damage they take from spells and certain magical effects. This resistance applies to all damage-causing spells and spell-like effects, including those from magical items and special abilities of monsters (such as a beholder’s eye rays). However, it does not apply to dragon breath attacks.</p><h4 data-start=\"450\" data-end=\"477\">Damage Reduction</h4><ul data-start=\"478\" data-end=\"848\"><li data-start=\"478\" data-end=\"657\">When subjected to a damage-dealing spell or magical effect, the Dwarf automatically takes only half damage. The total damage rolled is divided by 2, rounding down.</li><li data-start=\"658\" data-end=\"848\">If the effect allows a saving throw, a successful save further reduces the damage to one-quarter of the total rolled. In this case, divide the damage by 4, rounding down.</li></ul><h4 data-start=\"850\" data-end=\"880\">Minimum Damage Rule</h4><ul data-start=\"881\" data-end=\"997\"><li data-start=\"881\" data-end=\"997\">If the final damage calculation results in ½ a point or less, the Dwarf instead takes 1 point of damage.</li></ul><p data-start=\"999\" data-end=\"1140\" data-is-last-node=\"\">This ability reflects the Dwarves' natural toughness and resistance to arcane forces, making them incredibly resilient against hostile magic.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "null",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "D",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "e4MHzfcZGPAOJt8x",
+  "_id": "Nb5pJ4BKZYTKz1pY",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Nb5pJ4BKZYTKz1pY"
+}

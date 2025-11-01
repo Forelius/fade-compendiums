@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Controlled",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+  "_id": "NhnrHKk7jsxQEdM1",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The creature’s will or actions are no longer its own. It is under the influence of another force — magical, mental, or otherwise unnatural — and acts in accordance with that power’s wishes until freed.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "ph7YADDITRLfId4s"
+  ],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NhnrHKk7jsxQEdM1",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!NhnrHKk7jsxQEdM1.ph7YADDITRLfId4s",
+      "name": "Controlled",
+      "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+      "disabled": false,
+      "_id": "ph7YADDITRLfId4s",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "possessed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

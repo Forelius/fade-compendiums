@@ -1,0 +1,47 @@
+{
+  "name": "Meteor Swarm",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates either 4 large or 8 smaller meteors (chosen by the caster). Each meteor never misses its target and explodes like a fireball upon impact.</p><h4>Meteor Options:</h4><ul><li>4 Large Meteors: Each strikes for [[/r 8d6 #Meteor Impact Damage]] points and then explodes for [[/r 8d6 #Explosion Damage]] points of fire damage.</li><li>8 Small Meteors: Each strikes for [[/r 4d6 #Meteor Impact Damage]] points and then explodes for [[/r 4d6 #Explosion Damage]] points of fire damage.</li></ul><h4>Mechanics:</h4><ul><li>Meteors can be aimed at different targets within range, but only one meteor can hit a single creature.</li><li>Impact damage is automatic (no saving throw).</li><li>Each meteor creates a 20' radius blast upon impact.</li><li>Explosion damage: Creatures within the blast may make a saving throw vs. spells to take half damage.</li><li>Fire-resistant and fire-using creatures are fully affected by impact damage, but may resist explosion damage.</li><li>Areas affected by overlapping blasts take multiple explosion damages separately.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "240'",
+    "duration": "Instantaneous",
+    "effect": "Creates four or eight meteors that explode on impact",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "physical",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "GHGtQKEMoXWQN4aO",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!GHGtQKEMoXWQN4aO"
+}

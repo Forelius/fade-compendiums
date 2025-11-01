@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Prone",
+  "type": "condition",
+  "img": "icons/svg/falling.svg",
+  "_id": "ZriB1hdQ74OZd8bz",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A character who has fallen (e.g., been knocked over in combat) is easy to hit: Attackers receive a +4 bonus to their attack rolls when attacking a fallen foe.</p><p>A fallen foe also has a -4 penalty to all saving throws and a -2 penalty to attack rolls while on the ground.</p><p>A character on the ground takes one round of movement to stand up; also, for the rest of the round after he has stood up, the character still suffers the penalties of a fallen character.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "taPqbWcctp3laG87"
+  ],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZriB1hdQ74OZd8bz",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!ZriB1hdQ74OZd8bz.taPqbWcctp3laG87",
+      "name": "Prone",
+      "img": "icons/svg/falling.svg",
+      "disabled": false,
+      "_id": "taPqbWcctp3laG87",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "prone"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

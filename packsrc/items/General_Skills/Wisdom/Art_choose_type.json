@@ -1,0 +1,36 @@
+{
+  "name": "Art (choose type)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill involves creating art, such as painting, sculpture, or woodcarving. The character must choose one form of art they specialize in, and can take this skill multiple times to learn different forms. Successful use of the skill can improve NPC reactions; for instance, presenting a portrait to an NPC can grant a +2 bonus to reaction rolls. The character can choose to base this skill on Wisdom instead of Intelligence.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "OgtTBZSJvC0CtavJ",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!OgtTBZSJvC0CtavJ"
+}

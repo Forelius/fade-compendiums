@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Luck",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "7L68lTA1HIeAUYYj",
+  "system": {
+    "tags": [],
+    "description": "<p>This makes the target lucky. The player of the character using this may choose the result of any one roll of his rather than rolling a random result (an attack or damage roll, saving throw, etc.). Other players' rolls cannot be affected, nor can the Dungeon Master's rolls be affected.</p><p>The effect lasts for 1 hour or until the luck is used.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "1 hour or until used",
+    "effect": "Choose the result of one roll",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7L68lTA1HIeAUYYj"
+}

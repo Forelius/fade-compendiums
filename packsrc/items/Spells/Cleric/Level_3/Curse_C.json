@@ -1,0 +1,59 @@
+{
+  "name": "Curse* (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "kXFO22VpYT8uU03F",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p><em>Curse</em> imposes a penalty or misfortune on the target, with effects limited only by the caster's imagination. If the curse is too powerful, it may rebound on the caster (DM's discretion). Typical curses include a -4 penalty to attack rolls, a -2 penalty to saving throws, halving of a prime requisite, or a -4 penalty on others' reaction rolls. The victim may make a saving throw vs. spells to avoid the curse.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Applies one curse",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Cursed",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.aYagCZTGMHXvz717"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "DuzHMpTLzNLOFpUC",
+  "sort": 0,
+  "_originalKey": "!items!DuzHMpTLzNLOFpUC"
+}

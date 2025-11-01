@@ -1,0 +1,20 @@
+{
+  "folder": "icb4lMQ0OOAVdbW7",
+  "name": "Shove Resist Calculator",
+  "type": "script",
+  "_id": "J5iTddF72Xh2Zlht",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "systems/fantastic-depths/assets/img/ui/shove.png",
+  "scope": "global",
+  "command": "game.fade.registry.getSystem('shove').showShoveDialog();",
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!J5iTddF72Xh2Zlht"
+}

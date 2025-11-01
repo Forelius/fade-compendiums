@@ -1,0 +1,47 @@
+{
+  "name": "Protection from Poison",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "ITBl84G3mrEdxxqh",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the recipient complete immunity to all poisons for the spell’s duration, including poison from gas traps and *Cloudkill* spells. This protection also extends to any items carried by the recipient, protecting them against poison effects (e.g., a spirit’s poisonous aura).</p>\n                      <p><strong>Bonus to Saving Throws:</strong> The recipient also gains a +4 bonus on saving throws against poisonous breath weapons, such as a green dragon’s breath. This bonus does not apply to non-poisonous breath effects, like a gorgon’s petrifying breath.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Touch",
+    "duration": "One turn per level of the caster",
+    "effect": "Gives one creature immunity to all poison",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel * 60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "poison",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "lGH7DFZ51nIfDGe8",
+  "sort": 0,
+  "_originalKey": "!items!lGH7DFZ51nIfDGe8"
+}

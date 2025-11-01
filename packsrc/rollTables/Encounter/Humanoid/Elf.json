@@ -1,0 +1,84 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Elf",
+  "_id": "06c5awqtfBT2ybd4",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "sc11JL0dNfaHh2ms",
+    "UVLpSyIhzOFmw9Lp",
+    "K1sFNtq8u7fk4tfz"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_originalKey": "!tables!06c5awqtfBT2ybd4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!06c5awqtfBT2ybd4.K1sFNtq8u7fk4tfz",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
+      "_id": "K1sFNtq8u7fk4tfz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Elf (3 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.JXEfZmQdVblAKpFR",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!06c5awqtfBT2ybd4.UVLpSyIhzOFmw9Lp",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        9
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
+      "_id": "UVLpSyIhzOFmw9Lp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Elf (2 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.7mEcQw80ZVlnuptU",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!06c5awqtfBT2ybd4.sc11JL0dNfaHh2ms",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        8
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
+      "_id": "sc11JL0dNfaHh2ms",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Elf (1 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.9pUF0lH2A71umXg0",
+      "description": ""
+    }
+  ]
+}

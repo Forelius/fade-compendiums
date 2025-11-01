@@ -1,0 +1,43 @@
+{
+  "name": "Polymorph Self (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>This effect allows the user to change shape, taking the physical form of another living creature. The Hit Dice of the new form must be equal to or less than the Hit Dice of the user, or the effect will fail.</p><p>The user's armor class, hit points, attack rolls, and saving throws do not change, and they do not gain special abilities (such as a ghoul's paralysis) or special immunities of the new form; however, they do gain the natural physical abilities of the new form. For example, a user changed into a frost giant has the strength of a frost giant and the ability to hurl boulders, but not immunity to cold. A user changed into a dragon could fly but would not be able to use any breath weapons or spells.</p><p>The user cannot cast spells while in the different form. The effect lasts for the listed duration, or until dispelled, or until the user is killed. This effect will not enable the user to take the form of a specific individual.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 12 turns.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Self",
+    "duration": "12 turns",
+    "effect": "Caster may change shapes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360*12",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "I40bMA5dkrQ7q3Oq",
+  "sort": 900000,
+  "_originalKey": "!items!I40bMA5dkrQ7q3Oq"
+}

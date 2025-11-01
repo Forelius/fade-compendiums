@@ -1,0 +1,70 @@
+{
+  "name": "Lantern, Bullseye",
+  "type": "light",
+  "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
+  "_id": "JJXKB9MQePer5a74",
+  "system": {
+    "tags": [],
+    "description": "<p>A bullseye lantern is a portable light source enclosed within a metal casing, designed to focus a beam of light in a single direction. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. The lantern illuminates an area up to 60 feet away</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": 20,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "isLight": true,
+    "light": {
+      "type": "custom",
+      "duration": 24,
+      "radius": 55,
+      "fuelType": "lantern",
+      "bright": 5,
+      "color": "#d0a750",
+      "attenuation": 0.9,
+      "luminosity": 0.5,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 3
+      },
+      "angle": 20,
+      "enabled": false,
+      "secondsRemain": 0
+    },
+    "ammoType": "",
+    "shortName": "",
+    "isAmmo": false,
+    "unidentifiedName": "Lantern, Bullseye",
+    "unidentifiedDesc": "<p>A bullseye lantern is a portable light source enclosed within a metal casing, designed to focus a beam of light in a single direction. The lantern features a hinged, adjustable hood that can be raised or lowered to focus or block the light as needed. The lantern illuminates an area up to 60 feet away</p><p>The lantern burns one flask of oil over the course of four hours (24 turns). Its enclosed design helps protect the flame from wind and rain, making it more reliable in outdoor or adverse conditions compared to an open flame.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "effects": [],
+  "folder": "QzAWBUfiEO1gIpUI",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1700000,
+  "_originalKey": "!items!JJXKB9MQePer5a74"
+}

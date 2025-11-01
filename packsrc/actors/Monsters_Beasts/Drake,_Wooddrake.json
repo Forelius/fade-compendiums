@@ -1,0 +1,1432 @@
+{
+  "name": "Drake, Wooddrake",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 225,
+      "attacks": "3",
+      "abilityCount": 3,
+      "monsterType": "Dragon-Kin",
+      "saveAs": "M8",
+      "castAs": "",
+      "classAbilityAs": "T5",
+      "level": 1,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "4",
+      "value": 18,
+      "max": 18
+    },
+    "na": {
+      "wandering": "1d4",
+      "lair": "1d4"
+    },
+    "treasure": "(Vx2), E",
+    "thac0": {
+      "value": 16,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
+    },
+    "biography": "<p>The Wooddrake is a drake with dark green scales that can polymorph into elf or halfling forms at will. In drake form, they attack with two claws and a bite, dealing moderate damage. Wooddrakes are clever and mischievous, often integrating themselves into elven or halfling communities through their shapeshifting abilities. They are chaotic and fond of causing trouble, using their thief abilities to carry out pranks and theft.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into elf or halfling forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
+    "wrestling": 17,
+    "gm": {
+      "notes": ""
+    },
+    "encumbrance": {
+      "max": 40000,
+      "value": 0,
+      "label": "Unencumbered",
+      "mv": 120,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": 0,
+      "total": 0,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 3,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "con": {
+        "value": 10,
+        "total": 8,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 30,
+      "max": 30,
+      "round": 10,
+      "day": 6,
+      "run": 30
+    },
+    "actorGroups": [
+      "dragonkind",
+      "reptiles-dinosaurs"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Drake, Wooddrake",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "qtP8hqVDpRXua2TQ",
+    "nmaO9X64uxUGCTfM",
+    "91n8Y8S0sIo0yI2M",
+    "ZPGgKSsbxag9XPiJ",
+    "WqVGxs9wPNL3YWCF",
+    "Xoyo9zOmm5MP4vA5",
+    "YjEk7OrYMOmA7zoV",
+    "q4FofYJtawcmhe2s",
+    "ydLWDzjt6lruHats",
+    "stsuTJAxqdHXAhii",
+    "haDvo6p0uNyJaqns",
+    "w9J5Gk2dg91zgkby",
+    "xS9AqW9TbLEbvUWh",
+    "9JwcIJTY9SPHWmEk",
+    "9ocjHxwrnQNWqYMV",
+    "dyq1BU5HsjyThmhz",
+    "L9ihXMuaOwcvHzLL",
+    "4m6EdF768uTSdP1p",
+    "Z1dQLYHqPwLj0dtz",
+    "cSKihDfA9FO5Hg1h",
+    "YB8CpWQJ4ioIMUz5",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "_id": "tMsCaqp9x8zXRgSX",
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 22100000,
+  "_originalKey": "!actors!tMsCaqp9x8zXRgSX",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.4m6EdF768uTSdP1p",
+      "name": "Open Locks",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The character can attempt to pick a lock. Success is based on a percentage determined by their level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "35",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "4m6EdF768uTSdP1p",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.91n8Y8S0sIo0yI2M",
+      "name": "Thief Abilities",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "The wooddrake has all the abilities of a 5th-level thief, including backstab, pick locks, and stealth.",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "91n8Y8S0sIo0yI2M",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.9JwcIJTY9SPHWmEk",
+      "name": "Climb Sheer Surface",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The use of this ability allows for climbing steep surfaces, such as walls, cliffs, or even ceilings, with a base chance of success determined by the user's level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "91",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "9JwcIJTY9SPHWmEk",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.9ocjHxwrnQNWqYMV",
+      "name": "Hear Noise",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Those with this ability possess a heightened sense of hearing, enabling them to detect faint noises such as footsteps, whispers, and the movements of hidden creatures.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "50",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "9ocjHxwrnQNWqYMV",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.L9ihXMuaOwcvHzLL",
+      "name": "Move Silently",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>A user of this ability can move silently, avoiding detection while attempting to sneak past others.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "40",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "L9ihXMuaOwcvHzLL",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.WqVGxs9wPNL3YWCF",
+      "name": "Immunity to Low-Level Spells",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "The wooddrake is immune to spells of 4th level or lower. It can suppress this immunity for 1 round if needed.",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "WqVGxs9wPNL3YWCF",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.Xoyo9zOmm5MP4vA5",
+      "name": "Dragon Scales (Armor)",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "The wooddrake's natural scales provide an armor class of 0.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 0,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "icons/commodities/leather/scales-white.webp",
+      "_id": "Xoyo9zOmm5MP4vA5",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.YB8CpWQJ4ioIMUz5",
+      "name": "Remove Traps",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>After detecting a trap, the character can attempt to disarm it safely. Success is based on a percentage determined by their level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "30",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "YB8CpWQJ4ioIMUz5",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.YjEk7OrYMOmA7zoV",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "YjEk7OrYMOmA7zoV",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "11",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.Z1dQLYHqPwLj0dtz",
+      "name": "Pick Pockets",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The character can attempt to pick pockets or take small items from people without being noticed.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "40",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "Z1dQLYHqPwLj0dtz",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.ZPGgKSsbxag9XPiJ",
+      "name": "Polymorph",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "The wooddrake can polymorph into elf or halfling forms at will, mimicking humanoid features.",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ZPGgKSsbxag9XPiJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.cSKihDfA9FO5Hg1h",
+      "name": "Read Languages",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>A character with is ability can decipher written languages (including treasure maps and codes) with a base chance of success.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "cSKihDfA9FO5Hg1h",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.dyq1BU5HsjyThmhz",
+      "name": "Hide in Shadows",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The ability allows one to blend into shadows and become nearly invisible, moving silently as long as they remain still or move cautiously.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "28",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "dyq1BU5HsjyThmhz",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.haDvo6p0uNyJaqns",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "haDvo6p0uNyJaqns",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.nmaO9X64uxUGCTfM",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "A strong bite with sharp teeth.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "1d8",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "nmaO9X64uxUGCTfM",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.q4FofYJtawcmhe2s",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "q4FofYJtawcmhe2s",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.qtP8hqVDpRXua2TQ",
+      "name": "Claw",
+      "type": "weapon",
+      "system": {
+        "tags": [],
+        "description": "The drake slashes with its claws.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "1d2",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 2,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/creatures/claws/claw-scaled-red.webp",
+      "_id": "qtP8hqVDpRXua2TQ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.stsuTJAxqdHXAhii",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "stsuTJAxqdHXAhii",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.w9J5Gk2dg91zgkby",
+      "name": "Backstab",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>When attacking an unaware opponent from behind, the attacker gains a +4 bonus to hit and deals double damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "w9J5Gk2dg91zgkby",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.xS9AqW9TbLEbvUWh",
+      "name": "Find Traps",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The user of this ability can detect traps on walls, floors, and ceilings, with a base chance of success determined by their level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d100",
+        "operator": "lte",
+        "target": "30",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "healFormula": "",
+        "dmgFormula": "",
+        "quantity": 1,
+        "quantityMax": 0,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "T",
+        "showResult": true,
+        "conditions": []
+      },
+      "folder": "dweUdoWqUwjtcc0d",
+      "_id": "xS9AqW9TbLEbvUWh",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!tMsCaqp9x8zXRgSX.ydLWDzjt6lruHats",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ydLWDzjt6lruHats",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "11",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!tMsCaqp9x8zXRgSX.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

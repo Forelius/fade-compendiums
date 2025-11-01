@@ -1,0 +1,164 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "River Encounter",
+  "_id": "MhKbuvnKqyiRGH01",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>River Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "xa1M2DhrDSOOhsZy",
+    "zhiE8mSqR0gam2Cy",
+    "eVFfaSDYGadpiiF4",
+    "CLSXyOdBPU0IvvEr",
+    "wBkxTjdvr7GEWAYX",
+    "NOG1CkSbuT4xN4uM",
+    "7XNipoTwi7g7tkha"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!MhKbuvnKqyiRGH01",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.7XNipoTwi7g7tkha",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "7XNipoTwi7g7tkha",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Humanoid (River)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.bq2FmGtidCYKRcHV",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.CLSXyOdBPU0IvvEr",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "CLSXyOdBPU0IvvEr",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal (River)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.HoB29rSp7JNCmoLJ",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.NOG1CkSbuT4xN4uM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "NOG1CkSbuT4xN4uM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (River)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ThWgmfy9cXtTvK9g",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.eVFfaSDYGadpiiF4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "eVFfaSDYGadpiiF4",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Swimmer (River/Lake)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.dGFZnvGxYoahi5wR",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.wBkxTjdvr7GEWAYX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "wBkxTjdvr7GEWAYX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragons",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JjKeOku91T3TOM2Q",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.xa1M2DhrDSOOhsZy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "xa1M2DhrDSOOhsZy",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Flyers (All Other)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZA3rLpJZCGOprVjT",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!MhKbuvnKqyiRGH01.zhiE8mSqR0gam2Cy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "zhiE8mSqR0gam2Cy",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insects",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rTDT2KFmD2xPIwSz",
+      "description": ""
+    }
+  ]
+}

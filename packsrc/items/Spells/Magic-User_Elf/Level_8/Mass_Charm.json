@@ -1,0 +1,47 @@
+{
+  "name": "Mass Charm*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell functions like <em>charm person</em> or <em>charm monster</em>, but affects up to 30 total levels or Hit Dice of creatures.</p><h4>Charm Effects:</h4><ul><li>Creatures of 31+ levels or HD are immune.</li><li>Each victim may attempt a saving throw vs. spells (-2 penalty) to resist the charm.</li><li>Charm duration is based on Intelligence (as per <em>charm person</em>).</li></ul><h4>Breaking the Charm:</h4><ul><li>If the caster attacks a charmed creature, only that creature's charm is broken.</li><li>Other charmed creatures witnessing the attack may attempt a new saving throw.</li><li>Otherwise, other charms remain unaffected.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "120'",
+    "duration": "Special (as charm person spell)",
+    "effect": "Charms up to 30 levels/HD of creatures",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "30",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "gGrfp5pU0K1sOVue",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!gGrfp5pU0K1sOVue"
+}

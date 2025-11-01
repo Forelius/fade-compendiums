@@ -1,0 +1,44 @@
+{
+  "folder": "OR1oqiLvw7LWXY42",
+  "name": "Magic Wand",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "j3TIIGM9mWiQXVKp",
+  "system": {
+    "tags": [],
+    "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "rollFormula": "1d20",
+    "operator": "gte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "save",
+    "combatManeuver": "null",
+    "customSaveCode": "wand",
+    "shortName": "Wand",
+    "classKey": null,
+    "showResult": true
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!j3TIIGM9mWiQXVKp"
+}

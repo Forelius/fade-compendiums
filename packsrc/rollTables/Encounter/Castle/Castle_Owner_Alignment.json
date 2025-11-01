@@ -1,0 +1,81 @@
+{
+  "folder": "Qh5wETOfRib0kt29",
+  "name": "Castle Owner Alignment",
+  "_id": "BU7Se0FD8mmVNJnb",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "WIQ8FP4gRzqqlJsf",
+    "Fk7T4PPny0sMeIYA",
+    "O1pDDwfqo558nKTV"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!BU7Se0FD8mmVNJnb",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!BU7Se0FD8mmVNJnb.Fk7T4PPny0sMeIYA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        4
+      ],
+      "drawn": false,
+      "_id": "Fk7T4PPny0sMeIYA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Neutral",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!BU7Se0FD8mmVNJnb.O1pDDwfqo558nKTV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "O1pDDwfqo558nKTV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lawful",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!BU7Se0FD8mmVNJnb.WIQ8FP4gRzqqlJsf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "WIQ8FP4gRzqqlJsf",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Chaotic",
+      "name": ""
+    }
+  ]
+}

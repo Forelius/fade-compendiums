@@ -1,0 +1,81 @@
+{
+  "folder": "Qh5wETOfRib0kt29",
+  "name": "Castle Reaction (Magic-User)",
+  "_id": "fcnFdLonqs5eVTEq",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "P9DMmgutAxrjMlnU",
+    "jgisEU82AANS7zuq",
+    "zowcBVesqJmIz1dR"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!fcnFdLonqs5eVTEq",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!fcnFdLonqs5eVTEq.P9DMmgutAxrjMlnU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "P9DMmgutAxrjMlnU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Pursue: The men will chase the party off the lord's land or charge the characters a toll. This sum may vary depending on the personality of the lord, how wealthy the characters look, and other factors. Refusing to pay may result in the PCs being arrested, run off the land, or attacked. The DM can ignore this result if the castle owner is Lawful and the PCs have behaved well.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!fcnFdLonqs5eVTEq.jgisEU82AANS7zuq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        5
+      ],
+      "drawn": false,
+      "_id": "jgisEU82AANS7zuq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Ignore: No attempt is made to aid or hinder the party.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!fcnFdLonqs5eVTEq.zowcBVesqJmIz1dR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "zowcBVesqJmIz1dR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Friendly: The castle owner invites the party to stay. (This is not necessarily actual friendship; some NPCs may have evil intentions toward the unsuspecting party.)",
+      "name": ""
+    }
+  ]
+}

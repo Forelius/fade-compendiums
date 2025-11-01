@@ -1,0 +1,52 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Dragon Control",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "_id": "S1HRDYe4RU9lhOaR",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>There are several different types corresponding to each dragon type. The user may control up to three small dragons at once, but the dragons get saving throws. Large and huge dragons are not affected. The controlled dragons will obey commands except for casting spells. They will become hostile when the control ends.</p><p>Roll [[/r 1d20 #See dragon control results table]] to determine the dragon type affected:</p><p>1–5: White (or Crystal)<br>6–10: Black (or Onyx)<br>11–14: Green (or Jade)<br>15–17: Blue (or Sapphire)<br>18–19: Red (or Ruby)<br>20: Gold (or Amber)</p><p>The GM can roll 1d100; on 01–30 the effect targets the gemstone variant (e.g., crystal instead of white, onyx instead of black, etc.).</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!S1HRDYe4RU9lhOaR"
+}

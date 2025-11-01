@@ -1,0 +1,663 @@
+{
+  "folder": "xyIrb6GYNyFjZwEN",
+  "name": "Lupin",
+  "type": "monster",
+  "_id": "b1qtWSbA3Etjwkr0",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "morale": 8,
+      "alignment": "Lawful",
+      "xpAward": 20,
+      "abilityCount": 0,
+      "monsterType": "Humanoid",
+      "rarity": "Rare",
+      "saveAs": "F2",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "attacks": "1",
+      "weight": "",
+      "size": "M"
+    },
+    "na": {
+      "wandering": "2d6",
+      "lair": "5d8"
+    },
+    "treasure": "C",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 18,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 1,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "unskilledToHitMod": -2,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {},
+      "masteryLevelOverride": null
+    },
+    "wrestling": 13,
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 8,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "isEnchanted": false,
+    "tags": [],
+    "biography": "<p>Lupins are dog-like humanoids with fur-covered, humanlike bodies and canine heads. They hate werewolves and will attack them on sight (they can recognize a werewolf even in human form). Lupins live in tribal societies with hereditary rulers and are often allied with humans. In battle, lupins sometimes ride trained dire wolves and charge with lances.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "2",
+      "value": 5,
+      "max": 5
+    },
+    "movement": {
+      "turn": 120,
+      "max": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120
+    },
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": []
+  },
+  "prototypeToken": {
+    "name": "Lupin",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 0.96,
+        "texture": null
+      }
+    },
+    "flags": {
+      "splatter": {
+        "bloodColor": ""
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "hfL8sxd4QooiBpL5",
+    "OZA38dJ95QpcLMxh",
+    "EWpup79Et1wihita",
+    "F45AvGZppxx6y3tM",
+    "m5OGBhipuaI73Qn7",
+    "hRMhn8g91Enu9Urk",
+    "74p7M42jB9CXzUuc"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!actors!b1qtWSbA3Etjwkr0",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.74p7M42jB9CXzUuc",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "74p7M42jB9CXzUuc",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.EWpup79Et1wihita",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "EWpup79Et1wihita",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.F45AvGZppxx6y3tM",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "F45AvGZppxx6y3tM",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.OZA38dJ95QpcLMxh",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Sword, Normal",
+      "type": "weapon",
+      "_id": "OZA38dJ95QpcLMxh",
+      "img": "modules/fade-compendiums/assets/img/weapon/sword.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 60,
+        "cost": 10,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d8",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Sword, Normal",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "container": false,
+        "equippable": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "grip": "1H",
+        "shortName": "",
+        "unidentifiedName": "",
+        "canSet": false,
+        "size": "M",
+        "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "weightEquipped": 60,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 1700000
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.hRMhn8g91Enu9Urk",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "hRMhn8g91Enu9Urk",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.hfL8sxd4QooiBpL5",
+      "name": "Lupin Armor",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p>A combination of natural protection and piecemeal armor.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 1,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 6,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": false
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "hfL8sxd4QooiBpL5",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!b1qtWSbA3Etjwkr0.m5OGBhipuaI73Qn7",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "m5OGBhipuaI73Qn7",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    }
+  ]
+}

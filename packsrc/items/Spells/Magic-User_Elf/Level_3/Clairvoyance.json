@@ -1,0 +1,51 @@
+{
+  "name": "Clairvoyance",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to see through the eyes of any single creature within 60'. Each turn, the caster can switch to another creature's eyes within range without needing to recast the spell.</p>\n                      <p><strong>Restrictions:</strong> The spell's effect is blocked by two feet of rock or a thin coating of lead. No saving throw applies.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "60'",
+    "duration": "12 turns",
+    "effect": "See through another's eyes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "IfMYxPRqHff6UUGt",
+  "sort": 0,
+  "_originalKey": "!items!IfMYxPRqHff6UUGt"
+}

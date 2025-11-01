@@ -1,0 +1,51 @@
+{
+  "name": "Speak with the Dead",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "kXFO22VpYT8uU03F",
+  "system": {
+    "tags": [],
+    "description": "<p>By means of this spell, a caster may ask three questions of a deceased spirit if the body is within range.</p>\n                <p>A caster of 6th or 7th level can contact recently deceased spirits (those dead up to 4 days). Casters of levels 8-14 have slightly more power (contacting spirits up to 4 months dead), and casters of levels 15-20 have even more (speaking with corpses up to 4 years dead). No time limits apply to casters of 21st level or greater.</p>\n                <p>The spirit will always reply in a tongue known to the caster, but can only offer knowledge of things up to the time of its death. If the spirit's alignment is the same as the caster's, it will provide clear and brief answers; however, if the alignments differ, the spirit may reply in riddles.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "10'",
+    "duration": "1 round per caster level",
+    "effect": "Caster may ask three questions",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@actor.details.level",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "gabr03kyZVspXYmR",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!gabr03kyZVspXYmR"
+}

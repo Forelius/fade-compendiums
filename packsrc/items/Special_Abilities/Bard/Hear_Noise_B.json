@@ -1,0 +1,44 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Hear Noise (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "bh19bzXbwCahiJHu",
+  "system": {
+    "tags": [],
+    "description": "<p>A Bard can detect faint sounds such as footsteps, whispers, or shifting mechanisms with the same chance as a Thief of the same level. The Bard must remain still and concentrate for one round to use this ability. Background noise, such as wind or battle, may impose penalties at the DM’s discretion.</p><h4>Armor Penalties:</h4><ul><li>Scale Mail: –5%</li><li>Chain Mail: –10% (–5% if Elven Chain)</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "30",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!bh19bzXbwCahiJHu"
+}

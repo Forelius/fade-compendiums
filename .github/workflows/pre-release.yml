@@ -43,15 +43,31 @@ jobs:
             echo "is_valid=false" >> $GITHUB_ENV
           fi
 
+      - name: Setup Node.js
+        if: env.is_valid == 'true'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: env.is_valid == 'true'
+        run: npm ci
+
+      - name: Compile packs
+        if: env.is_valid == 'true'
+        run: npm run comppacks
+
       - name: Prepare release zip
         if: env.is_valid == 'true'
         run: |
-          zip -r fade-compendiums.zip ./* -x '.git*' -x '.github/*'
+          zip -r module.zip ./* -x '.git*' -x '.github/*' -x 'packsrc/*' -x 'node_modules/*' -x 'scripts/build/*' -x 'scripts/ps/*' -x 'package.json' -x 'package-lock.json' -x '.vscode/*'
 
       - name: Prepare release notes
         if: env.is_valid == 'true'
         id: prepare_notes
         run: |
+          # Create new release notes
           echo "## Fantastic Depths Compendiums Pre-Release" > release_notes.txt
           echo "" >> release_notes.txt
           echo "This is a pre-release version of Fantastic Depths Compendiums." >> release_notes.txt
@@ -65,7 +81,9 @@ jobs:
           tag: ${{ env.VERSION }}
           name: "Pre-Release ${{ env.VERSION }}"
           prerelease: true
-          artifacts: fade-compendiums.zip
+          artifacts: module.zip
           bodyfile: release_notes.txt
           token: ${{ secrets.GITHUB_TOKEN }}
-
+          allowUpdates: true
+          replacesArtifacts: true
+          updateOnlyUnreleased: false

@@ -1,0 +1,44 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Find Traps (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "gxq6Rkp1as1KpAOp",
+  "system": {
+    "tags": [],
+    "description": "<p data-start=\"22\" data-end=\"277\">A Bard can detect hidden or magical traps with the same chance as a Thief of the same level. This requires careful inspection and takes <strong data-start=\"158\" data-end=\"188\">one round per 10-foot area</strong>. Unlike a Thief, a Bard <strong data-start=\"213\" data-end=\"236\">cannot Remove Traps</strong> but can warn others of their presence.</p><h4 data-start=\"279\" data-end=\"306\">Armor Penalties:</h4><ul data-start=\"307\" data-end=\"376\" data-is-last-node=\"\"><li data-start=\"307\" data-end=\"330\"><strong data-start=\"309\" data-end=\"324\">Scale Mail:</strong> –5%</li><li data-start=\"331\" data-end=\"376\" data-is-last-node=\"\"><strong data-start=\"333\" data-end=\"348\">Chain Mail:</strong> –10% (–5% if Elven Chain)</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "10",
+    "rollMode": "blindroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!gxq6Rkp1as1KpAOp"
+}

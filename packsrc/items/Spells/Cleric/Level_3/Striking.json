@@ -1,0 +1,51 @@
+{
+  "name": "Striking",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "kXFO22VpYT8uU03F",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows any one weapon to inflict 1d6 additional points of damage per attack (similar to a magical staff of striking). The weapon will inflict this extra damage with every successful blow for as long as the spell lasts. This bonus does not apply to attack rolls, but only to damage rolls.</p>\n                <p>If the caster casts this spell on a normal weapon, the weapon may then damage creatures which are normally affected only by magic weapons; the weapon will do 1d6 points of damage per strike (regardless of the normal damage of the weapon).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "1 turn",
+    "effect": "1d6 bonus to damage on 1 weapon",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "physical",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "QyuHlAGNqVKYAH0W",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!QyuHlAGNqVKYAH0W"
+}

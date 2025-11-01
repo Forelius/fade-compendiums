@@ -1,0 +1,1159 @@
+{
+  "name": "Elf (1 HD)",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
+  "system": {
+    "details": {
+      "alignment": "Neutral",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 6,
+      "attacks": "1",
+      "abilityCount": 1,
+      "monsterType": "Demihuman",
+      "saveAs": "E1",
+      "castAs": "E1",
+      "classAbilityAs": "E1",
+      "level": 1,
+      "rarity": "Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "1",
+      "value": 4,
+      "max": null
+    },
+    "na": {
+      "wandering": "1d4",
+      "lair": "2d24"
+    },
+    "treasure": "(S+T), E",
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
+    },
+    "biography": "<p>Elves are woodland humanoids, highly skilled in combat and magic. They use weapons effectively and can cast a 1st-level spell. Elves are often encountered in groups, and when a group of 15 or more appears, one of them will be a leader. This leader may possess magical items.</p>\n        <strong>Weapon Damage:</strong> Varies by weapon.<br>\n        <strong>Special:</strong> Each elf has access to a 1st-level spell.<br>\n        <strong>Terrain:</strong> Forests, Woodlands.<br>\n        <strong>Barding:</strong> None",
+    "wrestling": 11,
+    "encumbrance": {
+      "max": 2400,
+      "value": 0,
+      "mv": 0,
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 5,
+      "firstSpellLevel": 1
+    },
+    "gm": {
+      "notes": ""
+    },
+    "combat": {
+      "attacks": 0,
+      "isDead": false,
+      "deathCount": 0,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "ac": {
+      "naked": 9,
+      "nakedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "mod": {
+      "ac": 0,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 13,
+        "total": 13,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 2,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "spellcasters",
+      "fey",
+      "weapon-using"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Elf",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/elf1a.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "ar1mWVzSp6GdE0ad",
+    "zwSmPxFBroOoqBHq",
+    "TppmQ4hnRPjQiCO5",
+    "xrwRlVG12aIGzJY9",
+    "gyGWKM9mur3eqbTy",
+    "vbtp5IZhkIRmsKdh",
+    "3ExrZ5UmN1sEOZMg",
+    "G6NDxhJH5fd32zRX",
+    "yH5ZotWuorzTv0nS",
+    "EgQeqRpUgpa2gGAE",
+    "z0TelFBQewTvxxF9",
+    "edlH6xA8qrYpnmeO",
+    "182F4DzYozXPSnTY",
+    "3NFATWULRaya8kWv",
+    "uqmGGpdhi0ydtN5f"
+  ],
+  "_id": "9pUF0lH2A71umXg0",
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3700000,
+  "_originalKey": "!actors!9pUF0lH2A71umXg0",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.182F4DzYozXPSnTY",
+      "name": "Infravision (E)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Elves have infravision, allowing them to see in the dark up to 60 feet. They can perceive creatures and objects based on their temperature difference from the surroundings.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "E",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "mxj8cmXCM6SRKtWt",
+      "_id": "182F4DzYozXPSnTY",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.3ExrZ5UmN1sEOZMg",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "3ExrZ5UmN1sEOZMg",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.3NFATWULRaya8kWv",
+      "name": "Set Spear vs. Charge",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>A character on foot armed with a spear, pike, sword, shield, or lance can set the weapon against a charge. A charge occurs when a monster rushes towards the character, covering at least 20 yards before attacking. This maneuver can also be used against another character's lance attack.</p><p>To \"set vs. charge,\" the character braces the weapon against the ground, pointing it at the approaching enemy. Strength and magic bonuses apply to both the attack and damage rolls. If the attack is successful, the character deals double damage, with adjustments applied after doubling.</p><p>The character must declare the set vs. charge maneuver before entering melee combat with the charging opponent. For example, if the character’s party wins initiative and expects a charge, they can declare this maneuver. Similarly, if charging monsters are spotted several rounds in advance, the character can set their weapon against the charge ahead of time.</p><p>Typically, the attack is made during the monster's movement phase, as soon as it comes within weapon range. If the attack succeeds and kills the monster, it prevents the creature from attacking. If the attack does not kill the monster, it can then attack during its own melee phase of the combat sequence.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "setSpear",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "F",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "mNmtATMCAjwUeGOs",
+      "_id": "3NFATWULRaya8kWv",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.EgQeqRpUgpa2gGAE",
+      "name": "Detect Secret Door",
+      "type": "specialAbility",
+      "img": "modules/fade-compendiums/assets/img/skill/secretdoor.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>To detect a secret door, a character must specify the exact area being searched. The process typically takes one turn (10 minutes) for each 10-foot section of wall, floor, or ceiling. Elves, due to their keen sight, are given a bonus of 1 to their roll. <br>Either the Dungeon Master should roll or the roll should be blind, regardless of whether a secret door is present, to maintain player uncertainty. Once found, the location of the secret door can be noted, allowing future discovery without a roll.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d6",
+        "operator": "lte",
+        "target": "3",
+        "rollMode": "blindroll",
+        "savingThrow": "",
+        "autoSuccess": 1,
+        "autoFail": 6,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "explore",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "SSodW6IBMU8TbVXq",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "EgQeqRpUgpa2gGAE",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.G6NDxhJH5fd32zRX",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "G6NDxhJH5fd32zRX",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.MOb2pt51ShnPxa9Y",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Bow, Short",
+      "type": "weapon",
+      "_id": "MOb2pt51ShnPxa9Y",
+      "img": "icons/weapons/bows/shortbow-leather.webp",
+      "system": {
+        "tags": [
+          "medium",
+          "2-handed",
+          "slow"
+        ],
+        "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 20,
+        "cost": 25,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "treasure": false,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.TppmQ4hnRPjQiCO5",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Bow, Short",
+      "type": "weapon",
+      "_id": "TppmQ4hnRPjQiCO5",
+      "img": "icons/weapons/bows/shortbow-leather.webp",
+      "system": {
+        "tags": [
+          "medium",
+          "2-handed",
+          "slow"
+        ],
+        "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 20,
+        "cost": 25,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "container": false,
+        "equippable": false,
+        "ammoType": "arrow",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Bow, Short",
+        "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
+        "grip": "2H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 1
+        },
+        "weightEquipped": 20,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.ar1mWVzSp6GdE0ad",
+      "name": "Elf Armor",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "Elves have a natural Armor Class of 5.",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 400,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "Elves have a natural Armor Class of 5.",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 400,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "ar1mWVzSp6GdE0ad",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.edlH6xA8qrYpnmeO",
+      "name": "Lance Attack",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>When mounted and using a lance, a character can perform a powerful charge attack. If the attack is successful, the character gains double their Strength modifier to the damage roll. This ability is most effective when charging against opponents.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "lance",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "F",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "mNmtATMCAjwUeGOs",
+      "_id": "edlH6xA8qrYpnmeO",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.gyGWKM9mur3eqbTy",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "gyGWKM9mur3eqbTy",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.uqmGGpdhi0ydtN5f",
+      "folder": "u7s4NR16AZdcIm0l",
+      "name": "Arrows",
+      "type": "ammo",
+      "img": "icons/weapons/ammunition/arrows-war-white.webp",
+      "_id": "uqmGGpdhi0ydtN5f",
+      "system": {
+        "shortName": "",
+        "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 20,
+        "quantityMax": 20,
+        "weight": 0.5,
+        "weightEquipped": 0.5,
+        "cost": 5,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "equippable": true,
+        "ammoType": "arrow",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "healFormula": "",
+        "damageType": "piercing",
+        "isAmmo": true,
+        "mod": {
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "vsGroup": {},
+          "rangeMultiplier": 1
+        },
+        "charges": 0,
+        "chargesMax": 0
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.vbtp5IZhkIRmsKdh",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "vbtp5IZhkIRmsKdh",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.xrwRlVG12aIGzJY9",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "xrwRlVG12aIGzJY9",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.yH5ZotWuorzTv0nS",
+      "name": "Arcane Spellcasting (E)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Elves harness arcane energy through natural affinity and careful memorization of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Elves must prepare spells in advance by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p>Elves have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em>Read Magic</em> to devastating attacks like <em>Fireball</em> and reality-warping incantations at higher levels.</p><p>Because of their reliance on spellbooks, Elves must protect and expand their libraries, seeking out lost tomes, scrolls, and ancient knowledge to improve their magical repertoire. Unlike Magic-Users, however, Elves also train in combat, allowing them to wield swords and bows while wearing armor without disrupting their spellcasting.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "mxj8cmXCM6SRKtWt",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "yH5ZotWuorzTv0nS",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.z0TelFBQewTvxxF9",
+      "name": "Ghoul Paralysis Immunity (E)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Elves are immune to the paralyzing attacks of ghouls. They are, however, still affected by other forms of paralysis.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "E",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "mxj8cmXCM6SRKtWt",
+      "_id": "z0TelFBQewTvxxF9",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!9pUF0lH2A71umXg0.zwSmPxFBroOoqBHq",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Sword, Normal",
+      "type": "weapon",
+      "_id": "zwSmPxFBroOoqBHq",
+      "img": "modules/fade-compendiums/assets/img/weapon/sword.webp",
+      "system": {
+        "tags": [
+          "medium"
+        ],
+        "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 60,
+        "cost": 10,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d8",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Sword, Normal",
+        "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "S",
+        "grip": "1H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 60,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "sort": 2600000,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

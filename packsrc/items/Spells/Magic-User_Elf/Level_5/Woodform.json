@@ -1,0 +1,47 @@
+{
+  "name": "Woodform",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a mass of wood, up to 1,000 cubic feet in volume, which may be arranged in any shape the caster desires (e.g., 10' x 10' x 10' block, 25' x 20' x 2' wall).</p>\n                      <p><strong>Casting Time:</strong> Varies by design complexity. Simple shapes, like a wall, take 1 round. A staircase may take 10 rounds (1 turn), while more complex designs, like a ship keel, can take up to 12 turns (2 hours). The DM decides casting time for complex designs.</p>\n                      <p><strong>Object Properties:</strong> The wood must be created as a single piece with no moving parts. Once created, the wood is permanent, non-dispellable, and cannot be modified by further woodform spells unless cast by the original caster within two hours to make refinements. The caster may create wood with rough edges, which another woodform can later seamlessly join to the first.</p>\n                      <p>The wood must rest on solid ground or a similar support, and cannot occupy a space already containing an object. The type of wood can be chosen by the caster but may be limited by the DM, especially for exotic or magical woods.</p>\n                      <p><strong>Durability:</strong> The wood lasts until destroyed by damage (e.g., burning, breaking) or spells like *Disintegrate*. It has an AC of -4 (6) and 60 hit points per 1' thickness, based on the Fortifications Table (page 137). Most exterior wooden walls are 8\" thick, giving them 40 hit points.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates 1,000 cubic feet of wood",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "VJcinyTciy3bAPOF",
+  "sort": 0,
+  "_originalKey": "!items!VJcinyTciy3bAPOF"
+}

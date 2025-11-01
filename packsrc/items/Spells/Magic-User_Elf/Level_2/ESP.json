@@ -1,0 +1,51 @@
+{
+  "name": "ESP*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The spell allows the caster to understand the thoughts of any single living creature, regardless of language. It does not allow the caster to hear the thoughts of undead creatures.</p>\n                  <p>If more than one creature is within range and in the direction the caster is concentrating, the spellcaster will \"hear\" a confused jumble of thoughts. The caster can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p>\n                  <p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p>\n                  <p>The reverse of this spell, <em>mindmask</em>, may be cast by touch on any one creature. The recipient is completely immune to <em>ESP</em> and all other forms of mind-reading for the spell's duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "12 turns",
+    "effect": "All thoughts in one direction",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "qmG7DPW64LNvJg2i",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!qmG7DPW64LNvJg2i"
+}

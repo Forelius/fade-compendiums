@@ -1,0 +1,49 @@
+{
+  "name": "View From Afar",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "d3Jd1iXmYjQy12BI",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This spell-song grants the bard the ability to perceive distant locations, much like a <em>crystal ball</em>.</p><p><strong>Effects:</strong></p><ul><li>Allows the bard to see a location up to five miles away.</li><li>The bard must know the name of the location and provide a brief description to focus on it.</li><li>The bard can rotate their point of view up to 360 degrees but cannot move.</li><li>By naming new locations, the bard can switch views within the spell’s duration, though this is less precise than a wizard eye.</li></ul><p><strong>Limitations:</strong></p><ul><li>The bard cannot see through solid objects.</li><li>Locations protected by magical wards or enchantments are blocked.</li><li>The bard enters a trance-like state while the spell is active, completely unaware of their surroundings.</li><li>If the bard takes any damage, their concentration is broken and the spell immediately ends.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "0 (bard only)",
+    "duration": "3 turns",
+    "effect": "Allows the bard to remotely view distant locations",
+    "targetSelf": true,
+    "targetOther": false,
+    "durationFormula": "180",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "Kps8tGElnxmxAqbh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Kps8tGElnxmxAqbh"
+}

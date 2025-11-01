@@ -1,0 +1,47 @@
+{
+  "name": "Feeblemind",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell affects only magic-users, elves, or other creatures capable of casting magical spells (excluding cleric and druid casters). The target's Intelligence is reduced to 2, rendering them helpless and unable to cast spells or think clearly.</p>\n                      <p><strong>Saving Throw:</strong> The victim may make a saving throw vs. spells, with a -4 penalty, to resist the effect. The feeblemind effect lasts until removed by a *Dispel Magic* or *Cureall* spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "Permanent until dispelled",
+    "effect": "Lowers Intelligence score to 2",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rK0WaMCM1X1nqvMj",
+  "sort": 0,
+  "_originalKey": "!items!rK0WaMCM1X1nqvMj"
+}

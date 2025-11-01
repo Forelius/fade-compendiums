@@ -1,0 +1,1111 @@
+{
+  "name": "Lich, Cleric (22HD)*",
+  "type": "monster",
+  "folder": "NR8V9n9wM8G8WopZ",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 10,
+      "xpAward": 11750,
+      "attacks": "1",
+      "abilityCount": 4,
+      "monsterType": "Undead, Enchanted",
+      "saveAs": "C22",
+      "castAs": "C22",
+      "classAbilityAs": "C22",
+      "level": 22,
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "config": {
+      "maxSpellLevel": 7,
+      "firstSpellLevel": 1
+    },
+    "hp": {
+      "hd": "9d6+13",
+      "value": 44,
+      "max": 44
+    },
+    "na": {
+      "wandering": "1",
+      "lair": "1"
+    },
+    "treasure": "See description below",
+    "thac0": {
+      "value": 10,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 90,
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
+    },
+    "biography": "<p>A lich is a powerful undead monster of magical origin. It looks like a skeleton wearing fine garments and was once an evil and chaotic magic-user or cleric of level 21 or greater (often 27-36). A lich is still able to use spells as it did while alive, making it extremely dangerous. A lich is not normally found wandering but instead remains in or very near a well-defended lair, which might be a dungeon, catacomb, tomb, or necropolis (\"city of the dead\").</p>\n<p>The very sight of a lich causes fear in all characters below 5th level (no saving throw). Its mere touch causes [[/r 1d10 #Touch damage]] <strong>points of damage</strong> and can paralyze any creature for [[/r 1d100 #Paralyzed for this many days]] <strong>days</strong> (though a saving throw applies, and the paralysis is magically dispellable).</p>\n<p><strong>Before any encounter with a lich, the DM should select spells for the creature with care, as a lich is extremely intelligent and uses them to its best advantage</strong>. Note that the lich's morale is given as 10, but a lich flees if in actual danger.</p>\n<p>Liches are undead and can be turned (but not destroyed) by clerics. They are immune to <em>charm</em>, <em>sleep</em>, <em>feeblemind</em>, <em>polymorph</em>, <em>cold</em>, <em>lightning</em>, and <em>death</em> spells, and can be harmed only by magical weapons. They are also immune to the effects of all spells of less than 4th level. Outside of its lair, a lich always carries [[/r 1d4 + 1 #Powerful items]] powerful magical items to be used in case of trouble. These should be chosen, not randomly determined. Within its lair, a lich has <strong>4d8</strong> additional temporary magical items (or more), plus the amounts of coins, gems, and jewelry given for Treasure Type H in Chapter 16 (with a 90% chance for each type). The number and severity of traps and other dangers to intruders should be appropriate to protect such a hoard.</p>\n<p>A magic-user lich normally has [[/r 1d2 #Spells]] <strong>spells</strong> of a permanent nature, most often detect invisible or fly. A clerical lich normally has [[/r 3d4 #Types of undead lairs nearby]] <strong>types</strong> of other undead nearby, acting as servants, with a full lair of each type (maximum number appearing) usually present.</p>\n<p>Either type of lich can summon other powerful undead for aid. The summons can be made simply by concentrating, and the creature(s) responding arrive [[/r 1d100 #rounds]] <strong>rounds</strong> later, depending on their distance. The summons may be made as often as desired, but any one type of creature will respond only once per day at most. To randomly determine the creatures appearing in response to the summons, roll [[/r 1d20 #See lich summon table for result]] and refer to the table. Roll again if a type of creature has already responded that day.</p>\n<table style=\"width:300px\">\n    <tbody><tr><th><p>Roll</p></th><th><p>Creature</p></th></tr>\n<tr><td><p>1-5</p></td><td><p>Spectre ([[/r 2d4 #Spectre]])</p></td></tr>\n<tr><td><p>6-9</p></td><td><p>Vampire ([[/r 1d6 #Vampire]])</p></td></tr>\n<tr><td><p>10-12</p></td><td><p>Phantom, Shade ([[/r 1d3 #Phantom, Shade]])</p></td></tr>\n<tr><td><p>13-15</p></td><td><p>Haunt, Ghost ([[/r 1d2 #Chaotic Haunt,Ghost]] Chaotic)</p></td></tr>\n<tr><td><p>16</p></td><td><p>Haunt, Poltergeist ([[/r 1d2 #Haunt, Poltergeist]])</p></td></tr>\n<tr><td><p>17</p></td><td><p>Spirit, Druj</p></td></tr>\n<tr><td><p>18</p></td><td><p>Spirit, Revenant</p></td></tr>\n<tr><td><p>19</p></td><td><p>Nightshade (any 1)</p></td></tr>\n<tr><td><p>20</p></td><td><p>Undead Beholder</p></td></tr>\n</tbody></table>\n<p>A summoned vampire may have a [[/r 1d100 #Summoned vampire is a magic-user or cleric on 25 or less. Roll for each]] chance (check for each) of being a magic-user or cleric of level 7-9 ([[/r 1d3 + 6 #Level]]).</p>\n<p>Liches are master villains, coordinating armies and spy networks made up of the undead. Each one has its own goal: one may want to achieve true immortality, another may serve an evil immortal of entropy, and yet another may wish to transform the entire world into a horrid playground for the undead. Each lich in a campaign should have its own name, style, and motivation.</p>\n<p><strong>Terrain:</strong> Ruins.</p>",
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 9,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 27,
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": true,
+    "monsterTypes": [],
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 18,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "spellcasters",
+      "undead",
+      "enchanted"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Lich, Cleric (22HD)*",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "fNJFr56GUBpzdYPz",
+    "CKEeeYd93UMnAYrp",
+    "QzSvjzJD3fwK1Bnv",
+    "e4ReEtoR28AJx9Lw",
+    "dlHQQY8MbKCa6TlD",
+    "bmX1TirjUqJjjwPD",
+    "bOWcUKGO9hFxNtq1",
+    "W0lalZF2S5Xwxwpb",
+    "zlheLFf3lOcje3HN",
+    "kjV3wI6pw5Um7DpF",
+    "DIq0KztqnZPIMKG6",
+    "wUtLoK2BgjHOPr31"
+  ],
+  "_id": "ksl26vU8MxdukAAc",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!actors!ksl26vU8MxdukAAc",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.CKEeeYd93UMnAYrp",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "CKEeeYd93UMnAYrp",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "5",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.DIq0KztqnZPIMKG6",
+      "name": "Summon Undead",
+      "type": "specialAbility",
+      "system": {
+        "description": "<p>Either type of lich can summon other powerful undead for aid. The summons can be made simply by concentrating, and the creature(s) responding arrive [[/r 1d100 #rounds]] <strong>rounds</strong> later, depending on their distance. The summons may be made as often as desired, but any one type of creature will respond only once per day at most. To randomly determine the creatures appearing in response to the summons, roll [[/r 1d20 #See lich summon table for result]] and refer to the table. Roll again if a type of creature has already responded that day.</p><table style=\"width:300px\"><tbody><tr><th><p>Roll</p></th><th><p>Creature</p></th></tr><tr><td><p>1-5</p></td><td><p>Spectre ([[/r 2d4 #Spectre]])</p></td></tr><tr><td><p>6-9</p></td><td><p>Vampire ([[/r 1d6 #Vampire]])</p></td></tr><tr><td><p>10-12</p></td><td><p>Phantom, Shade ([[/r 1d3 #Phantom, Shade]])</p></td></tr><tr><td><p>13-15</p></td><td><p>Haunt, Ghost ([[/r 1d2 #Chaotic Haunt,Ghost]] Chaotic)</p></td></tr><tr><td><p>16</p></td><td><p>Haunt, Poltergeist ([[/r 1d2 #Haunt, Poltergeist]])</p></td></tr><tr><td><p>17</p></td><td><p>Spirit, Druj</p></td></tr><tr><td><p>18</p></td><td><p>Spirit, Revenant</p></td></tr><tr><td><p>19</p></td><td><p>Nightshade (any 1)</p></td></tr><tr><td><p>20</p></td><td><p>Undead Beholder</p></td></tr></tbody></table><p>A summoned vampire may have a [[/r 1d100 #Summoned vampire is a magic-user or cleric on 25 or less. Roll for each]]<strong> </strong>chance (check for each) of being a magic-user or cleric of level 7-9 ([[/r 1d3 + 6 #Level]]).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "DIq0KztqnZPIMKG6",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.IxnKAh2r1ivUzxsJ",
+      "name": "Summon Undead",
+      "type": "specialAbility",
+      "system": {
+        "description": "The lich can summon other powerful undead for aid. By concentrating, the summoned creature(s) will arrive 1d100 rounds later based on their distance. Summoning can be performed repeatedly, but each creature type will respond only once per day. To determine which creature is summoned, roll 1d20:<br>Roll 1-5: Spectre (2d4)<br>Roll 6-9: Vampire (1d6)<br>Roll 10-12: Phantom, Shade (1d3)<br>Roll 13-15: Haunt, Ghost (1d2 Chaotic)<br>Roll 16: Haunt, Poltergeist (1d2)<br>Roll 17: Spirit, Druj<br>Roll 18: Spirit, Revenant<br>Roll 19: Nightshade (any 1)<br>Roll 20: Undead Beholder",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "IxnKAh2r1ivUzxsJ",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.P0WSkcipgbTBSJzF",
+      "name": "Touch",
+      "type": "weapon",
+      "system": {
+        "description": "A deadly touch attack that deals 1d10 damage and may paralyze the target for 1d100 days (saving throw applies).",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "1d10",
+        "damageType": "physical",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "paralysis",
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "breath": null,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": null,
+        "grip": null,
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "isCarried": true,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false
+      },
+      "img": "icons/svg/sword.svg",
+      "_id": "P0WSkcipgbTBSJzF",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.QzSvjzJD3fwK1Bnv",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "QzSvjzJD3fwK1Bnv",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "5",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.SCWqgjSu24gyhK04",
+      "name": "Armor",
+      "type": "armor",
+      "system": {
+        "description": "Fine garments and skeletal form provide natural armor.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 0,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "isCarried": true,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "SCWqgjSu24gyhK04",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.W0lalZF2S5Xwxwpb",
+      "name": "Divine Spellcasting",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Clerics <strong data-start=\"309\" data-end=\"344\">do not cast spells at 1st level</strong> but gain access to <strong data-start=\"364\" data-end=\"394\">divine spells at 2nd level</strong>, progressing in power as they level up. Clerics do not need spellbooks but must pray for spells each day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "C",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "BRiOjloSzFr5YjDZ",
+      "_id": "W0lalZF2S5Xwxwpb",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.bOWcUKGO9hFxNtq1",
+      "folder": "BRiOjloSzFr5YjDZ",
+      "name": "Establish Stronghold",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "bOWcUKGO9hFxNtq1",
+      "system": {
+        "tags": [],
+        "description": "<p>At <strong data-start=\"826\" data-end=\"861\">9th level (Patriarch/Matriarch)</strong>, a Cleric can establish a <strong data-start=\"888\" data-end=\"920\">church, temple, or monastery</strong>, attracting followers and gaining religious influence.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "C",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.bmX1TirjUqJjjwPD",
+      "folder": "BRiOjloSzFr5YjDZ",
+      "name": "Turn Undead",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "bmX1TirjUqJjjwPD",
+      "system": {
+        "tags": [],
+        "description": "<p>Roll [[/r 2d6 #Turn Undead]] for entries with numbers.</p><table style=\"border-style:none; border-width:1px; padding:4px; max-width:800px;\"><thead><tr><th style=\"text-align:left; max-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"17\"><strong>Cleric's Level</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; max-width:83px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">1</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">2</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">3</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">4</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">5</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">6</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">8</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-10</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11-12</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">13-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-16</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">17-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-24</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">25-28</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">29-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr></tbody></table><p><strong>Notes:</strong></p><ul><li><strong>7, 9, or 11</strong>: Number needed to turn successfully.</li><li><strong>T</strong>: Automatic turn; turns 2d6 Hit Dice of undead.</li><li><strong>D</strong>: Automatic destroy; destroys 2d6 Hit Dice of undead.</li><li><strong>D+</strong>: Automatic destroy; destroys 3d6 Hit Dice of undead.</li><li><strong>D#</strong>: Automatic destroy; destroys 4d6 Hit Dice of undead.</li></ul><p>Clerics have the divine power to repel or even destroy certain undead creatures, such as skeletons, zombies, and more powerful types. This ability is known as <strong>Turn Undead</strong>. When encountering these undead beings, the cleric can choose to either engage them in combat with weapons or spells, or attempt to turn them.</p><p>To turn undead, the cleric simply announces the intention to do so to the Dungeon Master. No holy symbol or other item is needed unless the DM specifies otherwise. The success of this attempt depends on the cleric’s level and the type of undead faced, as indicated on the Turning Undead table.</p><p>If the cleric succeeds, one or more undead creatures will flee or be destroyed immediately, depending on the result. However, a failed attempt means that particular undead creature cannot be turned by the cleric again during the same encounter. Multiple attempts are allowed in future encounters.</p><p>Should the attempt succeed, the Dungeon Master rolls to determine how many Hit Dice worth of undead are turned. At least one undead creature will always be affected. A turned undead creature will retreat as far as possible, but it has not been destroyed and may return after some time.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "gte",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "C",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.c4VrMKZyuonlwmU8",
+      "name": "Undead Servants",
+      "type": "specialAbility",
+      "system": {
+        "description": "A clerical lich normally has 3d4 types of other undead nearby, acting as servants. A full lair of each type (maximum number appearing) is usually present.",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "c4VrMKZyuonlwmU8",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.dlHQQY8MbKCa6TlD",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "dlHQQY8MbKCa6TlD",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "5",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.e4ReEtoR28AJx9Lw",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "e4ReEtoR28AJx9Lw",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "6",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.fNJFr56GUBpzdYPz",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "fNJFr56GUBpzdYPz",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "4",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.kjV3wI6pw5Um7DpF",
+      "name": "Natural Protection",
+      "type": "armor",
+      "system": {
+        "description": "Fine garments and skeletal form provide natural armor.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 0,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "kjV3wI6pw5Um7DpF",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.wUtLoK2BgjHOPr31",
+      "name": "Undead Servants",
+      "type": "specialAbility",
+      "system": {
+        "description": "<p>A clerical lich normally has [[/r 3d4 #Types of other undead lairs nearby]] types of other undead nearby, acting as servants. A full lair of each type (maximum number appearing) is usually present.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "wUtLoK2BgjHOPr31",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!ksl26vU8MxdukAAc.zlheLFf3lOcje3HN",
+      "name": "Touch",
+      "type": "weapon",
+      "system": {
+        "description": "<p>A deadly touch attack that deals 1d10 damage and may paralyze the target for [[/r 1d100 #Target is paralyzed for this many days]] days (saving throw applies).</p>",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "1d10",
+        "damageType": "physical",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "paralysis",
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "_id": "zlheLFf3lOcje3HN",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

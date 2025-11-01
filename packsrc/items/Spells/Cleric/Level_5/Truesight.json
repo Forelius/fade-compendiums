@@ -1,0 +1,51 @@
+{
+  "name": "Truesight",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [],
+    "description": "<p>With *Truesight*, the cleric gains the ability to see all things as they truly are within a 120' radius. The spell reveals all hidden, invisible, and ethereal objects or creatures, functioning as the *detect invisible* spell.</p>\n                      <p>Additionally, the cleric perceives any secret doors, and can see through any form of disguise, polymorph, or other alterations. Deception is impossible. The spell also reveals creatures' alignments, experience, and power levels.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "0",
+    "duration": "1 turn + 1 round per caster level",
+    "effect": "Reveals true forms of all things within 120'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60 + @classes.C.castLevel",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "5OFydy83Y1RYmYq3",
+  "sort": 0,
+  "_originalKey": "!items!5OFydy83Y1RYmYq3"
+}

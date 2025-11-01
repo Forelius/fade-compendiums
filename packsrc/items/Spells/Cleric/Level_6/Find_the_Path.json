@@ -1,0 +1,47 @@
+{
+  "name": "Find the Path",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>By casting this spell, the cleric gains the ability to navigate toward a specific place, even if they have never been there before. For the duration of the spell, the cleric instinctively knows the direction to their destination.</p>\n                      <p><strong>Special Knowledge:</strong> In addition to knowing the correct path, the cleric gains magical awareness of any special knowledge needed to reach the location. This may include:</p>\n                      <ul>\n                        <li>The location of secret doors</li>\n                        <li>Hidden or obscured passages</li>\n                        <li>Passwords required to gain entry</li>\n                      </ul>\n                      <p><strong>Duration Effects:</strong> When the spell ends, the cleric retains only a general sense of the direction to the destination; all other special knowledge is forgotten.</p>\n                      <p><strong>Restriction:</strong> If the cleric attempts to record or disclose the special knowledge to others in any way, the spell is instantly negated.</p>\n                      <p>This spell is often used to find fast escape routes or to navigate unknown terrain.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "0",
+    "duration": "6 turns + 1 turn per level of the caster",
+    "effect": "Shows the path to an area",
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(@classes.C.castLevel*60)+360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "zNqTsSPCrZyfJjBY",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!zNqTsSPCrZyfJjBY"
+}

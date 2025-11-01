@@ -1,0 +1,51 @@
+{
+  "name": "Quest*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell compels the target to undertake a specific task or quest as commanded by the caster. The target may attempt a saving throw vs. spells to resist; if successful, the spell has no effect.</p>\n                      <p><strong>Typical Tasks:</strong> The task might include slaying a particular monster, rescuing a prisoner, retrieving a magical item, or embarking on a pilgrimage. If the task is impossible or suicidal, the spell fails automatically.</p>\n                      <p><strong>Duration:</strong> The spell remains in effect until the specified task is completed. This spell compels the target to fulfill the task but does not compel them to do so willingly. Once completed, the target may hold a grudge against the caster, potentially seeking revenge depending on the circumstances of the quest.</p>\n                      <p><strong>Curse:</strong> A target who refuses to undertake the quest is cursed until they resume the task. The nature of this curse is determined by the GM and may be twice the usual strength of a standard curse.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "Special",
+    "effect": "Compels one creature to perform a task",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "save",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "t2zgV7jJ4LSf86XK",
+  "sort": 0,
+  "_originalKey": "!items!t2zgV7jJ4LSf86XK"
+}

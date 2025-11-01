@@ -1,0 +1,386 @@
+{
+  "name": "Encounter - Dungeon Level 2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Encounter - Dungeon Level 2</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "AYMVhyuofFvEspIM",
+    "nDaxwIRN9msr6Lyg",
+    "UrUsNZVuvBw34HXo",
+    "AzVEbYYqwiCFwRjV",
+    "Wtka3jPoMwmip91p",
+    "f12cnyGJ2wdJ6KMt",
+    "j6cDwB0lSDwQtNNo",
+    "7tIs4rwyvZubdR6y",
+    "u0iHfLTb9PGHfkJV",
+    "ZJqLXhEIfrFbtKZ2",
+    "xuMQiqWrJ74Ids8V",
+    "a4idcZ8BJgpz46VV",
+    "dUE0xGO0repo7old",
+    "o5Aw2O1gQVRya2TX",
+    "820TRSRkNUU1nLbJ",
+    "ZHzzqdFUMrPnD3wU",
+    "l5wuDbJ9X7yFAXpQ",
+    "kVPgGcC2q3kF9Nzt",
+    "AwdLw59JIxERSMlY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ELJlprb1pMqgBm4M",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "_id": "gLguRSf06Gp7hFQB",
+  "sort": 300000,
+  "_originalKey": "!tables!gLguRSf06Gp7hFQB",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.7tIs4rwyvZubdR6y",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "_id": "7tIs4rwyvZubdR6y",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]{Humans}",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.820TRSRkNUU1nLbJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "820TRSRkNUU1nLbJ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.AYMVhyuofFvEspIM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "AYMVhyuofFvEspIM",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.L8SJUT3fIzJw6xlK]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.AwdLw59JIxERSMlY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "AwdLw59JIxERSMlY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.AzVEbYYqwiCFwRjV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "AzVEbYYqwiCFwRjV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.UrUsNZVuvBw34HXo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "UrUsNZVuvBw34HXo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.Wtka3jPoMwmip91p",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Wtka3jPoMwmip91p",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.ZHzzqdFUMrPnD3wU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "ZHzzqdFUMrPnD3wU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.3aTlHWeNiA4JEzhP]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.ZJqLXhEIfrFbtKZ2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "ZJqLXhEIfrFbtKZ2",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6rv1LKd6FIieRApr]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.a4idcZ8BJgpz46VV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "a4idcZ8BJgpz46VV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.dUE0xGO0repo7old",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "dUE0xGO0repo7old",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "NPC Adventurer Alignment",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.fPcCRKw8Wgi1yQMH",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.f12cnyGJ2wdJ6KMt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "f12cnyGJ2wdJ6KMt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.MCtu9vXbaNhy24hH]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.j6cDwB0lSDwQtNNo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "j6cDwB0lSDwQtNNo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.kVPgGcC2q3kF9Nzt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "kVPgGcC2q3kF9Nzt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.l5wuDbJ9X7yFAXpQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "l5wuDbJ9X7yFAXpQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.UnlyQAcCBUS63xKd]{Giant Black Widow}",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.nDaxwIRN9msr6Lyg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "nDaxwIRN9msr6Lyg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.93HCqREXiA2BbHR1]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.o5Aw2O1gQVRya2TX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "o5Aw2O1gQVRya2TX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.u0iHfLTb9PGHfkJV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "u0iHfLTb9PGHfkJV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.BdUPcdGAJLxUvwgO]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gLguRSf06Gp7hFQB.xuMQiqWrJ74Ids8V",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "xuMQiqWrJ74Ids8V",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[2d4]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi]",
+      "name": ""
+    }
+  ]
+}

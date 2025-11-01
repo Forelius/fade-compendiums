@@ -1,0 +1,59 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Poison",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>Poisons appear as ordinary magical vials. A character who ingests any amount, even a sip, must make a saving throw vs. poison or die. The GM may instead have the poison deal a specific amount of damage as an alternative.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Eqg0ClOBML8njkf0",
+        "action": "consume",
+        "castAs": "",
+        "name": "Poison"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Ab09v5gcD7cKuayO",
+  "sort": 1100000,
+  "_originalKey": "!items!Ab09v5gcD7cKuayO"
+}

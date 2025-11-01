@@ -1,0 +1,200 @@
+{
+  "folder": "rWQmXw0xnkTcorjC",
+  "name": "Swords (Advanced)",
+  "_id": "7ZQrxrxPJZjUHLi3",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
+  "description": "<p>The advanced swords table can generate exceptional weapons that are meant for characters of level 10 or higher.</p>",
+  "results": [
+    "DdIYjQjDJJMrTLhA",
+    "iJenAvhEyuvoxbB7",
+    "gmEtWdYKWxKuBvpD",
+    "T0gCE8yUScs7DKOf",
+    "p2YEUc4JxYpxgLCK",
+    "oOfI6rCcvu49h6nm",
+    "mY8jIlT7Kcpgm1qm",
+    "7UGXS00ukL4MeKmM",
+    "mYRn2Ev5t0dmA2LY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "sort": 0,
+  "_originalKey": "!tables!7ZQrxrxPJZjUHLi3",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.7UGXS00ukL4MeKmM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        93,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "7UGXS00ukL4MeKmM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Swords (Class D)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DwWJIuiWHVIE9aTE",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.DdIYjQjDJJMrTLhA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        65
+      ],
+      "drawn": false,
+      "_id": "DdIYjQjDJJMrTLhA",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword, Normal</strong> (Class C)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.T0gCE8yUScs7DKOf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        100
+      ],
+      "drawn": false,
+      "_id": "T0gCE8yUScs7DKOf",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword, Bastard</strong> (Class D)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.gmEtWdYKWxKuBvpD",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        92
+      ],
+      "drawn": false,
+      "_id": "gmEtWdYKWxKuBvpD",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword, Two-handed</strong> (Class D)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.iJenAvhEyuvoxbB7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        66,
+        84
+      ],
+      "drawn": false,
+      "_id": "iJenAvhEyuvoxbB7",
+      "img": "icons/weapons/swords/sword-gold-holy.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword, Short</strong> (Class C)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.mY8jIlT7Kcpgm1qm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        85,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "mY8jIlT7Kcpgm1qm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Swords (Class D)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DwWJIuiWHVIE9aTE",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.mYRn2Ev5t0dmA2LY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "mYRn2Ev5t0dmA2LY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Cursed Sword Check",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xINohxxAaSY6Bn7r",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.oOfI6rCcvu49h6nm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        66,
+        84
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "oOfI6rCcvu49h6nm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Swords (Class C)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.k5YAvq0SVFwFL7k2",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!7ZQrxrxPJZjUHLi3.p2YEUc4JxYpxgLCK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "p2YEUc4JxYpxgLCK",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Intelligence of Sword",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.U9u1xRiENlSnt62R",
+      "description": ""
+    }
+  ]
+}

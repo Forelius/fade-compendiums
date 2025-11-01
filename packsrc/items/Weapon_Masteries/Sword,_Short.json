@@ -1,0 +1,105 @@
+{
+  "name": "Sword, Short",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -1,
+        "acBonusAT": 1,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Deflect (1) + disarm (save +1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": 10,
+          "long": 20
+        },
+        "pDmgFormula": "1d6+4",
+        "sDmgFormula": null,
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 2,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Deflect (2) + disarm (save +2)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d6+7",
+        "sDmgFormula": "1d4+7",
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 3,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Deflect (3) + disarm (save +4)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d6+9",
+        "sDmgFormula": "1d4+9",
+        "acBonusType": "handheld",
+        "acBonus": -3,
+        "acBonusAT": 4,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Deflect (3) + disarm (save +6)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "hTNSMlouOaX77XdE",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3100000,
+  "_originalKey": "!items!hTNSMlouOaX77XdE"
+}

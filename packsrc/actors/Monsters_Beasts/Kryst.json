@@ -1,0 +1,939 @@
+{
+  "name": "Kryst*",
+  "type": "monster",
+  "folder": "xyIrb6GYNyFjZwEN",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Lawful",
+      "size": "M",
+      "morale": 9,
+      "xpAward": 1600,
+      "attacks": "3",
+      "abilityCount": 1,
+      "monsterType": "Planar Monster",
+      "saveAs": "E9",
+      "castAs": "M9",
+      "classAbilityAs": "M9",
+      "level": 9,
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "config": {
+      "maxSpellLevel": 9,
+      "firstSpellLevel": 1
+    },
+    "hp": {
+      "hd": "9",
+      "value": 40,
+      "max": 40
+    },
+    "na": {
+      "wandering": "1d6",
+      "lair": "1d100 x 10"
+    },
+    "treasure": "Special",
+    "thac0": {
+      "value": 11,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 240,
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240
+    },
+    "biography": "<p>Kryst are sentient beings composed entirely of crystalline rock, each appearing as a cluster of twelve gleaming golden crystal spikes radiating from a central core. Native to the elemental plane of Earth, they exude a distinctive, angular beauty.</p><p>They are immune to poison, standard weapons, all 1st and 2nd level spells, and any attack derived from air. A kryst can detect invisible creatures at will and is capable of casting detect magic, dispel magic, haste, or an 'air to earth' spell—similar to a magic-user's dissolve spell that transforms air into earth—three times per day, all as if cast by a 9th level magic-user. They communicate telepathically over a range of 120 feet or, if mental contact proves adverse, via written messages.</p><p>In combat, a kryst ram its foes with its crystal spikes, launching up to three attacks per round. Each spike functions as a natural weapon.</p><p>Beyond the battlefield, the kryst maintain a widespread and intricate society within their own realms, coexisting peacefully with earth elementals. They welcome visitors and eagerly seek new knowledge, yet they wage an unending war against the hordes and strive to unite other creatures against them. They are also known to oppose the hydrax—though encounters are rare—and harbor a <strong>deep-seated fear of water-based creatures and attacks</strong>.</p><p><strong>Terrain:</strong> Plane of Earth</p>",
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 8,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 27,
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": true,
+    "abilities": {
+      "con": {
+        "value": 15,
+        "total": 18,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "spellcasters",
+      "enchanted",
+      "planar"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Kryst*",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "cp7X92FVFtyjUq6u",
+    "55vAZ8qW3TqUOuwE",
+    "Ljmrr6KnJWOVmiWh",
+    "WchsL8vipzACVUJp",
+    "OavkWOzcY8vTTmA6",
+    "IW5EeSPPymdwjgXA",
+    "x2CDwkLdjJmzW55o",
+    "G6AhOk6vLWuGvKdL",
+    "xHjeGhvdSV1yjmtv",
+    "Wxyx4kE4Ucj1GW94",
+    "49L1pMgbauXIVMEu",
+    "sZ137KXyp14k4F67",
+    "KoUkq0eWMLrBqHXL"
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "zUrq2sYPpyIWRLHQ",
+  "sort": 24400000,
+  "_originalKey": "!actors!zUrq2sYPpyIWRLHQ",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.49L1pMgbauXIVMEu",
+      "name": "Spell Research",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>A Magic-User can attempt to create a new spell, but it must be of a level they can cast. The process requires:</p><ul data-start=\"402\" data-end=\"590\"><li data-start=\"402\" data-end=\"434\">1,000 gp per spell level</li><li data-start=\"435\" data-end=\"480\">Two weeks of research per spell level</li><li data-start=\"481\" data-end=\"544\">Rare components, often requiring an adventure to obtain</li><li data-start=\"545\" data-end=\"590\">A fully stocked laboratory or library</li></ul><p data-start=\"592\" data-end=\"897\">The <strong data-start=\"596\" data-end=\"617\">chance of success</strong> depends on the Magic-User's <strong data-start=\"646\" data-end=\"678\">Intelligence score and level</strong>, with modifications for spell difficulty​. If a research attempt fails, the process must be restarted, but each failure grants a <strong data-start=\"851\" data-end=\"875\">+5% cumulative bonus</strong> to future attempts.</p><p><em>A Magic-User typically does not have a sufficient library for advanced research until 18th level, or at least 9th level if they have collected extensive magical tomes​. While research is technically possible at any level, low-level characters will likely struggle to meet the requirements.</em></p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "z35KFMVUIiDBzg5O",
+      "_id": "49L1pMgbauXIVMEu",
+      "effects": [],
+      "ownership": {
+        "default": 1,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.55vAZ8qW3TqUOuwE",
+      "name": "Spike",
+      "type": "weapon",
+      "system": {
+        "description": "A razor-sharp crystal spike used to ram opponents.",
+        "quantity": 3,
+        "equipped": true,
+        "damageRoll": "1d12",
+        "damageType": "physical",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "breath": null,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
+        "mastery": "",
+        "weaponType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": null,
+        "grip": null,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 3,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "img": "icons/svg/sword.svg",
+      "_id": "55vAZ8qW3TqUOuwE",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.G6AhOk6vLWuGvKdL",
+      "name": "Arcane Spellcasting",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p data-start=\"31\" data-end=\"347\">Magic-Users harness arcane energy through <strong data-start=\"73\" data-end=\"115\">intense study and careful memorization</strong> of spells recorded in their spellbooks. Unlike Clerics, who receive divine magic, Magic-Users must <strong data-start=\"215\" data-end=\"244\">prepare spells in advance</strong> by studying their books each day. Once a spell is cast, it is erased from memory until re-memorized.</p><p data-start=\"349\" data-end=\"650\">Magic-Users have a limited selection of spells they can prepare per day, increasing as they gain levels. Their spells range from minor utilities such as <em data-start=\"502\" data-end=\"514\">Read Magic</em> to devastating attacks like <em data-start=\"543\" data-end=\"553\">Fireball</em> and reality-warping incantations at higher levels​.</p><p data-start=\"652\" data-end=\"841\" data-is-last-node=\"\">Because of their reliance on spellbooks, Magic-Users must protect and expand their libraries, seeking out <strong data-start=\"758\" data-end=\"804\">lost tomes, scrolls, and ancient knowledge</strong> to improve their magical repertoire.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "z35KFMVUIiDBzg5O",
+      "_id": "G6AhOk6vLWuGvKdL",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.IW5EeSPPymdwjgXA",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "IW5EeSPPymdwjgXA",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.KoUkq0eWMLrBqHXL",
+      "name": "Establish Tower",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<div class=\"flex max-w-full flex-col flex-grow\"><div data-message-author-role=\"assistant\" data-message-id=\"94e4c5d5-5098-4cde-a312-9426bf7d6f38\" dir=\"auto\" class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5\" data-message-model-slug=\"gpt-4o\"><div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\"><div class=\"markdown prose w-full break-words dark:prose-invert dark\"><p data-start=\"59\" data-end=\"403\">Upon reaching <strong data-start=\"73\" data-end=\"86\">9th level</strong>, a Magic-User may choose to <strong data-start=\"115\" data-end=\"132\">build a tower</strong>, establishing themselves as a land-owning wizard. Unlike Fighters or Clerics, a Magic-User does not need <strong data-start=\"238\" data-end=\"273\">permission from the local ruler</strong> to construct a stronghold, as rulers generally avoid antagonizing powerful wizards​.</p><h4 data-start=\"405\" data-end=\"438\">Attracting Apprentices</h4><p data-start=\"439\" data-end=\"770\">Once a tower is built, the Magic-User will attract <strong data-start=\"490\" data-end=\"509\">1d6 apprentices</strong>, all <strong data-start=\"515\" data-end=\"544\">Magic-Users of levels 1–3</strong>. These apprentices seek training, and while they are loyal, they will not sacrifice themselves for their master. The <strong data-start=\"662\" data-end=\"723\">DM determines their names, backgrounds, and personalities</strong>​.</p><h4 data-start=\"772\" data-end=\"818\">Stronghold and Dungeon Construction</h4><p data-start=\"819\" data-end=\"1303\">A wizard's tower may include a <strong data-start=\"850\" data-end=\"880\">dungeon beneath or near it</strong>. Some wizards construct dungeons as secure laboratories, while others <strong data-start=\"951\" data-end=\"971\">leave an opening</strong>, attracting <strong data-start=\"984\" data-end=\"1006\">wandering monsters</strong> that take up residence. Some wizards encourage this, using monsters for research, spell experimentation, or personal defense​. However, monster-infested dungeons often cause conflict with <strong data-start=\"1238\" data-end=\"1259\">local communities</strong> and attract adventurers seeking treasure.</p><h4 data-start=\"1305\" data-end=\"1357\">Alternative to a Tower: Becoming a Magist</h4><p data-start=\"1358\" data-end=\"1754\">Instead of building a tower, a Name-level Magic-User may <strong data-start=\"1415\" data-end=\"1446\">seek employment as a Magist</strong> in an existing stronghold. A Magist serves a ruler as an <strong data-start=\"1504\" data-end=\"1534\">advisor on magical matters</strong>, handles magical needs, and is well-compensated—typically <strong data-start=\"1593\" data-end=\"1624\">at least 3,000 gp per month</strong>. However, this requires the Magic-User to swear an <strong data-start=\"1676\" data-end=\"1694\">oath of fealty</strong> to the ruler​.</p><p data-start=\"1756\" data-end=\"1843\" data-is-last-node=\"\">Would you like additional details, such as construction costs or typical tower layouts?</p></div></div></div></div><div class=\"mb-2 flex gap-3 empty:hidden -ml-2\"><div class=\"items-center justify-start rounded-xl p-1 flex\"><div class=\"flex items-center\"><p></p></div></div></div>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "z35KFMVUIiDBzg5O",
+      "effects": [],
+      "ownership": {
+        "default": 1,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "KoUkq0eWMLrBqHXL",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.Ljmrr6KnJWOVmiWh",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "Ljmrr6KnJWOVmiWh",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "4",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.OavkWOzcY8vTTmA6",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "OavkWOzcY8vTTmA6",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.WchsL8vipzACVUJp",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "WchsL8vipzACVUJp",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.Wxyx4kE4Ucj1GW94",
+      "name": "Use Magic Items",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Magic-Users can utilize various magical items, such as wands, staves, and scrolls, that are typically unavailable to non-spellcasting classes. This ability allows them to activate magical effects stored within these items.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "z35KFMVUIiDBzg5O",
+      "_id": "Wxyx4kE4Ucj1GW94",
+      "effects": [],
+      "ownership": {
+        "default": 1,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.cp7X92FVFtyjUq6u",
+      "name": "Armor",
+      "type": "armor",
+      "system": {
+        "description": "The kryst's crystalline exterior forms a natural, protective layer.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 2,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "cp7X92FVFtyjUq6u",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.sZ137KXyp14k4F67",
+      "name": "Create Magic Items",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>At <strong data-start=\"933\" data-end=\"946\">9th level</strong>, a Magic-User can begin crafting <strong data-start=\"980\" data-end=\"995\">magic items</strong>, but only items <strong data-start=\"1012\" data-end=\"1037\">usable by Magic-Users</strong>. The process involves:</p><ul data-start=\"1063\" data-end=\"1433\"><li data-start=\"1063\" data-end=\"1165\">Gathering rare materials related to the item's magic (e.g., dragon scales for fire resistance)</li><li data-start=\"1166\" data-end=\"1226\">Spending time and gold to craft and enchant the item</li><li data-start=\"1227\" data-end=\"1311\">A base cost of 500 gp per spell level for items that duplicate spell effects</li><li data-start=\"1312\" data-end=\"1433\">A 15% minimum chance of failure, determined at the end of the process​</li></ul><p data-start=\"1435\" data-end=\"1739\">Scrolls and potions are the easiest to create, while more powerful items require <strong data-start=\"1516\" data-end=\"1534\">months of work</strong> and possibly special rituals. The <strong data-start=\"1569\" data-end=\"1607\">DM may set additional requirements</strong> for powerful magic items, such as needing a specific location or celestial alignment​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "M",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "z35KFMVUIiDBzg5O",
+      "_id": "sZ137KXyp14k4F67",
+      "effects": [],
+      "ownership": {
+        "default": 1,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.x2CDwkLdjJmzW55o",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "x2CDwkLdjJmzW55o",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "7",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!zUrq2sYPpyIWRLHQ.xHjeGhvdSV1yjmtv",
+      "name": "Telepathy",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The kryst can communicate by telepathy up to 120' away.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "xHjeGhvdSV1yjmtv",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

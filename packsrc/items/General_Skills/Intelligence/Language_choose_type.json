@@ -1,0 +1,36 @@
+{
+  "name": "Language (choose type)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>Allows the character to speak and read a specific language beyond their normal allocation. Each additional language is chosen separately, such as <strong>Elvish</strong>, <strong>Dwarven</strong>, or <strong>Thyatian</strong>. The character must make a skill check to understand technical or fast-paced speech in these additional languages. </p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "3ClYPjEDuJJdX26n",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!3ClYPjEDuJJdX26n"
+}

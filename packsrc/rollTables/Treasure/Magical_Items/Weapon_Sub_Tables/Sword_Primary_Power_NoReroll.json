@@ -1,0 +1,215 @@
+{
+  "name": "Sword Primary Power (NoReroll)",
+  "formula": "1d99",
+  "results": [
+    "nTqQarqkgZuNUFfN",
+    "ziJXZxvZroaCpkOT",
+    "9zEo6He7EJUnYCGz",
+    "ZUlCsylgqTGhLsnR",
+    "U1pjS1aM5S0bBroo",
+    "SpReQolNE5SxwP1o",
+    "NFXaFNJbGgoGnuHm",
+    "JxmO5TNl62OFJLFn",
+    "ljuV9Vo2crPE0yJt",
+    "3NZouGkT1Np0BBXf"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the primary power of a sword, including detection abilities or additional rolls for extraordinary powers.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gvmhGwp0wKKfKVzq",
+  "sort": 0,
+  "_originalKey": "!tables!gvmhGwp0wKKfKVzq",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.3NZouGkT1Np0BBXf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        96,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "3NZouGkT1Np0BBXf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Extraordinary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cCv4UIXmaNab1k6Y",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.9zEo6He7EJUnYCGz",
+      "range": [
+        16,
+        25
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "9zEo6He7EJUnYCGz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect magic",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.JxmO5TNl62OFJLFn",
+      "range": [
+        76,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "JxmO5TNl62OFJLFn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Find traps",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.NFXaFNJbGgoGnuHm",
+      "range": [
+        66,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "NFXaFNJbGgoGnuHm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Find secret doors",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.SpReQolNE5SxwP1o",
+      "range": [
+        51,
+        65
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "SpReQolNE5SxwP1o",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect sloping passages",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.U1pjS1aM5S0bBroo",
+      "range": [
+        36,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "U1pjS1aM5S0bBroo",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect shifting walls and rooms",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.ZUlCsylgqTGhLsnR",
+      "range": [
+        26,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "ZUlCsylgqTGhLsnR",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect metal",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.ljuV9Vo2crPE0yJt",
+      "range": [
+        86,
+        95
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "ljuV9Vo2crPE0yJt",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: See invisible",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.nTqQarqkgZuNUFfN",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "nTqQarqkgZuNUFfN",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect evil (good)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!gvmhGwp0wKKfKVzq.ziJXZxvZroaCpkOT",
+      "range": [
+        11,
+        15
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "ziJXZxvZroaCpkOT",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Primary Power: Detect gems",
+      "name": ""
+    }
+  ]
+}

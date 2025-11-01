@@ -1,0 +1,367 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 1",
+  "_id": "UgDPaRkvviPMEJGm",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Encounter - Dungeon Level 1</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "EsX1gY2hpSJBrMu9",
+    "TanR7hRw6h8IGGy7",
+    "dRBK82hD8V9TvMxS",
+    "VofF8gsk4jirFezQ",
+    "16UFMH9CVZyh8DDQ",
+    "TyV3hdTNqN0OV4Sx",
+    "i35is9B9ncJdzV0E",
+    "jlDsenXCw1m2imge",
+    "mkuwXQ2eu5aqcP4H",
+    "n1rSFaudN6vcA5P6",
+    "c46rdlGcLvAw1IfE",
+    "Sd8XAJa6RRIR0Uaa",
+    "nPpAsEpsJf5Zp19V",
+    "oChYWPZ6lmHlXXiB",
+    "AGwkl7ThAUKQLRZc",
+    "zcolyBQT1QC24DXj",
+    "fcWdOicnTBTRq9Uq",
+    "aILdp22Hi8yfYhYY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "_originalKey": "!tables!UgDPaRkvviPMEJGm",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.16UFMH9CVZyh8DDQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "16UFMH9CVZyh8DDQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.axQLZuNtlLVuaZ4B]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.AGwkl7ThAUKQLRZc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "AGwkl7ThAUKQLRZc",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.NiiZGvS7vbajX1n8]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.EsX1gY2hpSJBrMu9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "EsX1gY2hpSJBrMu9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.Sd8XAJa6RRIR0Uaa",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "Sd8XAJa6RRIR0Uaa",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FIFnFyLFQBJpo4Q0]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.TanR7hRw6h8IGGy7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "TanR7hRw6h8IGGy7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.6FcQ2B2dG5LRvwTC]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.TyV3hdTNqN0OV4Sx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "TyV3hdTNqN0OV4Sx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.VofF8gsk4jirFezQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "VofF8gsk4jirFezQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]]@UUID[Compendium.fade-compendiums.actor-compendium.Actor.g6XIqtw7I815FigN]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.aILdp22Hi8yfYhYY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "aILdp22Hi8yfYhYY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "NPC Adventurer Alignment",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.fPcCRKw8Wgi1yQMH",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.c46rdlGcLvAw1IfE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "c46rdlGcLvAw1IfE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d10]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FZMd1uzbkuPkrIER]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.dRBK82hD8V9TvMxS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "dRBK82hD8V9TvMxS",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.46QLGSlGDLxcIg4D]{Cave Locust}",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.fcWdOicnTBTRq9Uq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "fcWdOicnTBTRq9Uq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.i35is9B9ncJdzV0E",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        10
+      ],
+      "drawn": false,
+      "_id": "i35is9B9ncJdzV0E",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.kDl71qaMaLB7XFhb]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.jlDsenXCw1m2imge",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "jlDsenXCw1m2imge",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[2d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.mkuwXQ2eu5aqcP4H",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "mkuwXQ2eu5aqcP4H",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.p2HAYW2LlRYOPOiv]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.n1rSFaudN6vcA5P6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "n1rSFaudN6vcA5P6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.x8wcYxKMfc0JxmnU]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.nPpAsEpsJf5Zp19V",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "nPpAsEpsJf5Zp19V",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wREIzpLSLM49HnU1]{Giant Crab Spider}",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.oChYWPZ6lmHlXXiB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "oChYWPZ6lmHlXXiB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d8]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.TO5d1EBIWdJ5f7d5]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!UgDPaRkvviPMEJGm.zcolyBQT1QC24DXj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "zcolyBQT1QC24DXj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.fIxgBWMahQGjjZuP]",
+      "name": ""
+    }
+  ]
+}

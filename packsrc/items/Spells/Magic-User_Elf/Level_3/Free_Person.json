@@ -1,0 +1,53 @@
+{
+  "name": "Free Person*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reverse of *Hold Person*, this spell releases the paralysis of up to four victims of *Hold Person* (including *Hold Person* cast by a cleric). It has no effect on paralysis caused by other sources, such as a ghoul's paralyzing touch.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "Instantaneous",
+    "effect": "Removes paralysis from up to 4 creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "4",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "20kr9XRDz8F013fT",
+  "sort": 0,
+  "_originalKey": "!items!20kr9XRDz8F013fT"
+}

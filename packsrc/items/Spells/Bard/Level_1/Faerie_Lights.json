@@ -1,0 +1,49 @@
+{
+  "folder": "6UrIsG9bN6Yyc41C",
+  "name": "Faerie Lights",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "cEpdN8dXvMwRv8Sl",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This enchanting song conjures shimmering, flickering lights that dance around a chosen target, illuminating a 30' radius as brightly as a conventional <em>light</em> spell. The lights appear to move with a life of their own, weaving and shifting unpredictably.</p><p><strong>Effects:</strong></p><ul><li>Illuminates a 30' radius with bright, magical light.</li><li>Creatures with animal intelligence (2 or less) must save vs. paralysis or be stunned for [[/r 1d6]] rounds.</li><li>The lights have no physical form and cannot be extinguished by wind, water, or other natural forces.</li><li>The lights do not follow a moving target but remain fixed at the chosen location.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "10' + 10'/level",
+    "duration": "6 turns",
+    "effect": "Creates dancing lights that illuminate a 30' radius",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "paralysis",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!cEpdN8dXvMwRv8Sl"
+}

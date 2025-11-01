@@ -1,0 +1,53 @@
+{
+  "name": "Cause Critical Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>This spell inflicts [[/r 3d6+3 # points of damage]] points of damage on a creature touched by the caster. A successful melee attack roll is required.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "Inflicts critical damage on one creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "3d6 + 3",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "FMKGUyVXki0yIJ4H",
+  "sort": 0,
+  "_originalKey": "!items!FMKGUyVXki0yIJ4H"
+}

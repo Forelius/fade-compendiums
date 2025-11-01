@@ -1,0 +1,51 @@
+{
+  "name": "Phantasmal Force",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an illusion that affects everything within the specified area. The illusion can be of anything the caster has seen before. If the caster creates something they have not seen, targets receive a bonus to their saving throws to disbelieve the illusion.</p><p>Non-attacking illusions disappear when touched. If the illusion mimics an attack (like a magic missile or a collapsing wall), the target may save vs. spells to negate its effects. The illusionary creature has AC 9 and disappears when struck.</p><p>The phantasmal force persists as long as the caster maintains concentration. If the caster moves, is damaged, or fails a saving throw, concentration is lost and the illusion vanishes. The spell causes no real damage. Those \"killed\" by it merely fall unconscious for [[/r 1d4 #turns]] turns, and any effects like \"turning to stone\" result in temporary paralysis.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "240'",
+    "duration": "Concentration",
+    "effect": "A volume 20' x 20' x 20'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "_id": "JNGm9cjNftEJ0VI9",
+  "effects": [],
+  "folder": "SsKlXwznQ3Sz3GWV",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!JNGm9cjNftEJ0VI9"
+}

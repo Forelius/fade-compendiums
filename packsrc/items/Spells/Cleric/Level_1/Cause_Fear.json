@@ -1,0 +1,59 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Cause Fear*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "MLTQ3URbtZiAqXN1",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reversed form of the spell, <em>cause fear</em>, will make any one creature flee for two turns. The victim may make a saving throw vs. spells to avoid the effect. This reversed spell has a range of 120'.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "2 turns",
+    "effect": "Flee for two turns.",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Fear",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.oYjWYjpLycaMM1ME"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!MLTQ3URbtZiAqXN1"
+}

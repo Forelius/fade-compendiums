@@ -1,0 +1,36 @@
+{
+  "name": "Fire-Building",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill allows a character to start a fire without using a tinderbox. A character with a tinderbox and this skill can automatically start fires under ordinary conditions. Without a tinderbox, the character must make a skill check each round, igniting the fire on a 1 or 2 on a 1d6 roll. Adverse conditions, such as high winds or wet wood, require a skill check with penalties as determined by the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "0Cm49A2W0GIFtAYH",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!0Cm49A2W0GIFtAYH"
+}

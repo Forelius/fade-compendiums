@@ -1,0 +1,51 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Ethereal Form",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "W7b4buDeoPUSCjbH",
+  "system": {
+    "tags": [],
+    "description": "<p>The ability to become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "name": "Ethereal",
+        "durationFormula": null,
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.61Xw1f6KQ9olpeuo"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!W7b4buDeoPUSCjbH"
+}

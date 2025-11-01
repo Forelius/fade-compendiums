@@ -1,0 +1,55 @@
+{
+  "folder": "u7s4NR16AZdcIm0l",
+  "name": "Arrows (silver)",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-head-war.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>An arrow made with a silver tip. This can be used to damage certain types of creatures like lycanthropes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 5,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {
+        "lycanthropes": {
+          "dmg": 0,
+          "toHit": 0
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "HxRIEaP2yUL2tUiO",
+  "sort": 100000,
+  "_originalKey": "!items!HxRIEaP2yUL2tUiO"
+}

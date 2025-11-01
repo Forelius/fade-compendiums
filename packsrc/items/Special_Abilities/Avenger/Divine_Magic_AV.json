@@ -1,0 +1,44 @@
+{
+  "folder": "qFF5HCKZq2M3Gc3M",
+  "name": "Divine Magic (AV)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "sVNYG1UKPAzeWPdY",
+  "system": {
+    "tags": [],
+    "description": "<p>If an Avenger has a Wisdom score of 13 or higher, they can cast cleric spells as if they were a cleric of one-third their level (rounding down). For example, a 12th–14th level Avenger casts spells as a 4th-level cleric. If the Avenger’s Wisdom is 12 or lower, they cannot cast spells but can still be an Avenger.</p><p>To gain this ability, the Avenger must learn meditation and spellcasting from clerics of their order. This training comes at a cost determined by the DM, with a suggested minimum of 10,000 gp per cleric spell level gained.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "spellcasting",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "AV",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sVNYG1UKPAzeWPdY"
+}

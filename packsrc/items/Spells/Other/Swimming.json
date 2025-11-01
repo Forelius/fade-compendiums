@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Swimming",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "ExybUSqd3Zawk1QT",
+  "system": {
+    "tags": [],
+    "description": "<p>The user may swim in any liquid at a rate of 180' per turn, even if encumbered. The user cannot sink or be pushed below the surface unless encumbrance exceeds 3,000 cn. This effect does not grant the ability to breathe underwater.</p><p>The effect lasts for 8 hours.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "8 hours",
+    "effect": "Swim rate 180' at 3000cn encumbrance",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360*8",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ExybUSqd3Zawk1QT"
+}

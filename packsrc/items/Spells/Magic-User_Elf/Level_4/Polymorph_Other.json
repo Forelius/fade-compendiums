@@ -1,0 +1,51 @@
+{
+  "name": "Polymorph Other",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transforms the target into another living creature, provided the new form has no more than twice as many Hit Dice as the original. The spell fails if this condition is not met.</p>\n                      <p><strong>Effects of Transformation:</strong> The target's hit points remain unchanged, but they gain all special abilities, tendencies, and behaviors of the new form. For example, a hobgoblin transformed into a mule would think and act as a mule.</p>\n                      <p>This spell cannot create an exact duplicate of a specific individual but only changes the creature’s type or race. For instance, transforming into a “human” does not grant levels or special skills beyond a basic human form.</p>\n                      <p><strong>Saving Throw:</strong> The target may attempt a saving throw vs. spells to avoid transformation. The spell lasts until dispelled or the creature dies.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "Permanent until dispelled",
+    "effect": "Changes one living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "zBIKbhKYfhDHM18o",
+  "sort": 0,
+  "_originalKey": "!items!zBIKbhKYfhDHM18o"
+}

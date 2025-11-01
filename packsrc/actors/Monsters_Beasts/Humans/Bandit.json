@@ -1,0 +1,723 @@
+{
+  "name": "Bandit",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic or Neutral",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 10,
+      "attacks": "1",
+      "abilityCount": 0,
+      "monsterType": "Human",
+      "saveAs": "T1",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Common",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "1",
+      "value": 5,
+      "max": 5
+    },
+    "na": {
+      "wandering": "2d4",
+      "lair": "3d10"
+    },
+    "treasure": "U (A)",
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
+    },
+    "gm": {
+      "notes": ""
+    },
+    "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
+    "wrestling": 8,
+    "encumbrance": {
+      "max": 0,
+      "value": 4,
+      "label": "Unencumbered",
+      "mv": 90,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": 6,
+      "total": 6,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "combat": {
+      "attacks": 0,
+      "isDead": false,
+      "deathCount": 0,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 11,
+        "total": 11,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 2,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "weapon-using"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Bandit",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/rogue2a.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "VrHF08EGwEq2BNmn",
+    "7VIqgWD7tEICogtp",
+    "fjTvIN9qCK2m50ih",
+    "mMgXUE6lfUSoz50N",
+    "rsZaFKzrf1WEmWOq",
+    "EL0Ea2x7g8hhNOJf",
+    "KlE02jJDCz0W1OGA",
+    "HcStaQSC3tAeJT1C"
+  ],
+  "_id": "fc3OOJdQrP3lojfv",
+  "effects": [],
+  "folder": "KoSmKfYC4DvXlBVv",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 900000,
+  "_originalKey": "!actors!fc3OOJdQrP3lojfv",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.7VIqgWD7tEICogtp",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "7VIqgWD7tEICogtp",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.EL0Ea2x7g8hhNOJf",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "EL0Ea2x7g8hhNOJf",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.HcStaQSC3tAeJT1C",
+      "folder": "r1PrA7ouTjXcMV7h",
+      "name": "Leather Armor",
+      "type": "armor",
+      "_id": "HcStaQSC3tAeJT1C",
+      "img": "modules/fade-compendiums/assets/img/armor/leather.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 200,
+        "cost": 20,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "ac": 7,
+        "isShield": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "container": false,
+        "equippable": false,
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "shortName": "",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 200,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.KlE02jJDCz0W1OGA",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Axe, Hand",
+      "type": "weapon",
+      "_id": "KlE02jJDCz0W1OGA",
+      "img": "modules/fade-compendiums/assets/img/weapon/handaxe.webp",
+      "system": {
+        "tags": [
+          "thrown"
+        ],
+        "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 1,
+        "weight": 30,
+        "cost": 4,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Axe, Hand",
+        "weaponType": "handheld",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "container": false,
+        "equippable": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "size": "S",
+        "grip": "1H",
+        "shortName": "",
+        "unidentifiedName": "",
+        "canSet": false,
+        "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 30,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 1600000
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.VrHF08EGwEq2BNmn",
+      "name": "Ambush",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+        "gm": {
+          "notes": "Ambush tactics for surprise attacks."
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "VrHF08EGwEq2BNmn",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.fjTvIN9qCK2m50ih",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "fjTvIN9qCK2m50ih",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.mMgXUE6lfUSoz50N",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "mMgXUE6lfUSoz50N",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fc3OOJdQrP3lojfv.rsZaFKzrf1WEmWOq",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "rsZaFKzrf1WEmWOq",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

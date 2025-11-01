@@ -1,0 +1,43 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Detect Enemy (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Causes all enemies within 60 feet (including those who are hidden or invisible) to emit a glowing light, as if they were aflame.</p><p><em>The effect will remain as long as the caster concentrates. Moving, taking damage, or failing a Saving Throw results in the concentration breaking and the effect ending.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Concentrate",
+    "effect": "Detect enemies",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vo6VfzQDU4im1h2O",
+  "sort": 1900000,
+  "_originalKey": "!items!vo6VfzQDU4im1h2O"
+}

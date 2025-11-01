@@ -1,0 +1,36 @@
+{
+  "name": "Magical Engineering",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>Grants the ability to recognize the basic principles behind unfamiliar magical devices. This does not include training in the design or fabrication of magical artifacts but does allow identification of common magical items with a successful skill check.  It doesn't allow a character to recognize uncommon magical items or to distinguish trapped or cursed items from those that are safe.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "EX2Zh2gStdRHQkwJ",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!EX2Zh2gStdRHQkwJ"
+}

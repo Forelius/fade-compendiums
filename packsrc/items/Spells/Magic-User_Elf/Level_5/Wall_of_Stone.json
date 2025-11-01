@@ -1,0 +1,47 @@
+{
+  "name": "Wall of Stone",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a vertical stone wall, 2' thick. The caster selects the wall’s dimensions and shape, up to a maximum area of 500 square feet (e.g., 10' x 50', 20' x 25'). The entire wall must be within 60' of the caster.</p>\n                      <p><strong>Placement and Durability:</strong> The wall must be created on the ground or a similar support and cannot occupy a space that already contains another object. The wall lasts until it is either dispelled or physically broken.</p>\n                      <p><strong>Falling Wall:</strong> If the wall topples, it causes 10d10 damage to whatever it hits and then shatters.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "60'",
+    "duration": "Special",
+    "effect": "Creates 1000 cubic feet of stone",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "10d10",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "physical",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gtmwMueUnbISKenY",
+  "sort": 0,
+  "_originalKey": "!items!gtmwMueUnbISKenY"
+}

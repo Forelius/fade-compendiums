@@ -1,0 +1,47 @@
+{
+  "name": "Polymorph Any Object",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell functions similarly to the <em>Polymorph Others</em> spell but extends its effects to objects as well as creatures. The spell transforms one target into another form, following the rules outlined below.</p><h4>Target Limitations:</h4><ul><li>Objects: If the object is part of a larger whole (e.g., a wall section), the spell affects a volume of up to 10' × 10' × 10'.</li><li>Creatures: A creature may attempt a saving throw vs. spells (at a -4 penalty) to resist the effect.</li><li>Hit Dice Limit: A creature with more than twice the caster’s level in Hit Dice is immune (e.g., a 20th level caster cannot affect a 41+ HD creature).</li></ul><h4>Duration Based on Transformation:</h4><ul><li>Same Kingdom: If the transformation remains within the same kingdom (e.g., animal to animal), the effect is permanent until dispelled.</li><li>Adjacent Kingdom: If changing between adjacent kingdoms (e.g., animal → vegetable or vegetable → mineral), the effect lasts 1 hour per caster level ([[/r @actor.details.level*360 #Duration in rounds]]).</li><li>Distant Kingdom: If changing between distant kingdoms (e.g., animal → mineral), the effect lasts 1 turn per caster level ([[/r @actor.details.level*60 #Duration in rounds]]).</li></ul><h4>Additional Rules & Notes:</h4><ul><li>Newly created creatures are not automatically friendly to the caster.</li><li>Polymorph does not affect age or hit points—these remain unchanged.</li><li>The spell can be reversed via a <em>Dispel Magic</em> spell (normal chances of success apply).</li><li>For additional polymorphing rules, refer to <em>Polymorph Self</em> and <em>Polymorph Others</em>.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "240'",
+    "duration": "Varies (See Description)",
+    "effect": "Changes form of one object or creature",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "mgWtSTmPFztEQkBT",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!mgWtSTmPFztEQkBT"
+}

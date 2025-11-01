@@ -1,0 +1,76 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Bow, Long",
+  "type": "weapon",
+  "_id": "0Jf2W2MElEhO23aX",
+  "img": "icons/weapons/bows/longbow-leather-green.webp",
+  "system": {
+    "tags": [
+      "slow"
+    ],
+    "description": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": 40,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "piercing",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Bow, Long",
+    "weaponType": "monster",
+    "range": {
+      "short": 70,
+      "medium": 140,
+      "long": 210
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "arrow",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>This weapon is crafted from a piece of wood bent into a curve, held in shape by a tightly drawn string. It is used to launch arrows.</p><p>This bow requires two hands to operate, preventing the wielder from using a shield and always losing individual initiative to those wielding one-handed weapons. It is unsuitable for halflings and other small creatures, such as goblins.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!0Jf2W2MElEhO23aX"
+}

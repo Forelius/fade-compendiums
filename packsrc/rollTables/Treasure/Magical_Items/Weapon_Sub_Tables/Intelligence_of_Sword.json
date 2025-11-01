@@ -1,0 +1,477 @@
+{
+  "name": "Intelligence of Sword",
+  "formula": "1d100",
+  "results": [
+    "0El7PsiIqOpTG05E",
+    "q6qk3FuJlhFdKo9H",
+    "b2kzofkwuoYg2r4e",
+    "utLU5eNJjjkNjFWT",
+    "uMzjR9E30IgZ02MV",
+    "HKoXrsoH9VacYYuv",
+    "PtvH4eaTj8pjxsZn",
+    "kE4YlwJu8ljmgWmD",
+    "cftcR8pLpewJhkoV",
+    "SoOWtCPTBFHLt1ss",
+    "Dse6fudEqKyGHWtw",
+    "5jjHhLUWHRdU8pTc",
+    "qpRzGALybvSOyi9J",
+    "nD8dlu2NpOnbpQ8m",
+    "5od7EKPk7fvTV9ki",
+    "Hp9eFxh5WHUQdbRX",
+    "sFjMiIrEcsfVUPZJ",
+    "p1AB7BjCRtTtFjbG",
+    "mNbkZemlkHUyjwWS",
+    "ZKDbTIUfiV6nONdZ",
+    "uASQQq04FStFWb7U",
+    "YoSeHqfSVhYSlHMo",
+    "kTcWtUyWKwdTCiZv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the intelligence, communication abilities, languages, and powers of a magical sword. If primary or extraordinary powers are indicated, roll on the Primary and Extraordinary Powers tables.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "U9u1xRiENlSnt62R",
+  "img": "icons/commodities/biological/organ-brain-pink.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!U9u1xRiENlSnt62R",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.0El7PsiIqOpTG05E",
+      "range": [
+        1,
+        79
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "0El7PsiIqOpTG05E",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword is not intelligent",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.5jjHhLUWHRdU8pTc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        91,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "5jjHhLUWHRdU8pTc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.5od7EKPk7fvTV9ki",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        95,
+        97
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "5od7EKPk7fvTV9ki",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.Dse6fudEqKyGHWtw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        91,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "Dse6fudEqKyGHWtw",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.HKoXrsoH9VacYYuv",
+      "range": [
+        98,
+        99
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "HKoXrsoH9VacYYuv",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 11</div><div>Communication: Speech</div><div>Languages: [[1d6]]</div><div>Powers: 3 Primary + Reads Magic</div>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.Hp9eFxh5WHUQdbRX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        95,
+        97
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "Hp9eFxh5WHUQdbRX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.PtvH4eaTj8pjxsZn",
+      "range": [
+        100,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "PtvH4eaTj8pjxsZn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 12</div><div>Communication: Speech</div><div>Languages: [[2d4]]</div><div>Powers: 3 Primary + Reads Magic + 1 Extraordinary</div>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.SoOWtCPTBFHLt1ss",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        86,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "SoOWtCPTBFHLt1ss",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.YoSeHqfSVhYSlHMo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "YoSeHqfSVhYSlHMo",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.ZKDbTIUfiV6nONdZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "ZKDbTIUfiV6nONdZ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.b2kzofkwuoYg2r4e",
+      "range": [
+        86,
+        90
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "b2kzofkwuoYg2r4e",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 8</div><div>Communication: Empathy</div><div>Powers: 2 Primary</div>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.cftcR8pLpewJhkoV",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        86,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "cftcR8pLpewJhkoV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.kE4YlwJu8ljmgWmD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        80,
+        85
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "kE4YlwJu8ljmgWmD",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.kTcWtUyWKwdTCiZv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+      "_id": "kTcWtUyWKwdTCiZv",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Extraordinary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cCv4UIXmaNab1k6Y",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.mNbkZemlkHUyjwWS",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        98,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "mNbkZemlkHUyjwWS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.nD8dlu2NpOnbpQ8m",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        98,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "nD8dlu2NpOnbpQ8m",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.p1AB7BjCRtTtFjbG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        98,
+        99
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "p1AB7BjCRtTtFjbG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.q6qk3FuJlhFdKo9H",
+      "range": [
+        80,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "q6qk3FuJlhFdKo9H",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 7</div><div>Communication: Empathy</div><div>Powers: 1 Primary</div>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.qpRzGALybvSOyi9J",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        91,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "qpRzGALybvSOyi9J",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.sFjMiIrEcsfVUPZJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        95,
+        97
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "sFjMiIrEcsfVUPZJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.uASQQq04FStFWb7U",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
+      "_id": "uASQQq04FStFWb7U",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Sword Primary Power",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VO7ZrECuuV5l02rh",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.uMzjR9E30IgZ02MV",
+      "range": [
+        95,
+        97
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "uMzjR9E30IgZ02MV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 10</div><div>Communication: Speech</div><div>Languages: [[1d3]]</div><div>Powers: 3 Primary</div>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!U9u1xRiENlSnt62R.utLU5eNJjjkNjFWT",
+      "range": [
+        91,
+        94
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/commodities/biological/organ-brain-pink.webp",
+      "_id": "utLU5eNJjjkNjFWT",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Sword Intelligence</strong><div>INT: 9</div><div>Communication: Empathy</div><div>Powers: 3 Primary</div>",
+      "name": ""
+    }
+  ]
+}

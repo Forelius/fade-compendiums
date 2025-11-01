@@ -1,0 +1,47 @@
+{
+  "name": "Control Temperature 10' Radius",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v3vt9QC6X4dDbc82",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "0 (druid only)",
+    "duration": "1 turn per level of the caster",
+    "effect": "Cools or warms air within 10'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rtjHo0rSnDkIJxmR",
+  "sort": 0,
+  "_originalKey": "!items!rtjHo0rSnDkIJxmR"
+}

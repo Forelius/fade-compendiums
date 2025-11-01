@@ -1,0 +1,105 @@
+{
+  "name": "Spear",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Set"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Set"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 40,
+          "medium": 60,
+          "long": 75
+        },
+        "pDmgFormula": "2d4+2",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Set + stun"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 40,
+          "medium": 60,
+          "long": 75
+        },
+        "pDmgFormula": "2d4+4",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Set + stun"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 60,
+          "medium": 75,
+          "long": 90
+        },
+        "pDmgFormula": "2d4+6",
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Set + stun"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "bdCgwbl2VvKzBgG7",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2600000,
+  "_originalKey": "!items!bdCgwbl2VvKzBgG7"
+}

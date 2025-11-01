@@ -1,0 +1,47 @@
+{
+  "name": "Gate*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell opens a portal between the Prime Material Plane and another plane of existence. The caster must name the target plane and a specific resident of that plane (typically an Immortal or ruler of the plane).</p><h4>Planar Destinations:</h4><ul><li>Outer Plane: Gate remains open for 1 turn.</li><li>Other Planes (Ethereal, Astral, Elemental): Gate remains open for [[/r 1d10*10 #Duration in turns]] turns.</li><li>Elemental Planes: Creates a vortex and wormhole, which can be made permanent with a <em>Wish</em>.</li></ul><h4>Outer Plane Risks:</h4><ul><li>The caster must speak the name of an Immortal or planar ruler.</li><li>The entity has a 95% chance to arrive in [[/r 1d6 #Rounds until arrival]].</li><li>There is a 5% chance that a different being arrives instead.</li><li>If the caster lacks an excellent reason for opening the gate, the entity may destroy them.</li><li>Even with a good reason, the being may leave immediately.</li><li>Only if the request is of supreme importance will the entity consider assisting.</li></ul><h4>Unintended Visitors:</h4><ul><li>For gates to the Ethereal, Astral, or Elemental Planes, there is a 10% chance per turn that an other-planar creature wanders through.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "30'",
+    "duration": "1 turn or 1d10 x 10 turns",
+    "effect": "Opens a portal to another plane",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "p5BkfGvVlYcvTzM7",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!p5BkfGvVlYcvTzM7"
+}

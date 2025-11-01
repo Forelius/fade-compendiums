@@ -1,0 +1,84 @@
+{
+  "folder": "cE8twDGnvfvbj3oA",
+  "name": "Merman",
+  "_id": "849fpekiimpl9y2P",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "5OXkbFFbq3MpjwK6",
+    "BpSUdHJey7LP79eK",
+    "6rtjSP3Bm1eBv3J4"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!849fpekiimpl9y2P",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!849fpekiimpl9y2P.5OXkbFFbq3MpjwK6",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "5OXkbFFbq3MpjwK6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Merman",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.Cq05Ro7dnW8DRN23",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!849fpekiimpl9y2P.6rtjSP3Bm1eBv3J4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "6rtjSP3Bm1eBv3J4",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Merman Leader (4HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.9geMmbr5zEyQn0NC",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!849fpekiimpl9y2P.BpSUdHJey7LP79eK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        71,
+        90
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "BpSUdHJey7LP79eK",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Merman Leader (2HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.eTBYUTMe8lWhkxfO",
+      "description": ""
+    }
+  ]
+}

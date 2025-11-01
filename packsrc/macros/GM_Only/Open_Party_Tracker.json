@@ -1,0 +1,20 @@
+{
+  "name": "Open Party Tracker",
+  "type": "script",
+  "command": "if (game.user.isGM) {\n   if (!window.partyTracker) window.partyTracker= new game.fade.PartyTrackerForm();\n   if (window.partyTracker.rendered) window.partyTracker.close();\n   else window.partyTracker.render(true);\n} else { \n   ui.notifications.warn(\"Only the GM can open the Party Tracker.\");\n}",
+  "img": "icons/skills/melee/weapons-crossed-swords-black-gray.webp",
+  "folder": "icb4lMQ0OOAVdbW7",
+  "_id": "kSaeRBnb4YeCIHjZ",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!kSaeRBnb4YeCIHjZ"
+}

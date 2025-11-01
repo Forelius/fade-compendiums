@@ -1,0 +1,47 @@
+{
+  "name": "Clone",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>The Clone spell creates an exact duplicate of a living creature using a piece of its flesh. The clone is grown over time and, when fully formed, is a non-magical, independent entity. However, cloning intelligent creatures carries serious risks.</p><h4>Cloning Humans & Demihumans:</h4><ul><li>Material Requirements: 1 pound of flesh + materials costing 5,000 gp per Hit Die of the original.</li><li>Growth Time: 1 week per Hit Die of the original.</li><li>Awakening: The clone awakens when fully grown and retains all features, statistics, and memories the original had at the time the flesh was taken.</li><li>Only One Clone Allowed: Attempting to create multiple clones of the same person automatically fails.</li><li>Undead & Constructs Cannot Be Cloned: Flesh taken before a person became undead may be cloned, but the resulting clone is a separate entity.</li></ul><h4>Cloning Risks:</h4><ul><li>If the original is alive when the clone awakens: The clone becomes aware of the original's existence, forming a partial mind-link.</li><li>Damage Transfer: Both individuals share pain—any damage taken by one is also inflicted on the other (saving throw vs. spells for half damage).</li><li>The clone is obsessed with killing its original and must do so within 1 day per level of the spellcaster. If the clone succeeds, it may continue its life normally.</li><li>If the clone fails to kill its original, it goes insane. The original loses 1 Intelligence & 1 Wisdom permanently, and has a 5% daily chance to also go insane.</li><li>If both go insane: They die after one week, and cannot be revived by any means, even <em>Wish</em>.</li><li>If the clone and original remain on separate planes: No mind-link occurs, and they remain unaware of each other.</li></ul><h4>Simulacra (Cloning Non-Humans):</h4><ul><li>Material Requirements: 1% of the creature’s flesh + materials costing 500 gp per hit point of the original.</li><li>Growth Time: 1 week per Hit Die of the original.</li><li>Mind & Control: The simulacrum understands all languages known by the caster and obeys all commands within 10' per caster level.</li><li>Magical Nature: A simulacrum can be blocked by <em>Protection from Evil</em> and can be dispelled.</li><li>Weakened Form: It has 50% of the original’s Hit Dice, hit points, and damage output. Each special ability has a 50% chance of being present, but no spells or spell-like abilities are retained.</li><li>Growth Over Time: If the original is dead, the simulacrum gradually gains power, increasing its abilities by 5% per week up to 90% of the original.</li><li>Final Development: Once at 90%, the DM rolls again to determine regained special abilities, including spells.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "Permanent",
+    "effect": "Grows one duplicate creature from a piece of the original",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "4TR0lXjAk66ed1fF",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!4TR0lXjAk66ed1fF"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Polearm",
+  "type": "weapon",
+  "_id": "mFSAYtVaXT97kV7F",
+  "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 150,
+    "cost": 7,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d10",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Polearm, Other",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3200000,
+  "_originalKey": "!items!mFSAYtVaXT97kV7F"
+}

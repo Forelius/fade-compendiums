@@ -1,0 +1,66 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Giant Strength",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "_id": "THbVeo8JdxmYX10g",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The magical effect grants the user the combat strength of a frost giant. If no strength-adjusting magical item is worn, the user inflicts double normal damage with any weapon. Additionally, the user can throw small boulders with a range of 60/130/200, dealing [[/r 3d6 #points of damage]] points of damage. The enhancement is nullified by wearing any strength-adjusting magical item.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "n5NA8NFnpZR2Jv9d"
+  ],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!THbVeo8JdxmYX10g",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!THbVeo8JdxmYX10g.n5NA8NFnpZR2Jv9d",
+      "name": "Giant Strength",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "n5NA8NFnpZR2Jv9d",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.dmgScale",
+          "mode": 4,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#85caff",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

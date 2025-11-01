@@ -1,0 +1,119 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Fog Trap",
+  "_id": "FbieLe376wRmdDXj",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Triggering it releases a strange fog. All in the area must Save vs. Spells or suffer one of the following effects:</p>",
+  "results": [
+    "61N8lphiVnTyFOll",
+    "NKDLDAN7XvJuqeaS",
+    "yYlxnuEot4ILGeBp",
+    "SU7lDIxlGfj9xQ5C",
+    "HMfIyjiuFFmUSTLP"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!FbieLe376wRmdDXj",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!FbieLe376wRmdDXj.61N8lphiVnTyFOll",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "61N8lphiVnTyFOll",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Characters fall into a fit of giggles making them unable to do anything else for [[/r 1d4]] rounds.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!FbieLe376wRmdDXj.HMfIyjiuFFmUSTLP",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "HMfIyjiuFFmUSTLP",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Characters become paralyzed (as the spell) for [[/r 1d4]] rounds.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!FbieLe376wRmdDXj.NKDLDAN7XvJuqeaS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "NKDLDAN7XvJuqeaS",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Characters become frightened and flee for [[/r 1d6]] rounds.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!FbieLe376wRmdDXj.SU7lDIxlGfj9xQ5C",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "SU7lDIxlGfj9xQ5C",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Characters become enraged and attack allies for [[/r 1d4]] rounds.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!FbieLe376wRmdDXj.yYlxnuEot4ILGeBp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "yYlxnuEot4ILGeBp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Characters stink badly for [[/r 1d6]] turns, increasing Wandering Monster chance by 1.",
+      "name": ""
+    }
+  ]
+}

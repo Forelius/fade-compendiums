@@ -1,0 +1,57 @@
+{
+  "folder": "B8EjIsOizkM1lnqZ",
+  "name": "Bless*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "nnN7WkFEL0EMqY5p",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell enhances the morale of friendly creatures by +1 and grants them a +1 bonus to all attack and damage rolls. It affects only those within a 20' x 20' area and only those who are not yet engaged in melee combat.</p><p>The reversed form, <em>blight</em>, imposes a -1 penalty to morale, attack rolls, and damage rolls of enemies. Each affected creature may make a saving throw vs. spells to avoid these penalties.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "6 turns",
+    "effect": "All within a 20' square area",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Blessed",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.H9QzS61QZdi0ex8l"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1000000,
+  "_originalKey": "!items!nnN7WkFEL0EMqY5p"
+}

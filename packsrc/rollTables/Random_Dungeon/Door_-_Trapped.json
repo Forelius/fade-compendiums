@@ -1,0 +1,82 @@
+{
+  "folder": "GUcSoEJjBu3wxZuZ",
+  "name": "Door - Trapped",
+  "_id": "tRCR6UWqFEXGriEI",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "CL8jeXF6nE7p9uHo",
+    "qcYo7WJi8cOkxg5g",
+    "BdNJH7NOCiNSWVaO"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_originalKey": "!tables!tRCR6UWqFEXGriEI",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.BdNJH7NOCiNSWVaO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "BdNJH7NOCiNSWVaO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Trap Type",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Tk715KuZhA0PruGs",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.CL8jeXF6nE7p9uHo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        7
+      ],
+      "drawn": false,
+      "_id": "CL8jeXF6nE7p9uHo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The door is not trapped",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tRCR6UWqFEXGriEI.qcYo7WJi8cOkxg5g",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "_id": "qcYo7WJi8cOkxg5g",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The door is trapped!",
+      "name": ""
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Mirror Imaged",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/two-shadows.png",
+  "_id": "Rrz0UWOcxz19lYiW",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p><span style=\"font-family: Barlow, sans-serif\">The images stay within 3' of the caster and imitate their movements and speech without requiring concentration.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The images are not real and cannot take any actions. Any successful attack that would hit the spellcaster instead destroys one of the images, regardless of damage. This continues until all images are gone. Area attacks, such as a fireball, destroy all images at once and also affect the spellcaster.</span></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "UP0Wha1nBRL7OIF0"
+  ],
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Rrz0UWOcxz19lYiW",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!Rrz0UWOcxz19lYiW.UP0Wha1nBRL7OIF0",
+      "name": "Mirror Imaged",
+      "img": "systems/fantastic-depths/assets/img/ui/two-shadows.png",
+      "disabled": false,
+      "_id": "UP0Wha1nBRL7OIF0",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "mirrorImaged"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

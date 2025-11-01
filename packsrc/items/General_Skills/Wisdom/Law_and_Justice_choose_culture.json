@@ -1,0 +1,36 @@
+{
+  "name": "Law and Justice (choose culture)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill provides a character with a detailed knowledge of the laws and judicial systems of a specific culture or country. Characters who wish to be a judge or advocate (lawyer) must select this skill. Each culture or nation has its own codes, so characters who wish to be conversant in different nations' legal systems must choose this skill separately for each set of laws they wish to study.</p>\n      <p>A successful skill check can help the character recall specific laws and customs, advise others in legal matters, and argue effectively in courts or other formal settings.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "P2u784mLsWyPq7OQ",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!P2u784mLsWyPq7OQ"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Torch (weapon)",
+  "type": "weapon",
+  "_id": "qPeZPA3sF6rYkRAn",
+  "img": "icons/sundries/lights/torch-brown-lit.webp",
+  "system": {
+    "tags": [
+      "cleric",
+      "fire"
+    ],
+    "description": "<p>This is just a regular torch, but wielded as a weapon. If the torch is unlit, then it only does 1d2 damage. The torch is considered to be a flaming club, and is covered under the club weapon mastery.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": 0.2,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Club or Torch",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>This is just a regular torch, but wielded as a weapon. If the torch is unlit, then it only does 1d2 damage. The torch is considered to be a flaming club, and is covered under the club weapon mastery.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3400000,
+  "_originalKey": "!items!qPeZPA3sF6rYkRAn"
+}

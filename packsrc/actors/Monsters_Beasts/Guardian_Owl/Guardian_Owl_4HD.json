@@ -1,0 +1,963 @@
+{
+  "name": "Guardian Owl (4HD)",
+  "type": "monster",
+  "_id": "MZqCnZJvNMvWYn37",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "morale": 9,
+      "alignment": "Lawful",
+      "xpAward": 175,
+      "abilityCount": 2,
+      "monsterType": "Monster",
+      "rarity": "Rare",
+      "saveAs": "C4",
+      "castAs": "C4",
+      "classAbilityAs": "C4",
+      "level": 4,
+      "attacks": "3/1",
+      "weight": "",
+      "size": "L"
+    },
+    "monsterTypes": [],
+    "na": {
+      "wandering": "1d4",
+      "lair": "1d20"
+    },
+    "treasure": "O",
+    "isEnchanted": false,
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 2
+    },
+    "thac0": {
+      "value": 16,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "unskilledToHitMod": -2,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack"
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "wrestling": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {},
+      "masteryLevelOverride": null,
+      "rangedAc": 0
+    },
+    "wrestling": 17,
+    "abilities": {
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "tags": [],
+    "biography": "<p>The Guardian Owl (Hsiao, sh-HOW) is a race of peaceful cleric-philosophers who inhabit woodlands and forests. Hsiao look like giant owls with broad feathered wings and large intelligent golden eyes. These creatures live in trees, making earthen nests and runnels high above the forest floor.</p><p>The Guardian Owls know and work closely with other woodland creatures (including actaeons, centaurs, dryads, elves, giants, and unicorns) and may call on them for aid. Their goals include the preservation of woodland wilderness against intrusions by dangerous humanoids. They will not interfere with passing PCs who do no damage to the woodlands or the races of the forest.</p><p>Most of these avian clerics are 4th level; 25% are higher levels (as given above; maximum level is 15th). Although able to physically defend themselves with their sharp claws and beak, these creatures depend on their spells and the assistance of their woodland allies for protection. The Guardian Owls are known to some druids, though their philosophies (alignments) obviously differ greatly.</p><p>No one knows where these creatures come from, but their alignment and clerical powers suggest that they were created to serve the ends of lawful mortals.</p><p><strong>Terrain:</strong> Woods.</p><p><strong>Load:</strong> A Guardian Owl can move at up to full speed when carrying <strong>250 cn x its HD</strong> in encumbrance; it can move at half speed when carrying <strong>500 cn x its HD</strong>.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "4",
+      "value": 18,
+      "max": 18
+    },
+    "movement": {
+      "turn": 90,
+      "max": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
+    },
+    "movement2": {
+      "turn": 210,
+      "max": 210,
+      "round": 70,
+      "day": 42,
+      "run": 210
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 500,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [
+      "spellcasters",
+      "fey"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Guardian Owl",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "8Q7hYJbn1lT4MRQS",
+    "uXTYuK9AEf4SDGpj",
+    "4Idiq0b6WFWVCOL4",
+    "B8P7duWHYxklw11Y",
+    "YxNlofKfIJ1HRsq2",
+    "CVI7NXOAXpAEJpje",
+    "4iXM4lBxqhum12NL",
+    "6LAJ09Jn2TlqrWQT",
+    "3H7hNXLYhsord5Zw",
+    "2vf4V5OvNenRQMZW",
+    "yncd1M2e85Nirb9M",
+    "pcdBLWKxB0T2tZST"
+  ],
+  "effects": [],
+  "folder": "AHIDTLwgICeuDv1e",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!actors!MZqCnZJvNMvWYn37",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.2vf4V5OvNenRQMZW",
+      "name": "Divine Spellcasting",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Clerics <strong data-start=\"309\" data-end=\"344\">do not cast spells at 1st level</strong> but gain access to <strong data-start=\"364\" data-end=\"394\">divine spells at 2nd level</strong>, progressing in power as they level up. Clerics do not need spellbooks but must pray for spells each day.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "C",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "folder": "BRiOjloSzFr5YjDZ",
+      "_id": "2vf4V5OvNenRQMZW",
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.3H7hNXLYhsord5Zw",
+      "folder": "BRiOjloSzFr5YjDZ",
+      "name": "Turn Undead (C)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Roll [[/r 2d6 #Turn Undead]] for entries with numbers.</p><table class=\"compact-table\" style=\"border-style:none; border-width:1px; padding:4px; width:95%;\"><thead><tr><th style=\"text-align:left; min-width:83px;\"></th><th style=\"text-align:center; padding:4px;\" colspan=\"17\"><strong>Cleric's Level</strong></th></tr><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; width:110px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">1</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">2</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">3</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">4</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">5</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">6</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">8</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-10</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11-12</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">13-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-16</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">17-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-24</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">25-28</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">29-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;max-width:70px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D#</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;max-width:70px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr></tbody></table><p><strong>Notes:</strong></p><ul><li><strong>7, 9, or 11</strong>: Number needed to turn successfully.</li><li><strong>T</strong>: Automatic turn; turns 2d6 Hit Dice of undead.</li><li><strong>D</strong>: Automatic destroy; destroys 2d6 Hit Dice of undead.</li><li><strong>D+</strong>: Automatic destroy; destroys 3d6 Hit Dice of undead.</li><li><strong>D#</strong>: Automatic destroy; destroys 4d6 Hit Dice of undead.</li></ul><p>Clerics have the divine power to repel or even destroy certain undead creatures, such as skeletons, zombies, and more powerful types. This ability is known as <strong>Turn Undead</strong>. When encountering these undead beings, the cleric can choose to either engage them in combat with weapons or spells, or attempt to turn them.</p><p>To turn undead, the cleric simply announces the intention to do so to the Dungeon Master. No holy symbol or other item is needed unless the DM specifies otherwise. The success of this attempt depends on the cleric’s level and the type of undead faced, as indicated on the Turning Undead table.</p><p>If the cleric succeeds, one or more undead creatures will flee or be destroyed immediately, depending on the result. However, a failed attempt means that particular undead creature cannot be turned by the cleric again during the same encounter. Multiple attempts are allowed in future encounters.</p><p>Should the attempt succeed, the Dungeon Master rolls to determine how many Hit Dice worth of undead are turned. At least one undead creature will always be affected. A turned undead creature will retreat as far as possible, but it has not been destroyed and may return after some time.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "gte",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "category": "class",
+        "combatManeuver": "null",
+        "shortName": "",
+        "customSaveCode": "",
+        "classKey": "C",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "3H7hNXLYhsord5Zw",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.4Idiq0b6WFWVCOL4",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "4Idiq0b6WFWVCOL4",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.4iXM4lBxqhum12NL",
+      "name": "Claws",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "1d6",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": true,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 2,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/claws/claw-hooked-curved.webp",
+      "_id": "4iXM4lBxqhum12NL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.6LAJ09Jn2TlqrWQT",
+      "name": "Beak",
+      "type": "weapon",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "physical",
+        "isUsable": false,
+        "isTreasure": false,
+        "damageRoll": "1d4",
+        "damageLabel": "1d6",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+      "_id": "6LAJ09Jn2TlqrWQT",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.8Q7hYJbn1lT4MRQS",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "8Q7hYJbn1lT4MRQS",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "11",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.B8P7duWHYxklw11Y",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "B8P7duWHYxklw11Y",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.CVI7NXOAXpAEJpje",
+      "name": "Natural Protection",
+      "type": "armor",
+      "system": {
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": null,
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "isTreasure": false,
+        "ac": 5,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "natural": true,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "CVI7NXOAXpAEJpje",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.YxNlofKfIJ1HRsq2",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "YxNlofKfIJ1HRsq2",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.pcdBLWKxB0T2tZST",
+      "name": "Flight",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Flight ability allows a character or creature to move through the air, either through magical means or natural capabilities, such as having wings. This ability enables the user to ascend, descend, and navigate in three-dimensional space, often at a specified speed. Flight may come with limitations, such as a maximum altitude, duration, or specific conditions for its use. </p>",
+        "gm": {
+          "notes": "Flying ability of giant bats."
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "effects": [
+        "dVk7ObKq7OLVfn9j"
+      ],
+      "folder": "164Li2oYfnb0Z7S7",
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "_id": "pcdBLWKxB0T2tZST",
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.uXTYuK9AEf4SDGpj",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "uXTYuK9AEf4SDGpj",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!MZqCnZJvNMvWYn37.yncd1M2e85Nirb9M",
+      "name": "Call of the Wild",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>The Guardian Owl possesses a unique ability to summon assistance from other woodland creatures. Once per day, the Guardian Owl can emit a resonant call that echoes through the forest, reaching the ears of nearby allies. This call can attract a variety of creatures, including centaurs, dryads, unicorns, and other friendly woodland beings, who are drawn to aid the Guardian Owl in times of need.</p><p>When the Guardian Owl uses this ability, it can request specific types of assistance, such as healing, combat support, or guidance through the forest. The summoned creatures will arrive within a few rounds, ready to assist the Guardian Owl and its allies. The number and strength of the creatures that respond depend on the situation and the Guardian Owl's relationship with the local fauna. This ability reflects the Guardian Owl's role as a protector of the woodland realm, fostering harmony and cooperation among its inhabitants.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": 1,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "yncd1M2e85Nirb9M",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items.effects!MZqCnZJvNMvWYn37.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
+      "name": "Flying",
+      "img": "icons/svg/wing.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
+      "duration": {
+        "rounds": null,
+        "startTime": 4644910,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "_id": "dVk7ObKq7OLVfn9j",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fly"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

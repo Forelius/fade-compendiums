@@ -1,0 +1,44 @@
+{
+  "name": "Multiple Attacks",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This maneuver allows a character to make multiple attacks in melee combat. If the character can hit an opponent with a roll of 2 or higher (after applying all modifiers), they gain two attacks per round against that target. At higher levels, this increases to three attacks per round, and eventually to four attacks per round.</p><p>Each attack in this series can be a different type, including a throw, a standard attack, a lance attack, or a disarm. The character can combine these maneuvers in any sequence; for example, with three attacks per round, they could perform an attack, a disarm, and another attack, or throw three knives in succession. This maneuver is most effective under optimal conditions, and the character can replace any attack with movement or another action if desired.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "combatManeuver": "multiAttack",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "F",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "mNmtATMCAjwUeGOs",
+  "_id": "UTOUjdx69TXTP3N1",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!UTOUjdx69TXTP3N1"
+}

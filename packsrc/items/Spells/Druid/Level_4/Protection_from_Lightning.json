@@ -1,0 +1,47 @@
+{
+  "name": "Protection from Lightning",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v3vt9QC6X4dDbc82",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the recipient immunity to a specified amount of electrical damage. The protection amount depends on the druid's experience level: for each level, one die (1d6) of lightning damage is negated. The protected amount is subtracted from the dice of damage that would otherwise be dealt.</p><p><strong>Example:</strong> A 20th-level druid protected by this spell negates up to 20d6 lightning damage. This would allow the druid to absorb two full *Call Lightning* attacks (8d6 each), plus half of a third attack (8 + 8 + 4 = 20). Any damage beyond this would be taken as normal, and the recipient still makes any applicable saving throws.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "1 turn per level of the caster",
+    "effect": "Protects against lightning attack",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.DR.castLevel*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "frost",
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "sIagUMyT00miVWYF",
+  "sort": 0,
+  "_originalKey": "!items!sIagUMyT00miVWYF"
+}

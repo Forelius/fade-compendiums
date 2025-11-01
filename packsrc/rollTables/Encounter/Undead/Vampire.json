@@ -1,0 +1,84 @@
+{
+  "folder": "73CRtODoB8QgU0QI",
+  "name": "Vampire",
+  "_id": "tFq0WkkejQl0psD8",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "UedUPvlTCM1D0yjn",
+    "Q0jLjuB0RHyGoUXc",
+    "vt9wuGhC16OcDxOY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "_originalKey": "!tables!tFq0WkkejQl0psD8",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!tFq0WkkejQl0psD8.Q0jLjuB0RHyGoUXc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "Q0jLjuB0RHyGoUXc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Vampire* (Dire Wolf)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.COHYWaHxKVXSVX2c",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!tFq0WkkejQl0psD8.UedUPvlTCM1D0yjn",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "UedUPvlTCM1D0yjn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Vampire* (Bat)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.O5RtaMakaiWqZFMS",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!tFq0WkkejQl0psD8.vt9wuGhC16OcDxOY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "vt9wuGhC16OcDxOY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Vampire* (Human)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd",
+      "description": ""
+    }
+  ]
+}

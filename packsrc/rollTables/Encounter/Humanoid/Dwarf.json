@@ -1,0 +1,44 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Dwarf",
+  "_id": "QlaDQ9TXJG9dDcri",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "vM1P6K9ZbwETqEWA"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d1",
+  "_originalKey": "!tables!QlaDQ9TXJG9dDcri",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!QlaDQ9TXJG9dDcri.vM1P6K9ZbwETqEWA",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/dwarf1.webp",
+      "_id": "vM1P6K9ZbwETqEWA",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dwarf (1 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.guUudtbBiSD4tSFN",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Bug Repellent",
+  "type": "condition",
+  "img": "icons/creatures/invertebrates/beetle-stag-tan-brown.webp",
+  "_id": "BJG5TvbOgLCm5reh",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "ImLEPQEDgV0LQsFt"
+  ],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!BJG5TvbOgLCm5reh",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!BJG5TvbOgLCm5reh.ImLEPQEDgV0LQsFt",
+      "name": "Bug Repellent",
+      "img": "icons/creatures/invertebrates/beetle-stag-tan-brown.webp",
+      "disabled": false,
+      "_id": "ImLEPQEDgV0LQsFt",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffda8a",
+      "transfer": true,
+      "statuses": [
+        "magicShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

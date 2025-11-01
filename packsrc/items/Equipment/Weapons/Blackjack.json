@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Blackjack",
+  "type": "weapon",
+  "_id": "RksAN1Xa2JeKa7Im",
+  "img": "modules/fade-compendiums/assets/img/weapon/blackjack.webp",
+  "system": {
+    "tags": [
+      "special",
+      "cleric"
+    ],
+    "description": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 5,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d2",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Blackjack",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p><p>The weapon has no effect on those wearing metal armor of any sort, or any unarmored monster of AC 0 or less. See rules for other details about this weapon, including the ability to knockout, stun and delay the victim.</p><p> </p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2000000,
+  "_originalKey": "!items!RksAN1Xa2JeKa7Im"
+}

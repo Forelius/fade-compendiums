@@ -1,0 +1,159 @@
+{
+  "name": "Hit Location - Humanoid",
+  "_id": "tCShAkJWflIjH4B4",
+  "img": "icons/svg/invisible.svg",
+  "description": "",
+  "results": [
+    "OpXYQ4HoQiKRzIXg",
+    "EQW4I8nTWHvhZ7X0",
+    "4K4J4Ss28cWplMLs",
+    "slAhthaDlVE9bBjS",
+    "48xiy6RG2NSyGXX2",
+    "gj8CDHfdk033NJv3",
+    "CfQeZmOYGtgCkZcN"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "SOm66tqvBRVOnUR6",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "sort": 0,
+  "_originalKey": "!tables!tCShAkJWflIjH4B4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.48xiy6RG2NSyGXX2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        15
+      ],
+      "drawn": false,
+      "_id": "48xiy6RG2NSyGXX2",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Left Arm",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.4K4J4Ss28cWplMLs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        9
+      ],
+      "drawn": false,
+      "_id": "4K4J4Ss28cWplMLs",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Abdomen",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.CfQeZmOYGtgCkZcN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        21
+      ],
+      "drawn": false,
+      "_id": "CfQeZmOYGtgCkZcN",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Head",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.EQW4I8nTWHvhZ7X0",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        6
+      ],
+      "drawn": false,
+      "_id": "EQW4I8nTWHvhZ7X0",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Left Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.OpXYQ4HoQiKRzIXg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "OpXYQ4HoQiKRzIXg",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Right Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.gj8CDHfdk033NJv3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        18
+      ],
+      "drawn": false,
+      "_id": "gj8CDHfdk033NJv3",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Right Arm",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!tCShAkJWflIjH4B4.slAhthaDlVE9bBjS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        12
+      ],
+      "drawn": false,
+      "_id": "slAhthaDlVE9bBjS",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Chest",
+      "name": ""
+    }
+  ]
+}

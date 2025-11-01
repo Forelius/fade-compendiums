@@ -1,0 +1,78 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Dagger, Silver +1",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/silverdagger.webp",
+  "system": {
+    "tags": [
+      "magic-user",
+      "thrown",
+      "special"
+    ],
+    "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 30,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Dagger",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Dagger, Silver",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon. Because it is made of silver, this weapon can be used to damage certain magical creatures, such as Lycanthropes.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "KtlUzTerRXqWYuim",
+  "sort": 0,
+  "_originalKey": "!items!KtlUzTerRXqWYuim"
+}

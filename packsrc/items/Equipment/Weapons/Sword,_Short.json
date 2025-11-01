@@ -1,0 +1,74 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Sword, Short",
+  "type": "weapon",
+  "_id": "5Ymnj5Zixi4qy6r3",
+  "img": "modules/fade-compendiums/assets/img/weapon/shortsword.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": 7,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Sword, Short",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 500000,
+  "_originalKey": "!items!5Ymnj5Zixi4qy6r3"
+}

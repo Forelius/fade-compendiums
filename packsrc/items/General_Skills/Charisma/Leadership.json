@@ -1,0 +1,36 @@
+{
+  "name": "Leadership",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Leadership skill represents a character's ability to inspire, command, and direct others. It is used to coordinate group efforts, boost morale, and make strategic decisions in both peaceful and combat situations. Characters with high Leadership can motivate followers, maintain order, and effectively communicate plans to allies.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "l8rJmdWwJvs0ZRqd",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!l8rJmdWwJvs0ZRqd"
+}

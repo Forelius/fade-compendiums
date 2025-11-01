@@ -1,0 +1,36 @@
+{
+  "name": "Mapping / Cartography",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>A character with this skill can understand and create maps, even if they cannot read and write. No roll is needed to comprehend simple maps, but a skill roll is necessary for interpreting or drafting complex layouts. Mapping skill can be used to map an area from memory or to draw accurate maps of places visited. This skill is useful for explorers, adventurers, and merchants.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "x59JO8kc9NDngWnL",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!x59JO8kc9NDngWnL"
+}

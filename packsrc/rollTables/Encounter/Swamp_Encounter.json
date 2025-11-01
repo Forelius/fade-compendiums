@@ -1,0 +1,164 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Swamp Encounter",
+  "_id": "wrz2a9O59UtD7aBo",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Swamp Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "VxOt2pR60LtGcofA",
+    "t67T7Np4jl55oful",
+    "dPvYT8XRU3qKrE3i",
+    "OZgB6hYXNuAjinxa",
+    "QMvMjjV6s6nZDUWg",
+    "LIKqawvQI2XlN7kb",
+    "OI5EqwN1i7CLcAdg"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!wrz2a9O59UtD7aBo",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.LIKqawvQI2XlN7kb",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "LIKqawvQI2XlN7kb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insects",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rTDT2KFmD2xPIwSz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.OI5EqwN1i7CLcAdg",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "OI5EqwN1i7CLcAdg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragons",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JjKeOku91T3TOM2Q",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.OZgB6hYXNuAjinxa",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "OZgB6hYXNuAjinxa",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Swimmer (Swamp)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.jGeGmWlUoQHsophs",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.QMvMjjV6s6nZDUWg",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "QMvMjjV6s6nZDUWg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Undead",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.bWs9O1f5vjCdqbYN",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.VxOt2pR60LtGcofA",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "VxOt2pR60LtGcofA",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Flyers (All Other)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZA3rLpJZCGOprVjT",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.dPvYT8XRU3qKrE3i",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "dPvYT8XRU3qKrE3i",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (Swamp)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.I5HBIRGB2lNbHqTb",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!wrz2a9O59UtD7aBo.t67T7Np4jl55oful",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "t67T7Np4jl55oful",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Humanoid (Swamp)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rWU6V44ZFWo039o7",
+      "description": ""
+    }
+  ]
+}

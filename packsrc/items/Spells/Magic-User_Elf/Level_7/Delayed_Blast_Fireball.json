@@ -1,0 +1,47 @@
+{
+  "name": "Delayed Blast Fireball",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a fireball with a delayed explosion, allowing the caster to set a detonation timer.</p><h4>Effects:</h4><ul><li>The caster selects a delay between 0 to 60 rounds before detonation.</li><li>A small rock-like magical \"gem\" shoots toward the chosen location and remains there until detonation.</li><li>When the delay ends, the \"gem\" explodes in a 20' radius sphere, dealing fire damage.</li><li>The fireball inflicts 1d6 damage per caster level to all creatures in the area.</li><li>Each victim may make a saving throw vs. spells to take half damage.</li><li>The \"gem\" cannot be moved magically (via <em>telekinesis</em>, <em>teleport</em>, etc.), but it can be picked up and carried.</li><li>Once cast, the explosion cannot be hurried or further delayed, except with a <em>wish</em>.</li><li>The \"gem\" is pure magic and can be dispelled before detonation.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "0 to 60 rounds",
+    "effect": "Fireball with delayed detonation",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "(@classes.M.castLevel)d6",
+    "attackType": "",
+    "damageType": "fire",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "gqfmbUI9oZtjNukW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!gqfmbUI9oZtjNukW"
+}

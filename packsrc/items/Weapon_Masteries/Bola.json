@@ -1,0 +1,105 @@
+{
+  "name": "Bola",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d2",
+        "sDmgFormula": "",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Strangle (20)"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 25,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "",
+        "acBonusType": "handheld",
+        "acBonus": -1,
+        "acBonusAT": 1,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Strangle (20) (save -1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 30,
+          "medium": 50,
+          "long": 70
+        },
+        "pDmgFormula": "1d3+1",
+        "sDmgFormula": "",
+        "acBonusType": "handheld",
+        "acBonus": -2,
+        "acBonusAT": 2,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Strangle (19-20) (save -2)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 35,
+          "medium": 50,
+          "long": 70
+        },
+        "pDmgFormula": "1d3+2",
+        "sDmgFormula": "",
+        "acBonusType": "handheld",
+        "acBonus": -3,
+        "acBonusAT": 3,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Strangle (18-20) (Primary save -3; Secondary save -2)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 40,
+          "medium": 60,
+          "long": 80
+        },
+        "pDmgFormula": "1d3+3",
+        "sDmgFormula": "",
+        "acBonusType": "handheld",
+        "acBonus": -4,
+        "acBonusAT": 3,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Strangle (17-20) (Primary save -4; Secondary save -2)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "ZO4T66UN5EoZgGGA",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2100000,
+  "_originalKey": "!items!ZO4T66UN5EoZgGGA"
+}

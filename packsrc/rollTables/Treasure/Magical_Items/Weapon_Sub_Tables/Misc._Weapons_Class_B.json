@@ -1,0 +1,219 @@
+{
+  "name": "Misc. Weapons (Class B)",
+  "formula": "1d100",
+  "results": [
+    "ryMWgO7i0WbgEHxY",
+    "Fa9P0sQwrq3TuTpX",
+    "I9y1nGMXo2TAJfOj",
+    "ediXoREj1OBSTBix",
+    "YD09N2CDUkBGAX7Z",
+    "tA6dNrUwTM1p7edD",
+    "MuKv7if3hA57VJuV",
+    "SLaDgINYlkhEL33W",
+    "OAuA4dVGDgpKjrvB",
+    "LchNcrdUy6pLNfzH"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the magic bonus and chance of additional modifiers for Class B weapons.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "SrcsiRsKtSEjZHKS",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!SrcsiRsKtSEjZHKS",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.Fa9P0sQwrq3TuTpX",
+      "range": [
+        51,
+        74
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "Fa9P0sQwrq3TuTpX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus:  +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.I9y1nGMXo2TAJfOj",
+      "range": [
+        75,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "I9y1nGMXo2TAJfOj",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.LchNcrdUy6pLNfzH",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        97,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "LchNcrdUy6pLNfzH",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 10%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.aoO2D4BQoVXA7sq2",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.MuKv7if3hA57VJuV",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        51,
+        74
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "MuKv7if3hA57VJuV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xYSdiB1uGhHtFjyp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.OAuA4dVGDgpKjrvB",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        89,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "OAuA4dVGDgpKjrvB",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ylxkEpFEU4KkoopP",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.SLaDgINYlkhEL33W",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        75,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "SLaDgINYlkhEL33W",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.KxdPhkFmq42jUuIf",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.YD09N2CDUkBGAX7Z",
+      "range": [
+        97,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "YD09N2CDUkBGAX7Z",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +5",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.ediXoREj1OBSTBix",
+      "range": [
+        89,
+        96
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "ediXoREj1OBSTBix",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +4",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.ryMWgO7i0WbgEHxY",
+      "range": [
+        1,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "ryMWgO7i0WbgEHxY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!SrcsiRsKtSEjZHKS.tA6dNrUwTM1p7edD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "tA6dNrUwTM1p7edD",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 40%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6DDYjWp0w7WJHQCe",
+      "description": ""
+    }
+  ]
+}

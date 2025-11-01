@@ -1,0 +1,653 @@
+{
+  "name": "Sporacle",
+  "type": "monster",
+  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 10,
+      "xpAward": 1650,
+      "attacks": "13",
+      "abilityCount": 3,
+      "monsterType": "Monster",
+      "saveAs": "",
+      "castAs": "",
+      "level": 1,
+      "classAbilityAs": "",
+      "rarity": "Very Rare",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "7",
+      "value": 32,
+      "max": 32
+    },
+    "na": {
+      "wandering": "1d4",
+      "lair": "2d4"
+    },
+    "treasure": "",
+    "thac0": {
+      "value": 13,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "max": 180,
+      "turn": 180,
+      "round": 60,
+      "day": 36,
+      "run": 180
+    },
+    "biography": "<p>The sporacle appears identical to a beholder at first glance: a floating ball-like creature, in diameter, with a huge gaping mouth and a large central eye above it. Tentacles sprout from its entire body. It has six eyes, positioned evenly about the surface of the body (top, bottom, front, back, sides). It normally keeps all but a few upper tentacles retracted.</p><p>A sporacle regenerates by submersing itself in fresh water (but not in brine) at the rate of 3 hit points per round so lost body parts may be rapidly regrown. If a loose tentacle falls or is placed in water, it will grow into a whole creature in 1 hour. This is their only method of reproduction, so they are often found near a water source.</p><p>A sporacle may attack anything, but prefers humanoids as food. As it moves into combat, it extends all its tentacles, appearing to sprout them as it attacks. It moves through air or water by magical flight, but is very quick. It spins rapidly in all directions when in combat, using all of its tentacles each round against 1 or 2 opponents. A sporacle has average intelligence (10) and cannot use spells or magical items.</p><p>The sporacle prefers not to bite victims that are still moving. It uses its tentacle attacks only until all have been destroyed; only then will it resort to its ferocious bite. Each tentacle hit inflicts 1 point of damage, and each requires a saving throw vs. paralysis. Failure indicates that the venomous tentacle has struck skin, and takes effect. This paralysis is a delayed sort, however, taking effect after 1 round passes; it lasts for 1 turn thereafter unless cured. If its opponents flee, it will remain to feast upon its paralyzed victims; if there are none, it always pursues.</p><p>The sporacle may be damaged by any sort of edged weapon, and by any missile weapon except a sling. However, it is immune to blunt weapons and to all spells and magical devices except those that cause damage; these will destroy one tentacle per die of damage (or per magic missile), not affecting the creature's hit points. Once all the tentacles are destroyed, such spells have no further effect. Sporacles cannot hear and are immune to all sound-based effects; they are also immune to poison, paralysis, and charms.</p><p>If any attacker declares the tentacles to be the target of the blow and wields an edged weapon, <strong>the tentacle is AC 4 and easily severed</strong>. After falling off, a tentacle will live for up to 1 hour, remaining venomous for that time. When the creature is reduced to 0 hit points or less, its body comes apart grotesquely, spinning wildly and sending all remaining tentacles in various directions. (Make final attack rolls as applicable.)</p><p><strong>Terrain:</strong> Cavern</p>",
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "shield": 0,
+      "mod": 0,
+      "av": "0"
+    },
+    "thbonus": 6,
+    "encumbrance": {
+      "value": 0,
+      "max": 2400,
+      "mv": 0,
+      "mv2": 0
+    },
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "attack",
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "gm": {
+      "notes": ""
+    },
+    "mod": {
+      "ac": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0
+      },
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "wrestling": 23,
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "con": {
+        "value": 14,
+        "total": 14,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "int": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    }
+  },
+  "prototypeToken": {
+    "name": "Sporacle",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 0,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "SFRuzoFfIlqWd1py",
+    "7A92ZK8SaN1tlfyt",
+    "aViUgXyQXJUWYT1f",
+    "qQytMyN9IxoSUlHr",
+    "E61MUHz2l6hW0Pjz",
+    "h5sTisjfbR81NaQn"
+  ],
+  "effects": [],
+  "folder": "xyIrb6GYNyFjZwEN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "GcqgrhE3mc3m3pH3",
+  "sort": 6500000,
+  "_originalKey": "!actors!GcqgrhE3mc3m3pH3",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.7A92ZK8SaN1tlfyt",
+      "name": "Tentacle (Paralysis)",
+      "type": "weapon",
+      "system": {
+        "description": "Sporacle uses its tentacles to attack, causing 1 point of damage each. A successful hit requires a saving throw vs. paralysis or the victim is paralyzed for one turn after a one-round delay unless cured. Tentacles remain venomous for an hour after being severed.",
+        "quantity": 12,
+        "equipped": true,
+        "damageRoll": "1",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "savingThrow": "paralysis",
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "Tentacle",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 12,
+          "group": 0
+        },
+        "conditions": [
+          {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.DY1qTMeTxES5AQ7b",
+            "name": "Paralyzed",
+            "durationFormula": "60"
+          }
+        ]
+      },
+      "img": "icons/creatures/tentacles/tentacle-earth-green.webp",
+      "_id": "7A92ZK8SaN1tlfyt",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.E61MUHz2l6hW0Pjz",
+      "name": "Reproduction",
+      "type": "specialAbility",
+      "system": {
+        "description": "A severed tentacle placed in fresh water grows into a new sporacle in one hour.",
+        "gm": {
+          "notes": "Primary method of reproduction."
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "E61MUHz2l6hW0Pjz",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.SFRuzoFfIlqWd1py",
+      "name": "Hide",
+      "type": "armor",
+      "system": {
+        "description": "The sporacle's body is AC 0, but its tentacles are AC 4 when targeted specifically.",
+        "quantity": 1,
+        "equipped": true,
+        "ac": 0,
+        "isShield": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": null,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "SFRuzoFfIlqWd1py",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.aViUgXyQXJUWYT1f",
+      "name": "Bite",
+      "type": "weapon",
+      "system": {
+        "description": "The sporacle bites only when all tentacles are destroyed, dealing significant damage.",
+        "quantity": 1,
+        "equipped": true,
+        "damageRoll": "2d10",
+        "canMelee": true,
+        "canRanged": false,
+        "natural": true,
+        "shortName": "",
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "charges": 0,
+        "quantityMax": 0,
+        "weight": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "damageType": "physical",
+        "breath": "",
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "size": "null",
+        "grip": "null",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "weightEquipped": 1,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": 1,
+          "group": 0
+        }
+      },
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_id": "aViUgXyQXJUWYT1f",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.h5sTisjfbR81NaQn",
+      "name": "Immunities",
+      "type": "specialAbility",
+      "system": {
+        "description": "Immune to blunt weapons, sound-based effects, poison, paralysis, and charms. Edged and missile weapons (except slings) can damage it; spells only affect tentacles.",
+        "gm": {
+          "notes": "Body disintegration upon death scatters tentacles."
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "h5sTisjfbR81NaQn",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!GcqgrhE3mc3m3pH3.qQytMyN9IxoSUlHr",
+      "name": "Regeneration",
+      "type": "specialAbility",
+      "system": {
+        "description": "Regenerates 3 hit points per round when submerged in fresh water, allowing rapid regrowth of lost parts.",
+        "gm": {
+          "notes": "Does not regenerate in brine."
+        },
+        "tags": [],
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "qQytMyN9IxoSUlHr",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

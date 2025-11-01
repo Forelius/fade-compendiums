@@ -1,0 +1,105 @@
+{
+  "name": "Blackjack",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d2",
+        "sDmgFormula": "",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Knockout"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "2d2",
+        "sDmgFormula": "",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Knockout (save -1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d4+1",
+        "sDmgFormula": "",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Knockout (save -2)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d4+3",
+        "sDmgFormula": "1d6+1",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Knockout (save -3)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d4+5",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": "null",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Knockout (save -4)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "dJE3Ix8k3YUNFr6M",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2700000,
+  "_originalKey": "!items!dJE3Ix8k3YUNFr6M"
+}

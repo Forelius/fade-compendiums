@@ -1,0 +1,2536 @@
+{
+  "name": "Thief",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 36,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d4",
+        "hdcon": true,
+        "title": "Apprentice",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 1200,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d4",
+        "hdcon": true,
+        "title": "Footpad",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 2400,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d4",
+        "hdcon": true,
+        "title": "Robber",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 4800,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "4d4",
+        "hdcon": true,
+        "title": "Burglar",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 9600,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d4",
+        "hdcon": true,
+        "title": "Cutpurse",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 20000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d4",
+        "hdcon": true,
+        "title": "Sharper",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "7d4",
+        "hdcon": true,
+        "title": "Pilferer",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "8d4",
+        "hdcon": true,
+        "title": "Thief",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 160000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4",
+        "hdcon": true,
+        "title": "Master Thief",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 280000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 520000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d4+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 640000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 760000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 880000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1000000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d4+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1120000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1240000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1360000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1480000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d4+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1600000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1720000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1840000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+28",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 1960000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d4+30",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 2080000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+32",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 2200000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+34",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2320000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+36",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2440000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d4+38",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2560000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+40",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2680000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+42",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2800000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+44",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 2920000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d4+46",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 3040000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d4+48",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 3160000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d4+50",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 3280000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d4+52",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 3400000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d4+54",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 4,
+        "death": 13,
+        "wand": 14,
+        "paralysis": 13,
+        "breath": 16,
+        "spell": 15
+      },
+      {
+        "level": 8,
+        "death": 11,
+        "wand": 12,
+        "paralysis": 11,
+        "breath": 14,
+        "spell": 13
+      },
+      {
+        "level": 12,
+        "death": 9,
+        "wand": 10,
+        "paralysis": 9,
+        "breath": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "death": 7,
+        "wand": 8,
+        "paralysis": 7,
+        "breath": 10,
+        "spell": 9
+      },
+      {
+        "level": 20,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 5,
+        "breath": 8,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 4,
+        "breath": 6,
+        "spell": 5
+      },
+      {
+        "level": 28,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 3,
+        "breath": 4,
+        "spell": 4
+      },
+      {
+        "level": 32,
+        "death": 2,
+        "wand": 3,
+        "paralysis": 2,
+        "breath": 3,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "spells": [],
+    "firstLevel": 1,
+    "key": "T",
+    "description": "<p>A thief is a human adventurer specializing in stealth, agility, and subterfuge. They excel in tasks like lockpicking, trap disarming, and infiltration, relying on dexterity and cunning to navigate challenges rather than brute force.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Dexterity, granting a 5% experience bonus for scores of 13–15 and 10% for 16 or higher.</li><li><strong>Combat Skills</strong>: Thieves may use any one-handed melee weapon and missile weapons but cannot wield two-handed weapons. They are restricted to leather armor and cannot use shields.</li><li><strong>Hit Dice</strong>: Thieves roll a d4 for hit points per level until 9th level, after which they gain 2 hit points per level.</li><li><p><strong>Special Abilities</strong>:</p><ul><li>Open Locks, Find and Remove Traps, Climb Walls, Move Silently, Hide in Shadows, Pick Pockets, and Hear Noise.</li><li>At 4th level, they can read non-magical languages (80% chance).</li><li>At 10th level, they can cast magic-user spells from scrolls (10% chance of backfire).</li><li>Backstabbing: A thief gains +4 to attack rolls when unnoticed and deals double damage on a successful hit.</li></ul></li></ul><h3>Advancement:</h3><ul><li>At <strong>9th level</strong>, a thief becomes a \"Master Thief\" and may establish a hideout, such as a fortified house or network of secret chambers.</li><li>The hideout attracts 2d6 1st-level apprentice thieves who seek training under the master thief.</li><li>A thief may rise in the ranks of the Thieves' Guild, eventually leading a branch or even the guild itself.</li></ul><h3>Stronghold Options:</h3><ul><li>Thieves often rely on the local Thieves' Guild for resources when establishing a hideout. The guild may help them become a guildmaster or expand into new territories.</li><li>If the thief remains unaffiliated, they are considered a rogue, maintaining guild membership for support but operating independently.</li></ul><p>Thieves thrive on their agility, sharp wits, and resourcefulness, providing unique skills to adventuring parties while navigating the fine line between heroics and illicit activity.</p>",
+    "classItems": [],
+    "abilities": {
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "str": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Backstab",
+        "target": 0,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Climb Sheer Surface",
+        "target": 87,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Find Traps",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Hear Noise",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Hide in Shadows",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Move Silently",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Open Locks",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Pick Pockets",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Read Languages",
+        "target": 0,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Remove Traps",
+        "target": 10,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Climb Sheer Surface",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Find Traps",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Hear Noise",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Hide in Shadows",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Move Silently",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Open Locks",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Pick Pockets",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 2,
+        "name": "Remove Traps",
+        "target": 15,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Climb Sheer Surface",
+        "target": 89,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Find Traps",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Hear Noise",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Hide in Shadows",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Move Silently",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Open Locks",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Pick Pockets",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 3,
+        "name": "Remove Traps",
+        "target": 20,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Climb Sheer Surface",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Find Traps",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Hear Noise",
+        "target": 45,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Hide in Shadows",
+        "target": 24,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Move Silently",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Open Locks",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Pick Pockets",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 4,
+        "name": "Remove Traps",
+        "target": 25,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Climb Sheer Surface",
+        "target": 91,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Find Traps",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Hear Noise",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Hide in Shadows",
+        "target": 28,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Move Silently",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Open Locks",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Pick Pockets",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 5,
+        "name": "Remove Traps",
+        "target": 30,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Climb Sheer Surface",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Find Traps",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Hear Noise",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Hide in Shadows",
+        "target": 32,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Move Silently",
+        "target": 44,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Open Locks",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Pick Pockets",
+        "target": 45,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 6,
+        "name": "Remove Traps",
+        "target": 34,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Climb Sheer Surface",
+        "target": 93,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Find Traps",
+        "target": 40,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Hear Noise",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Hide in Shadows",
+        "target": 35,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Move Silently",
+        "target": 48,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Open Locks",
+        "target": 45,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Pick Pockets",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 7,
+        "name": "Remove Traps",
+        "target": 38,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Climb Sheer Surface",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Find Traps",
+        "target": 45,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Hear Noise",
+        "target": 62,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Hide in Shadows",
+        "target": 38,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Move Silently",
+        "target": 52,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Open Locks",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Pick Pockets",
+        "target": 55,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 8,
+        "name": "Remove Traps",
+        "target": 42,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Climb Sheer Surface",
+        "target": 95,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Find Traps",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Hear Noise",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Hide in Shadows",
+        "target": 41,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Move Silently",
+        "target": 55,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Open Locks",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Pick Pockets",
+        "target": 60,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Remove Traps",
+        "target": 46,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Climb Sheer Surface",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Find Traps",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Hear Noise",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Hide in Shadows",
+        "target": 44,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Move Silently",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Open Locks",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Pick Pockets",
+        "target": 65,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 10,
+        "name": "Remove Traps",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Climb Sheer Surface",
+        "target": 97,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Find Traps",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Hear Noise",
+        "target": 74,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Hide in Shadows",
+        "target": 47,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Move Silently",
+        "target": 61,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Open Locks",
+        "target": 62,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Pick Pockets",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 11,
+        "name": "Remove Traps",
+        "target": 54,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Climb Sheer Surface",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Find Traps",
+        "target": 62,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Hear Noise",
+        "target": 78,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Hide in Shadows",
+        "target": 50,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Move Silently",
+        "target": 64,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Open Locks",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Pick Pockets",
+        "target": 75,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Remove Traps",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Climb Sheer Surface",
+        "target": 99,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Find Traps",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Hear Noise",
+        "target": 81,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Hide in Shadows",
+        "target": 53,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Move Silently",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Open Locks",
+        "target": 69,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Pick Pockets",
+        "target": 80,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 13,
+        "name": "Remove Traps",
+        "target": 61,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Climb Sheer Surface",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Find Traps",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Hear Noise",
+        "target": 84,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Hide in Shadows",
+        "target": 56,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Move Silently",
+        "target": 68,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Open Locks",
+        "target": 72,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Pick Pockets",
+        "target": 85,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 14,
+        "name": "Remove Traps",
+        "target": 64,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Climb Sheer Surface",
+        "target": 101,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Find Traps",
+        "target": 73,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Hear Noise",
+        "target": 87,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Hide in Shadows",
+        "target": 58,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Move Silently",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Open Locks",
+        "target": 75,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Pick Pockets",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 15,
+        "name": "Remove Traps",
+        "target": 67,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Climb Sheer Surface",
+        "target": 102,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Find Traps",
+        "target": 76,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Hear Noise",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Hide in Shadows",
+        "target": 60,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Move Silently",
+        "target": 72,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Open Locks",
+        "target": 78,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Pick Pockets",
+        "target": 95,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 16,
+        "name": "Remove Traps",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Climb Sheer Surface",
+        "target": 103,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Find Traps",
+        "target": 80,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Hear Noise",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Hide in Shadows",
+        "target": 62,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Move Silently",
+        "target": 74,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Open Locks",
+        "target": 81,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Pick Pockets",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 17,
+        "name": "Remove Traps",
+        "target": 73,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Climb Sheer Surface",
+        "target": 104,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Find Traps",
+        "target": 83,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Hear Noise",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Hide in Shadows",
+        "target": 64,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Move Silently",
+        "target": 76,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Open Locks",
+        "target": 84,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Pick Pockets",
+        "target": 105,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 18,
+        "name": "Remove Traps",
+        "target": 76,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Climb Sheer Surface",
+        "target": 105,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Find Traps",
+        "target": 86,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Hear Noise",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Hide in Shadows",
+        "target": 66,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Move Silently",
+        "target": 78,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Open Locks",
+        "target": 86,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Pick Pockets",
+        "target": 110,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 19,
+        "name": "Remove Traps",
+        "target": 79,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Climb Sheer Surface",
+        "target": 106,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Find Traps",
+        "target": 89,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Hear Noise",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Hide in Shadows",
+        "target": 68,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Move Silently",
+        "target": 80,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Open Locks",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Pick Pockets",
+        "target": 115,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 20,
+        "name": "Remove Traps",
+        "target": 82,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Climb Sheer Surface",
+        "target": 107,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Find Traps",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Hear Noise",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Hide in Shadows",
+        "target": 70,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Move Silently",
+        "target": 82,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Open Locks",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Pick Pockets",
+        "target": 120,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 21,
+        "name": "Remove Traps",
+        "target": 85,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Climb Sheer Surface",
+        "target": 108,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Find Traps",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Hear Noise",
+        "target": 102,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Hide in Shadows",
+        "target": 72,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Move Silently",
+        "target": 84,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Open Locks",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Pick Pockets",
+        "target": 125,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 22,
+        "name": "Remove Traps",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Climb Sheer Surface",
+        "target": 109,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Find Traps",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Hear Noise",
+        "target": 104,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Hide in Shadows",
+        "target": 74,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Move Silently",
+        "target": 86,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Open Locks",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Pick Pockets",
+        "target": 130,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 23,
+        "name": "Remove Traps",
+        "target": 91,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Climb Sheer Surface",
+        "target": 110,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Find Traps",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Hear Noise",
+        "target": 106,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Hide in Shadows",
+        "target": 76,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Move Silently",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Open Locks",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Pick Pockets",
+        "target": 135,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 24,
+        "name": "Remove Traps",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Climb Sheer Surface",
+        "target": 111,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Find Traps",
+        "target": 99,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Hear Noise",
+        "target": 108,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Hide in Shadows",
+        "target": 78,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Move Silently",
+        "target": 89,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Open Locks",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Pick Pockets",
+        "target": 140,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 25,
+        "name": "Remove Traps",
+        "target": 97,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Climb Sheer Surface",
+        "target": 112,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Find Traps",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Hear Noise",
+        "target": 110,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Hide in Shadows",
+        "target": 80,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Move Silently",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Open Locks",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Pick Pockets",
+        "target": 145,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 26,
+        "name": "Remove Traps",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Climb Sheer Surface",
+        "target": 113,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Find Traps",
+        "target": 101,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Hear Noise",
+        "target": 112,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Hide in Shadows",
+        "target": 82,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Move Silently",
+        "target": 91,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Open Locks",
+        "target": 102,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Pick Pockets",
+        "target": 150,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 27,
+        "name": "Remove Traps",
+        "target": 103,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Climb Sheer Surface",
+        "target": 114,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Find Traps",
+        "target": 102,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Hear Noise",
+        "target": 114,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Hide in Shadows",
+        "target": 84,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Move Silently",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Open Locks",
+        "target": 104,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Pick Pockets",
+        "target": 155,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 28,
+        "name": "Remove Traps",
+        "target": 106,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Climb Sheer Surface",
+        "target": 115,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Find Traps",
+        "target": 103,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Hear Noise",
+        "target": 116,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Hide in Shadows",
+        "target": 86,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Move Silently",
+        "target": 93,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Open Locks",
+        "target": 106,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Pick Pockets",
+        "target": 160,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 29,
+        "name": "Remove Traps",
+        "target": 109,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Climb Sheer Surface",
+        "target": 116,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Find Traps",
+        "target": 104,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Hear Noise",
+        "target": 118,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Hide in Shadows",
+        "target": 88,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Move Silently",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Open Locks",
+        "target": 108,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Pick Pockets",
+        "target": 165,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 30,
+        "name": "Remove Traps",
+        "target": 112,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Climb Sheer Surface",
+        "target": 117,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Find Traps",
+        "target": 105,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Hear Noise",
+        "target": 120,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Hide in Shadows",
+        "target": 90,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Move Silently",
+        "target": 95,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Open Locks",
+        "target": 110,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Pick Pockets",
+        "target": 170,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 31,
+        "name": "Remove Traps",
+        "target": 115,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Climb Sheer Surface",
+        "target": 118,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Find Traps",
+        "target": 106,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Hear Noise",
+        "target": 122,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Hide in Shadows",
+        "target": 92,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Move Silently",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Open Locks",
+        "target": 112,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Pick Pockets",
+        "target": 175,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 32,
+        "name": "Remove Traps",
+        "target": 118,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Climb Sheer Surface",
+        "target": 118,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Find Traps",
+        "target": 107,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Hear Noise",
+        "target": 124,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Hide in Shadows",
+        "target": 94,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Move Silently",
+        "target": 97,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Open Locks",
+        "target": 114,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Pick Pockets",
+        "target": 180,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 33,
+        "name": "Remove Traps",
+        "target": 121,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Climb Sheer Surface",
+        "target": 119,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Find Traps",
+        "target": 108,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Hear Noise",
+        "target": 126,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Hide in Shadows",
+        "target": 96,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Move Silently",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Open Locks",
+        "target": 116,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Pick Pockets",
+        "target": 185,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 34,
+        "name": "Remove Traps",
+        "target": 124,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Climb Sheer Surface",
+        "target": 119,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Find Traps",
+        "target": 109,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Hear Noise",
+        "target": 128,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Hide in Shadows",
+        "target": 98,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Move Silently",
+        "target": 99,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Open Locks",
+        "target": 118,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Pick Pockets",
+        "target": 190,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 35,
+        "name": "Remove Traps",
+        "target": 127,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Climb Sheer Surface",
+        "target": 120,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Find Traps",
+        "target": 110,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Hear Noise",
+        "target": 130,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Hide in Shadows",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Move Silently",
+        "target": 100,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Open Locks",
+        "target": 120,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Pick Pockets",
+        "target": 195,
+        "classKey": "T",
+        "changes": ""
+      },
+      {
+        "level": 36,
+        "name": "Remove Traps",
+        "target": 130,
+        "classKey": "T",
+        "changes": ""
+      }
+    ],
+    "unskilledToHitMod": -3
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "GMfjRfiuC42GutwG",
+  "sort": 400000,
+  "_originalKey": "!items!GMfjRfiuC42GutwG"
+}

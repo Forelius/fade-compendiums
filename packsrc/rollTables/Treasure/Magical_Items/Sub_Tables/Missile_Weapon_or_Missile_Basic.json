@@ -1,0 +1,537 @@
+{
+  "name": "Missile Weapon or Missile (Basic)",
+  "formula": "1d100",
+  "results": [
+    "zAMVww65Q3WXtsTs",
+    "8I8dKr7RMQS8zSVG",
+    "hUfcHhG2fokxlZfV",
+    "0lG9UbonXkNxHiL6",
+    "z1KMwNd9wOSC9Kuw",
+    "hZNMveYvcZRR4dQe",
+    "jMmXI0ApoxyAVfgZ",
+    "KLCYQEyMCXE1NIkq",
+    "E2R1jpbvKG7q1WHf",
+    "pP5EFq6pKWCqePun",
+    "jLziVPCdiwNfZEGS",
+    "llgidm8OezmJXDXG",
+    "5ogVt7ksNIPwJHMc",
+    "2UmXyxH8EMclfSAL",
+    "g0iWaY7oe2nPHwge",
+    "De8eeCoIWHQU2kUh",
+    "hYUvy98icpirlU8w",
+    "IUzbKWEiEfgaFqJs",
+    "5bGroG7Hc9sBtbqI",
+    "uYRaPhY54ioOuRHY",
+    "nkW9jruBV7a6ziYp",
+    "q6JHAjJG5bgQq2Z1",
+    "oQ7t1PjOqFhHfACh",
+    "XZhgcvFTiZV1bFpx",
+    "r4uKrXVakfr4ahv5",
+    "XXkMfKlzpT0NWIC8",
+    "lzUE7cDlgqUugZVf"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Generates a specific magical weapon or missile, along with its bonus and quantity if applicable.</p>",
+  "folder": "rWQmXw0xnkTcorjC",
+  "_id": "QFjcUHqdazNhbsas",
+  "img": "icons/weapons/bows/shortbow-white.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!QFjcUHqdazNhbsas",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.0lG9UbonXkNxHiL6",
+      "range": [
+        16,
+        18
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "0lG9UbonXkNxHiL6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrow, +1 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.2UmXyxH8EMclfSAL",
+      "range": [
+        50,
+        52
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "2UmXyxH8EMclfSAL",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, long +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.5bGroG7Hc9sBtbqI",
+      "range": [
+        70,
+        73
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "5bGroG7Hc9sBtbqI",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, heavy +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.5ogVt7ksNIPwJHMc",
+      "range": [
+        46,
+        49
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "5ogVt7ksNIPwJHMc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, long +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.8I8dKr7RMQS8zSVG",
+      "range": [
+        7,
+        11
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "8I8dKr7RMQS8zSVG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrows +2 [[2d6]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.De8eeCoIWHQU2kUh",
+      "range": [
+        58,
+        61
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "De8eeCoIWHQU2kUh",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, light +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.E2R1jpbvKG7q1WHf",
+      "range": [
+        29,
+        33
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "E2R1jpbvKG7q1WHf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, short +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.IUzbKWEiEfgaFqJs",
+      "range": [
+        65,
+        69
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "IUzbKWEiEfgaFqJs",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, heavy +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.KLCYQEyMCXE1NIkq",
+      "range": [
+        26,
+        28
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "KLCYQEyMCXE1NIkq",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bola +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.XXkMfKlzpT0NWIC8",
+      "range": [
+        97,
+        97
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "XXkMfKlzpT0NWIC8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrel, +3 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.XZhgcvFTiZV1bFpx",
+      "range": [
+        92,
+        94
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "XZhgcvFTiZV1bFpx",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrel, +1 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.g0iWaY7oe2nPHwge",
+      "range": [
+        53,
+        57
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "g0iWaY7oe2nPHwge",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, light +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.hUfcHhG2fokxlZfV",
+      "range": [
+        12,
+        15
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "hUfcHhG2fokxlZfV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrows +3 [[2d4]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.hYUvy98icpirlU8w",
+      "range": [
+        62,
+        64
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "hYUvy98icpirlU8w",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, light +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.hZNMveYvcZRR4dQe",
+      "range": [
+        21,
+        21
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "hZNMveYvcZRR4dQe",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrow, +3 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.jLziVPCdiwNfZEGS",
+      "range": [
+        38,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "jLziVPCdiwNfZEGS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, short +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.jMmXI0ApoxyAVfgZ",
+      "range": [
+        22,
+        25
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "jMmXI0ApoxyAVfgZ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Blowgun +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.llgidm8OezmJXDXG",
+      "range": [
+        41,
+        45
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "llgidm8OezmJXDXG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, long +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.lzUE7cDlgqUugZVf",
+      "range": [
+        98,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "lzUE7cDlgqUugZVf",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sling +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.nkW9jruBV7a6ziYp",
+      "range": [
+        77,
+        82
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "nkW9jruBV7a6ziYp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrels +1 [[2d10]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.oQ7t1PjOqFhHfACh",
+      "range": [
+        88,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "oQ7t1PjOqFhHfACh",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrels +3 [[2d4]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.pP5EFq6pKWCqePun",
+      "range": [
+        34,
+        37
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "pP5EFq6pKWCqePun",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Bow, short +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.q6JHAjJG5bgQq2Z1",
+      "range": [
+        83,
+        87
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "q6JHAjJG5bgQq2Z1",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrels +2 [[2d6]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.r4uKrXVakfr4ahv5",
+      "range": [
+        95,
+        96
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "r4uKrXVakfr4ahv5",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Quarrel, +2 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.uYRaPhY54ioOuRHY",
+      "range": [
+        74,
+        76
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "uYRaPhY54ioOuRHY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Crossbow, heavy +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.z1KMwNd9wOSC9Kuw",
+      "range": [
+        19,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "z1KMwNd9wOSC9Kuw",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrow, +2 silver",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!QFjcUHqdazNhbsas.zAMVww65Q3WXtsTs",
+      "range": [
+        1,
+        6
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/bows/shortbow-white.webp",
+      "_id": "zAMVww65Q3WXtsTs",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Arrows +1 [[2d10]]",
+      "name": ""
+    }
+  ]
+}

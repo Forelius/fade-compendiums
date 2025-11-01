@@ -1,0 +1,44 @@
+{
+  "folder": "xOcx6uZRMaIDLgxS",
+  "name": "Oath of Aid (PA)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "a9ApPEisbIXbI6hU",
+  "system": {
+    "tags": [],
+    "description": "<p>A Paladin must assist anyone who requests help, with two exceptions: they are not required to aid evil characters or evil causes, and if they are already on a mission for a higher authority (such as a quest or service to a ruler), they may offer only limited assistance—such as providing shelter, advice, or guidance—along with an explanation for their refusal.</p><p>This assistance never involves donating money or items and is only given for a short time through direct service.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "PA",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!a9ApPEisbIXbI6hU"
+}

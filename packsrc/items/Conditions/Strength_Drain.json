@@ -1,0 +1,66 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Strength Drain",
+  "type": "condition",
+  "img": "icons/svg/downgrade.svg",
+  "_id": "xW5SFa4NvlK6E7Pz",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "R6C16wRWdulDcMYF"
+  ],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xW5SFa4NvlK6E7Pz",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!xW5SFa4NvlK6E7Pz.R6C16wRWdulDcMYF",
+      "name": "Strength Drain",
+      "img": "icons/svg/downgrade.svg",
+      "disabled": false,
+      "_id": "R6C16wRWdulDcMYF",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.total",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "downgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

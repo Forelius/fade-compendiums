@@ -1,0 +1,36 @@
+{
+  "name": "Danger Sense",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>A successful skill roll allows the character to detect imminent danger. The nature or source of the danger is not revealed, and the DM rolls in secret. The player is only informed if the roll is a success and danger is present.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "blindroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "Qc0wSxVIBRtKELC2",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Qc0wSxVIBRtKELC2"
+}

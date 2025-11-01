@@ -1,0 +1,51 @@
+{
+  "name": "Growth of Animal",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "kXFO22VpYT8uU03F",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell doubles the size of one normal or giant animal, increasing its strength, damage, and carrying capacity accordingly. The animal’s behavior, armor class, and hit points remain unchanged, and the spell has no effect on intelligent or fantastic creatures.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "12 turns",
+    "effect": "Doubles the size of one animal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "HxKvyZ5UMorEirzA",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!HxKvyZ5UMorEirzA"
+}

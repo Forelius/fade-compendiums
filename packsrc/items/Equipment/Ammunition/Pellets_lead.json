@@ -1,0 +1,50 @@
+{
+  "folder": "u7s4NR16AZdcIm0l",
+  "name": "Pellets (lead)",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "_id": "4gqcAs9PntHmvNIF",
+  "system": {
+    "shortName": "",
+    "description": "<p>Ammunition for a sling.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 30,
+    "quantityMax": 30,
+    "weight": 0.2,
+    "weightEquipped": 0.2,
+    "cost": 1,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "pellet",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "physical",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {}
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4gqcAs9PntHmvNIF"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Force Field",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible, immovable barrier or object of pure magical force. The field is impervious to all attacks and spells, except for <em>disintegrate</em> or a <em>wish</em>. A <em>dispel magic</em> spell cannot remove it.</p><h4>Shape & Size:</h4><ul><li>Can be a sphere (up to **20' radius**), hemisphere, flat surface, cylinder, or a box (up to 5,000 square feet in total area).</li><li>Must have smooth, regular surfaces.</li><li>The edges are blunt and cause no damage.</li><li>Cannot form inside a creature or solid object; instead, gaps will appear.</li></ul><h4>Barrier Properties:</h4><ul><li>The force field cannot be moved, except by a <em>wish</em>.</li><li>Nothing can pass through—spells, attacks, and breath weapons all bounce off.</li><li>Bypassing Methods: <em>Teleport</em>, <em>dimension door</em>, or planar travel (such as <em>gate</em>) can bypass the barrier.</li><li>A sealed force field prevents starvation and suffocation. It magically preserves enclosed creatures from natural death.</li></ul><h4>Uses:</h4><ul><li>Can be used as an impassable wall, prison, floor, stairway, or object.</li><li>Can be made permanent with <em>permanence</em>, but remains dispellable.</li><li>A permanent force field vanishes if destroyed by <em>disintegrate</em> or wished away.</li></ul><h4>Duration:</h4><p>The force field lasts for 6 turns (60 rounds).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "120'",
+    "duration": "6 turns",
+    "effect": "Creates an invisible barrier",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "lJyhdTX0PUm00rBo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!lJyhdTX0PUm00rBo"
+}

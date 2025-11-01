@@ -1,0 +1,596 @@
+{
+  "name": "Fighter",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 36,
+    "firstLevel": 0,
+    "levels": [
+      {
+        "level": 0,
+        "xp": 0,
+        "thac0": 20,
+        "thbonus": -1,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Normal Man",
+        "attackRank": ""
+      },
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d8",
+        "hdcon": true,
+        "title": "Veteran",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d8",
+        "hdcon": true,
+        "title": "Warrior",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 4000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d8",
+        "hdcon": true,
+        "title": "Swordmaster",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 8000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d8",
+        "hdcon": true,
+        "title": "Hero",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 16000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d8",
+        "hdcon": true,
+        "title": "Swashbuckler",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 32000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d8",
+        "hdcon": true,
+        "title": "Myrmidon",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 64000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d8",
+        "hdcon": true,
+        "title": "Champion",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 120000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "8d8",
+        "hdcon": true,
+        "title": "Superhero",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 240000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d8",
+        "hdcon": true,
+        "title": "Lord",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 360000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 480000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 720000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 840000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 960000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1080000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1200000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1320000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1440000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1560000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1680000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1800000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1920000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+28",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 2040000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+30",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 2160000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+32",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 2280000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+34",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2400000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+36",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2520000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+38",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2640000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+40",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2760000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+42",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2880000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+44",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 3000000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+46",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 3120000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+48",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 3240000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+50",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 3360000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+52",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 3480000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+54",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 0,
+        "death": 14,
+        "wand": 15,
+        "paralysis": 16,
+        "breath": 17,
+        "spell": 17
+      },
+      {
+        "level": 3,
+        "death": 12,
+        "wand": 13,
+        "paralysis": 14,
+        "breath": 15,
+        "spell": 16
+      },
+      {
+        "level": 6,
+        "death": 10,
+        "wand": 11,
+        "paralysis": 12,
+        "breath": 13,
+        "spell": 14
+      },
+      {
+        "level": 9,
+        "death": 8,
+        "wand": 9,
+        "paralysis": 10,
+        "breath": 11,
+        "spell": 12
+      },
+      {
+        "level": 12,
+        "death": 6,
+        "wand": 7,
+        "paralysis": 8,
+        "breath": 9,
+        "spell": 10
+      },
+      {
+        "level": 15,
+        "death": 6,
+        "wand": 6,
+        "paralysis": 7,
+        "breath": 8,
+        "spell": 9
+      },
+      {
+        "level": 18,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 6,
+        "breath": 7,
+        "spell": 8
+      },
+      {
+        "level": 21,
+        "death": 5,
+        "wand": 5,
+        "paralysis": 6,
+        "breath": 6,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 5,
+        "breath": 4,
+        "spell": 6
+      },
+      {
+        "level": 27,
+        "death": 4,
+        "wand": 4,
+        "paralysis": 5,
+        "breath": 4,
+        "spell": 5
+      },
+      {
+        "level": 30,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 3,
+        "spell": 4
+      },
+      {
+        "level": 33,
+        "death": 3,
+        "wand": 3,
+        "paralysis": 3,
+        "breath": 2,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "spells": [],
+    "key": "F",
+    "description": "<p>A fighter is a human whose primary focus is martial combat. Renowned for their strength and endurance, fighters excel in melee and ranged combat, often taking the lead in battle to protect their allies. They have the highest hit points among classes, enabling them to withstand significant damage.</p><h3>Key Characteristics:</h3><ul><li><strong>Prime Requisite</strong>: Strength, granting experience bonuses for high scores (5% for 13–15, 10% for 16–18).</li><li><strong>Combat Prowess</strong>: Fighters can use any weapon and wear any type of armor, including shields. They are also adept in specialized maneuvers like Lance Attack and Set Spear vs. Charge.</li><li><strong>Hit Dice</strong>: Fighters roll a d8 for hit points at each level up to the 9th. Beyond that, they gain a fixed 2 hit points per level.</li><li><strong>Maximum Level</strong>: 36th.</li></ul><h3>Advancement:</h3><p>At 9th level, fighters achieve Name level and may choose one of two paths:</p><ul><li><strong>Land-Owning Fighter</strong>: Fighters can petition a ruler for land, often gaining the title of Baron (or equivalent). With their stronghold established, they attract up to 50 loyal fighters (levels 1–3) as retainers. In times of war, they may offer military aid to their ruler and receive assistance if their lands are threatened.</li><li><strong>Traveling Fighter</strong>: These fighters eschew land ownership for a life of adventure. Depending on their alignment, they may adopt roles such as knights or paladins, gaining unique abilities like turning undead or detecting evil.</li></ul><h3>Stronghold Details:</h3><p>Fighters who build a stronghold must secure land either by petitioning a ruler, claiming wilderness territory, or purchasing land. As rulers, they manage their dominion, attract settlers, and lead their men-at-arms in defense or expansion of their holdings. Titles can grow with their dominion's success, from Baron to Duke and beyond.</p><p>Fighters are essential to any adventuring party for their durability and combat capabilities, serving as the backbone of both offense and defense. They excel in both leadership roles and frontline combat, making them versatile and resilient characters.</p>",
+    "classItems": [],
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Lance Attack",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 1,
+        "name": "Set Spear vs. Charge",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Disarm",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Establish Stronghold (F)",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Parry",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Smash",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      },
+      {
+        "level": 12,
+        "name": "Multiple Attacks",
+        "target": 0,
+        "classKey": "F",
+        "changes": ""
+      }
+    ],
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    }
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Yhb6PbnwWehNvwdT",
+  "sort": 700000,
+  "_originalKey": "!items!Yhb6PbnwWehNvwdT"
+}

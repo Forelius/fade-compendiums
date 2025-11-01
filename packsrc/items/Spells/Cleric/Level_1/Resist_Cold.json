@@ -1,0 +1,51 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Resist Cold",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "HkiBWuJBueQq602l",
+  "system": {
+    "tags": [],
+    "description": "<p>When this spell is cast, all creatures within 30' of the spellcaster are protected from freezing temperatures without harm. Those affected also receive a +2 bonus to all saving throws against cold-based attacks. Additionally, any cold damage dealt to them is reduced by 1 point per die, with a minimum of 1 point of damage per die. The effect moves with the spellcaster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "6 turns",
+    "effect": "All creatures within 30'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!HkiBWuJBueQq602l"
+}

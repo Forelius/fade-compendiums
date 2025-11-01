@@ -1,0 +1,614 @@
+{
+  "name": "Swords (Basic)",
+  "formula": "1d100",
+  "results": [
+    "k8dkESLMJEJuwgJe",
+    "c91xT47CuQZTcluO",
+    "q3p35VMKd3jYW10J",
+    "pjuWOcQ1whdmDTqt",
+    "IwcCjJuXG0K1rfbc",
+    "LiDFixUfHAbYzxvL",
+    "7A80DTVAa63iVuoO",
+    "x3754AIvOq9MSOD7",
+    "uaO6UUmth2HWImC7",
+    "Oh1sf3lBlC7tiQP6",
+    "17QQnYoGFF22D2Vj",
+    "nbjQjRCqVdTjYzVF",
+    "yWvyKNnRL25T2Isc",
+    "fuScvuOkUp8BtBWQ",
+    "CCFq7QhP0DU9AIey",
+    "mckykQyI0DlSEDfT",
+    "nbp0U8OXT40knEyb",
+    "L3JsIXoI0mtUmYVS",
+    "53c0gnWBR1X902pF",
+    "6CEfXLpQosPUYgC9",
+    "pBapXheFQgb80bV8",
+    "qD4ixN1Hgm0J1wht",
+    "hIgMANRuWSE99uEJ",
+    "i2XSeUEmOsw3Wenw",
+    "BrL2qmDJhqDgKktF",
+    "ew9DLNwwrdXs9dCU",
+    "9mvYNXFVh28tADcJ",
+    "ZbseeDgz1WcAq7Cx",
+    "l86drfkj7VSFe07S",
+    "RjbUR8DBuI9pvGCL",
+    "rmX7ODTemT5ryzsU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Generates a specific magical sword, including short, normal, bastard, and two-handed types, with bonuses or special effects.</p>",
+  "folder": "rWQmXw0xnkTcorjC",
+  "_id": "0vTcps3bBiFte5EK",
+  "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!0vTcps3bBiFte5EK",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.17QQnYoGFF22D2Vj",
+      "range": [
+        41,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "17QQnYoGFF22D2Vj",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.53c0gnWBR1X902pF",
+      "range": [
+        70,
+        70
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "53c0gnWBR1X902pF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs undead",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.6CEfXLpQosPUYgC9",
+      "range": [
+        71,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "6CEfXLpQosPUYgC9",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.7A80DTVAa63iVuoO",
+      "range": [
+        37,
+        37
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "7A80DTVAa63iVuoO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs lycanthropes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.9mvYNXFVh28tADcJ",
+      "range": [
+        89,
+        89
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "9mvYNXFVh28tADcJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs spellcasters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.BrL2qmDJhqDgKktF",
+      "range": [
+        87,
+        87
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "BrL2qmDJhqDgKktF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs lycanthropes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.CCFq7QhP0DU9AIey",
+      "range": [
+        66,
+        66
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "CCFq7QhP0DU9AIey",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs giantkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.IwcCjJuXG0K1rfbc",
+      "range": [
+        35,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "IwcCjJuXG0K1rfbc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs dragonkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.L3JsIXoI0mtUmYVS",
+      "range": [
+        69,
+        69
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "L3JsIXoI0mtUmYVS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs spellcasters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.LiDFixUfHAbYzxvL",
+      "range": [
+        36,
+        36
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "LiDFixUfHAbYzxvL",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs giantkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.Oh1sf3lBlC7tiQP6",
+      "range": [
+        40,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "Oh1sf3lBlC7tiQP6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs undead",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.RjbUR8DBuI9pvGCL",
+      "range": [
+        96,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "RjbUR8DBuI9pvGCL",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.ZbseeDgz1WcAq7Cx",
+      "range": [
+        90,
+        90
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "ZbseeDgz1WcAq7Cx",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs undead",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.c91xT47CuQZTcluO",
+      "range": [
+        11,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "c91xT47CuQZTcluO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, short +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.ew9DLNwwrdXs9dCU",
+      "range": [
+        88,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "ew9DLNwwrdXs9dCU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs regenerating monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.fuScvuOkUp8BtBWQ",
+      "range": [
+        65,
+        65
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "fuScvuOkUp8BtBWQ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs dragonkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.hIgMANRuWSE99uEJ",
+      "range": [
+        85,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "hIgMANRuWSE99uEJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs dragonkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.i2XSeUEmOsw3Wenw",
+      "range": [
+        86,
+        86
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "i2XSeUEmOsw3Wenw",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1, +3 vs giantkind",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.k8dkESLMJEJuwgJe",
+      "range": [
+        1,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "k8dkESLMJEJuwgJe",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, short +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.l86drfkj7VSFe07S",
+      "range": [
+        91,
+        95
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "l86drfkj7VSFe07S",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.mckykQyI0DlSEDfT",
+      "range": [
+        67,
+        67
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "mckykQyI0DlSEDfT",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs lycanthropes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.nbjQjRCqVdTjYzVF",
+      "range": [
+        51,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "nbjQjRCqVdTjYzVF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.nbp0U8OXT40knEyb",
+      "range": [
+        68,
+        68
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "nbp0U8OXT40knEyb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1, +3 vs regenerating monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.pBapXheFQgb80bV8",
+      "range": [
+        76,
+        80
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "pBapXheFQgb80bV8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.pjuWOcQ1whdmDTqt",
+      "range": [
+        31,
+        34
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "pjuWOcQ1whdmDTqt",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.q3p35VMKd3jYW10J",
+      "range": [
+        21,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "q3p35VMKd3jYW10J",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, short +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.qD4ixN1Hgm0J1wht",
+      "range": [
+        81,
+        84
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "qD4ixN1Hgm0J1wht",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, two-handed +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.rmX7ODTemT5ryzsU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "rmX7ODTemT5ryzsU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Cursed Sword Check",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xINohxxAaSY6Bn7r",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.uaO6UUmth2HWImC7",
+      "range": [
+        39,
+        39
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "uaO6UUmth2HWImC7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs spellcasters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.x3754AIvOq9MSOD7",
+      "range": [
+        38,
+        38
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "x3754AIvOq9MSOD7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, normal +1, +3 vs regenerating monsters",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!0vTcps3bBiFte5EK.yWvyKNnRL25T2Isc",
+      "range": [
+        61,
+        64
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
+      "_id": "yWvyKNnRL25T2Isc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Sword, bastard +1",
+      "name": ""
+    }
+  ]
+}

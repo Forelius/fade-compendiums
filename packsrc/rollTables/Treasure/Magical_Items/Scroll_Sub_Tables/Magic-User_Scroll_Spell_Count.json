@@ -1,0 +1,201 @@
+{
+  "folder": "n7Qa1SlC67cGTPcX",
+  "name": "Magic-User Scroll Spell Count",
+  "_id": "8k1kTShAwNiPi0B6",
+  "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+  "description": "<p>Determines the number of spells on the spell scroll. Roll for the level of each spell separately.</p>",
+  "results": [
+    "j5SL7LM7tlJSShrj",
+    "APxIN6sL9a6mA0DT",
+    "Qj0m9FoX5Glz3lPO",
+    "YHmcOzEZY8h8ElIv",
+    "G5BRip1hhAPBd4TD",
+    "zfi3GRpsD71I39bN",
+    "E3fodoZoRLwWBulc",
+    "s0GkifmfiGJbvtOy",
+    "CLREQjfvrPWl5wUY"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "sort": 0,
+  "_originalKey": "!tables!8k1kTShAwNiPi0B6",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.APxIN6sL9a6mA0DT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        83
+      ],
+      "drawn": false,
+      "_id": "APxIN6sL9a6mA0DT",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Scroll has two spells",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.CLREQjfvrPWl5wUY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        84,
+        100
+      ],
+      "drawn": false,
+      "_id": "CLREQjfvrPWl5wUY",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.E3fodoZoRLwWBulc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        84,
+        100
+      ],
+      "drawn": false,
+      "_id": "E3fodoZoRLwWBulc",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.G5BRip1hhAPBd4TD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        51,
+        83
+      ],
+      "drawn": false,
+      "_id": "G5BRip1hhAPBd4TD",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.Qj0m9FoX5Glz3lPO",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        84,
+        100
+      ],
+      "drawn": false,
+      "_id": "Qj0m9FoX5Glz3lPO",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Scroll has three spells",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.YHmcOzEZY8h8ElIv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "_id": "YHmcOzEZY8h8ElIv",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.j5SL7LM7tlJSShrj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "_id": "j5SL7LM7tlJSShrj",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Scroll has one spell",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.s0GkifmfiGJbvtOy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        84,
+        100
+      ],
+      "drawn": false,
+      "_id": "s0GkifmfiGJbvtOy",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!8k1kTShAwNiPi0B6.zfi3GRpsD71I39bN",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        51,
+        83
+      ],
+      "drawn": false,
+      "_id": "zfi3GRpsD71I39bN",
+      "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Magic-User Scroll Spell Level",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BZO6paI4ru176U05",
+      "description": ""
+    }
+  ]
+}

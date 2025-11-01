@@ -1,0 +1,72 @@
+{
+  "name": "Invulnerable",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/invulnerable.webp",
+  "_id": "qp7GJ2hwgZsb5nQ5",
+  "system": {
+    "key": "invulnerable",
+    "shortName": "",
+    "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p>",
+    "addStatusEffect": true
+  },
+  "effects": [
+    "qHPt0PTFZdRfA9F6"
+  ],
+  "folder": "DHxEnc4I068rxlES",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 5100000,
+  "_originalKey": "!items!qp7GJ2hwgZsb5nQ5",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!qp7GJ2hwgZsb5nQ5.qHPt0PTFZdRfA9F6",
+      "name": "Invulnerable",
+      "img": "systems/fantastic-depths/assets/img/ui/invulnerable.webp",
+      "origin": "Item.qp7GJ2hwgZsb5nQ5",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "qHPt0PTFZdRfA9F6",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.ac",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffe5fe",
+      "transfer": true,
+      "statuses": [
+        "magicShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

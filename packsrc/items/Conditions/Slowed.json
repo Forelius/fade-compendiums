@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Slowed",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/snail.png",
+  "_id": "73BmTVHh88kGcTAF",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p><span style=\"font-family: Barlow, sans-serif\">Slowed creatures move and attack at half speed but are otherwise unaffected, including spellcasting and magical device usage. Each affected creature may make a saving throw vs. spells to avoid the effect.</span></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "6TjivOKXqeYbOSUi"
+  ],
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!73BmTVHh88kGcTAF",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!73BmTVHh88kGcTAF.6TjivOKXqeYbOSUi",
+      "name": "Slowed",
+      "img": "systems/fantastic-depths/assets/img/ui/snail.png",
+      "disabled": false,
+      "_id": "6TjivOKXqeYbOSUi",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "slowed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

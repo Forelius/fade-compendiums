@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Ethereal",
+  "type": "condition",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "_id": "61Xw1f6KQ9olpeuo",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>When a monster or character is in ethereal form, they become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "tnM5CZP2lbazKAnH"
+  ],
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!61Xw1f6KQ9olpeuo",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!61Xw1f6KQ9olpeuo.tnM5CZP2lbazKAnH",
+      "name": "Ethereal",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "disabled": false,
+      "_id": "tnM5CZP2lbazKAnH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "ethereal"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

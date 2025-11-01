@@ -1,0 +1,62 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Animal Control",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Can control up to [[/r 3d6 #Potion of Animal Control Hit Dice worth of animals]] Hit Dice worth of animals (normal or giant, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 700,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.acyuYs9pfqyDAcSv",
+        "action": "consume",
+        "castAs": "",
+        "name": "Control Animals"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "wI6GRgmGw0Lk9lPs",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 3700000,
+  "_originalKey": "!items!wI6GRgmGw0Lk9lPs"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Fear",
+  "type": "condition",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "6X7axZ0ICRfOMyXW"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "oYjWYjpLycaMM1ME",
+  "sort": 5000000,
+  "_originalKey": "!items!oYjWYjpLycaMM1ME",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!oYjWYjpLycaMM1ME.6X7axZ0ICRfOMyXW",
+      "name": "Fear",
+      "img": "icons/svg/aura.svg",
+      "disabled": false,
+      "_id": "6X7axZ0ICRfOMyXW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": 1200,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "fear"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

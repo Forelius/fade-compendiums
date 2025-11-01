@@ -1,0 +1,63 @@
+{
+  "name": "Missile Talent 20%",
+  "formula": "1d100",
+  "results": [
+    "O2v9BanssZaa7HHQ",
+    "6Bb7ktdu5FAtgNCc"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines if a missile has a talent (20% chance). Roll on the Missile Talents table if successful.</p>",
+  "folder": "KdAs2wEF7A5AGw7s",
+  "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "kUkyQlcKjAxllEgv",
+  "sort": 0,
+  "_originalKey": "!tables!kUkyQlcKjAxllEgv",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!kUkyQlcKjAxllEgv.6Bb7ktdu5FAtgNCc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
+      "_id": "6Bb7ktdu5FAtgNCc",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Missile Talents",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.soz3NhuvLcvgVC72",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!kUkyQlcKjAxllEgv.O2v9BanssZaa7HHQ",
+      "range": [
+        21,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "O2v9BanssZaa7HHQ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "No Talent",
+      "name": ""
+    }
+  ]
+}

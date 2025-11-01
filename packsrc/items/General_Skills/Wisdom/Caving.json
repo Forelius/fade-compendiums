@@ -1,0 +1,36 @@
+{
+  "name": "Caving",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The character with this skill always knows their location while exploring underground caves, caverns, and river systems. They automatically recall the route taken as long as they were conscious. This skill is especially useful for dwarves and can also help characters navigate mazes. If disoriented or forced to flee for a long distance, a skill check is required to avoid becoming lost.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "aabXBbJ4t5NEtBdz",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!aabXBbJ4t5NEtBdz"
+}

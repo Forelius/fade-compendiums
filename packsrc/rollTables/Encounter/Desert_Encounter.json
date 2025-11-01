@@ -1,0 +1,184 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Desert Encounter",
+  "_id": "0UfTUxcHRZNSxvMc",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Desert Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "YtcH9GMi0NhRzMo4",
+    "6mF9atqjS9yXM0Kz",
+    "yaaHGNaj29Mb5Zhi",
+    "LJ2QTsUmkWviD4DN",
+    "rNDmENFwccJ7O3nA",
+    "U8SLxgsZccpQmY8x",
+    "uOUoxSbr4RFx6oZb",
+    "1IbTW7y3YNHvbRtJ"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!0UfTUxcHRZNSxvMc",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.1IbTW7y3YNHvbRtJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "1IbTW7y3YNHvbRtJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.EX1XXyRZSwExUz9J",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.6mF9atqjS9yXM0Kz",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "6mF9atqjS9yXM0Kz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Flyers (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.nOxKlJYO6ReDgkpq",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.LJ2QTsUmkWviD4DN",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "LJ2QTsUmkWviD4DN",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.aNeleeNjPLkyK61c",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.U8SLxgsZccpQmY8x",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "U8SLxgsZccpQmY8x",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragons",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JjKeOku91T3TOM2Q",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.YtcH9GMi0NhRzMo4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "YtcH9GMi0NhRzMo4",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.aNeleeNjPLkyK61c",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.rNDmENFwccJ7O3nA",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "rNDmENFwccJ7O3nA",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.EX1XXyRZSwExUz9J",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.uOUoxSbr4RFx6oZb",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "uOUoxSbr4RFx6oZb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Undead",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.bWs9O1f5vjCdqbYN",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!0UfTUxcHRZNSxvMc.yaaHGNaj29Mb5Zhi",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "yaaHGNaj29Mb5Zhi",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Humanoid (Desert)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xM8KWXeAyEc4cAhu",
+      "description": ""
+    }
+  ]
+}

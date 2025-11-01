@@ -1,0 +1,105 @@
+{
+  "name": "Sword, Two-Handed",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "monster",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "1d10",
+        "sDmgFormula": "",
+        "acBonusType": "none",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": ""
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "2d6+1",
+        "sDmgFormula": "",
+        "acBonusType": "none",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Stun + deflect (1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "2d8+2",
+        "sDmgFormula": "",
+        "acBonusType": "none",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Stun + deflect (2)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "3d6+3",
+        "sDmgFormula": "2d8+3",
+        "acBonusType": "none",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Stun + deflect (2)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "pDmgFormula": "3d6+6",
+        "sDmgFormula": "3d6+2",
+        "acBonusType": "none",
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Stun + deflect (3)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "bRrOmQkJASjmTfvF",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2500000,
+  "_originalKey": "!items!bRrOmQkJASjmTfvF"
+}

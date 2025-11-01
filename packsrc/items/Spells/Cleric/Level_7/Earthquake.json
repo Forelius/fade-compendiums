@@ -1,0 +1,47 @@
+{
+  "name": "Earthquake",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This powerful spell causes the ground to shake violently, creating cracks and destruction in an area up to 60' square. The affected area increases by 5' per caster level above 17th.</p>\n                      <p><strong>Area of Effect:</strong></p>\n                      <ul>\n                        <li>17th level cleric: 60' square</li>\n                        <li>18th level cleric: 65' square</li>\n                        <li>19th level cleric: 70' square</li>\n                        <li>+5' to each dimension per additional level</li>\n                      </ul>\n                      <p><strong>Effects:</strong></p>\n                      <ul>\n                        <li>Small dwellings collapse into rubble.</li>\n                        <li>Larger structures suffer severe cracks.</li>\n                        <li>Hills, cliffs, and earthen formations trigger rockslides.</li>\n                        <li>Cracks may open in the ground, randomly engulfing 1 in 6 creatures.</li>\n                      </ul>\n                      <p>A creature in danger of falling into a crack may attempt a <strong>saving throw vs. death</strong> to avoid being crushed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120 yards",
+    "duration": "1 turn",
+    "effect": "Causes earth tremors",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "save",
+    "damageType": "physical",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "death",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "8Dg9giCAW1qogz8t",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!8Dg9giCAW1qogz8t"
+}

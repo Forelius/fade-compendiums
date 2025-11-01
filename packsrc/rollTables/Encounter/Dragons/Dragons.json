@@ -1,0 +1,504 @@
+{
+  "folder": "xcOAgoOBQeRJfMPK",
+  "name": "Dragons",
+  "_id": "JjKeOku91T3TOM2Q",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Dragon encounter.</p>",
+  "results": [
+    "5GIyq7CmfhFoJARz",
+    "2bmf15h40vMbMSVQ",
+    "ZEGKBPTdpMVNJ2ab",
+    "lnCzY6TZxKMnNPRU",
+    "HjH9zr9YsDKm4u5u",
+    "o80JKP2nHdAqPHum",
+    "BP9dNBVWi9bmvGpN",
+    "CLUgIQfJ3LmdqmMO",
+    "i2ViJvLOyQq4Cwlm",
+    "yFc71XVBvQrDO182",
+    "dFJkGnFz3RWLFlnK",
+    "bWTQebF65tVEftII",
+    "wKDvLZ7eUYxFrfoF",
+    "zki00lIUtJ1ccN1w",
+    "bGaRgDCSMo0LW14Q",
+    "RphGlWyDYf6lagj1",
+    "yKSMHqyz9xK00h2D",
+    "E2QSQJyc5W2dWBul",
+    "wkgkGFC9DJE49ixg",
+    "MEUnRBxvZdipbzRY",
+    "5RouWx4Rx0uQZlLC",
+    "9OI9IVriiXdSN4tM",
+    "UTvsDXTJD42koRek",
+    "Uc273kl1fi86bECS"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d24",
+  "sort": 0,
+  "_originalKey": "!tables!JjKeOku91T3TOM2Q",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.2bmf15h40vMbMSVQ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "2bmf15h40vMbMSVQ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Black (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.e5RafGI3Ufyu1cVs",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.5GIyq7CmfhFoJARz",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "5GIyq7CmfhFoJARz",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Chimera",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.VWs3X9tU2MUzc2pK",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.5RouWx4Rx0uQZlLC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "5RouWx4Rx0uQZlLC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.9OI9IVriiXdSN4tM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9OI9IVriiXdSN4tM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Wyvern",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.iW9kMvGOdIPfa650",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.BP9dNBVWi9bmvGpN",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "BP9dNBVWi9bmvGpN",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Blue (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.0YHhsLFEOOu1lY88",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.CLUgIQfJ3LmdqmMO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "CLUgIQfJ3LmdqmMO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Gold (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.hwFaPQEh5xg7k1Aa",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.E2QSQJyc5W2dWBul",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "E2QSQJyc5W2dWBul",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, White (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.AvBsRLh9aJ0La8sG",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.HjH9zr9YsDKm4u5u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "HjH9zr9YsDKm4u5u",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Blue (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.UttRCxBQVIDdhQsd",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.MEUnRBxvZdipbzRY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "MEUnRBxvZdipbzRY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.RphGlWyDYf6lagj1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "RphGlWyDYf6lagj1",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Red (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.427IcdQRRKlAjeLF",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.UTvsDXTJD42koRek",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "UTvsDXTJD42koRek",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.Uc273kl1fi86bECS",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "Uc273kl1fi86bECS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "",
+      "documentUuid": null,
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.ZEGKBPTdpMVNJ2ab",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "ZEGKBPTdpMVNJ2ab",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Black (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.0EtAFVM6AeCZVUek",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.bGaRgDCSMo0LW14Q",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "bGaRgDCSMo0LW14Q",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Red (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.n2pdubQj3Lw9M7Xp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.bWTQebF65tVEftII",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "bWTQebF65tVEftII",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Green (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.yuvekRth5f9hs5FG",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.dFJkGnFz3RWLFlnK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "dFJkGnFz3RWLFlnK",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Green (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.DXetjL8gZnouFVXR",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.i2ViJvLOyQq4Cwlm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "i2ViJvLOyQq4Cwlm",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Gold (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.y1mQX4M62INdfeZj",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.lnCzY6TZxKMnNPRU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "lnCzY6TZxKMnNPRU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Black (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.o4fvBDEb75hQz3Cb",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.o80JKP2nHdAqPHum",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "o80JKP2nHdAqPHum",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Blue (Large)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.fKlh8fMrqS8i1yzg",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.wKDvLZ7eUYxFrfoF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "wKDvLZ7eUYxFrfoF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Green (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.U4mHHB1kxhLqSeRb",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.wkgkGFC9DJE49ixg",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "wkgkGFC9DJE49ixg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, White (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.0AEPnZ6fzo0Ht24g",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.yFc71XVBvQrDO182",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "yFc71XVBvQrDO182",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Gold (Huge)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.1IEPooTD2M81A1KI",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.yKSMHqyz9xK00h2D",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "yKSMHqyz9xK00h2D",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, White (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.U8maEWtU7rWKYg13",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!JjKeOku91T3TOM2Q.zki00lIUtJ1ccN1w",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "zki00lIUtJ1ccN1w",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragon, Red (Small)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.WTlvfSJxGCjCtf7Z",
+      "description": ""
+    }
+  ]
+}

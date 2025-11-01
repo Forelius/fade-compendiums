@@ -1,0 +1,1018 @@
+{
+  "folder": "KoSmKfYC4DvXlBVv",
+  "name": "Bandit (3HD)",
+  "type": "monster",
+  "_id": "iraH01OroqdGro5l",
+  "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
+  "system": {
+    "details": {
+      "alignment": "Chaotic or Neutral",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 10,
+      "attacks": "1",
+      "abilityCount": 1,
+      "monsterType": "Human",
+      "saveAs": "T3",
+      "castAs": "",
+      "classAbilityAs": "",
+      "level": 1,
+      "rarity": "Common",
+      "weight": ""
+    },
+    "hp": {
+      "hd": "3",
+      "value": 14,
+      "max": 14
+    },
+    "na": {
+      "wandering": "2d4",
+      "lair": "3d10"
+    },
+    "treasure": "U (A)",
+    "thac0": {
+      "value": 17,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "movement": {
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
+    },
+    "gm": {
+      "notes": ""
+    },
+    "biography": "<p>Bandits are NPC thieves who have come together to rob others. They typically operate in small groups or larger communities of 3-30 members. Often they send out raiding parties of 2-4 bandits to target travelers.</p>\n      <p>Bandits use deception, pretending to be ordinary people to surprise their victims. They are also known to set up ambushes, blocking roads with obstacles like fallen trees to force travelers to stop. Once stopped, the bandits attack from hiding, using ranged weapons to rob their victims.</p>\n      <p>In a bandit's lair, Treasure Type A can be found, but this is not carried by individual bandits. Bandits may be led by an NPC of any human character class, who is one or more levels higher than the bandits. This leader might have greater ambitions beyond robbery, such as organizing a network of bandit gangs for a more nefarious purpose or seeking revenge for an injustice.</p>\n      <p><strong>Terrain:</strong> Any, usually wilderness along main roads.</p>",
+    "wrestling": 12,
+    "encumbrance": {
+      "max": 0,
+      "value": 4,
+      "label": "Unencumbered",
+      "mv": 90,
+      "desc": "Free to move without any hindrance.",
+      "mv2": 0
+    },
+    "config": {
+      "maxSpellLevel": 0,
+      "firstSpellLevel": 1
+    },
+    "mod": {
+      "ac": null,
+      "baseAc": 0,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": "0",
+        "toHitRanged": 0,
+        "dmgRanged": "0",
+        "selfDmg": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0,
+        "selfDmgRanged": 0
+      },
+      "save": {
+        "all": 0,
+        "death": 0,
+        "wand": 0,
+        "paralysis": 0,
+        "breath": 0,
+        "spell": 0
+      },
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "rangedAc": 0,
+      "wrestling": null,
+      "masteryLevelOverride": null
+    },
+    "ac": {
+      "naked": 9,
+      "value": 6,
+      "total": 6,
+      "mod": 0,
+      "shield": 0,
+      "nakedAAC": 10,
+      "totalAAC": 10,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 9,
+      "totalRangedAAC": 10,
+      "av": "0"
+    },
+    "combat": {
+      "attacks": 0,
+      "isDead": false,
+      "deathCount": 0,
+      "declaredAction": "attack",
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "basicProficiency": true,
+      "unskilledToHitMod": -2
+    },
+    "thbonus": 2,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "acDigest": [],
+    "activeLight": null,
+    "isEnchanted": false,
+    "abilities": {
+      "int": {
+        "value": 11,
+        "total": 11,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "con": {
+        "value": 12,
+        "total": 6,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "wis": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "dex": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "cha": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "loyaltyMod": 0,
+        "tempMod": 0
+      }
+    },
+    "monsterTypes": [],
+    "tags": [],
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "actorGroups": [
+      "weapon-using"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Enforcer",
+    "displayName": 20,
+    "actorLink": false,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/fantastic-depths/assets/img/actor/rogue2a.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 0.9,
+      "scaleY": 0.9,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "enabled": true,
+        "range": 60
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    "VrHF08EGwEq2BNmn",
+    "PWQC2rxGoHcoEaVD",
+    "7JOmpcBOnv2zeekj",
+    "4HL92qylb7n2UTfn",
+    "TPunVnDS8yVIvbcV",
+    "SETtc4u6iAb6HP1h",
+    "eCkMVzlpecr9yRay",
+    "6j1KiaWlwv4WuGRR",
+    "c3iq9ZEOcH69oiwx",
+    "0O7j7QCFg7XvjhIq",
+    "4gqcAs9PntHmvNIF"
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1100000,
+  "_originalKey": "!actors!iraH01OroqdGro5l",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.0O7j7QCFg7XvjhIq",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "0O7j7QCFg7XvjhIq",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.4HL92qylb7n2UTfn",
+      "folder": "r1PrA7ouTjXcMV7h",
+      "name": "Chain Mail",
+      "type": "armor",
+      "_id": "4HL92qylb7n2UTfn",
+      "img": "modules/fade-compendiums/assets/img/armor/chainmail.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 400,
+        "cost": 40,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "ac": 5,
+        "isShield": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "totalAC": 9,
+        "totalAAC": 9,
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": null,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "weightEquipped": 400,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "av": null,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3,
+        "M8QHXsfKwLsKK3Op": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.4gqcAs9PntHmvNIF",
+      "folder": "u7s4NR16AZdcIm0l",
+      "name": "Pellets (lead)",
+      "type": "ammo",
+      "img": "icons/weapons/ammunition/shot-round-lead.webp",
+      "_id": "4gqcAs9PntHmvNIF",
+      "system": {
+        "shortName": "",
+        "description": "<p>Ammunition for a sling.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 30,
+        "quantityMax": 30,
+        "weight": 0.2,
+        "weightEquipped": 0.2,
+        "cost": 1,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "equippable": true,
+        "ammoType": "pellet",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isDropped": false,
+        "savingThrow": "",
+        "healFormula": "",
+        "damageType": "physical",
+        "isAmmo": true,
+        "mod": {
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "vsGroup": {}
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.6j1KiaWlwv4WuGRR",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "6j1KiaWlwv4WuGRR",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.7JOmpcBOnv2zeekj",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Dagger",
+      "type": "weapon",
+      "_id": "7JOmpcBOnv2zeekj",
+      "img": "modules/fade-compendiums/assets/img/weapon/dagger.webp",
+      "system": {
+        "tags": [
+          "magic-user",
+          "thrown",
+          "small"
+        ],
+        "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 1,
+        "weight": 10,
+        "cost": 3,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d4",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "handheld",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Dagger",
+        "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "S",
+        "grip": "1H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "group": 1,
+          "used": 0
+        },
+        "weightEquipped": 10,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3,
+        "M8QHXsfKwLsKK3Op": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 1100000
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.PWQC2rxGoHcoEaVD",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Sword, Normal",
+      "type": "weapon",
+      "_id": "PWQC2rxGoHcoEaVD",
+      "img": "modules/fade-compendiums/assets/img/weapon/sword.webp",
+      "system": {
+        "tags": [
+          "medium"
+        ],
+        "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 60,
+        "cost": 10,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d8",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Sword, Normal",
+        "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
+        "grip": "1H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "used": 0,
+          "group": 0
+        },
+        "weightEquipped": 60,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3,
+        "M8QHXsfKwLsKK3Op": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 1000000
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.SETtc4u6iAb6HP1h",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Death Ray or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "SETtc4u6iAb6HP1h",
+      "system": {
+        "tags": [],
+        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "shortName": "Death",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.TPunVnDS8yVIvbcV",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Sling",
+      "type": "weapon",
+      "_id": "TPunVnDS8yVIvbcV",
+      "img": "modules/fade-compendiums/assets/img/weapon/sling.webp",
+      "system": {
+        "tags": [
+          "cleric",
+          "magic-user",
+          "small"
+        ],
+        "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 20,
+        "cost": 2,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d4",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 160
+        },
+        "container": false,
+        "equippable": false,
+        "ammoType": "pellet",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Sling",
+        "unidentifiedDesc": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "S",
+        "grip": "1H",
+        "charges": null,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "max": 1,
+          "group": 2,
+          "used": 0
+        },
+        "weightEquipped": 20,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.TZ994VvHe5YbjwlE",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Sling",
+      "type": "weapon",
+      "_id": "TZ994VvHe5YbjwlE",
+      "img": "modules/fade-compendiums/assets/img/weapon/sling.webp",
+      "system": {
+        "tags": [
+          "cleric",
+          "magic-user",
+          "small"
+        ],
+        "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 20,
+        "cost": 2,
+        "containerId": "",
+        "equipped": false,
+        "natural": false,
+        "damageRoll": "1d4",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Sling",
+        "weaponType": "monster",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 160
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "treasure": false,
+        "container": false,
+        "equippable": false,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "ammoType": "",
+        "isAmmo": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3,
+        "M8QHXsfKwLsKK3Op": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "sort": 2300000
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.VrHF08EGwEq2BNmn",
+      "name": "Ambush",
+      "type": "specialAbility",
+      "system": {
+        "tags": [],
+        "description": "<p>Bandits often set up ambushes, using obstacles like fallen trees to force travelers to stop, then attacking with ranged weapons from cover.</p>",
+        "gm": {
+          "notes": "Ambush tactics for surprise attacks."
+        },
+        "rollFormula": "",
+        "operator": "",
+        "target": "0",
+        "rollMode": "",
+        "savingThrow": null,
+        "dmgFormula": null,
+        "healFormula": null,
+        "damageType": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": null,
+        "customSaveCode": null,
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "VrHF08EGwEq2BNmn",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.c3iq9ZEOcH69oiwx",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "c3iq9ZEOcH69oiwx",
+      "system": {
+        "shortName": "Breath",
+        "tags": [],
+        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!iraH01OroqdGro5l.eCkMVzlpecr9yRay",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "eCkMVzlpecr9yRay",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

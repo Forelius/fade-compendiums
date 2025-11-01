@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Infravision",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/night-vision.png",
+  "_id": "hYEizXtc25iDKcld",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p><span style=\"font-family: Barlow, sans-serif\">Infravision grants the recipient the ability to see in the dark up to a 60' range, similar to the infravision of dwarves and elves. Infravision detects heat and works alongside normal vision, allowing the recipient to discern objects and creatures based on temperature differences.</span></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "AnomHL7MZp9pqWct"
+  ],
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!hYEizXtc25iDKcld",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!hYEizXtc25iDKcld.AnomHL7MZp9pqWct",
+      "name": "Infravision",
+      "img": "systems/fantastic-depths/assets/img/ui/night-vision.png",
+      "disabled": false,
+      "_id": "AnomHL7MZp9pqWct",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "infravision"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

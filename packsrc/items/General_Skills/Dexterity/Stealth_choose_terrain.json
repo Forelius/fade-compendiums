@@ -1,0 +1,36 @@
+{
+  "name": "Stealth (choose terrain)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Stealth skill allows a character to move silently and remain unseen in a specific type of environment, such as forests, urban areas, or caves. The chosen terrain must be specified when the skill is selected. Characters with this skill can avoid detection, set up ambushes, or scout ahead without revealing their presence. The effectiveness of this skill may depend on the terrain's features and the character’s preparation.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "level": 1,
+    "rollMode": "blindroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "Va8IbjbQIQwNc846",
+  "effects": [],
+  "folder": "IkRJGH236ypzekkN",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Va8IbjbQIQwNc846"
+}

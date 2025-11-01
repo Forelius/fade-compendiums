@@ -1,0 +1,36 @@
+{
+  "name": "Endurance",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Endurance skill allows a character to perform strenuous activities over extended periods without succumbing to fatigue or exhaustion. It covers activities such as running, swimming, or marching for long distances, as well as withstanding harsh environmental conditions like extreme heat or cold. A successful Endurance check may be required to avoid penalties from prolonged exertion or to maintain performance in challenging circumstances.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "con",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "Dy31xkIKNn4ksqvP",
+  "effects": [],
+  "folder": "8HgzOEIWO11b44fs",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Dy31xkIKNn4ksqvP"
+}

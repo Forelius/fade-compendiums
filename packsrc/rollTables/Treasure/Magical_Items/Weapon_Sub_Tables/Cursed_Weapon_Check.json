@@ -1,0 +1,62 @@
+{
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "name": "Cursed Weapon Check",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "description": "<p>Check top see if the weapon is cursed. This is used for miscellaneous weapons.</p>",
+  "results": [
+    "GMIYghqXYj3owshV",
+    "PvntPV0RNStv0aVU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "_id": "n8XzRtZWvpPYQ0oi",
+  "sort": 0,
+  "_originalKey": "!tables!n8XzRtZWvpPYQ0oi",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!n8XzRtZWvpPYQ0oi.GMIYghqXYj3owshV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "GMIYghqXYj3owshV",
+      "img": "icons/svg/hazard.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Cursed!</strong>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!n8XzRtZWvpPYQ0oi.PvntPV0RNStv0aVU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        20
+      ],
+      "drawn": false,
+      "_id": "PvntPV0RNStv0aVU",
+      "img": "icons/svg/d20-grey.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": ""
+    }
+  ]
+}

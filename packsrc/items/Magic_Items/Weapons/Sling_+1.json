@@ -1,0 +1,77 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Sling +1",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/sling.webp",
+  "system": {
+    "tags": [
+      "cleric",
+      "magic-user"
+    ],
+    "description": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": 2,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Sling",
+    "weaponType": "monster",
+    "range": {
+      "short": 40,
+      "medium": 80,
+      "long": 160
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "pellet",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Sling",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A sling is a long (4’ to 6’) leather  cord with a pouch half way along. The  wielder straps one end of the cord around their wrist and holds the other end in the same hand. They then place  a lead pellet in the pouch and swing the  cord over their head. At the mid-point of the swing, they let go of the loose end, which releases the pellet. Slings normally require pellets as ammunition, although they can be used with stones  taken from the ground, albeit with a –1 penalty on to-hit and damage rolls.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6n8Lp67sw0jMtDWq",
+  "sort": 0,
+  "_originalKey": "!items!6n8Lp67sw0jMtDWq"
+}

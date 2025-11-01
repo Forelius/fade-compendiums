@@ -1,0 +1,43 @@
+{
+  "name": "ESP* (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>This magical effect allows the spellcaster to \"hear\" thoughts. The caster must concentrate in one direction for six rounds (one minute) to hear the thoughts (if any) of a creature within range. The effect allows the user to understand the thoughts of any single living creature, regardless of language. It does not allow the user to hear the thoughts of undead creatures.</p><p>If more than one creature is within range and in the direction the user is concentrating, they will \"hear\" a confused jumble of thoughts. The user can sort out the jumble only by concentrating for an extra six rounds to find a single creature.</p><p><em>ESP</em> is not hindered by any amount of wood or liquid and will penetrate up to two feet of rock, but a thin coating of lead will block the spell. Targets can make a saving throw vs. spells to avoid the effects.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "7-12 turns",
+    "effect": "All thoughts in one direction",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "X8T1Xc5HeZIhJuCM",
+  "sort": 2400000,
+  "_originalKey": "!items!X8T1Xc5HeZIhJuCM"
+}

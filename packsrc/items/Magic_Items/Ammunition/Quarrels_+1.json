@@ -1,0 +1,52 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Quarrels +1",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "_id": "XPYfd9EwkqsKbCVW",
+  "system": {
+    "shortName": "",
+    "description": "<p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> As a class A weapon, these missiles become nonmagical once used, even if the attack roll indicated a miss.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.33,
+    "weightEquipped": 0.33,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "quarrel",
+    "unidentifiedName": "Quarrels",
+    "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {}
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XPYfd9EwkqsKbCVW"
+}

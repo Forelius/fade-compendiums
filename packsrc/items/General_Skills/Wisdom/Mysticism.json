@@ -1,0 +1,36 @@
+{
+  "name": "Mysticism",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>This skill allows a character to instinctively know the proper actions to take in order to please the Immortals in general. A successful skill check can indicate the appropriate behavior or ritual to use when encountering sacred objects, places, or situations related to the Immortals.</p>\n      <p>For example, a successful check might reveal that the party should leave an offering at a shrine or avoid disturbing a holy site. This skill also allows a character to recognize symbols and artifacts of the Immortals, as well as to interpret omens or signs given by them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "AUxBusIy6uhbEvbT",
+  "effects": [],
+  "folder": "8QBqH4QgODKBLrt0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!AUxBusIy6uhbEvbT"
+}

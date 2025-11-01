@@ -1,0 +1,43 @@
+{
+  "name": "Lightning Bolt (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Creates a bolt of lightning that begins up to 180' away from the caster and extends 60' further in a straight line. All creatures within the area of effect take 6d6 points of lightning damage.  Each creature in the path of the bolt may make a saving throw vs. spells for half damage.</p><p><strong>Special Effect:</strong> If the bolt strikes a solid surface, it bounces back toward the caster until it reaches its full length of 60'.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "180'",
+    "duration": "Instantaneous",
+    "effect": "Bolt 60' long, 5' wide",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "6d6",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "0",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "magic",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "BPhFOEPf9rdGESc1",
+  "sort": 3200000,
+  "_originalKey": "!items!BPhFOEPf9rdGESc1"
+}

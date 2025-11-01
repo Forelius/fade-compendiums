@@ -1,0 +1,110 @@
+{
+  "folder": "VEqx2MwLJezy2rPT",
+  "name": "Black Dragon",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "key": "BKDR",
+    "species": "Dragon",
+    "firstLevel": 1,
+    "maxLevel": 3,
+    "firstSpellLevel": 1,
+    "maxSpellLevel": 5,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "alignment": "Any",
+    "description": "<p>Each type of dragon has the ability to cast spells, although not all sizes of dragons know spells. Dragons come in three different size categories, each representing a level from one to three.</p><p>A dragon's class does not define saving throws or special abilities, although it could. A dragon's class is mainly used to define it's spellcasting abilities.</p>",
+    "castAsKey": "",
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "primeReqs": [],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "",
+        "hdcon": false,
+        "title": "Small",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "",
+        "hdcon": false,
+        "title": "Large",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "",
+        "hdcon": false,
+        "title": "Huge",
+        "attackRank": ""
+      }
+    ],
+    "saves": [],
+    "spells": [
+      [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        3,
+        0,
+        0
+      ]
+    ],
+    "specialAbilities": [],
+    "classItems": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "TVClmR416Fk4EEJW",
+  "sort": 0,
+  "_originalKey": "!items!TVClmR416Fk4EEJW"
+}

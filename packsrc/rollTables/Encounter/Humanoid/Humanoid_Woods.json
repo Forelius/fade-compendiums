@@ -1,0 +1,264 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Humanoid (Woods)",
+  "_id": "Aqd2PlDiqmnXFvLX",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Humanoid encounter.</p>",
+  "results": [
+    "mtH8fs2aVgmEXRL8",
+    "QYKJ2ZllhmclRBtC",
+    "KstoTv3xS6LZ3C9X",
+    "rqhlOpLz1DSfAOig",
+    "BFagA7IriZ65gYyh",
+    "PtNaTGuvPjlnpUup",
+    "9FG8x1edtTEQHpl0",
+    "9JCUvIyl7pOXDKyV",
+    "bMjkVZkObMeq9pxG",
+    "M59c4NYEEB3jQe7Q",
+    "tn7kF8V4FV7SB3fa",
+    "Zad1k93ID9mRZEci"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "sort": 0,
+  "_originalKey": "!tables!Aqd2PlDiqmnXFvLX",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.9FG8x1edtTEQHpl0",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9FG8x1edtTEQHpl0",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Thoul",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.UtG2e4IznhIDIw09",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.9JCUvIyl7pOXDKyV",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "9JCUvIyl7pOXDKyV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Troll",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.KH8vjTQaWJ1CEjlp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.BFagA7IriZ65gYyh",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "BFagA7IriZ65gYyh",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Giant, Hill",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.UFb21ansA4HP2roM",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.KstoTv3xS6LZ3C9X",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "KstoTv3xS6LZ3C9X",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dryad",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.m3T1Rmvx6j2UB9gQ",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.M59c4NYEEB3jQe7Q",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "M59c4NYEEB3jQe7Q",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Goblin",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.EqVWG32EA1WJBYwI",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.PtNaTGuvPjlnpUup",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "PtNaTGuvPjlnpUup",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Ogre",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.R811fYr1SDwwKNGd",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.QYKJ2ZllhmclRBtC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "QYKJ2ZllhmclRBtC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Cyclops",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.uovYjpSokQFpPqKq",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.Zad1k93ID9mRZEci",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "Zad1k93ID9mRZEci",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.X8OQuEdiJD9clDQO",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.bMjkVZkObMeq9pxG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "bMjkVZkObMeq9pxG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Gnoll",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.nSCIPTtFkj2Z5Pup",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.mtH8fs2aVgmEXRL8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "mtH8fs2aVgmEXRL8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Bugbear",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.5px1PtF3VqfpotTy",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.rqhlOpLz1DSfAOig",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "rqhlOpLz1DSfAOig",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Elf (1 HD)",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.9pUF0lH2A71umXg0",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.tn7kF8V4FV7SB3fa",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "tn7kF8V4FV7SB3fa",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Orc",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Y4Gb1ERUmgujnIBz",
+      "description": ""
+    }
+  ]
+}

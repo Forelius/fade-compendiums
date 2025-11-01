@@ -1,0 +1,49 @@
+{
+  "name": "Song of Binding",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "d3Jd1iXmYjQy12BI",
+  "system": {
+    "tags": [
+      "bard"
+    ],
+    "description": "<p>This powerful spell-song paralyzes creatures that hear its melody, rendering them unable to act.</p><p><strong>Effects:</strong></p><ul><li><p>The bard may affect up to:</p><ul><li>4 Medium-sized creatures (up to 7' tall).</li><li>2 Large-sized creatures (7+' to 12' tall).</li><li>1 Huge-sized creature (12+' to 25' tall).</li></ul></li><li>The song has no effect on creatures larger than 25' (Gargantuan size).</li><li>All affected targets must hear the song for at least 1 round before they can be paralyzed.</li><li>Each victim may make a saving throw vs. Paralysis to resist the effect.</li><li>On a failed save, the creature is paralyzed for [[/r @actor.details.level #Paralyzed rounds]].</li></ul><p><strong>Ending the Effect:</strong></p><ul><li>The paralysis lasts for 1 round per level of the bard.</li><li>It may be removed by normal means, such as the spell <em>free person</em>.</li><li>The paralysis may also be dispelled by the reverse of this song (if available).</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30' (+10'/level of bard)",
+    "duration": "1 round/level",
+    "effect": "Paralyzes creatures who hear the song",
+    "targetSelf": false,
+    "targetOther": true,
+    "durationFormula": "@actor.details.level",
+    "savingThrow": "paralysis",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Bard",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "G9qIhby35x7Q1vlW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!G9qIhby35x7Q1vlW"
+}

@@ -1,0 +1,49 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Paralyze (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Projects a cone-shaped ray that is 60' long and 30' wide at its end. Any creature struck by the ray must make a saving throw vs. wands or be paralyzed for 6 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60' (30' Cone)",
+    "duration": "6 turns",
+    "effect": "Create cone of paralyzation",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "6*60",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Paralyzed",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.DY1qTMeTxES5AQ7b",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "HWNCQcwXn9Y8Qm4N",
+  "sort": 0,
+  "_originalKey": "!items!HWNCQcwXn9Y8Qm4N"
+}

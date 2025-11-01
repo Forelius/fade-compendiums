@@ -1,0 +1,159 @@
+{
+  "name": "Additional Weapon Mods (Misc)",
+  "formula": "1d100",
+  "results": [
+    "UlgrMBktxu25zk5d",
+    "AHwHO62H3KVAMMLh",
+    "jUj8BRs3zNXY5kJS",
+    "ShoaMk9jjbZKjTfq",
+    "YQrhj0HyLC3V7GzJ",
+    "3gAZNs7TDzlwzRTb",
+    "KpptbqDhK6Lxwk2r"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines additional modifiers for miscellaneous weapons. Use the result to adjust bonuses or roll on the Talents table for a specific talent.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "vWCjh3oONct14YM9",
+  "img": "icons/weapons/axes/axe-battle-orange.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!vWCjh3oONct14YM9",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.3gAZNs7TDzlwzRTb",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        75
+      ],
+      "drawn": false,
+      "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "_id": "3gAZNs7TDzlwzRTb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapon Opponents",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.iCEHHI0wuZdTpZgD",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.AHwHO62H3KVAMMLh",
+      "range": [
+        30,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "AHwHO62H3KVAMMLh",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+2 extra vs opponent",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.KpptbqDhK6Lxwk2r",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        76,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+      "_id": "KpptbqDhK6Lxwk2r",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapon Talents",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.PuJUOofeDBzm5tEy",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.ShoaMk9jjbZKjTfq",
+      "range": [
+        65,
+        72
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "ShoaMk9jjbZKjTfq",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+4 extra vs opponent",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.UlgrMBktxu25zk5d",
+      "range": [
+        1,
+        29
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "UlgrMBktxu25zk5d",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+1 extra vs opponent",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.YQrhj0HyLC3V7GzJ",
+      "range": [
+        73,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "YQrhj0HyLC3V7GzJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+5 extra vs opponent",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!vWCjh3oONct14YM9.jUj8BRs3zNXY5kJS",
+      "range": [
+        51,
+        64
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "jUj8BRs3zNXY5kJS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "+3 extra vs opponent",
+      "name": ""
+    }
+  ]
+}

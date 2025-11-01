@@ -1,0 +1,64 @@
+{
+  "folder": "syhUzFkpaYBv54Vu",
+  "name": "Caveman (Neanderthal)",
+  "_id": "NCwiOHYUOdV9iC8Q",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "u3TXb2XguPiFCBQV",
+    "s0uvPPnyqukCx2GX"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "_originalKey": "!tables!NCwiOHYUOdV9iC8Q",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!NCwiOHYUOdV9iC8Q.s0uvPPnyqukCx2GX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        20
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "s0uvPPnyqukCx2GX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Neanderthal, Leader",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.2eHNxX4vGFbjboaz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!NCwiOHYUOdV9iC8Q.u3TXb2XguPiFCBQV",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "u3TXb2XguPiFCBQV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Neanderthal",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi",
+      "description": ""
+    }
+  ]
+}

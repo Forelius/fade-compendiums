@@ -1,0 +1,20 @@
+{
+  "folder": "icb4lMQ0OOAVdbW7",
+  "name": "Wrestling Contest",
+  "type": "script",
+  "_id": "YG1pkk6CQQEnHs3M",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "systems/fantastic-depths/assets/img/ui/wrestling.webp",
+  "scope": "global",
+  "command": "game.fade.registry.getSystem('wrestling').showWrestlingDialog();",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!YG1pkk6CQQEnHs3M"
+}

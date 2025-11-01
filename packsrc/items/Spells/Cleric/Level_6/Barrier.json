@@ -1,0 +1,47 @@
+{
+  "name": "Barrier*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a magical barrier up to 30' in diameter and 30' high, consisting of whirling and dancing hammers. The barrier is obviously dangerous to any who pass through it.</p><p><strong>Damage:</strong> Any creature passing through the barrier takes [[/r 7d10 #points of damage]]<strong> (7-70)</strong> points of damage. No saving throw is allowed.</p><p>This spell is commonly used to block entrances, corridors, or other key passages.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60",
+    "duration": "12 turns",
+    "effect": "Creates whirling hammers",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "7d10",
+    "attackType": "",
+    "damageType": "physical",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "TOzZLnAl5xSpOfKv",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!TOzZLnAl5xSpOfKv"
+}

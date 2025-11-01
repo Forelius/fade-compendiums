@@ -1,0 +1,51 @@
+{
+  "name": "Wizard Eye",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates an invisible eye, through which the caster can see. The eye is the size of a normal eye and grants the caster infravision with a range of 60'.</p>\n                      <p><strong>Movement:</strong> The wizard eye floats through the air at a speed of up to 120' per turn but cannot pass through solid objects. It cannot move further than 240' from the caster.</p>\n                      <p><strong>Concentration:</strong> The caster must concentrate without moving to see through the eye, directing its movement and observing through it for the spell’s duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "6 turns",
+    "effect": "Creates movable invisible eye",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gXXg4jocxyMKo4Je",
+  "sort": 0,
+  "_originalKey": "!items!gXXg4jocxyMKo4Je"
+}

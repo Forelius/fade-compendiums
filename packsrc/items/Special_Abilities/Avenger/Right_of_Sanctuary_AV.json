@@ -1,0 +1,44 @@
+{
+  "folder": "qFF5HCKZq2M3Gc3M",
+  "name": "Right of Sanctuary (AV)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "mmGtLI6YF8ER8pJ1",
+  "system": {
+    "tags": [],
+    "description": "<p>An Avenger may visit any castle, ruin, or dungeon ruled by an intelligent Chaotic monster or character and, using their alignment tongue, formally demand Sanctuary. If granted, the Avenger is given temporary protection and hospitality, as per the custom of Sanctuary.</p><p>An Avenger may also attempt to deceive non-Chaotic rulers by posing as a knight and requesting Sanctuary. If the ruler is successfully fooled (and no alignment-detecting magic exposes the deception), they will provide the same hospitality they would grant a true knight.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "AV",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!mmGtLI6YF8ER8pJ1"
+}

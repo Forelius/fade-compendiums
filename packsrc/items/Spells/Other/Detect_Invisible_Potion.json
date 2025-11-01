@@ -1,0 +1,49 @@
+{
+  "name": "Detect Invisible (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>This effect enables the user to see all invisible creatures and objects within range. The range is 60'.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "1 turn",
+    "effect": "The user only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Detect Invisible",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.SweWOsKvrGVPiDno",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "JHUjSy88p76NXu5R",
+  "sort": 1000000,
+  "_originalKey": "!items!JHUjSy88p76NXu5R"
+}

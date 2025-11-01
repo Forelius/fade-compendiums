@@ -1,0 +1,164 @@
+{
+  "folder": "7yuH5AiWHSg2lwjr",
+  "name": "Woods Encounter",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Woods Encounter</h3><ul><li><p>Clear daylight [[4d6*10]] yards</p></li><li><p>Dim Light* [[2d6*10]] yards</p></li><li><p>No light † [[1d4*10]] yards</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p>",
+  "results": [
+    "ZdHe5sUBbRdl5on9",
+    "LXmxUeMVHPARMNy6",
+    "VEOzCaqj9Ub1uQiU",
+    "00HSU2PP4rs4ejrt",
+    "hhIFlXAHp4iPVppG",
+    "dXPs4L55yTXhygJe",
+    "Ds0paBC75SS9BJct"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_id": "1jVfJ6qMiEXGbtG4",
+  "sort": 0,
+  "_originalKey": "!tables!1jVfJ6qMiEXGbtG4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.00HSU2PP4rs4ejrt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "00HSU2PP4rs4ejrt",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Unusual",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.40hxo4CHuoAzvkEb",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.Ds0paBC75SS9BJct",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "Ds0paBC75SS9BJct",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Animal (Woods)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.INlt8TKiJ6fFhCiv",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.LXmxUeMVHPARMNy6",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "LXmxUeMVHPARMNy6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Humanoid (Woods)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Aqd2PlDiqmnXFvLX",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.VEOzCaqj9Ub1uQiU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "VEOzCaqj9Ub1uQiU",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Insects",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rTDT2KFmD2xPIwSz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.ZdHe5sUBbRdl5on9",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "ZdHe5sUBbRdl5on9",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Flyers (All Other)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZA3rLpJZCGOprVjT",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.dXPs4L55yTXhygJe",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "dXPs4L55yTXhygJe",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Human (Woods)",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.WYUXCPCxzp0QD2ry",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!1jVfJ6qMiEXGbtG4.hhIFlXAHp4iPVppG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "img": null,
+      "_id": "hhIFlXAHp4iPVppG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Dragons",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.JjKeOku91T3TOM2Q",
+      "description": ""
+    }
+  ]
+}

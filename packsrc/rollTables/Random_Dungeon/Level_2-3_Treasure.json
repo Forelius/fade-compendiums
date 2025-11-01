@@ -1,0 +1,122 @@
+{
+  "folder": "GUcSoEJjBu3wxZuZ",
+  "name": "Level 2-3 Treasure",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "s90F3IY6hY2NYTLH",
+    "kKvriu62IVcFm76Y",
+    "RDETavuSygKbl7Sq",
+    "RXCsAE5BHHcMDSbD",
+    "gduUBW4cZQDzWvEF"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_id": "lzbiNpg8LUnEdVdK",
+  "sort": 400000,
+  "_originalKey": "!tables!lzbiNpg8LUnEdVdK",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!lzbiNpg8LUnEdVdK.RDETavuSygKbl7Sq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "RDETavuSygKbl7Sq",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 2-3 Jewelry",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.selGUJSmwroKJt1T",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!lzbiNpg8LUnEdVdK.RXCsAE5BHHcMDSbD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "RXCsAE5BHHcMDSbD",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 2-3 Gem",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.dq04YASys6BVcThz",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!lzbiNpg8LUnEdVdK.gduUBW4cZQDzWvEF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "gduUBW4cZQDzWvEF",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Level 2-3 Magic Item",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xRgqzH5hOKVLcu30",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!lzbiNpg8LUnEdVdK.kKvriu62IVcFm76Y",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "_id": "kKvriu62IVcFm76Y",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d6*10]] Gold Pieces",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!lzbiNpg8LUnEdVdK.s90F3IY6hY2NYTLH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "_id": "s90F3IY6hY2NYTLH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "[[1d12*100]] Silver Pieces",
+      "name": ""
+    }
+  ]
+}

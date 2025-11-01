@@ -1,0 +1,84 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Kobold",
+  "_id": "xz4y1gJicB7eMFX4",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "phTlavjn1RUzhzCO",
+    "tKoqTfpuAFmlwtnx",
+    "oYeQW0JkxZMPRqhG"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!xz4y1gJicB7eMFX4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.oYeQW0JkxZMPRqhG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        90,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "oYeQW0JkxZMPRqhG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Kobold, Bodyguard",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ksBFKbkxoksOtZ5E",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.phTlavjn1RUzhzCO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "phTlavjn1RUzhzCO",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Kobold",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.tKoqTfpuAFmlwtnx",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "tKoqTfpuAFmlwtnx",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Kobold Chieftain",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ZL3EScZF34Mluma5",
+      "description": ""
+    }
+  ]
+}

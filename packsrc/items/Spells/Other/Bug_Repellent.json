@@ -1,0 +1,49 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Bug Repellent",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "G8fjBG7DeRYIHUuv",
+  "system": {
+    "tags": [],
+    "description": "<p>The magical effect protects the user from all bugs, including arachnids (spiders, ticks, scorpions), insects (ants, beetles, flies), and chilopods (centipedes, millipedes). Normal-sized bugs cannot touch the user, and giant-sized bugs will ignore the user unless they successfully make a saving throw against spells. If the giant bug fails its saving throw, it completely disregards the user's presence. Additionally, the effect provides a +4 bonus to any saving throws against magically summoned or controlled bugs.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Protects user from all bugs",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Bug Repellent",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BJG5TvbOgLCm5reh",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!G8fjBG7DeRYIHUuv"
+}

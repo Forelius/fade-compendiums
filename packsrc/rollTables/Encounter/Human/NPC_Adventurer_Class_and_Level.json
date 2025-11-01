@@ -1,0 +1,197 @@
+{
+  "folder": "syhUzFkpaYBv54Vu",
+  "name": "NPC Adventurer Class and Level",
+  "_id": "6BdXuIwCqiyE1lbh",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>*In campaigns where Underworld races are common, a duergar, drow, or svirfneblin may be encountered in place of a dwarf, elf, or gnome.</p>",
+  "results": [
+    "Md0x8CGWDazOWCwM",
+    "Aq7pH0R2pd1PWnrh",
+    "3mPnT4SOcPxE6ujK",
+    "ZVtZbkkqCxY7hz55",
+    "6z5UglpXMn8J7tjQ",
+    "8XtbWuP4yTVp0jHc",
+    "UXYomPeNYbp78P5Z",
+    "5vVQ1sOmOqJzpJSb",
+    "8FQ65AdxveDvquxU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d9",
+  "sort": 150000,
+  "_originalKey": "!tables!6BdXuIwCqiyE1lbh",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.3mPnT4SOcPxE6ujK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "3mPnT4SOcPxE6ujK",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dwarf Basic: [[1d3]] Expert: [[1d6+6]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.5vVQ1sOmOqJzpJSb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "5vVQ1sOmOqJzpJSb",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magic-User Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.6z5UglpXMn8J7tjQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "6z5UglpXMn8J7tjQ",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Fighter Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.8FQ65AdxveDvquxU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "8FQ65AdxveDvquxU",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Thief Basic: [[1d3]] Expert: [[1d6+4]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.8XtbWuP4yTVp0jHc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "8XtbWuP4yTVp0jHc",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Fighter Basic: [[1d3]] Expert: [[1d6+5]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.Aq7pH0R2pd1PWnrh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "Aq7pH0R2pd1PWnrh",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Druid Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.Md0x8CGWDazOWCwM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "Md0x8CGWDazOWCwM",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Cleric Basic: [[1d3]] Expert: [[1d6+3]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.UXYomPeNYbp78P5Z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "UXYomPeNYbp78P5Z",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Halfling Basic: [[1d3]] Expert: [[1d6+2]]",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!6BdXuIwCqiyE1lbh.ZVtZbkkqCxY7hz55",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "ZVtZbkkqCxY7hz55",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Elf  Basic: [[1d3]] Expert: [[1d6+2]]",
+      "name": ""
+    }
+  ]
+}

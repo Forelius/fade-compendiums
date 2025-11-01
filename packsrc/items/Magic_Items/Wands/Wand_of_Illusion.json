@@ -1,0 +1,61 @@
+{
+  "folder": "j9i1UsTuEAW2VgKU",
+  "name": "Wand of Illusion",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>A Wand of Illusion is a magical item that allows the user to create a phantasmal force effect, similar to the magic-user spell. To maintain the illusion, the user must concentrate, which limits their movement to half of their normal speed. This wand is useful for creating distractions, deceiving enemies, or crafting elaborate visual effects to enhance storytelling and gameplay.</p><p>This slender, iridescent rod is about two feet long, adorned with intricate runes that shimmer softly in the light. The tip features a multifaceted crystal that sparkles like a prism, casting tiny rainbows around it. Cool to the touch, the wand hums with a faint, magical energy, inviting curiosity and wonder. Its elegant design hints at hidden potential.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 10,
+    "chargesMax": 20,
+    "weight": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.JNGm9cjNftEJ0VI9",
+        "action": "none",
+        "castAs": "M6",
+        "name": "Phantasmal Force"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "S56jz7pd5lEJD4zU",
+  "sort": 1100000,
+  "_originalKey": "!items!S56jz7pd5lEJD4zU"
+}

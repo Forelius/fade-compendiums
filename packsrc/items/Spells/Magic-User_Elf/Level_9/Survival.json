@@ -1,0 +1,47 @@
+{
+  "name": "Survival",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell protects the recipient from all non-magical environmental damage, allowing them to endure extreme conditions without harm.</p><h4>Protection Effects:</h4><ul><li>Prevents damage from normal heat or cold.</li><li>Eliminates the need for air, food, water, or sleep while active.</li><li>Protects against all natural environmental hazards, even in other planes of existence.</li></ul><h4>Limitations:</h4><ul><li>Does not protect against magical damage of any kind.</li><li>Does not prevent damage from attacks, poisons, breath weapons, or physical blows.</li></ul><h4>Example Uses:</h4><ul><li>Desert or Blizzard: Prevents harm from extreme temperatures.</li><li>Underwater or Underground: Enables survival without air.</li><li>Space Travel: Protects against vacuum exposure.</li><li>Elemental Plane of Fire: Prevents conditional fire damage from the natural environment.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "Touch",
+    "duration": "One hour per level",
+    "effect": "Protects one creature against non-magical environmental damage",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360*@classes.M.castLevel",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "nHQ68PUUgA9WCGxA",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!nHQ68PUUgA9WCGxA"
+}

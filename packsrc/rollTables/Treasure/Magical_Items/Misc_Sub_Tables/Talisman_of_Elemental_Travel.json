@@ -1,0 +1,119 @@
+{
+  "name": "Talisman of Elemental Travel",
+  "formula": "1d10",
+  "results": [
+    "A7NR8HRnAmZY04B6",
+    "rEh2TvR62aET99Ag",
+    "hdR7AwN95ZwgP8KY",
+    "VPHT1yeFmbm0LXKT",
+    "FlVryXfAuvsYKbsv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of Talisman of Elemental Travel found, such as a Lesser Talisman for a single element or a Greater Talisman for all elements.</p>",
+  "folder": "mStxdN6b4jPlJn4h",
+  "_id": "shPaghOgNqHhPdKH",
+  "img": "icons/svg/d20-grey.svg",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!shPaghOgNqHhPdKH",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.A7NR8HRnAmZY04B6",
+      "range": [
+        1,
+        2
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "A7NR8HRnAmZY04B6",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lesser Talisman of Air",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.FlVryXfAuvsYKbsv",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "FlVryXfAuvsYKbsv",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Greater Talisman (all elements)",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.VPHT1yeFmbm0LXKT",
+      "range": [
+        7,
+        8
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "VPHT1yeFmbm0LXKT",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lesser Talisman of Water",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.hdR7AwN95ZwgP8KY",
+      "range": [
+        5,
+        6
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "hdR7AwN95ZwgP8KY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lesser Talisman of Fire",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!shPaghOgNqHhPdKH.rEh2TvR62aET99Ag",
+      "range": [
+        3,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "rEh2TvR62aET99Ag",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Lesser Talisman of Earth",
+      "name": ""
+    }
+  ]
+}

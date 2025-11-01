@@ -1,0 +1,47 @@
+{
+  "name": "Ironform",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to create a mass of iron, up to 500 square feet in area and up to 2 inches thick. The shape and arrangement are determined by the caster.</p><h4>Creation Time:</h4><ul><li>Simple designs (walls, flat panels) take 1 round.</li><li>Moderate designs (stairs, basic structures) take 1 turn (10 rounds).</li><li>Complex designs (portcullises, detailed reinforcements) take up to 12 turns (2 hours), as determined by the DM.</li></ul><h4>Rules & Mechanics:</h4><ul><li>The iron must be one solid piece with no moving parts.</li><li>The caster may cast <em>Ironform</em> again on an existing structure to modify it for up to two hours.</li><li>Once finalized, the iron is permanently locked in place and cannot be further altered by <em>Ironform</em>.</li><li>The iron must rest on solid ground or a similar support.</li><li>Unlike <em>Wall of Iron</em>, the created iron does not have to be vertical.</li><li>The caster can form seamless joins to previously created <em>Ironform</em> objects.</li></ul><h4>Durability:</h4><ul><li>The created iron is not dispellable.</li><li>The iron lasts permanently unless broken or destroyed.</li><li>It can be destroyed by effects such as <em>Disintegrate</em> or by creatures like Rust Monsters.</li><li><p>According to the Fortifications Table:</p><ul><li>Armor Class: -10 (2)</li><li>Hit Points: 15 per inch of thickness</li></ul></li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Creates 500 square feet of iron",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "AiUSG5bv9QuWXoX5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!AiUSG5bv9QuWXoX5"
+}

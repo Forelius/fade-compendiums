@@ -1,0 +1,57 @@
+{
+  "name": "Shield",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a magical barrier around the caster, less than an inch away from their body. It grants an AC of 2 against missiles and AC 4 against all other attacks. The barrier moves with the caster, and it does not interfere with the caster’s movements or attacks.</p>\n                <p>If a <em>magic missile</em> is shot at the caster, the caster can make a saving throw vs. spells. If successful, the missile is negated by the shield and has no effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "2 turns",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Shielded",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.uMmwIcaquFAFivpq"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "u93tgQ9zyIS1ka9X",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 900000,
+  "_originalKey": "!items!u93tgQ9zyIS1ka9X"
+}

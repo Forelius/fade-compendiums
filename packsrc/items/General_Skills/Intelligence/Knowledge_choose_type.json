@@ -1,0 +1,36 @@
+{
+  "name": "Knowledge (choose type)",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The character is an expert in one field of study such as history, theology, or geography. A character can make a living teaching or acting as an expert on the chosen subject. With a successful roll, they can provide detailed commentary or insights on the field of study. The specific type of knowledge must be defined, and multiple skills can be chosen for expertise in different subjects.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "f8akGUZYbF0cSqjA",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!f8akGUZYbF0cSqjA"
+}

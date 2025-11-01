@@ -1,0 +1,76 @@
+{
+  "name": "Wrestling",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Wrestling skill enables a character to grapple, pin, or otherwise subdue opponents using hand-to-hand combat techniques. A successful skill roll improves the character's Wrestling Rating (WR), providing a +1 bonus per skill level.</p>\n            <p>In wrestling combat, a character with Wrestling skill gains a bonus on their Wrestling Rating for initiating or resisting grapples and pins. The higher the skill level, the more effective the character becomes, providing a cumulative +1 to WR per level (e.g., Wrestling +1 skill gives +2 WR).</p>\n            <p>This skill is especially useful in situations where the character needs to subdue an opponent without lethal force, or in confined spaces where weapons are impractical. Mastery in Wrestling also allows for improved control over an opponent’s movements, reducing their ability to counterattack or escape.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "y87CgAv0iENRhZ4E",
+  "effects": [
+    "UQMSkf9LhSTpBmNg"
+  ],
+  "folder": "PrQiYjt2ZGESSP4i",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!y87CgAv0iENRhZ4E",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!y87CgAv0iENRhZ4E.UQMSkf9LhSTpBmNg",
+      "name": "Wrestling Rating Bonus",
+      "img": "icons/svg/aura.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.y87CgAv0iENRhZ4E",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "UQMSkf9LhSTpBmNg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.wrestling",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

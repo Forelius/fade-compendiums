@@ -1,0 +1,754 @@
+{
+  "folder": "oRrldFwTAwccXhIv",
+  "name": "Paladin",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "alignment": "Lawful",
+    "maxLevel": 36,
+    "maxSpellLevel": 6,
+    "firstLevel": 9,
+    "levels": [
+      {
+        "level": 9,
+        "xp": 240000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "9d8",
+        "hdcon": true,
+        "title": "Paladin",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 360000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+2",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 11,
+        "xp": 480000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+4",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 12,
+        "xp": 600000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d8+6",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 13,
+        "xp": 720000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+8",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 14,
+        "xp": 840000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+10",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 15,
+        "xp": 960000,
+        "thac0": 11,
+        "thbonus": 8,
+        "hd": "9d8+12",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 16,
+        "xp": 1080000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+14",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 17,
+        "xp": 1200000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+16",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 18,
+        "xp": 1320000,
+        "thac0": 9,
+        "thbonus": 10,
+        "hd": "9d8+18",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 19,
+        "xp": 1440000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+20",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 20,
+        "xp": 1560000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+22",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 21,
+        "xp": 1680000,
+        "thac0": 7,
+        "thbonus": 12,
+        "hd": "9d8+24",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 22,
+        "xp": 1800000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+26",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 23,
+        "xp": 1920000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+28",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 24,
+        "xp": 2040000,
+        "thac0": 5,
+        "thbonus": 14,
+        "hd": "9d8+30",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 25,
+        "xp": 2160000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+32",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 26,
+        "xp": 2280000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+34",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 27,
+        "xp": 2400000,
+        "thac0": 3,
+        "thbonus": 16,
+        "hd": "9d8+36",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 28,
+        "xp": 2520000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+38",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 29,
+        "xp": 2640000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+40",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 30,
+        "xp": 2760000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+42",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 31,
+        "xp": 2880000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+44",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 32,
+        "xp": 3000000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+46",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 33,
+        "xp": 3120000,
+        "thac0": 2,
+        "thbonus": 17,
+        "hd": "9d8+48",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 34,
+        "xp": 3240000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+50",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 35,
+        "xp": 3360000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+52",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 36,
+        "xp": 3480000,
+        "thac0": 1,
+        "thbonus": 18,
+        "hd": "9d8+54",
+        "hdcon": false,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 9,
+        "death": 8,
+        "wand": 9,
+        "paralysis": 10,
+        "breath": 11,
+        "spell": 12
+      },
+      {
+        "level": 12,
+        "death": 6,
+        "wand": 7,
+        "paralysis": 8,
+        "breath": 9,
+        "spell": 10
+      },
+      {
+        "level": 15,
+        "death": 6,
+        "wand": 6,
+        "paralysis": 7,
+        "breath": 8,
+        "spell": 9
+      },
+      {
+        "level": 18,
+        "death": 5,
+        "wand": 6,
+        "paralysis": 6,
+        "breath": 7,
+        "spell": 8
+      },
+      {
+        "level": 21,
+        "death": 5,
+        "wand": 5,
+        "paralysis": 6,
+        "breath": 6,
+        "spell": 7
+      },
+      {
+        "level": 24,
+        "death": 4,
+        "wand": 5,
+        "paralysis": 5,
+        "breath": 5,
+        "spell": 6
+      },
+      {
+        "level": 27,
+        "death": 4,
+        "wand": 4,
+        "paralysis": 5,
+        "breath": 4,
+        "spell": 5
+      },
+      {
+        "level": 30,
+        "death": 3,
+        "wand": 4,
+        "paralysis": 4,
+        "breath": 3,
+        "spell": 4
+      },
+      {
+        "level": 33,
+        "death": 3,
+        "wand": 3,
+        "paralysis": 3,
+        "breath": 2,
+        "spell": 3
+      },
+      {
+        "level": 99,
+        "death": 2,
+        "wand": 2,
+        "paralysis": 2,
+        "breath": 2,
+        "spell": 2
+      }
+    ],
+    "spells": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1
+      ]
+    ],
+    "key": "PA",
+    "description": "<p>A Lawful traveling fighter can achieve the title of paladin if they meet specific requirements. Fighters who do not meet these conditions may instead become knights (described separately).</p><ol><li><p><strong>Fealty to a Clerical Order</strong>: To become a paladin, the fighter must swear an oath of service to a Lawful clerical order. Only fighters of Name level or higher are eligible. Once accepted, the paladin is bound to serve the order and may be summoned by its leaders at any time to perform tasks that align with the powers of Good.</p></li><li><p><strong>Detect Evil</strong>: A paladin can detect evil, as per the cleric spell, once per round by concentrating. This ability has a range of 120 feet but cannot be used in the same round as an attack.</p></li><li><p><strong>Cleric Spells</strong>: A paladin with a Wisdom score of 13 or higher can cast cleric spells as if they were a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin can cast spells as a 3rd-level cleric.</li><li>At 17th level, the paladin can cast spells as a 5th-level cleric. Fighters with Wisdom scores of 12 or less can still become paladins but cannot cast spells. Paladins are trained in meditation and spellcasting by the clerics of their order, who provide this service without accepting compensation.</li></ul></li><li><p><strong>Turn Undead</strong>: Paladins can turn undead with the same ability as a cleric of one-third their actual level, rounded down. For example:</p><ul><li>At 9th level, the paladin turns undead as a 3rd-level cleric.</li><li>At 16th or 17th level, the paladin turns undead as a 5th-level cleric.</li></ul></li><li><p><strong>Hireling Limit</strong>: The paladin can be accompanied by a number of hirelings equal to or less than their effective clerical level. For example, a paladin with the abilities of a 5th-level cleric may travel with up to five hirelings.</p></li><li><p><strong>Assisting Others</strong>: A paladin must provide aid to anyone who requests it, except in the following cases:</p><ul><li>The paladin is not obligated to assist evil individuals or support evil goals.</li><li>If engaged in a mission for a higher authority (such as a quest or serving a noble), the paladin may offer limited help, such as advice or temporary shelter, and must explain their inability to provide further assistance. Aid is limited to services and does not include monetary or material donations.</li></ul></li></ol><hr><p></p><h3>Paladin Turn Undead Table</h3><div style=\"padding:4px;\"><table style=\"border-style:none; border-width:1px; padding:4px; width:95%;\"><thead><tr style=\"border-bottom: 2px solid; padding:2px;\"><th style=\"text-align:left; min-width:90px;\"><strong>Undead</strong></th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9-11</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">12-14</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">15-17</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">18-20</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">21-23</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">24-26</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">27-32</th><th style=\"text-align: center; border-left: 1px solid #a0a0a0;\">33-36</th></tr></thead><tbody><tr><td style=\"text-align:left;min-width:90px;\">Skeleton</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D+</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Zombie</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Ghoul</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wight</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Wraith</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Mummy</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spectre</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">D</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Vampire</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Phantom</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">T</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Haunt</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">7</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Spirit</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">9</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Nightshade</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">11</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Lich</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr><tr><td style=\"text-align:left;min-width:90px;\">Special</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td><td style=\"text-align: center; border-left: 1px solid #a0a0a0;\">--</td></tr></tbody></table></div><p><strong>Legend</strong>:</p><ul><li><strong>7, 9, 11</strong>: Roll 2d6 and meet or exceed this number to turn undead.</li><li><strong>T</strong>: Automatically turn undead.</li><li><strong>D</strong>: Automatically destroy undead.</li><li><strong>D+</strong>: Automatically destroy [[/r 3d6 #Hit Dice]] Hit Dice of undead.</li></ul>",
+    "classItems": [],
+    "specialAbilities": [
+      {
+        "level": 9,
+        "name": "Detect Evil (PA)",
+        "target": 0,
+        "classKey": "PA",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Oath of Aid (PA)",
+        "target": 0,
+        "classKey": "PA",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Sacred Retinue (PA)",
+        "target": 0,
+        "classKey": "PA",
+        "changes": ""
+      },
+      {
+        "level": 9,
+        "name": "Turn Undead (PA)",
+        "target": 0,
+        "classKey": "PA",
+        "changes": ""
+      }
+    ],
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "firstSpellLevel": 1,
+    "castAsKey": "C/3",
+    "basicProficiency": false,
+    "unskilledToHitMod": -2
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "tTSn7N9rsP2iPJXQ",
+  "sort": 1000000,
+  "_originalKey": "!items!tTSn7N9rsP2iPJXQ"
+}

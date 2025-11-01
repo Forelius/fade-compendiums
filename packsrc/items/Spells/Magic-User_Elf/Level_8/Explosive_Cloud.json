@@ -1,0 +1,47 @@
+{
+  "name": "Explosive Cloud",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a 30' diameter, 20' tall cloud of greenish gas filled with sparkling explosions, appearing next to the caster. It visually resembles the <em>Cloudkill</em> spell but has different effects.</p><h4>Effects:</h4><ul><li>The cloud moves away from the caster at a speed of 20' per round in a direction chosen by the caster.</li><li>Poisonous Gas: Each creature in the cloud must make a saving throw vs. spells or be **paralyzed** for 1 round. They may attempt a new saving throw each round.</li><li>Explosions: The cloud is filled with **tiny detonations**, dealing damage each round to all creatures inside.</li></ul><h4>Damage:</h4><p>Each creature inside the cloud takes 1 point of damage per 2 caster levels (rounded down). This damage ignores resistances (affecting creatures immune to fire, gas, electricity, etc.).</p><ul><li>Levels 18-19: [[/r 9 #Explosive Cloud Damage]]</li><li>Levels 20-21: [[/r 10 #Explosive Cloud Damage]]</li><li>Levels 22-23: [[/r 11 #Explosive Cloud Damage]]</li><li>Levels 24-25: [[/r 12 #Explosive Cloud Damage]]</li><li>Levels 26-27: [[/r 13 #Explosive Cloud Damage]]</li><li>Levels 28-29: [[/r 14 #Explosive Cloud Damage]]</li><li>Levels 30-31: [[/r 15 #Explosive Cloud Damage]]</li><li>Levels 32-33: [[/r 16 #Explosive Cloud Damage]]</li><li>Levels 34-35: [[/r 17 #Explosive Cloud Damage]]</li><li>Level 36: [[/r 18 #Explosive Cloud Damage]]</li></ul><h4>Duration:</h4><p>The cloud persists for 6 turns (60 rounds).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "1'",
+    "duration": "6 turns",
+    "effect": "Creates a moving poisonous cloud",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "Math.floor(@classes.M.castLevel / 2)",
+    "attackType": "",
+    "damageType": "magic",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "360",
+    "savingThrow": "death",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "5Lx4E9f3NLdUoXi5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!5Lx4E9f3NLdUoXi5"
+}

@@ -1,0 +1,633 @@
+{
+  "name": "Misc. Weapons (Basic)",
+  "formula": "1d100",
+  "results": [
+    "NneWTOQzDOIFfJdW",
+    "wotAQZL55olPP26H",
+    "ONDveSMS6YDNsIAP",
+    "mAe3TRZmRk7Z1JOx",
+    "A2v2cn1CzBDqDpFX",
+    "vz3tejUUNBvjSlMC",
+    "TnfuW6a3Cmnp4UKD",
+    "cWhL6OU8DmEVNFn7",
+    "A6c89v2hMP1O3bM7",
+    "3rku9bhjfMKhUo2j",
+    "vq7PWShUOqQ1ufaJ",
+    "Tio5okdpfLVnwIhb",
+    "N54NcekVMrzGtzag",
+    "vz63QFxDFhYDMVZ7",
+    "dQ8ADKMQ73OnuRtZ",
+    "CUuk0zOQypKJK5Iw",
+    "KVeGd8o1WmEJnXMg",
+    "JSJTrbE6vWgJVYZs",
+    "Sqw8p6dkPVLd6vD8",
+    "BVwKNF2hdEMC03rl",
+    "3kDzfYywpFcJHwm9",
+    "5Z7Kx78Ej3XhZY8O",
+    "cErTbnNc5oP7ZoMY",
+    "7jn3NHOwDzjxKLYM",
+    "NOHFxYG9DuJYPPq1",
+    "Lo5ceWeqck8t40TG",
+    "7ZoILt23ehDu9XDS",
+    "lhOPU70y16BrR0Ej",
+    "ycXMAfunuhVEbe90",
+    "jBzLLlyMKbQMrQ28",
+    "unS5Mmz1GBWDa9t3",
+    "0TUk2oYbT3n5PVyy"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Generates a specific magical miscellaneous weapon, including axes, hammers, daggers, polearms, shields, spears, and staves, with their respective bonuses.</p>",
+  "folder": "rWQmXw0xnkTcorjC",
+  "_id": "IEvFRE9Oq9JAhSZe",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!IEvFRE9Oq9JAhSZe",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.0TUk2oYbT3n5PVyy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "0TUk2oYbT3n5PVyy",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Cursed Weapon Check",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.n8XzRtZWvpPYQ0oi",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.3kDzfYywpFcJHwm9",
+      "range": [
+        69,
+        70
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/halberd-worn-steel.webp",
+      "_id": "3kDzfYywpFcJHwm9",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Polearm +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.3rku9bhjfMKhUo2j",
+      "range": [
+        31,
+        35
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "3rku9bhjfMKhUo2j",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, throwing +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.5Z7Kx78Ej3XhZY8O",
+      "range": [
+        71,
+        72
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "_id": "5Z7Kx78Ej3XhZY8O",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Shield, horned +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.7ZoILt23ehDu9XDS",
+      "range": [
+        86,
+        88
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/spear-ice-crystal-blue.webp",
+      "_id": "7ZoILt23ehDu9XDS",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Spear +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.7jn3NHOwDzjxKLYM",
+      "range": [
+        76,
+        78
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "_id": "7jn3NHOwDzjxKLYM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Shield, sword +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.A2v2cn1CzBDqDpFX",
+      "range": [
+        16,
+        18
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-broad-engraved.webp",
+      "_id": "A2v2cn1CzBDqDpFX",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, hand +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.A6c89v2hMP1O3bM7",
+      "range": [
+        29,
+        30
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/daggers/dagger-double-engraved-black.webp",
+      "_id": "A6c89v2hMP1O3bM7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dagger +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.BVwKNF2hdEMC03rl",
+      "range": [
+        66,
+        68
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/halberd-worn-steel.webp",
+      "_id": "BVwKNF2hdEMC03rl",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Polearm +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.CUuk0zOQypKJK5Iw",
+      "range": [
+        51,
+        55
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/maces/mace-spiked-banded-wood.webp",
+      "_id": "CUuk0zOQypKJK5Iw",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Mace +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.JSJTrbE6vWgJVYZs",
+      "range": [
+        59,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/maces/mace-spiked-banded-wood.webp",
+      "_id": "JSJTrbE6vWgJVYZs",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Mace +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.KVeGd8o1WmEJnXMg",
+      "range": [
+        56,
+        58
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/maces/mace-spiked-banded-wood.webp",
+      "_id": "KVeGd8o1WmEJnXMg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Mace +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.Lo5ceWeqck8t40TG",
+      "range": [
+        81,
+        85
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/spear-ice-crystal-blue.webp",
+      "_id": "Lo5ceWeqck8t40TG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Spear +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.N54NcekVMrzGtzag",
+      "range": [
+        41,
+        45
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "N54NcekVMrzGtzag",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, war +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.NOHFxYG9DuJYPPq1",
+      "range": [
+        79,
+        80
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "_id": "NOHFxYG9DuJYPPq1",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Shield, tusked +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.NneWTOQzDOIFfJdW",
+      "range": [
+        1,
+        5
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle.webp",
+      "_id": "NneWTOQzDOIFfJdW",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, battle +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.ONDveSMS6YDNsIAP",
+      "range": [
+        9,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle.webp",
+      "_id": "ONDveSMS6YDNsIAP",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, battle +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.Sqw8p6dkPVLd6vD8",
+      "range": [
+        61,
+        65
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/halberd-worn-steel.webp",
+      "_id": "Sqw8p6dkPVLd6vD8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Polearm +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.Tio5okdpfLVnwIhb",
+      "range": [
+        39,
+        40
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "Tio5okdpfLVnwIhb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, throwing +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.TnfuW6a3Cmnp4UKD",
+      "range": [
+        21,
+        25
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/daggers/dagger-double-engraved-black.webp",
+      "_id": "TnfuW6a3Cmnp4UKD",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dagger +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.cErTbnNc5oP7ZoMY",
+      "range": [
+        73,
+        75
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/equipment/shield/heater-steel-crystal-red.webp",
+      "_id": "cErTbnNc5oP7ZoMY",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Shield, knife +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.cWhL6OU8DmEVNFn7",
+      "range": [
+        26,
+        28
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/daggers/dagger-double-engraved-black.webp",
+      "_id": "cWhL6OU8DmEVNFn7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Dagger +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.dQ8ADKMQ73OnuRtZ",
+      "range": [
+        49,
+        50
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "dQ8ADKMQ73OnuRtZ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, war +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.jBzLLlyMKbQMrQ28",
+      "range": [
+        96,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-crescent-green.webp",
+      "_id": "jBzLLlyMKbQMrQ28",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.lhOPU70y16BrR0Ej",
+      "range": [
+        89,
+        90
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/polearms/spear-ice-crystal-blue.webp",
+      "_id": "lhOPU70y16BrR0Ej",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Spear +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.mAe3TRZmRk7Z1JOx",
+      "range": [
+        11,
+        15
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-broad-engraved.webp",
+      "_id": "mAe3TRZmRk7Z1JOx",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, hand +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.unS5Mmz1GBWDa9t3",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-crescent-green.webp",
+      "_id": "unS5Mmz1GBWDa9t3",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.vq7PWShUOqQ1ufaJ",
+      "range": [
+        36,
+        38
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "vq7PWShUOqQ1ufaJ",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, throwing +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.vz3tejUUNBvjSlMC",
+      "range": [
+        19,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-broad-engraved.webp",
+      "_id": "vz3tejUUNBvjSlMC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, hand +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.vz63QFxDFhYDMVZ7",
+      "range": [
+        46,
+        48
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "_id": "vz63QFxDFhYDMVZ7",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Hammer, war +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.wotAQZL55olPP26H",
+      "range": [
+        6,
+        8
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle.webp",
+      "_id": "wotAQZL55olPP26H",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Axe, battle +2",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!IEvFRE9Oq9JAhSZe.ycXMAfunuhVEbe90",
+      "range": [
+        91,
+        95
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/weapons/staves/staff-crescent-green.webp",
+      "_id": "ycXMAfunuhVEbe90",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff +1",
+      "name": ""
+    }
+  ]
+}

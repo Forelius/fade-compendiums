@@ -1,0 +1,44 @@
+{
+  "folder": "xOcx6uZRMaIDLgxS",
+  "name": "Divine Magic (PA)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "sOg8TLguumBoNCXX",
+  "system": {
+    "tags": [],
+    "description": "<p>If a Paladin has a Wisdom score of 13 or higher, they can cast cleric spells as if they were a cleric of one-third their level, rounding down. For example, a 9th-level Paladin casts spells as a 3rd-level cleric, while a 17th-level Paladin casts as a 5th-level cleric.</p><p>If the Paladin’s Wisdom is 12 or lower, they cannot cast spells but can still be a Paladin.</p><p>The Paladin learns meditation and spellcasting from clerics of their order. The clerics refuse any payment or compensation for this training.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "spellcasting",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "PA",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!sOg8TLguumBoNCXX"
+}

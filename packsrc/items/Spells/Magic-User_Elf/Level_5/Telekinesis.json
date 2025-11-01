@@ -1,0 +1,47 @@
+{
+  "name": "Telekinesis",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to move a creature or object by sheer concentration. The weight of the object can be up to 200 cn (20 lbs) per caster level. For example, a 10th-level caster could move an object up to 2,000 cn (200 lbs).</p>\n                      <p>The object can be moved in any direction at a rate of up to 20' per round. The caster must concentrate, and the movement stops if concentration is broken.</p>\n                      <p><strong>Saving Throws:</strong> An unwilling creature may make a saving throw vs. spells to avoid being moved. If an item is being held, the holder may make a saving throw with a -2 penalty. For items carried but not held, the owner may attempt to grab it with a saving throw at a -5 penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "6 rounds",
+    "effect": "200 cn of weight per level of caster",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "@classes.M.castLevel * 200",
+    "durationFormula": "6",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "jj20td8lMRDBW0V5",
+  "sort": 0,
+  "_originalKey": "!items!jj20td8lMRDBW0V5"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Wishes Ring",
+  "formula": "1d10",
+  "results": [
+    "n9RgmOJRy4bskU1l",
+    "e5nm0NxdQUwKyyWC",
+    "ab1oP1PHyG8kE046",
+    "5x7sFOTB0x3DY4gE"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines how many wishes the Wish Ring will grant, ranging from 1 to 4.</p>",
+  "folder": "0HEnXhuqLpQt6msD",
+  "_id": "ejDdE0YQv58PopY9",
+  "img": "icons/equipment/finger/ring-band-studded-gold-blue.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!ejDdE0YQv58PopY9",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ejDdE0YQv58PopY9.5x7sFOTB0x3DY4gE",
+      "range": [
+        10,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "5x7sFOTB0x3DY4gE",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "4 Wishes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ejDdE0YQv58PopY9.ab1oP1PHyG8kE046",
+      "range": [
+        8,
+        9
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "ab1oP1PHyG8kE046",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "3 Wishes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ejDdE0YQv58PopY9.e5nm0NxdQUwKyyWC",
+      "range": [
+        5,
+        7
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "e5nm0NxdQUwKyyWC",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "2 Wishes",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!ejDdE0YQv58PopY9.n9RgmOJRy4bskU1l",
+      "range": [
+        1,
+        4
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/svg/d20-grey.svg",
+      "_id": "n9RgmOJRy4bskU1l",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "1 Wish",
+      "name": ""
+    }
+  ]
+}

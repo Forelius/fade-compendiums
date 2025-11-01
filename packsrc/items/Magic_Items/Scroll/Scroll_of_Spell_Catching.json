@@ -1,0 +1,59 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Spell Catching",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll is blank when found. It may be used to \"catch\" a spell cast at the user. It cannot catch spell‑like effects, nor can it catch device‑produced effects (such as from a wand), but a spell cast from a scroll can be caught. There are four types of this scroll; roll [[/r 1d10 #See spell capacity table for results.]] to determine the capacity.</p><p>1–4: 1st or 2nd level spells</p><p>5–7: 1st to 4th level spells</p><p>8–9: 1st to 6th level spells</p><p>10: 1st to 8th level spells</p><p>The user of the scroll must hold it up like a shield; no other action is possible while using the scroll. The user must then make a saving throw vs. spells, with a +4 bonus to the roll; if successful, the incoming spell has no effect and is instead transferred to the scroll, appearing as a normal scroll spell. The exact spell caught will not be known until a <em>read magic</em> spell is used to identify it.</p><p>The scroll can only hold one spell at a time; the spell caught must either be used or copied into a spellbook (magic‑user spells only) before the scroll can catch another spell. Any type of spell (magical, clerical, or druidic) can be caught as long as the level does not exceed the scroll's capacity. The <em>scroll of spell catching</em> cannot affect spells of levels greater than the given capacity, and it can catch a maximum of one spell per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Flesh to Stone*"
+      }
+    ],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "J8pN9aRXVnPnfc3m",
+  "sort": 800000,
+  "_originalKey": "!items!J8pN9aRXVnPnfc3m"
+}

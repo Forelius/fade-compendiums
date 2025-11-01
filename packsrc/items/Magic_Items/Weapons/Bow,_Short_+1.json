@@ -1,0 +1,76 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Bow, Short +1",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-leather.webp",
+  "system": {
+    "tags": [
+      "slow"
+    ],
+    "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": 25,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Bow, Short",
+    "weaponType": "monster",
+    "range": {
+      "short": 50,
+      "medium": 100,
+      "long": 150
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "arrow",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Bow, Short",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ujLoSnk9YB7KtlRJ",
+  "sort": 0,
+  "_originalKey": "!items!ujLoSnk9YB7KtlRJ"
+}

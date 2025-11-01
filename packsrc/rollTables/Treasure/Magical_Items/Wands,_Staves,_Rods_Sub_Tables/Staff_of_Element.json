@@ -1,0 +1,157 @@
+{
+  "name": "Staff of Element",
+  "formula": "1d100",
+  "results": [
+    "W3IrRPEFiy64AXe0",
+    "AR8aJR42MZNaVnNE",
+    "pPgA5afr2Y0pNLWb",
+    "I0Hdav4OzCFNtrKV",
+    "6X7TRjSzX045Y1f8",
+    "Ki8nO5qgyOBu7DWu",
+    "GcKyT5XkAhE0xPn8"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the specific type of Staff of Element found, such as Staff of Air, Staff of Fire, or the rare Staff of Elemental Power.</p>",
+  "folder": "4RXHIPNv224QoWHB",
+  "_id": "4Rs3dJmvVY3pBiZF",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!4Rs3dJmvVY3pBiZF",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.6X7TRjSzX045Y1f8",
+      "range": [
+        85,
+        91
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "6X7TRjSzX045Y1f8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Air and Water",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.AR8aJR42MZNaVnNE",
+      "range": [
+        22,
+        42
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "AR8aJR42MZNaVnNE",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Earth",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.GcKyT5XkAhE0xPn8",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "GcKyT5XkAhE0xPn8",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Elemental Power",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.I0Hdav4OzCFNtrKV",
+      "range": [
+        64,
+        84
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "I0Hdav4OzCFNtrKV",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Water",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.Ki8nO5qgyOBu7DWu",
+      "range": [
+        92,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "Ki8nO5qgyOBu7DWu",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Earth and Fire",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.W3IrRPEFiy64AXe0",
+      "range": [
+        1,
+        21
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "W3IrRPEFiy64AXe0",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Air",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!4Rs3dJmvVY3pBiZF.pPgA5afr2Y0pNLWb",
+      "range": [
+        43,
+        63
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+      "_id": "pPgA5afr2Y0pNLWb",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Staff of Fire",
+      "name": ""
+    }
+  ]
+}

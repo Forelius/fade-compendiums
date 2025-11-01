@@ -1,0 +1,77 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Halberd",
+  "type": "weapon",
+  "_id": "2UWnXlZ2iehdlsuM",
+  "img": "modules/fade-compendiums/assets/img/weapon/halberd.webp",
+  "system": {
+    "tags": [
+      "special",
+      "slow"
+    ],
+    "description": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 150,
+    "cost": 7,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d10",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Halberd",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A halberd is a large pole-arm 6’ to 8’ in length, the head of which has a long spike with an axe blade on one side and a hook on the reverse side.<br>Because of a polearm's length, a character with a polearm may attack a foe even when there is another friend or foe between them. Often, polearm wielders stand in the second rank of the combat, striking over the heads of their front-line comrades to hit front-line fighters of the enemy force. <em>See rules for other special details.</em></p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 200000,
+  "_originalKey": "!items!2UWnXlZ2iehdlsuM"
+}

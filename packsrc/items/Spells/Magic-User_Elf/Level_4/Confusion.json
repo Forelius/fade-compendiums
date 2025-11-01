@@ -1,0 +1,57 @@
+{
+  "name": "Confusion",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "OUJmVjvNpjVVRhwv",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes confusion among creatures within a 30' radius (60' across). The spell affects 3-18 creatures in the area, with victims under 2 + 1 Hit Dice automatically failing their saves. Creatures with 2 + 1 or more Hit Dice can attempt a saving throw vs. spells each round they remain in the area to avoid confusion.</p><p><strong>Effects of Confusion:</strong> Each round, the DM rolls [[/r 2d6 #confusion effect]] for each affected creature to determine its action, according to the table below:</p><p><strong>Confusion Results</strong></p><table style=\"width:95%\"><thead><tr><th>2d6 Roll</th><th>Result</th></tr></thead><tbody><tr><td>2-5</td><td>Attack the spellcaster's party</td></tr><tr><td>6-8</td><td>Do nothing</td></tr><tr><td>9-12</td><td>Attack the creature's own party</td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "12 rounds",
+    "effect": "3-18 creatures in an area 60' across",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "3d6",
+    "durationFormula": "12",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Confused",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.SHNKDrGrFKkzDuBs"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "HueNgR4yA2If1CBo",
+  "sort": 0,
+  "_originalKey": "!items!HueNgR4yA2If1CBo"
+}

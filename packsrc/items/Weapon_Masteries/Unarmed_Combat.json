@@ -1,0 +1,105 @@
+{
+  "folder": "MAZAED6MvpyUHsNh",
+  "name": "Unarmed Combat",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "name": "",
+    "weaponType": "handheld",
+    "primaryType": "handheld",
+    "levels": [
+      {
+        "name": "basic",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "0",
+        "pToHit": 0,
+        "sDmgFormula": "",
+        "sToHit": 0,
+        "special": "Stun, knockout",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "skilled",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d3",
+        "pToHit": 2,
+        "sDmgFormula": "",
+        "sToHit": 1,
+        "special": "Stun, knockout",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "expert",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "1d4+1",
+        "pToHit": 4,
+        "sDmgFormula": "",
+        "sToHit": 2,
+        "special": "No off-hand penalty; Stun, knockout (save - 1 )",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "master",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "2d4",
+        "pToHit": 6,
+        "sDmgFormula": "1d4+1",
+        "sToHit": 4,
+        "special": "No off-hand penalty; Stun, knockout (save —3)",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      },
+      {
+        "name": "grandMaster",
+        "acBonus": null,
+        "acBonusType": "null",
+        "acBonusAT": null,
+        "pDmgFormula": "3d4",
+        "pToHit": 8,
+        "sDmgFormula": "2d4+1",
+        "sToHit": 6,
+        "special": "No off-hand penalty; Stun, knockout (save - 5 )",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "PoqxON9RPioKVLRu",
+  "sort": 0,
+  "_originalKey": "!items!PoqxON9RPioKVLRu"
+}

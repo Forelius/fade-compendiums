@@ -1,0 +1,66 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Troglodyte Stench",
+  "type": "condition",
+  "img": "icons/svg/biohazard.svg",
+  "_id": "NgIEUOBnj5qAl5V6",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The stench of a troglodyte can cause a -2 penalty to all attack rolls in melee combat.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "vg3SEcOiLZ7xAnwt"
+  ],
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NgIEUOBnj5qAl5V6",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!NgIEUOBnj5qAl5V6.vg3SEcOiLZ7xAnwt",
+      "name": "-2 To Hit",
+      "img": "icons/svg/biohazard.svg",
+      "disabled": false,
+      "_id": "vg3SEcOiLZ7xAnwt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "downgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

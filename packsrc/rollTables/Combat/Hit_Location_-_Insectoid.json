@@ -1,0 +1,197 @@
+{
+  "folder": "SOm66tqvBRVOnUR6",
+  "name": "Hit Location - Insectoid",
+  "_id": "PXjka4lDzU1Gtg16",
+  "img": "icons/creatures/invertebrates/ant-strength-green.webp",
+  "description": "",
+  "results": [
+    "lLFTsDlJkBJVt49d",
+    "KMKqMtEZi4XBuKF7",
+    "dBkgtwxLiYplUJvL",
+    "Usn1esTTsN6DaxMO",
+    "f1RhTSm6APTYGTCy",
+    "jT4ChFjbkS8CcW5J",
+    "E0wWwEv8nrBk7xDj",
+    "VhfBno58Q79ph7xj",
+    "7klkHQ8R4GP2QECE"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "sort": 0,
+  "_originalKey": "!tables!PXjka4lDzU1Gtg16",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.7klkHQ8R4GP2QECE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "_id": "7klkHQ8R4GP2QECE",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Head",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.E0wWwEv8nrBk7xDj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "E0wWwEv8nrBk7xDj",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Right Front Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.KMKqMtEZi4XBuKF7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "KMKqMtEZi4XBuKF7",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Left Rear Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.Usn1esTTsN6DaxMO",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Usn1esTTsN6DaxMO",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Left Middle Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.VhfBno58Q79ph7xj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "VhfBno58Q79ph7xj",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Left Front Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.dBkgtwxLiYplUJvL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "dBkgtwxLiYplUJvL",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Right Middle Leg",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.f1RhTSm6APTYGTCy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        9
+      ],
+      "drawn": false,
+      "_id": "f1RhTSm6APTYGTCy",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Abdomen",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.jT4ChFjbkS8CcW5J",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        13
+      ],
+      "drawn": false,
+      "_id": "jT4ChFjbkS8CcW5J",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Thorax",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!PXjka4lDzU1Gtg16.lLFTsDlJkBJVt49d",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "lLFTsDlJkBJVt49d",
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Right Rear Leg",
+      "name": ""
+    }
+  ]
+}

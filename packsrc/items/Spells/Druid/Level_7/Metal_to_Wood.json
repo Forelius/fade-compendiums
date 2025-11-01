@@ -1,0 +1,47 @@
+{
+  "name": "Metal to Wood",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "V4F1GzuReHr8xnu8",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell permanently transforms metal into dead wood.</p><h4>Effects:</h4><ul><li>The caster may transmute up to 5 pounds (50 cn) of metal per caster level.</li><li>The transformation is permanent and cannot be reversed by dispel magic.</li><li>Magical metal items have a 90% chance to resist this effect.</li><li>Armor transformed into wood falls off the wearer.</li><li>Weapons turned into wood become nonmagical wooden clubs.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "Permanent",
+    "effect": "Changes metal into dead wood",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "wXmLfsbA9Jbrs9i0",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!wXmLfsbA9Jbrs9i0"
+}

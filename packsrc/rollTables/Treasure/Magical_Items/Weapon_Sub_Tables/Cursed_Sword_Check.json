@@ -1,0 +1,62 @@
+{
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "name": "Cursed Sword Check",
+  "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+  "description": "<p>Check top see if the sword is cursed.</p>",
+  "results": [
+    "GMIYghqXYj3owshV",
+    "PvntPV0RNStv0aVU"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d20",
+  "_id": "xINohxxAaSY6Bn7r",
+  "sort": 0,
+  "_originalKey": "!tables!xINohxxAaSY6Bn7r",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!xINohxxAaSY6Bn7r.GMIYghqXYj3owshV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "GMIYghqXYj3owshV",
+      "img": "icons/svg/hazard.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "<strong>Cursed!</strong>",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!xINohxxAaSY6Bn7r.PvntPV0RNStv0aVU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        20
+      ],
+      "drawn": false,
+      "_id": "PvntPV0RNStv0aVU",
+      "img": "icons/svg/d20-grey.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": ""
+    }
+  ]
+}

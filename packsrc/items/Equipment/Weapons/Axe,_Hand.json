@@ -1,0 +1,76 @@
+{
+  "folder": "CPCyDDZ2HnUOmFjA",
+  "name": "Axe, Hand",
+  "type": "weapon",
+  "_id": "KlE02jJDCz0W1OGA",
+  "img": "modules/fade-compendiums/assets/img/weapon/handaxe.webp",
+  "system": {
+    "tags": [
+      "thrown"
+    ],
+    "description": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 30,
+    "cost": 4,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Axe, Hand",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1600000,
+  "_originalKey": "!items!KlE02jJDCz0W1OGA"
+}

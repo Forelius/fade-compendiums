@@ -1,0 +1,36 @@
+{
+  "name": "Storytelling",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>The Storytelling skill allows a character to weave captivating tales that can entertain, inspire, or impart wisdom. This skill is used to recount legends, share news, or persuade others through narrative. A successful Storytelling check can captivate an audience, spread information effectively, or even sway public opinion through the power of a well-told story.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "mrgr47MiYAR8XHev",
+  "effects": [],
+  "folder": "Wf7RMxhgnJteLcxD",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!mrgr47MiYAR8XHev"
+}

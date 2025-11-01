@@ -1,0 +1,53 @@
+{
+  "name": "Darkness*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p><em>Darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "6 turns + 1 turn/level",
+    "effect": "Volume of 30' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(@classes.M.castLevel*60)+360",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "wBYA0Q6u89pm4GIK",
+  "sort": 1200000,
+  "_originalKey": "!items!wBYA0Q6u89pm4GIK"
+}

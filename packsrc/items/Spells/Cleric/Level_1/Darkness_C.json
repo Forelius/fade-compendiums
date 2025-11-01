@@ -1,0 +1,60 @@
+{
+  "folder": "6eyR93MyG7mivLm6",
+  "name": "Darkness* (C)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "nRRLUcU5WTbIwyIq",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p><em>Darkness</em>, creates a sphere of darkness instead. It will block all sight except infravision. <em>Darkness</em> cancels a <em>light</em> spell if cast upon it, but may itself be canceled by another <em>light</em> spell. If cast at an opponent's eyes, <em>darkness</em> causes blindness for the duration of the spell or until canceled. If the victim makes a successful saving throw vs. spell, the spell has no effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120",
+    "duration": "12 turns (2 hours)",
+    "effect": "Volume of 30' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Blinded",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.7hYg7xET18gfdhUd",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!nRRLUcU5WTbIwyIq"
+}

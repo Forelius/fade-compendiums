@@ -1,0 +1,84 @@
+{
+  "folder": "WupJNZrSjEBQTAPA",
+  "name": "Hobgoblin",
+  "_id": "X8OQuEdiJD9clDQO",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "GVFV3OWTUeGo28Yn",
+    "r6Zdpa88K09HeEd1",
+    "r4LQrIlQTwE28Ghv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d100",
+  "_originalKey": "!tables!X8OQuEdiJD9clDQO",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.GVFV3OWTUeGo28Yn",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        99
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "GVFV3OWTUeGo28Yn",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.pqMSUZDTxBkzJRXt",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.r4LQrIlQTwE28Ghv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "r4LQrIlQTwE28Ghv",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin, King",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.EMgHTzvjVhVgleVc",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!X8OQuEdiJD9clDQO.r6Zdpa88K09HeEd1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        90,
+        100
+      ],
+      "drawn": false,
+      "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+      "_id": "r6Zdpa88K09HeEd1",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Hobgoblin, Bodyguard",
+      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.cqA8bRxYul1fKqrx",
+      "description": ""
+    }
+  ]
+}

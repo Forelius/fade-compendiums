@@ -1,0 +1,51 @@
+{
+  "name": "Create Air",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell provides breathable air in a volume of 8,000 cubic feet (such as a 20' x 20' x 20' room) for 1 hour per caster level.</p>\n                      <p><strong>Stationary Use:</strong> Typically cast in enclosed spaces, it remains in one area, providing air for all within.</p>\n                      <p><strong>Mobile Use:</strong> The spell can be cast on enclosed vehicles, living creatures, or items to travel with them, including underwater or in airless environments. For example, a pegasus-rider could cast it on themselves and their mount to travel into outer space. Stealthy movement underwater is impossible due to visible air bubbles.</p>\n                      <p>The spell does not protect against poison gases unless the gas is a natural atmospheric component.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Immediate area, 8,000 cu. ft.",
+    "duration": "1 hour per level of caster",
+    "effect": "Provides breathable air",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel * 360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "C8RGknTJubkDdwex",
+  "sort": 0,
+  "_originalKey": "!items!C8RGknTJubkDdwex"
+}

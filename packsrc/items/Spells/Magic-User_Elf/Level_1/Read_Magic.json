@@ -1,0 +1,51 @@
+{
+  "name": "Read Magic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to read any magical words or runes, such as those found on scrolls or inscribed on items. It does not allow the caster to speak the words, only to read and understand them. A spellcaster cannot understand unfamiliar magical writings without using this spell.</p>\n                <p>Once a caster reads a scroll or rune with this spell, they can read or speak that magic again without using this spell. All spell books are written in magical words, and only their owners may read them without using this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "1 turn",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "uFJl9dTxRm1fYF3e",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1000000,
+  "_originalKey": "!items!uFJl9dTxRm1fYF3e"
+}

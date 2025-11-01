@@ -1,0 +1,51 @@
+{
+  "name": "Fireball",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "SHIX4pYpBO0PFIgd",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 1d6 fire damage per caster level to every creature in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. spells for half damage.</p>\n                      <p>For example, a fireball cast by a 6th-level caster deals 6d6 (6-36) points of damage. On a successful saving throw, the damage is halved.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "240'",
+    "duration": "Instantaneous",
+    "effect": "Explosion in a sphere 40' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "(@classes.M.castLevel)d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "fire",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4ziiafnwn68rWOcO",
+  "sort": 0,
+  "_originalKey": "!items!4ziiafnwn68rWOcO"
+}

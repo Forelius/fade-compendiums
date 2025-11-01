@@ -1,0 +1,51 @@
+{
+  "name": "Charm Person",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dbUtnj1eTqO7N1rY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell affects humans, demihumans, and certain other creatures. The target must make a saving throw vs. spells; if failed, the target views the caster as a “best friend” and will defend them against any perceived threat. The spell does not affect animals, magical creatures, undead, or creatures larger than ogres.</p><p>The charmed creature obeys friendly commands but resists those that go against its nature or cause self-harm. The duration depends on the target’s Intelligence, allowing periodic saving throws:</p><ul><li>High Intelligence (13-18): Save every day</li><li>Average Intelligence (9-12): Save every week</li><li>Low Intelligence (3-8): Save every month</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "Varies based on Intelligence",
+    "effect": "One living person (see description)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "_id": "DlEQdFoCzf6Cm60E",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 400000,
+  "_originalKey": "!items!DlEQdFoCzf6Cm60E"
+}

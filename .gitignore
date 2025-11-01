@@ -1,8 +1,9 @@
 .vs
 node_modules
 /fade-compendiums.zip
-/packs/items/LOCK
-/packs/items/LOG.old
 /notes.txt
-/packs/actors/LOCK
-/packs/rollTables/LOCK
+
+# Ignore FoundryVTT LevelDB folders
+packs
+/PowerShell_History.txt
+update_basicSight.ps1

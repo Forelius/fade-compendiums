@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Small",
+  "type": "condition",
+  "img": "icons/svg/ice-aura.svg",
+  "_id": "t256QDUk3MdvbHMW",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "wkmLTnzRKELrL8Ca"
+  ],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!t256QDUk3MdvbHMW",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!t256QDUk3MdvbHMW.wkmLTnzRKELrL8Ca",
+      "name": "Small",
+      "img": "icons/svg/ice-aura.svg",
+      "disabled": false,
+      "_id": "wkmLTnzRKELrL8Ca",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#e5b8dd",
+      "transfer": true,
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

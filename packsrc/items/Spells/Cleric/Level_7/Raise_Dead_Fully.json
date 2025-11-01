@@ -1,0 +1,47 @@
+{
+  "name": "Raise Dead Fully*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lzIDmhBVYAbTYag1",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell is an improved version of <em>Raise Dead</em>, capable of restoring any living creature—not just humans and demihumans—to life.</p>\n                      <p><strong>Effects on Humans & Demihumans:</strong></p>\n                      <ul>\n                        <li>The recipient awakens immediately, fully healed.</li>\n                        <li>They can fight, use abilities, and cast spells without penalty.</li>\n                        <li>Any afflictions they had at death (curses, diseases, etc.) remain.</li>\n                      </ul>\n                      <p><strong>Effects on Other Creatures:</strong> All restrictions from <em>Raise Dead</em> apply, including time limits and required rest.</p>\n                      <p><strong>Time Limit:</strong> A 17th-level cleric can raise a body that has been dead for up to 4 months. For each level beyond 17th, the limit increases by 4 months.</p>\n                      <ul>\n                        <li>17th level: 4 months</li>\n                        <li>18th level: 8 months</li>\n                        <li>19th level: 12 months</li>\n                        <li>+4 months per level beyond 17th</li>\n                      </ul>\n                      <p><strong>Effects on Undead:</strong> If cast on an undead creature, the spell has the following results:</p>\n                      <ul>\n                        <li><strong>7 HD or less:</strong> The undead is immediately destroyed (no saving throw).</li>\n                        <li><strong>7-12 HD:</strong> The undead must make a saving throw vs. spells at <strong>-4 penalty</strong>; failure results in destruction.</li>\n                        <li><strong>12+ HD:</strong> The undead takes [[/r 6d10 #damage]] damage; a saving throw vs. spells reduces the damage by half.</li>\n                      </ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Raises any living creature",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "6d10",
+    "attackType": "save",
+    "damageType": "heal",
+    "healFormula": "@actor.system.attributes.hp.max",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "zYj1oZnovcNIj0pn",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!zYj1oZnovcNIj0pn"
+}

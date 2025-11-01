@@ -1,0 +1,76 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Club +1",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/club.webp",
+  "system": {
+    "tags": [
+      "cleric"
+    ],
+    "description": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Club or Torch",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Club",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A club is a crude blunt weapon—often little more than a roughly shaped piece of wood—that can be used in one hand.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "JNPts81CxeEf1ciY",
+  "sort": 0,
+  "_originalKey": "!items!JNPts81CxeEf1ciY"
+}

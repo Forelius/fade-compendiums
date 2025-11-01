@@ -1,0 +1,219 @@
+{
+  "name": "Swords (Class C)",
+  "formula": "1d100",
+  "results": [
+    "gLc9EsuN3aCoRYWo",
+    "x7c13qlGJ1HPUbkW",
+    "KnQr2ogIEJDpWwEt",
+    "eRY5OJIXjIiUsz5F",
+    "iEsW6zfsW0DL3O0O",
+    "do2kQBdeBNVg6Dqw",
+    "7Nn2AvjYm9klHNhM",
+    "P4aa5IjLIJmVWsbG",
+    "KWmlLjdCbckZVkde",
+    "6uDp0KXDbs7PnP9a"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of sword (Class C) and its magical bonus.</p>",
+  "folder": "XlnFM6nZ0S8Po8Fe",
+  "_id": "k5YAvq0SVFwFL7k2",
+  "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!tables!k5YAvq0SVFwFL7k2",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.6uDp0KXDbs7PnP9a",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "6uDp0KXDbs7PnP9a",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ylxkEpFEU4KkoopP",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.7Nn2AvjYm9klHNhM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        61,
+        81
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "7Nn2AvjYm9klHNhM",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.xYSdiB1uGhHtFjyp",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.KWmlLjdCbckZVkde",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        93,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "KWmlLjdCbckZVkde",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.KxdPhkFmq42jUuIf",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.KnQr2ogIEJDpWwEt",
+      "range": [
+        82,
+        92
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "KnQr2ogIEJDpWwEt",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +3",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.P4aa5IjLIJmVWsbG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        82,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "P4aa5IjLIJmVWsbG",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 25%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Ui9ZXgZNg4PW0Iix",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.do2kQBdeBNVg6Dqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/weapons/axes/axe-battle-orange.webp",
+      "_id": "do2kQBdeBNVg6Dqw",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "name": "Weapons Add. Mod. 40%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6DDYjWp0w7WJHQCe",
+      "description": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.eRY5OJIXjIiUsz5F",
+      "range": [
+        93,
+        98
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "eRY5OJIXjIiUsz5F",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +4",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.gLc9EsuN3aCoRYWo",
+      "range": [
+        1,
+        60
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "gLc9EsuN3aCoRYWo",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +1",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.iEsW6zfsW0DL3O0O",
+      "range": [
+        99,
+        100
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "iEsW6zfsW0DL3O0O",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +5",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!k5YAvq0SVFwFL7k2.x7c13qlGJ1HPUbkW",
+      "range": [
+        61,
+        81
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/skills/melee/sword-echo-stylized-tan.webp",
+      "_id": "x7c13qlGJ1HPUbkW",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Magical Bonus: +2",
+      "name": ""
+    }
+  ]
+}

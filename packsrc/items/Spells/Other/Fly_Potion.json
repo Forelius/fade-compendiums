@@ -1,0 +1,49 @@
+{
+  "name": "Fly (Potion)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Grants the target the ability to fly at will. The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "1d6 turns + 6",
+    "effect": "One creature may fly",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Flying",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.DZlIb5H2bDRbBo9e",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "iHv4qdVGiH85tEbx",
+  "sort": 3500000,
+  "_originalKey": "!items!iHv4qdVGiH85tEbx"
+}

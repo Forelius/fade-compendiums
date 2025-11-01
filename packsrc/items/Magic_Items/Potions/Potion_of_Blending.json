@@ -1,0 +1,60 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Blending",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 1000,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Potion",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": true,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.7q6N6QYkx56khItq",
+        "action": "consume",
+        "castAs": "",
+        "name": "Blending"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "8WxKOpcFc8hQfMPR",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2800000,
+  "_originalKey": "!items!8WxKOpcFc8hQfMPR"
+}

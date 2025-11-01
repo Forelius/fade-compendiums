@@ -1,0 +1,47 @@
+{
+  "name": "Dance",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell forces the touched victim to dance uncontrollably, performing a wild jig or similar movement, preventing them from taking meaningful actions.</p><h4>Effects:</h4><ul><li>The caster must touch the target (requires a successful melee attack roll).</li><li>The victim receives no saving throw to resist.</li><li><p>While dancing, the victim:</p><ul><li>Cannot attack, cast spells, or flee.</li><li>-4 penalty to all saving throws.</li><li>+4 penalty to Armor Class.</li></ul></li></ul><h4>Duration:</h4><p>The duration of the effect is based on the caster’s level:</p><ul><li>Levels 18-20: [[/r 3 #Rounds of dancing]]</li><li>Levels 21-24: [[/r 4 #Rounds of dancing]]</li><li>Levels 25-28: [[/r 5 #Rounds of dancing]]</li><li>Levels 29-32: [[/r 6 #Rounds of dancing]]</li><li>Levels 33-36: [[/r 7 #Rounds of dancing]]</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "Touch",
+    "duration": "3 or more rounds",
+    "effect": "Causes 1 victim to dance",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "melee",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "g5w4fkoVPyTIrps6",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!g5w4fkoVPyTIrps6"
+}

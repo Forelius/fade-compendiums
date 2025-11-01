@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Invisible",
+  "type": "condition",
+  "img": "icons/svg/invisible.svg",
+  "_id": "YG8b9eFbcb3QCHOv",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>A character who cannot see his opponent due to an invisibility spell suffers a -6 penalty to all attack rolls made against his invisible foe; he has to guess where his target is by hearing. He suffers no penalty to his AC when attacked by an invisible character. Remember, <strong>someone who attacks loses the bonuses of invisibility</strong>!</p><p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. </span></p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "bdeZjPanfzU99uHr"
+  ],
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YG8b9eFbcb3QCHOv",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!YG8b9eFbcb3QCHOv.bdeZjPanfzU99uHr",
+      "name": "Invisible",
+      "img": "icons/svg/invisible.svg",
+      "disabled": false,
+      "_id": "bdeZjPanfzU99uHr",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

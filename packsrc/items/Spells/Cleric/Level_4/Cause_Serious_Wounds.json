@@ -1,0 +1,53 @@
+{
+  "name": "Cause Serious Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "0suMdwV8WQcGRmOj",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>This spell inflicts 2d6 + 2 points of damage on a creature touched by the caster. A successful melee attack roll is required to deliver the spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "Causes damage to one creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "2d6+2",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "GPIOMmkUycfinAOE",
+  "sort": 0,
+  "_originalKey": "!items!GPIOMmkUycfinAOE"
+}

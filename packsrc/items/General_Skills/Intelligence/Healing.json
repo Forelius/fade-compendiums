@@ -1,0 +1,36 @@
+{
+  "name": "Healing",
+  "type": "skill",
+  "img": "systems/fantastic-depths/assets/img/item/skill.png",
+  "system": {
+    "description": "<p>Healing allows the treatment of wounds and diagnosis of illnesses among humans and demihumans. A successful skill roll can restore 1d3 hit points to a wounded character. This skill can only be used once per set of wounds, defined as all hit points lost in a single combat. A natural roll of 20 accidentally inflicts [[/r 1d3 #Healing hit points restored]] damage, and the healer may not attempt to treat those wounds again. Success with a roll of 5 or more indicates the healer can determine if an illness is natural or magically induced.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "level": 1,
+    "rollMode": "publicroll",
+    "healFormula": "1d3",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 8,
+    "autoSuccess": null,
+    "autoFail": 20
+  },
+  "_id": "03Z0J626hatmxOd5",
+  "effects": [],
+  "folder": "8w4pVPrvcigDH9W5",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!03Z0J626hatmxOd5"
+}

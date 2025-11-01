@@ -1,0 +1,59 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Blending",
+  "type": "condition",
+  "img": "icons/svg/invisible.svg",
+  "_id": "KijTXXdRGgHbfcNB",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "oTK4nH7QPiILkEyj"
+  ],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!KijTXXdRGgHbfcNB",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!KijTXXdRGgHbfcNB.oTK4nH7QPiILkEyj",
+      "name": "Blending",
+      "img": "icons/svg/invisible.svg",
+      "disabled": false,
+      "_id": "oTK4nH7QPiILkEyj",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#eeffb3",
+      "transfer": true,
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Mass Invisibility*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants invisibility (as the <em>Invisibility</em> spell) to multiple creatures or objects within a 60' square area up to 240' from the caster.</p><h4>Effect:</h4><ul><li>Affects up to 6 dragon-sized creatures or 300 man-sized creatures.</li><li>Each recipient becomes invisible, along with all their carried equipment.</li><li>Invisibility lasts permanently until broken.</li><li>Attacking or casting a spell ends the invisibility.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "Permanent until broken",
+    "effect": "Creatures or objects in a 60' square area become invisible",
+    "targetSelf": false,
+    "targetOther": true,
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "dmgFormula": "",
+    "healFormula": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "qaR98ApMOLEMX20L",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!qaR98ApMOLEMX20L"
+}

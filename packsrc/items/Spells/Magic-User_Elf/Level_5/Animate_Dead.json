@@ -1,0 +1,47 @@
+{
+  "name": "Animate Dead",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "Q2J4fFC7tEL14SLS",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell animates skeletons or zombies from normal skeletons or dead bodies within range. The animated undead creatures will follow the spellcaster's commands until destroyed by a cleric or a *Dispel Magic* spell.</p>\n                      <p><strong>Hit Dice:</strong> For each level of the caster, one Hit Die of undead may be animated. Skeletons have the same Hit Dice as the original creature, while zombies gain one extra Hit Die. Humans and demihumans are considered 1 HD creatures for this spell.</p>\n                      <p>Animated undead cannot cast spells but are immune to sleep, charm effects, and poison.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Creates zombies or skeletons",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "@classes.M.castLevel",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "qWJZGp9cUOLCY3VH",
+  "sort": 0,
+  "_originalKey": "!items!qWJZGp9cUOLCY3VH"
+}

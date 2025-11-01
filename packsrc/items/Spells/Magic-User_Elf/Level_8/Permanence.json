@@ -1,0 +1,47 @@
+{
+  "name": "Permanence",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to make one other magic-user spell of 7th level or lower permanent. However, this spell cannot be used on:</p><ul><li>Spells with an instantaneous or permanent duration (e.g., <em>dispel magic, fireball, lightning bolt</em>).</li><li>Any clerical spells.</li><li>Any 8th or 9th level magic-user spells.</li></ul><h4>Rules & Restrictions:</h4><ul><li>The DM may decide that certain spell combinations are unbalanced and disallow them.</li><li>Dispel Magic cast by the original caster or a higher-level caster can remove the permanence effect (normal chances for success apply).</li><li>Items can only have one permanent spell, except weapons (see below).</li><li>Creatures can only have two permanent spells. Attempting a third will automatically fail.</li><li>Weapons can have up to five permanent spells, but each beyond the first has a 25% chance of failure. If a failure occurs, the weapon is completely destroyed.</li></ul><h4>Common Uses of Permanence:</h4><h4>On Creatures:</h4><ul><li><em>Detect Magic</em></li><li><em>Protection from Evil</em></li><li><em>Read Languages</em></li><li><em>Read Magic</em></li><li><em>Detect Invisible</em></li><li><em>Fly</em></li></ul><h4>On Areas:</h4><ul><li><em>Light</em></li><li><em>Phantasmal Force</em></li><li><em>Confusion</em></li><li><em>Cloudkill</em></li></ul><h4>Magical Items & Permanence:</h4><p>A permanence spell does not enchant objects; it only binds a spell to an object, making it more fragile than a true enchanted item. A magic-user does not need <em>Permanence</em> to create permanent magical items.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "Permanent until dispelled",
+    "effect": "Causes one magical effect to become permanent",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "vaqgRYfuxTJsW4iQ",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!vaqgRYfuxTJsW4iQ"
+}

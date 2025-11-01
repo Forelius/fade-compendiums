@@ -1,0 +1,138 @@
+{
+  "name": "Dragon Control (normal)",
+  "formula": "1d20",
+  "results": [
+    "xuKg5RTJ5M0Jzv1X",
+    "WykcfMVCxV0Tasrv",
+    "SatkVilHcN0LIPG0",
+    "h8v8muniIq46IR2i",
+    "xj5sqTypBVLDVili",
+    "BVqrYO6F3nW52l7M"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "description": "<p>Determines the type of gemstone dragon controlled.</p>",
+  "folder": "X85Fi9NfqjhLiHIy",
+  "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "hvKrIU8Qx89wAauH",
+  "sort": 0,
+  "_originalKey": "!tables!hvKrIU8Qx89wAauH",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.BVqrYO6F3nW52l7M",
+      "range": [
+        20,
+        20
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "BVqrYO6F3nW52l7M",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Gold Dragon",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.SatkVilHcN0LIPG0",
+      "range": [
+        11,
+        14
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "SatkVilHcN0LIPG0",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Green Dragon",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.WykcfMVCxV0Tasrv",
+      "range": [
+        6,
+        10
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "WykcfMVCxV0Tasrv",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Black Dragon",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.h8v8muniIq46IR2i",
+      "range": [
+        15,
+        17
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "h8v8muniIq46IR2i",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Blue Dragon",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.xj5sqTypBVLDVili",
+      "range": [
+        18,
+        19
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "xj5sqTypBVLDVili",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "Red Dragon",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!hvKrIU8Qx89wAauH.xuKg5RTJ5M0Jzv1X",
+      "range": [
+        1,
+        5
+      ],
+      "weight": 1,
+      "type": "text",
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "xuKg5RTJ5M0Jzv1X",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "White Dragon",
+      "name": ""
+    }
+  ]
+}

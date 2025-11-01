@@ -1,0 +1,59 @@
+{
+  "folder": "GigLOpvAQa3AJoup",
+  "name": "Potion of Treasure Finding",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>By concentrating, the user can detect the direction and distance (but not the amount) of the largest treasure within 360'.</p><p><span style=\"font-family: Barlow, sans-serif\">It lasts for 7-12 turns ([[/br 1d6+6]]), with the exact duration known only to the DM.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.mWyKAhKYdmhec5Rl",
+        "action": "consume",
+        "castAs": "",
+        "name": "Treasure Finding"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "LqQoWo03j5geHPX1",
+  "sort": 500000,
+  "_originalKey": "!items!LqQoWo03j5geHPX1"
+}

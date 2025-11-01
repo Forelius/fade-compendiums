@@ -1,0 +1,44 @@
+{
+  "folder": "wp4JNVGDTG8oFeQq",
+  "name": "Blankout",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "ILPI8VQrTFyVixas",
+  "system": {
+    "tags": [],
+    "description": "<p>By concentrating for 1 round, the mystic makes his presence \"disappear.\" No living or undead creature can see him, and there is no saving throw involved. This effect lasts for 1 round for each level of the mystic and is automatically dispelled if he makes an attack. He can use this ability only once per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "MY",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ILPI8VQrTFyVixas"
+}

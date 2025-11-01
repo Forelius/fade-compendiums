@@ -1,0 +1,53 @@
+{
+  "name": "Finger of Death*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "bV0cyZubJQzT1tJ6",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "60'",
+    "duration": "Instantaneous",
+    "effect": "Kills one living creature or heals high-HD undead",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "3d10",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "death",
+    "saveDmgFormula": null,
+    "attackType": "save",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "5Dn1pqJKxUSFfoLz",
+  "sort": 0,
+  "_originalKey": "!items!5Dn1pqJKxUSFfoLz"
+}

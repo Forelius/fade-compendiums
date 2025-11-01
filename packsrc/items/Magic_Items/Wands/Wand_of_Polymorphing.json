@@ -1,0 +1,65 @@
+{
+  "folder": "j9i1UsTuEAW2VgKU",
+  "name": "Wand of Polymorphing",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item creates either a polymorph self or polymorph other effect (as if using the magic-user spells). The user must state which effect is desired. An unwilling victim may make a saving throw vs. magic to avoid the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 10,
+    "chargesMax": 20,
+    "weight": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isTreasure": true,
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.zBIKbhKYfhDHM18o",
+        "action": "none",
+        "castAs": "M6",
+        "name": "Polymorph Other"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.17pZeQhr2R8Jw3cy",
+        "action": "none",
+        "castAs": "M6",
+        "name": "Polymorph Self"
+      }
+    ],
+    "weightEquipped": 10,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6KeAsPiW8jH9aNGQ",
+  "sort": 400000,
+  "_originalKey": "!items!6KeAsPiW8jH9aNGQ"
+}

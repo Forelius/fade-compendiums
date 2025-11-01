@@ -1,0 +1,100 @@
+{
+  "folder": "APhl7fhYB0s5L7Nl",
+  "name": "Room with Alarm",
+  "_id": "Yk9ebMPkQwgRP9yM",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>The room is rigged with some type of alarm (sound, magical or mechanical) that can summon a special monster, open a dungeon door or have no functional effect at all.</p>",
+  "results": [
+    "P4Voofp0LYww7buz",
+    "9UMRDshnEDgyuixG",
+    "8laXsoGv9AdxUl5F",
+    "JeyZMPSpJtjhYzqE"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_originalKey": "!tables!Yk9ebMPkQwgRP9yM",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Yk9ebMPkQwgRP9yM.8laXsoGv9AdxUl5F",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "8laXsoGv9AdxUl5F",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "A large stone suspended by a heavy chain slowly lowers to the floor, and a click is heard. A locked door or container somewhere in the dungeon has been unlocked. It is either the most recent lock they encountered or the next one they will come across.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Yk9ebMPkQwgRP9yM.9UMRDshnEDgyuixG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        3
+      ],
+      "drawn": false,
+      "_id": "9UMRDshnEDgyuixG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The whistling sound has alerted something nearby. Roll on the appropriate encounter table  to determine the type of encounter.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Yk9ebMPkQwgRP9yM.JeyZMPSpJtjhYzqE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "JeyZMPSpJtjhYzqE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "A strange contraption in the center of the room spins for ten seconds when the characters enter the room. A wailing sound is heard when it stops.",
+      "name": ""
+    },
+    {
+      "_originalKey": "!tables.results!Yk9ebMPkQwgRP9yM.P4Voofp0LYww7buz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "_id": "P4Voofp0LYww7buz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      },
+      "description": "The room has a stone protrusion with holes in it, fed by an underground steam vent. As soon as the characters enter the room, it starts whistling loudly. The sound continues for ten seconds and then stops.",
+      "name": ""
+    }
+  ]
+}

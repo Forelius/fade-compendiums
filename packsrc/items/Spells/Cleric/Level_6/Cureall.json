@@ -1,0 +1,47 @@
+{
+  "name": "Cureall",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "buNRCuEtvu3SPc9W",
+  "system": {
+    "tags": [],
+    "description": "<p>This is the most powerful healing spell available. When used to cure wounds, it restores nearly all damage, leaving the recipient with only [[/r 1d6 #damage remains]] points of damage remaining.</p><p><strong>Healing Process:</strong> Restore the target to full starting hit points, then roll 1d6 and subtract that amount from their total.</p><p><strong>Alternative Uses:</strong> Instead of healing damage, <em>Cureall</em> may be used to cure <em>one</em> of the following conditions:</p><ul><li>Remove a curse</li><li>Neutralize poison</li><li>Cure paralysis</li><li>Cure disease</li><li>Cure blindness</li><li>Remove a <em>Feeblemind</em> effect</li></ul><p>If the recipient is suffering from multiple afflictions (such as wounds and a curse), the cleric must specify which one the spell is curing.</p><p><strong>Effect on Recently Raised Creatures:</strong> If cast on someone who has just been affected by <em>Raise Dead</em>, <em>Cureall</em> eliminates the need for two weeks of bed rest, allowing the target to function normally immediately. This is the only magical healing that works on a newly raised creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Cures anything",
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "heal",
+    "healFormula": "@actor.system.attributes.hp.max - 1d6",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "Yf3kZeC1JcW3SHle",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Yf3kZeC1JcW3SHle"
+}

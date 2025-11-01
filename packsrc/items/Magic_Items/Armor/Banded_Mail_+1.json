@@ -1,0 +1,98 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Banded Mail +1",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/bandedmail.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 225,
+    "cost": 50,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 4,
+    "isShield": false,
+    "dmgFormula": null,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Banded Mail",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false
+  },
+  "effects": [
+    "cnJO6tFeW3f0HSfJ"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vpFkh2sAmusPuHDk",
+  "sort": 0,
+  "_originalKey": "!items!vpFkh2sAmusPuHDk",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!vpFkh2sAmusPuHDk.cnJO6tFeW3f0HSfJ",
+      "name": "Armor+1",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.vpFkh2sAmusPuHDk",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "cnJO6tFeW3f0HSfJ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

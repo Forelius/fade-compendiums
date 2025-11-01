@@ -1,0 +1,47 @@
+{
+  "name": "Charm Plant",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "XAwljvrj531dXBgY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell functions similarly to charm person, but affects plants instead.</p><p>The spell charms one of the following:</p><ul><li>1 tree</li><li>6 medium-sized bushes</li><li>12 small shrubs</li><li>24 small plants</li></ul><p>Charmed plants will understand and obey all commands from the caster, as long as the tasks are within their capabilities. This includes entangling nearby creatures, but does not grant mobility, sensory perception, or intelligence.</p><p>Saving Throw: Normal plants receive no saving throw. Plant-like monsters (such as treants or shriekers) may attempt a saving throw vs. spells to resist the effect.</p><p>Duration: The effect lasts for 6 months, unless:</p><ul><li>The spell is dispelled.</li><li>The affected plants enter winter dormancy.</li></ul><p>This spell is highly useful in fortifications, especially when combined with growth of plants and permanence.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "6 months (see description)",
+    "effect": "Charms one tree or multiple smaller plants",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "-",
+    "durationFormula": "241920",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "6ns9ZBa0WZZg0viC",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!6ns9ZBa0WZZg0viC"
+}

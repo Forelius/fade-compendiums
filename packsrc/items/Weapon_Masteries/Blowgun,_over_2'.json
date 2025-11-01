@@ -1,0 +1,105 @@
+{
+  "name": "Blowgun, over 2'",
+  "type": "weaponMastery",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "basic",
+        "range": {
+          "short": 20,
+          "medium": 25,
+          "long": 30
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "By poison"
+      },
+      {
+        "name": "skilled",
+        "range": {
+          "short": 20,
+          "medium": 25,
+          "long": 30
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "By poison (save -1)"
+      },
+      {
+        "name": "expert",
+        "range": {
+          "short": 25,
+          "medium": 30,
+          "long": 40
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "By poison (save -2)"
+      },
+      {
+        "name": "master",
+        "range": {
+          "short": 30,
+          "medium": 35,
+          "long": 40
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "By poison (save -3)"
+      },
+      {
+        "name": "grandMaster",
+        "range": {
+          "short": 30,
+          "medium": 40,
+          "long": 50
+        },
+        "pDmgFormula": null,
+        "sDmgFormula": null,
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "By poison (save -4)"
+      }
+    ],
+    "name": "",
+    "weaponType": "handheld"
+  },
+  "_id": "NmcK4beYReh7bplr",
+  "effects": [],
+  "folder": "MAZAED6MvpyUHsNh",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 1200000,
+  "_originalKey": "!items!NmcK4beYReh7bplr"
+}

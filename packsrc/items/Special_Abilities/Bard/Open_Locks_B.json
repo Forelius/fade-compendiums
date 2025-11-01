@@ -1,0 +1,44 @@
+{
+  "folder": "qzWxN8tiEhMuMddd",
+  "name": "Open Locks (B)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "1C1rT6HoYUB2A6hX",
+  "system": {
+    "tags": [],
+    "description": "<p>A Bard can pick mechanical locks, including doors, chests, and bindings, using the same chance as a Thief of the same level. This requires <strong>thieves’ tools</strong> and <strong>one round per attempt</strong>. A failed attempt means the lock remains secured but may be tried again if circumstances allow. Magically sealed locks cannot be opened with this skill.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d100",
+    "operator": "lte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "B",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!1C1rT6HoYUB2A6hX"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Prismatic Wall",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "6NeTFZvE9Eu29rQY",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a multi-layered magical barrier composed of seven colors, each with unique properties and defenses.</p><h4>Properties:</h4><ul><li>The wall is 2 inches thick, with 1/8-inch gaps between colors.</li><li><p>The effect must be either:</p><ul><li>A 10' radius sphere centered on the caster.</li><li>A 500 square foot flat surface (vertical or horizontal).</li></ul></li><li>The wall is immovable (even by a wish).</li><li>The caster may pass through freely with any chosen items.</li><li>Other creatures or objects making contact suffer effects from each layer they pass through.</li><li>Extends into the Ethereal Plane, preventing planar travel through it.</li></ul><h4>Bypassing the Wall:</h4><ul><li>A <em>wish spell</em> or <em>rod of cancellation</em> removes only the three outermost layers.</li><li>Each layer must be removed in order with the appropriate spell.</li></ul><h4>Prismatic Wall Layers & Effects:</h4><table style=\"width:97%\"><tbody><tr><th style=\"min-width:80px\"><p>Color</p></th><th><p>Effect</p></th><th><p>Spell to Remove</p></th></tr><tr><td style=\"min-width:80px\"><p>Red</p></td><td><p>Blocks all magical missiles; inflicts [[/r 12 #Fire Damage]].</p></td><td><p>Any magical cold</p></td></tr><tr><td style=\"min-width:80px\"><p>Orange</p></td><td><p>Blocks all non-magical missiles; inflicts [[/r 24 #Lightning Damage]].</p></td><td><p>Any magical lightning</p></td></tr><tr><td style=\"min-width:80px\"><p>Yellow</p></td><td><p>Blocks all breath weapons; inflicts [[/r 48 #Acid Damage]].</p></td><td><p>Magic missile spell</p></td></tr><tr><td style=\"min-width:80px\"><p>Green</p></td><td><p>Blocks all detection spells; save vs. poison or die if touched.</p></td><td><p>Passwall spell</p></td></tr><tr><td style=\"min-width:80px\"><p>Blue</p></td><td><p>Blocks all poisons, gases, and gaze attacks; save vs. petrification or be turned to stone.</p></td><td><p>Disintegrate spell</p></td></tr><tr><td style=\"min-width:80px\"><p>Indigo</p></td><td><p>Blocks all matter; save vs. spells or be gated to a random outer plane (50% chance of being lost forever).</p></td><td><p>Dispel magic spell</p></td></tr><tr><td style=\"min-width:80px\"><p>Violet</p></td><td><p>Blocks all magic; save vs. wands or be struck unconscious and insane (curable only by <em>Cureall</em> or a <em>Wish</em>).</p></td><td><p>Continual light spell</p></td></tr></tbody></table><h4>Special Interactions:</h4><ul><li>Anti-Magic Shell: Prevents passage but does not dispel the wall.</li><li>Planar Travel: The wall extends into adjacent planes, preventing teleportation through it.</li><li>Physical Attacks: The wall is indestructible.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "60'",
+    "duration": "6 turns",
+    "effect": "Creates a multi-layered magical barrier",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "spell",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "paZ13CJ5nMJPb1AC",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!paZ13CJ5nMJPb1AC"
+}

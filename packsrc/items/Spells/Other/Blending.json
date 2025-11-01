@@ -1,0 +1,49 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Blending",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "7q6N6QYkx56khItq",
+  "system": {
+    "tags": [],
+    "description": "<p>The magical effect allows the user to dynamically transform their entire color scheme to any color, pattern, or combination. When activated, it provides advanced camouflage that makes the user extremely difficult to detect. Only specialized perception abilities like <em>detect invisible</em> or possessing <em>true sight</em> can penetrate the disguise. There is a 10% chance the user might be detected by standard observation, making it an exceptionally powerful transformative ability.</p><p>It lasts for 7-12 turns (1d6+6), with the exact duration known only to the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "7-12 turns",
+    "effect": "Blends with surroundings.",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+6)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Blending",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.KijTXXdRGgHbfcNB",
+        "remove": false
+      }
+    ],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7q6N6QYkx56khItq"
+}

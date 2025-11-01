@@ -1,0 +1,47 @@
+{
+  "name": "Create Magical Monsters",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "tpOpaJqww9ZZvZT2",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell functions like the <em>Create Normal Monsters</em> spell but allows the creation of monsters with up to two asterisks (special abilities). The range and duration are doubled compared to the lesser spell.</p><h4>Monster Creation</h4><ul><li>The caster chooses the type of monsters created.</li><li>Creatures appear out of thin air and vanish at the end of the duration.</li><li>The total number of Hit Dice created equals the level of the caster (fractions are dropped).</li><li>Undead can be created, but humans and demihumans cannot.</li><li>Monsters with 1-1 Hit Dice count as 1 HD, while creatures with 1/2 HD or less count as 1/2 HD.</li></ul><h4>Construct Creation</h4><p>This spell can also create a construct (see Chapter 14) if the caster provides the necessary materials. Only one construct will appear, but it is permanent and does not vanish when the duration ends.</p><h4>Construct Rules</h4><ul><li>The construct may have a maximum of two special abilities (two asterisks).</li><li>The cost of materials is at least 5,000 gold pieces per asterisk, though the DM may require more.</li><li>The construct can be dispelled under normal rules unless enchanted as a nondispellable construct (see Chapter 16).</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "60'",
+    "duration": "Two turns",
+    "effect": "Creates one or more magical monsters",
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "attackType": "",
+    "damageType": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "memorized": 0,
+    "cast": 0,
+    "saveDmgFormula": null,
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "effects": [],
+  "_id": "ZW8APjbUPrEqoTDd",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!ZW8APjbUPrEqoTDd"
+}
