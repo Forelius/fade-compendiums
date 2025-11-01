@@ -1,0 +1,353 @@
+{
+  "folder": "ELJlprb1pMqgBm4M",
+  "name": "Encounter - Dungeon Level 8-10",
+  "_id": "VxCuCF54Wdkeb2sB",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<h3>Encounter - Dungeon Level 8-10</h3><ul><li><p>Very good light [[4d6*10]]'</p></li><li><p>Dim Light* [[2d6*10]]'</p></li><li><p>No light † [[1d4*10]]'</p></li></ul><p><em>* Or full darkness with infravision used.</em></p><p><em>† Or very poor visibility (heavy snow or fog, sandstorm, etc.).</em></p><hr /><p>For monsters marked with <strong>*</strong> select any one type and modify the number appearing for the level of monster</p>",
+  "results": [
+    "rgMbqS3yMISkj6Yq",
+    "9hXEKgoMS8Urdihd",
+    "NiyUcpdiQuypbw4U",
+    "W5D9ElF1pHfbl8ls",
+    "QJhutV6wauTkbL2x",
+    "o332cRkh3rYHvut9",
+    "b9giEFqGWjCzgKGd",
+    "D20qh5Yx24MuHYGv",
+    "foy8N9tdaD8Zg3so",
+    "lKfhADS9PSXAVOvc",
+    "c4B7fXNj8YQ7eMmC",
+    "vPjP5gmBay5OtBwj",
+    "akehUeYuEyMaf1gE",
+    "sOwrXzWgkg1qYX28",
+    "kzJsanhCOmFanbx0",
+    "g0wp6eVnom8abF6C",
+    "vx7DHZkRJABx23Bj",
+    "GWLdEaC44RS4sPa0",
+    "Ar2wryz3NtBrpTXk"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "mto4pnyhrYytwsO6": 3
+  },
+  "flags": {},
+  "_stats": {},
+  "formula": "1d20",
+  "_originalKey": "!tables!VxCuCF54Wdkeb2sB",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.9hXEKgoMS8Urdihd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "9hXEKgoMS8Urdihd",
+      "text": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.B5efkZ8PvLYT0tD5]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.Ar2wryz3NtBrpTXk",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "Ar2wryz3NtBrpTXk",
+      "text": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.IrVeVqYgAdlGhhEd]{Vampire}",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.D20qh5Yx24MuHYGv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "D20qh5Yx24MuHYGv",
+      "text": "1 Hydra ( [[1d6+6]] heads)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.GWLdEaC44RS4sPa0",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "GWLdEaC44RS4sPa0",
+      "text": "[[1d4+1]] Spider*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.NiyUcpdiQuypbw4U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "NiyUcpdiQuypbw4U",
+      "text": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VWs3X9tU2MUzc2pK]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.QJhutV6wauTkbL2x",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "QJhutV6wauTkbL2x",
+      "text": "[[1d2]] Dragon",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.W5D9ElF1pHfbl8ls",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "W5D9ElF1pHfbl8ls",
+      "text": "[[1d2]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.VJlWY3tKSm9JM7jS]{Devil Swine}",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.akehUeYuEyMaf1gE",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_id": "akehUeYuEyMaf1gE",
+      "text": "1 @UUID[Compendium.fade-compendiums.actor-compendium.Actor.ZIDlZCyqnIU4woLo]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.b9giEFqGWjCzgKGd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "b9giEFqGWjCzgKGd",
+      "text": "1 Golem*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.c4B7fXNj8YQ7eMmC",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "c4B7fXNj8YQ7eMmC",
+      "text": "[[1d6+3]] Random Adventurers and [[1d4]] Fighters",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.foy8N9tdaD8Zg3so",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "foy8N9tdaD8Zg3so",
+      "text": "[[1d4+1]] Living Statue*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.g0wp6eVnom8abF6C",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "g0wp6eVnom8abF6C",
+      "text": "[[1d4+1]] Snake*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.kzJsanhCOmFanbx0",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "kzJsanhCOmFanbx0",
+      "text": "[[1d4]] Salamander*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.lKfhADS9PSXAVOvc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_id": "lKfhADS9PSXAVOvc",
+      "text": "[[1d6+1]] Lycanthrope*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.o332cRkh3rYHvut9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        7
+      ],
+      "drawn": false,
+      "_id": "o332cRkh3rYHvut9",
+      "text": "[[1d6]] Giant*",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.rgMbqS3yMISkj6Yq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "rgMbqS3yMISkj6Yq",
+      "text": "[[1d6]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.rqWVOdrALlCdouwK]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.sOwrXzWgkg1qYX28",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_id": "sOwrXzWgkg1qYX28",
+      "text": "[[1d4+1]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.FoegzkcfGSiKi9by]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.vPjP5gmBay5OtBwj",
+      "type": "pack",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "vPjP5gmBay5OtBwj",
+      "text": "NPC Adventurer Alignment",
+      "img": "icons/svg/d20-grey.svg",
+      "documentId": "fPcCRKw8Wgi1yQMH",
+      "flags": {},
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "_stats": {}
+    },
+    {
+      "_originalKey": "!tables.results!VxCuCF54Wdkeb2sB.vx7DHZkRJABx23Bj",
+      "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "vx7DHZkRJABx23Bj",
+      "text": "[[1d3]] @UUID[Compendium.fade-compendiums.actor-compendium.Actor.wzWOIB8UDE7BQmYs]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {},
+      "_stats": {}
+    }
+  ]
+}
