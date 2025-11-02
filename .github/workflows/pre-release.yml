@@ -1,35 +1,38 @@
-# EXAMPLE:
-# git tag 0.7.12-rc.1
-# git push origin main
-# git push origin 0.7.12-rc.1
-# .github/workflows/pre-release.yml
 name: Build and Release fade-compendiums (Pre-Release)
 
 on:
-  push:
-    tags:
-      - '[0-9]+\.[0-9]+\.[0-9]+-rc\.[0-9]+'  # Pre-release tags
+  release:
+    types: [published]
 
 permissions:
   contents: write
 
 jobs:
   build:
+    if: ${{ github.event.release.target_commitish == 'main' }}
     runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.event.release.tag_name }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      # Substitute Manifest and Download URLs in the module.json
+      - name: Substitute Manifest and Download Links For Versioned Ones
+        id: sub_manifest_link_version
+        uses: cschleiden/replace-tokens@v1
         with:
-          fetch-depth: 0
+          files: 'module.json'
+        env:
+          VERSION: ${{ env.VERSION }}
+          URL: https://github.com/${{ github.repository }}
+          MANIFEST: https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/module.json
+          DOWNLOAD: https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/module.zip
+          CHANGELOG: https://github.com/${{ github.repository }}/releases/tag/${{ env.VERSION }}
 
       - name: Fetch all branches and tags
         run: git fetch --all --tags
-
-      - name: Extract version from tag
-        id: get_version
-        run: |
-          echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
       - name: Check if the tag commit is in the main branch
         id: check_main
@@ -45,7 +48,7 @@ jobs:
 
       - name: Setup Node.js
         if: env.is_valid == 'true'
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
@@ -66,24 +69,29 @@ jobs:
       - name: Prepare release notes
         if: env.is_valid == 'true'
         id: prepare_notes
+        env:
+          RELEASE_BODY: ${{ github.event.release.body }}
         run: |
-          # Create new release notes
-          echo "## Fantastic Depths Compendiums Pre-Release" > release_notes.txt
-          echo "" >> release_notes.txt
-          echo "This is a pre-release version of Fantastic Depths Compendiums." >> release_notes.txt
-          echo "To install manually, use this URL:" >> release_notes.txt
-          echo "https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/main/module.json" >> release_notes.txt
+          {
+            echo "## Fantastic Depths Compendiums Pre-Release"
+            echo
+            printf "%s\n" "$RELEASE_BODY"
+            echo
+            echo "This is a pre-release version of Fantastic Depths Compendiums."
+            echo "To install manually, use this URL:"
+            echo "https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/module.json"
+          } > release_notes.txt
 
       - name: Create GitHub pre-release
         if: env.is_valid == 'true'
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ env.VERSION }}
-          name: "Pre-Release ${{ env.VERSION }}"
-          prerelease: true
-          artifacts: module.zip
-          bodyfile: release_notes.txt
-          token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
           replacesArtifacts: true
           updateOnlyUnreleased: false
+          prerelease: true
+          tag: ${{ env.VERSION }}
+          name: "Pre-Release ${{ env.VERSION }}"
+          artifacts: './module.json, ./module.zip'
+          bodyfile: release_notes.txt
+          token: ${{ secrets.GITHUB_TOKEN }}
