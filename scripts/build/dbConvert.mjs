@@ -1,6 +1,9 @@
 import fs from "fs/promises";
 import path from "path";
 
+// Normalize text content to CRLF for consistent Windows checkouts
+const toCRLF = (text) => text.replace(/\r?\n/g, "\r\n");
+
 /**
  * Database Converter - ES6 Class for converting FoundryVTT database formats
  */
@@ -83,7 +86,7 @@ class dbConvert {
         // Only create _folders.json if there are folder documents
         if (Object.keys(folderDocuments).length > 0) {
             const foldersFilePath = path.join(this.paths.outputDir, '_folders.json');
-            await fs.writeFile(foldersFilePath, JSON.stringify(folderDocuments, null, 2), 'utf8');
+            await fs.writeFile(foldersFilePath, toCRLF(JSON.stringify(folderDocuments, null, 2)), 'utf8');
             console.log(`Extracted ${Object.keys(folderDocuments).length} folder documents to: ${foldersFilePath}`);
         } else {
             console.log('No folder documents found to extract.');
@@ -288,7 +291,7 @@ class dbConvert {
                 await fs.mkdir(fullFolderPath, { recursive: true });
 
                 // Write document to file
-                await fs.writeFile(fullFilePath, JSON.stringify(document, null, 2), 'utf8');
+                await fs.writeFile(fullFilePath, toCRLF(JSON.stringify(document, null, 2)), 'utf8');
                 
                 extractedCount++;
                 
@@ -487,7 +490,7 @@ class dbConvert {
             const dbContent = JSON.stringify(documents, null, 2);
             
             // Write to the .db file
-            await fs.writeFile(dbPath, dbContent, 'utf8');
+            await fs.writeFile(dbPath, toCRLF(dbContent), 'utf8');
             
             const documentCount = Object.keys(documents).length;
             console.log(`Successfully compiled ${documentCount} documents to ${dbPath}`);

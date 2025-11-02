@@ -1,0 +1,87 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of Inertia",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "tags": [
+      "thrown"
+    ],
+    "description": "<p>Only a <strong>dwarf</strong>, <strong>halfling</strong>, <strong>fighter</strong>, <strong>thief</strong>, or <strong>mystic</strong> may use this unusual item. It may be used as a spear +3 in all respects. On command of the user, it will stop wherever it is, and it cannot be moved by any means except a wish. A second command releases it. If the item is in motion when stopped, it will continue its direction when released. For example, it may be thrown toward a door and commanded to stop, later released if an enemy enters so that it will continue toward the enemy (a normal attack roll is made). If the user falls, a command will stop it suddenly, and the user may hold on to it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 20,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": 20,
+      "medium": 40,
+      "long": 60
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 3,
+      "toHit": 3,
+      "dmgRanged": 3,
+      "toHitRanged": 3,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "size": "M",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Mysterious Rod",
+    "canSet": true,
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 1,
+    "chargesMax": null,
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "QH0MZoa8Al47whQl",
+  "sort": 200000,
+  "_originalKey": "!items!QH0MZoa8Al47whQl"
+}

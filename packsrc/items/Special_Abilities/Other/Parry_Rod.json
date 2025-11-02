@@ -1,0 +1,51 @@
+{
+  "name": "Parry (Rod)",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This maneuver allows a character to focus on blocking incoming attacks for the entire combat round instead of making an attack roll. By doing so, they impose a -5 penalty on all melee and thrown weapon attacks made against them (but not missile weapon attacks). </p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": "parry",
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.w0ZLxOIyndpQBndA",
+        "name": "Parrying (Rod)",
+        "durationFormula": "1"
+      }
+    ]
+  },
+  "folder": "164Li2oYfnb0Z7S7",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "svPAfcgdt2yUBUgq",
+  "sort": 0,
+  "_originalKey": "!items!svPAfcgdt2yUBUgq"
+}

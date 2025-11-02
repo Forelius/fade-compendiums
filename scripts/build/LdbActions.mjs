@@ -2,6 +2,9 @@ import { Level } from "level";
 import fs from "fs/promises";
 import path from "path";
 
+// Normalize text content to CRLF for consistent Windows checkouts
+const toCRLF = (text) => text.replace(/\r?\n/g, "\r\n");
+
 /**
  * LevelDB Pack Manager - ES6 Class for managing FoundryVTT pack data
  */
@@ -62,7 +65,7 @@ class LdbActions {
             }
         }
 
-        await fs.writeFile(outFile, JSON.stringify(out, null, 2), "utf8");
+        await fs.writeFile(outFile, toCRLF(JSON.stringify(out, null, 2)), "utf8");
         console.log("Wrote", Object.keys(out).length, "entries to", outFile);
         await db.close();
     }

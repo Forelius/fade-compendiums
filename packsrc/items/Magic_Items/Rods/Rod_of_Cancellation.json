@@ -11,14 +11,14 @@
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>This magical rod can be used by any character. It works only once and completely drains magical properties from any item it strikes, rendering the item permanently non-magical. The target item is treated as having an AC of 9. The DMmay adjust the armor class if the item is being used in combat, such as attempting to hit a sword.</p>",
+    "description": "<p>This magical rod can be used by any character. It works only once and completely drains magical properties from any item it strikes, rendering the item permanently non-magical. The target item is treated as having an AC of 9. The DM may adjust the armor class if the item is being used in combat, such as attempting to hit a sword.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
     "charges": 1,
-    "chargesMax": 1,
+    "chargesMax": null,
     "weight": 20,
     "weightEquipped": 20,
     "cost": 0,
@@ -28,7 +28,7 @@
     "equipped": false,
     "container": false,
     "isOpen": false,
-    "equippable": false,
+    "equippable": true,
     "fuelType": "",
     "ammoType": "",
     "isAmmo": false,
@@ -39,7 +39,7 @@
     "conditions": []
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3
