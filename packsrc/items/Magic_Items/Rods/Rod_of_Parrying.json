@@ -1,0 +1,92 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of Parrying",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This item +5 can be used as a melee weapon, inflicting 1d8+5 (6–13) points of damage per hit (but no Strength bonus applies). It may also be used to parry attacks, if the user chooses this ability at the beginning of a round. When attacked in melee, the user's armor class gains a +5 bonus while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver. </p><p><strong>This item is usable by any character.</strong></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d8",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 5,
+      "toHit": 5,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Mysterious Rod",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 1,
+    "chargesMax": null,
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.svPAfcgdt2yUBUgq",
+        "action": "use",
+        "name": "Parry (Rod)",
+        "mod": 0
+      }
+    ],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "EXafl3nwCw6euRuS",
+  "sort": 400000,
+  "_originalKey": "!items!EXafl3nwCw6euRuS"
+}

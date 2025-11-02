@@ -1,0 +1,59 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of Health",
+  "type": "item",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Rod",
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>Usable by <strong>clerics</strong> only, this item has all the powers of a healing item, but without expending any charges. It can affect any one creature only once per day, regardless of the effect chosen.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 20,
+    "weightEquipped": 20,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.QduPGcSp0HSondZZ",
+        "action": "none",
+        "castAs": "M6",
+        "name": "Cure Light Wounds*"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "k7yKDlLjy0bf8CzA",
+  "sort": 500000,
+  "_originalKey": "!items!k7yKDlLjy0bf8CzA"
+}

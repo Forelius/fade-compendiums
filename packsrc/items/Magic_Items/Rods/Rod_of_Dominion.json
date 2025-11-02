@@ -1,0 +1,52 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of Dominion",
+  "type": "item",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "unidentifiedName": "Mysterious Rod",
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>Usable by any character, this item aids in ruling. If a ruler carries it on a tour throughout his or her dominion, it adds a bonus to all Confidence Level rolls, based on the percentage of residents viewing it (roll [[/r 1d00]] for the result).</p><p>01–50    +10<br>51–75     +20<br>76–90    +30<br>91–99     +40<br>00           +50</p><p>When not on display, the item must be kept in the ruler's stronghold. The effects last for three months, but the item may be shown again to the populace as desired.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": null,
+    "weight": 20,
+    "weightEquipped": 20,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "lrrbBMsAuAANJvd9",
+  "sort": 300000,
+  "_originalKey": "!items!lrrbBMsAuAANJvd9"
+}

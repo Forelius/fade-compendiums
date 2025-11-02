@@ -1,0 +1,66 @@
+{
+  "name": "Parrying (Rod)",
+  "type": "condition",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>When attacked in melee, the user's armor class gains a +5 bonus while parrying; however, this does not apply to avoiding missile fire. While using the parry ability, no other action is possible except a Fighting Withdrawal maneuver.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "0TzviecOf6z5yd7n"
+  ],
+  "folder": "DHxEnc4I068rxlES",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "fantastic-depths"
+  },
+  "_id": "w0ZLxOIyndpQBndA",
+  "sort": 0,
+  "_originalKey": "!items!w0ZLxOIyndpQBndA",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!w0ZLxOIyndpQBndA.0TzviecOf6z5yd7n",
+      "name": "Parrying (Rod)",
+      "img": "icons/svg/shield.svg",
+      "disabled": false,
+      "_id": "0TzviecOf6z5yd7n",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.ac",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 6,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#af7aff",
+      "transfer": true,
+      "statuses": [
+        "magicShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}
