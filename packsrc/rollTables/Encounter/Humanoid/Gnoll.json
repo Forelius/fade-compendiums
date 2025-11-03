@@ -18,6 +18,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
@@ -25,26 +26,28 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!nSCIPTtFkj2Z5Pup.4cxrqPro47sOSICa",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         8
       ],
       "drawn": false,
+      "text": "Gnoll",
+      "documentId": "HqFmSqcFv1R5WXY2",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "4cxrqPro47sOSICa",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Gnoll",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.HqFmSqcFv1R5WXY2",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!nSCIPTtFkj2Z5Pup.jGaDrMoTCqFtaubM",
       "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         9,
@@ -52,32 +55,34 @@
       ],
       "drawn": false,
       "_id": "jGaDrMoTCqFtaubM",
+      "text": "Gnolls with leader",
       "img": "icons/svg/d20-black.svg",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Gnolls with leader",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!nSCIPTtFkj2Z5Pup.wa8ryfDRM5Lq0Ki4",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         9,
         10
       ],
       "drawn": false,
+      "text": "Gnoll Leader",
+      "documentId": "XBfBHqaqKPwFuREx",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "wa8ryfDRM5Lq0Ki4",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Gnoll Leader",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.XBfBHqaqKPwFuREx",
-      "description": ""
+      }
     }
   ]
 }

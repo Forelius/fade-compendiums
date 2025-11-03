@@ -19,6 +19,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -26,79 +27,83 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!EqVWG32EA1WJBYwI.H5edzNFTVXynYbBw",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         20
       ],
       "drawn": false,
+      "text": "Goblin",
+      "documentId": "kq2aAg6OCWbOLOxR",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "H5edzNFTVXynYbBw",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Goblin",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.kq2aAg6OCWbOLOxR",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!EqVWG32EA1WJBYwI.W5bQyXApqKA1AmZX",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         10,
         20
       ],
       "drawn": false,
+      "text": "Goblin Bow (1HD)",
+      "documentId": "QUbVvCqqbw8KHDK7",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "W5bQyXApqKA1AmZX",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Goblin Bow (1HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.QUbVvCqqbw8KHDK7",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!EqVWG32EA1WJBYwI.Y4lLqfQqxwEUIzhB",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         14,
         20
       ],
       "drawn": false,
+      "text": "Goblin (2HD)",
+      "documentId": "coiQoVTorTUlhIZ9",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "Y4lLqfQqxwEUIzhB",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Goblin (2HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.coiQoVTorTUlhIZ9",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!EqVWG32EA1WJBYwI.hMMVmDGz7W2qQtBn",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         19,
         20
       ],
       "drawn": false,
+      "text": "Goblin Chief (4HD)",
+      "documentId": "QXoYh4B1migXhxSV",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "hMMVmDGz7W2qQtBn",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Goblin Chief (4HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.QXoYh4B1migXhxSV",
-      "description": ""
+      }
     }
   ]
 }

@@ -16,6 +16,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "_id": "Ui9ZXgZNg4PW0Iix",
@@ -25,6 +26,7 @@
     {
       "_originalKey": "!tables.results!Ui9ZXgZNg4PW0Iix.LziPqUXCzNOwzLB0",
       "type": "text",
+      "documentCollection": "RollTable",
       "weight": 1,
       "range": [
         26,
@@ -32,32 +34,34 @@
       ],
       "drawn": false,
       "_id": "LziPqUXCzNOwzLB0",
+      "text": "No additional weapon modifiers",
       "img": "icons/svg/d20-grey.svg",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "No additional weapon modifiers",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!Ui9ZXgZNg4PW0Iix.bTE1saQLxEJlitPp",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         25
       ],
       "drawn": false,
+      "text": "Additional Weapon Mods (Misc)",
+      "documentId": "vWCjh3oONct14YM9",
       "img": "icons/weapons/axes/axe-battle-orange.webp",
       "_id": "bTE1saQLxEJlitPp",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Additional Weapon Mods (Misc)",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.vWCjh3oONct14YM9",
-      "description": ""
+      }
     }
   ]
 }

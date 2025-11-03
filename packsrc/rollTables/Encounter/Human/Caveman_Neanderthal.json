@@ -17,6 +17,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -24,41 +25,43 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!NCwiOHYUOdV9iC8Q.s0uvPPnyqukCx2GX",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         15,
         20
       ],
       "drawn": false,
+      "text": "Neanderthal, Leader",
+      "documentId": "2eHNxX4vGFbjboaz",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "s0uvPPnyqukCx2GX",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Neanderthal, Leader",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.2eHNxX4vGFbjboaz",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!NCwiOHYUOdV9iC8Q.u3TXb2XguPiFCBQV",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         20
       ],
       "drawn": false,
+      "text": "Neanderthal",
+      "documentId": "we26j5H2VH0BdIXi",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "u3TXb2XguPiFCBQV",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Neanderthal",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.we26j5H2VH0BdIXi",
-      "description": ""
+      }
     }
   ]
 }

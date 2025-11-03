@@ -20,6 +20,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -27,6 +28,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!Fh3byWau5NEz1N12.4v78oEXBSe1V127S",
+      "text": "Magic-User Spell Scroll",
       "range": [
         1,
         70
@@ -36,15 +38,16 @@
       "drawn": false,
       "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
       "_id": "4v78oEXBSe1V127S",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Magic-User Spell Scroll",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!Fh3byWau5NEz1N12.5ThRM4e6VBKlgCx1",
+      "text": "Cleric Spell Scroll",
       "range": [
         71,
         95
@@ -54,16 +57,17 @@
       "drawn": false,
       "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
       "_id": "5ThRM4e6VBKlgCx1",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Cleric Spell Scroll",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!Fh3byWau5NEz1N12.QgFabQfAv2Z7FExo",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
@@ -71,17 +75,18 @@
       ],
       "drawn": false,
       "_id": "QgFabQfAv2Z7FExo",
+      "text": "Magic-User Scroll Spell Count",
       "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "documentId": "8k1kTShAwNiPi0B6",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Magic-User Scroll Spell Count",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.8k1kTShAwNiPi0B6",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!Fh3byWau5NEz1N12.SWdq4i14mqWfQcO7",
+      "text": "Druid Spell Scroll",
       "range": [
         96,
         100
@@ -91,16 +96,17 @@
       "drawn": false,
       "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
       "_id": "SWdq4i14mqWfQcO7",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Druid Spell Scroll",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!Fh3byWau5NEz1N12.iO0coZ3Nxl4OPyvG",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         71,
@@ -108,14 +114,14 @@
       ],
       "drawn": false,
       "_id": "iO0coZ3Nxl4OPyvG",
+      "text": "Cleric/Druid Scroll Spell Count",
       "img": "icons/sundries/scrolls/scroll-bound-blue-red.webp",
+      "documentId": "XH3UeipfxjhkMRVL",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Cleric/Druid Scroll Spell Count",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.XH3UeipfxjhkMRVL",
-      "description": ""
+      }
     }
   ]
 }

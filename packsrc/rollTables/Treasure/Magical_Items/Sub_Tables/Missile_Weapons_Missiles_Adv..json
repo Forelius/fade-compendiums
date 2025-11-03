@@ -26,6 +26,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -33,6 +34,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.6JCsFuuxwEryKhUy",
+      "text": "Crossbow, light (Weapon Class D)",
       "range": [
         88,
         92
@@ -42,15 +44,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "6JCsFuuxwEryKhUy",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Crossbow, light (Weapon Class D)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.8fBrAcxxxHziwaby",
+      "text": "Sling (Weapon Class D)",
       "range": [
         93,
         100
@@ -60,15 +63,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "8fBrAcxxxHziwaby",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Sling (Weapon Class D)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.B3WgdsgD4yVa2WE1",
+      "text": "Bow, long (Weapon Class D)",
       "range": [
         73,
         80
@@ -78,15 +82,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "B3WgdsgD4yVa2WE1",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Bow, long (Weapon Class D)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.FT8MmVkgjKSLoKWC",
+      "text": "Bow, short (Weapon Class D)",
       "range": [
         81,
         85
@@ -96,15 +101,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "FT8MmVkgjKSLoKWC",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Bow, short (Weapon Class D)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.IfaXJljYfobrQqeW",
+      "text": "Quarrels (Weapon Class A)",
       "range": [
         38,
         59
@@ -114,15 +120,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "IfaXJljYfobrQqeW",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Quarrels (Weapon Class A)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.JvTH8zMwBJnrUAUi",
+      "text": "Arrows (Weapon Class A)",
       "range": [
         1,
         37
@@ -132,15 +139,16 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "JvTH8zMwBJnrUAUi",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Arrows (Weapon Class A)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.UwyPY4YNa25FVmzR",
+      "text": "Sling stones (Weapon Class A)",
       "range": [
         60,
         70
@@ -150,34 +158,36 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "UwyPY4YNa25FVmzR",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Sling stones (Weapon Class A)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.id5tp2pczSbUOTrf",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         70
       ],
       "drawn": false,
+      "text": "Missiles (Class A)",
+      "documentId": "jFYR8Y84PdhxKR2S",
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "id5tp2pczSbUOTrf",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Missiles (Class A)",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.jFYR8Y84PdhxKR2S",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.o3NVFkYNujFCGF0I",
+      "text": "Crossbow, heavy (Weapon Class D)",
       "range": [
         86,
         87
@@ -187,34 +197,36 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "o3NVFkYNujFCGF0I",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Crossbow, heavy (Weapon Class D)",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.w7z2MI0OyTuPNFTw",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         71,
         100
       ],
       "drawn": false,
+      "text": "Missile Weapons (Class D)",
+      "documentId": "1vUYQ0X2P2gPmlY4",
       "img": "icons/weapons/bows/longbow-recurve-leather-red.webp",
       "_id": "w7z2MI0OyTuPNFTw",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Missile Weapons (Class D)",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.1vUYQ0X2P2gPmlY4",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!lr1ZqU1jO9KhuJJj.xevzx7H8EY1g13EI",
+      "text": "Blowgun (Weapon Class D)",
       "range": [
         71,
         72
@@ -224,12 +236,12 @@
       "drawn": false,
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "xevzx7H8EY1g13EI",
+      "documentId": null,
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Blowgun (Weapon Class D)",
-      "name": ""
+      }
     }
   ]
 }

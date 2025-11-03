@@ -18,6 +18,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d3",
@@ -25,60 +26,63 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.HHrguMiAjKk6ULXC",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
+      "text": "Bandit (2HD)",
+      "documentId": "RCPlgt1j0WEJmVMO",
       "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
       "_id": "HHrguMiAjKk6ULXC",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Bandit (2HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.RCPlgt1j0WEJmVMO",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.gTJuYiU8hciUpJee",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
+      "text": "Bandit (3HD)",
+      "documentId": "iraH01OroqdGro5l",
       "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
       "_id": "gTJuYiU8hciUpJee",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Bandit (3HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.iraH01OroqdGro5l",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!XiGvytbkLZ4gQAyj.nDv4DC8Zbnn2x7ta",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "Bandit",
+      "documentId": "fc3OOJdQrP3lojfv",
       "img": "systems/fantastic-depths/assets/img/actor/rogue2.webp",
       "_id": "nDv4DC8Zbnn2x7ta",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Bandit",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.fc3OOJdQrP3lojfv",
-      "description": ""
+      }
     }
   ]
 }

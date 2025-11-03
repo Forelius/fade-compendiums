@@ -16,9 +16,16 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "exportSource": {
+      "world": "dandd-1e",
+      "system": "gs-fantastic-depths",
+      "coreVersion": "11.315",
+      "systemVersion": "1.11.5"
+    }
   },
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d3",
@@ -34,14 +41,16 @@
         2
       ],
       "drawn": false,
+      "documentCollection": "[object Map]",
       "_id": "RlGDvDacfQFRvYXJ",
+      "text": "Neutral",
+      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Neutral",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!fPcCRKw8Wgi1yQMH.pkX1zOM8M3y0KY0M",
@@ -52,14 +61,16 @@
         3
       ],
       "drawn": false,
+      "documentCollection": "[object Map]",
       "_id": "pkX1zOM8M3y0KY0M",
+      "text": "Chaotic",
+      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Chaotic",
-      "name": ""
+      }
     },
     {
       "_originalKey": "!tables.results!fPcCRKw8Wgi1yQMH.uQEhPBUiVzlAesMY",
@@ -71,13 +82,14 @@
       ],
       "drawn": false,
       "_id": "uQEhPBUiVzlAesMY",
+      "text": "Lawful",
+      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "description": "Lawful",
-      "name": ""
+      }
     }
   ]
 }

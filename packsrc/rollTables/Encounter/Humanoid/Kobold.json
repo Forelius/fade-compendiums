@@ -18,6 +18,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d100",
@@ -25,60 +26,63 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.oYeQW0JkxZMPRqhG",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         90,
         100
       ],
       "drawn": false,
+      "text": "Kobold, Bodyguard",
+      "documentId": "ksBFKbkxoksOtZ5E",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "oYeQW0JkxZMPRqhG",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Kobold, Bodyguard",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ksBFKbkxoksOtZ5E",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.phTlavjn1RUzhzCO",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         100
       ],
       "drawn": false,
+      "text": "Kobold",
+      "documentId": "LrFyA3hSCWV8vBQr",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "phTlavjn1RUzhzCO",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Kobold",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.LrFyA3hSCWV8vBQr",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!xz4y1gJicB7eMFX4.tKoqTfpuAFmlwtnx",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         91,
         100
       ],
       "drawn": false,
+      "text": "Kobold Chieftain",
+      "documentId": "ZL3EScZF34Mluma5",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "tKoqTfpuAFmlwtnx",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Kobold Chieftain",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.ZL3EScZF34Mluma5",
-      "description": ""
+      }
     }
   ]
 }

@@ -18,6 +18,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
@@ -25,60 +26,63 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!06c5awqtfBT2ybd4.K1sFNtq8u7fk4tfz",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         8,
         10
       ],
       "drawn": false,
+      "text": "Elf (3 HD)",
+      "documentId": "JXEfZmQdVblAKpFR",
       "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
       "_id": "K1sFNtq8u7fk4tfz",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Elf (3 HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.JXEfZmQdVblAKpFR",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!06c5awqtfBT2ybd4.UVLpSyIhzOFmw9Lp",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         5,
         9
       ],
       "drawn": false,
+      "text": "Elf (2 HD)",
+      "documentId": "7mEcQw80ZVlnuptU",
       "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
       "_id": "UVLpSyIhzOFmw9Lp",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Elf (2 HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.7mEcQw80ZVlnuptU",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!06c5awqtfBT2ybd4.sc11JL0dNfaHh2ms",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         8
       ],
       "drawn": false,
+      "text": "Elf (1 HD)",
+      "documentId": "9pUF0lH2A71umXg0",
       "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
       "_id": "sc11JL0dNfaHh2ms",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Elf (1 HD)",
-      "documentUuid": "Compendium.fade-compendiums.actor-compendium.Actor.9pUF0lH2A71umXg0",
-      "description": ""
+      }
     }
   ]
 }

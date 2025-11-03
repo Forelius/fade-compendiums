@@ -19,6 +19,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d8",
@@ -26,79 +27,83 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!dP4ptkcTOvPdOxxO.3pSLHPPdA5bj38zk",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         6,
         7
       ],
       "drawn": false,
+      "text": "Room with Monster",
+      "documentId": "ew4G96cAhEQOZ31r",
       "img": "icons/svg/d20-grey.svg",
       "_id": "3pSLHPPdA5bj38zk",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Room with Monster",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ew4G96cAhEQOZ31r",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!dP4ptkcTOvPdOxxO.6KmZkrAUMiLE8Glq",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         4
       ],
       "drawn": false,
+      "text": "Empty Room",
+      "documentId": "ZETFZP7n1dLjRxq2",
       "img": "icons/svg/d20-grey.svg",
       "_id": "6KmZkrAUMiLE8Glq",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Empty Room",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ZETFZP7n1dLjRxq2",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!dP4ptkcTOvPdOxxO.AcBX4gH2NplCkiAA",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "drawn": false,
+      "text": "Special Room",
+      "documentId": "D5x2qIuCWj2oUUVI",
       "img": "icons/svg/d20-grey.svg",
       "_id": "AcBX4gH2NplCkiAA",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Special Room",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.D5x2qIuCWj2oUUVI",
-      "description": ""
+      }
     },
     {
       "_originalKey": "!tables.results!dP4ptkcTOvPdOxxO.FekEUo2UnZGjjyzh",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
+      "text": "Room with Trap",
+      "documentId": "Nk22YRiauIBIKE6t",
       "img": "icons/svg/d20-grey.svg",
       "_id": "FekEUo2UnZGjjyzh",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "name": "Room with Trap",
-      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Nk22YRiauIBIKE6t",
-      "description": ""
+      }
     }
   ]
 }
