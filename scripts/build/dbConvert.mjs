@@ -340,10 +340,22 @@ class dbConvert {
         if (typeSegment === "tables.results") {
             //console.debug("migrateRollTable:", typeSegment, document);
             // If v13 format then backport
-            if (document.type === "text" && document.description && !document.text) {
-                result.text = document.description;
+            if (document.type === "text") {
+                if (document.description && !document.name) {
+                    result.name = document.description;
+                    result.description = "";
+                    result.text = result.name;
+                } else if (document.description && !document.text) {
+                    result.text = document.description;
+                }
+            } else if (document.type === "document") {
+                if (document.name && !document.text) {
+                    result.text = document.name;
+                }
+                if (document.text && !document.name) {
+                    result.name = document.text
+                }
             }
-            // Do stuff to the document
         }   
         return result;
     }
@@ -393,7 +405,7 @@ class dbConvert {
             
             // Step 2: Reconstruct embedded documents from parent documents" embedded arrays
             console.log("Reconstructing embedded documents...");
-            const allDocuments = this.reconstructEmbeddedDocuments(collectedData);
+            const allDocuments = await this.reconstructEmbeddedDocuments(collectedData);
             
             // Step 3: Write compiled documents to .db file format
             console.log("Writing compiled database...");
@@ -477,7 +489,7 @@ class dbConvert {
      * @param {Object} collectedData - Object containing folders and documents from collectJsonFiles
      * @returns {Object} - Object with all documents keyed by their database keys
      */
-    reconstructEmbeddedDocuments(collectedData) {
+    async reconstructEmbeddedDocuments(collectedData) {
         const allDocuments = {};
         
         // Add folder documents first
@@ -488,9 +500,13 @@ class dbConvert {
         // Process each document file
         for (const fileData of collectedData.documents) {
             const document = fileData.document;
-            
+
+            // Migrate document data before writing (stubbed for now)
+            let migratedDocument = await this.migrateDocument(document);
+            this.removeStats(migratedDocument);
+
             // Create a clean copy of the document without the embedded array
-            const cleanDocument = { ...document };
+            const cleanDocument = { ...migratedDocument };
             delete cleanDocument.embedded;
             
             // Add the top-level document
@@ -502,9 +518,13 @@ class dbConvert {
                     if (embeddedDoc._originalKey) {
                         // Use the stored original key
                         const embeddedKey = embeddedDoc._originalKey;
-                        
+
+                        // Migrate document data before writing (stubbed for now)
+                        let migratedEmbeddedDocument = await this.migrateDocument(embeddedDoc);
+                        this.removeStats(migratedEmbeddedDocument);
+
                         // Create a clean copy without the _originalKey property
-                        const cleanEmbeddedDoc = { ...embeddedDoc };
+                        const cleanEmbeddedDoc = { ...migratedEmbeddedDocument };
                         delete cleanEmbeddedDoc._originalKey;
                         
                         allDocuments[embeddedKey] = cleanEmbeddedDoc;
