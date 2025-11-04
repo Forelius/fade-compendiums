@@ -17,6 +17,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -24,24 +25,27 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!7RyxVH8UTVFwDrtp.6Bb7ktdu5FAtgNCc",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         10
       ],
       "drawn": false,
+      "text": "Missile Talents",
+      "documentId": "soz3NhuvLcvgVC72",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "6Bb7ktdu5FAtgNCc",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!7RyxVH8UTVFwDrtp.O2v9BanssZaa7HHQ",
+      "text": "No Talent",
       "range": [
         11,
         100
@@ -51,10 +55,10 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "O2v9BanssZaa7HHQ",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

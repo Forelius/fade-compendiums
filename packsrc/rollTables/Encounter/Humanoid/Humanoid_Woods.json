@@ -24,8 +24,16 @@
     "default": 0,
     "0eyrbleKg5gmY59g": 3
   },
-  "flags": {},
+  "flags": {
+    "exportSource": {
+      "world": "becmirc-dungeons-and-dragons",
+      "system": "fantastic-depths",
+      "coreVersion": "12.331",
+      "systemVersion": "0.4.2"
+    }
+  },
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d12",
@@ -34,217 +42,241 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.9FG8x1edtTEQHpl0",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         11,
         11
       ],
       "drawn": false,
+      "text": "Thoul",
+      "documentId": "UtG2e4IznhIDIw09",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "9FG8x1edtTEQHpl0",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.9JCUvIyl7pOXDKyV",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         12,
         12
       ],
       "drawn": false,
+      "text": "Troll",
+      "documentId": "KH8vjTQaWJ1CEjlp",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "9JCUvIyl7pOXDKyV",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.BFagA7IriZ65gYyh",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
+      "text": "Giant, Hill",
+      "documentId": "UFb21ansA4HP2roM",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "BFagA7IriZ65gYyh",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.KstoTv3xS6LZ3C9X",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         3,
         3
       ],
       "drawn": false,
+      "text": "Dryad",
+      "documentId": "m3T1Rmvx6j2UB9gQ",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "KstoTv3xS6LZ3C9X",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.M59c4NYEEB3jQe7Q",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         7,
         7
       ],
       "drawn": false,
+      "text": "Goblin",
+      "documentId": "EqVWG32EA1WJBYwI",
       "img": "icons/svg/d20-grey.svg",
       "_id": "M59c4NYEEB3jQe7Q",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.PtNaTGuvPjlnpUup",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         9,
         9
       ],
       "drawn": false,
+      "text": "Ogre",
+      "documentId": "R811fYr1SDwwKNGd",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "PtNaTGuvPjlnpUup",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.QYKJ2ZllhmclRBtC",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
+      "text": "Cyclops",
+      "documentId": "uovYjpSokQFpPqKq",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "QYKJ2ZllhmclRBtC",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.Zad1k93ID9mRZEci",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "drawn": false,
+      "text": "Hobgoblin",
+      "documentId": "X8OQuEdiJD9clDQO",
       "img": "icons/svg/d20-grey.svg",
       "_id": "Zad1k93ID9mRZEci",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.bMjkVZkObMeq9pxG",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         6,
         6
       ],
       "drawn": false,
+      "text": "Gnoll",
+      "documentId": "nSCIPTtFkj2Z5Pup",
       "img": "icons/svg/d20-grey.svg",
       "_id": "bMjkVZkObMeq9pxG",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.mtH8fs2aVgmEXRL8",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "Bugbear",
+      "documentId": "5px1PtF3VqfpotTy",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "mtH8fs2aVgmEXRL8",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.rqhlOpLz1DSfAOig",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         4,
         4
       ],
       "drawn": false,
+      "text": "Elf (1 HD)",
+      "documentId": "9pUF0lH2A71umXg0",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "rqhlOpLz1DSfAOig",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!Aqd2PlDiqmnXFvLX.tn7kF8V4FV7SB3fa",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         10,
         10
       ],
       "drawn": false,
+      "text": "Orc",
+      "documentId": "Y4Gb1ERUmgujnIBz",
       "img": "icons/svg/d20-grey.svg",
       "_id": "tn7kF8V4FV7SB3fa",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

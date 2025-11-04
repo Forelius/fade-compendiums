@@ -15,6 +15,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d2",
@@ -24,37 +25,41 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!CCoEglWdNK6UZSuB.6e2IY7FE81V32ntI",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "Magic Armor",
+      "documentId": "mYpxzeQa9MJ3NsEI",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "_id": "6e2IY7FE81V32ntI",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!CCoEglWdNK6UZSuB.Hll72SdJt3vi8Kkf",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
+      "text": "Magical Weapon (Basic)",
+      "documentId": "xx8zGehAaHPv3FnW",
       "img": "icons/svg/d20-highlight.svg",
       "_id": "Hll72SdJt3vi8Kkf",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

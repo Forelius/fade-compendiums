@@ -23,6 +23,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -30,6 +31,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.5q25mPJ95ooiECUA",
+      "text": "+3 extra vs opponent",
       "range": [
         51,
         64
@@ -39,33 +41,36 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "5q25mPJ95ooiECUA",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.IawYaScCgAoEkqJP",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         76,
         100
       ],
       "drawn": false,
+      "text": "Weapon Talents",
+      "documentId": "PuJUOofeDBzm5tEy",
       "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
       "_id": "IawYaScCgAoEkqJP",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.OMIo2HGSfBlEJafm",
+      "text": "+2 extra vs opponent",
       "range": [
         30,
         50
@@ -75,15 +80,16 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "OMIo2HGSfBlEJafm",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.fyCnf0ntzOQGTfOq",
+      "text": "Talent (roll on Talents table)",
       "range": [
         76,
         100
@@ -93,15 +99,16 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "fyCnf0ntzOQGTfOq",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.gThltl6ZzUVgO3du",
+      "text": "+1 extra vs opponent",
       "range": [
         1,
         29
@@ -111,16 +118,16 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "gThltl6ZzUVgO3du",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.jJ01xIZqXEAO5Zfp",
-      "type": "document",
+      "type": "pack",
       "weight": 1,
       "range": [
         1,
@@ -128,16 +135,19 @@
       ],
       "drawn": false,
       "_id": "jJ01xIZqXEAO5Zfp",
+      "text": "Weapon Opponents",
       "img": "icons/creatures/magical/construct-face-stone-pink.webp",
+      "documentId": "iCEHHI0wuZdTpZgD",
       "flags": {},
-      "text": "",
-      "documentId": null,
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.l6FOOTsI66MfDFOk",
+      "text": "+5 extra vs opponent",
       "range": [
         73,
         75
@@ -147,15 +157,16 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "l6FOOTsI66MfDFOk",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!3oevzd1mHBuOEdeL.yETd2dJiVgrAIaZF",
+      "text": "+4 extra vs opponent",
       "range": [
         65,
         72
@@ -165,10 +176,10 @@
       "drawn": false,
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "yETd2dJiVgrAIaZF",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

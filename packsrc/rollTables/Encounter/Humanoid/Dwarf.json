@@ -16,6 +16,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d1",
@@ -23,19 +24,21 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!QlaDQ9TXJG9dDcri.vM1P6K9ZbwETqEWA",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "Dwarf (1 HD)",
+      "documentId": "guUudtbBiSD4tSFN",
       "img": "systems/fantastic-depths/assets/img/actor/dwarf1.webp",
       "_id": "vM1P6K9ZbwETqEWA",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

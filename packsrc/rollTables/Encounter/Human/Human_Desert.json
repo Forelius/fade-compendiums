@@ -29,6 +29,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d12",
@@ -36,25 +37,28 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.GKa8JxXdCKfug7ca",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         7,
         7
       ],
       "drawn": false,
+      "text": "Normal Human",
+      "documentId": "kDl71qaMaLB7XFhb",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "GKa8JxXdCKfug7ca",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.IWmLfkdoKf7pWZv8",
       "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         6,
@@ -62,11 +66,12 @@
       ],
       "drawn": false,
       "_id": "IWmLfkdoKf7pWZv8",
+      "text": "Magic-User Basic: [[1d3]] Expert: [[1d6+3]]",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -80,71 +85,79 @@
       ],
       "drawn": false,
       "_id": "L1xwupwtzPXl9Djp",
+      "text": "Adventurer",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.Q6xAowQmQzzDXHh9",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         8,
         8
       ],
       "drawn": false,
+      "text": "Human, Noble",
+      "documentId": "1FxBKWAfojOQ0qBn",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "Q6xAowQmQzzDXHh9",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.Q9S6IjAts8qcFy6A",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         5,
         5
       ],
       "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "Q9S6IjAts8qcFy6A",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.TZWDLcewYeCGrSFJ",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         2,
         2
       ],
       "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "TZWDLcewYeCGrSFJ",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.XX27Kqf3lhRA0oM9",
       "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         2,
@@ -152,35 +165,39 @@
       ],
       "drawn": false,
       "_id": "XX27Kqf3lhRA0oM9",
+      "text": "Cleric Basic: [[1d3]] Expert: [[1d6+3]]",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.hROa4Otfug7a3PJj",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         6,
         6
       ],
       "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "hROa4Otfug7a3PJj",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.hdHVdzUndcCQ9Yd1",
       "type": "text",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         5,
@@ -188,53 +205,59 @@
       ],
       "drawn": false,
       "_id": "hdHVdzUndcCQ9Yd1",
+      "text": "Fighter Basic: [[1d3]] Expert: [[1d6+5]]",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.p4eNCS7hDYLLFZb0",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         3,
         4
       ],
       "drawn": false,
+      "text": "Human, Dervish",
+      "documentId": "pmLjm0Ds2DrDFDaz",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "p4eNCS7hDYLLFZb0",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.qR8TBesmKzuuvEio",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "NPC Adventurer Class and Level",
+      "documentId": "6BdXuIwCqiyE1lbh",
       "img": "icons/svg/d20-grey.svg",
       "_id": "qR8TBesmKzuuvEio",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.tjavDHt5CBl7nvLN",
       "type": "text",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         7,
@@ -242,47 +265,52 @@
       ],
       "drawn": false,
       "_id": "tjavDHt5CBl7nvLN",
+      "text": "Merchant",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.ulZCZymglB1XcejR",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.actor-compendium",
       "weight": 1,
       "range": [
         9,
         12
       ],
       "drawn": false,
+      "text": "Human, Nomad",
+      "documentId": "jYSPJwYKvsbkNi4m",
       "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "_id": "ulZCZymglB1XcejR",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!aNeleeNjPLkyK61c.vZ7yYh4B26t83ALf",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         1
       ],
       "drawn": false,
+      "text": "NPC Adventurer Alignment",
+      "documentId": "fPcCRKw8Wgi1yQMH",
       "img": "icons/svg/d20-grey.svg",
       "_id": "vZ7yYh4B26t83ALf",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

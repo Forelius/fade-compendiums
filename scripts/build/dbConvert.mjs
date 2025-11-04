@@ -52,7 +52,7 @@ class dbConvert {
         await this.deletePackSourceFolder(this.packName);
 
         // Read and parse the .db file
-        const dbContent = await fs.readFile(dbFile, 'utf8');
+        const dbContent = await fs.readFile(dbFile, "utf8");
         const cleanDbContent = this.removeBOM(dbContent);
         const documents = JSON.parse(cleanDbContent);
 
@@ -78,18 +78,18 @@ class dbConvert {
         
         // Find all documents with keys starting with "!folders"
         for (const [key, document] of Object.entries(documents)) {
-            if (key.startsWith('!folders')) {
+            if (key.startsWith("!folders")) {
                 folderDocuments[key] = document;
             }
         }
 
         // Only create _folders.json if there are folder documents
         if (Object.keys(folderDocuments).length > 0) {
-            const foldersFilePath = path.join(this.paths.outputDir, '_folders.json');
-            await fs.writeFile(foldersFilePath, toCRLF(JSON.stringify(folderDocuments, null, 2)), 'utf8');
+            const foldersFilePath = path.join(this.paths.outputDir, "_folders.json");
+            await fs.writeFile(foldersFilePath, toCRLF(JSON.stringify(folderDocuments, null, 2)), "utf8");
             console.log(`Extracted ${Object.keys(folderDocuments).length} folder documents to: ${foldersFilePath}`);
         } else {
-            console.log('No folder documents found to extract.');
+            console.log("No folder documents found to extract.");
         }
         
         return folderDocuments;
@@ -137,7 +137,7 @@ class dbConvert {
             console.log(`Successfully deleted pack folder: ${packSourceFolder}`);
             
         } catch (error) {
-            if (error.code === 'ENOENT') {
+            if (error.code === "ENOENT") {
                 console.log(`Pack folder does not exist: ${packSourceFolder}`);
             } else {
                 throw new Error(`Failed to delete pack folder: ${packSourceFolder} - ${error.message}`);
@@ -151,18 +151,18 @@ class dbConvert {
      * @returns {string} - Sanitized filename with special characters replaced by underscores
      */
     sanitizeFilename(filename) {
-        if (!filename || typeof filename !== 'string') {
-            return 'unnamed';
+        if (!filename || typeof filename !== "string") {
+            return "unnamed";
         }
         
         // Replace invalid characters with underscores
         // Windows invalid chars: < > : " | ? * \ /
         // Also replace spaces and other special chars for consistency
         return filename
-            .replace(/[<>:"|?*\\/\s&()]+/g, '_')
-            .replace(/_{2,}/g, '_')  // Replace multiple underscores with single
-            .replace(/^_+|_+$/g, '') // Remove leading/trailing underscores
-            .trim() || 'unnamed';
+            .replace(/[<>:"|?*\\/\s&()]+/g, "_")
+            .replace(/_{2,}/g, "_")  // Replace multiple underscores with single
+            .replace(/^_+|_+$/g, "") // Remove leading/trailing underscores
+            .trim() || "unnamed";
     }
 
     /**
@@ -173,7 +173,7 @@ class dbConvert {
      */
     resolveFolderPath(document, folderDocuments) {
         if (!document.folder) {
-            return ''; // Document is at root level
+            return ""; // Document is at root level
         }
 
         const folderPath = [];
@@ -204,7 +204,7 @@ class dbConvert {
      * @param {Object} allDocuments - All documents from the database
      * @returns {Object} - Object containing topLevelDocuments and embeddedDocuments
      */
-    organizeDocuments(allDocuments) {
+    async organizeDocuments(allDocuments) {
         const topLevelDocuments = {};
         const embeddedDocuments = {};
 
@@ -215,20 +215,23 @@ class dbConvert {
             this.removeStats(document);
 
             // Skip folder documents (handled separately)
-            if (key.startsWith('!folders!')) {
+            if (key.startsWith("!folders!")) {
                 continue;
             }
+
+            // Migrate document data before writing (stubbed for now)
+            let migratedDocument = await this.migrateDocument(document);
 
             // Check if this is an embedded document (contains a dot in the type part)
             // Pattern: !<type>.<subtype>!<parentId>.<childId>
             const keyMatch = key.match(/^!([^!]+)!(.+)$/);
             if (keyMatch) {
                 const [, typeSection, idSection] = keyMatch;
-                
-                if (typeSection.includes('.')) {
+
+                if (typeSection.includes(".")) {
                     // This is an embedded document
-                    const [parentType, childType] = typeSection.split('.');
-                    const [parentId, childId] = idSection.split('.');
+                    const [parentType, childType] = typeSection.split(".");
+                    const [parentId, childId] = idSection.split(".");
                     
                     if (parentId && childId) {
                         const parentKey = `!${parentType}!${parentId}`;
@@ -239,14 +242,14 @@ class dbConvert {
 
                         embeddedDocuments[parentKey].push({
                             key: key,
-                            document: document,
+                            document: migratedDocument,
                             childType: childType,
                             childId: childId
                         });
                     }
                 } else {
                     // This is a top-level document
-                    topLevelDocuments[key] = { ...document };
+                    topLevelDocuments[key] = { ...migratedDocument };
                 }
             }
         }
@@ -270,7 +273,7 @@ class dbConvert {
      * @param {Object} folderDocuments - All folder documents for path resolution
      */
     async extractDocuments(allDocuments, folderDocuments) {
-        const { topLevelDocuments } = this.organizeDocuments(allDocuments);
+        const { topLevelDocuments } = await this.organizeDocuments(allDocuments);
         
         let extractedCount = 0;
         
@@ -291,16 +294,70 @@ class dbConvert {
                 await fs.mkdir(fullFolderPath, { recursive: true });
 
                 // Write document to file
-                await fs.writeFile(fullFilePath, toCRLF(JSON.stringify(document, null, 2)), 'utf8');
+                await fs.writeFile(fullFilePath, toCRLF(JSON.stringify(document, null, 2)), "utf8");
                 
                 extractedCount++;
                 
             } catch (error) {
-                console.error(`Error extracting document ${key}:`, error.message);
+                console.error(`Error extracting document ${key}:`, error);
             }
         }
         
         console.log(`Extracted ${extractedCount} documents to individual JSON files.`);
+    }
+
+    /**
+     * Migrate a document before writing to disk (stub)
+     * @param {Object} document - The document to migrate
+     * @returns {Object} - Migrated document (unchanged for now)
+     */
+    async migrateDocument(document) {
+        let result = document;
+        try {
+            // Parse type segment from the original key and compare
+            const typeMatch = typeof document?._originalKey === "string"
+                ? document._originalKey.match(/^!([^!]+)!/)
+                : null;
+            const typeSegment = (typeMatch && typeMatch[1] ? typeMatch[1] : "").toLowerCase();
+
+            if (typeSegment.startsWith("tables")) {
+                result = await this.migrateRollTable(typeSegment, document);
+            }
+        } catch (error) {
+            console.debug("migrateDocument error:", error);
+        }
+
+        return result;
+    }
+
+    /**
+     * Migrate RollTable document (stub)
+     * @param {Object} document - RollTable document
+     * @returns {Object} - Migrated RollTable document (unchanged for now)
+     */
+    async migrateRollTable(typeSegment, document) {
+        let result = document;
+        if (typeSegment === "tables.results") {
+            //console.debug("migrateRollTable:", typeSegment, document);
+            // If v13 format then backport
+            if (document.type === "text") {
+                if (document.description && !document.name) {
+                    result.name = document.description;
+                    result.description = "";
+                    result.text = result.name;
+                } else if (document.description && !document.text) {
+                    result.text = document.description;
+                }
+            } else if (document.type === "document") {
+                if (document.name && !document.text) {
+                    result.text = document.name;
+                }
+                if (document.text && !document.name) {
+                    result.name = document.text
+                }
+            }
+        }   
+        return result;
     }
 
     /**
@@ -309,7 +366,7 @@ class dbConvert {
     */
     async removeStats(document) {
         document._stats = {
-            //"coreVersion": "12.343",
+            "coreVersion": "12.343",
             "systemId": "fantastic-depths",
             //"systemVersion": document.systemVersion,
         //    "createdTime": null,
@@ -326,7 +383,7 @@ class dbConvert {
      */
     async compile(packName) {
         if (!packName) {
-            throw new Error('Pack name is required for compilation');
+            throw new Error("Pack name is required for compilation");
         }
         
         this.packName = packName;
@@ -343,15 +400,15 @@ class dbConvert {
         
         try {
             // Step 1: Collect all JSON files from packsrc folder structure
-            console.log('Collecting JSON files...');
+            console.log("Collecting JSON files...");
             const collectedData = await this.collectJsonFiles(packsrcPath);
             
-            // Step 2: Reconstruct embedded documents from parent documents' embedded arrays
-            console.log('Reconstructing embedded documents...');
-            const allDocuments = this.reconstructEmbeddedDocuments(collectedData);
+            // Step 2: Reconstruct embedded documents from parent documents" embedded arrays
+            console.log("Reconstructing embedded documents...");
+            const allDocuments = await this.reconstructEmbeddedDocuments(collectedData);
             
             // Step 3: Write compiled documents to .db file format
-            console.log('Writing compiled database...');
+            console.log("Writing compiled database...");
             await this.writeCompiledDatabase(allDocuments, packName);
             
             console.log(`Compilation completed successfully for pack: ${packName}`);
@@ -374,9 +431,9 @@ class dbConvert {
         };
         
         // Read _folders.json if it exists
-        const foldersPath = path.join(packsrcPath, '_folders.json');
+        const foldersPath = path.join(packsrcPath, "_folders.json");
         try {
-            const foldersContent = await fs.readFile(foldersPath, 'utf8');
+            const foldersContent = await fs.readFile(foldersPath, "utf8");
             result.folders = JSON.parse(foldersContent);
             console.log(`Loaded ${Object.keys(result.folders).length} folder documents from _folders.json`);
         } catch (error) {
@@ -406,10 +463,10 @@ class dbConvert {
                 if (entry.isDirectory()) {
                     // Recursively search subdirectories
                     await this.collectJsonFilesRecursive(fullPath, documents, basePath);
-                } else if (entry.isFile() && entry.name.endsWith('.json') && entry.name !== '_folders.json') {
+                } else if (entry.isFile() && entry.name.endsWith(".json") && entry.name !== "_folders.json") {
                     // Read and parse JSON file
                     try {
-                        const content = await fs.readFile(fullPath, 'utf8');
+                        const content = await fs.readFile(fullPath, "utf8");
                         const cleanContent = this.removeBOM(content);
                         const document = JSON.parse(cleanContent);
                         documents.push({
@@ -428,11 +485,11 @@ class dbConvert {
     }
 
     /**
-     * Reconstruct embedded documents from parent documents' embedded arrays
+     * Reconstruct embedded documents from parent documents" embedded arrays
      * @param {Object} collectedData - Object containing folders and documents from collectJsonFiles
      * @returns {Object} - Object with all documents keyed by their database keys
      */
-    reconstructEmbeddedDocuments(collectedData) {
+    async reconstructEmbeddedDocuments(collectedData) {
         const allDocuments = {};
         
         // Add folder documents first
@@ -443,9 +500,13 @@ class dbConvert {
         // Process each document file
         for (const fileData of collectedData.documents) {
             const document = fileData.document;
-            
+
+            // Migrate document data before writing (stubbed for now)
+            let migratedDocument = await this.migrateDocument(document);
+            this.removeStats(migratedDocument);
+
             // Create a clean copy of the document without the embedded array
-            const cleanDocument = { ...document };
+            const cleanDocument = { ...migratedDocument };
             delete cleanDocument.embedded;
             
             // Add the top-level document
@@ -457,9 +518,13 @@ class dbConvert {
                     if (embeddedDoc._originalKey) {
                         // Use the stored original key
                         const embeddedKey = embeddedDoc._originalKey;
-                        
+
+                        // Migrate document data before writing (stubbed for now)
+                        let migratedEmbeddedDocument = await this.migrateDocument(embeddedDoc);
+                        this.removeStats(migratedEmbeddedDocument);
+
                         // Create a clean copy without the _originalKey property
-                        const cleanEmbeddedDoc = { ...embeddedDoc };
+                        const cleanEmbeddedDoc = { ...migratedEmbeddedDocument };
                         delete cleanEmbeddedDoc._originalKey;
                         
                         allDocuments[embeddedKey] = cleanEmbeddedDoc;
@@ -490,7 +555,7 @@ class dbConvert {
             const dbContent = JSON.stringify(documents, null, 2);
             
             // Write to the .db file
-            await fs.writeFile(dbPath, toCRLF(dbContent), 'utf8');
+            await fs.writeFile(dbPath, toCRLF(dbContent), "utf8");
             
             const documentCount = Object.keys(documents).length;
             console.log(`Successfully compiled ${documentCount} documents to ${dbPath}`);
@@ -534,12 +599,12 @@ class dbConvertCLI {
         
         for (let i = 1; i < this.args.length; i++) {
             const arg = this.args[i];
-            if (arg.startsWith('--')) {
+            if (arg.startsWith("--")) {
                 const key = arg.slice(2);
                 const value = this.args[i + 1];
-                if (value && !value.startsWith('--')) {
+                if (value && !value.startsWith("--")) {
                     options[key] = value;
-                    i++; // Skip next arg as it's the value
+                    i++; // Skip next arg as it"s the value
                 } else {
                     options[key] = true;
                 }
@@ -582,14 +647,14 @@ Examples:
     async run() {
         try {
             switch (this.command) {
-                case 'extract':
+                case "extract":
                     await this.handleExtract();
                     break;
-                case 'compile':
+                case "compile":
                     await this.handleCompile();
                     break;
-                case 'help':
-                case '--help':
+                case "help":
+                case "--help":
                 case undefined:
                     this.showHelp();
                     break;
@@ -599,7 +664,7 @@ Examples:
                     process.exit(1);
             }
         } catch (error) {
-            console.error('Error:', error.message);
+            console.error("Error:", error.message);
             process.exit(1);
         }
     }
@@ -612,14 +677,14 @@ Examples:
 
         // If a custom file is specified, extract just that file
         if (customFile) {
-            const converter = new dbConvert('actors'); // Default pack name for custom file
+            const converter = new dbConvert("actors"); // Default pack name for custom file
             await converter.extract(customFile);
             return;
         }
 
         // If no pack is specified, extract all available packs
         if (!this.options.pack) {
-            console.log('No pack specified, extracting all available packs...\n');
+            console.log("No pack specified, extracting all available packs...\n");
             
             for (const packName of dbConvert.AVAILABLE_PACKS) {
                 console.log(`Extracting ${packName}...`);
@@ -647,7 +712,7 @@ Examples:
     async handleCompile() {
         // If no pack is specified, compile all available packs
         if (!this.options.pack) {
-            console.log('No pack specified, compiling all available packs...\n');
+            console.log("No pack specified, compiling all available packs...\n");
             
             for (const packName of dbConvert.AVAILABLE_PACKS) {
                 console.log(`Compiling ${packName}...`);

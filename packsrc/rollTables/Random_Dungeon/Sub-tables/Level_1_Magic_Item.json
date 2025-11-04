@@ -15,6 +15,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d100",
@@ -24,19 +25,21 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!bdPg8G95IuKtLyBd.0ACfDgImLocKrvOO",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         1,
         2
       ],
       "drawn": false,
+      "text": "Magical Items (Basic)",
+      "documentId": "zsJcesRnrzLKi62n",
       "img": "icons/svg/d20-highlight.svg",
       "_id": "0ACfDgImLocKrvOO",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -50,11 +53,12 @@
       ],
       "drawn": false,
       "_id": "FuKjpfifHEtcrCbV",
+      "text": "No magic items",
       "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

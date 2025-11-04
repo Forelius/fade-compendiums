@@ -35,6 +35,7 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -42,6 +43,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.0ScBsWzsyKegpVFs",
+      "text": "Scale mail",
       "range": [
         11,
         17
@@ -51,15 +53,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/scalemail.webp",
       "_id": "0ScBsWzsyKegpVFs",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.2rllkIjclCNtLwtE",
+      "text": "Plate &amp; shield",
       "range": [
         91,
         100
@@ -69,15 +72,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/platemail.webp",
       "_id": "2rllkIjclCNtLwtE",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.7jlviPj9iFbHciF6",
+      "text": "Chain &amp; shield",
       "range": [
         78,
         85
@@ -87,15 +91,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/chainmail.webp",
       "_id": "7jlviPj9iFbHciF6",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.8EILJvtVg4I6IOao",
+      "text": "Banded &amp; shield",
       "range": [
         86,
         90
@@ -105,10 +110,10 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/bandedmail.webp",
       "_id": "8EILJvtVg4I6IOao",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -128,11 +133,14 @@
       "documentId": "Plyb3V4zi41SFJqQ",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Armor Size Table"
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.BOMNqxibZKCzkU40",
+      "text": "Banded mail",
       "range": [
         31,
         39
@@ -142,15 +150,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/bandedmail.webp",
       "_id": "BOMNqxibZKCzkU40",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.DapciWLWH69Ryd5P",
+      "text": "Plate mail",
       "range": [
         40,
         50
@@ -160,15 +169,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/platemail.webp",
       "_id": "DapciWLWH69Ryd5P",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.GsnwtSysI2KfRpLg",
+      "text": "Suit armor",
       "range": [
         51,
         55
@@ -178,16 +188,17 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/suitarmor.webp",
       "_id": "GsnwtSysI2KfRpLg",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.I6T3qPIei3yoZ2E7",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         40,
@@ -195,17 +206,19 @@
       ],
       "drawn": false,
       "_id": "I6T3qPIei3yoZ2E7",
+      "text": "AC Mod (Plate or Suit)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "rwnLnpBgEh6DbW9D",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.KT1kU4ksZM7XBOWT",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         18,
@@ -213,11 +226,12 @@
       ],
       "drawn": false,
       "_id": "KT1kU4ksZM7XBOWT",
+      "text": "AC Mod (Chain)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "DO6nEkJytGomCYvI",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -237,12 +251,15 @@
       "documentId": "DiBm2M0JVor1hnMe",
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Cursed Armor Check"
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.VXixyS0i4KjqF78d",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         86,
@@ -250,17 +267,18 @@
       ],
       "drawn": false,
       "_id": "VXixyS0i4KjqF78d",
+      "text": "AC Mod (Banded, Scale or Leather)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "wUS8Z9T8nlkTPEnS",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.XoE91uzcrPeII7EC",
-      "type": "document",
+      "type": "pack",
       "weight": 1,
       "range": [
         1,
@@ -268,16 +286,19 @@
       ],
       "drawn": false,
       "_id": "XoE91uzcrPeII7EC",
+      "text": "AC Mod (Banded, Scale or Leather)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "wUS8Z9T8nlkTPEnS",
       "flags": {},
-      "text": "",
-      "documentId": null,
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.aJdyng71JIZUIfGC",
+      "text": "Chain mail",
       "range": [
         18,
         30
@@ -287,16 +308,17 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/chainmail.webp",
       "_id": "aJdyng71JIZUIfGC",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.d587QbT0HAkgxOPl",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         91,
@@ -304,17 +326,19 @@
       ],
       "drawn": false,
       "_id": "d587QbT0HAkgxOPl",
+      "text": "AC Mod (Plate or Suit)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "rwnLnpBgEh6DbW9D",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.epZWRLt8Z65mPDG0",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         31,
@@ -322,16 +346,18 @@
       ],
       "drawn": false,
       "_id": "epZWRLt8Z65mPDG0",
+      "text": "AC Mod (Banded, Scale or Leather)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "wUS8Z9T8nlkTPEnS",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.gFs3eUWXwykeHZXJ",
+      "text": "Shield",
       "range": [
         56,
         75
@@ -341,15 +367,16 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/shield.webp",
       "_id": "gFs3eUWXwykeHZXJ",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.m6NRCBHdgVQrtD8t",
+      "text": "Scale &amp; shield",
       "range": [
         76,
         77
@@ -359,16 +386,17 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/scalemail.webp",
       "_id": "m6NRCBHdgVQrtD8t",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.wUDMKXVSPDhyrKQD",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         76,
@@ -376,17 +404,19 @@
       ],
       "drawn": false,
       "_id": "wUDMKXVSPDhyrKQD",
+      "text": "AC Mod (Banded, Scale or Leather)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "wUS8Z9T8nlkTPEnS",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.xABI59PleSPtafsI",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         56,
@@ -394,17 +424,19 @@
       ],
       "drawn": false,
       "_id": "xABI59PleSPtafsI",
+      "text": "AC Mod (Shield)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "YsVgpv8bV9sJ2wGK",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.zD29TgEjTY4vmE5N",
-      "type": "document",
+      "type": "pack",
+      "documentCollection": "fade-compendiums.roll-table-compendium",
       "weight": 1,
       "range": [
         78,
@@ -412,16 +444,18 @@
       ],
       "drawn": false,
       "_id": "zD29TgEjTY4vmE5N",
+      "text": "AC Mod (Chain)",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
+      "documentId": "DO6nEkJytGomCYvI",
       "flags": {},
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.zye4Q7jGdOl4WXaP",
+      "text": "Leather armor",
       "range": [
         1,
         10
@@ -431,10 +465,10 @@
       "drawn": false,
       "img": "modules/fade-compendiums/assets/img/armor/leather.webp",
       "_id": "zye4Q7jGdOl4WXaP",
-      "flags": {},
-      "text": "",
       "documentId": null,
+      "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }

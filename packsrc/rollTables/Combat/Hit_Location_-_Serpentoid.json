@@ -15,9 +15,16 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {
-    "core": {}
+    "core": {},
+    "exportSource": {
+      "world": "dandd-1e",
+      "system": "gs-fantastic-depths",
+      "coreVersion": "11.315",
+      "systemVersion": "1.11.5"
+    }
   },
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -34,11 +41,12 @@
       ],
       "drawn": false,
       "_id": "cftzXnCUF44ld2ex",
+      "text": "Body",
+      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -52,11 +60,12 @@
       ],
       "drawn": false,
       "_id": "yCZxm0wTGFvjiNQs",
+      "text": "Head",
+      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
-      "text": "",
-      "documentId": null,
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     }
