@@ -237,7 +237,18 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
     "occludable": {
       "radius": 0
     },
@@ -255,7 +266,7 @@
     },
     "flags": {},
     "randomImg": false,
-    "hexagonalShape": 1
+    "hexagonalShape": 0
   },
   "items": [
     "luRa0JHqc00mUMd2",
@@ -274,10 +285,11 @@
   },
   "flags": {},
   "_stats": {
+    "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "_id": "C1ja5aJldxd0PnIv",
-  "sort": 1600000,
+  "sort": 950000,
   "_originalKey": "!actors!C1ja5aJldxd0PnIv",
   "embedded": [
     {
@@ -321,6 +333,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
       "sort": 0
@@ -366,6 +379,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
       "sort": 0
@@ -449,6 +463,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -493,6 +508,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
       "sort": 0
@@ -558,6 +574,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
@@ -602,6 +619,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
       "sort": 0
@@ -647,6 +665,7 @@
       },
       "flags": {},
       "_stats": {
+        "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
       "sort": 0
