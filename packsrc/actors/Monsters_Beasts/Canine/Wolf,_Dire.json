@@ -191,14 +191,14 @@
       "alphaThreshold": 0.75
     },
     "disposition": -1,
-    "displayBars": 0,
+    "displayBars": 10,
     "appendNumber": true,
     "prependAdjective": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
     "bar1": {
-      "attribute": null
+      "attribute": "hp"
     },
     "bar2": {
       "attribute": null
@@ -255,7 +255,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
@@ -274,9 +274,7 @@
     "HeB0EizIaWAiEM9s",
     "k2REANuPTEftEiOG"
   ],
-  "effects": [
-    "TnnusCvyl1f6jPiX"
-  ],
+  "effects": [],
   "folder": "xTxkUVsKsfS9jprd",
   "ownership": {
     "default": 0,
@@ -291,38 +289,6 @@
   "sort": 200000,
   "_originalKey": "!actors!4PUXUMLbZwb9SaDM",
   "embedded": [
-    {
-      "_originalKey": "!actors.effects!4PUXUMLbZwb9SaDM.TnnusCvyl1f6jPiX",
-      "name": "Dead",
-      "img": "icons/svg/skull.svg",
-      "statuses": [
-        "dead"
-      ],
-      "_id": "TnnusCvyl1f6jPiX",
-      "type": "base",
-      "system": {},
-      "changes": [],
-      "disabled": false,
-      "duration": {
-        "startTime": 4644910,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": null,
-      "tint": "#ffffff",
-      "transfer": false,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
     {
       "_originalKey": "!actors.items!4PUXUMLbZwb9SaDM.4V3KBiLRiRFzVCrq",
       "folder": "OR1oqiLvw7LWXY42",
