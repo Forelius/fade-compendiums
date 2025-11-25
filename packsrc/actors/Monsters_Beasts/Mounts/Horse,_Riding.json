@@ -38,16 +38,16 @@
     },
     "wrestling": 13,
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
     "gm": {
       "notes": ""
     },
-    "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p><strong>Terrain:</strong> Open.</p><p><strong>Load:</strong> 3,000 cn of weight at normal rates, or 6,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1.</p>",
+    "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p><strong>Terrain:</strong> Open.<br><strong>Load:</strong> 3,000 cn of weight at normal rates, or 6,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1.</p>",
     "encumbrance": {
       "max": 6000,
       "value": 0,
@@ -167,11 +167,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 240,
+      "max": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240
     }
   },
   "prototypeToken": {
@@ -283,16 +283,14 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {
-    "fantastic-depths": {
-      "collapsed-armorItems": false
-    }
+    "fantastic-depths": {}
   },
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
   "_id": "hQDO0pDaKZ0ofP62",
-  "sort": 0,
+  "sort": 500000,
   "_originalKey": "!actors!hQDO0pDaKZ0ofP62",
   "embedded": [
     {
@@ -519,7 +517,7 @@
     },
     {
       "_originalKey": "!actors.items!hQDO0pDaKZ0ofP62.Xc9Z7VvvLm4BzI0s",
-      "name": "Natural Protection",
+      "name": "Hide",
       "type": "armor",
       "system": {
         "tags": [],

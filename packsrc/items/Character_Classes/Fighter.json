@@ -8,18 +8,32 @@
       {
         "concatLogic": "none",
         "ability": "str",
+        "minScore": 3,
+        "percentage": -20
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 6,
+        "percentage": -10
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 9,
+        "percentage": 0
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
         "minScore": 13,
-        "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       },
       {
         "concatLogic": "none",
         "ability": "str",
         "minScore": 16,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 10
       }
     ],
     "maxLevel": 36,
@@ -578,7 +592,8 @@
       "cha": {
         "min": null
       }
-    }
+    },
+    "castAsKey": ""
   },
   "effects": [],
   "folder": "oRrldFwTAwccXhIv",

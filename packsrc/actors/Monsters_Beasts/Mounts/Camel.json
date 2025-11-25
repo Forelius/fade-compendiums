@@ -289,7 +289,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 0,
+  "sort": 700000,
   "_originalKey": "!actors!xM7S8gONcHtrN7SM",
   "embedded": [
     {
@@ -469,11 +469,11 @@
     },
     {
       "_originalKey": "!actors.items!xM7S8gONcHtrN7SM.BIcYqkmQSgWc7y2y",
-      "name": "Hoof Kick",
+      "name": "Hoof",
       "type": "weapon",
       "system": {
         "tags": [],
-        "description": "A kick attack dealing 1d4 points of damage. Camels often kick with one leg at a time.",
+        "description": "",
         "gm": {
           "notes": ""
         },
@@ -486,13 +486,13 @@
         "natural": true,
         "damageRoll": "1d4",
         "damageType": "physical",
-        "breath": null,
+        "breath": "",
         "canMelee": true,
         "canRanged": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
+        "savingThrow": "",
+        "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -518,9 +518,9 @@
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": null,
-        "grip": null,
-        "charges": null,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -644,11 +644,11 @@
     },
     {
       "_originalKey": "!actors.items!xM7S8gONcHtrN7SM.iXZz7UfLzZCDqYit",
-      "name": "Thick Hide",
+      "name": "Hide",
       "type": "armor",
       "system": {
         "tags": [],
-        "description": "The thick hide of the camel provides an effective Armor Class of 7.",
+        "description": "",
         "gm": {
           "notes": ""
         },
@@ -678,7 +678,7 @@
         "unidentifiedDesc": "",
         "isIdentified": true,
         "isCursed": false,
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "savingThrow": null,
         "healFormula": null,
@@ -688,7 +688,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "av": null,
+        "av": "",
         "modRanged": 0,
         "totalRangedAC": 9,
         "totalRangedAAC": 9

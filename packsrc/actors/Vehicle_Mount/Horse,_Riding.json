@@ -1,59 +1,49 @@
 {
-  "name": "Pony",
-  "type": "monster",
-  "folder": "3Phk5gzgKxs7oAfv",
-  "img": "icons/environment/creatures/horse-tan.webp",
+  "folder": "u3N72wN2tWgx4CXo",
+  "name": "Horse, Riding",
+  "type": "vehicle",
+  "_id": "fQ8mm1XSTy1U1Vtp",
+  "img": "icons/environment/creatures/horse-brown.webp",
   "system": {
+    "tags": [],
+    "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This beast can carry a rider for a greater distance than any other type of horse. It is smaller and can exist wherever there is grass to feed on. Most wild horses on the plains fall into the \"riding horse\" category once tamed.</p><p>A riding horse's maximum speed will kill the horse if used for over 1/3  of a day's travel. Normally the riding horse can go the speed of a war horse, and if pushed to max. speed can only do so safely for 1/3 of the day, requiring three separate horses being swapped out for a full day's travel.</p><p>Load: 3,000 cn of weight at normal rates, or 6,000 cn at half normal.</p><p>Barding Multiplier: x1.</p>",
     "details": {
-      "alignment": "Neutral",
+      "weight": "",
       "size": "L",
-      "morale": 7,
-      "xpAward": 20,
       "attacks": "2",
-      "abilityCount": 0,
-      "monsterType": "Normal Animal",
-      "saveAs": "F1",
-      "castAs": "",
-      "classAbilityAs": "",
-      "level": 1,
-      "rarity": "Common",
-      "weight": ""
+      "int": 2,
+      "morale": 7
     },
-    "config": {
-      "maxSpellLevel": 0,
-      "firstSpellLevel": 1
+    "gm": {
+      "notes": ""
     },
+    "activeLight": null,
     "hp": {
       "hd": "2",
       "value": 9,
       "max": 9
     },
-    "na": {
-      "wandering": "0",
-      "lair": "ld10 x 5"
-    },
-    "treasure": "Nil",
-    "thac0": {
-      "value": 18,
-      "mod": {
-        "missile": 0,
-        "melee": 0
-      }
-    },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "turn": 120,
+      "max": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120
     },
-    "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
+    "movement2": {
+      "turn": 240,
+      "max": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240
+    },
     "encumbrance": {
-      "max": 4000,
       "value": 0,
+      "max": 6000,
       "mv": 0,
       "mv2": 0
     },
+    "acDigest": [],
     "ac": {
       "naked": 9,
       "nakedRanged": 9,
@@ -64,9 +54,22 @@
       "totalRanged": 9,
       "totalAAC": 10,
       "totalRangedAAC": 10,
+      "av": "0",
       "shield": 0,
-      "mod": 0,
-      "av": "0"
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 75,
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 18,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
     },
     "thbonus": 1,
     "initiative": {
@@ -74,127 +77,69 @@
     },
     "languages": "",
     "combat": {
+      "basicProficiency": true,
       "attacks": 0,
       "attAgainstH": 0,
       "attAgainstM": 0,
       "deathCount": 0,
       "isDead": false,
-      "declaredAction": "attack",
-      "basicProficiency": true,
-      "unskilledToHitMod": -2
-    },
-    "gm": {
-      "notes": ""
+      "declaredAction": "moveOnly"
     },
     "mod": {
       "ac": 0,
+      "rangedAc": 0,
       "baseAc": 0,
       "upgradeAc": null,
       "upgradeRangedAc": null,
       "initiative": 0,
       "combat": {
         "toHit": 0,
-        "dmg": "0",
+        "dmg": null,
+        "dmgScale": 1,
         "toHitRanged": 0,
-        "dmgRanged": "0",
+        "dmgRanged": null,
         "selfDmg": 0,
+        "selfDmgRanged": 0,
         "selfDmgBreath": 0,
         "selfDmgBreathScale": 0,
         "selfDmgMagic": 0,
         "selfDmgFrost": 0,
         "selfDmgFire": 0,
         "selfToHit": 0,
-        "selfToHitRanged": 0,
-        "selfDmgRanged": 0
+        "selfToHitRanged": 0
       },
-      "save": {
-        "all": 0
-      },
-      "rangedAc": 0,
-      "wrestling": null,
-      "masteryLevelOverride": null
-    },
-    "wrestling": 13,
-    "acDigest": [],
-    "activeLight": null,
-    "isEnchanted": false,
-    "abilities": {
-      "int": {
-        "value": 2,
-        "total": 2,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "con": {
-        "value": 10,
-        "total": 4,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "str": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "wis": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "dex": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "cha": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "loyaltyMod": 0,
-        "tempMod": 0
-      }
-    },
-    "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 210,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "save": {}
     }
   },
   "prototypeToken": {
-    "name": "Pony",
+    "name": "Horse, Riding",
     "displayName": 20,
-    "actorLink": false,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": false,
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/environment/creatures/horse-tan.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
-      "rotation": 0,
+      "src": "icons/environment/creatures/horse-brown.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "disposition": 0,
-    "displayBars": 0,
-    "appendNumber": true,
-    "prependAdjective": false,
+    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
     "bar1": {
-      "attribute": null
+      "attribute": "hp"
     },
     "bar2": {
       "attribute": null
@@ -235,7 +180,18 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
     "occludable": {
       "radius": 0
     },
@@ -252,19 +208,19 @@
       }
     },
     "flags": {},
-    "randomImg": false,
-    "hexagonalShape": 0
+    "randomImg": false
   },
   "items": [
-    "5fvuCpPEknIUWPuI",
-    "DgyBle5vmCiX7GKM",
-    "l8TYb1js6dyNmMG2",
-    "JMDryuOg4byJ1MLo",
-    "Ko5KVUrNBSDPkDMx",
-    "QMh24q8jAbAIBB89",
-    "OsPsUQSwN9T3qPCW"
+    "5F1QGqGIRwLBSZj7",
+    "Xc9Z7VvvLm4BzI0s",
+    "BC5noZ77kfmpzSw4",
+    "ZcBzHMlW4SgGBjo6",
+    "N0utABCFITw0vy3w",
+    "bEML3SEjuYkk65aI",
+    "FJAQqqOzkl9nUmoW"
   ],
   "effects": [],
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3
@@ -274,193 +230,83 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "eYuQLjP78z7C0xJ2",
-  "sort": 400000,
-  "_originalKey": "!actors!eYuQLjP78z7C0xJ2",
+  "_originalKey": "!actors!fQ8mm1XSTy1U1Vtp",
   "embedded": [
     {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.5fvuCpPEknIUWPuI",
-      "name": "Hide",
-      "type": "armor",
-      "system": {
-        "description": "",
-        "quantity": 1,
-        "equipped": true,
-        "ac": 7,
-        "isShield": false,
-        "natural": true,
-        "shortName": "",
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "charges": 0,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "containerId": "",
-        "container": false,
-        "equippable": false,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "",
-        "isIdentified": true,
-        "isCursed": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": 1,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": "",
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "5fvuCpPEknIUWPuI",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.DgyBle5vmCiX7GKM",
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.5F1QGqGIRwLBSZj7",
       "name": "Hoof",
       "type": "weapon",
       "system": {
-        "description": "",
-        "quantity": 1,
-        "equipped": true,
-        "damageRoll": "1d4",
-        "damageType": "physical",
-        "canMelee": true,
-        "canRanged": false,
-        "natural": true,
-        "shortName": "",
         "tags": [],
+        "description": "",
         "gm": {
           "notes": ""
         },
-        "charges": 0,
+        "quantity": 1,
         "quantityMax": 0,
         "weight": 0,
         "cost": 0,
-        "totalWeight": 0,
-        "totalCost": 0,
         "containerId": "",
-        "container": false,
-        "equippable": false,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "",
-        "isIdentified": true,
-        "isCursed": false,
-        "breath": "",
-        "canSet": false,
-        "isSlow": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
+        "equipped": true,
+        "natural": true,
+        "damageRoll": "1d4",
+        "damageType": "physical",
+        "breath": null,
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": null,
+        "saveDmgFormula": null,
         "mastery": "",
-        "weaponType": "monster",
+        "weaponType": "",
         "range": {
           "short": null,
           "medium": null,
           "long": null
         },
-        "size": "null",
-        "grip": "null",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
         "mod": {
           "dmg": 0,
           "toHit": 0,
           "dmgRanged": 0,
-          "toHitRanged": 0
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
         },
+        "fuelType": "",
+        "ammoType": "",
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": null,
+        "grip": null,
+        "charges": null,
         "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
         "attacks": {
           "max": 2,
           "used": 0,
           "group": 0
         },
-        "weightEquipped": 1,
+        "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": []
       },
       "img": "icons/svg/sword.svg",
-      "_id": "DgyBle5vmCiX7GKM",
+      "_id": "5F1QGqGIRwLBSZj7",
       "effects": [],
       "folder": null,
       "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.JMDryuOg4byJ1MLo",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Magic Wand",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "JMDryuOg4byJ1MLo",
-      "system": {
-        "tags": [],
-        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "13",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "shortName": "Wand",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
@@ -469,16 +315,15 @@
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      },
-      "sort": 0
+      }
     },
     {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.Ko5KVUrNBSDPkDMx",
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.BC5noZ77kfmpzSw4",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Dragon Breath",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "Ko5KVUrNBSDPkDMx",
+      "_id": "BC5noZ77kfmpzSw4",
       "system": {
         "shortName": "Breath",
         "tags": [],
@@ -486,9 +331,11 @@
         "gm": {
           "notes": ""
         },
+        "quantity": 1,
+        "quantityMax": 0,
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "12",
         "rollMode": "publicroll",
         "savingThrow": "",
         "autoSuccess": null,
@@ -502,8 +349,6 @@
         "customSaveCode": "breath",
         "classKey": null,
         "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
         "conditions": []
       },
       "effects": [],
@@ -519,113 +364,23 @@
       "sort": 0
     },
     {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.OsPsUQSwN9T3qPCW",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "OsPsUQSwN9T3qPCW",
-      "system": {
-        "shortName": "Spell",
-        "tags": [],
-        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "16",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "sort": 0
-    },
-    {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.QMh24q8jAbAIBB89",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Turn to Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "QMh24q8jAbAIBB89",
-      "system": {
-        "shortName": "Stone",
-        "tags": [],
-        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "14",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "sort": 0
-    },
-    {
-      "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.l8TYb1js6dyNmMG2",
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.FJAQqqOzkl9nUmoW",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Death Ray or Poison",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "l8TYb1js6dyNmMG2",
+      "_id": "FJAQqqOzkl9nUmoW",
       "system": {
         "tags": [],
         "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
         "gm": {
           "notes": ""
         },
+        "quantity": 1,
+        "quantityMax": 0,
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "16",
         "rollMode": "publicroll",
         "savingThrow": "",
         "autoSuccess": null,
@@ -640,8 +395,206 @@
         "shortName": "Death",
         "classKey": null,
         "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.N0utABCFITw0vy3w",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "N0utABCFITw0vy3w",
+      "system": {
+        "shortName": "Spell",
+        "tags": [],
+        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
+        "gm": {
+          "notes": ""
+        },
         "quantity": 1,
-        "quantityMax": null,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.Xc9Z7VvvLm4BzI0s",
+      "name": "Hide",
+      "type": "armor",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 7,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 9,
+        "totalAAC": 9,
+        "fuelType": "",
+        "shortName": "",
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 9,
+        "totalRangedAAC": 9,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": []
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "Xc9Z7VvvLm4BzI0s",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.ZcBzHMlW4SgGBjo6",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Turn to Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "ZcBzHMlW4SgGBjo6",
+      "system": {
+        "shortName": "Stone",
+        "tags": [],
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!fQ8mm1XSTy1U1Vtp.bEML3SEjuYkk65aI",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "bEML3SEjuYkk65aI",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
         "conditions": []
       },
       "effects": [],
