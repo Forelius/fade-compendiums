@@ -275,15 +275,15 @@
     "systemId": "fantastic-depths"
   },
   "_id": "RjQyqdheiXyejdwJ",
-  "sort": 0,
+  "sort": 200000,
   "_originalKey": "!actors!RjQyqdheiXyejdwJ",
   "embedded": [
     {
       "_originalKey": "!actors.items!RjQyqdheiXyejdwJ.26hw86qMxeOJap1G",
-      "name": "Armor",
+      "name": "Hide",
       "type": "armor",
       "system": {
-        "description": "A thick, robust hide forms a natural shield.",
+        "description": "",
         "quantity": 1,
         "equipped": true,
         "ac": 7,
@@ -294,7 +294,7 @@
         "gm": {
           "notes": ""
         },
-        "charges": null,
+        "charges": 0,
         "quantityMax": 0,
         "weight": 0,
         "cost": 0,
@@ -324,7 +324,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "av": null,
+        "av": "",
         "modRanged": 0,
         "totalRangedAC": 9,
         "totalRangedAAC": 9
@@ -348,7 +348,7 @@
       "name": "Bite",
       "type": "weapon",
       "system": {
-        "description": "A desperate bite delivered by a horse unaccustomed to combat.",
+        "description": "",
         "quantity": 1,
         "equipped": true,
         "damageRoll": "1d3",
@@ -363,7 +363,7 @@
         },
         "charges": 0,
         "quantityMax": 0,
-        "weight": 1,
+        "weight": 0,
         "cost": 0,
         "totalWeight": 0,
         "totalCost": 0,

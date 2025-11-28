@@ -1,0 +1,228 @@
+{
+  "name": "Wagon (4 wheels)",
+  "type": "vehicle",
+  "img": "icons/commodities/wood/wood-wheel-brown.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p>This is a large wooden wagon pulled by two or four draft horses (or four, six, or eight mules). The wagon cannot travel through desert, forest, mountain, or swamp except by road.</p><p>The wagon's maximum safe movement rate is 60' (20'); above that rate, the DM should check once per turn to see if the wagon breaks down or tips over. On a 1 on a [[/r 1d6 #breaks down on 1 and tips over on 2 or 3]], it breaks down, and on a 2 it tips over. </p><p>The cart's carrying capacity is 15,000 cn when pulled by two horses, 25,000 cn when pulled by four.</p><h3>Vehicle Movement Speed</h3><p>Creatures can pull the carrying capacities for carts and wagons with no problem or hindrance to their movement speeds. The vehicles can be loaded heavier, but movement speeds will suffer.</p><p>Simply put, if the animal's normal encumbrance value is equal to or higher than the weight in the vehicle, it can pull it at its normal speed. If the encumbrance of the vehicle exceeds the animal's normal encumbrance value, it can be pulled at half the animal's normal speed.</p><p>For example, one draft horse pulls a cart loaded down with 3,000 cn of cargo; this cart could travel at the horse's maximum rate of 90' (30'), though speeds greater than 60' (20') risk upsetting the vehicle and the cargo. The same draft horse can pull a cart loaded with 5,000 cn of cargo, but this cart moves at half speed or 45' (15').</p>",
+    "details": {
+      "weight": "",
+      "size": "L",
+      "attacks": "0",
+      "int": 0,
+      "morale": 0
+    },
+    "gm": {
+      "notes": "If going over safe speed (60), change max move speed to pulling animals'.\nChange max encumbrance to 25000 if pulled by four horses."
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1d8",
+      "value": 5,
+      "max": 5
+    },
+    "movement": {
+      "turn": 90,
+      "max": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
+    },
+    "movement2": {
+      "turn": 0,
+      "max": null,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 15000,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 200,
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0,
+      "hasCombat": false
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    },
+    "capacity": "15,000/25,000"
+  },
+  "prototypeToken": {
+    "name": "Wagon (4 wheels)",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 2,
+    "texture": {
+      "src": "icons/commodities/wood/wood-wheel-brown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "u3N72wN2tWgx4CXo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "y5Ke9n0IBlai7Y6C",
+  "sort": 0,
+  "_originalKey": "!actors!y5Ke9n0IBlai7Y6C"
+}
