@@ -1,0 +1,294 @@
+{
+  "folder": "eOe6GlMqUahANZbV",
+  "name": "Boat, Sailing",
+  "type": "vehicle",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p>This is a single-masted boat, designed for lake or coastal use. The length is 15'–45', beam is 5'–15', and draft is 3'–8'. </p><p><strong>Capacity:</strong> 20,000 cn. <br><strong>Minimum crew:</strong> 1 sailor; additional crew and a captain may be hired.</p>",
+    "details": {
+      "weight": "",
+      "size": "G",
+      "attacks": "1",
+      "int": 0,
+      "morale": null
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "2d10+20",
+      "value": 40,
+      "max": 40
+    },
+    "movement": {
+      "turn": 360,
+      "max": 360,
+      "round": 120,
+      "day": 72,
+      "run": 360
+    },
+    "movement2": {
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 20000,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 2000,
+    "capacity": "",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0,
+      "hasCombat": true
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    }
+  },
+  "prototypeToken": {
+    "name": "Boat, River",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/ship.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    "8SBABRNcQRgmCbhV"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "PH5KUWNXveVazTf3",
+  "_originalKey": "!actors!PH5KUWNXveVazTf3",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!PH5KUWNXveVazTf3.8SBABRNcQRgmCbhV",
+      "name": "Protection",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 8,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "8SBABRNcQRgmCbhV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}
