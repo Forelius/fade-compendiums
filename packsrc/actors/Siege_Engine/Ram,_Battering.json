@@ -1,16 +1,16 @@
 {
-  "folder": "eOe6GlMqUahANZbV",
-  "name": "Boat, River",
+  "folder": "5G1sCL6qdc4FmU39",
+  "name": "Ram, Battering",
   "type": "vehicle",
-  "_id": "VkWwTZCh97EbXUwK",
-  "img": "icons/environment/settlement/ship.webp",
+  "_id": "FCyMlIoldxkM4xms",
+  "img": "icons/weapons/maces/mace-skull-ram.webp",
   "system": {
     "tags": [],
-    "biography": "<p>This boat is designed specifically for river travel. The length is 20'–30', beam (width) is 10', and draft (depth under water) is 2'–3'. </p><p><strong>Capacity:</strong> 30,000 cn. <br><strong>Crew:</strong> 8 rowers, 2 sailors (one of whom acts as captain). </p><p>It may be rowed or poled; it may have a wooden roof for protection from weather (1,000 gp extra).</p>",
+    "biography": "<p><strong>Full crew:</strong> 10<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
     "details": {
       "weight": "",
-      "size": "G",
-      "attacks": "1",
+      "size": "L",
+      "attacks": "1/2",
       "int": 0,
       "morale": null
     },
@@ -19,29 +19,29 @@
     },
     "activeLight": null,
     "hp": {
-      "hd": "2d10+20",
-      "value": 40,
-      "max": 40
+      "hd": "1d1*50",
+      "value": 50,
+      "max": 50
     },
     "movement": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
     },
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
     },
     "encumbrance": {
       "value": 0,
-      "max": 30000,
-      "mv": 0,
-      "mv2": 0
+      "max": 0,
+      "mv": null,
+      "mv2": null
     },
     "acDigest": [],
     "ac": {
@@ -59,12 +59,11 @@
       "mod": 0
     },
     "actorGroups": [],
-    "cost": 4000,
+    "cost": 100,
     "capacity": "",
     "config": {
       "firstSpellLevel": 1,
-      "maxSpellLevel": 0,
-      "hasCombat": true
+      "maxSpellLevel": 0
     },
     "thac0": {
       "value": 19,
@@ -111,10 +110,11 @@
         "selfToHitRanged": 0
       },
       "save": {}
-    }
+    },
+    "vehicleType": "siege"
   },
   "prototypeToken": {
-    "name": "Boat, River",
+    "name": "Ram, Battering",
     "displayName": 30,
     "actorLink": true,
     "appendNumber": true,
@@ -122,7 +122,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/environment/settlement/ship.webp",
+      "src": "icons/weapons/maces/mace-skull-ram.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -213,6 +213,7 @@
     "randomImg": false
   },
   "items": [
+    "VgiuEFNKSHqPj3KQ",
     "8SBABRNcQRgmCbhV"
   ],
   "effects": [],
@@ -226,10 +227,10 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!actors!VkWwTZCh97EbXUwK",
+  "_originalKey": "!actors!FCyMlIoldxkM4xms",
   "embedded": [
     {
-      "_originalKey": "!actors.items!VkWwTZCh97EbXUwK.8SBABRNcQRgmCbhV",
+      "_originalKey": "!actors.items!FCyMlIoldxkM4xms.8SBABRNcQRgmCbhV",
       "name": "Protection",
       "type": "armor",
       "system": {
@@ -263,7 +264,7 @@
         "specialAbilities": [],
         "spells": [],
         "conditions": [],
-        "ac": 8,
+        "ac": -4,
         "isShield": false,
         "av": "",
         "armorWeight": "light",
@@ -279,6 +280,103 @@
       "_id": "8SBABRNcQRgmCbhV",
       "effects": [],
       "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!FCyMlIoldxkM4xms.VgiuEFNKSHqPj3KQ",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Ram, Battering",
+      "type": "weapon",
+      "img": "icons/weapons/maces/mace-skull-ram.webp",
+      "_id": "VgiuEFNKSHqPj3KQ",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 3000,
+        "weightEquipped": 3000,
+        "cost": 100,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d6+8",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null,
+          "min": 0
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": 10,
+          "fireRate": 2,
+          "thac0": 19,
+          "crew": 10,
+          "thbonus": null,
+          "ammoCostWk": null,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": false
+        }
+      },
+      "effects": [],
       "sort": 0,
       "ownership": {
         "default": 0,

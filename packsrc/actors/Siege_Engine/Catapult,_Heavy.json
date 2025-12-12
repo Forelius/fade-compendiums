@@ -1,0 +1,392 @@
+{
+  "folder": "5G1sCL6qdc4FmU39",
+  "name": "Catapult, Heavy",
+  "type": "vehicle",
+  "img": "icons/weapons/artillery/catapult-simple.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p><strong>Full crew:</strong> 8<br><strong>Fire rate:</strong> 1 per 6</p><p>See contained weapon description for further details.</p>",
+    "details": {
+      "weight": "",
+      "size": "M",
+      "attacks": "1/6",
+      "int": 2,
+      "morale": 8
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1d1*27",
+      "value": 27,
+      "max": 27
+    },
+    "movement": {
+      "turn": 120,
+      "max": null,
+      "round": 40,
+      "day": 24,
+      "run": 120
+    },
+    "movement2": {
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 0,
+      "mv": null,
+      "mv2": null
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 250,
+    "capacity": "",
+    "vehicleType": "siege",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    }
+  },
+  "prototypeToken": {
+    "name": "Catapult, Heavy",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/weapons/artillery/catapult-simple.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    "PdHV8wjQID9fmFln",
+    "QkcvQ1Pt9XrQagEK"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "9Gl391IbLBKLVAUH",
+  "_originalKey": "!actors!9Gl391IbLBKLVAUH",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!9Gl391IbLBKLVAUH.PdHV8wjQID9fmFln",
+      "name": "Protection",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 0,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "PdHV8wjQID9fmFln",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9Gl391IbLBKLVAUH.QkcvQ1Pt9XrQagEK",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Catapult, Heavy",
+      "type": "weapon",
+      "img": "icons/weapons/artillery/catapult-simple.webp",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 18000,
+        "weightEquipped": 18000,
+        "cost": 250,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d10+10",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "hvcatapult",
+        "range": {
+          "short": 250,
+          "medium": 325,
+          "long": 400,
+          "min": 0
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": 8,
+          "fireRate": 6,
+          "ammoCostWk": 6000,
+          "thac0": null,
+          "thbonus": null,
+          "crew": 8,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": true
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "_id": "QkcvQ1Pt9XrQagEK"
+    }
+  ]
+}

@@ -1,46 +1,46 @@
 {
-  "folder": "eOe6GlMqUahANZbV",
-  "name": "Boat, Sailing",
+  "folder": "5G1sCL6qdc4FmU39",
+  "name": "Ballista",
   "type": "vehicle",
-  "img": "icons/environment/settlement/ship.webp",
+  "img": "icons/weapons/artillery/ballista-wood-green.webp",
   "system": {
     "tags": [],
-    "biography": "<p>This is a single-masted boat, designed for lake or coastal use. The length is 15'–45', beam is 5'–15', and draft is 3'–8'. </p><p><strong>Capacity:</strong> 20,000 cn. <br><strong>Minimum crew:</strong> 1 sailor; additional crew and a captain may be hired.</p>",
+    "biography": "<p><strong>Full crew:</strong> 4<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
     "details": {
       "weight": "",
-      "size": "G",
-      "attacks": "1",
-      "int": 0,
-      "morale": null
+      "size": "M",
+      "attacks": "1/2",
+      "int": 2,
+      "morale": 8
     },
     "gm": {
       "notes": ""
     },
     "activeLight": null,
     "hp": {
-      "hd": "2d10+20",
-      "value": 40,
-      "max": 40
+      "hd": "1d1*9",
+      "value": 9,
+      "max": 9
     },
     "movement": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
+      "turn": 120,
+      "max": null,
+      "round": 40,
+      "day": 24,
+      "run": 120
     },
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
     },
     "encumbrance": {
       "value": 0,
-      "max": 20000,
-      "mv": 0,
-      "mv2": 0
+      "max": 0,
+      "mv": null,
+      "mv2": null
     },
     "acDigest": [],
     "ac": {
@@ -58,12 +58,12 @@
       "mod": 0
     },
     "actorGroups": [],
-    "cost": 2000,
+    "cost": 75,
     "capacity": "",
+    "vehicleType": "siege",
     "config": {
       "firstSpellLevel": 1,
-      "maxSpellLevel": 0,
-      "hasCombat": true
+      "maxSpellLevel": 0
     },
     "thac0": {
       "value": 19,
@@ -113,7 +113,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Boat, River",
+    "name": "Ballista",
     "displayName": 30,
     "actorLink": true,
     "appendNumber": true,
@@ -121,7 +121,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/environment/settlement/ship.webp",
+      "src": "icons/weapons/artillery/ballista-wood-green.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -212,7 +212,8 @@
     "randomImg": false
   },
   "items": [
-    "8SBABRNcQRgmCbhV"
+    "PdHV8wjQID9fmFln",
+    "rY51QId1sQ5siqQ1"
   ],
   "effects": [],
   "sort": 0,
@@ -225,11 +226,11 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "PH5KUWNXveVazTf3",
-  "_originalKey": "!actors!PH5KUWNXveVazTf3",
+  "_id": "v4Bg3bnm4YwSUes4",
+  "_originalKey": "!actors!v4Bg3bnm4YwSUes4",
   "embedded": [
     {
-      "_originalKey": "!actors.items!PH5KUWNXveVazTf3.8SBABRNcQRgmCbhV",
+      "_originalKey": "!actors.items!v4Bg3bnm4YwSUes4.PdHV8wjQID9fmFln",
       "name": "Protection",
       "type": "armor",
       "system": {
@@ -263,7 +264,7 @@
         "specialAbilities": [],
         "spells": [],
         "conditions": [],
-        "ac": 8,
+        "ac": 4,
         "isShield": false,
         "av": "",
         "armorWeight": "light",
@@ -276,7 +277,7 @@
         "natural": true
       },
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "8SBABRNcQRgmCbhV",
+      "_id": "PdHV8wjQID9fmFln",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -289,6 +290,103 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
+    },
+    {
+      "_originalKey": "!actors.items!v4Bg3bnm4YwSUes4.rY51QId1sQ5siqQ1",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Ballista",
+      "type": "weapon",
+      "img": "icons/weapons/artillery/ballista-wood-green.webp",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p><strong>Fire rate:</strong> 1 per 2</p><p>A ballista is very similar to a normal crossbow and was actually the crossbow’s fore‑runner. It is much larger (often 5′‑10′ long) and mounted on a platform or wheeled carriage. The ballista described in the Siege Weapons Table is the largest one available. It is mounted on wheels (or on a wagon), or it can be placed on a pivot. The latter is the case when it is installed on a ship or a defensive fortification.</p><p>Ballista ammunition resembles spears, but they have larger heads. The ammunition is nearly useless against constructions, but it can inflict some damage to equipment. They are designed for use against men, animals, and monsters.</p><p>The crew of a ballista must be trained to use it, but the weapon does not require that an artillerist be present.</p><p>If a ballista is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by a trained crew with no artillerist present, take the size of the operating crew (maximum 4) and use that number as if it were the fighter’s experience level; in other words, the smaller the crew, the worse the attack roll becomes. If operated by an untrained crew, the ballista fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 6000,
+        "weightEquipped": 6000,
+        "cost": 75,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d10+6",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "ballista",
+        "range": {
+          "short": 100,
+          "medium": 200,
+          "long": 300,
+          "min": 0
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": 4,
+          "fireRate": 2,
+          "ammoCostWk": 2000,
+          "thac0": null,
+          "thbonus": null,
+          "crew": 4,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": true
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "_id": "rY51QId1sQ5siqQ1"
     }
   ]
 }

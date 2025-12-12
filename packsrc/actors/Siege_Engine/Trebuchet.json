@@ -1,46 +1,46 @@
 {
-  "folder": "eOe6GlMqUahANZbV",
-  "name": "Canoe",
+  "folder": "5G1sCL6qdc4FmU39",
+  "name": "Trebuchet",
   "type": "vehicle",
-  "img": "icons/environment/settlement/ship.webp",
+  "img": "icons/weapons/artillery/trebuchet-simple.webp",
   "system": {
     "tags": [],
-    "biography": "<p>This is a light wood frame covered with hides, canvas, or waterproof bark; it is designed for rivers and swamps. The length is 15', beam is 3', and draft is 1'.</p><p><strong>Capacity:</strong> 6,000 cn.</p><p>It may be carried by one or two people; encumbrance is 1,000 cn for one, 300 cn each for two people.</p><p>A special type of canoe, the outrigger, can sail on the ocean; it costs twice as much as the normal canoe and has three times the encumbrance.</p>",
+    "biography": "<p><strong>Full crew:</strong> 12<br><strong>Fire rate:</strong> 1 per 6</p><p>See contained weapon description for further details.</p>",
     "details": {
       "weight": "",
-      "size": "L",
-      "attacks": "1",
-      "int": 0,
-      "morale": null
+      "size": "M",
+      "attacks": "1/6",
+      "int": 2,
+      "morale": 8
     },
     "gm": {
       "notes": ""
     },
     "activeLight": null,
     "hp": {
-      "hd": "1d6+4",
-      "value": 10,
-      "max": 10
+      "hd": "1d1*36",
+      "value": 36,
+      "max": 36
     },
     "movement": {
-      "turn": 180,
-      "max": 90,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "turn": 120,
+      "max": null,
+      "round": 40,
+      "day": 24,
+      "run": 120
     },
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
     },
     "encumbrance": {
       "value": 0,
-      "max": 6000,
-      "mv": 0,
-      "mv2": 0
+      "max": 0,
+      "mv": null,
+      "mv2": null
     },
     "acDigest": [],
     "ac": {
@@ -58,12 +58,12 @@
       "mod": 0
     },
     "actorGroups": [],
-    "cost": 50,
+    "cost": 400,
     "capacity": "",
+    "vehicleType": "siege",
     "config": {
       "firstSpellLevel": 1,
-      "maxSpellLevel": 0,
-      "hasCombat": true
+      "maxSpellLevel": 0
     },
     "thac0": {
       "value": 19,
@@ -113,7 +113,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Boat, River",
+    "name": "Trebuchet",
     "displayName": 30,
     "actorLink": true,
     "appendNumber": true,
@@ -121,7 +121,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/environment/settlement/ship.webp",
+      "src": "icons/weapons/artillery/trebuchet-simple.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -212,7 +212,8 @@
     "randomImg": false
   },
   "items": [
-    "8SBABRNcQRgmCbhV"
+    "PdHV8wjQID9fmFln",
+    "gMIKfqFcsARJ9wDy"
   ],
   "effects": [],
   "sort": 0,
@@ -225,11 +226,11 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "hbVk9dM3RRVivvUd",
-  "_originalKey": "!actors!hbVk9dM3RRVivvUd",
+  "_id": "9mZSu7Y3FdZLWA1o",
+  "_originalKey": "!actors!9mZSu7Y3FdZLWA1o",
   "embedded": [
     {
-      "_originalKey": "!actors.items!hbVk9dM3RRVivvUd.8SBABRNcQRgmCbhV",
+      "_originalKey": "!actors.items!9mZSu7Y3FdZLWA1o.PdHV8wjQID9fmFln",
       "name": "Protection",
       "type": "armor",
       "system": {
@@ -263,7 +264,7 @@
         "specialAbilities": [],
         "spells": [],
         "conditions": [],
-        "ac": 9,
+        "ac": 0,
         "isShield": false,
         "av": "",
         "armorWeight": "light",
@@ -276,7 +277,7 @@
         "natural": true
       },
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "8SBABRNcQRgmCbhV",
+      "_id": "PdHV8wjQID9fmFln",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -289,6 +290,103 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
+    },
+    {
+      "_originalKey": "!actors.items!9mZSu7Y3FdZLWA1o.gMIKfqFcsARJ9wDy",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Trebuchet",
+      "type": "weapon",
+      "img": "icons/weapons/artillery/trebuchet-simple.webp",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p><strong>Fire rate:</strong> 1 per 6</p><p>Somewhat similar to the catapult, a trebuchet is a huge wooden bar with a sling at one end, mounted on a wooden frame in seesaw fashion. Instead of using ropes and tension to propel it, the bar is mounted on a pivot so that part of the bar projects toward the target. A large basket or net is hung from this end and is filled with weights. Ropes are used to pull the long sling arm down and to hold it for loading.</p><p>When released, the weights pull the short arm downward and the long arm pivots quickly upward. The sling slows naturally as the weights reach the bottom of the arc and flies open, causing the shot to fly off in a high, arched trajectory. The range of fire is determined by the amount of weight in the basket or net and by the exact position of the basket on the short arm of the bar.</p><p>If a trebuchet is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 24000,
+        "weightEquipped": 24000,
+        "cost": 400,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d12+13",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "trebuchet",
+        "range": {
+          "short": 250,
+          "medium": 400,
+          "long": 500,
+          "min": 100
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": 12,
+          "fireRate": 6,
+          "ammoCostWk": 8000,
+          "thac0": null,
+          "thbonus": null,
+          "crew": 12,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": true
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "_id": "gMIKfqFcsARJ9wDy"
     }
   ]
 }
