@@ -1,0 +1,392 @@
+{
+  "folder": "eOe6GlMqUahANZbV",
+  "name": "Galley, War",
+  "type": "vehicle",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p>This large, two-masted galley is designed for combat; it is often used as a flagship. The length is 120'–150', beam is 20'–30', and draft is 4'–6'. </p><p><strong>Capacity:</strong> 60,000 cn plus crew. </p><p><strong>Standard crew:</strong> 300 rowers, 30 sailors, 75 marines, 1 captain. </p><p>This ship always has a ram and one deck above the rowers has two light wooden towers (bow and stern), each 10'–20' square, height 15'–20'. It can have three light catapults.</p>",
+    "details": {
+      "weight": "",
+      "size": "I",
+      "attacks": "1",
+      "int": 0,
+      "morale": null
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1d30+120",
+      "value": 150,
+      "max": 150
+    },
+    "movement": {
+      "turn": 180,
+      "max": null,
+      "round": 60,
+      "day": 12,
+      "run": null
+    },
+    "movement2": {
+      "turn": 360,
+      "max": null,
+      "round": 120,
+      "day": 72,
+      "run": null
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 60000,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 60000,
+    "capacity": "",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    },
+    "vehicleType": "vessel"
+  },
+  "prototypeToken": {
+    "name": "Galley, War",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/ship.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    "8SBABRNcQRgmCbhV",
+    "VgiuEFNKSHqPj3KQ"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "qic8Zx5vEbq8Duqs",
+  "_originalKey": "!actors!qic8Zx5vEbq8Duqs",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!qic8Zx5vEbq8Duqs.8SBABRNcQRgmCbhV",
+      "name": "Protection",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 7,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "8SBABRNcQRgmCbhV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!qic8Zx5vEbq8Duqs.VgiuEFNKSHqPj3KQ",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Ram, Battering",
+      "type": "weapon",
+      "img": "icons/weapons/maces/mace-skull-ram.webp",
+      "_id": "VgiuEFNKSHqPj3KQ",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 3000,
+        "weightEquipped": 3000,
+        "cost": 100,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "(1d6+5)*10",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null,
+          "min": 0
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": null,
+          "fireRate": null,
+          "acplus": null,
+          "thac0": null,
+          "thbonus": null,
+          "crew": null,
+          "ammoCostWk": null,
+          "weightTowed": null,
+          "artillerist": false
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

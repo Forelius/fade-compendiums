@@ -1,0 +1,395 @@
+{
+  "folder": "eOe6GlMqUahANZbV",
+  "name": "Lifeboat, Ship's",
+  "type": "vehicle",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p>This vessel can carry up to ten people. It is designed for survival and each has a collapsible mast. The length is 20', beam is 4'‑5', and draft is 1'‑2'. </p><p><strong>Capacity:</strong> 15,000 cn. </p><p>Stored onboard the ship is one week’s iron rations for ten people. Small ships usually carry one or two lifeboats; large ships carry three or four. Lifeboats are not included in the listed cost of ships. A lifeboat carried onboard another vessel has an encumbrance of 5,000 cn (deducted from the ship’s capacity).</p>",
+    "details": {
+      "weight": "",
+      "size": "L",
+      "attacks": "1",
+      "int": 0,
+      "morale": null
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1d11+9",
+      "value": 20,
+      "max": 20
+    },
+    "movement": {
+      "turn": 90,
+      "max": null,
+      "round": 30,
+      "day": 18,
+      "run": null
+    },
+    "movement2": {
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 15000,
+      "mv": 0,
+      "mv2": 0
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 1000,
+    "capacity": "",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    },
+    "vehicleType": "vessel"
+  },
+  "prototypeToken": {
+    "name": "Lifeboat, Ship's",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/environment/settlement/ship.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    "8SBABRNcQRgmCbhV",
+    "F9MPYJFMoaKIuqeW"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "fU3hgb1wgYm4ZXw3",
+  "_originalKey": "!actors!fU3hgb1wgYm4ZXw3",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!fU3hgb1wgYm4ZXw3.8SBABRNcQRgmCbhV",
+      "name": "Protection",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": 9,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "8SBABRNcQRgmCbhV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!fU3hgb1wgYm4ZXw3.F9MPYJFMoaKIuqeW",
+      "folder": "CPCyDDZ2HnUOmFjA",
+      "name": "Crossbow, Lt",
+      "type": "weapon",
+      "_id": "F9MPYJFMoaKIuqeW",
+      "img": "icons/weapons/crossbows/crossbow-blue.webp",
+      "system": {
+        "tags": [
+          "special",
+          "slow"
+        ],
+        "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 5000,
+        "cost": 30,
+        "containerId": "",
+        "equipped": false,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Crossbow, Light",
+        "weaponType": "all",
+        "range": {
+          "short": 60,
+          "medium": 120,
+          "long": 180,
+          "min": 0
+        },
+        "container": false,
+        "equippable": false,
+        "ammoType": "quarrel",
+        "totalWeight": 0,
+        "totalCost": 0,
+        "fuelType": "",
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "grip": "2H",
+        "shortName": "",
+        "unidentifiedName": "",
+        "canSet": false,
+        "size": "M",
+        "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>This crossbow is a two-handed weapon; the wielder cannot use a shield and always loses individual initiative to characters using one-handed weapons. Halflings and small races, such as goblins, are unable to use this weapon.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": true,
+        "charges": 0,
+        "chargesMax": 0,
+        "weightEquipped": 5000,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageLabel": "1d6",
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "thac0": null,
+          "thbonus": null,
+          "crew": null,
+          "fullCrew": null,
+          "fireRate": null,
+          "ammoCostWk": null,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": false
+        }
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "sort": 1200000
+    }
+  ]
+}
