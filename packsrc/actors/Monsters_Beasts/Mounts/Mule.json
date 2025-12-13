@@ -1,7 +1,7 @@
 {
   "name": "Mule",
   "type": "monster",
-  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+  "img": "icons/environment/creatures/horse-brown.webp",
   "system": {
     "details": {
       "alignment": "Neutral",
@@ -12,8 +12,8 @@
       "abilityCount": 0,
       "monsterType": "Normal Animal",
       "saveAs": "F0",
-      "castAs": null,
-      "classAbilityAs": null,
+      "castAs": "",
+      "classAbilityAs": "",
       "level": 1,
       "rarity": "Common",
       "weight": ""
@@ -29,7 +29,7 @@
     },
     "treasure": "Nil",
     "thac0": {
-      "value": null,
+      "value": 18,
       "mod": {
         "missile": 0,
         "melee": 0
@@ -71,7 +71,7 @@
       "totalRangedAAC": 10,
       "av": "0"
     },
-    "thbonus": 0,
+    "thbonus": 1,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -178,7 +178,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+      "src": "icons/environment/creatures/horse-brown.webp",
       "scaleX": 0.9,
       "scaleY": 0.9,
       "rotation": 0,
@@ -287,7 +287,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 0,
+  "sort": 100000,
   "_originalKey": "!actors!FqG0R2jI1idSQnB5",
   "embedded": [
     {
@@ -296,7 +296,7 @@
       "type": "weapon",
       "system": {
         "tags": [],
-        "description": "A powerful kick dealing 1d4 damage.",
+        "description": "",
         "gm": {
           "notes": ""
         },
@@ -343,7 +343,7 @@
         "isSlow": false,
         "size": "null",
         "grip": "null",
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -355,7 +355,7 @@
         "damageLabel": "1d6",
         "attacks": {
           "used": 0,
-          "max": null,
+          "max": 1,
           "group": 0
         }
       },
@@ -379,7 +379,7 @@
       "type": "weapon",
       "system": {
         "tags": [],
-        "description": "A quick bite dealing 1d3 damage.",
+        "description": "",
         "gm": {
           "notes": ""
         },
@@ -392,13 +392,13 @@
         "natural": true,
         "damageRoll": "1d3",
         "damageType": "physical",
-        "breath": null,
+        "breath": "",
         "canMelee": true,
         "canRanged": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
+        "savingThrow": "",
+        "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -424,9 +424,9 @@
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": null,
-        "grip": null,
-        "charges": null,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -438,8 +438,8 @@
         "damageLabel": "1d6",
         "attacks": {
           "used": 0,
-          "max": null,
-          "group": 0
+          "max": 1,
+          "group": 1
         }
       },
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
@@ -642,11 +642,11 @@
     },
     {
       "_originalKey": "!actors.items!FqG0R2jI1idSQnB5.vkxpMxcNLPXtkIhh",
-      "name": "Hide Armor",
+      "name": "Hide",
       "type": "armor",
       "system": {
         "tags": [],
-        "description": "<p>The animals natural hide offers protection.</p>",
+        "description": "",
         "gm": {
           "notes": ""
         },
@@ -676,7 +676,7 @@
         "unidentifiedDesc": "",
         "isIdentified": true,
         "isCursed": false,
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "savingThrow": null,
         "healFormula": null,
@@ -686,7 +686,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "av": null,
+        "av": "",
         "modRanged": 0,
         "totalRangedAC": 9,
         "totalRangedAAC": 9

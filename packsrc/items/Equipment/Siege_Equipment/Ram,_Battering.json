@@ -1,0 +1,97 @@
+{
+  "folder": "2ePJmbEJ0hx4BwXv",
+  "name": "Ram, Battering",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-skull-ram.webp",
+  "_id": "VgiuEFNKSHqPj3KQ",
+  "system": {
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 3000,
+    "weightEquipped": 3000,
+    "cost": 100,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageRoll": "1d6+8",
+    "damageLabel": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "siege",
+    "ammoType": "",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "L",
+    "grip": "null",
+    "natural": true,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "fullCrew": 10,
+      "fireRate": 2,
+      "acplus": null,
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VgiuEFNKSHqPj3KQ"
+}

@@ -26,7 +26,7 @@
     "hp": {
       "hd": "3",
       "value": 13,
-      "max": 13
+      "max": null
     },
     "na": {
       "wandering": "0",
@@ -276,12 +276,12 @@
     "systemId": "fantastic-depths"
   },
   "_id": "we9qqWbG0h3fXmYX",
-  "sort": 0,
+  "sort": 600000,
   "_originalKey": "!actors!we9qqWbG0h3fXmYX",
   "embedded": [
     {
       "_originalKey": "!actors.items!we9qqWbG0h3fXmYX.GJo9hRu08IQdg85S",
-      "name": "Natural Protection",
+      "name": "Hide",
       "type": "armor",
       "system": {
         "description": "",
@@ -530,10 +530,10 @@
     },
     {
       "_originalKey": "!actors.items!we9qqWbG0h3fXmYX.ia5ZpAJE2P7foDys",
-      "name": "Hooves",
+      "name": "Hoof",
       "type": "weapon",
       "system": {
-        "description": "Muscular hooves capable of delivering swift, forceful strikes.",
+        "description": "",
         "quantity": 1,
         "equipped": true,
         "damageRoll": "1d6",
@@ -546,9 +546,9 @@
         "gm": {
           "notes": ""
         },
-        "charges": null,
+        "charges": 0,
         "quantityMax": 0,
-        "weight": 1,
+        "weight": 0,
         "cost": 0,
         "totalWeight": 0,
         "totalCost": 0,
@@ -562,20 +562,20 @@
         "unidentifiedDesc": "",
         "isIdentified": true,
         "isCursed": false,
-        "breath": null,
+        "breath": "",
         "canSet": false,
         "isSlow": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
+        "savingThrow": "",
+        "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
           "long": null
         },
-        "size": null,
-        "grip": null,
+        "size": "null",
+        "grip": "null",
         "mod": {
           "dmg": 0,
           "toHit": 0,

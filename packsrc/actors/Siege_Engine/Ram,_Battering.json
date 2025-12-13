@@ -1,0 +1,392 @@
+{
+  "folder": "5G1sCL6qdc4FmU39",
+  "name": "Ram, Battering",
+  "type": "vehicle",
+  "_id": "FCyMlIoldxkM4xms",
+  "img": "icons/weapons/maces/mace-skull-ram.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p><strong>Full crew:</strong> 10<br><strong>Fire rate:</strong> 1 per 2</p><p>See contained weapon description for further details.</p>",
+    "details": {
+      "weight": "",
+      "size": "L",
+      "attacks": "1/2",
+      "int": 0,
+      "morale": null
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "hp": {
+      "hd": "1d1*50",
+      "value": 50,
+      "max": 50
+    },
+    "movement": {
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
+    },
+    "movement2": {
+      "turn": null,
+      "max": null,
+      "round": null,
+      "day": null,
+      "run": null
+    },
+    "encumbrance": {
+      "value": 0,
+      "max": 0,
+      "mv": null,
+      "mv2": null
+    },
+    "acDigest": [],
+    "ac": {
+      "naked": 9,
+      "nakedRanged": 9,
+      "nakedAAC": 10,
+      "nakedRangedAAC": 10,
+      "value": 9,
+      "total": 9,
+      "totalRanged": 9,
+      "totalAAC": 10,
+      "totalRangedAAC": 10,
+      "av": "0",
+      "shield": 0,
+      "mod": 0
+    },
+    "actorGroups": [],
+    "cost": 100,
+    "capacity": "",
+    "config": {
+      "firstSpellLevel": 1,
+      "maxSpellLevel": 0
+    },
+    "thac0": {
+      "value": 19,
+      "mod": {
+        "missile": 0,
+        "melee": 0
+      }
+    },
+    "thbonus": 0,
+    "initiative": {
+      "value": 0
+    },
+    "languages": "",
+    "combat": {
+      "basicProficiency": true,
+      "attacks": 0,
+      "attAgainstH": 0,
+      "attAgainstM": 0,
+      "deathCount": 0,
+      "isDead": false,
+      "declaredAction": "moveOnly"
+    },
+    "mod": {
+      "ac": 0,
+      "rangedAc": 0,
+      "baseAc": 0,
+      "upgradeAc": null,
+      "upgradeRangedAc": null,
+      "initiative": 0,
+      "combat": {
+        "toHit": 0,
+        "dmg": null,
+        "dmgScale": 1,
+        "toHitRanged": 0,
+        "dmgRanged": null,
+        "selfDmg": 0,
+        "selfDmgRanged": 0,
+        "selfDmgBreath": 0,
+        "selfDmgBreathScale": 0,
+        "selfDmgMagic": 0,
+        "selfDmgFrost": 0,
+        "selfDmgFire": 0,
+        "selfToHit": 0,
+        "selfToHitRanged": 0
+      },
+      "save": {}
+    },
+    "vehicleType": "siege"
+  },
+  "prototypeToken": {
+    "name": "Ram, Battering",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": true,
+    "prependAdjective": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/weapons/maces/mace-skull-ram.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 10,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    "VgiuEFNKSHqPj3KQ",
+    "8SBABRNcQRgmCbhV"
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!actors!FCyMlIoldxkM4xms",
+  "embedded": [
+    {
+      "_originalKey": "!actors.items!FCyMlIoldxkM4xms.8SBABRNcQRgmCbhV",
+      "name": "Protection",
+      "type": "armor",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 0,
+        "weightEquipped": 1,
+        "cost": 0,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": false,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "ac": -4,
+        "isShield": false,
+        "av": "",
+        "armorWeight": "light",
+        "mod": 0,
+        "modRanged": 0,
+        "totalAC": 9,
+        "totalRangedAC": 9,
+        "totalAAC": 9,
+        "totalRangedAAC": 9,
+        "natural": true
+      },
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_id": "8SBABRNcQRgmCbhV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!FCyMlIoldxkM4xms.VgiuEFNKSHqPj3KQ",
+      "folder": "2ePJmbEJ0hx4BwXv",
+      "name": "Ram, Battering",
+      "type": "weapon",
+      "img": "icons/weapons/maces/mace-skull-ram.webp",
+      "_id": "VgiuEFNKSHqPj3KQ",
+      "system": {
+        "unidentifiedName": "",
+        "unidentifiedDesc": "",
+        "isIdentified": true,
+        "isCursed": false,
+        "shortName": "",
+        "tags": [],
+        "description": "<p>A battering ram is a large, heavy log or similar device mounted on wheels. The log is usually capped with metal. This end is repeatedly slammed against a target (such as a door or gate), using brute force to cause damage.</p><p>The standard battering ram is 10' long and needs a 10‑man crew to operate. For a longer ram, add one crewman per extra foot of length. A ram can be transported by fewer men than it takes to operate it.</p><p>The ram is commonly used by fastening it securely to stout chains attached to a wheeled gallery shed ceiling or belfry (see \"Miscellaneous Siege Equipment,\" below). The ram is then easily rolled up to and swung against the target. When a ram is used in this manner, only one man is needed for each 2' of the ram's length; a five‑man crew is sufficient for a 10' battering ram. The crew of a battering ram does not have to be trained in its use.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "charges": 0,
+        "chargesMax": 0,
+        "weight": 3000,
+        "weightEquipped": 3000,
+        "cost": 100,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "containerId": "",
+        "equipped": true,
+        "container": false,
+        "isOpen": false,
+        "equippable": false,
+        "fuelType": "",
+        "isDropped": false,
+        "isTreasure": false,
+        "specialAbilities": [],
+        "spells": [],
+        "conditions": [],
+        "damageRoll": "1d6+8",
+        "damageLabel": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "canSet": false,
+        "isSlow": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "siege",
+        "ammoType": "",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null,
+          "min": 0
+        },
+        "size": "L",
+        "grip": "null",
+        "natural": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0,
+          "rangeMultiplier": 1,
+          "vsGroup": {}
+        },
+        "attacks": {
+          "used": 0,
+          "max": null,
+          "group": 0
+        },
+        "siege": {
+          "fullCrew": 10,
+          "fireRate": 2,
+          "thac0": 19,
+          "crew": 10,
+          "thbonus": null,
+          "ammoCostWk": null,
+          "weightTowed": null,
+          "acplus": null,
+          "artillerist": false
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

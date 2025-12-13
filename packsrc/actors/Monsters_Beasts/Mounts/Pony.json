@@ -41,13 +41,13 @@
       }
     },
     "movement": {
-      "max": 210,
-      "turn": 210,
-      "round": 70,
-      "day": 42,
-      "run": 210
+      "max": 90,
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90
     },
-    "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open</p><p><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1</p>",
+    "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
       "max": 4000,
       "value": 0,
@@ -161,7 +161,7 @@
     "tags": [],
     "movement2": {
       "turn": 0,
-      "max": 0,
+      "max": 210,
       "round": 0,
       "day": 0,
       "run": 0
@@ -275,18 +275,18 @@
     "systemId": "fantastic-depths"
   },
   "_id": "eYuQLjP78z7C0xJ2",
-  "sort": 0,
+  "sort": 400000,
   "_originalKey": "!actors!eYuQLjP78z7C0xJ2",
   "embedded": [
     {
       "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.5fvuCpPEknIUWPuI",
-      "name": "Armor",
+      "name": "Hide",
       "type": "armor",
       "system": {
-        "description": "A compact, sturdy frame with a smooth coat offers modest natural defense.",
+        "description": "",
         "quantity": 1,
         "equipped": true,
-        "ac": 1,
+        "ac": 7,
         "isShield": false,
         "natural": true,
         "shortName": "",
@@ -294,7 +294,7 @@
         "gm": {
           "notes": ""
         },
-        "charges": null,
+        "charges": 0,
         "quantityMax": 0,
         "weight": 0,
         "cost": 0,
@@ -324,7 +324,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "av": null,
+        "av": "",
         "modRanged": 0,
         "totalRangedAC": 9,
         "totalRangedAAC": 9
@@ -345,10 +345,10 @@
     },
     {
       "_originalKey": "!actors.items!eYuQLjP78z7C0xJ2.DgyBle5vmCiX7GKM",
-      "name": "Hooves",
+      "name": "Hoof",
       "type": "weapon",
       "system": {
-        "description": "A quick kick delivered by the pony's nimble hooves.",
+        "description": "",
         "quantity": 1,
         "equipped": true,
         "damageRoll": "1d4",
@@ -361,9 +361,9 @@
         "gm": {
           "notes": ""
         },
-        "charges": null,
+        "charges": 0,
         "quantityMax": 0,
-        "weight": 1,
+        "weight": 0,
         "cost": 0,
         "totalWeight": 0,
         "totalCost": 0,
@@ -377,20 +377,20 @@
         "unidentifiedDesc": "",
         "isIdentified": true,
         "isCursed": false,
-        "breath": null,
+        "breath": "",
         "canSet": false,
         "isSlow": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
+        "savingThrow": "",
+        "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
           "long": null
         },
-        "size": null,
-        "grip": null,
+        "size": "null",
+        "grip": "null",
         "mod": {
           "dmg": 0,
           "toHit": 0,

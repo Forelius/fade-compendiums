@@ -14,34 +14,26 @@
       {
         "concatLogic": "none",
         "ability": "dex",
-        "minScore": 13,
         "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "minScore": 13
       },
       {
         "concatLogic": "and",
         "ability": "cha",
-        "minScore": 13,
         "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "minScore": 13
       },
       {
         "concatLogic": "none",
         "ability": "dex",
-        "minScore": 16,
         "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "minScore": 16
       },
       {
         "concatLogic": "and",
         "ability": "cha",
-        "minScore": 16,
         "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "minScore": 16
       }
     ],
     "levels": [
@@ -2261,7 +2253,8 @@
         "changes": ""
       }
     ],
-    "unskilledToHitMod": -3
+    "unskilledToHitMod": -3,
+    "castAsKey": ""
   },
   "effects": [],
   "folder": "oRrldFwTAwccXhIv",

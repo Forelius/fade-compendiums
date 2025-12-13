@@ -1,0 +1,97 @@
+{
+  "folder": "2ePJmbEJ0hx4BwXv",
+  "name": "Catapult, Light",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/catapult-simple.webp",
+  "_id": "wZ7dx6RK9wsq1ys9",
+  "system": {
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p><strong>Fire rate:</strong> 1 per 5</p><p>A catapult is a huge wooden “spoon” mounted in a wooden frame. Its lower end is fixed by twisted ropes, so that the tension on the ropes keeps the spoon portion nearly upright. When the spoon is pulled down, the ropes become taut. The spoon is secured in this position, loaded with shot, and released. The spoon snaps quickly upward until it hits a horizontal cross‑bar and stops; the shot continues on its way, following an arched trajectory. The range varies by the amount of tension on the ropes.</p><p>A trained artillerist knows the proper amounts of tension for various ranges of fire. Use of the catapult requires the presence of an artillerist. If you are using the General Skills rules from Chapter 5, anyone with the artillery skill can captain a catapult. Otherwise, the artillerist must be a hired NPC specialist.</p><p>There are two common types of catapults—light and heavy. Either may be mounted on a wheeled carriage for towing, but it must be firmly blocked in place when used. Light catapults may also be mounted on ships.</p><p>Catapults cannot be fired at moving targets. An exception is the ship‑mounted catapult, which is aimed by virtue of the ship steering in the correct direction; it can only be aimed at very large monsters and other ships.</p><p>If a catapult is operated by a trained crew, one of whom is an artillerist, it fires at the fighter experience level of the artillerist. (If the artillerist is not a fighter, use the equivalent fighting ability of his class; for example, a magic‑user of 1st‑5th level has the same attack roll as a fighter of 1st‑3rd level.) If operated by an untrained crew, or by a trained crew with no artillerist present, it fires as though it were a normal man with a ‑8 penalty to the attack roll.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 12000,
+    "weightEquipped": 12000,
+    "cost": 150,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageRoll": "1d8+8",
+    "damageLabel": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "canSet": false,
+    "isSlow": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "siege",
+    "ammoType": "ltcatapult",
+    "range": {
+      "short": 200,
+      "medium": 250,
+      "long": 300,
+      "min": 150
+    },
+    "size": "L",
+    "grip": "null",
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "fullCrew": 6,
+      "fireRate": 5,
+      "ammoCostWk": 4000,
+      "artillerist": true,
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "weightTowed": null,
+      "acplus": null
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!wZ7dx6RK9wsq1ys9"
+}

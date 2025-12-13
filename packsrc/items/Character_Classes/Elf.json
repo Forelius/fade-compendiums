@@ -7,35 +7,27 @@
     "primeReqs": [
       {
         "concatLogic": "none",
-        "ability": "str",
+        "ability": "int",
         "minScore": 13,
-        "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       },
       {
         "concatLogic": "and",
-        "ability": "int",
+        "ability": "str",
         "minScore": 13,
-        "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       },
       {
         "concatLogic": "none",
-        "ability": "str",
-        "minScore": 13,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "ability": "int",
+        "minScore": 16,
+        "percentage": 10
       },
       {
         "concatLogic": "and",
-        "ability": "int",
+        "ability": "str",
         "minScore": 16,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 10
       }
     ],
     "maxLevel": 20,
