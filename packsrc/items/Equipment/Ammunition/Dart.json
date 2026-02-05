@@ -1,0 +1,54 @@
+{
+  "folder": "u7s4NR16AZdcIm0l",
+  "name": "Dart",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
+  "_id": "MN8mfWCkVUD9fyl4",
+  "system": {
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "shortName": "",
+    "description": "<p>Small darts (or thorns) placed in the tube are blown toward a target; the darts themselves cause only a superficial scratch and no real damage. They're typically poisoned—if a dart hits, the target must make a saving throw vs. poison (size/level may modify the save) or suffer the poison's effects. Darts are ineffective against undead and poison-immune creatures; use of deadly poison may be illegal or disallowed by the DM.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "quantity": 5,
+    "quantityMax": 5,
+    "weight": 0.2,
+    "weightEquipped": 0.2,
+    "cost": 1,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "dart",
+    "isDropped": false,
+    "savingThrow": "death",
+    "healFormula": "",
+    "damageType": "poison",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!MN8mfWCkVUD9fyl4"
+}
