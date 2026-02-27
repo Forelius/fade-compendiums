@@ -1,8 +1,7 @@
 {
   "folder": "favTmZE4nPgpoSYx",
-  "name": "Dagger +1",
+  "name": "Dagger +2",
   "type": "weapon",
-  "_id": "Kx9PdtUp3tKhphl8",
   "img": "modules/fade-compendiums/assets/img/weapon/dagger.webp",
   "system": {
     "tags": [
@@ -33,7 +32,8 @@
     "range": {
       "short": 10,
       "medium": 20,
-      "long": 30
+      "long": 30,
+      "min": 0
     },
     "container": false,
     "equippable": false,
@@ -46,23 +46,44 @@
     "totalCost": 0,
     "fuelType": "",
     "ammoType": "",
-    "isAmmo": false,
     "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p>",
     "isCursed": false,
     "canSet": false,
     "isSlow": false,
     "mod": {
-      "dmg": 1,
-      "toHit": 1,
-      "dmgRanged": 1,
-      "toHitRanged": 1
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 2,
+      "toHitRanged": 2,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
     },
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "dmgFormula": null,
-    "healFormula": null,
-    "isUsable": false
+    "weightEquipped": 10,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
   "effects": [],
   "ownership": {
@@ -74,6 +95,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 1200000,
-  "_originalKey": "!items!Kx9PdtUp3tKhphl8"
+  "_id": "KDK9JiYn8nLFr9kA",
+  "sort": 0,
+  "_originalKey": "!items!KDK9JiYn8nLFr9kA"
 }

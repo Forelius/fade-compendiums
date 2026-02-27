@@ -1,6 +1,6 @@
 {
   "folder": "rFt6SAkE1DlWg4D8",
-  "name": "Plate Mail +1",
+  "name": "Plate Mail +2",
   "type": "armor",
   "img": "modules/fade-compendiums/assets/img/armor/platemail.webp",
   "system": {
@@ -18,7 +18,6 @@
     "natural": false,
     "ac": 3,
     "isShield": false,
-    "dmgFormula": null,
     "armorWeight": "heavy",
     "container": false,
     "equippable": false,
@@ -29,19 +28,23 @@
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",
-    "ammoType": "",
-    "isAmmo": false,
     "unidentifiedName": "Plate Mail",
     "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
     "isIdentified": false,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "savingThrow": null,
-    "healFormula": null,
-    "damageType": "",
-    "isUsable": false
+    "weightEquipped": 250,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
   },
   "effects": [
     "790O6NR72kYRF8IC"
@@ -55,13 +58,13 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "9iTljgIqFGGzOehD",
-  "sort": 800000,
-  "_originalKey": "!items!9iTljgIqFGGzOehD",
+  "_id": "oOTAh1FwCXUoTM3L",
+  "sort": 200000,
+  "_originalKey": "!items!oOTAh1FwCXUoTM3L",
   "embedded": [
     {
-      "_originalKey": "!items.effects!9iTljgIqFGGzOehD.790O6NR72kYRF8IC",
-      "name": "Armor+1",
+      "_originalKey": "!items.effects!oOTAh1FwCXUoTM3L.790O6NR72kYRF8IC",
+      "name": "Armor+2",
       "img": "icons/svg/aura.svg",
       "origin": "Item.9iTljgIqFGGzOehD",
       "duration": {
@@ -81,7 +84,7 @@
         {
           "key": "system.mod",
           "mode": 2,
-          "value": "1",
+          "value": "2",
           "priority": null
         }
       ],

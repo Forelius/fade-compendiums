@@ -1,24 +1,23 @@
 {
   "folder": "rFt6SAkE1DlWg4D8",
-  "name": "Scale Mail +1",
+  "name": "Banded Mail +2",
   "type": "armor",
-  "img": "modules/fade-compendiums/assets/img/armor/scalemail.webp",
+  "img": "modules/fade-compendiums/assets/img/armor/bandedmail.webp",
   "system": {
     "tags": [],
-    "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "weight": 150,
-    "cost": 30,
+    "weight": 225,
+    "cost": 50,
     "containerId": "",
     "equipped": true,
     "natural": false,
-    "ac": 6,
+    "ac": 4,
     "isShield": false,
-    "dmgFormula": null,
     "armorWeight": "heavy",
     "container": false,
     "equippable": false,
@@ -29,22 +28,26 @@
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",
-    "ammoType": "",
-    "isAmmo": false,
-    "unidentifiedName": "Scale Mail",
-    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+    "unidentifiedName": "Banded Mail",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
     "isIdentified": false,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "savingThrow": null,
-    "healFormula": null,
-    "damageType": "",
-    "isUsable": false
+    "weightEquipped": 225,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
   },
   "effects": [
-    "mIr7YxyB8stv9et5"
+    "cnJO6tFeW3f0HSfJ"
   ],
   "ownership": {
     "default": 0,
@@ -55,15 +58,15 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "NTFfNqAFFyzFu3Zv",
-  "sort": 900000,
-  "_originalKey": "!items!NTFfNqAFFyzFu3Zv",
+  "_id": "U1BP3x2szJALl6Qz",
+  "sort": 400000,
+  "_originalKey": "!items!U1BP3x2szJALl6Qz",
   "embedded": [
     {
-      "_originalKey": "!items.effects!NTFfNqAFFyzFu3Zv.mIr7YxyB8stv9et5",
-      "name": "Armor+1",
+      "_originalKey": "!items.effects!U1BP3x2szJALl6Qz.cnJO6tFeW3f0HSfJ",
+      "name": "Armor+2",
       "img": "icons/svg/aura.svg",
-      "origin": "Item.NTFfNqAFFyzFu3Zv",
+      "origin": "Item.vpFkh2sAmusPuHDk",
       "duration": {
         "rounds": null,
         "startTime": null,
@@ -74,14 +77,14 @@
         "startTurn": null
       },
       "disabled": false,
-      "_id": "mIr7YxyB8stv9et5",
+      "_id": "cnJO6tFeW3f0HSfJ",
       "type": "base",
       "system": {},
       "changes": [
         {
           "key": "system.mod",
           "mode": 2,
-          "value": "1",
+          "value": "2",
           "priority": null
         }
       ],

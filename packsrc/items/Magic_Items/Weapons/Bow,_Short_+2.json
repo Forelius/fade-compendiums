@@ -1,6 +1,6 @@
 {
   "folder": "favTmZE4nPgpoSYx",
-  "name": "Bow, Short +1",
+  "name": "Bow, Short +2",
   "type": "weapon",
   "img": "icons/weapons/bows/shortbow-leather.webp",
   "system": {
@@ -30,7 +30,8 @@
     "range": {
       "short": 50,
       "medium": 100,
-      "long": 150
+      "long": 150,
+      "min": 0
     },
     "container": false,
     "equippable": false,
@@ -38,12 +39,13 @@
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",
-    "isAmmo": false,
     "mod": {
       "dmg": 0,
       "toHit": 0,
-      "dmgRanged": 1,
-      "toHitRanged": 1
+      "dmgRanged": 2,
+      "toHitRanged": 2,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
     },
     "grip": "2H",
     "shortName": "",
@@ -56,10 +58,30 @@
     "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "dmgFormula": null,
-    "healFormula": null,
-    "isUsable": false
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
   "effects": [],
   "ownership": {
@@ -71,7 +93,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "ujLoSnk9YB7KtlRJ",
-  "sort": 2400000,
-  "_originalKey": "!items!ujLoSnk9YB7KtlRJ"
+  "_id": "Wp6bgX3pfw7JjOsy",
+  "sort": 0,
+  "_originalKey": "!items!Wp6bgX3pfw7JjOsy"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "favTmZE4nPgpoSYx",
-  "name": "Sword, Two-Handed +1",
+  "name": "Sword, Two-Handed +2",
   "type": "weapon",
   "img": "icons/weapons/swords/greatsword-crossguard-barbed.webp",
   "system": {
@@ -30,7 +30,8 @@
     "range": {
       "short": null,
       "medium": null,
-      "long": null
+      "long": null,
+      "min": 0
     },
     "container": false,
     "equippable": false,
@@ -38,12 +39,13 @@
     "totalCost": 0,
     "fuelType": "",
     "ammoType": "",
-    "isAmmo": false,
     "mod": {
-      "dmg": 1,
-      "toHit": 1,
+      "dmg": 2,
+      "toHit": 2,
       "dmgRanged": 0,
-      "toHitRanged": 0
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
     },
     "size": "L",
     "grip": "2H",
@@ -56,10 +58,30 @@
     "isSlow": true,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "dmgFormula": null,
-    "healFormula": null,
-    "isUsable": false
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
   "effects": [],
   "ownership": {
@@ -71,7 +93,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "4Avt5OIsgPFfAALk",
-  "sort": 200000,
-  "_originalKey": "!items!4Avt5OIsgPFfAALk"
+  "_id": "qnYxMGYAg6qgbIF1",
+  "sort": 0,
+  "_originalKey": "!items!qnYxMGYAg6qgbIF1"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "favTmZE4nPgpoSYx",
-  "name": "Javelin +1",
+  "name": "Javelin +2",
   "type": "weapon",
   "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
   "system": {
@@ -30,7 +30,8 @@
     "range": {
       "short": 30,
       "medium": 60,
-      "long": 90
+      "long": 90,
+      "min": 0
     },
     "container": false,
     "equippable": false,
@@ -38,12 +39,13 @@
     "totalCost": 0,
     "fuelType": "",
     "ammoType": "",
-    "isAmmo": false,
     "mod": {
-      "dmg": 1,
-      "toHit": 1,
-      "dmgRanged": 1,
-      "toHitRanged": 1
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 2,
+      "toHitRanged": 2,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
     },
     "grip": "1H",
     "shortName": "",
@@ -56,10 +58,30 @@
     "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "dmgFormula": null,
-    "healFormula": null,
-    "isUsable": false
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
   "effects": [],
   "ownership": {
@@ -71,7 +93,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "tey8URAGAh0XjWIv",
-  "sort": 2300000,
-  "_originalKey": "!items!tey8URAGAh0XjWIv"
+  "_id": "wQ5bJsozQzF6rGev",
+  "sort": 0,
+  "_originalKey": "!items!wQ5bJsozQzF6rGev"
 }

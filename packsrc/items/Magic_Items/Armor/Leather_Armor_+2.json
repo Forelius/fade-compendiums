@@ -1,6 +1,6 @@
 {
   "folder": "rFt6SAkE1DlWg4D8",
-  "name": "Leather Armor +1",
+  "name": "Leather Armor +2",
   "type": "armor",
   "img": "modules/fade-compendiums/assets/img/armor/leather.webp",
   "system": {
@@ -25,23 +25,26 @@
     "container": false,
     "equippable": false,
     "fuelType": "",
-    "ammoType": "",
-    "isAmmo": false,
     "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Non-magical leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
     "isIdentified": false,
     "isCursed": false,
-    "dmgFormula": null,
     "armorWeight": "light",
     "mod": 0,
     "totalAC": 9,
     "totalAAC": 9,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "savingThrow": null,
-    "healFormula": null,
-    "damageType": "",
-    "isUsable": false
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
   },
   "effects": [
     "GScqQb7t782IgoZN"
@@ -55,13 +58,13 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "cn8r8ahxrpcuHAyn",
-  "sort": 1100000,
-  "_originalKey": "!items!cn8r8ahxrpcuHAyn",
+  "_id": "VJ7wlmEHCHumIREV",
+  "sort": 100000,
+  "_originalKey": "!items!VJ7wlmEHCHumIREV",
   "embedded": [
     {
-      "_originalKey": "!items.effects!cn8r8ahxrpcuHAyn.GScqQb7t782IgoZN",
-      "name": "Armor+1",
+      "_originalKey": "!items.effects!VJ7wlmEHCHumIREV.GScqQb7t782IgoZN",
+      "name": "Armor+2",
       "img": "icons/svg/aura.svg",
       "origin": "Item.cn8r8ahxrpcuHAyn",
       "duration": {
@@ -81,7 +84,7 @@
         {
           "key": "system.mod",
           "mode": 2,
-          "value": "1",
+          "value": "2",
           "priority": null
         }
       ],

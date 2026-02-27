@@ -1,6 +1,6 @@
 {
   "folder": "favTmZE4nPgpoSYx",
-  "name": "Hammer, War +1",
+  "name": "Hammer, War +2",
   "type": "weapon",
   "img": "modules/fade-compendiums/assets/img/weapon/warhammer.webp",
   "system": {
@@ -30,7 +30,8 @@
     "range": {
       "short": null,
       "medium": null,
-      "long": null
+      "long": null,
+      "min": 0
     },
     "container": false,
     "equippable": false,
@@ -38,12 +39,13 @@
     "totalCost": 0,
     "fuelType": "",
     "ammoType": "",
-    "isAmmo": false,
     "mod": {
-      "dmg": 1,
-      "toHit": 1,
+      "dmg": 2,
+      "toHit": 2,
       "dmgRanged": 0,
-      "toHitRanged": 0
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
     },
     "grip": "1H",
     "shortName": "",
@@ -56,10 +58,30 @@
     "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
-    "isCarried": true,
-    "dmgFormula": null,
-    "healFormula": null,
-    "isUsable": false
+    "weightEquipped": 50,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
   "effects": [],
   "ownership": {
@@ -71,7 +93,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "4opCPgoH5n7ku6n7",
-  "sort": 300000,
-  "_originalKey": "!items!4opCPgoH5n7ku6n7"
+  "_id": "CSTr7yXcDE4pd1LK",
+  "sort": 0,
+  "_originalKey": "!items!CSTr7yXcDE4pd1LK"
 }
