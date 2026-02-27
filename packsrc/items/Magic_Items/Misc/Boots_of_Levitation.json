@@ -1,0 +1,58 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Boots of Levitation",
+  "type": "item",
+  "img": "icons/equipment/feet/boots-collared-green.webp",
+  "_id": "34iqf0fH6Fg097bC",
+  "system": {
+    "unidentifiedName": "Odd Boots",
+    "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>The wearer may levitate (as if using the magic-user spell). There is no limit to the duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": null,
+    "chargesMax": null,
+    "weight": 1,
+    "weightEquipped": 0,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.VpGt1JKRTMc4iLhN",
+        "action": "cast",
+        "castAs": "M6",
+        "name": "Levitate"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!34iqf0fH6Fg097bC"
+}

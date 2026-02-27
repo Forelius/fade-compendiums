@@ -1,0 +1,103 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Banded Mail +2",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/bandedmail.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4, but this armor provides an additional bonus. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 225,
+    "cost": 50,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 4,
+    "isShield": false,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "Banded Mail",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of chain mail with horizontal metal strips fastened into the mail. Banded mail gives a character an armor class of 4. It doesn’t quite have the protection of plate mail, but is cheaper and lighter.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 225,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
+  },
+  "effects": [
+    "cnJO6tFeW3f0HSfJ"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "U1BP3x2szJALl6Qz",
+  "sort": 400000,
+  "_originalKey": "!items!U1BP3x2szJALl6Qz",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!U1BP3x2szJALl6Qz.cnJO6tFeW3f0HSfJ",
+      "name": "Armor+2",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.vpFkh2sAmusPuHDk",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "cnJO6tFeW3f0HSfJ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

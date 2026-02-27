@@ -137,11 +137,11 @@
       "run": 180
     },
     "movement2": {
-      "turn": null,
-      "max": null,
-      "round": null,
-      "day": null,
-      "run": null
+      "turn": 0,
+      "max": 0,
+      "round": 0,
+      "day": 0,
+      "run": 0
     },
     "encumbrance": {
       "value": 0,
@@ -256,11 +256,11 @@
   "items": [
     "eU7nowUn81L1Xr9Q",
     "Op3W72h1rmzEc83l",
-    "DyDXpf2paHD5wald",
-    "B79fx0nDdnksLKrn",
-    "GaDljhmdnhXXIPLh",
-    "jHDFYAWfee6cPlzm",
-    "4WKSK1Po2PX1DucM"
+    "JeTRRhQ0ssav2q5k",
+    "mFZwIg6bPDYgejhB",
+    "MUhzQH6k855lepSp",
+    "9tOkDdFjrA2ZNzpD",
+    "Gi9RmHg5JrJw5DgQ"
   ],
   "effects": [],
   "sort": 300000,
@@ -277,12 +277,58 @@
   "_originalKey": "!actors!PKRKEirB2MKZqRXd",
   "embedded": [
     {
-      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.4WKSK1Po2PX1DucM",
+      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.9tOkDdFjrA2ZNzpD",
+      "folder": "OR1oqiLvw7LWXY42",
+      "name": "Magic Wand",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "_id": "9tOkDdFjrA2ZNzpD",
+      "system": {
+        "tags": [],
+        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "shortName": "Wand",
+        "classKey": null,
+        "showResult": true,
+        "conditions": []
+      },
+      "effects": [],
+      "ownership": {
+        "default": 0,
+        "0eyrbleKg5gmY59g": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "sort": 0
+    },
+    {
+      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.Gi9RmHg5JrJw5DgQ",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Death Ray or Poison",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "4WKSK1Po2PX1DucM",
+      "_id": "Gi9RmHg5JrJw5DgQ",
       "system": {
         "tags": [],
         "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
@@ -323,58 +369,12 @@
       "sort": 0
     },
     {
-      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.B79fx0nDdnksLKrn",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Turn to Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "B79fx0nDdnksLKrn",
-      "system": {
-        "shortName": "Stone",
-        "tags": [],
-        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "15",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": null,
-        "showResult": true,
-        "conditions": []
-      },
-      "effects": [],
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "sort": 0
-    },
-    {
-      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.DyDXpf2paHD5wald",
+      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.JeTRRhQ0ssav2q5k",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Dragon Breath",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "DyDXpf2paHD5wald",
+      "_id": "JeTRRhQ0ssav2q5k",
       "system": {
         "shortName": "Breath",
         "tags": [],
@@ -415,12 +415,12 @@
       "sort": 0
     },
     {
-      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.GaDljhmdnhXXIPLh",
+      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.MUhzQH6k855lepSp",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Spells or Magic Staff",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "GaDljhmdnhXXIPLh",
+      "_id": "MUhzQH6k855lepSp",
       "system": {
         "shortName": "Spell",
         "tags": [],
@@ -611,15 +611,16 @@
       }
     },
     {
-      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.jHDFYAWfee6cPlzm",
+      "_originalKey": "!actors.items!PKRKEirB2MKZqRXd.mFZwIg6bPDYgejhB",
       "folder": "OR1oqiLvw7LWXY42",
-      "name": "Magic Wand",
+      "name": "Turn to Stone or Paralysis",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "jHDFYAWfee6cPlzm",
+      "_id": "mFZwIg6bPDYgejhB",
       "system": {
+        "shortName": "Stone",
         "tags": [],
-        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
+        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
         "gm": {
           "notes": ""
         },
@@ -638,8 +639,7 @@
         "damageType": "",
         "category": "save",
         "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "shortName": "Wand",
+        "customSaveCode": "paralysis",
         "classKey": null,
         "showResult": true,
         "conditions": []

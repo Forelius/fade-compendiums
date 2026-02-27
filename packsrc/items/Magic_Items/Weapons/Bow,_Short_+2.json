@@ -1,0 +1,99 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Bow, Short +2",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-leather.webp",
+  "system": {
+    "tags": [
+      "slow"
+    ],
+    "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": 25,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Bow, Short",
+    "weaponType": "monster",
+    "range": {
+      "short": 50,
+      "medium": 100,
+      "long": 150,
+      "min": 0
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "arrow",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 2,
+      "toHitRanged": 2,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Bow, Short",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Wp6bgX3pfw7JjOsy",
+  "sort": 0,
+  "_originalKey": "!items!Wp6bgX3pfw7JjOsy"
+}
