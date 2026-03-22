@@ -33,7 +33,6 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.0t5sKTByl1latF5X",
-      "text": "+5 Magical Bonus ([[1d4+1]] missiles)",
       "range": [
         95,
         100
@@ -43,16 +42,16 @@
       "drawn": false,
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "0t5sKTByl1latF5X",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "+5 Magical Bonus ([[1d4+1]] missiles)"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.44eo5QS9InrphUB1",
-      "text": "+3 Magical Bonus ([[2d6]] missiles)",
       "range": [
         68,
         84
@@ -62,36 +61,37 @@
       "drawn": false,
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "44eo5QS9InrphUB1",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "+3 Magical Bonus ([[2d6]] missiles)"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.6Bt5S7IWBjz9SmOR",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         41,
         67
       ],
       "drawn": false,
-      "text": "Missile Talent 25%",
-      "documentId": "LjIozqVXiKO1xVIs",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "6Bt5S7IWBjz9SmOR",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile Talent 25%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.LjIozqVXiKO1xVIs",
+      "description": "",
+      "text": "Missile Talent 25%"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.HmmLZf9VdMerHkO7",
-      "text": "+4 Magical Bonus ([[2d4]] missiles)",
       "range": [
         85,
         94
@@ -101,16 +101,16 @@
       "drawn": false,
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "HmmLZf9VdMerHkO7",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "+4 Magical Bonus ([[2d4]] missiles)"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.PZkaQK50EhD8FHmQ",
-      "text": "+2 Magical Bonus ([[2d8]] missiles)",
       "range": [
         41,
         67
@@ -120,36 +120,37 @@
       "drawn": false,
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "PZkaQK50EhD8FHmQ",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "+2 Magical Bonus ([[2d8]] missiles)"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.X5OmIvH1czkdGhhj",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         85,
         94
       ],
       "drawn": false,
-      "text": "Missile Talent 15%",
-      "documentId": "DX32zXNLPvNs26Ej",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "X5OmIvH1czkdGhhj",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile Talent 15%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DX32zXNLPvNs26Ej",
+      "description": "",
+      "text": "Missile Talent 15%"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.ZMrZlD6vkoGc59GB",
-      "text": "+1 Magical Bonus ([[2d10]] missiles)",
       "range": [
         1,
         40
@@ -159,72 +160,76 @@
       "drawn": false,
       "img": "icons/weapons/ammunition/arrows-war-red.webp",
       "_id": "ZMrZlD6vkoGc59GB",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "+1 Magical Bonus ([[2d10]] missiles)"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.kvBpvvDrneVWLDh4",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         68,
         84
       ],
       "drawn": false,
-      "text": "Missile Talent 20%",
-      "documentId": "kUkyQlcKjAxllEgv",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "kvBpvvDrneVWLDh4",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile Talent 20%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.kUkyQlcKjAxllEgv",
+      "description": "",
+      "text": "Missile Talent 20%"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.qyWb5SOplpovE9UE",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         95,
         100
       ],
       "drawn": false,
-      "text": "Missile Talent 10%",
-      "documentId": "7RyxVH8UTVFwDrtp",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "qyWb5SOplpovE9UE",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile Talent 10%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.7RyxVH8UTVFwDrtp",
+      "description": "",
+      "text": "Missile Talent 10%"
     },
     {
       "_originalKey": "!tables.results!jFYR8Y84PdhxKR2S.vLjerIJ8t3MgPH54",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         1,
         40
       ],
       "drawn": false,
-      "text": "Missile Talent 30%",
-      "documentId": "Xvr6mjwjFqKsR23a",
       "img": "icons/weapons/ammunition/arrow-broadhead-bent-teal.webp",
       "_id": "vLjerIJ8t3MgPH54",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile Talent 30%",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Xvr6mjwjFqKsR23a",
+      "description": "",
+      "text": "Missile Talent 30%"
     }
   ]
 }

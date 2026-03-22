@@ -58,7 +58,6 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.1RdzeMabzpJInmg8",
-      "text": "Ring of Holiness (Cleric, Druid)",
       "range": [
         24,
         26
@@ -68,16 +67,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "1RdzeMabzpJInmg8",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Holiness (Cleric, Druid)"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.1TiOYpD5T6nETaFH",
-      "text": "Ring of Elemental Adaptation",
       "range": [
         14,
         17
@@ -87,16 +86,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "1TiOYpD5T6nETaFH",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Elemental Adaptation"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.3Euiv4yp8GagW9l9",
-      "text": "Ring of Water Walking",
       "range": [
         87,
         91
@@ -106,16 +105,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "3Euiv4yp8GagW9l9",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Water Walking"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.3i5O1fFpDI4DX5vq",
-      "text": "Ring of Survival",
       "range": [
         72,
         75
@@ -125,16 +124,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "3i5O1fFpDI4DX5vq",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Survival"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.3xsoG7BWwtfOX8Ff",
-      "text": "Ring of Weakness",
       "range": [
         92,
         96
@@ -144,16 +143,17 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "3xsoG7BWwtfOX8Ff",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Weakness"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.8AXQZgBxwmYUtTAk",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         14,
@@ -161,19 +161,19 @@
       ],
       "drawn": false,
       "_id": "8AXQZgBxwmYUtTAk",
-      "text": "Elemental Adaptation Ring",
       "img": "icons/equipment/finger/ring-signet-tech.webp",
-      "documentId": "Hd1Qt9kWXgt5XLCx",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Elemental Adaptation Ring",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Hd1Qt9kWXgt5XLCx",
+      "description": "",
+      "text": "Elemental Adaptation Ring"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.9T7hUczQTVO0uHVI",
-      "text": "Ring of Invisibility",
       "range": [
         28,
         32
@@ -183,16 +183,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "9T7hUczQTVO0uHVI",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Invisibility"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.DKhp0M9VLvvELfZv",
-      "text": "Ring of Truthlessness",
       "range": [
         85,
         86
@@ -202,16 +202,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "DKhp0M9VLvvELfZv",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Truthlessness"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.E2ez9XQqfpboPnLa",
-      "text": "Ring of Human Control",
       "range": [
         27,
         27
@@ -221,16 +221,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "E2ez9XQqfpboPnLa",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Human Control"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.HGmWEFLcLZt5fgPQ",
-      "text": "Ring of Fire Resistance",
       "range": [
         18,
         23
@@ -240,16 +240,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "HGmWEFLcLZt5fgPQ",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Fire Resistance"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.IcwMEtGaeVP6dyHk",
-      "text": "Ring of Quickness",
       "range": [
         52,
         55
@@ -259,16 +259,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "IcwMEtGaeVP6dyHk",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Quickness"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.IpAk97ak8Re7PG3U",
-      "text": "Ring of Spell Storing",
       "range": [
         68,
         69
@@ -278,16 +278,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "IpAk97ak8Re7PG3U",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Spell Storing"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.JpvSLqTGABG0dTSU",
-      "text": "Ring of Truth",
       "range": [
         78,
         81
@@ -297,16 +297,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "JpvSLqTGABG0dTSU",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Truth"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.Mf93By5vC7a8m2vL",
-      "text": "Ring of Regeneration",
       "range": [
         56,
         56
@@ -316,16 +316,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "Mf93By5vC7a8m2vL",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Regeneration"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.QU4diTd5mYhdfK44",
-      "text": "Ring of Truthfulness",
       "range": [
         82,
         84
@@ -335,16 +335,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "QU4diTd5mYhdfK44",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Truthfulness"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.R1oX2TqeTqrwWE2z",
-      "text": "Ring of Protection +2",
       "range": [
         46,
         48
@@ -354,16 +354,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "R1oX2TqeTqrwWE2z",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Protection +2"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.SYFinQJlGItInkON",
-      "text": "Ring of Protection +1",
       "range": [
         41,
         45
@@ -373,16 +373,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "SYFinQJlGItInkON",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Protection +1"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.UeTTQFhoshbITLHD",
-      "text": "Ring of Telekinesis",
       "range": [
         76,
         77
@@ -392,16 +392,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "UeTTQFhoshbITLHD",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Telekinesis"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.Uj4X8m8nmCoiL1HU",
-      "text": "Ring of Plant Control",
       "range": [
         39,
         40
@@ -411,16 +411,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "Uj4X8m8nmCoiL1HU",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Plant Control"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.WfLA7eIYnMXzWN3B",
-      "text": "Ring of Djinni Summoning",
       "range": [
         9,
         9
@@ -430,16 +430,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "WfLA7eIYnMXzWN3B",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Djinni Summoning"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.WwoJ4C34PoPq4gQm",
-      "text": "Ring of Animal Control",
       "range": [
         1,
         2
@@ -449,16 +449,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "WwoJ4C34PoPq4gQm",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Animal Control"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.YT5yEV6CYHb6yRHo",
-      "text": "Ring of Seeing",
       "range": [
         62,
         64
@@ -468,16 +468,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "YT5yEV6CYHb6yRHo",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Seeing"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.a1wMGvnkP2zQ8wMI",
-      "text": "Ring of Memory (Special)",
       "range": [
         36,
         38
@@ -487,16 +487,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "a1wMGvnkP2zQ8wMI",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Memory (Special)"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.c9JBBitK4hPAvLMh",
-      "text": "Ring of Delusion",
       "range": [
         3,
         8
@@ -506,16 +506,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "c9JBBitK4hPAvLMh",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Delusion"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.d0kWPZviDhyOJYNR",
-      "text": "Ring of Protection +3",
       "range": [
         49,
         50
@@ -525,17 +525,17 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "d0kWPZviDhyOJYNR",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Protection +3"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.gn3m7K6TFd6kEF3t",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         97,
@@ -543,18 +543,19 @@
       ],
       "drawn": false,
       "_id": "gn3m7K6TFd6kEF3t",
-      "text": "Wishes Ring",
       "img": "icons/equipment/finger/ring-band-studded-gold-blue.webp",
-      "documentId": "ejDdE0YQv58PopY9",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Wishes Ring",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ejDdE0YQv58PopY9",
+      "description": "",
+      "text": "Wishes Ring"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.h7ZBepWyqms27wWy",
-      "text": "Ring of X-ray Vision",
       "range": [
         99,
         100
@@ -564,16 +565,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "h7ZBepWyqms27wWy",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of X-ray Vision"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.hWz2zWiPCGGhvqLV",
-      "text": "Ring of Ear",
       "range": [
         10,
         13
@@ -583,16 +584,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "hWz2zWiPCGGhvqLV",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Ear"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.i77pt4vjKy7X9qFe",
-      "text": "Ring of Protection +4",
       "range": [
         51,
         51
@@ -602,16 +603,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "i77pt4vjKy7X9qFe",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Protection +4"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.rQqErKDFD1kRJOGl",
-      "text": "Ring of Wishes",
       "range": [
         97,
         98
@@ -621,16 +622,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "rQqErKDFD1kRJOGl",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Wishes"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.unrVD7RqeUEkeJQf",
-      "text": "Ring of Spell Eating",
       "range": [
         65,
         67
@@ -640,16 +641,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "unrVD7RqeUEkeJQf",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Spell Eating"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.xXe8Qa3RuZ1KMBDP",
-      "text": "Ring of Life Protection",
       "range": [
         33,
         35
@@ -659,16 +660,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "xXe8Qa3RuZ1KMBDP",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Life Protection"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.xsHFBAhS4N03queG",
-      "text": "Ring of Spell Turning",
       "range": [
         70,
         71
@@ -678,16 +679,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "xsHFBAhS4N03queG",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Spell Turning"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.z0DJiytBMFjmG2Di",
-      "text": "Ring of Remedies",
       "range": [
         57,
         59
@@ -697,16 +698,16 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "z0DJiytBMFjmG2Di",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Remedies"
     },
     {
       "_originalKey": "!tables.results!3eunvWJn4eieoI28.zAAXYItcxYfnT7kH",
-      "text": "Ring of Safety",
       "range": [
         60,
         61
@@ -716,12 +717,13 @@
       "drawn": false,
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "_id": "zAAXYItcxYfnT7kH",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ring of Safety"
     }
   ]
 }
