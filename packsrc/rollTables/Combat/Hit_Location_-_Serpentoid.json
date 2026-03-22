@@ -15,13 +15,7 @@
     "0eyrbleKg5gmY59g": 3
   },
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "dandd-1e",
-      "system": "gs-fantastic-depths",
-      "coreVersion": "11.315",
-      "systemVersion": "1.11.5"
-    }
+    "core": {}
   },
   "_stats": {
     "coreVersion": "12.343",
@@ -41,14 +35,14 @@
       ],
       "drawn": false,
       "_id": "cftzXnCUF44ld2ex",
-      "text": "Body",
-      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Body"
     },
     {
       "_originalKey": "!tables.results!Z8J8ie81BkaUUNSV.yCZxm0wTGFvjiNQs",
@@ -60,14 +54,14 @@
       ],
       "drawn": false,
       "_id": "yCZxm0wTGFvjiNQs",
-      "text": "Head",
-      "documentId": null,
       "flags": {},
       "img": "icons/svg/d20-black.svg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Head"
     }
   ]
 }

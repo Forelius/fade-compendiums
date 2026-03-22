@@ -74,8 +74,7 @@
   "embedded": [
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.0I0aDvvFQTTnv4Vg",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         72,
@@ -83,18 +82,19 @@
       ],
       "drawn": false,
       "_id": "0I0aDvvFQTTnv4Vg",
-      "text": "Ointment Type",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "VLUqDOawBaSy5n08",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Ointment Type",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.VLUqDOawBaSy5n08",
+      "description": "",
+      "text": "Ointment Type"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.0om4mXldMMljxkWz",
-      "text": "Boots of Levitation",
       "range": [
         13,
         14
@@ -104,16 +104,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "0om4mXldMMljxkWz",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Boots of Levitation"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.1uXa5gUr4KZjasie",
-      "text": "Broom of Flying",
       "range": [
         22,
         23
@@ -123,16 +123,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "1uXa5gUr4KZjasie",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Broom of Flying"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.2JVnqNcUByjMA3rh",
-      "text": "Ointment",
       "range": [
         72,
         76
@@ -142,16 +142,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "2JVnqNcUByjMA3rh",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Ointment"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.2SE8mfRzsX4RGOjG",
-      "text": "Helm of Telepathy",
       "range": [
         52,
         52
@@ -161,16 +161,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "2SE8mfRzsX4RGOjG",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Helm of Telepathy"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.30O0RavFNhEYdjQy",
-      "text": "Lamp, Hurricane",
       "range": [
         55,
         56
@@ -180,16 +180,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "30O0RavFNhEYdjQy",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Lamp, Hurricane"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.3XK1QfdavOlQT2n7",
-      "text": "Lamp of Long Burning",
       "range": [
         57,
         59
@@ -199,16 +199,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "3XK1QfdavOlQT2n7",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Lamp of Long Burning"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.459YHFXttGWu2tUo",
-      "text": "Bowl of Commanding Water Elementals",
       "range": [
         20,
         20
@@ -218,16 +218,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "459YHFXttGWu2tUo",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Bowl of Commanding Water Elementals"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.4MP8JJwuso9vOE40",
-      "text": "Crystal Ball (E, M)",
       "range": [
         28,
         29
@@ -237,16 +237,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "4MP8JJwuso9vOE40",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Crystal Ball (E, M)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.6VXDyM1fTXkI1gk0",
-      "text": "Boots of Traveling/Leaping",
       "range": [
         18,
         19
@@ -256,17 +256,17 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "6VXDyM1fTXkI1gk0",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Boots of Traveling/Leaping"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.97Zq6ZWYANkCwjAB",
-      "type": "pack",
-      "documentCollection": "fade-compendiums.roll-table-compendium",
+      "type": "document",
       "weight": 1,
       "range": [
         93,
@@ -274,18 +274,19 @@
       ],
       "drawn": false,
       "_id": "97Zq6ZWYANkCwjAB",
-      "text": "Talisman of Elemental Travel",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "shPaghOgNqHhPdKH",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Talisman of Elemental Travel",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.shPaghOgNqHhPdKH",
+      "description": "",
+      "text": "Talisman of Elemental Travel"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.AA6m4hZY1E8szXEp",
-      "text": "Bag of Devouring",
       "range": [
         3,
         4
@@ -295,16 +296,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "AA6m4hZY1E8szXEp",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Bag of Devouring"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.ATDstLhnFlyh4Xd0",
-      "text": "Egg of Wonder",
       "range": [
         36,
         38
@@ -314,16 +315,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "ATDstLhnFlyh4Xd0",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Egg of Wonder"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.BaUaYR6njPMJqk57",
-      "text": "Flying Carpet",
       "range": [
         43,
         43
@@ -333,16 +334,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "BaUaYR6njPMJqk57",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Flying Carpet"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.DWR8sHuvpHSuUemj",
-      "text": "Stone of Controlling Earth Elementals",
       "range": [
         92,
         92
@@ -352,16 +353,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "DWR8sHuvpHSuUemj",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Stone of Controlling Earth Elementals"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.EFzoNOV2Ol5KhEK0",
-      "text": "Wheel, Square",
       "range": [
         99,
         100
@@ -371,16 +372,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "EFzoNOV2Ol5KhEK0",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Wheel, Square"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.EMAeWSsGWDurseAq",
-      "text": "Elven Boots",
       "range": [
         39,
         40
@@ -390,16 +391,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "EMAeWSsGWDurseAq",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Elven Boots"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.F5mTlaVsNFx4x9Bc",
-      "text": "Wheel of Floating",
       "range": [
         95,
         97
@@ -409,16 +410,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "F5mTlaVsNFx4x9Bc",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Wheel of Floating"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.G3WNNvNdCBTFGfaf",
-      "text": "Helm of Reading",
       "range": [
         50,
         51
@@ -428,16 +429,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "G3WNNvNdCBTFGfaf",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Helm of Reading"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.J9FzwP3oL2SpsVz5",
-      "text": "Crystal Ball with ESP (M)",
       "range": [
         31,
         31
@@ -447,16 +448,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "J9FzwP3oL2SpsVz5",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Crystal Ball with ESP (M)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.JfWjjvL3L6tDqksj",
-      "text": "Elven Cloak",
       "range": [
         41,
         42
@@ -466,16 +467,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "JfWjjvL3L6tDqksj",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Elven Cloak"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.KCbtsJ1rlPAt2ihW",
-      "text": "Censer of Controlling Air Elementals",
       "range": [
         24,
         24
@@ -485,16 +486,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "KCbtsJ1rlPAt2ihW",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Censer of Controlling Air Elementals"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.KbnPHlz0jvWnGh3x",
-      "text": "Efreeti Bottle",
       "range": [
         35,
         35
@@ -504,16 +505,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "KbnPHlz0jvWnGh3x",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Efreeti Bottle"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.LbfZ427RcnKrmxxz",
-      "text": "Mirror of Life Trapping",
       "range": [
         63,
         63
@@ -523,16 +524,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "LbfZ427RcnKrmxxz",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Mirror of Life Trapping"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.PIwSbe2cOUNNputA",
-      "text": "Brazier of Commanding Fire Elementals",
       "range": [
         21,
         21
@@ -542,16 +543,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "PIwSbe2cOUNNputA",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Brazier of Commanding Fire Elementals"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.QKLS7vaYbMqNA2Ij",
-      "text": "Scarab of Protection",
       "range": [
         87,
         88
@@ -561,16 +562,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "QKLS7vaYbMqNA2Ij",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Scarab of Protection"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.RlJjaWs8dxdfz5fy",
-      "text": "Helm of Teleportation (M)",
       "range": [
         53,
         53
@@ -580,16 +581,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "RlJjaWs8dxdfz5fy",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Helm of Teleportation (M)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.TmU0m9bDcIDAYPDq",
-      "text": "Quill of Copying (S)",
       "range": [
         80,
         82
@@ -599,16 +600,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "TmU0m9bDcIDAYPDq",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Quill of Copying (S)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.TprnhJ2KK9roisJt",
-      "text": "Nail of Pointing",
       "range": [
         69,
         71
@@ -618,16 +619,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "TprnhJ2KK9roisJt",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Nail of Pointing"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.WI8a9HYFHcQx6lku",
-      "text": "Helm of Alignment Changing",
       "range": [
         48,
         49
@@ -637,16 +638,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "WI8a9HYFHcQx6lku",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Helm of Alignment Changing"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.WlXQWFvhRfdunJqg",
-      "text": "Rope of Climbing",
       "range": [
         83,
         86
@@ -656,16 +657,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "WlXQWFvhRfdunJqg",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Rope of Climbing"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.XivyE8fXPKTMGJUm",
-      "text": "Girdle of Giant Strength",
       "range": [
         46,
         47
@@ -675,16 +676,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "XivyE8fXPKTMGJUm",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Girdle of Giant Strength"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.Y7poYlh5BzANFnVW",
-      "text": "Pouch of Security",
       "range": [
         77,
         79
@@ -694,16 +695,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "Y7poYlh5BzANFnVW",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Pouch of Security"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.ZWQTDFBC8RMpCILF",
-      "text": "Horn of Blasting",
       "range": [
         54,
         54
@@ -713,16 +714,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "ZWQTDFBC8RMpCILF",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Horn of Blasting"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.ZpEqfcJ0YsnrbtwC",
-      "text": "Gauntlets of Ogre Power",
       "range": [
         44,
         45
@@ -732,16 +733,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "ZpEqfcJ0YsnrbtwC",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Gauntlets of Ogre Power"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.bMiBT6IhXu9vKNgq",
-      "text": "Slate of Identification (S)",
       "range": [
         89,
         91
@@ -751,16 +752,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "bMiBT6IhXu9vKNgq",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Slate of Identification (S)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.cUaVstLxnRhiNzZ1",
-      "text": "Boots of Speed",
       "range": [
         15,
         17
@@ -770,16 +771,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "cUaVstLxnRhiNzZ1",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Boots of Speed"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.deZfNU5E2PRz3NIm",
-      "text": "Chime of Time",
       "range": [
         25,
         27
@@ -789,16 +790,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "deZfNU5E2PRz3NIm",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Chime of Time"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.exMjEPsDlRZRwqRI",
-      "text": "Displacer Cloak",
       "range": [
         32,
         33
@@ -808,16 +809,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "exMjEPsDlRZRwqRI",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Displacer Cloak"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.iXc4E57TEpTFlNFq",
-      "text": "Nail, Finger",
       "range": [
         67,
         68
@@ -827,16 +828,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "iXc4E57TEpTFlNFq",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Nail, Finger"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.k57b7FBBMn68k0zp",
-      "text": "Amulet of Protection from Crystal Balls and ESP",
       "range": [
         1,
         2
@@ -846,16 +847,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "k57b7FBBMn68k0zp",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Amulet of Protection from Crystal Balls and ESP"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.kwi3sVZg9r98nMzJ",
-      "text": "Drums of Panic",
       "range": [
         34,
         34
@@ -865,16 +866,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "kwi3sVZg9r98nMzJ",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Drums of Panic"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.mFIFClIInlpinpNb",
-      "text": "Medallion of ESP, 30' range",
       "range": [
         60,
         61
@@ -884,16 +885,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "mFIFClIInlpinpNb",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Medallion of ESP, 30' range"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.mccqph3to1Y4nc6h",
-      "text": "Muzzle of Training",
       "range": [
         64,
         66
@@ -903,16 +904,17 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "mccqph3to1Y4nc6h",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Muzzle of Training"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.nMB66Y2JDXUT7VlP",
-      "type": "pack",
+      "type": "document",
       "weight": 1,
       "range": [
         36,
@@ -920,19 +922,19 @@
       ],
       "drawn": false,
       "_id": "nMB66Y2JDXUT7VlP",
-      "text": "Egg of Wonder Creature Type",
       "img": "icons/svg/d20-grey.svg",
-      "documentId": "BfHjJ0T1FOXqh3kW",
       "flags": {},
-      "documentCollection": "fade-compendiums.roll-table-compendium",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Egg of Wonder Creature Type",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.BfHjJ0T1FOXqh3kW",
+      "description": "",
+      "text": "Egg of Wonder Creature Type"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.o6SjUUZ4GhIMiwqP",
-      "text": "Crystal Ball with Clairaudience (M)",
       "range": [
         30,
         30
@@ -942,16 +944,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "o6SjUUZ4GhIMiwqP",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Crystal Ball with Clairaudience (M)"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.sic9PymkUhxUDGE8",
-      "text": "Bag of Holding",
       "range": [
         5,
         9
@@ -961,16 +963,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "sic9PymkUhxUDGE8",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Bag of Holding"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.skzTRS5NEZxXXE5l",
-      "text": "Boat, Undersea",
       "range": [
         10,
         12
@@ -980,16 +982,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "skzTRS5NEZxXXE5l",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Boat, Undersea"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.syYx2qWMH6d3lZwa",
-      "text": "Wheel of Fortune",
       "range": [
         98,
         98
@@ -999,16 +1001,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "syYx2qWMH6d3lZwa",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Wheel of Fortune"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.wwkl86riS8oDiqIr",
-      "text": "Medallion of ESP, 90' range",
       "range": [
         62,
         62
@@ -1018,16 +1020,16 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "wwkl86riS8oDiqIr",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Medallion of ESP, 90' range"
     },
     {
       "_originalKey": "!tables.results!6TbdY8QOlvIWA7Nz.yB1ulhpQpIrOi6PY",
-      "text": "Talisman of Elemental Travel",
       "range": [
         93,
         94
@@ -1037,12 +1039,13 @@
       "drawn": false,
       "img": "icons/magic/symbols/star-yellow.webp",
       "_id": "yB1ulhpQpIrOi6PY",
-      "documentId": null,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "description": "",
+      "name": "Talisman of Elemental Travel"
     }
   ]
 }

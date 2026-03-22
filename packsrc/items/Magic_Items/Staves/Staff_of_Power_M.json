@@ -1,0 +1,131 @@
+{
+  "folder": "0r7EBadxyTmAsTP8",
+  "name": "Staff of Power (M)",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "unidentifiedName": "Unusual Staff",
+    "unidentifiedDesc": "<p><span style=\"font-family: 'Google Sans', Arial, sans-serif\">This is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [
+      "magic-user",
+      "slow"
+    ],
+    "description": "<p>This staff, <span style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">designed exclusively for magic-users</span>, is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal<br><br>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): fireball, lightning bolt, and ice storm. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring. This staff is usable only by magic-users.<br><br>Striking: this weapon inflicts [[/r 2d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 20,
+    "chargesMax": 20,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4ziiafnwn68rWOcO",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Fireball"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.t9TZWdxPe32XgyHI",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Lightning Bolt"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ifzidTKvHXX6mTmj",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Ice Storm"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.6k6WDJ5VohAD5D8G",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Continual Light*"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.jj20td8lMRDBW0V5",
+        "action": "cast",
+        "castAs": "M12",
+        "name": "Telekinesis"
+      }
+    ],
+    "conditions": [],
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "ammoType": "",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "M",
+    "grip": null,
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ora5Zl9bq5zK9k1O",
+  "sort": 0,
+  "_originalKey": "!items!ora5Zl9bq5zK9k1O"
+}
