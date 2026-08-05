@@ -584,38 +584,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!SMUlvN2u22PfD5hb.HRcgILymagxlDzfk",
-      "name": "Fire Breath (female)",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>A female Archon can breathe a 10' cone of fire, causing 4d6 points of damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "dmgRoll": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "HRcgILymagxlDzfk",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!SMUlvN2u22PfD5hb.JkdCGgy86cHmajhX",
       "folder": "BRiOjloSzFr5YjDZ",
       "name": "Establish Stronghold (C)",
@@ -1083,58 +1051,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!SMUlvN2u22PfD5hb.smPgkgAHoAHJGuDh",
-      "name": "Gore Attack (Female)",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "A female Archon's bull head gore attack, dealing 3d10 damage.",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "3d10",
-        "damageRoll2": null,
-        "damageType": "physical",
-        "breath": false,
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": null,
-        "saveDmgFormula": null,
-        "mastery": "Gore Attack (Female)",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "ammo": {
-          "type": "",
-          "load": null,
-          "maxLoad": null
-        },
-        "isSlow": false
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "smPgkgAHoAHJGuDh",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!SMUlvN2u22PfD5hb.wiEk9F1xZaiQF0s0",
       "folder": "BRiOjloSzFr5YjDZ",
       "name": "Turn Undead (C)",
@@ -1179,55 +1095,6 @@
       },
       "_id": "wiEk9F1xZaiQF0s0",
       "sort": 0
-    },
-    {
-      "_originalKey": "!actors.items!SMUlvN2u22PfD5hb.yzZBYwZ6sBNc5oNh",
-      "name": "Fire Breath (Female)",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "A female Archon can breathe a 10' cone of fire, causing 4d6 points of damage.",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "4d6",
-        "damageRoll2": null,
-        "damageType": "physical",
-        "canMelee": false,
-        "canRanged": true,
-        "mastery": "Fire Breath (Female)",
-        "range": {
-          "short": 10,
-          "medium": null,
-          "long": null
-        },
-        "ammo": {
-          "type": "",
-          "load": null,
-          "maxLoad": null
-        },
-        "isSlow": false
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "yzZBYwZ6sBNc5oNh",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
     },
     {
       "_originalKey": "!actors.items.effects!SMUlvN2u22PfD5hb.pcdBLWKxB0T2tZST.dVk7ObKq7OLVfn9j",
