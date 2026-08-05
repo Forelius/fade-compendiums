@@ -1124,36 +1124,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!e5RafGI3Ufyu1cVs.oY7VFcSHUtyG895u",
-      "name": "Acid Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a line of acid, 60 feet long and 5 feet wide, dealing acid damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "oY7VFcSHUtyG895u",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!e5RafGI3Ufyu1cVs.pcdBLWKxB0T2tZST",
       "name": "Flight",
       "type": "specialAbility",

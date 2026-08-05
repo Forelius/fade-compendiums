@@ -780,37 +780,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!AvBsRLh9aJ0La8sG.TJxpWM1auk4Yt62q",
-      "name": "Cold Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cone of cold, 80 feet long and 40 feet wide, dealing cold damage equal to the dragon's current hit points. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "dmgRoll": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "TJxpWM1auk4Yt62q",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!AvBsRLh9aJ0La8sG.a0GeLu07YpjEhSRX",
       "name": "Swoop (Dragon)",
       "type": "specialAbility",

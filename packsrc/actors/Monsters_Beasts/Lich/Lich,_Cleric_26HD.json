@@ -295,80 +295,6 @@
   "_originalKey": "!actors!b2gQd62QPrW5wsLc",
   "embedded": [
     {
-      "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.1m6y4CK31lLDpLM1",
-      "name": "Touch",
-      "type": "weapon",
-      "system": {
-        "description": "A deadly touch attack that deals 1d10 damage and may paralyze the target for 1d100 days (saving throw applies).",
-        "quantity": 1,
-        "equipped": true,
-        "damageRoll": "1d10",
-        "damageType": "physical",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "paralysis",
-        "shortName": "",
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "charges": null,
-        "quantityMax": 0,
-        "weight": 1,
-        "cost": 0,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "containerId": "",
-        "container": false,
-        "equippable": false,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "",
-        "isIdentified": true,
-        "isCursed": false,
-        "breath": null,
-        "canSet": false,
-        "isSlow": false,
-        "saveDmgFormula": null,
-        "mastery": "",
-        "weaponType": "",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "size": null,
-        "grip": null,
-        "natural": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "chargesMax": 0,
-        "isCarried": true,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "1m6y4CK31lLDpLM1",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.20ATgpaenBrCSJkZ",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Spells or Magic Staff",
@@ -723,50 +649,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.RPIAsHoOto7HnCbF",
-      "name": "Undead Servants",
-      "type": "specialAbility",
-      "system": {
-        "description": "A clerical lich normally has 3d4 types of other undead nearby, acting as servants. A full lair of each type (maximum number appearing) is usually present.",
-        "gm": {
-          "notes": ""
-        },
-        "tags": [],
-        "rollFormula": "",
-        "operator": "",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": null,
-        "healFormula": null,
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": null,
-        "customSaveCode": null,
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "RPIAsHoOto7HnCbF",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.Undll14wc4BZbWwu",
       "name": "Divine Spellcasting",
       "type": "specialAbility",
@@ -811,50 +693,6 @@
         "systemId": "fantastic-depths"
       },
       "sort": 0
-    },
-    {
-      "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.cch3KfF3XFYG9DRQ",
-      "name": "Summon Undead",
-      "type": "specialAbility",
-      "system": {
-        "description": "The lich can summon other powerful undead for aid. By concentrating, the summoned creature(s) will arrive 1d100 rounds later based on their distance. Summoning can be performed repeatedly, but each creature type will respond only once per day. To determine which creature is summoned, roll 1d20:<br>Roll 1-5: Spectre (2d4)<br>Roll 6-9: Vampire (1d6)<br>Roll 10-12: Phantom, Shade (1d3)<br>Roll 13-15: Haunt, Ghost (1d2 Chaotic)<br>Roll 16: Haunt, Poltergeist (1d2)<br>Roll 17: Spirit, Druj<br>Roll 18: Spirit, Revenant<br>Roll 19: Nightshade (any 1)<br>Roll 20: Undead Beholder",
-        "gm": {
-          "notes": ""
-        },
-        "tags": [],
-        "rollFormula": "",
-        "operator": "",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": null,
-        "healFormula": null,
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": null,
-        "customSaveCode": null,
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "cch3KfF3XFYG9DRQ",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
     },
     {
       "_originalKey": "!actors.items!b2gQd62QPrW5wsLc.jQ5gdMPTmIX8IWX1",

@@ -441,58 +441,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!o4fvBDEb75hQz3Cb.3RSZi8z6TtJgaXpC",
-      "name": "Acid Breath",
-      "type": "weapon",
-      "system": {
-        "tags": [
-          "acid",
-          "breath"
-        ],
-        "description": "<p>Spews a line of corrosive acid up to 120 feet long and 5 feet wide, capable of melting armor and flesh alike.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": false,
-        "natural": true,
-        "damageRoll": "@system.hp.total",
-        "damageRoll2": null,
-        "damageType": "physical",
-        "canMelee": false,
-        "canRanged": true,
-        "mastery": "Acid Breath",
-        "range": {
-          "short": null,
-          "medium": 120,
-          "long": null
-        },
-        "ammo": {
-          "type": "",
-          "load": null,
-          "maxLoad": null
-        }
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "3RSZi8z6TtJgaXpC",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!o4fvBDEb75hQz3Cb.3VKGkIU6Si4pnjXg",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Turn to Stone or Paralysis",
@@ -804,36 +752,6 @@
       },
       "img": "icons/commodities/leather/scales-white.webp",
       "_id": "BvWR0VsWeyErgMh2",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!o4fvBDEb75hQz3Cb.Hlt4ZgAYAqkoX13W",
-      "name": "Acid Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a line of acid, 120 feet long and 5 feet wide, dealing acid damage equal to the dragon's current hit point value.. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "Hlt4ZgAYAqkoX13W",
       "effects": [],
       "folder": null,
       "sort": 0,
