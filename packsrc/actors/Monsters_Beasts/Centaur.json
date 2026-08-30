@@ -954,55 +954,6 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
-    },
-    {
-      "_originalKey": "!actors.items!Ta2HEFfce6G1k3g8.rrUjvaEzWkgA30A2",
-      "name": "Weapon",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "The Centaur can use one weapon per creature, such as clubs, lances, or bows, for varying damage.",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "by weapon",
-        "damageRoll2": null,
-        "damageType": "physical",
-        "canMelee": true,
-        "canRanged": true,
-        "mastery": "",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "ammo": {
-          "type": null,
-          "load": null,
-          "maxLoad": null
-        },
-        "isSlow": false
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "rrUjvaEzWkgA30A2",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
     }
   ]
 }

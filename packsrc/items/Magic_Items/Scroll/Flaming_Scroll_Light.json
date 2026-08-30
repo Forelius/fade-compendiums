@@ -1,0 +1,71 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Flaming Scroll (Light)",
+  "type": "light",
+  "img": "icons/magic/fire/flame-burning-embers-orange.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>The scroll will burn with a clear light in a 60' radius, lasting for up to 6 hours per day. The burning does not harm the scroll, but it is nevertheless normal fire (and can be used to light torches, for example). The flame cannot be extinguished except by water or on command of the user; no wind, normal or magical, can cause it to flicker. This item may already be lit when found.</p>",
+    "gm": {
+      "notes": "This is the light item that can be used with Scroll of Illumination."
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 0,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": true,
+    "fuelType": "",
+    "light": {
+      "fuelType": "",
+      "type": "custom",
+      "duration": 36,
+      "radius": 60,
+      "bright": 6,
+      "color": "#d0a750",
+      "attenuation": 0.9,
+      "luminosity": 0.5,
+      "angle": 360,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 2
+      },
+      "enabled": false,
+      "secondsRemain": 0
+    },
+    "isLight": true,
+    "shortName": "",
+    "unidentifiedName": "Mysterious Scroll",
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 0,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "1Ysjf6yVOu6c5qeD",
+  "sort": 0,
+  "_originalKey": "!items!1Ysjf6yVOu6c5qeD"
+}

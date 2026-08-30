@@ -423,36 +423,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!hwFaPQEh5xg7k1Aa.45ibN5BAqmqHHFlH",
-      "name": "Fire Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cone of fire, 90 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "45ibN5BAqmqHHFlH",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!hwFaPQEh5xg7k1Aa.4v9SaLnMEndAK7lB",
       "name": "Spellcasting (Dragon)",
       "type": "specialAbility",
@@ -620,36 +590,6 @@
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hwFaPQEh5xg7k1Aa.PfpMep11zEYSo0Nw",
-      "name": "Chlorine Gas Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cloud of chlorine gas, 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "PfpMep11zEYSo0Nw",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
       },
       "flags": {},
       "_stats": {

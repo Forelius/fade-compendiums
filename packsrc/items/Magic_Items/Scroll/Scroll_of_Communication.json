@@ -5,9 +5,9 @@
   "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
   "system": {
     "tags": [],
-    "description": "<p>This is actually two scrolls, one stored inside the other. They are easily separated. If a message is written on one scroll, it immediately appears on the other. There is no limit to the range, as long as both scrolls are on the same plane of existence. The message may be up to 100 words in length. If one message is erased, the other disappears as well. Each message must be erased before another can be written, and there is a 5% chance (not cumulative) that any erasing will destroy the magic of both scrolls.</p>",
+    "description": "<p>This is actually two scrolls, one stored inside the other. They are easily separated. If a message is written on one scroll, it immediately appears on the other. There is no limit to the range, as long as both scrolls are on the same plane of existence. The message may be up to 100 words in length. If one message is erased, the other disappears as well. Each message must be erased before another can be written, and there is a 5% [[/r 1d100 #1-5 Scroll no longer functions.]] chance (not cumulative) that any erasing will destroy the magic of both scrolls.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation for this. Two items can be used to track who has the paired scrolls."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -30,14 +30,7 @@
     "charges": 0,
     "chargesMax": 0,
     "isTreasure": true,
-    "spells": [
-      {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
-        "action": "cast",
-        "castAs": "M6",
-        "name": "Flesh to Stone*"
-      }
-    ],
+    "spells": [],
     "weightEquipped": 1,
     "isOpen": false,
     "isDropped": false,

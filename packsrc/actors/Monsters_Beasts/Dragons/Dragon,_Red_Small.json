@@ -1101,37 +1101,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!WTlvfSJxGCjCtf7Z.lBJihZiPJfLlWRW4",
-      "name": "Fire Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cone of fire, 90 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "dmgRoll": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "lBJihZiPJfLlWRW4",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!WTlvfSJxGCjCtf7Z.pcdBLWKxB0T2tZST",
       "name": "Flight",
       "type": "specialAbility",

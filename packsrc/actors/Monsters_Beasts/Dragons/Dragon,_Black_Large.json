@@ -707,37 +707,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!0EtAFVM6AeCZVUek.W3mAOMQVnQt7Keio",
-      "name": "Acid Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Spews a line of corrosive acid up to 90feet long and 5 feet wide, capable of melting armor and flesh alike.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "W3mAOMQVnQt7Keio",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!0EtAFVM6AeCZVUek.Za0F8huSt5AWsK5o",
       "folder": "OR1oqiLvw7LWXY42",
       "name": "Death Ray or Poison",
@@ -828,36 +797,6 @@
       },
       "_id": "a0GeLu07YpjEhSRX",
       "sort": 700000
-    },
-    {
-      "_originalKey": "!actors.items!0EtAFVM6AeCZVUek.ahvgaACC2sxbm2zg",
-      "name": "Acid Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a line of acid, 90 feet long and 5 feet wide, dealing acid damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "ahvgaACC2sxbm2zg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
     },
     {
       "_originalKey": "!actors.items!0EtAFVM6AeCZVUek.cQWzIIpdZjc4hMxF",

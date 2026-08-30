@@ -528,38 +528,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!tfIYJfMcVa8AIjyd.JM84MYG4KfBZTSnM",
-      "name": "Breath Weapon",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breath weapon fills a 10' x 10' x 10' cube. Victims must save vs. dragon breath or be polymorphed into a normal forest creature for 24 hours. Can be used once per day.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null,
-        "dmgRoll": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "JM84MYG4KfBZTSnM",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!tfIYJfMcVa8AIjyd.T5mZRJHBceaV4rpV",
       "name": "Huge Spear",
       "type": "weapon",
@@ -727,55 +695,6 @@
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!tfIYJfMcVa8AIjyd.gQV4MnQvLC3glUnX",
-      "name": "Breath Weapon",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "Breath weapon fills a 10' x 10' x 10' cube. Victims must save vs. dragon breath or be polymorphed into a normal forest creature for 24 hours. Can be used once per day.",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "",
-        "damageRoll2": null,
-        "damageType": "physical",
-        "canMelee": false,
-        "canRanged": true,
-        "mastery": "",
-        "range": {
-          "short": 10,
-          "medium": null,
-          "long": null
-        },
-        "ammo": {
-          "type": "",
-          "load": null,
-          "maxLoad": null
-        },
-        "isSlow": false
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "gQV4MnQvLC3glUnX",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
       },
       "flags": {},
       "_stats": {

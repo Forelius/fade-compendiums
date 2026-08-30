@@ -7,7 +7,7 @@
     "tags": [],
     "description": "<p>The user of this scroll may ask questions of any nonliving nonmagical objects; their answers will appear on the scroll. The scroll will display up to three answers per day. The answers are given as if the objects were living beings, but are limited to simple observations as if the objects could see, hear, and smell. The scroll <em>cannot</em> be used to question living or magical things.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation. Reset charges each day."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -27,17 +27,10 @@
     "ammoType": "",
     "isAmmo": false,
     "isCursed": false,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 3,
+    "chargesMax": 3,
     "isTreasure": true,
-    "spells": [
-      {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
-        "action": "cast",
-        "castAs": "M6",
-        "name": "Flesh to Stone*"
-      }
-    ],
+    "spells": [],
     "weightEquipped": 1,
     "isOpen": false,
     "isDropped": false,

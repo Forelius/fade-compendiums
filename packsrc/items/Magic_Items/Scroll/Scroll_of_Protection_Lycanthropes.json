@@ -7,7 +7,7 @@
     "tags": [],
     "description": "<p>Protection from Lycanthropes: When read, this scroll will protect all those within the circle for <strong>6 turns</strong> against a variable number of lycanthropes. The number of lycanthropes affected varies according to their type, as follows.</p><ul><li><p>Werebats, wererats, werefoxes: [[/r 1d10 #Werebats, wererats, werefoxes affected]] affected</p></li><li><p>Wereboars, werewolves: [[/r 1d8 #Wereboars, werewolves affected]] affected</p></li><li><p>Wereseals, weresharks: [[/r 1d6 #Wereseals, weresharks affected]] affected</p></li><li><p>Werebears, weretigers: [[/r 1d4 #Werebears, weretigers affected]] affected</p></li><li><p>Devil swine: [[/r 1d2 #Devil swine affected]] affected</p></li></ul><p>A protection scroll may be read and used by any character who can read the Common language. When read, it creates a circle of protection 10' across that will move with the reader at its center. It will prevent any of the given creatures from entering this circle, but it does not prevent spell or missile attacks from those creatures. The circle will be broken if anyone protected attacks one of the given creatures in hand-to-hand combat.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation. Discard after use."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -30,14 +30,7 @@
     "charges": 0,
     "chargesMax": 0,
     "isTreasure": true,
-    "spells": [
-      {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
-        "action": "cast",
-        "castAs": "M6",
-        "name": "Flesh to Stone*"
-      }
-    ],
+    "spells": [],
     "weightEquipped": 1,
     "isOpen": false,
     "isDropped": false,

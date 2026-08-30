@@ -7,7 +7,7 @@
     "tags": [],
     "description": "<p>This scroll bears the drawing of a flame. If the scroll is set afire, it will burn with a clear light in a 60' radius, lasting for up to 6 hours per day. The burning does not harm the scroll, but it is nevertheless normal fire (and can be used to light torches, for example). The flame cannot be extinguished except by water or on command of the user; no wind, normal or magical, can cause it to flicker. This item may already be lit when found.</p>",
     "gm": {
-      "notes": ""
+      "notes": "Use light item \"Flaming Scroll (Light)\" when scroll is being used as light source. Discard light item when light duration ends."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -27,17 +27,10 @@
     "ammoType": "",
     "isAmmo": false,
     "isCursed": false,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
     "isTreasure": true,
-    "spells": [
-      {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.0racDRidqeps5ZyD",
-        "action": "cast",
-        "castAs": "M6",
-        "name": "Flesh to Stone*"
-      }
-    ],
+    "spells": [],
     "weightEquipped": 1,
     "isOpen": false,
     "isDropped": false,

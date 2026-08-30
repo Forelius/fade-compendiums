@@ -793,36 +793,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!1IEPooTD2M81A1KI.D15WC1pFx86FGP2D",
-      "name": "Fire Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cone of fire, 180 feet long and 30 feet wide, dealing fire damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "D15WC1pFx86FGP2D",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!1IEPooTD2M81A1KI.a0GeLu07YpjEhSRX",
       "name": "Swoop (Dragon)",
       "type": "specialAbility",
@@ -1140,36 +1110,6 @@
       "ownership": {
         "default": 0,
         "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!1IEPooTD2M81A1KI.ha8UZHxuLUIwzxHQ",
-      "name": "Chlorine Gas Breath",
-      "type": "specialAbility",
-      "system": {
-        "tags": [],
-        "description": "<p>Breathes a cloud of chlorine gas, 50 feet wide, 50 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. Targets can save versus dragon breath for half damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": 0,
-        "rollMode": "publicroll",
-        "savingThrow": null
-      },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "ha8UZHxuLUIwzxHQ",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
       },
       "flags": {},
       "_stats": {
