@@ -1,0 +1,53 @@
+{
+  "folder": "XPb0HndbAuYWphwr",
+  "name": "Scroll of Repetition (S)",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This scroll appears to be a normal scroll of one spell, and the standard restrictions apply to its use. However, 1 turn after the spell is cast, the scroll creates the same spell effect a second time, centered on the scroll or affecting the nearest creature if a recipient is part of the spell process. As with a normal spell scroll, any spell cast from it is then gone; however, another spell may be written on the scroll <em>if it is of the same level</em>, and the <em>repetition</em> effect will again apply.<br><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Only spellcasters may use this scroll.</strong></span></p>",
+    "gm": {
+      "notes": "Add this item to a character's sheet, then Drag/drop the spell of your choosing to this item's Special Abilities tab. After scroll is used, a new spell may be added (per normal rules) for the same repeat effect."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "unidentifiedName": "Mysterious Scroll",
+    "isIdentified": false,
+    "unidentifiedDesc": "<p>A strange scroll with unrecognizable writing.</p>",
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "isCursed": false,
+    "charges": 1,
+    "chargesMax": 1,
+    "isTreasure": true,
+    "spells": [],
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "specialAbilities": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mTEtRM5EpXC8rTQV",
+  "sort": 400000,
+  "_originalKey": "!items!mTEtRM5EpXC8rTQV"
+}

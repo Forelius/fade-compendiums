@@ -7,7 +7,7 @@
     "tags": [],
     "description": "<p>Spell scrolls are a good way to introduce new spells in a campaign, and may be designed with the characters' current spellbooks in mind. Note that only druids can cast spells from druid scrolls, though the spell name can be revealed by a read magic spell.</p>",
     "gm": {
-      "notes": ""
+      "notes": "Add this item to a character's sheet, then Drag/drop the spell of your choosing to this item's Special Abilities tab. Change \"(Choose spell)\" to spell name."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -27,8 +27,8 @@
     "ammoType": "",
     "isAmmo": false,
     "isCursed": false,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
     "isTreasure": true,
     "spells": [],
     "weightEquipped": 1,

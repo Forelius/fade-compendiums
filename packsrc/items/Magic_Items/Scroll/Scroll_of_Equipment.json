@@ -7,7 +7,7 @@
     "tags": [],
     "description": "<p>This parchment is inscribed with the names of six normal items (which the GM selects or randomly determines from the standard adventuring gear). When any item's name is read aloud, the item appears within 10' of the scroll; the name disappears. The item will remain for 24 hours or until the user commands it to vanish. The name reappears on the scroll when the item vanishes. Any three of the six items listed on the scroll can be created each day.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation except for tracking of charges per day."
     },
     "quantity": 1,
     "quantityMax": 0,
@@ -27,8 +27,8 @@
     "ammoType": "",
     "isAmmo": false,
     "isCursed": false,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 3,
+    "chargesMax": 3,
     "isTreasure": true,
     "spells": [],
     "weightEquipped": 1,

@@ -1,0 +1,44 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Identify Magical Effect",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "LOYGi4spcQ9zswf9",
+  "system": {
+    "tags": [],
+    "description": "<p>The user may hold the item and command it to identify any one chosen magical effect within 30'. The name of the magical spell or effect then appears on the item, along with the level of the caster of the spell effect. Will identify one magical effect per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "30",
+    "duration": "Instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!LOYGi4spcQ9zswf9"
+}
