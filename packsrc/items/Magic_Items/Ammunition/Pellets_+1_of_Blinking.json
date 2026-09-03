@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Pellets +1 of Blinking",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>The missile with this talent will not hit any friend of the user, \"blinking\" in and out of existence until it reaches an enemy. (If the sight of the enemy is blocked by friends, a penalty may apply to the attack roll).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.2,
+    "weightEquipped": 0.2,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "pellet",
+    "unidentifiedName": "Pellets",
+    "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "physical",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "charges": 0,
+    "chargesMax": 0
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "M8yCBQXMUNkHM9IC",
+  "sort": 4700000,
+  "_originalKey": "!items!M8yCBQXMUNkHM9IC"
+}

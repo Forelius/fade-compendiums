@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Pellets +1 of Wounding",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>When a missile with the wounding talent strikes a target creature, it inflicts normal damage. In addition, however, it causes the loss of 1 hit point per round thereafter until magical curing is applied (a potion, cure spell of any type, etc.). However, no undead creature or construct (golem, living statue, etc.) can be wounded with this talent, and such creatures suffer only the initial damage.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a sling. These sling stones/pellets are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.2,
+    "weightEquipped": 0.2,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "pellet",
+    "unidentifiedName": "Pellets",
+    "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "physical",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "charges": 0,
+    "chargesMax": 0
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6GbQPUaEN8iA2UYM",
+  "sort": 0,
+  "_originalKey": "!items!6GbQPUaEN8iA2UYM"
+}
