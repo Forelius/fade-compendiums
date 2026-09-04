@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Arrows +1 of Disarming",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>This talent will only function if the victim hit is holding a weapon or other item. The victim must make a saving throw vs. spells or drop the item. A dropped item may normally be recovered in 1 round (unless it falls into a pit or chasm, if someone else grabs it, etc.).</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "Arrows",
+    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "spell",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "lxryP8hjnzCAvKhr",
+  "sort": 3100000,
+  "_originalKey": "!items!lxryP8hjnzCAvKhr"
+}

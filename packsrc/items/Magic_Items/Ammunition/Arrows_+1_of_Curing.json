@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Arrows +1 of Curing",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>A missile with this talent is obviously blunt, inscribed with a holy symbol. When it hits a living creature, it does not inflict damage. Instead, it cures [[/r 2d6+2 #Damage healed]] points of damage. The roll includes plus 2 extra points for each magical bonus of the missile. For example, if a 5 is rolled for a curing arrow +2, the total points of damage cured are 9.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "Arrows",
+    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "5VPd4ihGaFDarR2d",
+  "sort": 4000000,
+  "_originalKey": "!items!5VPd4ihGaFDarR2d"
+}

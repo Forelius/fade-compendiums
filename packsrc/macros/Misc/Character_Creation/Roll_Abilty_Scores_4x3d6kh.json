@@ -1,0 +1,21 @@
+{
+  "folder": "67qKQ0AnYHFK0qmj",
+  "name": "Roll Abilty Scores 4x3d6kh",
+  "type": "script",
+  "author": "PQautH39zHZdSjg6",
+  "img": "systems/fantastic-depths/assets/img//ui/import.webp",
+  "scope": "global",
+  "command": "let rollTotals = [], accum = 0, discardedStr = '';\n\nfor (let i = 0; i < 6; i++) {\n   let roll;\n   do { roll = await new Roll('{3d6, 3d6, 3d6, 3d6}kh').evaluate(); } while (roll.total < 6);\n   accum += roll.total;\n   rollTotals.push(roll.total);\n   const disc = roll.terms[0].results.filter(r => r.discarded).map(r => `(${r.result})`).join('');\n   discardedStr += `Roll ${i + 1}: ${roll.total} ${disc}<br>`;\n}\n\nconst content = `<h3>Rolling Ability Scores</h3><p>Method: 4x3d6kh</p>${discardedStr}\n<strong>Average:</strong> ${(accum / 6).toFixed(2)}<br>\n<button class=\"apply-scores\">Apply to Selected</button>`;\n\nconst chatMessage = await ChatMessage.create({ content, flavor: 'Ability Score Rolls' });\n\n// Use Foundry's native Hook to attach the event directly (No polling required)\nHooks.once(`renderChatMessage`, (message, html) => {\n   if (message.id !== chatMessage.id) return;\n   const btn = html.find('.apply-scores');\n\n   btn.click(async () => {\n      const actor = canvas.tokens.controlled[0]?.actor;\n      if (!actor) return ui.notifications.warn(\"Please select an actor.\");\n\n      const updates = Object.keys(actor.system.abilities)\n         .slice(0, 6)\n         .reduce((acc, key, i) => ({ ...acc, [`system.abilities.${key}.value`]: rollTotals[i] }), {});\n\n      await actor.update(updates);\n      ui.notifications.info(`Applied scores to ${actor.name}!`);\n   });\n\n   // Disable button after 1 minute\n   setTimeout(() => btn.prop('disabled', true).text('Expired'), 60000);\n});",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZjxKrKKWxTRtBijU",
+  "sort": 300000,
+  "_originalKey": "!macros!ZjxKrKKWxTRtBijU"
+}

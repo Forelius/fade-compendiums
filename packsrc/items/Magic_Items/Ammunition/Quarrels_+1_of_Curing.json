@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Quarrels +1 of Curing",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>A missile with this talent is obviously blunt, inscribed with a holy symbol. When it hits a living creature, it does not inflict damage. Instead, it cures [[/r 2d6+2 #Damage healed]] points of damage. The roll includes plus 2 extra points for each magical bonus of the missile. For example, if a 5 is rolled for a curing arrow +2, the total points of damage cured are 9.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.33,
+    "weightEquipped": 0.33,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "quarrel",
+    "unidentifiedName": "Quarrels",
+    "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "TbsC1Cb6BRmsBUio",
+  "sort": 3000000,
+  "_originalKey": "!items!TbsC1Cb6BRmsBUio"
+}

@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Arrows +1 of Screaming",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>This talent's effect occurs when the missile is shot, even if it misses the target. As it travels through the air, the missile produces a loud cry, causing all within 30' of its path to check morale. If the morale check is failed, the victims will retreat in fear for [[/r 1d8 #Feared rounds]] rounds. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "Arrows",
+    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6dHD9nTlE4OQxnuf",
+  "sort": 1300000,
+  "_originalKey": "!items!6dHD9nTlE4OQxnuf"
+}

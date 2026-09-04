@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Quarrels +1 of Refilling",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>This talent gives no special effects to a missile when shot. If left in a container with other missiles of the same type (that is, a refilling arrow with normal arrows or a refilling sling stone with normal sling stones), however, it will magically create [[/r 1d20 #Normal missiles created]] more missiles of the normal type each day. </p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Ammunition for a crossbow. Sometimes called a bolt. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.33,
+    "weightEquipped": 0.33,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "quarrel",
+    "unidentifiedName": "Quarrels",
+    "unidentifiedDesc": "<p><span style=\"font-family: Barlow, sans-serif\">Ammunition for a crossbow. Sometimes called a bolt.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "bQny47JMF6Zx4H48",
+  "sort": 1000000,
+  "_originalKey": "!items!bQny47JMF6Zx4H48"
+}

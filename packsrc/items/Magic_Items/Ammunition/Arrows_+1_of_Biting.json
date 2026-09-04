@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Arrows +1 of Biting",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>When the missile hits, the talent turns it into a poisonous\" snake. In addition to normal damage, the victim must make a saving throw vs. poison or die (or, at the DM's choice, take extra damage; [[/r 2d6 #Poison damage]], [[/r 2d10 #Poison damage]], or [[/r 2d20 #Poison damage]] are recommended amounts).</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "Arrows",
+    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "death",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": null,
+    "chargesMax": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "KLbBq4B2HCZBEypT",
+  "sort": 4800000,
+  "_originalKey": "!items!KLbBq4B2HCZBEypT"
+}

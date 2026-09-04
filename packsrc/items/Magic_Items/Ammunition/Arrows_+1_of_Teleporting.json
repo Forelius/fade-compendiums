@@ -1,0 +1,55 @@
+{
+  "folder": "sFNJXduEpqQFH22q",
+  "name": "Arrows +1 of Teleporting",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "shortName": "",
+    "description": "<p>A victim hit by a missile with this talent must make a saving throw vs. spells (at a +2 bonus to the roll) or be teleported to a point [[/r 1d100 #Miles]] miles away, with the direction and distance determined randomly. Unlike the effect of the magic-user spell, the victim cannot arrive in the air or within a solid object.</p><p><strong>Important:</strong> These missiles do not become nonmagical once used.</p><p>Fletched arrows in a quiver. Can be used with a long bow or short bow. These arrows are magical and provide a to-hit and damage bonus.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "weightEquipped": 0.5,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "arrow",
+    "unidentifiedName": "Arrows",
+    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "spell",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 1,
+    "chargesMax": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "WYanSmIvhkoDTH7A",
+  "sort": 0,
+  "_originalKey": "!items!WYanSmIvhkoDTH7A"
+}
