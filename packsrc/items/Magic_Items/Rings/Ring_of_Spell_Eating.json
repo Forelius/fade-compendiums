@@ -1,0 +1,53 @@
+{
+  "folder": "kr5eTQjFECaEky1C",
+  "name": "Ring of Spell Eating",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
+  "system": {
+    "unidentifiedName": "Odd Ring",
+    "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This ring reflects [[/r 2d6 #Daily charges]] spells back to their casters (per day) so that the wearer is not affected by spell attacks. Only spells are reflected, not spell-like powers of monsters or spell-like effects from items. Once the ring's number of spells is reached, it becomes useless for the rest of the day.</p><p>Although this ring appears and functions as a ring of spell turning, it has an extra, detrimental effect if the user is a spellcaster. After the spellcaster has cast a spell while the ring is worn, the ring \"eats\" all the remaining spells memorized by the spellcaster. The ring cannot be removed after it has eaten the wearer's spells (though spells can be restudied and safely cast) until a remove curse is applied by a 25th or higher level spellcaster. This remedy only permits the removal of the ring and does not affect its powers. A dispel evil cast by a 36th level caster will turn the ring into a normal ring of spell turning.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 6,
+    "chargesMax": 12,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vJ6AvXFCDPwG0FT2",
+  "sort": 1000000,
+  "_originalKey": "!items!vJ6AvXFCDPwG0FT2"
+}

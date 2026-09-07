@@ -1,17 +1,18 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Delusion",
+  "name": "Ring of X-Ray Vision",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
-  "_id": "h2k1fg9NoqPL1INy",
   "system": {
     "unidentifiedName": "Odd Ring",
     "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
-    "tags": [],
-    "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>The wearer may see a distance of up to 30', even through a wall and into the space beyond, by standing still and concentrating. The effect may be blocked by gold or lead. The wearer can inspect one 10' x 10' area per use (which requires a full turn), and he will be able to see any traps or secret doors in the area examined. The ring allows the wearer to see through items less dense than stone (such as cloth, wood, or water) more easily, to a range of 60'. The ring may be used up to 1 turn per hour.</p>",
     "gm": {
       "notes": ""
     },
@@ -37,15 +38,16 @@
     "conditions": []
   },
   "effects": [],
-  "sort": 4000000,
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!h2k1fg9NoqPL1INy"
+  "_id": "Sx4oAmSAfCa8W75b",
+  "sort": 300000,
+  "_originalKey": "!items!Sx4oAmSAfCa8W75b"
 }

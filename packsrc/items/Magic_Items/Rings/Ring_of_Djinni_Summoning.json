@@ -1,24 +1,25 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Delusion",
+  "name": "Ring of Djinni Summoning",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
-  "_id": "h2k1fg9NoqPL1INy",
   "system": {
     "unidentifiedName": "Odd Ring",
     "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
-    "tags": [],
-    "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>The wearer may summon one djinni to serve for up to one day. The djinni will only serve and obey the person wearing the ring at the time of its summoning. The ring may be used only once per week.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
     "weight": 1,
     "weightEquipped": 1,
     "cost": null,
@@ -37,15 +38,16 @@
     "conditions": []
   },
   "effects": [],
-  "sort": 4000000,
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!h2k1fg9NoqPL1INy"
+  "_id": "uY9V2Z0iKfVxP1dB",
+  "sort": 3200000,
+  "_originalKey": "!items!uY9V2Z0iKfVxP1dB"
 }

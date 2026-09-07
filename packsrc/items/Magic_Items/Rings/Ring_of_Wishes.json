@@ -1,24 +1,25 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Delusion",
+  "name": "Ring of Wishes",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
-  "_id": "h2k1fg9NoqPL1INy",
   "system": {
     "unidentifiedName": "Odd Ring",
     "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
-    "tags": [],
-    "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>A ring of wishes is an extremely powerful item. Wishes must be handled very carefully by the DM and the players alike. To find the number of wishes contained, roll [[/r 1d10 #Wishes]].</p><table style=\"max-width:200px;\"><thead><tr><th>1d10</th><th>Wishes</th></tr></thead><tbody><tr><td>1-4</td><td>1</td></tr><tr><td>5-7</td><td>2</td></tr><tr><td>8-9</td><td>3</td></tr><tr><td>10</td><td>4</td></tr></tbody></table>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 5,
+    "chargesMax": 10,
     "weight": 1,
     "weightEquipped": 1,
     "cost": null,
@@ -37,15 +38,16 @@
     "conditions": []
   },
   "effects": [],
-  "sort": 4000000,
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!h2k1fg9NoqPL1INy"
+  "_id": "kC0v7vNFiNevOch6",
+  "sort": 800000,
+  "_originalKey": "!items!kC0v7vNFiNevOch6"
 }

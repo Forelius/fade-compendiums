@@ -1,0 +1,21 @@
+{
+  "folder": "67qKQ0AnYHFK0qmj",
+  "name": "Ability Scores Method II",
+  "type": "script",
+  "author": "PQautH39zHZdSjg6",
+  "img": "systems/fantastic-depths/assets/img//ui/import.webp",
+  "scope": "global",
+  "command": "let allRolls = [];\n\n// Roll 3d6 twelve times\nfor (let i = 0; i < 12; i++) {\n  const roll = await new Roll(\"3d6\").evaluate();\n  allRolls.push(roll.total);\n}\n\n// Sort rolls descending\nallRolls.sort((a, b) => b - a);\n\n// Separate the 6 highest kept rolls from the 6 discarded rolls\nconst kept = allRolls.slice(0, 6);\nconst discarded = allRolls.slice(6);\n\nconst average = (kept.reduce((sum, val) => sum + val, 0) / 6).toFixed(2);\n\n// Build chat card HTML\nlet content = `\n  <div style=\"font-family: var(--font-primary);\">\n    <h3 style=\"border-bottom: 1px solid var(--color-border-light-primary); margin-bottom: 8px;\">Rolling Ability Score</h3>\n    <p><strong>Method:</strong> Roll 3d6 (12 times, retain top 6)</p>\n    \n    <div style=\"background: rgba(0, 0, 0, 0.05); padding: 8px; border-radius: 4px; margin-bottom: 8px;\">\n      <strong style=\"color: var(--color-text-dark-primary);\">Kept Scores:</strong>\n      <div style=\"font-size: 1.1em; font-weight: bold; color: #185216;\">\n        ${kept.join(\", \")}\n      </div>\n    </div>\n\n    <div style=\"background: rgba(0, 0, 0, 0.02); padding: 6px; border-radius: 4px; margin-bottom: 8px;\">\n      <strong style=\"color: #666;\">Discarded Rolls:</strong>\n      <div style=\"color: #888; text-decoration: line-through;\">\n        ${discarded.join(\", \")}\n      </div>\n    </div>\n\n    <p style=\"margin-top: 6px; font-weight: bold;\">\n      Active Pool Average: <span style=\"color: #185216;\">${average}</span>\n    </p>\n  </div>\n`;\n\nawait ChatMessage.create({\n  content: content,\n  flavor: \"Ability Score Generation Pool\",\n  speaker: ChatMessage.getSpeaker()\n});",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mmYDkkPwPfDuuASR",
+  "sort": 0,
+  "_originalKey": "!macros!mmYDkkPwPfDuuASR"
+}
