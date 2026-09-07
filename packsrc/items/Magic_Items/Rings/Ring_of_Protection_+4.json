@@ -1,13 +1,13 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Protection +2",
+  "name": "Ring of Protection +4",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
   "system": {
     "tags": [
       "magic"
     ],
-    "description": "<p>This ring improves the wearer's armor class by 2. It also has the effect of improving all saving throws by 2.</p>",
+    "description": "<p>This ring improves the wearer's armor class by 3. It also has the effect of improving all saving throws by 3.</p>",
     "gm": {
       "notes": ""
     },
@@ -26,20 +26,16 @@
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",
-    "ammoType": "",
-    "isAmmo": false,
     "isCursed": false,
     "charges": 0,
-    "savingThrow": "",
-    "healFormula": "",
-    "dmgFormula": "",
     "chargesMax": 0,
-    "isCarried": true,
-    "damageType": "",
-    "isUsable": false,
     "isTreasure": true,
     "isOpen": false,
-    "weightEquipped": 1
+    "weightEquipped": 1,
+    "isDropped": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
   },
   "effects": [
     "FSTpLSK75JWpqOKP",
@@ -47,20 +43,21 @@
   ],
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "EcnMSP2Rjp7f1Tf5",
-  "sort": 3700000,
-  "_originalKey": "!items!EcnMSP2Rjp7f1Tf5",
+  "_id": "JbPB3vl8nKzO2Vvv",
+  "sort": 1400000,
+  "_originalKey": "!items!JbPB3vl8nKzO2Vvv",
   "embedded": [
     {
-      "_originalKey": "!items.effects!EcnMSP2Rjp7f1Tf5.DTDA2feNfceinFct",
-      "name": "+2 Saving Throws",
+      "_originalKey": "!items.effects!JbPB3vl8nKzO2Vvv.DTDA2feNfceinFct",
+      "name": "+4 Saving Throws",
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fantastic-depths.item-compendium.Item.bowbKlwXuahzXzKN",
       "duration": {
@@ -80,7 +77,7 @@
         {
           "key": "system.mod.save.all",
           "mode": 2,
-          "value": "2",
+          "value": "4",
           "priority": null
         }
       ],
@@ -96,8 +93,8 @@
       }
     },
     {
-      "_originalKey": "!items.effects!EcnMSP2Rjp7f1Tf5.FSTpLSK75JWpqOKP",
-      "name": "+2 AC",
+      "_originalKey": "!items.effects!JbPB3vl8nKzO2Vvv.FSTpLSK75JWpqOKP",
+      "name": "+4 AC",
       "img": "icons/svg/aura.svg",
       "origin": "Item.bowbKlwXuahzXzKN",
       "duration": {
@@ -117,7 +114,7 @@
         {
           "key": "system.mod.ac",
           "mode": 2,
-          "value": "2",
+          "value": "4",
           "priority": null
         }
       ],

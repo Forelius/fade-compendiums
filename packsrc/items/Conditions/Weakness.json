@@ -1,0 +1,69 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Weakness",
+  "type": "condition",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Lowers the Strength score to 3.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "hoX0hHwnsS5vO2T2"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "obNsfPc59e3j7YDT",
+  "sort": 0,
+  "_originalKey": "!items!obNsfPc59e3j7YDT",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!obNsfPc59e3j7YDT.hoX0hHwnsS5vO2T2",
+      "name": "Strength Drain",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "hoX0hHwnsS5vO2T2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.total",
+          "mode": 3,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#d84646",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

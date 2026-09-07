@@ -1,24 +1,25 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Delusion",
+  "name": "Ring of Fire Resistance",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
-  "_id": "h2k1fg9NoqPL1INy",
   "system": {
     "unidentifiedName": "Odd Ring",
     "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
-    "tags": [],
-    "description": "<p>The wearer will believe this to be any one other ring (roll again for the imaginary type). However, it has no real effect. The wearer will not be convinced otherwise until a remove curse is used to dispel the enchantment.</p>",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>The wearer of this ring will not be harmed by normal fires, and he gains a bonus of +2 on all saving throws vs. fire spells and vs. red dragon breath. In addition, the DM subtracts 1 point from each die of fire damage to the wearer (with a minimum damage of 1 point per die rolled to determine the damage).</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation."
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 1,
+    "chargesMax": null,
     "weight": 1,
     "weightEquipped": 1,
     "cost": null,
@@ -34,18 +35,25 @@
     "isTreasure": true,
     "specialAbilities": [],
     "spells": [],
-    "conditions": []
+    "conditions": [
+      {
+        "name": "Fire Resistant",
+        "durationFormula": null,
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ZOs6627VjmtefRvC"
+      }
+    ]
   },
   "effects": [],
-  "sort": 4000000,
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!h2k1fg9NoqPL1INy"
+  "_id": "n1Lqg610RrZPT55e",
+  "sort": 2300000,
+  "_originalKey": "!items!n1Lqg610RrZPT55e"
 }

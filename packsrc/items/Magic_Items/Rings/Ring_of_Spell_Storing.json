@@ -1,6 +1,6 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Animal Control",
+  "name": "Ring of Spell Storing",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
   "system": {
@@ -12,14 +12,14 @@
     "tags": [
       "magic"
     ],
-    "description": "<p>The wearer of this ring may command [[/r 1d6]] normal animals (or one giant-sized). The animals are not allowed a saving throw to resist control. The ring will not control intelligent animal species or fantastical or magical monsters. The wearer must be able to see the animals to control them. The control will last as long as the wearer concentrates on the animals and does not move or fight. When the wearer stops concentrating, the animals will be free to attack their controller or run away (roll reactions with a penalty of −1 to the roll). This ring can only be used once per turn.</p>",
+    "description": "<p>When found, this ring has [[/r 1d6 #Spells stored]] spells stored within it. Those exact spells are the limit of the ring's powers and they cannot be changed. When the ring is put on, the wearer magically knows what spells are stored and how to use them. After a spell is used, it may be replaced by a spellcaster who must cast the replacement spell directly at the ring. The ring will not absorb spells thrown at the wearer. The spells in the ring have the duration, range, and effect equal to the lowest level needed to cast them. The DM should select the type of spells in the ring; about [[/r 1d100 #1-20=Cleric spells, 21-00=Magic-User spells]] 20% of these rings typically contain clerical spells.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 6,
+    "chargesMax": 6,
     "weight": 1,
     "weightEquipped": 1,
     "cost": null,
@@ -47,7 +47,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "3zLV1kxJVDkxJsPJ",
-  "sort": 3800000,
-  "_originalKey": "!items!3zLV1kxJVDkxJsPJ"
+  "_id": "bG4sQBz2i82AkBG9",
+  "sort": 1200000,
+  "_originalKey": "!items!bG4sQBz2i82AkBG9"
 }

@@ -1,0 +1,45 @@
+{
+  "name": "Control Human",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p><p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p><p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p><table style=\"max-width:250px;\"><tbody><tr><td><p><strong>Target Intelligence:</strong></p></td><td><p><strong>Save Frequency:</strong></p></td></tr><tr><td><p>High (13-18)</p></td><td><p>1 day</p></td></tr><tr><td><p>Average (9-12)</p></td><td><p>1 week</p></td></tr><tr><td><p>Low (3-8)</p></td><td><p>1 month</p></td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60'",
+    "duration": "Varies",
+    "effect": "Varies",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "N7mJRQw5yt1YsuiZ",
+  "sort": 0,
+  "_originalKey": "!items!N7mJRQw5yt1YsuiZ"
+}

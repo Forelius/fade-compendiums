@@ -1,20 +1,20 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Protection +2",
+  "name": "Ring of Protection +1 (5' Radius)",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
   "system": {
     "tags": [
       "magic"
     ],
-    "description": "<p>This ring improves the wearer's armor class by 2. It also has the effect of improving all saving throws by 2.</p>",
+    "description": "<p>This ring improves the wearer's armor class by 1. It also has the effect of improving all saving throws by 1.</p><p>This ring improves the wearer's armor class and saving throws by 1 (as a normal ring of protection +1), but the ring also gives the same bonus to all creatures within 5', both friend and foe! No rings affecting an area are more powerful than +1.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation of area effect."
     },
     "quantity": 1,
     "quantityMax": 0,
     "weight": 1,
-    "cost": 0,
+    "cost": null,
     "containerId": "",
     "equipped": false,
     "container": false,
@@ -26,20 +26,16 @@
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",
-    "ammoType": "",
-    "isAmmo": false,
     "isCursed": false,
     "charges": 0,
-    "savingThrow": "",
-    "healFormula": "",
-    "dmgFormula": "",
     "chargesMax": 0,
-    "isCarried": true,
-    "damageType": "",
-    "isUsable": false,
     "isTreasure": true,
+    "weightEquipped": 1,
     "isOpen": false,
-    "weightEquipped": 1
+    "isDropped": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
   },
   "effects": [
     "FSTpLSK75JWpqOKP",
@@ -47,20 +43,21 @@
   ],
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "EcnMSP2Rjp7f1Tf5",
-  "sort": 3700000,
-  "_originalKey": "!items!EcnMSP2Rjp7f1Tf5",
+  "_id": "gjLmPo0BRQmOnlpH",
+  "sort": 1700000,
+  "_originalKey": "!items!gjLmPo0BRQmOnlpH",
   "embedded": [
     {
-      "_originalKey": "!items.effects!EcnMSP2Rjp7f1Tf5.DTDA2feNfceinFct",
-      "name": "+2 Saving Throws",
+      "_originalKey": "!items.effects!gjLmPo0BRQmOnlpH.DTDA2feNfceinFct",
+      "name": "+1 Saving Throws",
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fantastic-depths.item-compendium.Item.bowbKlwXuahzXzKN",
       "duration": {
@@ -80,7 +77,7 @@
         {
           "key": "system.mod.save.all",
           "mode": 2,
-          "value": "2",
+          "value": "1",
           "priority": null
         }
       ],
@@ -96,8 +93,8 @@
       }
     },
     {
-      "_originalKey": "!items.effects!EcnMSP2Rjp7f1Tf5.FSTpLSK75JWpqOKP",
-      "name": "+2 AC",
+      "_originalKey": "!items.effects!gjLmPo0BRQmOnlpH.FSTpLSK75JWpqOKP",
+      "name": "+1 AC",
       "img": "icons/svg/aura.svg",
       "origin": "Item.bowbKlwXuahzXzKN",
       "duration": {
@@ -117,7 +114,7 @@
         {
           "key": "system.mod.ac",
           "mode": 2,
-          "value": "2",
+          "value": "1",
           "priority": null
         }
       ],

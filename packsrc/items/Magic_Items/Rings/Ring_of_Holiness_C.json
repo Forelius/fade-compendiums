@@ -1,6 +1,6 @@
 {
   "folder": "kr5eTQjFECaEky1C",
-  "name": "Ring of Animal Control",
+  "name": "Ring of Holiness (C)",
   "type": "item",
   "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
   "system": {
@@ -12,14 +12,14 @@
     "tags": [
       "magic"
     ],
-    "description": "<p>The wearer of this ring may command [[/r 1d6]] normal animals (or one giant-sized). The animals are not allowed a saving throw to resist control. The ring will not control intelligent animal species or fantastical or magical monsters. The wearer must be able to see the animals to control them. The control will last as long as the wearer concentrates on the animals and does not move or fight. When the wearer stops concentrating, the animals will be free to attack their controller or run away (roll reactions with a penalty of −1 to the roll). This ring can only be used once per turn.</p>",
+    "description": "<p>This ring is usable only by a cleric or druid. If the ring is worn while spells are gained (usually during morning meditation), the cleric gains one extra spell each of levels 1,2, and 3 as appropriate. (Extra spells apply only to spell levels obtainable. For example, a 5th level cleric would not gain any 3rd level spells.) If the ring is removed, the spells are forgotten (though this has no effect if the spells are already cast). In addition, a cleric (but not a druid) gains a +1 bonus to any rolls to turn undead, including the roll determining the Hit Dice of undead turned. The ring does not affect turn attempts not requiring a roll.</p>",
     "gm": {
-      "notes": ""
+      "notes": "No automation."
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
+    "charges": 1,
+    "chargesMax": null,
     "weight": 1,
     "weightEquipped": 1,
     "cost": null,
@@ -47,7 +47,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "3zLV1kxJVDkxJsPJ",
-  "sort": 3800000,
-  "_originalKey": "!items!3zLV1kxJVDkxJsPJ"
+  "_id": "i5X3AyijUPVM8i10",
+  "sort": 2000000,
+  "_originalKey": "!items!i5X3AyijUPVM8i10"
 }
