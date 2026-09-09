@@ -1,15 +1,15 @@
 {
-  "name": "Cloak of Billowing",
+  "name": "Boat, Undersea (Placeholder)",
   "type": "item",
-  "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
+  "img": "icons/environment/settlement/ship.webp",
   "system": {
-    "unidentifiedName": "Strange Cloak",
-    "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+    "unidentifiedName": "Boat, River",
+    "unidentifiedDesc": "<p>Placeholder item.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+    "description": "<p>This is a placeholder item. Boat, Undersea is kept in the Actor Compendium.</p>",
     "gm": {
       "notes": ""
     },
@@ -18,8 +18,8 @@
     "charges": 0,
     "chargesMax": 0,
     "weight": 10,
-    "weightEquipped": 0,
-    "cost": 69,
+    "weightEquipped": 10,
+    "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -45,7 +45,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "D0XsfwinbB4XxLBK",
-  "sort": 800000,
-  "_originalKey": "!items!D0XsfwinbB4XxLBK"
+  "_id": "m37d2GPqwPK9HWI0",
+  "sort": 1000000,
+  "_originalKey": "!items!m37d2GPqwPK9HWI0"
 }

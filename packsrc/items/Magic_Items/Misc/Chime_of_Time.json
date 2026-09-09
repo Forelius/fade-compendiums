@@ -1,0 +1,52 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Chime of Time",
+  "type": "item",
+  "img": "icons/tools/instruments/bell-brass.webp",
+  "system": {
+    "unidentifiedName": "Chime",
+    "unidentifiedDesc": "<p>This simple metal stick is 3\" long and made of a silvery metal</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This simple metal stick is 3\" long and made of a silvery metal. On command, it will keep track of time, chiming every hour on the hour - the chime can be heard by all within 60' (regardless of intervening walls, rock, etc.). If dampened by a silence, 15' radius spell, the chime will dispel the silence but be dampened to a 30-foot range for that turn.</p><p>A second command will cause the chime to turn color. It will turn gold at one end, the color slowly spreading to the other end in an hour's time. A third command word causes the chime to stop ringing or to stop changing color - but not until 1 turn elapses after the command.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "quvN3cVpZAs5XiYF",
+  "sort": 0,
+  "_originalKey": "!items!quvN3cVpZAs5XiYF"
+}

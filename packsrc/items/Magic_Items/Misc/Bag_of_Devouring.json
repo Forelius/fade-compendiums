@@ -1,0 +1,51 @@
+{
+  "name": "Bag of Devouring",
+  "type": "item",
+  "img": "icons/containers/bags/sack-canvas-grey.webp",
+  "system": {
+    "unidentifiedName": "Sack, Large",
+    "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item looks like a normal small sack, but anything placed within it disappears. Anyone may reach in and find the contents by touch - if the contents are still there! If the contents are not removed within [[/r 1d6+1 #Turns]] (7-12) turns, they will be forever lost. The bag will not affect living creatures unless the entire creature is stuffed inside the bag. This is impossible to do except with very small creatures.</p><p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "bxC2cD2fQ8dRZpYj",
+  "sort": 1200000,
+  "_originalKey": "!items!bxC2cD2fQ8dRZpYj"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Bag of Holding",
+  "type": "item",
+  "img": "icons/containers/bags/sack-canvas-grey.webp",
+  "system": {
+    "unidentifiedName": "Sack, Small",
+    "unidentifiedDesc": "<p>A 1' x 2' cloth or leather bag that can hold up to 200 coins. It can be carried over the shoulder or tied onto a cart or saddle. Often used to store small items or treasure.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This bag looks like a normal small sack, but any items placed within it disappear. Anyone may reach in and find the contents by touch. The bag will actually hold treasures up to 10,000 cn in weight, but will only weigh 600 cn when full. An item to be placed inside the bag may be no larger than 10'x5'x3'. A larger item will not fit inside.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "wkXWs0nt7HzBCrC8",
+  "sort": 1100000,
+  "_originalKey": "!items!wkXWs0nt7HzBCrC8"
+}

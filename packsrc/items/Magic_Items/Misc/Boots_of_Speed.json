@@ -1,9 +1,8 @@
 {
   "folder": "0yIvUPNk5375b9K4",
-  "name": "Boots of Levitation",
+  "name": "Boots of Speed",
   "type": "item",
   "img": "icons/equipment/feet/boots-collared-green.webp",
-  "_id": "34iqf0fH6Fg097bC",
   "system": {
     "unidentifiedName": "Odd Boots",
     "unidentifiedDesc": "<p>These boots are different somehow.</p>",
@@ -11,15 +10,15 @@
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>The wearer may levitate (as if using the magic-user spell). There is no limit to the duration.</p>",
+    "description": "<p>The wearer may move as fast as a riding horse (240' [80']) for 12 hours, after which the wearer must rest for one full day.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
     "charges": 1,
-    "chargesMax": null,
-    "weight": 1,
+    "chargesMax": 0,
+    "weight": 10,
     "weightEquipped": 0,
     "cost": 0,
     "totalWeight": 0,
@@ -33,26 +32,21 @@
     "isDropped": false,
     "isTreasure": true,
     "specialAbilities": [],
-    "spells": [
-      {
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.VpGt1JKRTMc4iLhN",
-        "action": "cast",
-        "castAs": "M6",
-        "name": "Levitate"
-      }
-    ],
+    "spells": [],
     "conditions": []
   },
   "effects": [],
-  "sort": 700000,
   "ownership": {
     "default": 0,
-    "0eyrbleKg5gmY59g": 3
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!34iqf0fH6Fg097bC"
+  "_id": "nHWw36gvHFKspqo0",
+  "sort": 200000,
+  "_originalKey": "!items!nHWw36gvHFKspqo0"
 }

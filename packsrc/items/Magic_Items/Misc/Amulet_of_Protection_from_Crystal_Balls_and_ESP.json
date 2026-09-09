@@ -1,15 +1,15 @@
 {
-  "name": "Cloak of Billowing",
+  "name": "Amulet of Protection from Crystal Balls and ESP",
   "type": "item",
-  "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
+  "img": "icons/equipment/neck/amulet-engraved-wood-blue.webp",
   "system": {
-    "unidentifiedName": "Strange Cloak",
-    "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+    "unidentifiedName": "Strange Amulet",
+    "unidentifiedDesc": "<p>An odd looking amulet is strange symbols carved in it.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+    "description": "<p>The wearer of this item is automatically protected from being spied on by anyone using a crystal ball or any type of ESP.</p>",
     "gm": {
       "notes": ""
     },
@@ -18,8 +18,8 @@
     "charges": 0,
     "chargesMax": 0,
     "weight": 10,
-    "weightEquipped": 0,
-    "cost": 69,
+    "weightEquipped": 10,
+    "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -45,7 +45,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "D0XsfwinbB4XxLBK",
-  "sort": 800000,
-  "_originalKey": "!items!D0XsfwinbB4XxLBK"
+  "_id": "oRc7XbDYo5Fmn7mU",
+  "sort": 900000,
+  "_originalKey": "!items!oRc7XbDYo5Fmn7mU"
 }
