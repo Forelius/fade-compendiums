@@ -1,16 +1,16 @@
 {
   "folder": "0yIvUPNk5375b9K4",
-  "name": "Censer of Controlling Air Elementals",
+  "name": "Flying Carpet",
   "type": "item",
-  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
   "system": {
-    "unidentifiedName": "Censer",
-    "unidentifiedDesc": "<p>A metal censer for burning incense or perfume.</p>",
+    "unidentifiedName": "Carpet",
+    "unidentifiedDesc": "<p>A nice looking carpet.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>This item may be used only once per day and requires 1 turn to use. The censer will summon an air elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
+    "description": "<p>This item can carry one passenger at up to 300' per turn, two at 240' per turn, or three at 180' per turn. It will not carry more than three passengers and their equipment. As an option, the DM can say that the carpet will carry an encumbrance of 6,000 cn, but the weight of the passengers will have to be calculated.</p>",
     "gm": {
       "notes": ""
     },
@@ -18,8 +18,8 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
+    "weight": 100,
+    "weightEquipped": 100,
     "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
@@ -46,7 +46,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "61dKw4tVD2Pxdhqo",
-  "sort": 1000000,
-  "_originalKey": "!items!61dKw4tVD2Pxdhqo"
+  "_id": "3aPTUUINUQTgUyF4",
+  "sort": 0,
+  "_originalKey": "!items!3aPTUUINUQTgUyF4"
 }

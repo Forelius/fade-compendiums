@@ -1,0 +1,59 @@
+{
+  "name": "Silent",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/mute.png",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The effected is very quiet and only has a 1 in 10 chance of being heard. This effect only works when the creature is trying to be quiet, like moving in a stealthy way. It does not mean the effect creature can't make noise if they wish.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "9iIgsBHMmGgSUq1C"
+  ],
+  "folder": "DHxEnc4I068rxlES",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Z61e6QEqVK17Snco",
+  "sort": 0,
+  "_originalKey": "!items!Z61e6QEqVK17Snco",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!Z61e6QEqVK17Snco.9iIgsBHMmGgSUq1C",
+      "name": "Silent",
+      "img": "systems/fantastic-depths/assets/img/ui/mute.png",
+      "disabled": false,
+      "_id": "9iIgsBHMmGgSUq1C",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>The effected is very quiet and only has a 1 in 10 chance of being heard.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

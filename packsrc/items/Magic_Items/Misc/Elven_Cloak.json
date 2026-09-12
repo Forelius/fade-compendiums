@@ -1,5 +1,5 @@
 {
-  "name": "Cloak of Billowing",
+  "name": "Elven Cloak",
   "type": "item",
   "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
   "system": {
@@ -9,7 +9,7 @@
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+    "description": "<p>The wearer of this cloak is nearly invisible (roll [[/r 1d6 #Only seen on a 1]]; seen only on a 1). The wearer becomes visible when attacking or casting a spell, and he may not become invisible again for a full turn.</p>",
     "gm": {
       "notes": ""
     },
@@ -32,7 +32,13 @@
     "isTreasure": true,
     "specialAbilities": [],
     "spells": [],
-    "conditions": []
+    "conditions": [
+      {
+        "name": "Invisible",
+        "durationFormula": null,
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
+      }
+    ]
   },
   "effects": [],
   "folder": "0yIvUPNk5375b9K4",
@@ -45,7 +51,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "D0XsfwinbB4XxLBK",
-  "sort": 1400000,
-  "_originalKey": "!items!D0XsfwinbB4XxLBK"
+  "_id": "c3eGjbUzA1iogkfN",
+  "sort": 0,
+  "_originalKey": "!items!c3eGjbUzA1iogkfN"
 }

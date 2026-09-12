@@ -1,0 +1,142 @@
+{
+  "name": "Displacer Cloak",
+  "type": "item",
+  "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
+  "system": {
+    "unidentifiedName": "Strange Cloak",
+    "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item warps light rays; the wearer is actually 5' away from the perceived location. The cloak gives a bonus of +2 to the wearer's saving throws vs. spell, wand/staff/rod, and turn to stone attacks. Hand-to-hand attacks on the wearer are penalized by -2 on the attack rolls, and most missile fire will automatically miss.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 0,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [
+    "8ettk0UhCNiM0mBc",
+    "p6ycUBuztdeuXL9b"
+  ],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "F5IcK6AuP07bFV2E",
+  "sort": 600000,
+  "_originalKey": "!items!F5IcK6AuP07bFV2E",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!F5IcK6AuP07bFV2E.8ettk0UhCNiM0mBc",
+      "name": "-2 To Hit",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.5BQM4xh7i40jkvuD",
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "8ettk0UhCNiM0mBc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.selfToHit",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!items.effects!F5IcK6AuP07bFV2E.p6ycUBuztdeuXL9b",
+      "name": "+2 Saving Throws",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.5BQM4xh7i40jkvuD",
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "p6ycUBuztdeuXL9b",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.spell",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.save.wand",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.save.paralysis",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

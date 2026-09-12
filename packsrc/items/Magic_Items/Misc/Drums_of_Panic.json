@@ -1,16 +1,16 @@
 {
   "folder": "0yIvUPNk5375b9K4",
-  "name": "Censer of Controlling Air Elementals",
+  "name": "Drums of Panic",
   "type": "item",
-  "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+  "img": "icons/tools/instruments/drum-brown-red.webp",
   "system": {
-    "unidentifiedName": "Censer",
-    "unidentifiedDesc": "<p>A metal censer for burning incense or perfume.</p>",
+    "unidentifiedName": "Drums",
+    "unidentifiedDesc": "<p>Large kettle drum(s).</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>This item may be used only once per day and requires 1 turn to use. The censer will summon an air elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
+    "description": "<p>These large kettle drums have no effect on any creatures within 10' of them. When used, however, all creatures 10'-240' away must make a saving throw vs. spell or run away from the user for 3 full turns. If the morale system is used, no saving throw is needed, but each creature must make a morale check instead, with a penalty of +2 to the roll.</p>",
     "gm": {
       "notes": ""
     },
@@ -18,8 +18,8 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
+    "weight": 100,
+    "weightEquipped": 100,
     "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
@@ -46,7 +46,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "61dKw4tVD2Pxdhqo",
-  "sort": 1000000,
-  "_originalKey": "!items!61dKw4tVD2Pxdhqo"
+  "_id": "kU9f7lPXun2RalrO",
+  "sort": 300000,
+  "_originalKey": "!items!kU9f7lPXun2RalrO"
 }
