@@ -1,0 +1,59 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Helm of Teleportation (M)",
+  "type": "item",
+  "img": "icons/equipment/head/hood-cloth-gold-pink.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>Usable by magic-users only, this helm allows the wearer to teleport (as the magic-user spell, including chances of error) himself or to attempt to teleport another creature or item. An unwilling victim can make a saving throw vs. spells to avoid the effect. After one use, the helm will no longer function. If a teleport spell is then cast upon it, the user can then teleport as often as desired, up to once per round, without using charges. However, whenever the helm is used to teleport another item or creature, it again becomes useless, requiring another teleport spell to reactivate it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": true,
+    "fuelType": "",
+    "shortName": "",
+    "unidentifiedName": "Helm, Cloth",
+    "unidentifiedDesc": "<p>A helm made of some type of cloth.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 1,
+    "chargesMax": 1,
+    "weightEquipped": 0,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.9odcKQwwvJit7xwl",
+        "action": "cast",
+        "castAs": "6",
+        "name": "Teleport"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "aNLP5BQDitXB92yU",
+  "sort": 400000,
+  "_originalKey": "!items!aNLP5BQDitXB92yU"
+}
