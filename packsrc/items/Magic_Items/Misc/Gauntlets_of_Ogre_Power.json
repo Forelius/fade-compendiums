@@ -1,0 +1,93 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Gauntlets of Ogre Power",
+  "type": "item",
+  "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
+  "system": {
+    "unidentifiedName": "Gauntlets",
+    "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A pair of gauntlets.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>These gauntlets will give the wearer a Strength score of 18, gaining all normal bonuses. If the wearer is not using a weapon, he can strike with one fist each round, gaining a +3 on hit rolls, for 1d4 points of damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 0,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [
+    "jc9Ojrbgn5E710v9"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vMtSQrqS5LVb2YFe",
+  "sort": 1100000,
+  "_originalKey": "!items!vMtSQrqS5LVb2YFe",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!vMtSQrqS5LVb2YFe.jc9Ojrbgn5E710v9",
+      "name": "Strength  18",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.DUZjh5pS5cCBZmzL",
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "jc9Ojrbgn5E710v9",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.total",
+          "mode": 4,
+          "value": "18",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

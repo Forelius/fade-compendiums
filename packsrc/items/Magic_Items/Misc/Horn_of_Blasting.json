@@ -1,0 +1,65 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Horn of Blasting",
+  "type": "item",
+  "img": "icons/tools/instruments/horn-white-gray.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This horn creates a cone of sound, 100' long and 20' wide at the far end, when blown. Victims within this area take [[/r 2d6 #Damage]] points of damage and must make a saving throw vs. spells or be deafened for one turn; constructions and ships take [[/r 1d8 #Damage]] points of damage. The horn may be blown but once per turn.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "shortName": "",
+    "unidentifiedName": "Horn",
+    "unidentifiedDesc": "<p>A horn made out of an animals horn.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 1,
+    "chargesMax": 1,
+    "weightEquipped": 0,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ERPreqTsWBFb42db",
+        "action": "use",
+        "castAs": "",
+        "name": "Horn Blast (Creature)"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.OpmTEFjSjF2ZIUUc",
+        "action": "use",
+        "castAs": "",
+        "name": "Horn Blast (Hull)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "yk9tafb49cRYeDof",
+  "sort": 300000,
+  "_originalKey": "!items!yk9tafb49cRYeDof"
+}

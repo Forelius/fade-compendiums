@@ -1,25 +1,26 @@
 {
-  "name": "Cloak of Billowing",
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Boots of Speed",
   "type": "item",
-  "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
+  "img": "icons/equipment/feet/boots-collared-green.webp",
   "system": {
-    "unidentifiedName": "Strange Cloak",
-    "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+    "unidentifiedName": "Odd Boots",
+    "unidentifiedDesc": "<p>These boots are different somehow.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+    "description": "<p>The wearer may move as fast as a riding horse (240' [80']) for 12 hours, after which the wearer must rest for one full day.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
+    "charges": 1,
     "chargesMax": 0,
     "weight": 10,
     "weightEquipped": 0,
-    "cost": null,
+    "cost": 0,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -35,9 +36,9 @@
     "conditions": []
   },
   "effects": [],
-  "folder": "0yIvUPNk5375b9K4",
   "ownership": {
     "default": 0,
+    "0eyrbleKg5gmY59g": 3,
     "PQautH39zHZdSjg6": 3
   },
   "flags": {},
@@ -45,7 +46,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "D0XsfwinbB4XxLBK",
-  "sort": 2600000,
-  "_originalKey": "!items!D0XsfwinbB4XxLBK"
+  "_id": "nHWw36gvHFKspqo0",
+  "sort": 2000000,
+  "_originalKey": "!items!nHWw36gvHFKspqo0"
 }

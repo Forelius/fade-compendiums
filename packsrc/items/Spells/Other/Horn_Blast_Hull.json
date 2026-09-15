@@ -1,0 +1,44 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Horn Blast (Hull)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Creates a cone of sound, 100' long and 20' wide at the far end, when blown. Victims within this area take [[/r 2d6 #Damage]] points of damage and must make a saving throw vs. spells or be deafened for one turn; constructions and ships take [[/r 1d8 #Damage]] points of damage. The horn may be blown but once per turn.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "100",
+    "duration": "Instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "1d8",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "breath",
+    "damageType": "hull",
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "OpmTEFjSjF2ZIUUc",
+  "sort": 0,
+  "_originalKey": "!items!OpmTEFjSjF2ZIUUc"
+}

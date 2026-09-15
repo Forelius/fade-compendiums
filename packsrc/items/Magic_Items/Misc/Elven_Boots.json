@@ -1,15 +1,16 @@
 {
-  "name": "Cloak of Billowing",
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Elven Boots",
   "type": "item",
-  "img": "icons/equipment/back/cloak-collared-blue-gold.webp",
+  "img": "icons/equipment/feet/boots-folded-leather-brown.webp",
   "system": {
-    "unidentifiedName": "Strange Cloak",
-    "unidentifiedDesc": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness.</p>",
+    "unidentifiedName": "Boots",
+    "unidentifiedDesc": "<p>A sturdy pair of boots.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>A short cloak to cover one's shoulders and back for warmth. Some have hoods. Prices can vary greatly depending on quality and ornateness. While wearing this cloak, you can use a bonus action to make it billow dramatically.</p>",
+    "description": "<p>The wearer of these boots may move with nearly complete silence (roll [[/r 1d10 #Heard only on a 1]]; heard only on a 1).</p>",
     "gm": {
       "notes": ""
     },
@@ -32,12 +33,18 @@
     "isTreasure": true,
     "specialAbilities": [],
     "spells": [],
-    "conditions": []
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Z61e6QEqVK17Snco",
+        "name": "Silent",
+        "durationFormula": ""
+      }
+    ]
   },
   "effects": [],
-  "folder": "0yIvUPNk5375b9K4",
   "ownership": {
     "default": 0,
+    "0eyrbleKg5gmY59g": 3,
     "PQautH39zHZdSjg6": 3
   },
   "flags": {},
@@ -45,7 +52,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "D0XsfwinbB4XxLBK",
-  "sort": 2600000,
-  "_originalKey": "!items!D0XsfwinbB4XxLBK"
+  "_id": "X87LwkHXP4KSWvFc",
+  "sort": 800000,
+  "_originalKey": "!items!X87LwkHXP4KSWvFc"
 }

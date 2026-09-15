@@ -17,7 +17,7 @@
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": null,
+    "charges": 1,
     "chargesMax": null,
     "weight": 1,
     "weightEquipped": 0,
@@ -31,7 +31,7 @@
     "equippable": true,
     "fuelType": "",
     "isDropped": false,
-    "isTreasure": false,
+    "isTreasure": true,
     "specialAbilities": [],
     "spells": [
       {
@@ -44,7 +44,7 @@
     "conditions": []
   },
   "effects": [],
-  "sort": 0,
+  "sort": 2500000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3
