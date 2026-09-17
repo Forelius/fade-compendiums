@@ -1,0 +1,71 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Lamp of Long Burning",
+  "type": "light",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This item is identical to a normal adventurer's lantern. It is made of metal, with a lower compartment for oil, a handle, and shutters around the body to protect the flame from wind. When filled with oil and lit as a normal lantern, it will burn and shed light without using oil. If the flame is ever doused by water, the lamp of long burning becomes nonmagical.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": true,
+    "fuelType": "",
+    "light": {
+      "fuelType": "",
+      "type": "lantern",
+      "duration": null,
+      "radius": 30,
+      "bright": 6,
+      "color": "#d0a750",
+      "attenuation": 0.9,
+      "luminosity": 0.5,
+      "angle": 360,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 2
+      },
+      "enabled": false,
+      "secondsRemain": 0
+    },
+    "isLight": true,
+    "shortName": "",
+    "unidentifiedName": "Lantern",
+    "unidentifiedDesc": "<p>An oil lantern.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 30,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "H1Tf7W2sSjtIqMyS",
+  "sort": 0,
+  "_originalKey": "!items!H1Tf7W2sSjtIqMyS"
+}

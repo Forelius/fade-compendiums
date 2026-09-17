@@ -1,0 +1,71 @@
+{
+  "folder": "0yIvUPNk5375b9K4",
+  "name": "Lamp, Hurricane",
+  "type": "light",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This item is identical to a normal adventurer's lantern. It is made of metal, with a lower compartment for oil, a handle, and shutters around the body to protect the flame from wind. When filled with oil and lit as a normal lantern, it will burn and shed light without using oil. If the flame is ever doused by water, the lamp of long burning becomes nonmagical.<br><br>This item appears and functions as a lamp of long burning in all respects, but only after its storm has passed, as described hereafter.</p><p>This lamp is always closed when found. When the shutters are opened, violent gusts of wind and rain come from the lamp, dousing the holder (who gets no saving throw) and all others within 30'. This \"hurricane\" lasts for 3 rounds; each victim must make a saving throw vs. spells, and all those failing are knocked over from the winds. If this occurs, every item carried (excluding body clothing and/or armor but including caps, gloves, treasure, etc.) is blown about, landing scattered within 60'. A successful saving throw indicates that the victim has fallen to the ground in time, tightly grasping all items carried. The hurricane lamp may thereafter be used as a lamp of long burning for the remainder of the day. It resets its \"hurricane\" effect every 24 hours, which must again be triggered before the lamp can be of more beneficial use.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 30,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": true,
+    "fuelType": "",
+    "light": {
+      "fuelType": "",
+      "type": "lantern",
+      "duration": null,
+      "radius": 30,
+      "bright": 6,
+      "color": "#d0a750",
+      "attenuation": 0.9,
+      "luminosity": 0.5,
+      "angle": 360,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 2
+      },
+      "enabled": false,
+      "secondsRemain": 0
+    },
+    "isLight": true,
+    "shortName": "",
+    "unidentifiedName": "Lantern",
+    "unidentifiedDesc": "<p>An oil lantern.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 30,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vKAHjaWZdMLcKcKw",
+  "sort": 0,
+  "_originalKey": "!items!vKAHjaWZdMLcKcKw"
+}
