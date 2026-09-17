@@ -1,0 +1,21 @@
+{
+  "folder": "g5O0eTAR4mnkX6xk",
+  "name": "Acrobatics Check",
+  "type": "script",
+  "author": "PQautH39zHZdSjg6",
+  "img": "icons/svg/jump.svg",
+  "scope": "global",
+  "command": "// === ACROBATICS CHECK for Fantastic Depths - Thanks FR4NC35C0 for posting your version to our Discord server. This is a slight modification to your macro. ===\n\nconst actor = canvas.tokens.controlled[0]?.actor ?? game.user.character;\nif (!actor) {\n  return ui.notifications.warn(\"❌ Please select a token on the scene!\");\n}\n\n// Retrieve Dex and Level - optimized for Fantastic Depths\nconst dex = Number(\n  actor.system.abilities?.dex?.value ??\n  actor.system.attributes?.dex?.value ??\n  actor.system.abilities?.dex ??\n  10\n);\n\nlet lvl = Number(\n  actor.system.class?.level ?? \n  actor.system.details?.level?.value ??\n  actor.system.level?.value ??\n  actor.system.details?.level ??\n  actor.system.details?.lvl ??\n  actor.system.class?.levels ??\n  actor.system.details?.classLevel ??\n  actor.system.details?.experience?.level ?? \n  1\n);\n\nconst target = 3 * dex + 2 * lvl;\n\n// Create and evaluate the Roll (v12+ syntax)\nconst roll = new Roll(\"1d100\");\nawait roll.evaluate();\n\nconst rollTotal = roll.total;\nconst isSuccess = rollTotal < target;\n\n// Badge styling\nconst statusText = isSuccess ? \"Success\" : \"Failure\";\nconst badgeBg = isSuccess ? \"#2e7d32\" : \"#c62828\"; // Muted dark green / red\n\n// Clean, compact Chat HTML\nconst messageContent = `\n<div style=\"font-family: var(--font-primary); font-size: 13px;\">\n  <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;\">\n    <strong>Acrobatics Check</strong>\n    <span style=\"background: ${badgeBg}; color: #fff; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 11px;\">\n      ${statusText}\n    </span>\n  </div>\n\n  <table style=\"width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; margin: 0;\">\n    <tr style=\"border-bottom: 1px solid rgba(0,0,0,0.1);\">\n      <td style=\"padding: 3px 0; color: #555;\">Target Threshold</td>\n      <td style=\"padding: 3px 0; text-align: right; font-weight: bold;\">${target}</td>\n    </tr>\n    <tr style=\"border-bottom: 1px solid rgba(0,0,0,0.1);\">\n      <td style=\"padding: 3px 0; color: #555;\">Calculation</td>\n      <td style=\"padding: 3px 0; text-align: right; color: #666; font-size: 11px;\">(3×${dex}) + (2×${lvl})</td>\n    </tr>\n    <tr>\n      <td style=\"padding: 3px 0; font-weight: bold;\">d100 Roll</td>\n      <td style=\"padding: 3px 0; text-align: right; font-size: 15px; font-weight: bold;\">${rollTotal}</td>\n    </tr>\n  </table>\n</div>\n`;\n\n// Send message to Chat (Dice So Nice triggers automatically from roll)\nawait roll.toMessage({\n  speaker: ChatMessage.getSpeaker({ actor }),\n  content: messageContent,\n  rollMode: game.settings.get(\"core\", \"rollMode\")\n});",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "F0n6lyx9gdB3emSM",
+  "sort": 0,
+  "_originalKey": "!macros!F0n6lyx9gdB3emSM"
+}
