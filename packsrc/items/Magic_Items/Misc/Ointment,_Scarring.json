@@ -1,0 +1,58 @@
+{
+  "name": "Ointment, Scarring",
+  "type": "item",
+  "img": "icons/containers/boxes/crate-wooden-brown.webp",
+  "system": {
+    "unidentifiedName": "Ointment",
+    "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This salve seems to be an <em>ointment of healing</em>, but instead it inflicts [[/r 2d6 #Inflicted severe burn damage points.]] points of severe burn damage, which can only be repaired by <em>ointment of soothing</em>, a <em>cureall</em> spell, or a <em>wish</em>.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+    "gm": {
+      "notes": "The ointment must be applied to the skin. The damage is permanent unless reversed by methods mentioned."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.b4dh6tvtuK283Rfp",
+        "action": "consume",
+        "castAs": "",
+        "name": "Scarring (Ointment)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "qYntph9pUvuVPRJr",
+  "sort": 25000,
+  "_originalKey": "!items!qYntph9pUvuVPRJr"
+}

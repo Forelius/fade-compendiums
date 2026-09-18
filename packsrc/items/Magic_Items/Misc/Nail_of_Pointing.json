@@ -1,0 +1,51 @@
+{
+  "name": "Nail of Pointing",
+  "type": "item",
+  "img": "icons/tools/fasteners/nail-steel.webp",
+  "system": {
+    "unidentifiedName": "Nail",
+    "unidentifiedDesc": "<p>A common iron nail of medieval carpentry, 1\"-4\" long and very crudely made.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item appears identical to a common carpentry nail. If its command word is known, the user may cause it to point at any nonmagical item named (door, stairway, gold piece, etc.); the nail then turns into a finger of bone and points toward the closest item of that type. It will continue to point at that item for 1 turn and then return to nail form. </p><p>There is no limit to the range of the nail's detection, but it cannot detect living or undead creatures of any type, nor can it detect any magical item or spell effect. The nail of pointing will function once per day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "EnY4vMOkcfRGlME6",
+  "sort": 0,
+  "_originalKey": "!items!EnY4vMOkcfRGlME6"
+}

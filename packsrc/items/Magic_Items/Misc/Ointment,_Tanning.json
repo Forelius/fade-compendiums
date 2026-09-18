@@ -1,0 +1,58 @@
+{
+  "name": "Ointment, Tanning",
+  "type": "item",
+  "img": "icons/containers/boxes/crate-wooden-brown.webp",
+  "system": {
+    "unidentifiedName": "Ointment",
+    "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This salve causes all the recipient's skin to turn a bright color (determined randomly from red, yellow, orange, blue, green, or brown). The effect cannot be removed but will gradually wear off in [[/r 1d4 #Months]] months.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+    "gm": {
+      "notes": "The ointment must be applied to the skin."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e4NdxfS7o1rF5gFa",
+        "action": "consume",
+        "castAs": "",
+        "name": "Tanning (Ointment)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "E5eUUUMq97YZPuqn",
+  "sort": 12500,
+  "_originalKey": "!items!E5eUUUMq97YZPuqn"
+}

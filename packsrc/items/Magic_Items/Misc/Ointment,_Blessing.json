@@ -1,0 +1,58 @@
+{
+  "name": "Ointment, Blessing",
+  "type": "item",
+  "img": "icons/containers/boxes/crate-wooden-brown.webp",
+  "system": {
+    "unidentifiedName": "Ointment",
+    "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This salve gives the recipient a -2 bonus to armor class and a +2 bonus to all saving throws for 1 turn.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+    "gm": {
+      "notes": "The ointment must be applied to the skin."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.dDZgMlhOdaVfYL33",
+        "action": "consume",
+        "castAs": "",
+        "name": "Invulnerability (Ointment)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "03HJIq1Rv9z8NLN5",
+  "sort": 0,
+  "_originalKey": "!items!03HJIq1Rv9z8NLN5"
+}
