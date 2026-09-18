@@ -1,0 +1,45 @@
+{
+  "name": "Tanning (Ointment)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Causes all the recipient's skin to turn a bright color (determined randomly from red, yellow, orange, blue, green, or brown). The effect cannot be removed but will gradually wear off in [[/r 1d4 #Months]] months.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "1-4 months",
+    "effect": "Turns skin a bright color",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d4)*241920",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "heal",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "e4NdxfS7o1rF5gFa",
+  "sort": 0,
+  "_originalKey": "!items!e4NdxfS7o1rF5gFa"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Ointment, Healing",
+  "type": "item",
+  "img": "icons/containers/boxes/crate-wooden-brown.webp",
+  "system": {
+    "unidentifiedName": "Ointment",
+    "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This salve heals [[/r 2d6+2 #Healed points of damage]] points of damage.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+    "gm": {
+      "notes": "The ointment must be applied to the skin."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.dFYCyqyKloqap0BG",
+        "action": "consume",
+        "castAs": "",
+        "name": "Healing (Ointment)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4hJcYcwSk2B7yoqG",
+  "sort": 50000,
+  "_originalKey": "!items!4hJcYcwSk2B7yoqG"
+}

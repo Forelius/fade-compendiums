@@ -1,0 +1,45 @@
+{
+  "name": "Healing (Ointment)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Heals 2d6 + 2 points of damage on one living creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "Heals one living creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "2d6 + 2",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "heal",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "dFYCyqyKloqap0BG",
+  "sort": 0,
+  "_originalKey": "!items!dFYCyqyKloqap0BG"
+}

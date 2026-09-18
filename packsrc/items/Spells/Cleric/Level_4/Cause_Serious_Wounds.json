@@ -17,7 +17,7 @@
     "effect": "Causes damage to one creature",
     "memorized": 0,
     "cast": 0,
-    "targetSelf": false,
+    "targetSelf": true,
     "targetOther": true,
     "dmgFormula": "2d6+2",
     "healFormula": "",

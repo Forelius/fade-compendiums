@@ -1,0 +1,58 @@
+{
+  "name": "Ointment, Poison",
+  "type": "item",
+  "img": "icons/containers/boxes/crate-wooden-brown.webp",
+  "system": {
+    "unidentifiedName": "Ointment",
+    "unidentifiedDesc": "<p>Creamy ointment of some type in a small wooden box. A cotton swab lays across the ointment inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This salve seems to be an ointment of blessing, but it is a poison and the recipient must make a saving throw vs. poison, with a -2 penalty to the roll, or die.</p><p>This white creamy salve is found in a small wooden box with a cotton swab. If <strong>all</strong> the salve found is rubbed on any part of the skin of the recipient, a magical effect is produced. All ointments look, smell, and taste the same.</p><p>It takes 1-2 rounds to apply the ointment.</p>",
+    "gm": {
+      "notes": "The ointment must be applied to the skin."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Eqg0ClOBML8njkf0",
+        "action": "consume",
+        "castAs": "",
+        "name": "Poison"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "h7Co5XtbYHZuqQsz",
+  "sort": 0,
+  "_originalKey": "!items!h7Co5XtbYHZuqQsz"
+}

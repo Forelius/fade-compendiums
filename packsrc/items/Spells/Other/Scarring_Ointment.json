@@ -1,0 +1,45 @@
+{
+  "name": "Scarring (Ointment)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>Inflicts 2d6 points of severe burn damage, which can only be repaired by <em>ointment of soothing</em>, a <em>cureall</em> spell, or a <em>wish</em>.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "Causes damage to one creature",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "2d6",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "0",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "magic",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "b4dh6tvtuK283Rfp",
+  "sort": 0,
+  "_originalKey": "!items!b4dh6tvtuK283Rfp"
+}
