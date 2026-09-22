@@ -13,7 +13,7 @@
     },
     "spellLevel": 6,
     "range": "60'",
-    "duration": "1 turn per level of the caster",
+    "duration": "1/level",
     "effect": "Prevents communication",
     "targetSelf": false,
     "targetOther": true,
@@ -32,7 +32,11 @@
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "effects": [],
   "_id": "MXFGaUoPOui8WVV8",

@@ -4,9 +4,7 @@
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "folder": "TnEmaPQavdbpoj5v",
   "system": {
-    "tags": [
-      "bard"
-    ],
+    "tags": [],
     "description": "<p>This spell-song is the opposite of <em>Song of Binding</em>. When sung, it grants those affected an opportunity to break free from paralysis.</p><p><strong>Effects:</strong></p><ul><li>Up to four creatures within range are affected.</li><li>Each affected creature that is currently paralyzed may make a new saving throw vs. Paralysis every round.</li><li>A successful saving throw immediately removes the paralysis effect.</li><li>The spell-song lasts for 1 round per level of the bard.</li></ul><p><strong>Additional Notes:</strong></p><ul><li>The song permanently negates any existing paralysis for creatures that successfully save.</li><li>This spell-song has the same range and limitations as <em>Song of Binding</em>.</li></ul>",
     "gm": {
       "notes": ""
@@ -14,10 +12,10 @@
     "spellLevel": 4,
     "range": "30' (+10'/level)",
     "duration": "1 round/level",
-    "effect": "Allows paralysed creatures to make additional saving throws each round",
+    "effect": "Allows paralyzed creatures to make additional saving throws each round",
     "targetSelf": false,
     "targetOther": true,
-    "durationFormula": "@actor.details.level",
+    "durationFormula": "@classes.B.level",
     "savingThrow": "paralysis",
     "memorized": 0,
     "cast": 0,
@@ -32,7 +30,11 @@
         "name": "Bard",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30+(@classes.B.level*10)"
+    }
   },
   "effects": [],
   "_id": "4atNmV1yP2pEdfWQ",

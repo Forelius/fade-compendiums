@@ -4,17 +4,15 @@
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "folder": "k9fcbR0oQznbrWf7",
   "system": {
-    "tags": [
-      "bard"
-    ],
+    "tags": [],
     "description": "<p>When this song is sung, all within 10' of the bard instantly feel as though they have had a full night's sleep. Fatigue penalties are eliminated, and those affected do not need to rest for the night.</p><p><strong>Effects:</strong></p><ul><li>Instantly removes all fatigue penalties.</li><li>Replaces the need for a full night's sleep.</li></ul><p><strong>Limitations:</strong></p><ul><li>This spell cannot be used for more than three consecutive days.</li><li>The bard cannot sing this song more than four times per week.</li><li>If overused, fatigue penalties apply as normal, as the body cannot go without sleep indefinitely.</li></ul>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 2,
-    "range": "0 (bard + recipients only)",
+    "range": "10'",
     "duration": "Instant",
-    "effect": "Removes fatigue and eliminates the need for sleep",
+    "effect": "Removes fatigue and eliminates need for sleep",
     "targetSelf": false,
     "targetOther": true,
     "dmgFormula": "",
@@ -32,7 +30,11 @@
         "name": "Bard",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "10"
+    }
   },
   "effects": [],
   "_id": "mg75PdA4qMZYkS0q",

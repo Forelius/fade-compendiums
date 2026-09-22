@@ -11,7 +11,7 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "Personal",
+    "range": "60'",
     "duration": "2 turns (20 minutes)",
     "effect": "Everything within 60'",
     "memorized": 0,
@@ -35,7 +35,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "effects": [],
   "ownership": {

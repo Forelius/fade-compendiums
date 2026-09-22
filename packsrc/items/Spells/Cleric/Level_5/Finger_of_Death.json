@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p>The reversed form of *Raise Dead*, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p>\n                      <p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p>\n                      <p>A Lawful cleric will typically only use *Finger of Death* in life-or-death situations.</p>",
+    "description": "<p>The reversed form of <em>Raise Dead</em>, this spell creates a death ray that kills a single living creature within 60' unless the target succeeds on a saving throw vs. death ray.</p><p><strong>Undead Effect:</strong> If cast on an undead creature with 10 or more Hit Dice (such as a phantom, haunt, spirit, nightshade, or special), it restores 3d10 hit points instead of dealing damage.</p><p>A Lawful cleric will typically only use <em>Finger of Death</em> in life-or-death situations.</p>",
     "gm": {
       "notes": ""
     },
@@ -36,7 +36,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "effects": [],
   "ownership": {

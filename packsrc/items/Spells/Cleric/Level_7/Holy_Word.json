@@ -10,7 +10,7 @@
       "notes": ""
     },
     "spellLevel": 7,
-    "range": "0",
+    "range": "40'",
     "duration": "Instantaneous",
     "effect": "All creatures within 40'",
     "targetSelf": true,
@@ -30,7 +30,11 @@
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "40"
+    }
   },
   "effects": [],
   "_id": "pHCqcNxNfzlipR5x",

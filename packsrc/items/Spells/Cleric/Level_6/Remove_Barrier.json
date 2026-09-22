@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p>\n                      <p><strong>Effects:</strong> *Remove Barrier* will destroy a cleric's *Barrier* spell and can also dispel the following magic-user spells:</p>\n                      <ul>\n                        <li><strong>Wall of Ice</strong></li>\n                        <li><strong>Wall of Fire</strong></li>\n                        <li><strong>Clothform</strong></li>\n                        <li><strong>Woodform</strong></li>\n                        <li><strong>Wall of Stone</strong></li>\n                      </ul>\n                      <p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: *Wall of Iron*, *Stoneform*, *Ironform*, or *Steelform*.</p>",
+    "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p><p><strong>Effects:</strong> <em>Remove Barrier</em> will destroy a cleric's <em>Barrier</em> spell and can also dispel the following magic-user spells:</p><ul><li><em>Wall of Ice</em></li><li><em>Wall of Fire</em></li><li><em>Clothform</em></li><li><em>Woodform</em></li><li><em>Wall of Stone</em></li></ul><p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: <em>Wall of Iron</em>, <em>Stoneform</em>, <em>Ironform</em>, or <em>Steelform</em>.</p>",
     "gm": {
       "notes": ""
     },
@@ -32,7 +32,11 @@
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "effects": [],
   "_id": "9jEHRoSKHrskRMcW",

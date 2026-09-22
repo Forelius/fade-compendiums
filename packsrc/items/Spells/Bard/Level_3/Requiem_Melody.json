@@ -12,12 +12,12 @@
       "notes": ""
     },
     "spellLevel": 3,
-    "range": "120'",
+    "range": "15'+5'/level",
     "duration": "Special",
     "effect": "Overwhelms a target with despair, causing self-inflicted harm",
     "targetSelf": false,
     "targetOther": true,
-    "durationFormula": "",
+    "durationFormula": "@actor.system.abilities.con.value",
     "savingThrow": "spell",
     "memorized": 0,
     "cast": 0,
@@ -32,7 +32,11 @@
         "name": "Bard",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "15+(@classes.B.level*5)"
+    }
   },
   "effects": [],
   "_id": "jQSVIf98eXPM8YAA",

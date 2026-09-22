@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This spell infects the victim with a hideous wasting disease unless they successfully make a saving throw against spells. A diseased victim suffers a -2 penalty on all attack rolls. Additionally, the victim's wounds cannot be magically cured, and natural healing takes twice as long as usual. </span>The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
+    "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif\">This spell infects the victim with a hideous wasting disease unless they successfully make a saving throw against spells. A diseased victim suffers a -2 penalty on all attack rolls. Additionally, the victim's wounds cannot be magically cured, and natural healing takes twice as long as usual. </span>The disease is fatal within [[/r 2d12 #Cure Disease duration in days]] days unless removed by a <em>cure disease</em> spell.</p>",
     "gm": {
       "notes": ""
     },
@@ -42,7 +42,11 @@
         "name": "Diseased (Wasting)",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.DEtxUEvRqfwOvoSg"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "flags": {},
   "effects": [],

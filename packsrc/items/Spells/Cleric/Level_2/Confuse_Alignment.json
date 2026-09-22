@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p><p>This spell allows the spellcaster to determine the alignment (Lawful, Neutral, or Chaotic) of any one creature within 10'. It can also reveal the alignment of an enchanted item or area, if applicable.</p>",
+    "description": "<p><em>Confuse alignment</em>, lasts for one turn per level of the spellcaster and can be cast on a creature by touch. No saving throw is allowed. For the duration of the spell, any attempt to discern the recipient's alignment will yield a false result. This false alignment will remain consistent for all subsequent detection attempts during the spell's duration.</p>",
     "gm": {
       "notes": ""
     },
@@ -36,7 +36,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "",
+      "distance": ""
+    }
   },
   "effects": [],
   "ownership": {

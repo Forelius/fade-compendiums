@@ -10,7 +10,7 @@
       "notes": ""
     },
     "spellLevel": 6,
-    "range": "0",
+    "range": "30'",
     "duration": "1 round per level of the cleric",
     "effect": "Permits conversation with any monster",
     "targetSelf": true,
@@ -30,7 +30,11 @@
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "effects": [],
   "_id": "0kIUbP6gplLuiWhS",

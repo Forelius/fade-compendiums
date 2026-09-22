@@ -4,15 +4,13 @@
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "folder": "k9fcbR0oQznbrWf7",
   "system": {
-    "tags": [
-      "bard"
-    ],
+    "tags": [],
     "description": "<p>This spell-song allows the bard to temporarily enchant one missile attack per round while singing and playing an instrument. The bard must succeed in all required checks to maintain the song.</p><p><strong>Effects:</strong></p><ul><li>One arrow, quarrel, or sling stone per round is enchanted.</li><li>The enchanted missile gains +4 to hit.</li><li>The missile can damage creatures normally immune to non-silvered or non-magical weapons.</li></ul><p><strong>Duration:</strong></p><ul><li>The bard may continue this song for a maximum number of rounds equal to their Constitution score.</li><li>After reaching this limit, the bard passes out for [[/r 1d4 #Hours Unconscious]] hours.</li><li>If the bard stops singing before reaching their limit, there are no negative effects.</li></ul>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 2,
-    "range": "20' + 10'/level of bard",
+    "range": "20' + 10'/level",
     "duration": "Special",
     "effect": "Enhances one missile attack per round",
     "targetSelf": false,
@@ -32,7 +30,11 @@
         "name": "Bard",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.X4GvA2a9zMJ22NcL"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "20+(@classes.B.level*10)"
+    }
   },
   "effects": [],
   "_id": "4WT3sLIAFYLEESej",
