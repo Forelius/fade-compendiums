@@ -1,11 +1,11 @@
 {
   "folder": "XPb0HndbAuYWphwr",
-  "name": "Spell Scroll (<spell-name>)",
+  "name": "Scroll of <spell-name>",
   "type": "item",
   "img": "icons/sundries/scrolls/scroll-runed-brown-blue.webp",
   "system": {
     "tags": [],
-    "description": "<p>This scroll contains the &lt;classes&gt; spell, &lt;spell-name&gt;.</p>",
+    "description": "<p>This scroll contains the &lt;classes&gt; spell, &lt;spell-name&gt;.</p><p>&lt;spell-desc&gt;</p>",
     "gm": {
       "notes": "<spell-scroll-template>"
     },
