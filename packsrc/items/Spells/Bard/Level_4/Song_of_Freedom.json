@@ -15,7 +15,7 @@
     "effect": "Allows paralyzed creatures to make additional saving throws each round",
     "targetSelf": false,
     "targetOther": true,
-    "durationFormula": "@classes.B.level",
+    "durationFormula": "@classes.B.castLevel",
     "savingThrow": "paralysis",
     "memorized": 0,
     "cast": 0,
@@ -33,7 +33,7 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "30+(@classes.B.level*10)"
+      "distance": "30+(@classes.B.castLevel*10)"
     }
   },
   "effects": [],

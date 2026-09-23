@@ -810,7 +810,7 @@
         "isSlow": false,
         "size": "null",
         "grip": "null",
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -824,7 +824,11 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "cone",
+          "distance": "10"
+        }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "_id": "i1ra0P1lUXVoDnmD",

@@ -903,7 +903,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "cone",
+          "distance": "90",
+          "angle": "12.5"
+        }
       },
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "_id": "ctC8xwsWE53JV1XK",

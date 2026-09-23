@@ -675,7 +675,12 @@
         "isDropped": false,
         "isTreasure": false,
         "damageLabel": "1d6",
-        "specialAbilities": []
+        "specialAbilities": [],
+        "template": {
+          "type": "cone",
+          "distance": "60",
+          "angle": "9.5"
+        }
       },
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "_id": "qUjxUg5wSPelwl9y",

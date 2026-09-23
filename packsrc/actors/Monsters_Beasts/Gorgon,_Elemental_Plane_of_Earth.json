@@ -647,13 +647,13 @@
         "natural": true,
         "damageRoll": "0",
         "damageType": "breath",
-        "breath": null,
+        "breath": "",
         "canMelee": true,
         "canRanged": true,
         "savingThrow": "breath",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": 60,
@@ -679,9 +679,9 @@
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": null,
+        "size": "null",
         "grip": null,
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -695,7 +695,11 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "circle",
+          "distance": "50"
+        }
       },
       "img": "icons/svg/sword.svg",
       "_id": "uS8QFTgQBKwvxKRK",

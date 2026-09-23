@@ -368,7 +368,11 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "circle",
+          "distance": "60"
+        }
       },
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "_id": "3g4QVS5f89vhSfQD",

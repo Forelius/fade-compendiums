@@ -33,7 +33,7 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "@classes.DR.level*5"
+      "distance": "@classes.DR.castLevel*5"
     }
   },
   "flags": {},

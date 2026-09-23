@@ -662,7 +662,11 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "circle",
+          "distance": "20"
+        }
       },
       "_id": "u5jYk96SWY0vok51",
       "img": "icons/magic/fire/flame-burning-embers-yellow.webp",

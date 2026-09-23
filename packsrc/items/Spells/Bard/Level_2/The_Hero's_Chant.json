@@ -33,7 +33,7 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "10+(@classes.B.level*2)"
+      "distance": "10+(@classes.B.castLevel*2)"
     }
   },
   "_id": "u4oAZCLlZb13ZidQ",

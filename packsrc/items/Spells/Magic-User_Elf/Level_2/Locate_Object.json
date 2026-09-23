@@ -9,7 +9,7 @@
       "notes": ""
     },
     "spellLevel": 2,
-    "range": "60' + 10' per level of the spellcaster",
+    "range": "60'+10'/level",
     "duration": "2 turns",
     "effect": "One object within range",
     "memorized": 0,
@@ -33,7 +33,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60+(@classes.M.castLevel*10)"
+    }
   },
   "_id": "Udl9X1ODRP2cueHy",
   "effects": [],

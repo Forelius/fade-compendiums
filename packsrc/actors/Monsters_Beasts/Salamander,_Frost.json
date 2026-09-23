@@ -441,7 +441,11 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "circle",
+          "distance": "20"
+        }
       },
       "_id": "KTeipjfzdOjcdRl0",
       "img": "icons/magic/water/tendrils-ice-growth.webp",

@@ -621,9 +621,9 @@
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": null,
+        "size": "null",
         "grip": null,
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -637,7 +637,13 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "cone",
+          "distance": "180",
+          "width": "",
+          "angle": "4.8"
+        }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "_id": "5NEKJvx21RJb1fMX",
@@ -905,7 +911,11 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "rect",
+          "distance": "50"
+        }
       },
       "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "_id": "bxXlkdaDI8AqRxsY",

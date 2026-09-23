@@ -367,7 +367,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "ray",
+          "distance": "50",
+          "angle": "11.3"
+        }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "_id": "3NYUfrZdZj9N9Zbu",

@@ -977,7 +977,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "direction": "38.65980825409009",
+          "distance": "64.0312423743285",
+          "type": "rect"
+        }
       },
       "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "_id": "gewPtTgyqkIydr0D",
@@ -1175,9 +1180,9 @@
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": null,
+        "size": "null",
         "grip": null,
-        "charges": null,
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
@@ -1191,7 +1196,13 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "cone",
+          "distance": "135",
+          "width": "",
+          "angle": "6.3"
+        }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "_id": "il1nsUf4Dr16jwWW",

@@ -1191,7 +1191,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "ray",
+          "distance": "200",
+          "width": "5"
+        }
       },
       "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
       "_id": "kjImNRe58SKZiPAx",

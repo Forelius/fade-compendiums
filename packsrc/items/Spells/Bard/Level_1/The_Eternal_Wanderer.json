@@ -21,7 +21,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": "1440+(@classes.B.level * 360)",
+    "durationFormula": "1440+(@classes.B.castLevel * 360)",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -34,7 +34,7 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "10+(@classes.B.level*2)"
+      "distance": "10+(@classes.B.castLevel*2)"
     }
   },
   "effects": [],

@@ -791,11 +791,16 @@
         "damageLabel": "1d6",
         "conditions": [
           {
+            "uuid": "Compendium.fade-compendiums.item-compendium.Item.QDhoYE22lDX8YzSd",
             "name": "Petrified",
-            "durationFormula": null,
-            "uuid": "Compendium.fade-compendiums.item-compendium.Item.QDhoYE22lDX8YzSd"
+            "durationFormula": ""
           }
-        ]
+        ],
+        "template": {
+          "type": "ray",
+          "distance": "60",
+          "width": "10"
+        }
       },
       "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "_id": "yhyfwTAlTTS57kWr",

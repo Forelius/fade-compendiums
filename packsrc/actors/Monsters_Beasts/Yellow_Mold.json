@@ -314,7 +314,11 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "rect",
+          "distance": "10"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "2oCQTiFSJk88AnoL",

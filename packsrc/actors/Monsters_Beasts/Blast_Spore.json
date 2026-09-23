@@ -321,13 +321,17 @@
         "abilityMod": "",
         "category": "",
         "shortName": "",
-        "combatManeuver": null,
-        "customSaveCode": null,
-        "classKey": null,
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "circle",
+          "distance": "20"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "685fHELz3Ro5IC8a",
@@ -366,13 +370,17 @@
         "abilityMod": "",
         "category": "",
         "shortName": "",
-        "combatManeuver": null,
-        "customSaveCode": null,
-        "classKey": null,
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "rect",
+          "distance": "20"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "B4cD5BQ3cs1M0rnC",

@@ -5,7 +5,7 @@
   "folder": "SsKlXwznQ3Sz3GWV",
   "system": {
     "tags": [],
-    "description": "<p>This spell unlocks any type of lock, including normal and magically locked doors (such as those affected by <em>hold portal</em> or <em>wizard lock</em>). It can also open secret doors, but the door must be located first. The spell does not permanently remove locking magic, which will re-engage once the door is closed again.</p>\n                  <p><em>Knock</em> can unstick a gate, cause a barred door to open (forcing the bar to fall), and make treasure chests open easily. However, if a door is both locked and barred, only one of the locks will be affected.</p>\n                  <p><strong>Note:</strong> If the lock is affected by a spell, the target can make a saving throw vs. spells to resist.</p>",
+    "description": "<p>This spell will open any type of lock. This spell will open any normal or magically locked door (one affected by a <em>hold portal</em> or <em>wizard lock</em> spell), and any secret door (but a secret door must be found before it can be knocked open). Any locking magic will remain, however, and will take effect once again when the door is closed. This spell will also unlock a gate, or unstick it if it is stuck, and will cause any treasure chest to open easily. It will also cause a barred door to open, magically forcing the bar to fall to the floor. If a door is locked and barred, only one type of lock will be opened.</p>",
     "gm": {
       "notes": ""
     },
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "flags": {},
   "_id": "WjUf8CixHLHohdwK",
