@@ -5,7 +5,7 @@
   "folder": "buNRCuEtvu3SPc9W",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the cleric to animate non-living, non-magical objects, causing them to move and attack. Magical objects are unaffected.</p><p>The spell can animate either:</p><ul><li>One object up to 400 lbs (4,000 cn), roughly the size of two men.</li><li>Multiple smaller objects, as long as their total weight does not exceed 400 lbs.</li></ul><p><strong>Combat Abilities:</strong> The DM determines the movement rate, number of attacks, damage, and armor class of animated objects. As a guideline:</p><ul><li>A man-sized statue might move at 30' per round, attack once per round for [[/r 2d8 #points of damage]] damage, and have AC 1.</li><li>A chair might move at 180' per round, attack twice per round for [[/r 1d4 #points of damage]] damage per attack, and have AC 6.</li></ul><p>All animated objects use the cleric’s chance to hit in combat.</p>",
+    "description": "<p>The cleric may use this spell to cause any non-living, nonmagical objects to move and attack. Magical objects are not affected. The spell can animate any one object up to 400 lbs (4,000 cn) (roughly the size of two men), or a number of smaller objects whose total weight does not exceed 400 lbs.</p><p>The DM must decide on the movement rate, number of attacks, damage, and other combat details of the objects animated. As a guideline, a man-sized statue might move at 30' per round, attack once per round for 2d8 (2–16) points of damage, and have an armor class of 1. A chair might only be AC 6, but move at 180' per round on its four legs, attacking twice per round for 1d4 points per attack. All objects have the same chances to hit as the cleric animating them.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ],
     "template": {

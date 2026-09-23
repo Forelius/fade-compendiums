@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p>The reversed form of the quest spell, *Remove Quest* dispels an unwanted quest or removes a quest-related curse. The base chance of successfully removing the quest is 50%, modified by ±5% for each level difference between the caster of *Remove Quest* and the original caster of the quest.</p>\n                      <p>For example, an 11th-level cleric attempting to remove a quest imposed by a 13th-level caster has a 40% chance of success, while a 36th-level cleric removing a quest cast by a 20th-level cleric has a 99% chance of success (capped to prevent automatic success).</p>",
+    "description": "<p>R<em>emove quest</em> may be used to dispel an unwanted quest or a quest-related curse. The chance of success is 50%, modified by 5% for every level of the caster differs from the level of the caster of the first quest. Thus, an 11th level cleric attempting to remove a quest cast by a 13th level cleric has only a 40% chance of success; a 36th level cleric attempting to remove a quest cast by a 20th level cleric has a 130% chance (reduced to 99% to provide for a 1% chance of failure).</p>",
     "gm": {
       "notes": ""
     },

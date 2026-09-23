@@ -5,7 +5,7 @@
   "folder": "buNRCuEtvu3SPc9W",
   "system": {
     "tags": [],
-    "description": "<p>This spell summons an intelligent elemental being called an <em>Aerial Servant</em> to retrieve a specified item or creature and return it to the caster. The servant appears immediately, and the cleric must describe the target and its location, or the servant will depart.</p><p>The aerial servant is ethereal at will, allowing it to bypass most barriers, but it cannot pass through a <em>Protection from Evil</em> effect.</p><p><strong>Task and Duration:</strong> The servant will attempt to find and bring back the target within the spell's duration (1 day per caster level). If the spell ends before the task is completed—whether the servant is still searching or already returning—it is considered a failure.</p><p><strong>Strength and Carrying Capacity:</strong> The aerial servant has 18 Strength and can carry up to 500 lbs (5,000 cn).</p><p><strong>Failure Consequences:</strong> If the aerial servant cannot complete its task within the spell duration, it goes insane and immediately returns to attack the caster.</p>",
+    "description": "<p>An aerial servant is a very intelligent being from the elemental plane. With this spell, the cleric summons one of these beings, which appears immediately. The cleric must then describe one creature or item and its location to the servant, or else it will depart. When it hears this description and location, the aerial servant leaves, trying to find the item or creature and bring it to the cleric. The servant will take as much time as needed, up to the limit of the duration. If the spell's duration lapses before the task is completed, even if the aerial servant is already bringing the target back to the caster, the aerial servant has failed to accomplish its task. See below for further details.</p><p>The aerial servant has 18 Strength, and can carry up to 500 lbs (5,000 cn). It can become ethereal at will, and thus can travel to most places easily. However, it cannot pass through a <em>protection from evil</em> spell effect.</p><p>If it cannot perform its duty within the duration of the spell, the servant becomes insane and returns to attack the caster.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ],
     "template": {

@@ -5,7 +5,7 @@
   "folder": "lzIDmhBVYAbTYag1",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the cleric to temporarily wield the magical powers of a magic-user, enabling the use of certain restricted items.</p><h4>Effects:</h4><ul><li><p>The cleric may use <strong>one magic-user-only item</strong>, choosing between:</p><ul><li>A magic-user device (such as a wand, staff, or rod).</li><li>A magic-user scroll containing a <strong>1st or 2nd level spell</strong>.</li></ul></li><li><strong>Spell Level Restriction:</strong> The cleric <strong>cannot</strong> use spells of 3rd level or higher, even if present on the scroll.</li></ul><h4>Duration:</h4><ul><li>The spell lasts for <strong>one turn</strong> (10 minutes) or until the cleric uses the item.</li></ul><h4>Temporary Knowledge:</h4><ul><li>During the spell’s duration, the cleric <strong>magically understands</strong> how to operate the selected item.</li><li>For a scroll spell, the cleric is treated as the <strong>minimum level</strong> required to cast the spell.</li></ul>",
+    "description": "<p>The cleric using this spell gains the power to use one item normally restricted to magic-users: either a device (such as a wand) or a scroll containing a 1st or 2nd level magic-user spell. (The cleric cannot cast spells of 3rd or higher level, even though they may be present on the scroll.) This ability lasts for one turn, or until the scroll or device is used.</p><p>The cleric magically gains knowledge of the proper use of the item, as if the character were a magic-user. For the duration and effect of the magic-user spell, the caster is treated as the minimum level necessary to cast the spell.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ]
   },

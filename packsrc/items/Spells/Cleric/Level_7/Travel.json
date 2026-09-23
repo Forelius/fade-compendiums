@@ -5,7 +5,7 @@
   "folder": "lzIDmhBVYAbTYag1",
   "system": {
     "tags": [],
-    "description": "<p>This spell grants the caster incredible mobility, allowing flight, planar travel, and even transformation into gaseous form.</p><p>Effects:</p><ul><li>The caster can fly at a rate of 360' (120'), similar to the <em>Fly</em> spell.</li><li>Once per turn, the caster may shift into a nearby plane by concentrating for one round.</li><li>The cleric may bring one additional creature per 5 levels (rounded down), provided they are touching at the moment of planar travel.</li><li>Unwilling creatures may make a saving throw vs. spells to resist being taken.</li></ul><p>Gaseous Form:</p><ul><li>By concentrating for one full round, the caster may become gaseous.</li><li>In gaseous form, the caster and all carried equipment transform into mist.</li><li>While gaseous, the cleric may move at 720' (240') but cannot attack, cast spells, or use items.</li><li>In this form, the caster is immune to non-magical damage but cannot pass through a <em>Protection from Evil</em> spell or <em>Anti-Magic Shell</em>.</li></ul>",
+    "description": "<p>This spell allows the cleric to move quickly and freely, even between the planes of existence. The caster (only) may <em>fly</em> in the same manner as given by the magic-user's spell, at a rate of 360' (120'). The cleric can also enter a nearby plane of existence, simply by concentrating for one round. He may enter a maximum of one plane per turn.</p><p>The cleric may bring one other creature for every five levels of experience (rounded down; for example, a 29th level cleric could bring five other creatures on the journey). To bring others, he must touch them, or they must touch him, while the spell is cast and the shift is made. Any unwilling creature can make a saving throw vs. spells to avoid the effect. The cleric must take the others with him—he cannot send them while remaining behind.</p><p>While this spell is in effect, the caster (only) may assume <em>gaseous form</em> by concentrating for one full round. (If he is interrupted, no change occurs.) Unlike the potion effect, all equipment carried also becomes part of the same gaseous cloud. In this form, the caster may travel at double the normal flying rate: 720' (240'). While gaseous, the cleric cannot use items or cast spells, but also cannot be damaged except by magic (weapons or certain spells). Also, a gaseous being cannot pass through a <em>protection from evil</em> spell effect or an <em>anti-magic shell</em>.</p>",
     "gm": {
       "notes": ""
     },
@@ -19,7 +19,7 @@
     "attackType": "",
     "damageType": "",
     "healFormula": "",
-    "maxTargetFormula": "@actor.details.level",
+    "maxTargetFormula": "@classes.C.castLevel",
     "durationFormula": "@classes.C.castLevel * 60",
     "savingThrow": "spell",
     "memorized": 0,
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ]
   },

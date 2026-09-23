@@ -5,7 +5,7 @@
   "folder": "buNRCuEtvu3SPc9W",
   "system": {
     "tags": [],
-    "description": "<p>This is the most powerful healing spell available. When used to cure wounds, it restores nearly all damage, leaving the recipient with only [[/r 1d6 #damage remains]] points of damage remaining.</p><p><strong>Healing Process:</strong> Restore the target to full starting hit points, then roll 1d6 and subtract that amount from their total.</p><p><strong>Alternative Uses:</strong> Instead of healing damage, <em>Cureall</em> may be used to cure <em>one</em> of the following conditions:</p><ul><li>Remove a curse</li><li>Neutralize poison</li><li>Cure paralysis</li><li>Cure disease</li><li>Cure blindness</li><li>Remove a <em>Feeblemind</em> effect</li></ul><p>If the recipient is suffering from multiple afflictions (such as wounds and a curse), the cleric must specify which one the spell is curing.</p><p><strong>Effect on Recently Raised Creatures:</strong> If cast on someone who has just been affected by <em>Raise Dead</em>, <em>Cureall</em> eliminates the need for two weeks of bed rest, allowing the target to function normally immediately. This is the only magical healing that works on a newly raised creature.</p>",
+    "description": "<p>This spell is the most powerful of the healing spells. When used to cure wounds, it cures nearly all damage, leaving the recipient with only 1d6 points of damage. (Restore the victim to full starting hit points, then roll 1d6 and subtract that amount from the victim's hit point total.)</p><p>The spell can remove a curse, neutralize a poison, cure paralysis, cure a disease, cure blindness, or even remove a <em>feeblemind</em> effect instead of healing. However, it will cure one thing only; if the recipient is suffering from two or more afflictions (such as wounds and a curse), the cleric must name the ailment the spell is intended to cure.</p><p>If cast on the recipient of a <em>raise dead</em> spell, the <em>cureall</em> eliminates the need for two weeks of bed rest; the recipient can immediately function normally. This is the only form of magical curing that will work on a newly-raised creature.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ]
   },

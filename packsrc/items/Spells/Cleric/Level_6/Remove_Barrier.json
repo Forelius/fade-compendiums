@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p>This spell instantly destroys one magical barrier created by a cleric. It can also dispel certain barriers created by a magic-user.</p><p><strong>Effects:</strong> <em>Remove Barrier</em> will destroy a cleric's <em>Barrier</em> spell and can also dispel the following magic-user spells:</p><ul><li><em>Wall of Ice</em></li><li><em>Wall of Fire</em></li><li><em>Clothform</em></li><li><em>Woodform</em></li><li><em>Wall of Stone</em></li></ul><p><strong>Limitations:</strong> This spell does <em>not</em> affect the following spells: <em>Wall of Iron</em>, <em>Stoneform</em>, <em>Ironform</em>, or <em>Steelform</em>.</p>",
+    "description": "<p><em>Remove barrier</em> will destroy any one barrier created by a cleric. It can also be used to destroy a magic-user's <em>wall of ice</em>, <em>wall of fire</em>, <em>clothform</em>, woodform, or <em>wall of stone</em> spell effects. It will not affect the magic-user spells <em>wall of iron</em>, <em>stoneform</em>, <em>ironform</em> or <em>steelform</em>.</p>",
     "gm": {
       "notes": ""
     },
@@ -31,6 +31,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ],
     "template": {

@@ -5,7 +5,7 @@
   "folder": "buNRCuEtvu3SPc9W",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a magical barrier up to 30' in diameter and 30' high, consisting of whirling and dancing hammers. The barrier is obviously dangerous to any who pass through it.</p><p><strong>Damage:</strong> Any creature passing through the barrier takes [[/r 7d10 #points of damage]]<strong> (7-70)</strong> points of damage. No saving throw is allowed.</p><p>This spell is commonly used to block entrances, corridors, or other key passages.</p>",
+    "description": "<p>This spell creates a magical barrier in an area up to 30' in diameter and 30' high. The barrier is a wall of whirling and dancing hammers, obviously dangerous to any who come in contact with it. Any creature passing through the barrier takes[[/r 7d10  #Damage]] (7–70) points of damage from the whirling hammers (no saving throw allowed). This spell is often used to block an entrance or passage.</p><p>The reverse of this spell (<em>remove barrier</em>) will destroy any one barrier created by a cleric. It can also be used to destroy a magic-user's <em>wall of ice</em>, <em>wall of fire</em>, <em>clothform</em>, <em>woodform</em>, or <em>wall of stone</em> spell effects. It will not affect the magic-user spells <em>wall of iron</em>, <em>stoneform</em>, <em>ironform</em> or <em>steelform</em>.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ],
     "template": {

@@ -5,7 +5,7 @@
   "folder": "0suMdwV8WQcGRmOj",
   "system": {
     "tags": [],
-    "description": "<p>This spell destroys other spell effects within a 20' x 20' x 20' area. It does not affect magical items but can cancel temporary effects they produce.</p>\n                      <p><strong>Effect:</strong> Automatically dispels spells from casters of equal or lower level. For higher-level casters, there is a 5% chance of failure per level difference.</p>\n                      <p>Examples: A 7th-level caster trying to dispel a spell from a 9th-level caster has a 10% chance of failure.</p>",
+    "description": "<p>This spell destroys other spell effects in a cubic volume of 20' x 20' x 20'. It does not affect magical items. Spell effects created by a caster (whether cleric, druid, magic-user, or elf) of a level equal to or lower than the caster of the <em>dispel magic</em> are automatically and immediately destroyed. Spell effects created by a higher-level caster might not be affected. The chance of failure is 5% per level of difference between the casters. For example, a 7th level cleric trying to dispel a <em>web</em> spell cast by a 9th level magic-user would have a 10% chance of failure.</p><p><em>Dispel magic</em> will not affect a magical item (such as a scroll, a magical sword, etc.). However, it can dispel the effects of the magical item when that item is used (for example, a spellcaster can cast <em>dispel magic</em> on the victim of a <em>ring of human control</em> and snap him out of that control, or on a flaming weapon to douse the flame).</p>",
     "gm": {
       "notes": ""
     },

@@ -5,7 +5,7 @@
   "folder": "buNRCuEtvu3SPc9W",
   "system": {
     "tags": [],
-    "description": "<p>This spell instantly teleports the cleric and all equipment they are carrying to their designated sanctuary, regardless of distance.</p><p>Sanctuary Requirement: The cleric must have a permanent home (such as a castle) that includes a meditation room. This room serves as the spell’s destination.</p><p>Initiative Advantage: During the round this spell is cast, the cleric automatically gains initiative unless surprised.</p><p>Restrictions:</p><ul><li>The spell affects only the cleric and their carried equipment.</li><li>Other creatures cannot be transported.</li></ul>",
+    "description": "<p>Similar to a magic-user's <em>teleport</em> spell, this spell carries the cleric and all equipment carried (but no other creatures) to the cleric's home, regardless of the distance. The cleric must have a permanent home (such as a castle), and a meditation room within that home; this room is the destination when the spell is cast. During the round in which this spell is cast, the cleric automatically gains initiative unless surprised.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ]
   },
