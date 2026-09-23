@@ -5,12 +5,12 @@
   "folder": "g3jvAcmryr9gDGqS",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the druid to sense the direction of one known normal or giant-sized animal or plant within 120 feet. The caster must name the exact type of animal or plant, but does not need to see the specific one to locate it. This spell cannot locate fantastic creatures, plant monsters, or any intelligent creatures or plants.</p><p>The animal or plant gets no saving throw. (This spell is most often used to find special rare plants.)</p>",
+    "description": "<p>This spell allows the druid to sense the direction of one known normal animal or plant. The druid can locate (similar to the locate object spell) any normal or giant-sized animal, but not fantastic creatures, plant monsters, nor any intelligent creature or plant.   </p><p>He must name the exact type of animal or plant, but does not need to see the specific one he wishes to locate. The animal or plant gets no saving throw. (This spell is most often used to find special rare plants.)</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "0 (Druid only)",
+    "range": "120'",
     "duration": "6 turns",
     "effect": "Detects 1 animal or plant within 120'",
     "memorized": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "120"
+    }
   },
   "flags": {},
   "_id": "KdVwJ6tWMZSfD9yX",

@@ -4,16 +4,13 @@
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "folder": "SsKlXwznQ3Sz3GWV",
   "system": {
-    "tags": [
-      "magic-user",
-      "elf"
-    ],
+    "tags": [],
     "description": "<p>This spell enables the spellcaster to see all invisible creatures and objects within range. The range is 10' for each level of the spellcaster. For example, a 3rd level spellcaster can use this spell to see invisible things within 30'.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 2,
-    "range": "10' per level of the spellcaster",
+    "range": "10'/level",
     "duration": "6 turns",
     "effect": "The spellcaster only",
     "memorized": 0,
@@ -37,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "@classes.M.level*10"
+    }
   },
   "flags": {},
   "_id": "AFAO8TtMFr00BlwX",

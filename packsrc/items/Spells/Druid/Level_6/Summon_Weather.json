@@ -5,12 +5,12 @@
   "folder": "Z9Sy2YBHKkjF5u6a",
   "system": {
     "tags": [],
-    "description": "<p>The druid magically pulls existing weather conditions from a nearby area to their location.</p><h4>Effects:</h4><ul><li>The druid does not control the weather, but can summon an existing condition to their location.</li><li>At levels 12-15, the spell pulls weather from up to 5 miles away.</li><li>Each level beyond 15th adds 1 extra mile to the range (e.g., a 20th-level druid can summon weather from 10 miles away).</li><li>Only druids of 25th level or higher may summon severe weather (hurricanes, blizzards, etc.).</li></ul>",
+    "description": "<p>When the druid casts this spell, some known nearby weather condition is pulled to the druid's location. The druid does not have control of the weather, but merely summons it.   </p><p>Only a druid of 25th level or greater may summon severe weather (hurricane, severe heat wave, etc.). The range of summoning is 5 miles at levels 12 to 15, adding 1 mile for each level of the caster above 15th. (A 20th level druid could summon weather from up to 10 miles away.)</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 6,
-    "range": "5 miles or more",
+    "range": "5+ miles",
     "duration": "One hour per caster level",
     "effect": "Brings weather to druid's area",
     "targetSelf": false,

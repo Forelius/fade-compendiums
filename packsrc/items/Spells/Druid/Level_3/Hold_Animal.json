@@ -5,13 +5,13 @@
   "folder": "ITBl84G3mrEdxxqh",
   "system": {
     "tags": [],
-    "description": "<p>This spell paralyzes normal or giant-sized animals within a range of 180'. The spell does not affect creatures with greater than animal intelligence (2) or fantastic creatures.</p>\n                      <p><strong>Effect:</strong> Each animal makes a saving throw vs. spells to resist paralysis for the spell’s duration. The druid can affect 1 Hit Die of animals per caster level, ignoring any “pluses” to Hit Dice. For example, a 20th-level druid could hold 10 giant toads (2 + 2 HD each).</p>\n                      <p>This spell can also affect summoned, conjured, or controlled animals.</p>",
+    "description": "<p>This spell will affect any normal or giant-sized animal, but will not affect any fantastic creature, nor one of greater than animal intelligence (2). Each victim must make a saving throw vs. spells or be paralyzed for the duration of the spell.   </p><p>The druid can affect 1 Hit Die of animals for each level of experience, ignoring \"pluses\" to Hit Dice. For example, a 20th level druid could cast the spell at 10 giant toads (which have 2+2 Hit Dice each). Note that the spell can affect summoned, conjured, or controlled animals.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 3,
     "range": "180'",
-    "duration": "1 turn per level of the caster",
+    "duration": "1 turn/level",
     "effect": "Paralyzes several animals",
     "memorized": 0,
     "cast": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "180"
+    }
   },
   "effects": [],
   "ownership": {

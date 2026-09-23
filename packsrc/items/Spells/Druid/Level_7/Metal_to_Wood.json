@@ -5,7 +5,7 @@
   "folder": "V4F1GzuReHr8xnu8",
   "system": {
     "tags": [],
-    "description": "<p>This spell permanently transforms metal into dead wood.</p><h4>Effects:</h4><ul><li>The caster may transmute up to 5 pounds (50 cn) of metal per caster level.</li><li>The transformation is permanent and cannot be reversed by dispel magic.</li><li>Magical metal items have a 90% chance to resist this effect.</li><li>Armor transformed into wood falls off the wearer.</li><li>Weapons turned into wood become nonmagical wooden clubs.</li></ul>",
+    "description": "<p>This spell can be used to change any metal item or items into wood. The spell can transmute five pounds (50 cn weight) per level of the caster. Any magical metal item is 90% resistant to the magic. The effect is permanent, and the affected metal cannot be changed back with a dispel magic spell. Any armor changed to wood falls off the wearer and any weapons affected turn to nonmagical wooden clubs.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "120"
+    }
   },
   "effects": [],
   "_id": "wXmLfsbA9Jbrs9i0",

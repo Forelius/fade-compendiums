@@ -9,7 +9,7 @@
     ],
     "description": "<p><em>Darkness</em>, creates a 30' diameter circle of darkness that blocks all sight except infravision. <em>Darkness</em> can counter <em>light</em> and vice-versa. If cast at a creature’s eyes, the target must save vs. spells or be blinded until the effect ends.</p>",
     "gm": {
-      "notes": ""
+      "notes": "Like a few other spells that use \"diameter\", the radius is half that."
     },
     "spellLevel": 1,
     "range": "120'",
@@ -39,9 +39,9 @@
     ],
     "template": {
       "type": "circle",
-      "distance": 30,
-      "angle": 0,
-      "width": 0
+      "distance": "15",
+      "angle": "",
+      "width": ""
     }
   },
   "flags": {},

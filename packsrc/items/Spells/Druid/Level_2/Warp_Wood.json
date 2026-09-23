@@ -5,7 +5,7 @@
   "folder": "NSAKhDqsY64cjSXH",
   "system": {
     "tags": [],
-    "description": "<p>This spell causes wooden weapons to bend and become useless. It affects one arrow for each level of the caster. A spear, javelin, or magical wand counts as two arrows, and a club, bow, or staff counts as four.</p>\n                <p>The spell does not affect other wooden items. If a magical wooden item is targeted, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw. Magical items with \"pluses\" might not be affected, with a 10% chance per \"plus\" (for example, an arrow +1 has a 10% chance to be unaffected).</p>",
+    "description": "<p>This spell causes one or more wooden weapons to bend and (probably) become useless. The spell will affect one arrow for each level of the caster; treat a spear, javelin, or magical wand as two arrows' worth, and any club, bow, or staff (magical or otherwise) as four. The spell will not affect any wooden items other than weapons. If a magical wooden item (such as an enchanted staff) is the target, the wielder may make a saving throw vs. spells to avoid the effect. Items carried but not held get no saving throw; magical items with \"pluses\" might not be affected, at a 10% chance per \"plus.\" (For example, an arrow +1 would have a 10% chance to be unaffected.)</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",

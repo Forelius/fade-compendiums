@@ -5,7 +5,7 @@
   "folder": "NSAKhDqsY64cjSXH",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a small flame in the caster's hand. The flame sheds light like a torch and does not harm the caster. It can ignite combustible materials like lanterns, torches, or oil without damaging the magical flame itself.</p>\n                <p>The caster can make the flame disappear and reappear at will, once per round. The flame can be thrown or dropped up to 30 feet away, but it disappears one round after leaving the caster's hand. Any fire it ignites continues burning.</p>",
+    "description": "<p>This spell causes a small flame to appear in the druid's hand. It does not harm the caster in any way, and sheds light as if a normal torch. The flame can be used to ignite combustible materials touched to it (a lantern, torch, oil, etc.) without harming the magical flame. While holding the flame, the caster can cause it to disappear and reappear by concentration once per round, until the duration ends. Other items may be held and used in the hand while the fire is out. If desired, the fire may be dropped or thrown to a 30' range, but disappears 1 round after leaving the druid's hand. (Any fire it ignites during that round remains burning.)</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "flags": {},
   "_id": "S7fAiZwWFCwWKbfR",

@@ -5,13 +5,13 @@
   "folder": "g3jvAcmryr9gDGqS",
   "system": {
     "tags": [],
-    "description": "<p>This spell outlines one or more creatures or objects with a pale, flickering, greenish fire, which does not cause damage. The outlined creatures or objects become more visible, granting a +2 bonus to attack rolls against them. The druid can outline one man-sized creature for each 5 levels of experience, up to a maximum of 48 feet of fire at 20th level.</p><p>The objects or creatures need only be detected in some way (such as by sight, or a <em>detect invisible</em> spell) to be the object of this spell.</p>",
+    "description": "<p>With this spell, the druid can outline one or more creatures or objects with a pale, flickering, greenish fire. The fire does not inflict any damage. The objects or creatures need only be detected in some way (such as by sight, or a detect invisible spell) to be the object of this spell.</p><p>All attacks against the outlined creature or object gain a +2 bonus to attack rolls. The druid can outline one man-sized creature (about 12' of fire) for each 5 levels of experience. Thus, at 20th level, 48' of fire can be produced (outlining one dragon-sized creature, two horse-sized, or four man-sized creatures).</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "60'",
-    "duration": "1 round per level of caster",
+    "duration": "1/level",
     "effect": "Illuminates creatures or objects",
     "memorized": 0,
     "cast": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "60"
+    }
   },
   "flags": {},
   "_id": "hwRKnWiSCNQcSzjG",

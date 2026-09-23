@@ -5,12 +5,12 @@
   "folder": "g3jvAcmryr9gDGqS",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the caster to sense hazards by concentrating on places, objects, or creatures within range. The caster needs a full round of concentration to examine one square foot of area, one creature, or one small object. Larger objects require more time.</p>\n                <p>After examination, the caster knows if the target is immediately dangerous, potentially dangerous, or benign, from the caster's point of view. The spell can detect poisons, which other spells might not. The duration is one hour in natural outdoor settings on the Prime Plane; elsewhere, it lasts for only three turns.</p>",
+    "description": "<p>This spell combines some effects of <em>detect evil</em> and <em>find traps</em>. While it is functioning, the druid can concentrate on places, objects, or creatures within range. He needs a full round of concentration to examine one square foot of area, one creature, or one small object (a chest, weapon, or smaller item). Larger objects require more time.</p><p>After he examines the thing, the druid will know whether it is immediately dangerous, potentially dangerous, or benign (all strictly from the druid's point of view). Note that most creatures are potentially dangerous. This spell will detect poisons, while other spells may not.</p><p>The duration is a full hour when used in natural outdoor settings on the Prime Plane; elsewhere, the duration is half normal (three turns).</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "5' per level of the caster",
+    "range": "5'/level",
     "duration": "One hour",
     "effect": "Reveals hazards",
     "memorized": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "@classes.DR.level*5"
+    }
   },
   "flags": {},
   "_id": "IQo6XWVxGe45pV2K",

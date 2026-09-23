@@ -5,7 +5,7 @@
   "folder": "NSAKhDqsY64cjSXH",
   "system": {
     "tags": [],
-    "description": "<p>This spell causes a misty vapor to rise from the ground, forming a large cloud. The cloud's height is 1 foot per caster level, and its diameter is 10 feet per level. For example, a 20th-level caster could create a cloud 20 feet high and 200 feet in diameter.</p>\n                <p>The cloud blocks vision, though the caster and creatures that can see invisible objects can see dimly through it. Other creatures in the cloud are effectively blind, delayed, and confused by the effect.</p>",
+    "description": "<p>This spell causes a misty vapor to arise from the ground around the druid, forming a huge cloud. The cloud is 1' high per level of the druid, and is 10' in diameter for each level. For example, a 20th level druid could cast an obscure 20' tall and 200' diameter (100' radius). The cloud has no ill effects except to block vision.</p><p>The caster, and all creatures able to see invisible things, will be able to see dimly through the cloud. All other creatures within the cloud will be delayed and confused by the effect. While within the cloud, these creatures are effectively blind.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "@classes.DR.level*10"
+    }
   },
   "flags": {},
   "_id": "edxGW3VtyjXflYZj",

@@ -5,13 +5,13 @@
   "folder": "GY1VRctDzQD5WVvu",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the druid to control all air within range, causing it to increase to gale force or slow to dead calm as desired. The caster must concentrate for one full turn (without moving or attacking) to achieve a complete change in wind force.</p>\n                      <p><strong>Effect on Air Creatures:</strong> If the spell is directed at an air creature (like an air elemental), it may make a saving throw vs. spells. If it fails, the druid may slay or control the creature by manipulating the wind. The creature remains controlled as long as the druid concentrates and the spell remains active; if concentration is broken or the spell ends, the creature will turn hostile and attack the druid.</p>\n                      <p><strong>Countering:</strong> A higher-level spellcaster using *Control Winds* can easily counter this spell.</p>",
+    "description": "<p>With this spell, the druid can cause all the air within range to behave as desired, either increasing to gale force or slowing to a dead calm. The druid must concentrate for one full turn of concentration (can't move or attack) to change the wind completely (calm to gale, for example). Any higher-level spellcaster using the same spell can easily counter the spell. The effect moves with the caster.   </p><p>If the spell is cast against an air creature (such as an elemental), the victim can make a saving throw vs. spells. If the victim fails its roll, the druid can slay or control the air creature by proper use of the wind force. The creature will only obey as long as the druid maintains concentration and while the spell is active; if the druid's concentration is broken or the spell's duration lapses, the creature will attack the druid.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 5,
-    "range": "10' radius per level of the caster",
-    "duration": "1 turn per level of the caster",
+    "range": "10'/level",
+    "duration": "1 turn/level",
     "effect": "Calms or increases winds",
     "memorized": 0,
     "cast": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "@classes.DR.level*10"
+    }
   },
   "effects": [],
   "ownership": {

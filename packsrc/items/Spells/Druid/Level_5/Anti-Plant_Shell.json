@@ -5,13 +5,13 @@
   "folder": "GY1VRctDzQD5WVvu",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away) that blocks all plant attacks and prevents damage from plant-like monsters.</p>\n                      <p><strong>Effect on Movement:</strong> While protected, the druid can push through dense growth, creating a path that others may follow. The barrier prevents the druid from physically attacking plants, though spells may still be cast against them.</p>",
+    "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away). The barrier stops all attacks by plants and plant-like monsters, so that they can inflict no damage. If the caster pushes through normal but dense growth while protected, he will open a path that others can pass through.   </p><p>While protected, the druid cannot attack plants except by spells; the plants are protected from the druid's physical attacks, just as the druid is protected from theirs.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 5,
     "range": "0 (druid only)",
-    "duration": "1 round per level of the druid",
+    "duration": "1 round/level",
     "effect": "Personal barrier which blocks plants",
     "memorized": 0,
     "cast": 0,
