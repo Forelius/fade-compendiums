@@ -5,7 +5,7 @@
   "folder": "Q2J4fFC7tEL14SLS",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the caster to summon one elemental (AC -2, HD 16, Damage 3d8) within range. The caster may only summon one elemental of each type (earth, air, fire, water) per day.</p>\n                      <p><strong>Control:</strong> The elemental will follow the caster's commands as long as concentration is maintained. The caster cannot fight, cast other spells, or move more than half speed while maintaining control. If control is lost, the elemental will attempt to kill the caster, attacking anyone in its path while pursuing.</p>\n                      <p>The caster can dismiss a controlled elemental by concentration, while an uncontrolled elemental can be dismissed by a *Dispel Magic* or *Dispel Evil* spell.</p>",
+    "description": "<p>This spell allows the caster to summon any one elemental (AC -2, HD 16, Damage 3d8; see the description of elementals in Chapter 14). The caster can only summon one of each type of elemental (earth, air, fire, water) in one day.</p><p>The elemental will perform any tasks within its power (carrying, attacking, etc.) as long as the caster maintains control by concentrating. The caster cannot fight, cast other spells, or move over half Normal Speed, else he will lose control of the elemental. If he loses control, he cannot regain it. An uncontrolled elemental will try to slay its summoner, and may attack anyone in its path while pursuing him.</p><p>The spell's caster may return a controlled elemental to its home plane simply by concentration. A <em>dispel magic</em> or <em>dispel evil</em> spell can return an uncontrolled elemental to its plane.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "3d8",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "melee",

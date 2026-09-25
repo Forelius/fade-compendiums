@@ -1,0 +1,66 @@
+{
+  "name": "Feeble Minded",
+  "type": "condition",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>Only affects a magic-user, elf, or a monster which can cast magical spells; it does not affect those which cast only cleric or druid spells. The victim helpless, unable to cast spells or think clearly (as if the victim has an Intelligence score of 2).</p><p>The <em>feeblemind</em> lasts until removed by a <em>dispel magic</em> spell (at normal chances for success) or by a cleric's <em>cureall</em> spell.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "NRqKTyOFu4kJxdP7"
+  ],
+  "folder": "DHxEnc4I068rxlES",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "q91x0lHu12kyIGZG",
+  "sort": 0,
+  "_originalKey": "!items!q91x0lHu12kyIGZG",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!q91x0lHu12kyIGZG.NRqKTyOFu4kJxdP7",
+      "name": "Feeble Minded",
+      "img": "icons/svg/downgrade.svg",
+      "disabled": false,
+      "_id": "NRqKTyOFu4kJxdP7",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.int.total",
+          "mode": 3,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#6c8fc6",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

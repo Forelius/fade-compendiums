@@ -5,7 +5,7 @@
   "folder": "Q2J4fFC7tEL14SLS",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a hole 5' in diameter and 10' deep in solid rock or stone only. The hole may be oriented horizontally or vertically.</p>\n                      <p><strong>End of Duration:</strong> When the spell ends, the stone reappears. Any creature still in the hole at that time must make a saving throw vs. turn to stone. On a success, the creature is ejected from the nearest end of the tunnel; on a failure, the creature is trapped and killed.</p>",
+    "description": "<p>This spell causes a hole 5' diameter, 10' deep to appear in solid rock or stone only. The hole may be horizontal or vertical.</p><p>The stone reappears at the end of the duration. If someone is still in the tunnel when the stone reappears, he gets a saving throw vs. turn to stone. If he succeeds, he is hurled out the nearest end of the tunnel. If he fails, he is trapped within the reappearing stone, and dies.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "effects": [],
   "ownership": {
