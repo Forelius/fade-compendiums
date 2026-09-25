@@ -14,7 +14,7 @@
     "spellLevel": 3,
     "range": "15'+5'/level",
     "duration": "Special",
-    "effect": "Overwhelms a target with despair, causing self-inflicted harm",
+    "effect": "Causes despair and self-inflicted harm",
     "targetSelf": false,
     "targetOther": true,
     "durationFormula": "@actor.system.abilities.con.value",
