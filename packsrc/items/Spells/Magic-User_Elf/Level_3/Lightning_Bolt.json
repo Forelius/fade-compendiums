@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a bolt of lightning that begins up to 180' away from the caster and extends 60' further in a straight line. All creatures within the area of effect take 1d6 points of lightning damage per caster level.</p>\n                      <p><strong>Damage:</strong> For example, a 6th-level elf would cast a lightning bolt dealing 6d6 points of damage. Each creature in the path of the bolt may make a saving throw vs. spells for half damage.</p>\n                      <p><strong>Special Effect:</strong> If the bolt strikes a solid surface, it bounces back toward the caster until it reaches its full length of 60'.</p>",
+    "description": "<p>This spell creates a bolt of lightning, starting up to 180' away from the caster and extending 60' in a straight line further away. All creatures within the area of effect take 1d6 points of damage per level of the spellcaster. (Thus a 6th level elf would cast a <em>lightning bolt</em> doing 6d6 points of damage.)</p><p>Each victim may make a saving throw vs. spells; if successful, he takes only half damage.</p><p>If the <em>lightning bolt</em> strikes a solid surface (such as a wall), it will bounce back toward the caster until the total length of the bolt is 60'.</p>",
     "gm": {
       "notes": ""
     },
@@ -34,7 +34,12 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "ray",
+      "distance": "60",
+      "width": "5"
+    }
   },
   "effects": [],
   "ownership": {

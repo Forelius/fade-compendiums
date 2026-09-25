@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell removes existing spell effects within a 20' x 20' x 20' area. Spell effects cast by a spellcaster of equal or lower level are automatically dispelled.</p>\n                      <p><strong>Higher-Level Casters:</strong> Effects created by a higher-level spellcaster may resist dispelling. The chance of failure is 5% per level difference. For example, a 7th-level magic-user dispelling a spell cast by a 9th-level cleric has a 10% chance of failure.</p>\n                      <p><strong>Magical Items:</strong> This spell does not affect magical items themselves, but it can disrupt active effects they produce. For instance, dispel magic can free a person from the control of a ring of human control.</p>",
+    "description": "<p>This spell destroys other spell effects in a cubic volume of 20' x 20' x 20'. It does not affect magical items. Spell effects created by a caster (whether cleric, druid, magic-user, or elf) of a level equal to or lower than the spellcaster of the <em>dispel magic</em> are automatically and immediately destroyed. Spell effects created by a higher-level spellcaster might not be affected. The chance of failure is 5% per level of difference between the spellcasters. For example, a 7th level magic-user trying to dispel a <em>web</em> spell cast by a 9th level cleric would have a 10% chance of failure.</p><p><em>Dispel magic</em> will not affect a magical item (such as a scroll, a magical sword, etc.). However, it can dispel the effects of the magical item when that item is used (a spellcaster can cast <em>dispel magic</em> on the victim of a <em>ring of human control</em> and snap him out of that control).</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "20"
+    }
   },
   "effects": [],
   "ownership": {

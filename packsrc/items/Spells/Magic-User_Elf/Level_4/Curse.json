@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p>This spell imposes a misfortune or penalty on the target. Curses are limited only by the caster's imagination but should be balanced to avoid backfiring on the caster at the DM's discretion.</p>\n                      <p>Typical curse effects include a -4 penalty on attack rolls, -2 on saving throws, or a halved prime requisite. The target may attempt a saving throw vs. spells to avoid the curse.</p>",
+    "description": "<p><em>Curse</em> causes a misfortune or penalty to affect the recipient. Curses are limited only by the caster's imagination, but if an attempted curse is too powerful, it may return to the caster (DM's discretion)! Safe limits to curses may include: -4 penalty on attack rolls; -2 penalty to all saving throws; prime requisite reduced to half normal. The victim may make a saving throw vs. spells to avoid the curse.</p>",
     "gm": {
       "notes": ""
     },
@@ -22,7 +22,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "spell",
     "saveDmgFormula": null,
     "attackType": "",

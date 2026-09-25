@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell increases the movement and attack speed of up to 24 creatures within a 60' diameter area, allowing them to act at double speed for 3 turns.</p>\n                      <p><strong>Effects:</strong> Hasted creatures move at twice normal speed and make double the normal number of attacks in melee or with missile weapons. However, magic use is unaffected, so spellcasters can still only cast one spell per round, and magical devices are unaffected.</p>\n                      <p><strong>Reverse Spell:</strong> The reverse, *Slow*, either cancels *Haste* or reduces the target’s movement and attack speed by half. Each affected creature may make a saving throw vs. spells to avoid *Slow*.</p>",
+    "description": "<p>This spell allows up to 24 creatures in a 60' diameter circle to perform actions at double speed for half an hour (3 turns). Those affected may move at up to twice normal speed and make double the normal number of missile or hand-to-hand attacks.</p><p>This spell does not affect the rate at which magic works, so a hasted spellcaster can still not cast more than one spell per round, and the use of magical devices (such as wands) cannot be speeded up.</p><p>The reverse of this spell, <em>slow</em>, will remove the effects of a <em>haste</em> spell, or will cause the victims to move and attack at half normal speed. As with <em>haste</em>, the <em>slow</em> spell does not affect spellcasting or the use of magical devices. The victims may make a saving throw vs. spells to avoid the effect.</p>",
     "gm": {
       "notes": ""
     },
@@ -40,7 +40,11 @@
         "name": "Hasted",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.cXvJhpE5XD2k0Hmm"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "effects": [],
   "ownership": {

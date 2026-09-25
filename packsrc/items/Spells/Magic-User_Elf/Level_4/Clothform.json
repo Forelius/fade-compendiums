@@ -5,7 +5,7 @@
   "folder": "OUJmVjvNpjVVRhwv",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates up to 30' x 30' of non-magical cloth in a single piece. The cloth is permanent and cannot be dispelled.</p>\n                      <p><strong>Shaping:</strong> If the caster has an appropriate Craft skill (or similar character background in campaigns without skills), they can shape the cloth during creation, forming objects like tents, sails, garments, or ropes. Unshaped cloth can be cut and fashioned later.</p>\n                      <p><strong>Properties:</strong> The cloth resembles tough, undyed linen. It can be created with an unfinished edge to seamlessly join additional cloth created by another *Clothform* spell, making it ideal for sails or large, rugged fabrics.</p>\n                      <p>The cloth extrudes from the caster's hands along the ground, piling up against obstacles without pushing them. It cannot be created in a space occupied by another object or attached to anything except other *Clothform* cloth.</p>\n                      <p>This spell is commonly used for quick shelters or creating rope in adventuring situations.</p>",
+    "description": "<p>This spell creates quantities of cloth up to 30' x 30'. The cloth created by a single spell must appear in one piece. Unlike many creation-type spells, this one creates cloth that is nonmagical and cannot be dispelled.</p><p>If the campaign uses the optional general skills and the caster has an appropriate Craft skill, he may shape the cloth as he creates it. He may thus create a tent, a sail, a single garment, a drape, 60' of common rope, etc. If the campaign doesn't use the skills rules, the character could have been defined earlier as one who knows how to work cloth in order for him to do this. Naturally, unshaped cloth created by this spell can later be cut, sewn and otherwise fashioned into such objects.</p><p>The cloth so created is much like undyed linen—it's tough, serviceable, and unglamorous. A caster can create his cloth with an unfinished end, and later he or another caster can use another <em>clothform</em> to create cloth joined to the first on that edge—and there will be no seam or weakness at the joining. This makes it a good spell for creating rugged, dependable sails.</p><p>When created, the cloth extrudes from the caster's hands and out along the ground. If there are obstacles, it piles up against them but does not shove them back. The spell may not be cast to create a huge sheet which falls over a unit of enemies, for instance. The cloth, when created, may not be attached to anything except to another expanse of <em>clothform</em> cloth, as described above. The cloth cannot be cast in a space occupied by another object.</p><p>In adventures, this spell is often used to make quick shelters and to create rope.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "30"
+    }
   },
   "effects": [],
   "ownership": {

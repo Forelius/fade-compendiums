@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates an invisible magical barrier around the caster, extending in a 10' radius (20' diameter). This barrier protects against attacks from creatures with an alignment different from the caster's.</p>\n                      <p><strong>Effects on Allies:</strong> Each creature within the barrier gains a +1 bonus to all saving throws, while attacks against them suffer a -1 penalty on the attack roll.</p>\n                      <p><strong>Enchanted Creatures:</strong> Enchanted creatures (e.g., magically summoned or controlled creatures) cannot engage in melee with anyone within the barrier. However, if someone within the barrier attacks an enchanted creature, this melee protection ends for that creature, though the +1 save bonus and -1 attack penalty remain in effect.</p>\n                      <p><strong>Missile and Magical Attacks:</strong> Missile and magical attacks from outside the barrier can target those inside, suffering only the -1 attack penalty.</p>",
+    "description": "<p>This spell creates an invisible magical barrier all around the caster, extending for a 10' radius in all directions. The spell serves as protection from attacks by monsters of an alignment other than the caster's. Each creature within the barrier gains a +1 to all saving throws, and all attacks against those within are penalized by -1 to the attacker's attack roll while the spell lasts.</p><p>In addition, enchanted creatures cannot attack those within the barrier in hand-to-hand (melee) combat. (An enchanted creature is any creature which is magically summoned or controlled, such as a <em>charmed</em> character, or one that is not harmed by normal weapons. A creature that can be hit only by a silver weapon—a werewolf, for example—is not an enchanted creature.)</p><p>If anyone within the barrier attacks an enchanted creature, the barrier will no longer prevent the creature from attacking hand-to-hand, but the bonus to saving throws and penalty to attack rolls will still apply.</p><p>Attackers, including enchanted creatures, can attack people inside the barrier by using missile or magical attacks. They do suffer the -1 penalty to attack rolls, but that is the only penalty they suffer.</p>",
     "gm": {
       "notes": ""
     },
@@ -40,7 +40,11 @@
         "name": "Protected",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "10"
+    }
   },
   "effects": [],
   "ownership": {

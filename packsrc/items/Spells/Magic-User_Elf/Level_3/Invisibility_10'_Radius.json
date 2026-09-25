@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell makes the recipient and all other creatures within a 10' radius invisible at the time of casting. Creatures that move more than 10' away from the recipient lose their invisibility and cannot regain it by returning to the area.</p>\n                      <p>The invisibility effect is similar to the standard *Invisibility* spell, where invisible creatures and items carried remain unseen until the creature attacks or casts a spell.</p>\n                      <p>All items carried by affected creatures are also rendered invisible.</p>",
+    "description": "<p>This spell makes the recipient (and all others within 10' at the time of the casting) invisible. This is an area effect, and those who move further than 10' from the recipient become visible. They may not regain invisibility by returning to the area. Otherwise, the invisibility is the same as that bestowed by the spell <em>invisibility</em>. An invisible creature will remain invisible until he or she attacks or casts any spell.</p><p>All items carried (whether by the recipient or others within 10') also become invisible.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -40,7 +40,11 @@
         "name": "Invisible",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "10"
+    }
   },
   "effects": [],
   "ownership": {

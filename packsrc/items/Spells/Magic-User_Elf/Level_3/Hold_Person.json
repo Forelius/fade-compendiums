@@ -5,13 +5,13 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell can paralyze any human, demihuman, or human-like creature (e.g., bugbear, dryad, gnoll, hobgoblin, kobold, lizard man, ogre, orc, nixie, pixie, or sprite). It has no effect on undead or creatures larger than ogres.</p>\n                      <p><strong>Single Target:</strong> If cast at a single creature, that creature makes a saving throw vs. spells with a -2 penalty.</p>\n                      <p><strong>Group Target:</strong> If cast at a group, it can affect up to four chosen creatures, but without a penalty to their saving throws.</p>\n                      <p><strong>Duration:</strong> Creatures failing their saving throw are paralyzed for 1 turn per caster level. The paralysis can only be removed by the reverse of this spell, *Free Person*, or by *Dispel Magic*.</p>",
+    "description": "<p>The <em>hold person</em> spell will affect any human, demihuman, or human-like creature (bugbear, dryad, gnoll, hobgoblin, kobold, lizard man, ogre, orc, nixie, pixie or sprite, for instance). It will not affect the undead or creatures larger than ogres.</p><p>Each victim must make a saving throw vs. spells or be paralyzed for nine turns. The spell may be cast at a single person or at a group. If cast at a single person, the victim suffers a -2 penalty to the saving throw. If cast at a group, it will affect up to four persons (of the cleric's choice), but with no penalty to their rolls. The paralysis may only be removed by the reversed form of the spell, or by a <em>dispel magic</em> spell.</p><p>The reverse of the spell, <em>free person</em>, removes the paralysis of up to four victims of the normal form of the spell (including <em>hold person</em> cast by a cleric). It has no other effect; e.g., it does not remove the effects of a ghoul's paralysis ability.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 3,
     "range": "120'",
-    "duration": "1 turn per caster level",
+    "duration": "1 turn/level",
     "effect": "Paralyzes up to 4 creatures",
     "memorized": 0,
     "cast": 0,
