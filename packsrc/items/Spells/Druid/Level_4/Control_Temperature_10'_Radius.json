@@ -5,13 +5,13 @@
   "folder": "v3vt9QC6X4dDbc82",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the druid to alter the temperature within a 10' radius (20' across) by up to 50 degrees Fahrenheit, either warming or cooling the air. The temperature changes instantly and remains as long as the druid maintains concentration and the spell's duration has not expired.</p>\n                      <p>The effect moves with the druid, and the temperature can be adjusted by concentrating for one round. This spell is especially useful for surviving in extreme cold or heat.</p>",
+    "description": "<p>This spell allows the druid to alter the temperature within an area 20' across. The maximum change is 50 degrees (Fahrenheit), either warmer or cooler. The change occurs immediately, and the effect moves with the druid. The druid may change the temperature simply by concentrating for 1 round, and the temperature will remain changed as long as the spell lasts. The spell is useful for resisting cold or heat so the caster may survive temperature extremes.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 4,
     "range": "0 (druid only)",
-    "duration": "1 turn per level of the caster",
+    "duration": "1 turn/level",
     "effect": "Cools or warms air within 10'",
     "memorized": 0,
     "cast": 0,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "10"
+    }
   },
   "effects": [],
   "ownership": {

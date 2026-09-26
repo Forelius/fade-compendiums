@@ -5,7 +5,7 @@
   "folder": "Q2J4fFC7tEL14SLS",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a poisonous cloud, 30' wide and 20' tall, that appears next to the caster and moves at a rate of 60' (20' per round) in one direction. The cloud is heavier than air and will sink where possible, but it will dissipate when encountering trees or thick vegetation. In confined spaces, the cloud’s size may be limited.</p>\n                      <p><strong>Effects on Creatures:</strong> All living creatures within the cloud take 1 point of damage per round. Creatures with less than 5 Hit Dice must make a saving throw vs. poison or die.</p>",
+    "description": "<p>This spell creates a circular cloud of poisonous vapor, 30' across and 20' tall, which appears next to the spellcaster. It moves away at the rate of 60' (20' per round) in any one direction (with the wind, if any; otherwise, in the direction chosen by the caster). This cloud is heavier than air and will sink when possible (going down holes, sliding downhill, etc.). The cloud will evaporate if it hits trees or thick vegetation. If cast in a small area (such as in a 10' tall dungeon corridor), the cloud may be of smaller than normal size.</p><p>All living creatures within the cloud take 1 point of damage per round. Any victim of less than 5 Hit Dice must make a saving throw vs. poison or be killed by the vapors.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "15"
+    }
   },
   "effects": [],
   "ownership": {

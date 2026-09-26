@@ -11,7 +11,7 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "0",
+    "range": "30'",
     "duration": "6 turns",
     "effect": "All creatures within 30'",
     "memorized": 0,
@@ -35,7 +35,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "effects": [],
   "ownership": {

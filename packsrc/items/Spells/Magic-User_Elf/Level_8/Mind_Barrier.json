@@ -5,13 +5,13 @@
   "folder": "tpOpaJqww9ZZvZT2",
   "system": {
     "tags": [],
-    "description": "<p>This spell grants one creature powerful protection against mental effects for 1 hour per caster level. An unwilling target may make a saving throw vs. spells to resist.</p><h4>Effects:</h4><ul><li>The target is completely immune to ESP, <em>clairvoyance</em>, <em>clairaudience</em>, <em>crystal ball gazing</em>, and similar magical detection.</li><li>Prevents magical information gathering (such as <em>contact higher plane</em> or <em>summon object</em>).</li><li>For the duration, the caster or recipient effectively does not exist to these effects.</li><li>The target gains +8 to all saving throws against charm, illusion, phantasms, feeblemind, and other mental attacks.</li><li>A natural roll of 1 always fails, regardless of bonuses.</li></ul>",
+    "description": "<p>This spell affects one creature; an unwilling recipient may make a saving throw vs. spells to avoid the effect.</p><p>The spell prevents any form of <em>ESP</em>, <em>clairvoyance</em>, <em>clairaudience</em>, crystal ball gazing, or any other form of mental influence or information gathering (such as by a <em>contact higher plane</em> or <em>summon object</em>) from working on the target creature. The caster or recipient simply does not exist for the purposes of those and similar spell effects for the duration of the <em>mind barrier</em> spell.</p><p>In addition, the recipient gains a bonus of +8 to saving throws against mind-influencing attacks, such as all forms of charm, illusion and phantasms, <em>feeblemind</em>, and the like. (However, a roll of 1 always fails the saving throw, regardless of adjustments.)</p><p>The reverse of this spell, <em>open mind</em>, causes the victim touched to be vulnerable to all the mind-influencing attacks given above. All the victim's saving throws against such effects are penalized by -8 for the duration of the spell. This reversed spell must be cast by touch, requiring a normal attack roll.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 8,
     "range": "10'",
-    "duration": "1 hour per caster level",
+    "duration": "1 hour/level",
     "effect": "Grants immunity to mind-affecting magic and +8 to saves vs. mental attacks",
     "targetSelf": false,
     "targetOther": true,

@@ -5,7 +5,7 @@
   "folder": "OUJmVjvNpjVVRhwv",
   "system": {
     "tags": [],
-    "description": "<p>This spell removes one curse from a character, item, or area. Some powerful curses, especially on magical items, may only be temporarily lifted by *Remove Curse*, requiring a higher-level *Remove Curse* or a cleric's *Dispel Evil* spell to remove permanently. The DM determines if a curse requires additional magic to remove.</p>\n                      <p><strong>Reverse Spell - Curse:</strong> The reverse of this spell, *Curse*, imposes a misfortune or penalty on the target. Curses are limited only by the caster's imagination, but overly powerful curses may backfire on the caster at the DM's discretion. Typical curse effects include a -4 penalty on attack rolls, -2 on saving throws, or a halved prime requisite.</p>\n                      <p>The target may attempt a saving throw vs. spells to avoid the curse.</p>",
+    "description": "<p>This spell removes one curse, whether on a character, item, or area. Some curses—especially those on magical items—may only be temporarily removed, at the DM's discretion, requiring a clerical <em>dispel evil</em> spell for permanently removing the effects (or possibly a <em>remove curse</em> cast by a high-level spellcaster).</p><p>The reverse of this spell, <em>curse</em>, causes a misfortune or penalty to affect the recipient. Curses are limited only by the caster's imagination, but if an attempted curse is too powerful, it may return to the caster (DM's discretion)! Safe limits to curses may include: -4 penalty on attack rolls; -2 penalty to all saving throws; prime requisite reduced to half normal. The victim may make a saving throw vs. spells to avoid the curse.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "spell",
     "saveDmgFormula": null,
     "attackType": "",

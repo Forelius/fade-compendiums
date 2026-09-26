@@ -13,27 +13,27 @@
     "primeReqs": [
       {
         "concatLogic": "none",
-        "ability": "dex",
-        "percentage": 5,
-        "minScore": 13
+        "ability": "cha",
+        "minScore": 13,
+        "percentage": 5
       },
       {
         "concatLogic": "and",
-        "ability": "cha",
-        "percentage": 5,
-        "minScore": 13
+        "ability": "dex",
+        "minScore": 13,
+        "percentage": 5
       },
       {
         "concatLogic": "none",
-        "ability": "dex",
-        "percentage": 10,
-        "minScore": 16
+        "ability": "cha",
+        "minScore": 16,
+        "percentage": 10
       },
       {
         "concatLogic": "and",
-        "ability": "cha",
-        "percentage": 10,
-        "minScore": 16
+        "ability": "dex",
+        "minScore": 16,
+        "percentage": 10
       }
     ],
     "levels": [
@@ -693,10 +693,10 @@
     "classItems": [],
     "abilities": {
       "cha": {
-        "min": 9
+        "min": 12
       },
       "dex": {
-        "min": 9
+        "min": 12
       },
       "int": {
         "min": null

@@ -5,7 +5,7 @@
   "folder": "lzIDmhBVYAbTYag1",
   "system": {
     "tags": [],
-    "description": "<p>This spell restores one full level of experience lost due to energy drain (such as from a vampire's attack). It does not provide additional levels if no level has been lost.</p><p>Limitations:</p><ul><li>Only one level is restored per casting.</li><li>It cannot restore more than one level, nor increase a level beyond what was originally lost.</li></ul><p>Cost to the Cleric:</p><ul><li>Upon casting, the cleric temporarily loses one experience level, as if struck by a wight.</li><li>The cleric’s loss is not permanent—it is recovered after resting for [[/r 2d10 #days]].</li></ul>",
+    "description": "<p>This spell restores one full level of energy (experience) to any victim who has lost a level because of energy drain (for instance, from a vampire's attack). It does not restore more than one level, nor does it add a level if no level has been lost. Furthermore, the cleric casting this spell loses one level of experience, as if struck by a wight when the spell is cast; however, the cleric's loss is not permanent, and the cleric need only rest for [[/r 2d10 #Days]] (2–20) days to regain the lost experience.</p>",
     "gm": {
       "notes": ""
     },
@@ -29,6 +29,10 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ]
   },

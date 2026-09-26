@@ -5,18 +5,18 @@
   "folder": "ITBl84G3mrEdxxqh",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the druid to call lightning bolts from a storm. A storm of any type must be present within 360' of the druid for the spell to work, though the druid need not be within the storm itself.</p>\n                      <p><strong>Effect:</strong> The druid may call 1 lightning bolt per turn, striking any target point within 360'. Each bolt affects an area 20' across. Creatures in this area take 8d6 (8-48) electrical damage, though they may make a saving throw vs. spells to take half damage.</p>\n                      <p>The druid can call a bolt each turn as long as the storm or spell duration continues.</p>",
+    "description": "<p>This spell cannot be used unless a storm of some (any) type is within range of the druid. (This does not mean that he must be within the spell's range of the storm cloud, but only that the stormy weather be taking place within 360' of him.)   </p><p>If a storm is present, the druid may call 1 lightning bolt per turn (10 minutes) to strike at any point within range. The lightning bolt descends from the sky, hitting an area 20' across. Each victim within that area takes 8d6 (8-48) points of electrical damage, but may make a saving throw vs. spells to take half damage. The druid need not call the lightning every turn unless desired; it remains available until the spell duration (or the storm) ends.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 3,
     "range": "360'",
-    "duration": "1 turn per level of the caster",
+    "duration": "1 turn/level",
     "effect": "Calls lightning bolts from a storm",
     "memorized": 0,
     "cast": 0,
     "targetSelf": false,
-    "targetOther": true,
+    "targetOther": false,
     "dmgFormula": "8d6",
     "healFormula": "",
     "maxTargetFormula": "1",
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "10"
+    }
   },
   "effects": [],
   "ownership": {

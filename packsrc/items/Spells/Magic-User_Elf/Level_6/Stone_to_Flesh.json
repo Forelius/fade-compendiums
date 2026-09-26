@@ -5,7 +5,7 @@
   "folder": "N0yCBSqSeMYJe0JK",
   "system": {
     "tags": [],
-    "description": "<p>This spell transforms one statue (or up to a 10' x 10' x 10' section of stone) into flesh. The spell is commonly used to restore a creature that has been petrified by effects such as a gorgon’s breath.</p><p>When cast on a petrified character, the recipient is restored with all previous abilities and equipment intact.</p>",
+    "description": "<p>This spell turns any one statue (or quantity of stone up to 10' x 10' x 10') to flesh. It is usually used to restore a character turned to stone (by gorgon breath, for example).</p><p>The reverse of this spell, <em>flesh to stone</em>, will turn one living creature, including all equipment carried, to stone. The victim may make a saving throw vs. turn to stone to avoid the effect.</p>",
     "gm": {
       "notes": ""
     },
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "10"
+    }
   },
   "effects": [],
   "_id": "p3hJhO4bJ06P6Dp1",

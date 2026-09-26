@@ -5,7 +5,7 @@
   "folder": "XAwljvrj531dXBgY",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a fireball with a delayed explosion, allowing the caster to set a detonation timer.</p><h4>Effects:</h4><ul><li>The caster selects a delay between 0 to 60 rounds before detonation.</li><li>A small rock-like magical \"gem\" shoots toward the chosen location and remains there until detonation.</li><li>When the delay ends, the \"gem\" explodes in a 20' radius sphere, dealing fire damage.</li><li>The fireball inflicts 1d6 damage per caster level to all creatures in the area.</li><li>Each victim may make a saving throw vs. spells to take half damage.</li><li>The \"gem\" cannot be moved magically (via <em>telekinesis</em>, <em>teleport</em>, etc.), but it can be picked up and carried.</li><li>Once cast, the explosion cannot be hurried or further delayed, except with a <em>wish</em>.</li><li>The \"gem\" is pure magic and can be dispelled before detonation.</li></ul>",
+    "description": "<p>As the name implies, this is a <em>fireball</em> spell whose blast can be delayed; it behaves like a time bomb. When he casts the spell, the magic-user states the exact number of rounds of delay (from 0 to 60) until the spell detonates. A small rock, very similar in appearance to a valuable gem, then shoots out toward the desired location, and remains at that location until the stated delay elapses. The \"gem\" may be picked up, carried, and so forth.</p><p>When the stated duration ends, it explodes in an effect identical to a normal <em>fireball</em>—a sudden instantaneous explosion inflicting 1d6 points of damage per level of the caster to all within the area of effect (a sphere of 20' radius). Each victim may make a saving throw vs. spells to take half damage.</p><p>Once the spell has been cast, the explosion cannot be hurried nor further delayed, except with a <em>wish</em>. The \"gem\" created is pure magic, not an actual object, and cannot be moved magically (by <em>telekinesis</em>, <em>teleport</em>, etc.); however, it can be dispelled.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "20"
+    }
   },
   "effects": [],
   "_id": "gqfmbUI9oZtjNukW",

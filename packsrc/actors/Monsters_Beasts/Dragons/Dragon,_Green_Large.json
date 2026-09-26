@@ -197,14 +197,14 @@
       "alphaThreshold": 0.75
     },
     "disposition": -1,
-    "displayBars": 0,
+    "displayBars": 10,
     "appendNumber": true,
     "prependAdjective": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
     "bar1": {
-      "attribute": null
+      "attribute": "hp"
     },
     "bar2": {
       "attribute": null
@@ -975,7 +975,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "rect",
+          "distance": "64.0312423743285",
+          "direction": "38.65980825409009"
+        }
       },
       "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "_id": "cCKq1UU93Zyf8My3",

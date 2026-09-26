@@ -5,7 +5,7 @@
   "folder": "bV0cyZubJQzT1tJ6",
   "system": {
     "tags": [],
-    "description": "<p>This spell heals one living creature of 3d6 + 3 points of damage.</p>",
+    "description": "<p>This spell is similar to a <em>cure light wounds</em> spell, but will cure one living creature of 3d6 + 3 (6–21) points of damage.</p><p>The reverse of this spell (<em>cause critical wounds</em>) causes 3d6 + 3 (6–21) points of damage to any living creature or character touched (no saving throw). The caster must make a normal attack roll to cause the critical wound.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "3d6 + 3",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",

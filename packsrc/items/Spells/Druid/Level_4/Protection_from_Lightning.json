@@ -5,13 +5,13 @@
   "folder": "v3vt9QC6X4dDbc82",
   "system": {
     "tags": [],
-    "description": "<p>This spell grants the recipient immunity to a specified amount of electrical damage. The protection amount depends on the druid's experience level: for each level, one die (1d6) of lightning damage is negated. The protected amount is subtracted from the dice of damage that would otherwise be dealt.</p><p><strong>Example:</strong> A 20th-level druid protected by this spell negates up to 20d6 lightning damage. This would allow the druid to absorb two full *Call Lightning* attacks (8d6 each), plus half of a third attack (8 + 8 + 4 = 20). Any damage beyond this would be taken as normal, and the recipient still makes any applicable saving throws.</p>",
+    "description": "<p>Any recipient of this spell is immune to a given amount of electrical damage. The druid's experience level determines the amount of damage: for each level of experience, one die (1d6) of damage is negated. Subtract the <em>number</em> of dice from the <em>number</em> of dice of damage that would be done to him.   </p><p>Example: A 20th level druid casts this spell. He is protected against [[/r 20d6 #Damage protection from lightning]] lightning damage. For example, this would negate the effects of two full <em>call lightning</em> attacks (of 8 dice each) on him, plus half of a third (8 + 8 + 4 = 20). The third <em>call lightning</em> inflicts 4d6 points of damage on him (but he does get his saving throw against it), and any subsequent <em>call lightning</em> attacks made against him will do full damage.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 4,
     "range": "Touch",
-    "duration": "1 turn per level of the caster",
+    "duration": "1 turn/level",
     "effect": "Protects against lightning attack",
     "memorized": 0,
     "cast": 0,
@@ -24,7 +24,7 @@
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
-    "damageType": "frost",
+    "damageType": "",
     "classes": [
       {
         "name": "Druid",

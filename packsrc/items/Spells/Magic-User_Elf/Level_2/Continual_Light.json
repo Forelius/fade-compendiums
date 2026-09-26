@@ -5,7 +5,7 @@
   "folder": "SsKlXwznQ3Sz3GWV",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a globe of light 60' across. It is much brighter than a torch but not as bright as full daylight. It will continue to glow forever, or until it is magically removed. It may be cast on an object, just as the first level <em>light</em> spell. If cast at a creature's eyes, the victim must make a saving throw vs. spells. If the saving throw is failed, the victim is blinded permanently, or until the spell is dispelled. If the saving throw is successful, the globe will remain in the place it was cast, and the intended victim will suffer no ill effects.</p><p>The reverse of this spell, <em>continual darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
+    "description": "<p>This spell creates a globe of light 60' (30' radius) across. It is much brighter than a torch, but not as bright as full daylight. It will continue to glow forever, or until it is magically removed. It may be cast on an object, just as the first level light spell. If cast at a creature's eyes, the victim must make a saving throw vs. spells. If he fails the saving throw, the victim is blinded—permanently, or until the spell is dispelled. If he makes the saving throw, the globe will still appear, but will remain in the place it was cast, and the intended victim will suffer no ill effects.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "spell",
     "saveDmgFormula": null,
     "attackType": "",

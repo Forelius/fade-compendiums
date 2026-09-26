@@ -5,7 +5,7 @@
   "folder": "XAwljvrj531dXBgY",
   "system": {
     "tags": [],
-    "description": "<p>This spell causes all creatures and objects within a 30' x 30' x 30' cube to fall upward for 2 seconds (1/5 of a round).</p><h4>Effect:</h4><ul><li>Affects all creatures and objects in the area.</li><li>They \"fall\" up to 65' instantly.</li><li>Hitting a ceiling or obstruction causes 1d6 damage per 10' fallen.</li><li>After 2 seconds, gravity returns to normal, causing victims to fall back down and take additional falling damage.</li><li>NPCs affected must make a morale check.</li></ul><h4>Example:</h4><p>In a 40' tall room, giants hit the ceiling (4d6 damage) and then fall back to the floor (another 4d6 damage), taking a total of 8d6 damage.</p>",
+    "description": "<p>This spell affects all creatures and objects within a cubic volume 30' x 30' x 30', causing them to \"fall\" in a direction opposite the normal gravity. In two seconds, creatures and objects can \"fall\" a maximum of 65'. No saving throw is allowed, and all victims hitting a ceiling or other obstruction take 1d6 points of damage per 10' \"fallen.\" Note that after the two seconds have elapsed, gravity returns to normal and all victims will fall back to their original places, suffering more falling damage. The DM should make a morale check for each NPC victim of this spell.</p><p>Example: A magic-user casts this spell at a group of approaching giants in a 40' tall room. The giants \"fall\" to the ceiling and then back to the floor, each taking a total of 8d6 points of damage in the process: 4d6 from \"falling\" up and hitting the ceiling, and another 4d6 from falling back down to the floor.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "30"
+    }
   },
   "effects": [],
   "_id": "hDALySTYE9P5d7Vd",

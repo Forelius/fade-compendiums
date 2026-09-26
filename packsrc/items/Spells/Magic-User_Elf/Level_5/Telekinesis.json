@@ -5,14 +5,14 @@
   "folder": "Q2J4fFC7tEL14SLS",
   "system": {
     "tags": [],
-    "description": "<p>This spell allows the caster to move a creature or object by sheer concentration. The weight of the object can be up to 200 cn (20 lbs) per caster level. For example, a 10th-level caster could move an object up to 2,000 cn (200 lbs).</p>\n                      <p>The object can be moved in any direction at a rate of up to 20' per round. The caster must concentrate, and the movement stops if concentration is broken.</p>\n                      <p><strong>Saving Throws:</strong> An unwilling creature may make a saving throw vs. spells to avoid being moved. If an item is being held, the holder may make a saving throw with a -2 penalty. For items carried but not held, the owner may attempt to grab it with a saving throw at a -5 penalty.</p>",
+    "description": "<p>This spell enables the spellcaster to move a creature or object simply by concentrating. The item may weigh up to 200 cn (20 lbs) per level of the caster (a 10th level elf could move an object weighing up to 2,000 cn, or 200 lbs). The caster may move the object in any direction, at a rate of up to 20' per round.</p><p>An unwilling victim may make a saving throw vs. spells to avoid the effect. If he makes the roll, he doesn't budge. If a target is being held by someone, the holder can make a saving throw with a -2 penalty to retain the target item.</p><p>If the <em>telekinesis</em> grabs an object that is being carried but not held in the hand, the owner may grab for it as it is yanked away. To catch the departing object, he must make a saving throw vs. spells with a -5 penalty.</p><p>The caster must concentrate while moving objects, and the objects will fall if the caster is disturbed.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 5,
     "range": "120'",
     "duration": "6 rounds",
-    "effect": "200 cn of weight per level of caster",
+    "effect": "200 cn of weight/level",
     "memorized": 0,
     "cast": 0,
     "targetSelf": false,

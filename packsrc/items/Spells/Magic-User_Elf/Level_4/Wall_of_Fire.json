@@ -5,7 +5,7 @@
   "folder": "OUJmVjvNpjVVRhwv",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a thin, vertical wall of fire in any shape or dimension, totaling 1,200 square feet (e.g., 10' x 120', 20' x 60', 30' x 40'). The wall is opaque and blocks sight, and it cannot be created in a space already occupied by another object.</p>\n                      <p><strong>Duration:</strong> The wall remains as long as the caster concentrates on it without moving.</p>\n                      <p><strong>Breaking Through:</strong> Creatures with less than 4 Hit Dice cannot pass through the wall. Creatures with 4 HD or more may pass through, taking 1d6 fire damage in the process. Undead and cold-using creatures (e.g., white dragons, frost giants) each take double damage (2d6) when breaking through.</p>",
+    "description": "<p>This spell creates a thin vertical wall of fire of any dimension and shape, determined by the spellcaster, totalling 1,200 square feet (for example, 10' x 120', 20' x 60', 30' x 40', etc.). The wall is opaque and will block sight. The wall cannot be cast in a space occupied by another object. It lasts as long as the caster concentrates, without moving, on it.</p><p>Creatures of less than 4 Hit Dice cannot break through the wall. Creatures of 4 HD or more can break through, but take 1d6 points of damage in the process. Undead and cold-using creatures (white dragons, frost giants, etc.) each take double damage while breaking through.</p>",
     "gm": {
       "notes": ""
     },
@@ -20,7 +20,7 @@
     "dmgFormula": "1d6",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",

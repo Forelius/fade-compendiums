@@ -35,7 +35,9 @@
     "spells": [],
     "conditions": []
   },
-  "effects": [],
+  "effects": [
+    "gQaaFsbBZL8BcZng"
+  ],
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -48,5 +50,44 @@
   },
   "_id": "0F3JvLtlCeIYVvMe",
   "sort": 800000,
-  "_originalKey": "!items!0F3JvLtlCeIYVvMe"
+  "_originalKey": "!items!0F3JvLtlCeIYVvMe",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!0F3JvLtlCeIYVvMe.gQaaFsbBZL8BcZng",
+      "name": "Giant Strength",
+      "img": "icons/svg/upgrade.svg",
+      "origin": "Compendium.fade-compendiums.item-compendium.Item.0F3JvLtlCeIYVvMe",
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "gQaaFsbBZL8BcZng",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.dmgScale",
+          "mode": 4,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#85caff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
 }

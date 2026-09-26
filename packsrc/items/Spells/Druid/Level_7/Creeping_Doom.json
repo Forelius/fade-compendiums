@@ -5,13 +5,13 @@
   "folder": "V4F1GzuReHr8xnu8",
   "system": {
     "tags": [],
-    "description": "<p>This spell summons a massive swarm of 1,000 creeping insects that appear anywhere within 120 feet of the druid.</p><h4>Effects:</h4><ul><li>The swarm initially covers a 20' x 20' area but can be spread to cover up to 60' x 60'.</li><li>The swarm moves at a rate of 60' per round if the druid remains within 120 feet of any part of it.</li><li>Any creature caught in the swarm takes 100 points of damage per round (no saving throw).</li><li>The insects remain for the spell’s duration or until the druid moves more than 120 feet away.</li><li><p>Normal attacks only partially damage the swarm:</p><ul><li>A fireball only destroys 100 insects (reducing the total damage by 10 points).</li><li>Other attacks can destroy similar small portions of the swarm.</li></ul></li><li>The swarm can move over most obstacles at normal speed and ignores protection from evil effects.</li><li>A dispel magic can destroy the swarm at normal chances of success.</li></ul>",
+    "description": "<p>This spell magically creates a huge swarm of 1,000 creeping insects, appearing anywhere within 120' of the druid (as chosen by the caster). They fill an area at least 20' x 20', and can be ordered to fill any area up to a maximum of 60' x 60'.   </p><p>The <em>creeping doom</em> can move at up to 60' (20') if the caster remains within 120' of any part of the swarm. They vanish after the duration ends, or whenever the druid is more than 120' away.   </p><p>The insects always attack everyone and everything in their path, inflicting 1 point of damage per 10 insects, a total of 100 points per round to each creature caught in the effect (no saving throw). Normal attacks (such as fire) can damage the horde slightly, but even a <em>fireball</em> spell will only slay 100 of them (reducing the damage accordingly). The <em>creeping doom</em> can be destroyed by a <em>dispel magic</em> spell (at normal chances for success), but it can penetrate a <em>protection from evil</em> effect, and can move over most obstacles at the normal movement rate.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 7,
     "range": "120'",
-    "duration": "1 round per caster level",
+    "duration": "1 round/level",
     "effect": "Creates a 20' x 20' insect horde",
     "targetSelf": false,
     "targetOther": false,
@@ -30,7 +30,11 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "20"
+    }
   },
   "effects": [],
   "_id": "zOHzr2l9pRMwTymW",

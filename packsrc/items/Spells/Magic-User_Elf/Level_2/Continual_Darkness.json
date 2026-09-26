@@ -7,7 +7,7 @@
     "tags": [
       "reversed"
     ],
-    "description": "<p><em>Continual</em> <em>darkness</em>, creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
+    "description": "<p><em>Continual darkness</em> creates a volume of complete darkness in a 30' radius. Torches, lanterns, and even a <em>light</em> spell will not affect it, and infravision cannot penetrate it. If cast on a creature's eyes, the creature must make a saving throw vs. spells or be blinded until the spell is removed. A <em>continual light</em> spell will cancel its effects.</p>",
     "gm": {
       "notes": ""
     },
@@ -22,7 +22,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "spell",
     "saveDmgFormula": null,
     "attackType": "",
@@ -36,7 +36,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "30"
+    }
   },
   "flags": {},
   "effects": [],

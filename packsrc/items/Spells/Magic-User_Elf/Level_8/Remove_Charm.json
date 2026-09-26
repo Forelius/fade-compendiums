@@ -5,7 +5,7 @@
   "folder": "tpOpaJqww9ZZvZT2",
   "system": {
     "tags": [],
-    "description": "<p>This spell removes all charm effects within a 20' x 20' x 20' area.</p><h4>Dispel Effects:</h4><ul><li>Removes all charm person, charm monster, or Mass Charm effects.</li><li>Also removes any charm effect from magical items.</li><li>Prevents new charm effects in the area for 1 turn.</li></ul>",
+    "description": "<p><em>Remove charm</em>, will unfailingly remove all charm effects within a 20' x 20' x 20' volume. It will also prevent any object in that area from creating charm effects for one turn.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "20"
+    }
   },
   "effects": [],
   "_id": "xuC8NSeknVoIGNMZ",

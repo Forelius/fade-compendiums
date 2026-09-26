@@ -5,7 +5,7 @@
   "folder": "OUJmVjvNpjVVRhwv",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a storm of ice in a 20' x 20' x 20' area, or the largest available space within those dimensions, dealing 1d6 cold damage per caster level to all creatures in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature may make a saving throw vs. spells for half damage. Fire-type creatures (e.g., red dragons, flame salamanders) suffer a -4 penalty to their saving throws, while cold-type creatures (e.g., frost giants, frost salamanders) are unaffected.</p>",
+    "description": "<p>This spell may be cast in either of two ways: either as an icy blast, <em>ice storm</em>, or <em>wall of ice</em>.</p><p>An <em>ice storm</em> fills a 20' x 20' x 20' cube. If cast in a smaller area, it will remain 20' long at most. The storm inflicts 1d6 points of cold damage per level of the caster to every creature in the area. Each victim may make a saving throw vs. spells; if he is successful, he takes only half damage. Fire-type creatures (red dragons, flame salamanders, etc.) have a -4 penalty on their saving throws, but cold-type creatures (frost giant, frost salamander, etc.) are not affected by the spell.</p><p>A <em>wall of ice</em> is a thin vertical wall of any dimensions and shape determined by the spellcaster totalling 1,200 square feet or less (10' x 120', 30' x 40', etc.). The wall is opaque and will block sight. The wall must be cast to rest on the ground or similar support, and cannot be cast in a space occupied by another object.</p><p>Creatures of less than 4 Hit Dice or levels cannot break through the wall. Creatures of 4 HD or more levels can break through, but take 1d6 points of damage in the process. Fire-type creatures each take twice the amount of damage (2d6) while breaking through.</p>",
     "gm": {
       "notes": ""
     },
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "20"
+    }
   },
   "effects": [],
   "ownership": {

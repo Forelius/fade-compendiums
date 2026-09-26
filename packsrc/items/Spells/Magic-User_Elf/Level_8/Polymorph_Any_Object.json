@@ -5,7 +5,7 @@
   "folder": "tpOpaJqww9ZZvZT2",
   "system": {
     "tags": [],
-    "description": "<p>This spell functions similarly to the <em>Polymorph Others</em> spell but extends its effects to objects as well as creatures. The spell transforms one target into another form, following the rules outlined below.</p><h4>Target Limitations:</h4><ul><li>Objects: If the object is part of a larger whole (e.g., a wall section), the spell affects a volume of up to 10' × 10' × 10'.</li><li>Creatures: A creature may attempt a saving throw vs. spells (at a -4 penalty) to resist the effect.</li><li>Hit Dice Limit: A creature with more than twice the caster’s level in Hit Dice is immune (e.g., a 20th level caster cannot affect a 41+ HD creature).</li></ul><h4>Duration Based on Transformation:</h4><ul><li>Same Kingdom: If the transformation remains within the same kingdom (e.g., animal to animal), the effect is permanent until dispelled.</li><li>Adjacent Kingdom: If changing between adjacent kingdoms (e.g., animal → vegetable or vegetable → mineral), the effect lasts 1 hour per caster level ([[/r @actor.details.level*360 #Duration in rounds]]).</li><li>Distant Kingdom: If changing between distant kingdoms (e.g., animal → mineral), the effect lasts 1 turn per caster level ([[/r @actor.details.level*60 #Duration in rounds]]).</li></ul><h4>Additional Rules & Notes:</h4><ul><li>Newly created creatures are not automatically friendly to the caster.</li><li>Polymorph does not affect age or hit points—these remain unchanged.</li><li>The spell can be reversed via a <em>Dispel Magic</em> spell (normal chances of success apply).</li><li>For additional polymorphing rules, refer to <em>Polymorph Self</em> and <em>Polymorph Others</em>.</li></ul>",
+    "description": "<p>This spell is similar to the 4th level <em>polymorph others</em> spell, except that it will affect objects as well as creatures. If the object is part of a greater whole (such as a section of wall), the spell will affect up to a 10' x 10' x 10' volume. A creature may avoid the effects if a successful saving throw vs. spells is made at a -4 penalty to the roll.</p><p>The duration of the polymorph depends on the degree of the change. There are three basic kingdoms of all things—animal, vegetable, and mineral. If an object is polymorphed to one of a nearby kingdom (animal-vegetable, vegetable-mineral) the spell's duration is one hour per level of the caster. If the change is from animal to mineral (or the reverse), it lasts for one turn per level of the caster. If no change in kingdom occurs (for example, if a creature is polymorphed into some other creature), the change is permanent until removed by a <em>dispel magic</em> spell (at normal chances for success).</p><p>Note that creatures created by means of this spell are not automatically friendly. A polymorph cannot affect a creature's age or hit points. (See the 4th level <em>polymorph self</em> and <em>polymorph others</em> spells for other guidelines.)</p><p>This spell will not affect a creature which has more than 2x the spellcaster's experience levels in Hit Dice. For example, a 20th level magic-user cannot affect a creature with 41 or more Hit Dice.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "10"
+    }
   },
   "effects": [],
   "_id": "mgWtSTmPFztEQkBT",

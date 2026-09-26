@@ -1,0 +1,61 @@
+{
+  "name": "Anti-Magic Shell",
+  "type": "condition",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>An invisible barrier around the spellcaster's body (less than an inch away). The barrier stops all spells or spell effects, including the caster's. The caster may destroy the shell at will; otherwise, it lasts for the duration. Except for a <em>wish</em>, no magic (including a <em>dispel magic</em> spell) can cancel the barrier.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "6iGuhVXXoAIhXULx"
+  ],
+  "folder": "DHxEnc4I068rxlES",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "nT2wKqI9DMPvVj95",
+  "sort": 0,
+  "_originalKey": "!items!nT2wKqI9DMPvVj95",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!nT2wKqI9DMPvVj95.6iGuhVXXoAIhXULx",
+      "name": "Anti-Magic Shell",
+      "img": "icons/svg/aura.svg",
+      "disabled": false,
+      "_id": "6iGuhVXXoAIhXULx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#f99eff",
+      "transfer": true,
+      "statuses": [
+        "magicShield"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

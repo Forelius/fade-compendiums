@@ -5,7 +5,7 @@
   "folder": "XAwljvrj531dXBgY",
   "system": {
     "tags": [],
-    "description": "<p>This spell negates invisibility within a 20' x 20' x 20' area. It affects all invisible creatures and objects inside the area, making them fully visible.</p><h4>Effect:</h4><ul><li>Affects all forms of invisibility (both magical and natural).</li><li>Creatures on the Astral and Ethereal planes are not affected.</li><li>All affected creatures cannot become invisible again for 1 full turn.</li></ul>",
+    "description": "<p><em>Appear</em>, will cause all invisible creatures and objects in a 20' x 20' x 20' volume to become visible. Creatures on the Astral and Ethereal planes are not within the area of effect; the spell cannot reach across planar boundaries. All other forms of invisibility are affected, both magical and natural, and all victims of this spell cannot become invisible again for one full turn.</p>",
     "gm": {
       "notes": ""
     },
@@ -30,7 +30,11 @@
         "name": "Magic-User",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "20"
+    }
   },
   "effects": [],
   "_id": "nC2idcdlOsVGpzEc",

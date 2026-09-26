@@ -5,7 +5,7 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates a missile of fire that explodes into a 40' diameter (20' radius) fireball where it strikes. It deals 1d6 fire damage per caster level to every creature in the area.</p>\n                      <p><strong>Saving Throw:</strong> Each creature can make a saving throw vs. spells for half damage.</p>\n                      <p>For example, a fireball cast by a 6th-level caster deals 6d6 (6-36) points of damage. On a successful saving throw, the damage is halved.</p>",
+    "description": "<p>This spell creates a missile of fire that bursts into a ball of fire with a 40' diameter (20' radius) where it strikes a target. The <em>fireball</em> will cause 1d6 points of fire damage per level of the caster to every creature in the area of effect.</p><p>Each victim may make a saving throw vs. spells; if successful, the spell will only do half damage. For example, a <em>fireball</em> cast by a 6th level spellcaster will burst for 6d6 (6–36) points of damage; characters who make their saving throw vs. spell will take only half of the damage rolled on the dice.</p>",
     "gm": {
       "notes": ""
     },
@@ -34,7 +34,11 @@
         "name": "Elf",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
       }
-    ]
+    ],
+    "template": {
+      "type": "circle",
+      "distance": "20"
+    }
   },
   "effects": [],
   "ownership": {

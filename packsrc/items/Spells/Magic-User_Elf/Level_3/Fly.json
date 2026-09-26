@@ -5,13 +5,13 @@
   "folder": "SHIX4pYpBO0PFIgd",
   "system": {
     "tags": [],
-    "description": "<p>This spell grants the target (including the caster, if desired) the ability to fly at will for a duration of 1d6 turns plus an additional turn per caster level.</p>\n                      <p>The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</p>",
+    "description": "<p>This spell allows the target it is cast upon (possibly the spellcaster himself) to fly. The recipient can fly in any direction and at any speed up to 360' (120') by mere concentration. The recipient may also stop and hover at any point (as a <em>levitate</em> spell); this does not require concentration.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 3,
     "range": "Touch",
-    "duration": "1d6 turns + 1 turn per caster level",
+    "duration": "1d6 turns + 1 turn/level",
     "effect": "One creature may fly",
     "memorized": 0,
     "cast": 0,

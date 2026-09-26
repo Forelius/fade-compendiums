@@ -191,14 +191,14 @@
       "alphaThreshold": 0.75
     },
     "disposition": -1,
-    "displayBars": 0,
+    "displayBars": 10,
     "appendNumber": true,
     "prependAdjective": false,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
     "bar1": {
-      "attribute": null
+      "attribute": "hp"
     },
     "bar2": {
       "attribute": null
@@ -367,7 +367,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "ray",
+          "distance": "50",
+          "angle": "11.3"
+        }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "_id": "3NYUfrZdZj9N9Zbu",

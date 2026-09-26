@@ -5,13 +5,13 @@
   "folder": "Z9Sy2YBHKkjF5u6a",
   "system": {
     "tags": [],
-    "description": "<p>This spell creates an invisible protective barrier surrounding the druid, less than an inch from their body.</p><h4>Effects:</h4><ul><li>Prevents all physical attacks from normal and giant-sized animals, including insects and other non-fantastic creatures of animal intelligence (0-2).</li><li>The barrier prevents the druid from physically attacking animals, but they may still use spells against them.</li></ul>",
+    "description": "<p>This spell creates an invisible barrier around the druid's body (less than an inch away). The barrier stops all attacks by animals, both normal and giant-sized, as well as insects and all other nonfantastic creatures of animal intelligence or less (0-2). The druid cannot attack animals while protected except by use of other spells; the animals are protected from the druid's physical attacks, just as the druid is protected from theirs.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 6,
     "range": "0 (Druid only)",
-    "duration": "One turn per caster level",
+    "duration": "One turn/level",
     "effect": "Personal barrier that blocks animals",
     "targetSelf": true,
     "targetOther": false,

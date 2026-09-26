@@ -5,7 +5,7 @@
   "folder": "XAwljvrj531dXBgY",
   "system": {
     "tags": [],
-    "description": "<p>This spell grants invisibility (as the <em>Invisibility</em> spell) to multiple creatures or objects within a 60' square area up to 240' from the caster.</p><h4>Effect:</h4><ul><li>Affects up to 6 dragon-sized creatures or 300 man-sized creatures.</li><li>Each recipient becomes invisible, along with all their carried equipment.</li><li>Invisibility lasts permanently until broken.</li><li>Attacking or casting a spell ends the invisibility.</li></ul>",
+    "description": "<p>This bestows invisibility (as the 2nd level spell) on several creatures. All the recipients must be within an area 60' square within 240' of the magic-user. The spell will affect up to 6 dragon-sized creatures, or up to 300 man-sized creatures. After the spell is cast, each creature becomes invisible, along with all equipment it carries (as per the <em>invisibility</em> spell, above). An invisible creature will remain invisible until he or she attacks or casts any spell.</p><p>The reverse of this spell, <em>appear</em>, will cause all invisible creatures and objects in a 20' x 20' x 20' volume to become visible. Creatures on the Astral and Ethereal planes are not within the area of effect; the spell cannot reach across planar boundaries. All other forms of invisibility are affected, both magical and natural, and all victims of this spell cannot become invisible again for one full turn.</p>",
     "gm": {
       "notes": ""
     },
@@ -36,7 +36,11 @@
         "name": "Invisible",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.YG8b9eFbcb3QCHOv"
       }
-    ]
+    ],
+    "template": {
+      "type": "rect",
+      "distance": "60"
+    }
   },
   "effects": [],
   "_id": "qaR98ApMOLEMX20L",
