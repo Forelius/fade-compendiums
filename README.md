@@ -8,6 +8,8 @@ Compendiums module for Fantastic Depths Foundry VTT System.
 
 This module contains compendiums for Fantastic Depths Monsters, Items, Rollable Tables, Skills, Special Abilities, Spells, and more.
 
+Token artwork for the monster actors is available separately in [Fantastic Depths Compendiums Tokens](https://github.com/Forelius/fade-compendiums-tokens).
+
 Manual Install (Stable): 
 https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/stable/module.json
 
