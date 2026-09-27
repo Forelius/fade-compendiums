@@ -1,0 +1,51 @@
+{
+  "name": "Slate of Identification",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-writing-grey.webp",
+  "system": {
+    "unidentifiedName": "Slate, Framed",
+    "unidentifiedDesc": "<p>An ornate, yet sensibly framed slate of polished stone. Approximately 3' square in size. Lightweight for its size.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This valuable device, usable only by spellcasters, can identify magical items of most sorts. It is a piece of slate (stone) held firmly in an ornate wooden frame, usually about 3' square (though slates of many sizes are possible, both larger and smaller). The user holds the slate horizontally and places a magical item upon it. When the item is lifted off, the name of the item appears on the slate. If an item has command words, one will appear on the slate with each identification. The slate will only repeat itself when all the command words have been revealed.</p><p>The slate is easily fooled by cursed items, however. And it cannot detect an item's number of charges or special ability. A <em>potion of poison</em> will be mistakenly identified as some other type. Any cursed item will be identified as a normal item. (These guidelines should be strictly followed, lest the mystery of such items found be ruined.)</p><p>The slate may expend up to ten charges per day; items identified require the following numbers of charges per use.</p><p><strong>Temporary Magical Items</strong></p><table style=\"width: 200px;\"><thead><tr><th>Item Type</th><th>Charges Required</th></tr></thead><tbody><tr><td>Potion</td><td>2</td></tr><tr><td>Missile</td><td>3</td></tr><tr><td>Wand</td><td>4</td></tr><tr><td>Staff</td><td>5</td></tr></tbody></table><p><strong>Permanent Magical Items</strong></p><table style=\"width:350px;\"><thead><tr><th>Item Type</th><th>Charges Required</th></tr></thead><tbody><tr><td>Any permanent magical weapon</td><td>6</td></tr><tr><td>Armor or shield</td><td>7</td></tr><tr><td>Ring or rod</td><td>8</td></tr><tr><td>Minor miscellaneous item*</td><td>10</td></tr><tr><td>Major miscellaneous item*</td><td>Special</td></tr></tbody></table><p>* The DM's judgment is required as to the value and frequency of such items in the campaign. A \"major\" item might be identifiable, but only by making the slate useless for 1d4 days.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 10,
+    "chargesMax": 10,
+    "weight": 400,
+    "weightEquipped": 400,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2VYhqvE3zqPdES6W",
+  "sort": 0,
+  "_originalKey": "!items!2VYhqvE3zqPdES6W"
+}

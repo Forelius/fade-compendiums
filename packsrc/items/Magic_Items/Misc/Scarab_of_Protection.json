@@ -1,24 +1,24 @@
 {
-  "name": "Amulet of Protection from Crystal Balls and ESP",
+  "name": "Scarab of Protection",
   "type": "item",
-  "img": "icons/equipment/neck/amulet-engraved-wood-blue.webp",
+  "img": "icons/equipment/neck/necklace-animal-scarab.webp",
   "system": {
-    "unidentifiedName": "Strange Amulet",
-    "unidentifiedDesc": "<p>An odd looking amulet is strange symbols carved in it.</p>",
+    "unidentifiedName": "Scarab",
+    "unidentifiedDesc": "<p>A fist-sized stone, of some sort, carved into the shape of a stylized scarab beetle. </p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>The wearer of this item is automatically protected from being spied on by anyone using a crystal ball or any type of ESP.</p>",
+    "description": "<p>This item automatically absorbs any curse (whether by spell, scroll, or other effect). It will also absorb a <em>finger of death</em> (a cleric's <em>raise dead</em> spell, reversed). The scarab will work [[/r 2d6 #Charges when found.]] times before becoming worthless.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
+    "charges": 6,
+    "chargesMax": 12,
+    "weight": 5,
+    "weightEquipped": 5,
     "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
@@ -45,7 +45,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "oRc7XbDYo5Fmn7mU",
-  "sort": 4300000,
-  "_originalKey": "!items!oRc7XbDYo5Fmn7mU"
+  "_id": "jFuz8pjSh9xuYynp",
+  "sort": 0,
+  "_originalKey": "!items!jFuz8pjSh9xuYynp"
 }

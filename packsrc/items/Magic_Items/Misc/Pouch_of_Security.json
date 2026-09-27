@@ -1,0 +1,51 @@
+{
+  "name": "Pouch of Security",
+  "type": "item",
+  "img": "icons/containers/bags/sack-canvas-grey.webp",
+  "system": {
+    "unidentifiedName": "Sack, Large",
+    "unidentifiedDesc": "<p>A 2' x 4' burlap, cloth, or leather bag that can hold up to 600 coins. It is typically carried over a shoulder or tied onto a cart or saddle, making it useful for carrying large amounts of treasure or bulky items.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item is the size of a large sack (capacity 600 cn). Any attempt at stealing the pouch causes it to scream, \"I am being stolen!\" (in the Common tongue) repeatedly for one hour. Its cries can be heard to 120'. If its owner holds it and commands it to be quiet, it will obey, but it will repeat its cries if stolen again.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": true,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "dWI2iIZJnchYDcQR",
+  "sort": 600000,
+  "_originalKey": "!items!dWI2iIZJnchYDcQR"
+}
