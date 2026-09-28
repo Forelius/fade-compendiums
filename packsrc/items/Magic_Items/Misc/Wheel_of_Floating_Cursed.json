@@ -1,0 +1,51 @@
+{
+  "name": "Wheel of Floating (Cursed)",
+  "type": "item",
+  "img": "icons/commodities/tech/wheel.webp",
+  "system": {
+    "unidentifiedName": "Wagon Wheel",
+    "unidentifiedDesc": "<p>A beautifully constructed wagon wheel.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>This item appears identical to a normal <em>wheel of floating</em> and functions similarly until reaching the center of any river or stream. At that point, the cursed wheel becomes stuck and cannot be moved until a <em>remove curse</em> spell is applied by a 15th or higher level caster. This allows progress to continue, but the curse will return again upon its next use until the wheel is destroyed.</p>",
+    "gm": {
+      "notes": "Placeholder item. Individual item can be used once rolled."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 300,
+    "weightEquipped": 300,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "fjp23rzSY6zdomjg",
+  "sort": 0,
+  "_originalKey": "!items!fjp23rzSY6zdomjg"
+}

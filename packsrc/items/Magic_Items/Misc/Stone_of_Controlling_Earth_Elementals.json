@@ -1,24 +1,24 @@
 {
-  "name": "Amulet of Protection from Crystal Balls and ESP",
+  "name": "Stone of Controlling Earth Elementals",
   "type": "item",
-  "img": "icons/equipment/neck/amulet-engraved-wood-blue.webp",
+  "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
   "system": {
-    "unidentifiedName": "Strange Amulet",
-    "unidentifiedDesc": "<p>An odd looking amulet with strange symbols carved in it.</p>",
+    "unidentifiedName": "Stone",
+    "unidentifiedDesc": "<p>A fist-sized stone.</p>",
     "isIdentified": false,
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>The wearer of this item is automatically protected from being spied on by anyone using a crystal ball or any type of ESP.</p>",
+    "description": "<p>This item may be used only once per day. The stone is only 6\" across, and it requires 1 turn to use. The stone will summon an earth elemental and will allow the user to control it, subject to normal rules for elemental control.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "charges": 0,
-    "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
+    "charges": 1,
+    "chargesMax": 1,
+    "weight": 20,
+    "weightEquipped": 20,
     "cost": null,
     "totalWeight": 0,
     "totalCost": 0,
@@ -45,7 +45,7 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "oRc7XbDYo5Fmn7mU",
-  "sort": 5300000,
-  "_originalKey": "!items!oRc7XbDYo5Fmn7mU"
+  "_id": "1CV2RGHuEKfrYHtG",
+  "sort": 500000,
+  "_originalKey": "!items!1CV2RGHuEKfrYHtG"
 }
