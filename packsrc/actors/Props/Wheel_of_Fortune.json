@@ -1,0 +1,127 @@
+{
+  "name": "Wheel of Fortune",
+  "type": "prop",
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "system": {
+    "tags": [],
+    "biography": "<p>This strange device is 10' in diameter, mounted on a stand or wall fixture, and easily rotated. It is decorated with a black-and-white pattern of wedges, all intersecting at the center where a green arrow is mounted; the arrow does not turn with the wheel. Near the rim, each black wedge is adorned by a white skull and each white wedge by a red heart. If the wheel is spun (easily done by any creature of 3 Strength or greater), it rotates for 3 rounds and then comes to rest, with the green arrow pointing at one of the wedges (either black or white with equal chances for each). However, a charmed creature cannot move the wheel, and each user can spin the wheel only once per day.</p><p>If the wheel has spun freely for the 3 rounds, not touched or interfered with in any way, a magical effect occurs, determined by the result of the spin. The wheel cannot be affected by magic of any kind, including <em>telekinesis</em>, and it cannot be damaged in any way. A <em>wish</em> used to affect the wheel will cause the wheel to vanish, regardless of the wish. The wheel cannot be moved except by a creature of 26 or more levels (or Hit Dice). The wheel weighs 20,000 cn. For each white or black wedge that appears, roll 1d6 and consult the following.</p><p><strong>White Wedge</strong></p><table style=\"width:500px;\"><thead><tr><th>1d6 Roll</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td>1,000 gold pieces appear</td></tr><tr><td>2</td><td>10 garnets appear</td></tr><tr><td>3</td><td>1 brooch appears</td></tr><tr><td>4</td><td>1 miscellaneous magical item appears</td></tr><tr><td>5</td><td>1 ability score rises by 1 point (maximum score 18)</td></tr><tr><td>6</td><td>Prime Requisite or Constitution rises by 1 point (maximum score 18)</td></tr></tbody></table><p><strong>Black Wedge</strong></p><table style=\"width:500px;\"><thead><tr><th>1d6 Roll</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td>1 ability score drops by 1 point (minimum score 3)</td></tr><tr><td>2</td><td>Prime Requisite drops by 1 point</td></tr><tr><td>3</td><td>Constitution drops by 1 point</td></tr><tr><td>4</td><td>Least valuable magical item carried disintegrates</td></tr><tr><td>5</td><td>All nonmagical items, except for normal clothing, disintegrate</td></tr><tr><td>6</td><td>Die (no saving throw)</td></tr></tbody></table><p>The DM may select or randomly determine the results of the spin. If desired, the wedges may be numbered from 1-20, 1-100, or some other conveniently determined number, and a chart may be made with more varied results.</p>",
+    "details": {
+      "weight": "",
+      "size": "L"
+    },
+    "gm": {
+      "notes": ""
+    },
+    "activeLight": null,
+    "actorGroups": []
+  },
+  "prototypeToken": {
+    "name": "Wheel of Fortune",
+    "displayName": 10,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "3gfktEitrXH0KQp1",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "5arJTwiKrS1xYXjw",
+  "sort": 0,
+  "_originalKey": "!actors!5arJTwiKrS1xYXjw"
+}

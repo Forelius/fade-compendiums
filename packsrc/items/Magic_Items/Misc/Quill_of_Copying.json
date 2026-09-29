@@ -1,0 +1,52 @@
+{
+  "name": "Quill of Copying",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>A quill is a large feather that can be dipped in ink and used as a writing implement. Usable only by spellcasters, this quill can be commanded to copy any spell on a scroll. It will copy only one spell per week at most. The original scroll must be burned, and the ashes mixed with rare ink (of 1,000 gp cost). The quill is then placed on a blank scroll along with an inkwell containing the prepared ink. Upon command, the quill starts to write, creating two identical spells on the scroll instead of the single original. If the scroll burnt contains two or more spells, only one spell will be copied—either the lowest level spell or (if more than one are the lowest level) a randomly selected spell. The quill will not copy protection scrolls or any other writing except spell scrolls.</p><p>Unfortunately, there is a [[/r 1d100 #On 25 or less, ink drained and scroll spoiled.]] 25% chance per use that the quill will suddenly drain of ink, spoiling the entire scroll upon which it is writing. The blot thus created cannot be removed from the parchment by any means but a <em>wish</em>.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 0,
+    "cost": 1,
+    "containerId": "",
+    "equipped": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "shortName": "",
+    "unidentifiedName": "Quill Pen",
+    "unidentifiedDesc": "<p>A large feather sharpened into a writing point.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 1,
+    "chargesMax": 1,
+    "weightEquipped": 0,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rMmoFJ9RpjDTvCVI",
+  "sort": 1300000,
+  "_originalKey": "!items!rMmoFJ9RpjDTvCVI"
+}

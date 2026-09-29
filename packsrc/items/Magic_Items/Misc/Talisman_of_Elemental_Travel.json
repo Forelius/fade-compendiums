@@ -1,0 +1,51 @@
+{
+  "name": "Talisman of Elemental Travel",
+  "type": "item",
+  "img": "icons/equipment/neck/amulet-carved-runed-othila-fehu-grey.webp",
+  "system": {
+    "unidentifiedName": "Talisman",
+    "unidentifiedDesc": "<p>An odd looking talisman with strange symbols carved in it.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "shortName": "",
+    "tags": [],
+    "description": "<p>There are five types of talismans. Roll [[/r 1d10 #Talisman type]] to determine the exact item found.</p><table style=\"width:300px;\"><thead><tr><th>d10 Roll</th><th>Talisman Found</th></tr></thead><tbody><tr><td>1-2</td><td>Lesser Talisman of Air</td></tr><tr><td>3-4</td><td>Lesser Talisman of Earth</td></tr><tr><td>5-6</td><td>Lesser Talisman of Fire</td></tr><tr><td>7-8</td><td>Lesser Talisman of Water</td></tr><tr><td>9-10</td><td>Greater Talisman (all elements)</td></tr></tbody></table><p><strong>Lesser Talisman:</strong> This item is a round amulet that may be found on a chain; there are corresponding types to each of the four elements. It is engraved with a triangle in the center and a symbol above it (one of the ten symbols of the elemental ranks). On the Prime Plane, the user may press the central symbol while casting a <em>conjure elemental</em> spell; the talisman will reverse the effect, sending the wearer into the appropriate elemental plane. While wearing the talisman, the user can breathe elemental matter as if it were pure, clean air, and he gains in vision (normally 120'-1,200' range, depending on conditions).</p><p><strong>Greater Talisman:</strong> This item is similar to a lesser talisman in powers, but applies to all the elemental planes. It is engraved with the four triangular symbols of the planes, meeting in the center. The ten symbols of all the elemental ranks are inscribed around the edge. If the proper command words are known, the wearer may also force an elemental being to obey instructions. This uses one charge; the talisman can expend up to ten charges per trip into an elemental plane.</p>",
+    "gm": {
+      "notes": "Placeholder item. Individual item can be used once rolled."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "0yIvUPNk5375b9K4",
+  "ownership": {
+    "default": 0,
+    "PQautH39zHZdSjg6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Zh2IceUtQL9w55ad",
+  "sort": 800000,
+  "_originalKey": "!items!Zh2IceUtQL9w55ad"
+}
