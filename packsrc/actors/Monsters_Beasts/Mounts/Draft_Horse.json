@@ -42,8 +42,7 @@
     },
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -59,9 +58,7 @@
     "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This is a large horse bred for sturdiness and endurance. It is used mostly as a pack animal or for plowing or pulling wagons. A draft horse will not fight; if attacked, it will flee.</p><p><strong>Terrain:</strong> Open.</p><p><strong>Load:</strong> Pulls 4,500 cn at normal rates, or 9,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
       "max": 9000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "ac": {
       "naked": 9,

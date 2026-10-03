@@ -38,8 +38,7 @@
     },
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -74,9 +73,7 @@
     "thbonus": 9,
     "encumbrance": {
       "value": 0,
-      "max": 1000,
-      "mv": 0,
-      "mv2": 0
+      "max": 1000
     },
     "initiative": {
       "value": 0

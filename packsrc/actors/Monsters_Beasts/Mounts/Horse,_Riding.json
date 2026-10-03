@@ -39,8 +39,7 @@
     "wrestling": 13,
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -69,9 +68,7 @@
       "max": 6000,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 240,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,

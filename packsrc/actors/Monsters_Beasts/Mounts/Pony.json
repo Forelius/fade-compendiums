@@ -42,8 +42,7 @@
     },
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -67,9 +66,7 @@
     "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
       "max": 4000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "ac": {
       "naked": 9,

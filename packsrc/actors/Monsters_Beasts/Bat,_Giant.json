@@ -37,8 +37,7 @@
     },
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -68,9 +67,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 30,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,

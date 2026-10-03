@@ -42,8 +42,7 @@
     },
     "movement": {
       "modifiers": {
-        "encumbrance": 1,
-        "fixedPrimary": null
+        "encumbrance": 1
       },
       "modes": [
         {
@@ -59,9 +58,7 @@
     "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This type of horse is bred for its warlike temperament and strength. Unlike other horses, it is trained to charge. When charging, its rider can do double damage when using a lance. The horse cannot fight while charging and cannot move at charging speed for more than three rounds at a time.</p><p><strong>Terrain:</strong> Open.</p><p><span style=\"font-family: inherit\"><strong>Load:</strong></span><span style=\"font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"> 4,000 cn at full speed; 8,000 cn at half speed</span></p><p><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
       "max": 8000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "ac": {
       "naked": 9,
