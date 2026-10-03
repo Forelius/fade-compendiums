@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>A unicorn resembles a slender, graceful horse with a long, spiraling horn protruding from its forehead. Known for their beauty, no one has ever witnessed an unattractive unicorn. Though they are shy and elusive, they become fierce defenders when threatened. Only a pure maiden can speak to or ride a unicorn, forming a bond with these mystical creatures.</p>\n        <p>Unicorns possess the magical ability to teleport themselves (and a rider) up to 360' once per day. If they have a rider, their morale improves to 9. These rare beings prefer to live deep within forests, far from sentient creatures. Unicorn horns are highly prized by evil wizards for use in alchemical potions and magical research, making them targets for hunters.</p>\n        <strong>Terrain:</strong> Woods.<br>\n        <strong>Load:</strong> 2,000 cn at full speed; 4,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 1.<br>",
     "wrestling": 17,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "fey"
     ]

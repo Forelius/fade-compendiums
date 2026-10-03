@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Large herbivorous dinosaurs often stand in shallow waters to support their weight and avoid predators. They can trample any intruder who fails to evade them, potentially causing massive damage.</p><p>Terrain: Any warm climate (prehistoric).</p>",
     "wrestling": 35,
@@ -165,13 +175,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

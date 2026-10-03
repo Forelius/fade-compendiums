@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>This horror appears to be a zombie, though it walks at a faster rate. It never carries weapons. The revenant roams the night in search of victims, surprising them 50% of the time. It can leap once per turn to a 60' range; when both surprising and leaping on a victim, its three attacks all hit (no attack rolls needed), causing normal damage and three separate saving throws vs. poison.</p><p>Once per night, a revenant can summon 1d4 spectres to come to its aid. The spectres will arrive 1d6 + 2 rounds after being summoned, and will obey and fight for the revenant. They may be turned as normal spectres.</p><p>Revenants are resistant to turning attempts. If any \"D\" result is indicated, the revenant may make a saving throw vs. spells; if successful, the attempt has no effect. A \"turn\" result gives no saving throw, but the revenant will return in 1d4 turns.</p><p>Revenants are always encountered singly.</p><h3>All Spirits</h3><p>Spirits are powerful evil beings inhabiting the bodies (or body parts) of others; they are among the nastiest of undead monsters. They are immune to spells below 4th level, and cannot be harmed by normal weapons or magical weapons of less than +2 enchantment.</p><p>All spirits are travelers, never staying in one place for more than one night; they become invisible and nearly powerless (except to move) with the light of dawn, regaining their powers at dusk. In daylight, any spirit can travel up to 24 miles per day (1 hex).</p><p>All spirits are poisonous. When hit by a spirit in hand-to-hand combat, the victim must make a saving throw vs. poison or die immediately. A new saving throw must be made for each hit by the spirit.</p><p>The poisonous presence of a spirit causes all consumable items within 30', including normal food and water, holy water, all rations (even iron) and even magical potions to become spoiled and useless (but not poisoned), with no saving throw allowed. Even living plants and small insects within this area are paralyzed, dying if the spirit remains there more than an hour. This effect negates all forms of plant control, insect swarms and plagues, both normal and magical.</p><p>All spirits can sense invisible things, and can attack them without penalty. All spirits can, once per round, at will, create the following cleric spell effects: <em>darkness</em>, <em>silence</em> 15' radius, <em>cause disease</em>, <em>animate dead</em>, <em>finger of death</em> (all as if cast by a 16th level cleric). A spirit will often pause to animate the body of a fallen victim, creating and controlling it as a zombie to fight for it and add to the chaos. (Attempts at turning such zombies are made as if turning the spirit itself!) All of these spell-like abilities require concentration, as do normal spells, so while using an ability, a spirit cannot attack physically. Unlike normal cleric spells, no words or gestures are needed.</p><p>A spirit normally has no treasure, though it may occasionally serve as a guard for some special item. Those characters who risk travel at night may encounter a spirit with 1d6 of its victims, who may carry treasure.</p><p><strong>Terrain:</strong> Any (usually Barren Lands and Ruins)</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

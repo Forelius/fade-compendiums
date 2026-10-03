@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 300,
+          "turn": 300,
+          "round": 100,
+          "day": 60,
+          "run": 300
+        }
+      ]
     },
     "biography": "<p>Ghostly spectres are powerful undead creatures, appearing as translucent beings with evil expressions and fiery eyes. Once human or demihuman, they now serve greater evil forces, often as lieutenants.</p><p>Spectres can only be harmed by magical weapons; silver weapons are ineffective. They are immune to sleep, charm, and hold spells, as are all undead.</p><p>The spectre’s touch attack deals 1d8 damage and drains two experience levels from the victim. A character slain by a spectre will rise the next night as a spectre under its control.</p><strong>Terrain:</strong> Ruins</p>",
     "wrestling": 21,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 300,
-      "max": 300,
-      "round": 100,
-      "day": 60,
-      "run": 300
-    },
     "actorGroups": [
       "undead",
       "enchanted"

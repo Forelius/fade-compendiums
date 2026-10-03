@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>The Manscorpion, a vile blend of man and scorpion, prowls caverns, deserts, and mountains, its human-like torso atop the segmented body of a giant arachnid. Driven by malice, it roams any climate, ambushing intruders and raiding desert human enclaves for sustenance.</p><p>It wields a huge pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, paired with a venomous tail strike ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to its kin’s venom, it strikes with deadly intent.</p><p>Intelligent yet hostile, bands of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard rich treasures, their chaotic nature spurning alliances save with giant scorpions. A relentless foe (HD 8, XP 1750), it destroys all unlike itself.<br><b>Terrain:</b> Cavern, Desert, Mountain</p>",
     "isEnchanted": true,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs",
       "enchanted",

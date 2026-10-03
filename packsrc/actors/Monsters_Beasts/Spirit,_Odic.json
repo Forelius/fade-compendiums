@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 0,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>This evil spirit travels up to 24 miles each day, settling into a plant by night. It is dangerous even if avoided, as it animates parts of the plant to do its bidding. The plant can easily be seen at long range (up to 300 yards), as the odic radiates a purplish light in a 20' radius. Any living being within this light must make a saving throw vs. spells or lose 1 level because of energy drain (as if struck by a wight).</p><p>Once it has settled for the night, an odic cannot move from the spot until daybreak. While using its spells, it can attack by animating part of the plant. The longest branch or vine of the plant reaches out (10-30' range), attacking as a 16 HD monster and inflicting 1d12 points of damage per hit (in addition to poison).</p><p>The plant is immediately killed when the odic possesses it. The creature uses the plant's parts to seek out other life to feed on. Most commonly, it animates individual leaves, which float away (movement rate 30' per round) in search of victims; it can animate up to 6 such leaves at one time. The leaves may be seen up to 1 mile from the odic. Animated leaves normally gain surprise (90% chance). Each leaf attacks as if a 4 Hit Dice monster; no damage is inflicted, but each victim hit must make a saving throw vs. spells or be charmed. A charmed victim is drawn toward the odic and has a -4 penalty on the saving throw against the energy drain when entering the purple aura.</p><p>If the plant possessed has no detachable leaves, the odic may animate other portions (pine needles, flowers, etc.) in a similar manner, as described above—up to 6 at once, each with a charm ability per touch.</p><p>Odics occasionally inhabit the bodies of plantlike monsters. The creature may make a saving throw vs. spells to avoid the possession, but may die from the level draining and other abilities of the odic even if the saving throw is successful. The odic gains the abilities of any plantlike monster possessed. They may be used in addition to the normal abilities of the odic.</p><p>Odics are always encountered singly.</p><h3>All Spirits</h3><p>Spirits are powerful evil beings inhabiting the bodies (or body parts) of others; they are among the nastiest of undead monsters. They are immune to spells below 4th level, and cannot be harmed by normal weapons or magical weapons of less than +2 enchantment.</p><p>All spirits are travelers, never staying in one place for more than one night; they become invisible and nearly powerless (except to move) with the light of dawn, regaining their powers at dusk. In daylight, any spirit can travel up to 24 miles per day (1 hex).</p><p>All spirits are poisonous. When hit by a spirit in hand-to-hand combat, the victim must make a saving throw vs. poison or die immediately. A new saving throw must be made for each hit by the spirit.</p><p>The poisonous presence of a spirit causes all consumable items within 30', including normal food and water, holy water, all rations (even iron) and even magical potions to become spoiled and useless (but not poisoned), with no saving throw allowed. Even living plants and small insects within this area are paralyzed, dying if the spirit remains there more than an hour. This effect negates all forms of plant control, insect swarms and plagues, both normal and magical.</p><p>All spirits can sense invisible things, and can attack them without penalty. All spirits can, once per round, at will, create the following cleric spell effects: <em>darkness</em>, <em>silence</em> 15' radius, <em>cause disease</em>, <em>animate dead</em>, <em>finger of death</em> (all as if cast by a 16th level cleric). A spirit will often pause to animate the body of a fallen victim, creating and controlling it as a zombie to fight for it and add to the chaos. (Attempts at turning such zombies are made as if turning the spirit itself!) All of these spell-like abilities require concentration, as do normal spells, so while using an ability, a spirit cannot attack physically. Unlike normal cleric spells, no words or gestures are needed.</p><p>A spirit normally has no treasure, though it may occasionally serve as a guard for some special item. Those characters who risk travel at night may encounter a spirit with 1d6 of its victims, who may carry treasure.</p><p><strong>Terrain:</strong> Any (usually Barren Lands and Ruins)</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

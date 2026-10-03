@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A pit viper is a 5' long greenish-gray poisonous snake. Its head has small pits that act as heat sensors, giving it an automatic initiative win and 60' range infravision.</p><p>A successful bite requires a saving throw vs. poison or the victim dies instantly.</p><p><strong>Terrain:</strong> Any except Arctic.<br></p>",
     "wrestling": 13,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

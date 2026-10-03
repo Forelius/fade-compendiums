@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 450,
+          "turn": 450,
+          "round": 150,
+          "day": 90,
+          "run": 450
+        }
+      ]
     },
     "biography": "<p>Born of the elemental plane of Fire, the Greater Phoenix takes the form of an immense red-orange eagle cloaked in searing flames. Rarely seen on the Prime Plane, it adapts to any climate but eschews underground haunts. It remains tranquil unless challenged.</p><p>Impervious to all fire, charm, and hold spells, it also deflects strikes from weapons below +3 enchantment. In combat, it wields its claws and beak, its radiant blaze searing enemies within a 20' radius for [[/r 6d6 #Fire damage per round]], unhindered by fire defenses due to the distinct nature of phoenix flame.</p><p>When overcome, the Greater Phoenix bursts in a 20' radius explosion, unleashing [[/r 1d10*10 #Explosion damage]] (save vs. dragon breath for half, bypassing fire protection), then resurrects from its ashes 1 round later, fully renewed, and takes flight to escape. A wish alone can eradicate it permanently; its rebirth cycle is an unsolved enigma.</p><p>Each vanquishing yields one feather. A single feather (worth 25,000 gp) crafts a potion of phoenix fire resistance, providing total immunity to normal and magical fire, halving fire breath damage (quarter with a save), and conferring standard resistance to phoenix fire.</p><p><strong>Terrain:</strong> Any; Plane of Fire</p>",
     "config": {
@@ -159,13 +178,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 450,
-      "max": 450,
-      "round": 150,
-      "day": 90,
-      "run": 450
-    },
     "actorGroups": [
       "enchanted",
       "planar"

@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>The bronze golem is a massive, 16-foot-tall humanoid construct made of solid bronze. It resembles a towering fire giant with glowing, molten veins beneath its metal exterior.</p><p><strong>Burning Blood:</strong> Any creature that damages the bronze golem with an edged weapon must make a saving throw vs. death ray or take 2d6 damage as fiery blood spurts from the wound.</p><p><strong>Fiery Strikes:</strong> The bronze golem's melee attacks are superheated, dealing an additional 1d10 fire damage per hit.</p><p><strong>Fire Immunity:</strong> The bronze golem is completely immune to all fire-based attacks, including magical fire.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Vampires rank among the most dreaded undead in the game. They dwell in forsaken places like ruins, tombs, and crypts, emerging under the cover of night to hunt humans. These creatures are known for their ability to transform shape, their supernatural resilience, and their capacity to drain life force.</p><p>Vampires are immune to spells like sleep, charm, and hold, and can only be harmed by magical weaponry. They possess the chilling power to transform into a human guise, a dire wolf, a giant bat, or a cloud of gas, with each transformation requiring one round. No matter the form, vampires regenerate at a rate of 3 hit points per round once injured. Should their hit points reach zero, they turn into gas and escape to their coffins to heal.</p><p>In human form, a vampire can attack with a deadly touch that not only deals damage but also drains double the life energy of the victim, or use its gaze to enthrall opponents. The gaze requires a saving throw vs. spells at a -2 penalty to resist the charm. Additionally, a vampire can call forth allies within 300 feet (or 300 yards outdoors) including swarms of rats, bats, or packs of dire wolves.</p><p>A human killed by a vampire rises as one themselves three days later, under the control of their creator. Vampires can also be spellcasters.</p><p><strong>Weaknesses:</strong> They are repelled by strongly presented holy symbols, cannot approach garlic without making a saving throw vs. poison, and are unable to cross running water except at bridges or within their coffins. During daylight, they must rest in their coffins or lose hit points, which won't regenerate until they've rested for a full day. Vampires cast no reflection, thus they shun mirrors. They can be destroyed by a wooden stake through the heart or by prolonged exposure to running water. In sunlight, they must save vs. death ray each round or disintegrate; however, a continual light spell does not have this effect. If all their resting places are blessed or destroyed, they weaken, losing hit points until they perish.</p><p><strong>Terrain:</strong> Ruins, Tombs, Crypts</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "undead",
       "enchanted"

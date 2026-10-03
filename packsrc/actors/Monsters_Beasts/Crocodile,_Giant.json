@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Giant crocodiles are almost always found in \"lost worlds\" where prehistoric creatures thrive. They are over 50' long and have been known to attack small ships. They are commonly found in tropical and semitropical swamps and rivers, and sometimes in underground rivers and seas.</p>\n    <p><strong>Terrain:</strong> River, Swamp.<br><strong>Giant Crocodile:</strong> \"Lost Worlds.\"</p>",
     "wrestling": 39,
@@ -162,13 +181,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
     },
     "monsterTypes": [],
     "tags": [],

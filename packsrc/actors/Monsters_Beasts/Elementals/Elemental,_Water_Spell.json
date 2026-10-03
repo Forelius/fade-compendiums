@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "max": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The most powerful type of water elemental, summoned through a magic-user's spell, appears as a towering, crashing wave 8 feet tall and 32 feet across. It surges forward, engulfing foes and smashing them with immense force. It is not able to move more than 60' from water.</p><p>Water elementals are especially deadly against creatures that cannot swim, dealing an extra 1d8 damage when attacking enemies in water.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Water elementals take double damage from air-based attacks, normal damage from water and earth, and minimal damage (1 HP per die) from fire-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 180,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>On the Elemental Plane of Earth, the medusa is a writhing mass of 10-foot-long tentacles surrounding a spherical body covered with eyes on foot-long stalks and a fanged mouth. It attacks with 10 tentacles each round, each hit requiring a save vs. paralysis (2d4 rounds if failed). Paralyzed victims are drawn to the mouth, taking 2d8 damage per round (no roll needed while paralyzed).</p><strong>Terrain:</strong> Elemental Plane of Earth</p>",
     "wrestling": 25,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "planar"
     ]

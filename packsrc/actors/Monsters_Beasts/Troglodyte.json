@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Troglodytes are intelligent, reptilian humanoids with short tails, long legs, and spiny combs on their heads and arms. They walk upright, similar to humans, and are adept at using their hands. Troglodytes are known for their hostility towards most other species. They possess a chameleon-like ability to change color, blending into their surroundings like rock walls, which allows them to surprise opponents (on a roll of 1-4 on 1d6). Additionally, they secrete an oil that gives off a foul stench, which can nauseate humans and demihumans unless a saving throw vs. poison is successful. Nauseated characters suffer a -2 penalty to attack rolls when fighting troglodytes in melee.</p><p>Some troglodytes can be spellcasters; see the section on 'Monster Spellcasters' for more details.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

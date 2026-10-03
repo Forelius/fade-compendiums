@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Small carnivorous dinosaurs are often quick and agile, usually hunting in packs. They are known for their sharp teeth and claws, capable of inflicting severe wounds. These dinosaurs are aggressive and will attack any prey they encounter.</p><p>Up to 5 hit dice and some get +2 damage for claws attack.</p><p><strong>Terrain:</strong> Forest, Jungle, Grassland.</p>",
     "wrestling": 11,
@@ -165,13 +175,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

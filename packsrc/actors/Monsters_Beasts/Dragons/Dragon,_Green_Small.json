@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>The Small Green Dragon is known for its deadly chlorine gas breath, which engulfs its enemies in a noxious cloud. Its breath weapon takes the form of a gas cloud 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit point value. This dragon also uses its intelligence and spellcasting to further increase its danger in combat.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Small dragons normally attack with claws and bite when on the ground, without using kicks or tail attacks. Their legs are too short for effective kicking unless an opponent is close behind them. They are not proficient in attacking with the tail (though it may be used to inflict damage only, at the DM's choice). If its swoop attack hits, a small dragon can pick up one man-sized opponent.</p><p></p><p><strong>Breath Weapon:</strong> Chlorine gas cloud, 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Forests, Swamps</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
     "wrestling": 25,
@@ -165,13 +184,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

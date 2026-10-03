@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Hill Giants are large, hairy, brutish humanoids with a deep love of destruction and chaos. They stand about 12 feet tall and wear animals skins. They wield enormous clubs and sometimes [[/r 1d100 #Giant throws boulder if roll equal to or under 25]] (25%) hurl boulders (30/60/100) with incredible force, capable of crushing even the hardiest of foes. Despite their size and strength, Hill Giants are not particularly intelligent, often outwitted by more cunning opponents.</p><p><strong>Club Damage:</strong> 2d8.<br><strong>Rock Damage:</strong> 3d6, up to 100 range.<br><strong>Terrain:</strong> Hills, Mountains.<br></p>",
     "wrestling": 25,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

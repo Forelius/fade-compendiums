@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Large crocodiles are about 20' long and can overturn canoes and small rafts. They are commonly found in tropical and semitropical swamps and rivers. Sometimes they are seen in underground rivers and seas. Awkward on land, crocodiles do not stray far from water and will spend hours floating just under the surface, appearing as logs.</p>\n    <p><strong>Terrain:</strong> River, Swamp.</p>",
     "wrestling": 21,
@@ -162,13 +181,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
     },
     "monsterTypes": [],
     "tags": [],

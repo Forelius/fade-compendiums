@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The most powerful type of fire elemental, summoned through a magic-user's spell, appears as a massive inferno 16'x16'x16' in size. It moves with incredible speed and consumes everything in its path. It cannot cross a water barrier wider than its own diameter.</p><p>Fire elementals are especially dangerous against creatures vulnerable to fire, dealing an extra 1d8 damage to creatures weak to heat.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Fire elementals take double damage from water-based attacks, normal damage from fire and air, and minimal damage (1 HP per die) from earth-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
     "config": {
@@ -155,13 +165,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0,
-      "max": 0
     },
     "monsterTypes": [],
     "tags": [],

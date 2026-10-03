@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The gnome Chieftain is a battle-hardened warrior who commands all of the gnomes in their burrows or underground cities.</p><p><strong>Infravision:</strong> Gnomes have infravision with a 90' range.</p><p><strong>Smiths & Miners:</strong> Gnomes excel in metalworking and mining, with a deep love for gold and gems.</p><p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes despise these creatures and will attack kobolds on sight.</p><p>Leadership Boost: As long as the gnome leader is alive, all gnomes within sight have Morale 10 instead of 8.</p><p><strong>Terrain:</strong> Cavern, Open.</p>",
     "config": {
@@ -155,13 +165,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": [],

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Dolphins are seagoing mammals closely related to whales but much smaller in size, typically around 10 feet long. With smooth hides, they are highly intelligent and known for their high-pitched language. Dolphins cannot breathe underwater and must surface every 15 minutes to breathe air.</p>\n                <p>They can communicate telepathically with other dolphins within a 50-mile radius and can detect magic underwater up to 360 feet. Dolphins despise sharks and may attack them, but they are generally friendly to sailors and have been known to assist people in need. Mermen sometimes ride dolphins as mounts, and they can even be harnessed to chariots by fantastical sea beings.</p>\n                <p>**Terrain:** Ocean.</p>\n                <p>**Load:** Can carry 1,500 cn at full speed or 3,000 cn at half speed.</p>",
     "wrestling": 15,
@@ -164,14 +174,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Dolphin",

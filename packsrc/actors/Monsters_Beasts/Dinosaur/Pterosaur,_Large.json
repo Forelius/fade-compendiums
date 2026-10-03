@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>These are hollow-boned flying and gliding reptiles. They have long beaks filled with numerous teeth, and reptilian arm structures with skin webbing which constitutes their wings.<br>Large pterosaurs have a wingspan of over 50 feet. If they attack with surprise, they will make a swoop attack for double damage. They can carry off a creature as large as a warhorse.</p><p><strong>Load:</strong> 4,000 cn at full speed; 8,000 cn at half speed.<br><strong>Terrain:</strong> Mountain (prehistoric)<br><strong>Barding Multiplier:</strong> x1</p>",
     "config": {
@@ -158,13 +168,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "gm": {
       "notes": ""
@@ -164,14 +174,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Animal Herd (1 HD)",

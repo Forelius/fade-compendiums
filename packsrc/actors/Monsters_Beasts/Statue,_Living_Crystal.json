@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A living crystal statue is a life form made of crystals instead of flesh. Crystal statues can look like statues of anything, but often appear human.</p><h3>All Living Statues</h3><p>Living statues are created by a powerful wizard. They appear to be perfectly normal statues—until they move! A living statue may be any size or material; the sizes given are typical. Living crystal, iron, and rock statues are given as examples, and the DM may create others. (Not every statue in a campaign should be a living statue. If every statue in your campaign is a living statue, PCs will know that any statue they see can attack them. Have noblemen possess statuary as treasure and decoration; have expensive public buildings and plazas be decorated with statues; living statues are very rare in comparison with the numbers of \"real\" statues.)</p><p>Living statues are not affected by sleep spells.</p><p><strong>Terrain:</strong> Dungeon, Ruins</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

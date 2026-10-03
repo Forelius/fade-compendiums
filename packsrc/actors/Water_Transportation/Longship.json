@@ -23,18 +23,30 @@
       "max": 80
     },
     "movement": {
-      "turn": 270,
-      "max": null,
-      "round": 90,
-      "day": 18,
-      "run": null
-    },
-    "movement2": {
-      "turn": 450,
-      "max": null,
-      "round": 150,
-      "day": 90,
-      "run": null
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": null,
+          "turn": 270,
+          "round": 90,
+          "day": 18,
+          "run": null
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": null,
+          "turn": 450,
+          "round": 150,
+          "day": 90,
+          "run": null
+        }
+      ]
     },
     "encumbrance": {
       "value": 0,

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Storm giants are the tallest of all giants, often standing over 22 feet tall. They have bronze-colored skin with bright red or yellow hair. They rarely [[/r 1d100 #Giant throws boulder if roll equal to or under 10]] (10%) throw boulders, with ranges of 150, 300, or 450 feet. Passionate about thunderstorms, they can create one in just 1 turn. If a storm is already present, a storm giant can unleash a lightning bolt once every 5 rounds, dealing damage equal to their remaining hit points (a successful saving throw vs. spells reduces this damage by half). These giants make their homes on mountaintops, in cloud castles, or deep underwater.</p><p>Their castles are always guarded by either  [[/r 2d4 #Griffon guards]] griffons  (if in mountains or clouds) or [[/r 3d6 #Giant crab guards]]  giant crabs (if underwater).</p><p>Immune to lightning, storm giants are often found in the heart of violent storms, reveling in the chaos of the weather.</p><p><strong>Giant Weapon Damage:</strong> 8d6.<br><strong>Rock Damage:</strong> 3d6, up to 450 range.<br><strong>Terrain:</strong> Mountains, Clouds or Deep Sea.<br></p>",
     "wrestling": 39,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>Rats are clever rodents that can eat meat, grain, sawdust, almost anything. They usually avoid humans and won’t attack unless summoned (e.g., by a wererat) or defending their lair. Rats are adept swimmers and may attack in water. They fear fire and flee from it unless compelled to fight by a summoning creature.</p><p><strong>Some rats carry diseases</strong>; each bite has a 1 in 20 chance of infection (roll per hit), requiring a save vs. poison to avoid. Failure may lead to death in [[/r 1d6 #Days until death]] days (1 in 4 chance) or a month of sickness, preventing adventuring.</p><p>Normal rats have gray or brown fur, are 6\" to 2' long, and attack in packs of 5-10 per target (morale 5), climbing over victims and making one attack per pack per round.</p><p><strong>Terrain:</strong> Any</p>",
     "config": {
@@ -157,14 +176,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 30,
-      "max": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30
-    }
+    "tags": []
   },
   "items": [
     "FHp33VFHRLZ6yuwV",

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Dervishes are desert raiders, fanatical in their beliefs and intolerant of other views. They often form large camps or tribes of up to 300 men, led by a 10th-level cleric. About 90% of dervishes are fighters, while the rest are clerics.</p>\n        <p>Dervish camps may be made of tents or wooden or brick stockades. These camps hold their women, children, livestock, and treasure. Dervishes may also wage holy wars to capture or kill those with different beliefs, offering captives the chance to convert or face death or enslavement.</p>\n        <strong>Weapons and Armor:</strong> Dervishes typically wear leather armor and wield swords, spears, or scimitars.<br>\n        <strong>Leadership:</strong> A dervish camp is led by a 10th-level cleric, with additional leaders depending on the size of the group.<br>\n        <strong>Terrain:</strong> Desert.<br>",
     "wrestling": 11,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

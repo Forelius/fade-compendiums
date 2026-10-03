@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Nightshade, Nightcrawler slithers forth as a monstrous, jet-black worm, 100 feet long and 10-15 feet wide, its eyeless maw sensing all—seen or unseen—through eldritch power. Forged or summoned by greater evils for dire purposes, it prowls any terrain, its unbroken obsidian hue a mark of death’s intent.</p><p>Daylight hinders it with a -4 attack penalty, while its aura spoils all consumables within 120', chilling the air as a warning to the wise. Immune to illusions, wands, poison, charm, hold, cold, spells below 6th level, and weapons below +3, it halves dragon breath damage (quarter with a save), regenerating [[/r 3 #Hit points per round]]. It silently wields charm person, invisibility, haste, confusion, cloudkill (21st-level magic-user), darkness, hold person, cause disease, dispel magic, and finger of death (21st-level cleric) at will.</p><p>Its bite rends for [[/r 2d10 #Bite damage]] and its tail stings for [[/r 2d4 #Sting damage]], both poisoned (-2 save penalty). A 19-20 bite swallows, draining 1 level per round (no save, negated by protection from evil), while the sting has a 1-in-8 death chance. It shrinks one foe within 60' per round (save vs. spells or 1' size, +4 to hit thereafter), summons undead every 4 hours (1d6: 1-3 shade, 4-5 haunt, 6 hand druj), resists turning with a save vs. spells, and hoards swallowed treasures.<br><b>Terrain:</b> Any</p>",
     "isEnchanted": true,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

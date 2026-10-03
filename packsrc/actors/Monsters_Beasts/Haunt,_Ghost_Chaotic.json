@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>A Chaotic ghost appears as a nearly transparent bundle of cloth and can assume any desired form, including (but rarely) that of a Lawful or Neutral ghost. Regardless of its form, the creature is always accompanied by a dark candle, torch, or lantern. When first encountered, a Chaotic ghost immediately uses its magic jar spell, unless it is masquerading as one of the other types of ghosts.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. The victim must make a saving throw vs. spells or fall under the ghost’s control until exorcised.</p><p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

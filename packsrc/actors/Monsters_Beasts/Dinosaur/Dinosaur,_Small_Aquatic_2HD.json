@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>Small aquatic dinosaurs are primitive fish and eel-like creatures that prefer to flee if threatened. They are often found in deep lakes and oceans, feeding on marine plants and small prey. They have a basic bite attack and may attempt to defend themselves with flippers when cornered.</p>\n    <p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
     "wrestling": 13,
@@ -165,13 +175,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

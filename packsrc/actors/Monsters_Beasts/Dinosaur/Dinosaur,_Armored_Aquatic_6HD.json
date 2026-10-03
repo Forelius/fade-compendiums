@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 10,
-      "round": 3,
-      "day": 2,
-      "run": 10,
-      "max": 10
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 10,
+          "turn": 10,
+          "round": 3,
+          "day": 2,
+          "run": 10
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Armored aquatic dinosaurs are slow-moving, turtle-like creatures with thick shells. Despite their sluggish movement, they can be dangerous due to their heavy defenses. These dinosaurs are often found in shallow waters or coastal regions.</p><p><strong>Note:</strong> The creature's saving throw is equal to a fighter of half the hit die. Example 6HD = SA F3.</p><p><strong>Terrain:</strong> River/Lake, Ocean.</p>",
     "wrestling": 21,
@@ -165,13 +184,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 90,
-      "max": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

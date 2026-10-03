@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Owlbear is a large and terrifying predator, resembling a mix of owl and bear. It is a fierce hunter, attacking with deadly claws and a powerful bite. If both claws strike a target in the same round, the Owlbear attempts to grab and **hug**, crushing its opponent with its powerful arms for additional damage.</p><p><strong>Special Attack (Hug):</strong> If both claws hit in the same round, the Owlbear hugs its opponent, dealing an additional 2d8 damage.</p><p><strong>Terrain:</strong> Forests, Caves</p>",
     "wrestling": 19,
@@ -162,14 +172,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Owlbear",

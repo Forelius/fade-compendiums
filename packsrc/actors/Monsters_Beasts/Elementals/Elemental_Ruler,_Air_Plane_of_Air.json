@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The supreme rulers of the Elemental Plane of Air, these beings are vast, towering storms, standing 82 feet tall at minimum (2 feet per Hit Die). They oversee massive cloud cities and command the lesser air elementals.</p><p>These rulers are immune to 1st-5th level spells, poison, charm, hold, illusions, and all instant-death magic (such as disintegrate). They can only be harmed by +4 weapons or greater.</p><p>A victim struck by an elemental ruler must make a saving throw vs. death ray or be instantly crushed, regardless of damage taken. Any items they carry have a 95% chance of destruction (-5% per “plus” if magical).</p><p>Elemental Rulers can summon creatures of their plane at will, with reinforcements arriving in 3 rounds to 3 turns.</p><p><strong>Elemental Rulers grow in power as they age:</strong></p><ul><li>41-48 HD: AC -11, 8d12 damage per fist, XP 28,500</li><li>49-56 HD: AC -12, 9d12 damage per fist, XP 36,500</li><li>57-64 HD: AC -13, 10d12 damage per fist, XP 44,500</li><li>65-72 HD: AC -14, 11d12 damage per fist, XP 52,500</li><li>73-80 HD: AC -15, 12d12 damage per fist, XP 60,500</li></ul><p>These beings rarely interact with mortals, ruling their plane with absolute authority.</p><p><strong>Terrain:</strong> Elemental Plane of Air</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

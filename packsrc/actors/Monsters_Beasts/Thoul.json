@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>A thoul is a magical combination of a ghoul, hobgoblin, and troll. These creatures look like hobgoblins, but closer inspection reveals their monstrous nature. Thouls are often found as part of the bodyguard of a hobgoblin king or Chaotic ruler.</p><p>Thouls have two dangerous abilities: their touch can <strong>paralyze</strong>, much like a ghoul, and they can <strong>regenerate</strong>, recovering 1 hit point per round as long as they are alive.</p><p><strong>Terrain:</strong> Barren Lands, Cavern.</p>",
     "wrestling": 15,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

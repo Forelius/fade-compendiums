@@ -41,11 +41,21 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>Kryst are sentient beings composed entirely of crystalline rock, each appearing as a cluster of twelve gleaming golden crystal spikes radiating from a central core. Native to the elemental plane of Earth, they exude a distinctive, angular beauty.</p><p>They are immune to poison, standard weapons, all 1st and 2nd level spells, and any attack derived from air. A kryst can detect invisible creatures at will and is capable of casting detect magic, dispel magic, haste, or an 'air to earth' spell—similar to a magic-user's dissolve spell that transforms air into earth—three times per day, all as if cast by a 9th level magic-user. They communicate telepathically over a range of 120 feet or, if mental contact proves adverse, via written messages.</p><p>In combat, a kryst ram its foes with its crystal spikes, launching up to three attacks per round. Each spike functions as a natural weapon.</p><p>Beyond the battlefield, the kryst maintain a widespread and intricate society within their own realms, coexisting peacefully with earth elementals. They welcome visitors and eagerly seek new knowledge, yet they wage an unending war against the hordes and strive to unite other creatures against them. They are also known to oppose the hydrax—though encounters are rare—and harbor a <strong>deep-seated fear of water-based creatures and attacks</strong>.</p><p><strong>Terrain:</strong> Plane of Earth</p>",
     "ac": {
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "enchanted",

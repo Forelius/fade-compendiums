@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Dopplegangers are man-sized shape-changing creatures known for their intelligence and malevolent nature. They can transform into the exact form of any human, demihuman, or humanoid they see (up to 7 feet tall). After assuming the form of their target, they aim to kill the original person and take their place, often using stealth and deception to avoid alerting others.</p><p>Once in disguise, they attack the group from within, often when the party is already engaged in combat. Dopplegangers are <strong>immune to sleep and charm spells</strong> and save as 8th-level fighters due to their magical resilience. Upon death, they revert to their natural form—a hairless, genderless humanoid with pale, rubbery skin.</p><p>Dopplegangers can establish a limited telepathic link with their intended victim, quickly learning everything their target knows. However, they cannot use memorized spells of spellcasting victims. Spellcaster Dopplegangers are rare but can cast spells in any form they take.</p><p><strong>Terrain:</strong> Any.</p>",
     "wrestling": 17,
@@ -164,14 +174,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Mimic Shifter",

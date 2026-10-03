@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 240,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The undine is an intelligent creature composed entirely of water, rare even in the Elemental Plane of Water, its home, and seldom encountered on the Prime Plane. Though chaotic, undines possess good intentions and despise evil. On their home plane, they typically take the form of a featureless, transparent snake but can change shape at will, often using multiple tentacles to manipulate objects. They can swim at an accelerated rate, forming a revolving coil for short bursts.</p><p>Undines are immune to poison, normal weapons, all 1st and 2nd level spells, and fire-based attacks. They can detect invisible creatures at will and use spells like detect magic, web, dispel magic, ice storm/wall, and fire to ice three times per day, as if cast by a 9th level magic-user. Their web, made of ice strands, functions like a normal web but melts harmlessly when exposed to flame.</p><p>An undine's attack involves shaping water into a 'fist' for melee combat or coiling around an opponent for constriction damage. On the Prime Plane, they resemble water elementals, becoming invisible in water and regenerating damage, but they take damage from drying out when not submerged. Unlike elementals, they are not limited by protection from evil or proximity to water.</p><p>Undines have natural enemies in the hydrax and hordes, and they are wary of air-type creatures and attacks.</p><p><strong>Terrain:</strong> Plane of Water</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 240,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "enchanted",

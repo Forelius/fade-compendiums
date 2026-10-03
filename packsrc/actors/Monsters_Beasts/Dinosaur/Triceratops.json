@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The Triceratops is an armored, herbivorous dinosaur, akin to an elephant in temperament. This creature, measuring about 30 feet in length and weighing between 10 to 12 tons, features a distinctive collar-like armor plate around its neck for protection. Its offensive capabilities include a short horn on its snout and two long horns above its eyes, making it a formidable opponent even against large carnivorous dinosaurs.</p><p>Despite being a herbivore, the Triceratops is known for its aggressive behavior, often charging into combat. It can deliver a double-damage charge attack if it's the first attack or if it has moved 20 yards or more away from its enemy before attacking again.</p><p><strong>Terrain:</strong> Open (prehistoric)<br><strong>Load:</strong> Can carry 10,000 cn at full speed, 20,000 cn at half speed.</p>",
     "config": {
@@ -158,13 +168,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

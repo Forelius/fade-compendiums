@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 0,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Yellow Mold is a dangerous fungus that covers an area of up to 100 square feet. It does not move, but reacts aggressively when disturbed.</p><p>It is immune to all damage except fire, which deals normal damage. Torches inflict 1d4 damage per round when used to burn it. Yellow mold can dissolve wood and leather in an instant, but it cannot harm stone or metal.</p><p>When touched, there is a 50% chance that it releases a cloud of spores in a 10' x 10' x 10' area. Anyone caught in the spores takes 1d6 damage and must make a saving throw vs. death ray or suffocate within six rounds.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "config": {
@@ -157,14 +167,7 @@
         "tempMod": 0
       }
     },
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Yellow Mold*",

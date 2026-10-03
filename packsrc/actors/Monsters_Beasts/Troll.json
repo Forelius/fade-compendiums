@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Trolls are tall, thin humanoids standing 8 feet tall. They possess sharp teeth, ferocious features, and mottled rubber-like skin. Trolls are carnivorous, preferring human and humanlike prey. They are found in a variety of terrains, often living in the ruins of their victims' dwellings.</p><p>Trolls are extremely dangerous due to their <strong>regenerative powers</strong>. Three rounds after being damaged, a troll will start to heal itself at a rate of <strong>3 hit points per round</strong>. Even severed limbs can crawl back to the troll’s body to rejoin. However, trolls cannot regenerate damage from fire or acid, and when attacked by these means, their morale drops to <strong>8</strong>.</p><p><strong>Regeneration:</strong> Trolls heal 3 HP per round starting 3 rounds after damage. Severed limbs rejoin the body unless destroyed by fire or acid.</p><p><strong>Terrain:</strong> Cavern, Wilderness (any).</p>",
     "wrestling": 21,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "regenerating",
       "giantkind"

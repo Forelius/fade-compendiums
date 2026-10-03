@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Minotaur stalks caverns and ruins, a towering beast 7 to 9 feet tall with a man’s form crowned by a bull’s head and hide. Driven by a ferocious temperament, it roams tunnels and mazes, preying on humans and attacking anything its size or smaller with relentless pursuit as long as its quarry remains in view.</p><p>In battle, it either gores and bites for [[/r 1d6 #Gore damage]] and [[/r 1d6 #Bite damage]], or wields a weapon—favoring spears, clubs, or axes—with a +2 damage bonus from its brute strength (e.g., [[/r 1d6+2 #Weapon damage]] for spear). When armed, it forgoes its natural attacks, relying solely on the weapon’s might.</p><p>Semi-intelligent, some Minotaurs wield tools, while rare, clever ones may cast spells. Roaming in bands of [[/r 1d6 #Minotaurs wandering]] or lairs of [[/r 1d8 #Minotaurs in lair]], they hoard modest treasures, their chaotic nature a constant threat in shadowed depths.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
     "isEnchanted": false,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

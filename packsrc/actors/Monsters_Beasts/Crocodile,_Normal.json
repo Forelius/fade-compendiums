@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 90,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Crocodiles are commonly found in tropical and semitropical swamps and rivers. Sometimes they are seen in underground rivers and seas. Awkward on land, crocodiles do not stray far from water and will spend hours floating just under the surface. At such times, they can be mistaken for logs.</p>\n    <p>If hungry, these animals will attack creatures in the water. They are particularly attracted to the smell of blood or violent thrashing of the water. Normal crocodiles grow to 10' or more in length.</p>\n    <p><strong>Terrain:</strong> River, Swamp.</p>",
     "wrestling": 13,
@@ -162,13 +181,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 90,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": [],

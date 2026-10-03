@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>A giant centipede is a foot-long insect with many legs. They prefer dark, damp places and are often found in dungeons or on the boles and branches of trees in deep forests. They do not commonly attack travelers but will usually attack someone who disturbs them.</p>\n    <p>They attack by biting. The bite does no damage to characters, but the victim must make a saving throw vs. poison or become violently ill for 10 days. Characters who do not make their saving throws move at half speed and will not be able to perform any other physical action. The bite is more effective against very small creatures, such as the birds and insects they eat; such creatures must save vs. poison or die.</p>\n    <p><strong>Terrain:</strong> Cavern, Ruins, Woods.</p>",
     "wrestling": 10,
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

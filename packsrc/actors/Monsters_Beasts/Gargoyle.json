@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 150,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Gargoyles are magical constructs, created by wizards to serve various purposes, particularly as guardians. Over time, many gargoyles have escaped or outlived their creators, forming groups and defending their own territories.</p><p>Resembling hideous humanoids with horns, claws, fangs, and bat-like wings, gargoyles are often mistaken for statues due to their stone-like skin. Cunning and semi-intelligent, they can remain still for years without need for food or drink, watching over their territory patiently.</p><p>Gargoyles are immune to normal weapons, sleep, and charm spells. They can only be harmed by magical weapons and are fiercely territorial, attacking anyone who encroaches on their domain.</p><p><strong>Terrain:</strong> Cavern, Ruins.<br><strong>Load:</strong> 2,000 cn at full speed, 4,000 cn at half speed.</p>",
     "wrestling": 17,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 150,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "constructs"

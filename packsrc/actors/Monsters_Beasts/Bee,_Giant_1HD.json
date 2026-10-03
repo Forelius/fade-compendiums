@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 5,
-      "round": 1,
-      "day": 1,
-      "run": 5,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 5,
+          "round": 1,
+          "day": 1,
+          "run": 5
+        }
+      ]
     },
     "gm": {
       "notes": ""
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

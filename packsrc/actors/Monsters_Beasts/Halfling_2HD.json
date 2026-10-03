@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in woods or underbrush, where there is only a 10% chance of being detected while hiding.</p><p>In combat, halflings gain a +2 bonus to Armor Class when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of level 2, and as long as the leader is alive and fighting alongside them, their morale is 10 rather than 8.</p><p>Halflings typically live in villages, or shires, of 30 to 300 inhabitants. Each village is led by a sheriff (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p><p><strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br><strong>Terrain:</strong> Hill, Open.</p>",
     "wrestling": 13,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

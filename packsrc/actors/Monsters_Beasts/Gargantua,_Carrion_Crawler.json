@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>A gargantua carrion crawler is a gigantic, grotesque arthropod created through magical experiments by the mad wizard Gargantua. It is twice the size of a normal carrion crawler, growing up to 40 feet long.</p><p><strong>Hunting & Combat:</strong> This massive scavenger cannot surprise enemies due to its size and the noise it makes while moving. It suffers a -4 penalty to attacks against man-sized or smaller creatures.</p><p><strong>Paralysis Tentacles:</strong> The worm lashes out with 8 paralyzing tentacles, each dealing 1d4+1 damage. Any creature hit must make a saving throw vs. paralysis or be unable to move.</p><p><strong>Massive Appetite:</strong> Gargantua <span style=\"font-family: Barlow, sans-serif\">carrion crawler</span> primarily feed on corpses but will attack living creatures if hungry.</p><p><strong>Terrain:</strong> Same as the original species (Underground, Ruins).</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

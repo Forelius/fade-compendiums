@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>This massive gray, worm-like creature stretches up to 30 feet in length and is a voracious carnivore that can be found in almost any environment. Caecilia often lie hidden just beneath the surface of loose soil, waiting to ambush unsuspecting animals or humans. When prey comes close, they burst out of the ground, attacking with their large mouths and sharp teeth.</p><p>If a Caecilia rolls a natural 19 or 20 on its attack, it swallows its victim whole. A swallowed creature suffers 1d8 points of damage each round until either the victim or the Caecilia perishes.</p><p><strong>Terrain:</strong> Any except Arctic</p>",
     "wrestling": 21,
@@ -164,14 +174,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Caecilia",

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>An insect swarm is a mass of small insects acting together as a single force. The swarm may fill a 10' x 10' x 30' area or larger, consisting of either crawling or flying insects, or a mix of both. These swarms may be drawn to light, strange smells, or may be defending a lair, such as a hive or nest.</p><p>The swarm does not make an attack roll, as it is an area effect attack that automatically hits. All armored characters and monsters with AC 5 or better take 2 points of damage per round. Unarmored characters or monsters with AC 6 or worse take 4 points of damage per round.</p><p>A victim who takes the time to swat at the insects (using a weapon or torch) instead of attacking or performing another action takes only 1 point of damage per round. Characters trying to swat with their hands or arms are ineffective.</p><p>If a swarm is attacked, it will relentlessly pursue its attacker. Victims can escape by disappearing from sight (such as with invisibility, moving around a corner, etc.) or by diving underwater, which kills all the insects after one round (normal damage applies during this round).</p><strong>Terrain:</strong> Any (except Arctic)</p>",
     "wrestling": 13,
@@ -122,13 +141,6 @@
     "acDigest": [],
     "activeLight": null,
     "isEnchanted": false,
-    "movement2": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
-    },
     "abilities": {
       "int": {
         "value": 0,

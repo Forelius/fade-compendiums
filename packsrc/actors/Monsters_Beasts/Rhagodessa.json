@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>The Rhagodessa is a giant spiderlike carnivore, roughly the size of a small horse, with an oversized yellow head and mandibles, and a dark brown thorax. It has five pairs of legs, the front pair ending in suckers that grasp prey.</p><p>A leg hit deals no damage but sticks the victim, pulling them to the mandibles for an automatic bite in the next round.  Note: The rules don't state how to free oneself from the leg grab. One option is that a successful Strength ability check results in the grasped victim being free. A more unforgiving rule is that the grasp remains until the creature is slain.</p><p>These nocturnal hunters operate only in darkness, typically residing in caves and capable of climbing walls.</p><p><strong>Terrain:</strong> Cavern, Ruins; Hill, Mountain, Woods (after dark)</p>",
     "config": {
@@ -159,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

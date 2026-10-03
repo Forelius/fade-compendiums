@@ -41,11 +41,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This is a large horse bred for sturdiness and endurance. It is used mostly as a pack animal or for plowing or pulling wagons. A draft horse will not fight; if attacked, it will flee.</p><p><strong>Terrain:</strong> Open.</p><p><strong>Load:</strong> Pulls 4,500 cn at normal rates, or 9,000 cn at half normal.</p><p><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
@@ -158,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Draft Horse",

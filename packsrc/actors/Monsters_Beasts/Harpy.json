@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Harpies are monstrous creatures with the lower body of a giant eagle and the upper body of a hideous woman. Their most dangerous ability is their mesmerizing song, which can charm anyone who hears it. Any creature hearing their song must make a saving throw vs. spells or become charmed. If a creature successfully makes the saving throw, they are immune to all harpy songs for the duration of the encounter.</p><p>Harpies prefer to live in secluded areas near places with steady human traffic, such as mountain passes or trade routes, where they can lure travelers to their doom. Once a location is no longer frequented by new victims, harpies will move to a new location and repeat the cycle.</p><p><strong>Terrain:</strong> Hill, Mountain.<br><strong>Load:</strong> 1,000 cn at full speed, 2,000 cn at half speed.</p>",
     "wrestling": 15,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 150,
-      "max": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
-    },
     "actorGroups": [
       "weapon-using"
     ]

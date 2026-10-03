@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 480,
+          "turn": 480,
+          "round": 160,
+          "day": 96,
+          "run": 480
+        }
+      ]
     },
     "encumbrance": {
       "max": 6000,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 480,
-      "max": 480,
-      "round": 160,
-      "day": 96,
-      "run": 480
-    },
     "actorGroups": [
       "fey"
     ]

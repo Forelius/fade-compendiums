@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The frost salamander is a massive six-legged lizard hailing from the elemental plane of Air. It has white or blue-white scales and prefers frozen wastelands, glaciers, and icy tundra when found on the Prime Plane. The creature is extremely dangerous and has the ability to attack with all four of its claws and a vicious bite.</p>\n        <p>In addition to its physical attacks, the frost salamander radiates an aura of extreme cold. All creatures within 20 feet of the salamander take 1d8 points of cold damage per round. The salamander itself is immune to all forms of cold.</p>\n        <p>Like its fiery counterpart, the frost salamander is the mortal enemy of flame salamanders and will attack them on sight.</p>\n        <strong>Terrain:</strong> Plane of Air.<br>",
     "wrestling": 33,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"

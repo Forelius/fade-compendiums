@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The gremlin is a mischievous, 3-foot-tall humanoid with pasty gray-green skin, saucer-like eyes, and pointed ears. They have an evil sense of humor and love causing mayhem.</p><p><strong>Chaotic Aura (20' Radius):</strong> Gremlins radiate a powerful aura of chaos, where \"anything that can go wrong will go wrong.\" Each round, all creatures within the aura must save vs. spells or suffer random bad luck (determined by the DM).</p><p><strong>Missed Attacks:</strong> Any creature that misses an attack against a gremlin must reroll the attack against themselves.</p><p><strong>Spell Reversal:</strong> Any character casting a spell within the chaotic aura must roll a save vs. spells. If successful, the spell affects the gremlins; if failed, it backfires and affects the caster.</p><p><strong>Mechanical Interference:</strong> Gremlins love breaking mechanical objects—crossbows might snap, axeheads may fall off, and magical devices may malfunction in bizarre ways.</p><p><strong>Gremlin Spellcasters:</strong> Some gremlins practice magic; see Monster Spellcasters for details.</p><p><strong>Terrain:</strong> Any.</p>",
     "config": {
@@ -157,14 +167,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Gremlin",

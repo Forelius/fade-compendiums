@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>A device-summoned air elemental is larger and more powerful than one summoned by a staff, appearing as a massive whirlwind 24 feet tall and 6 feet wide. It moves at incredible speeds, using its sheer force to devastate foes.</p><p>Any creature of 2 Hit Dice or less struck by the elemental must make a saving throw vs. death ray or be swept away. The elemental’s attacks are especially deadly against flying creatures, dealing an extra 1d8 damage.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Air elementals take double damage from earth-based attacks, normal damage from air and fire, and minimal damage (1 HP per die) from water-based attacks. When double damage is indicated, the elemental may make a saving throw vs. spells to take normal damage.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
     "config": {
@@ -155,13 +165,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": [],

@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p><strong>Zombies</strong> are mindless, undead humans or demihumans reanimated through evil magic. They are commonly used by malevolent rulers and dark spellcasters as disposable soldiers or laborers. Their vacant expressions and shuffling gait make them eerie guardians of crypts and ancient ruins.</p>\n      <p>Unlike living creatures, zombies are <strong>immune to sleep and charm spells</strong>. They can be turned by clerics but otherwise follow their commands without question. While they can be harmed by normal weapons, their sluggish reflexes make them <strong>always lose initiative</strong> in combat.</p>\n      <p>Zombies are often stationed to guard treasures, standing eerily silent until disturbed. When encountered in lairs, they may be found in large numbers, standing vigil over long-forgotten tombs.</p>\n      <p><strong>Terrain:</strong> Ruins.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted",

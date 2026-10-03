@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>A Drolem is a type of golem that looks like a dragon. It can be made to resemble any dragon color or may appear as a dragon skeleton. Like other golems, it is not alive, but a construct created by a high-level magic-user or cleric. Drolems are extremely rare, typically built to guard a special item or location. A special book and several rare materials are required to create a Drolem.</p><p>A Drolem is nonintelligent and follows instructions exactly. It can see invisible creatures within 60 feet and is immune to:</p><ul><li><strong>Charm</strong>, <strong>hold</strong>, <strong>sleep</strong>, and all mind-affecting spells</li><li>All forms of <strong>fire</strong>, <strong>cold</strong>, and <strong>gases</strong></li><li>Spells of <strong>4th level or lower</strong></li><li>All <strong>normal</strong> and <strong>silver weapons</strong>, as well as <strong>magical weapons</strong> of +2 or lesser enchantment</li></ul><p>The Drolem's claws inflict 2d6 points of damage each, and its massive jaws cause 11-30 (1d20 + 10) points of damage. It can also breathe a poisonous cloud up to three times per day. The cloud is 20 feet x 20 feet x 20 feet, and creatures within the area must make a saving throw versus dragon breath or die.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at half speed</p>",
     "wrestling": 49,
@@ -165,13 +184,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "dragonkind",
       "regenerating",

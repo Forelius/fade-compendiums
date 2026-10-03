@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Merman Leaders of greater might command their aquatic brethren, their human-like torsos atop fish tails ruling the ocean’s coastal expanses. Harvesting kelp and hunting fish, they stand as pillars of their people, akin to human leaders in submerged domains.</p><p>Brandishing spears, tridents, or daggers, they strike with authority, dealing damage by weapon type (e.g., [[/r 1d6 #Weapon damage]] for spear). One emerges for every fifty in parties of [[/r 1d20 #Mermen in party]], overseeing villages of [[/r 1d3*100 #Mermen in village]] with trained sea creatures as guardians.</p><p>Boasting 4 Hit Dice and the resilience of veteran fighters, they elevate their kin’s defenses, their neutral stance and sharp minds amassing wealth beneath the waves. Spellcasters among them may wield arcane power, fortifying their oceanic reign.</p><p><strong>Terrain:</strong> Ocean</p>",
     "isEnchanted": false,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing",
       "weapon-using"

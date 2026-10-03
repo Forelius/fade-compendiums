@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Devil Swine are shape-changing lycanthropes, appearing either as massive swine or as obese humans. They freely change shapes at night but must remain in one form during daylight hours. Devil Swine are carnivorous, favoring human flesh, and often live near human settlements where they can hunt. They ambush their prey, and each Devil Swine can cast <em>Charm Person</em> up to three times per day, in either human or swine form. Victims must make a saving throw vs. spells with a -2 penalty; charmed humans become controlled minions, with [[/r 1d4-1 #Minions]] usually under a Devil Swine's control.</p><p>In <strong>animal form</strong>, Devil Swine can only be harmed by magical or silvered weapons and communicate with other swine. In <strong>human form</strong>, they can use any weapon, speak any known language, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a Devil Swine’s gore or weapon attack becomes a Devil Swine within [[/r 2d12 #Days until victim becomes a Devil Swine]] days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Forests, swamps, or areas near human settlements</p>",
     "wrestling": 27,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "lycanthropes",

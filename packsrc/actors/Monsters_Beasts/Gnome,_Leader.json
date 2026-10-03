@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The <strong>gnome leader</strong> is a battle-hardened warrior who commands small groups of gnomes in their burrows or underground cities.</p>\n      <p><strong>Infravision:</strong> Gnomes have <strong>infravision with a 90' range</strong>.</p>\n      <p><strong>Smiths & Miners:</strong> Gnomes excel in metalworking and mining, with a deep love for <strong>gold and gems.</strong></p>\n      <p><strong>Preferred Weapons:</strong> Gnome leaders often wield <strong>war hammers or crossbows</strong>, dealing stronger blows than normal gnomes.</p>\n      <p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes despise these creatures and will <strong>attack kobolds on sight.</strong></p>\n      <p><strong>Leadership Boost:</strong> As long as the gnome leader is alive, <strong>all gnomes within sight have Morale 10 instead of 8.</strong></p>\n      <p><strong>Terrain:</strong> Cavern, Open.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

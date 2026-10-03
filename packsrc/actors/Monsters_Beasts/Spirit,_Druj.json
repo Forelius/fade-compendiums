@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Druj appear as body parts, floating or crawling about in a horrible way. A druj is usually encountered in the form of a hand, eye, or skull. Druj are very intelligent and strongly evil, far more dangerous than they may seem.</p><p>A druj can split its essence, creating four (identical) forms instead of one. This can be performed only once per night. Each of the forms can attack separately, but only one of the forms is able to cast spells (as given above). The form using the spells can often be distinguished, as it will hover nearby while the other forms attack. If that form is slain, one of the surviving forms immediately gains all unused spellcasting abilities. All four forms are poisonous.</p><p>If turned by a cleric, the parts of a druj turned are forced to reunite into one creature, remaining united for [[/r 1d4 + 1 #Rounds united]] rounds. Further success at turning is handled normally.</p><p>Druj are always encountered singly unless commanded into service by a lich or more powerful member of the Sphere of Death. In such cases, two druj eyes may rest within a druj skull, accompanied by two druj hands; no more than these five druj can ever gather in one place.</p><p><strong>Eye:</strong> An eye druj darts about, trying to touch (poison) its opponent; a touch does not inflict any damage other than poisoning. Each eye druj can also gaze at one victim per round (30' range), in addition to its physical attack. The victim must make a saving throw vs. paralysis or be paralyzed for [[/r 1d4 #Turns paralyzed]] turns. The eye druj may touch a paralyzed victim automatically.</p><p><strong>Hand:</strong> A hand druj inflicts [[/r 1d4 #Points of damage]] when it hits, and thereafter holds onto its victim, causing automatic damage each round thereafter. The damage caused is equal to the AC of the victim, ignoring dexterity and shield bonuses, plus [[/r 1d4 #Points]] each round. If the adjusted armor class is a negative number, the attack will still inflict [[/r 1d4 #Points of damage]] each round.</p><p><strong>Skull:</strong> A skull druj floats toward and bites its victim. When first approached, the victim must make a saving throw vs. spells or be frozen with fear, allowing the skull druj to bite (no attack roll needed) for [[/r 2d4 #Points of damage]]. The normal saving throw vs. poison applies to each bite.</p><h3>All Spirits</h3><p>Spirits are powerful evil beings inhabiting the bodies (or body parts) of others; they are among the nastiest of undead monsters. They are immune to spells below 4th level, and cannot be harmed by normal weapons or magical weapons of less than +2 enchantment.</p><p>All spirits are travelers, never staying in one place for more than one night; they become invisible and nearly powerless (except to move) with the light of dawn, regaining their powers at dusk. In daylight, any spirit can travel up to 24 miles per day (1 hex).</p><p>All spirits are poisonous. When hit by a spirit in hand-to-hand combat, the victim must make a saving throw vs. poison or die immediately. A new saving throw must be made for each hit by the spirit.</p><p>The poisonous presence of a spirit causes all consumable items within 30', including normal food and water, holy water, all rations (even iron) and even magical potions to become spoiled and useless (but not poisoned), with no saving throw allowed. Even living plants and small insects within this area are paralyzed, dying if the spirit remains there more than an hour. This effect negates all forms of plant control, insect swarms and plagues, both normal and magical.</p><p>All spirits can sense invisible things, and can attack them without penalty. All spirits can, once per round, at will, create the following cleric spell effects: <em>darkness</em>, <em>silence</em> 15' radius, <em>cause disease</em>, <em>animate dead</em>, <em>finger of death</em> (all as if cast by a 16th level cleric). A spirit will often pause to animate the body of a fallen victim, creating and controlling it as a zombie to fight for it and add to the chaos. (Attempts at turning such zombies are made as if turning the spirit itself!) All of these spell-like abilities require concentration, as do normal spells, so while using an ability, a spirit cannot attack physically. Unlike normal cleric spells, no words or gestures are needed.</p><p>A spirit normally has no treasure, though it may occasionally serve as a guard for some special item. Those characters who risk travel at night may encounter a spirit with 1d6 of its victims, who may carry treasure.</p><p><strong>Terrain:</strong> Any (usually Barren Lands and Ruins)</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

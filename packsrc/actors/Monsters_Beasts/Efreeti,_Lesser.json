@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "max": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>Efreeti are powerful enchanted beings from the elemental plane of Fire. They appear as smoke that condenses into giant-sized humanoids wreathed in flame. The air around them is hot and smoky, and they radiate an aura of menace. Efreeti are highly magical, and can only be harmed by magical weapons. If slain, their spirit returns to the Plane of Fire.</p><p>Efreeti can create objects, produce illusions, and turn invisible at will. They can also cast <em>wall of fire</em> up to three times per day. Once per turn, they may transform into a pillar of flame for up to three rounds, setting fire to all flammable items within 5 feet. While in this form, their melee attacks deal an additional 1d8 fire damage.</p><p>Summoning an efreeti requires a high-level magic-user with access to both <em>create magical monsters</em> and <em>wish</em> spells. When summoned, the efreeti must serve for 101 days but will seek to twist its master's instructions in ways that cause trouble.</p><p>Efreet dwell in grand cities on their home plane, similar to those of wealthy desert-dwelling humans. They despise djinn and will attack them on sight. While generally at peace with fire elementals, they have fought wars against them in the past. Efreet fear water-based creatures and attacks.</p><p><strong>Terrain:</strong> Plane of Fire</p><p><strong>Load:</strong> 5,000 cn at full speed, 10,000 cn at half speed</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "spellcasters",
       "enchanted",

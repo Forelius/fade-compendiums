@@ -41,11 +41,30 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 210,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>A pony is a small, spirited horse often favored as a riding mount by children, halflings, and dwarves. Though diminutive, ponies are hardy and agile, making them ideal for short-distance travel.</p><p><strong>Terrain:</strong> Open<br><strong>Load:</strong> 2,000 cn at normal rates, or 4,000 cn at half normal.<br><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
@@ -158,14 +177,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 210,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Pony",

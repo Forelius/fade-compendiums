@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>A centaur is a creature with the head, arms, and upper body of a man joined to the body and legs of a horse. They are of average human intelligence and often carry weapons (clubs, lances, and bows; one weapon per creature). A centaur may use a charge attack with a lance.</p>\n    <p>Centaurs will form into small tribes or families. Their homes are in dense thickets or woods. The females and young will usually stay in the lair. If attacked, females and young will attempt to flee; if escape is impossible, they will fight to the death. The young fight as 2-HD monsters and do less damage (1d2/1d2/1d4).</p>\n    <p>There can be centaur spellcasters; see \"Monster Spellcasters.\"</p>\n    <p><strong>Terrain:</strong> Woods, Open, Wooded Hills.<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.</p>",
     "wrestling": 17,
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

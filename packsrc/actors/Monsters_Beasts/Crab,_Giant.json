@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Giant crabs are nonintelligent animals found in shallow waters, coastal rivers, and buried in sand on beaches. They cannot swim. The common giant crab is 8' in diameter, but larger specimens may be found (up to 6 Hit Dice, dealing 3d6 points of damage per claw).</p>\n    <p>They are always hungry and will attack and eat anything that moves. Salt-water giant crabs have a slightly different appearance than fresh-water giant crabs.</p>\n    <p><strong>Terrain:</strong> Ocean, River/Lake (including shores).</p>",
     "wrestling": 15,
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": []
   },
   "prototypeToken": {

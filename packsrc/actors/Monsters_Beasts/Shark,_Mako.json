@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Sharks are predatory fish with little intelligence and unpredictable behavior, primarily feeding on fish. They are drawn to blood within 300 feet, entering a feeding frenzy where they attack without morale checks. Found exclusively in salt water.</p><p>These 12' long, blue-gray or tan sharks are highly unpredictable, often ignoring prey one moment and attacking the next.</p><p><strong>Terrain:</strong> Ocean</p>",
     "config": {
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing"
     ]

@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The Kobold Chieftain is the leader of a kobold clan, ruling alongside 1d6 bodyguards. The chieftain has 9 hit points and fights as a 2 HD monster. As long as the chieftain remains alive, all kobolds in the lair have an improved morale of 8 instead of 6.</p><p>Kobolds are small, doglike humanoids with scaly, rust-brown skin. They dwell in underground lairs and rely on <strong>ambush tactics</strong> to overwhelm enemies. Their <strong>infravision (90 feet)</strong> allows them to navigate in darkness with ease.</p><p>Kobolds <strong>hate gnomes</strong> and attack them on sight. Some kobold clans have spellcasters among their ranks.</p><p><strong>Terrain:</strong> Cavern, Hill, Mountain, Wood.</p>",
     "config": {
@@ -157,14 +167,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Kobold Chieftain",

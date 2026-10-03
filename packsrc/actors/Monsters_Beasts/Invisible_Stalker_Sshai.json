@@ -41,11 +41,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>An Invisible Stalker (Sshai) is a magical, humanlike entity summoned from another plane via the invisible stalker spell. When given a clear and straightforward command, it obeys without hesitation; however, if the assignment is ambiguous or prolonged, it may twist the intent while following the literal wording—for example, guarding a treasure for over a week might result in it transporting the treasure back to its native plane to guard indefinitely.</p><p>Primarily employed to track and eliminate foes, this creature is not only highly intelligent but also an impeccable tracker. Should a target be unable to detect invisible entities, the stalker will launch a surprise attack on a roll of 1-5 (on [[/r 1d6 #Surprise on 1-5]]). Conversely, any creature capable of perceiving invisibility gains a +4 bonus when attacking it. Once its mission is complete, or if it is slain or dispelled, the stalker promptly returns to its home plane.</p><p>The term \"invisible stalkers\" is the human designation for this species, though they call themselves the <em>sshai</em>. Native to the elemental plane of Air, the sshai move with exceptional speed on their home plane—reaching 360' (120'). There, they resemble dopplegangers, possessing the ability to use ESP at will and to shapechange into nearly any form native to that plane, typically appearing as air elementals, djinn, or haoou (aerial servants). While their true form is nearly identical to an air elemental, subtle differences remain discernible. The sshai are sometimes employed by djinn and haoou as spies or guards, and in their own realm, they typically possess between 1 and 12 Hit Dice while remaining roughly man-sized. Although some may even wield spells, they generally prefer negotiation to combat and have few enemies—except for their notable apprehension toward earth-type creatures and attacks.</p><p><strong>Terrain:</strong> Any; Plane of Air</p>",
     "ac": {
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"

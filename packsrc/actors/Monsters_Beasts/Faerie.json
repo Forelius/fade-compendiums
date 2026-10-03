@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 240,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Faeries are small, winged humanoids that inhabit the air and clouds. They have traits of multiple races: dwarven noses and beards, elven eyes and ears, and halfling-sized bodies. Their empire in the sky is hidden from most other beings.</p><p><strong>Natural Invisibility:</strong> Faeries are invisible at all times and cannot be seen with normal sight. However, they can see invisible creatures without difficulty.</p><p><strong>Innate Magical Abilities:</strong> Faeries can use the following powers <strong>at will, once per round:</strong></p><ul><li>Assume Gaseous Form: Functions like the potion.</li><li>Create Fog: Forms a 10' cube of mist around the faerie.</li><li>Condense Fog: Causes drizzle within the fog.</li><li>Return to Normal Form: Exits gaseous state.</li><li>Summon Breeze: Causes flames to flicker, blows out candles, and allows the faerie to fly at 360' (120') for one turn.</li></ul><p><strong>Faerie Society:</strong> Faeries live in floating homes made of \"clouds,\" enjoying life above the storms. Their empire of wind is known only to them and a few air creatures.</p><p><strong>Leaders & Spellcasters:</strong> Common faeries have <strong>1+1 HD</strong>, but their leaders can have up to <strong>9 HD</strong>. Some rare faeries are magic-users or clerics (see \"Monster Spellcasters\").</p><p><strong>Terrain:</strong> Any.</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 240,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "fey",
       "weapon-using"

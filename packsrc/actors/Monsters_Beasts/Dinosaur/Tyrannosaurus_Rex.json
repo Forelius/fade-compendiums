@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The 'tyrant lizard,' or Tyrannosaurus Rex, is the largest predatory dinosaur known, measuring at least 40 feet in length, weighing up to 8 tons, and standing about 20 feet tall. It roams 'lost world' regions, where it hunts with ferocious intent. This creature moves on its hind legs, with its massive tail acting as a counterbalance, while its small, clawed forelimbs offer little aid in combat. However, its primary weapon, its colossal jaws lined with 6-inch teeth, are devastating. The Tyrannosaurus Rex will attack any creature of man-sized or larger, focusing on the largest first. A roll of 19-20 on an attack allows it to swallow a man-sized opponent whole, dealing 2d4 damage each round until the victim is freed.</p><p><strong>Terrain:</strong> Jungle, Open, Woods (prehistoric)</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

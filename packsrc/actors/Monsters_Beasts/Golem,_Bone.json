@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The bone golem is a terrifying construct made from the bones of multiple humanoids, bound together by powerful magic.</p><p><strong>Multi-Weapon Fighting:</strong> A bone golem has four arms, allowing it to wield four one-handed weapons or two two-handed weapons. It can attack two separate targets per round.</p><p><strong>Resistances:</strong></p><ul><li>Immune to fire, cold, and electrical attacks.</li><li>Unaffected by sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted",

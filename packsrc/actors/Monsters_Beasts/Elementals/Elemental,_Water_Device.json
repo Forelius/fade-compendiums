@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "max": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>A device-summoned water elemental is larger and more powerful than one summoned by a staff, appearing as a wave 6 feet tall and 24 feet across. It surges forward, smashing through obstacles and drowning foes. It is not able to move more than 60' from water.</p><p>Water elementals are especially dangerous to creatures that cannot swim, dealing an extra 1d8 damage when attacking enemies in water.</p><p>Device-summoned elementals require continuous control, and if the summoner’s concentration is broken, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Water elementals take double damage from air-based attacks, normal damage from water and earth, and minimal damage (1 HP per die) from fire-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 6,000 cn at full speed or 12,000 cn at half speed.</p>",
     "config": {
@@ -155,13 +174,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0,
-      "max": 180
     },
     "monsterTypes": [],
     "tags": [],

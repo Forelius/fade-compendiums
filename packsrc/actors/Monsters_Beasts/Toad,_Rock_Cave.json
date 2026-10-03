@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The Rock Toad, or Cave Toad, resides in rocky, cold areas like high mountains or frozen deserts. It's roughly the size of a large dog, weighs about 150 pounds, and has a hard, bumpy shell like a turtle. Its most notable feature is its multi-faceted, hypnotic eyes that compel creatures to save vs. paralysis or be paralyzed for [[/r 2d4 #Rounds paralyzed]] rounds. After death, its eyes emit a feeble light for [[/r 1d3 #Hours of light]] hours, but lose their hypnotic effect. It attacks with a horny, beaked mouth.</p><p><strong>Terrain:</strong> Cavern; Desert (cold), Mountain</p>",
     "config": {
@@ -157,14 +167,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Toad, Rock/Cave",

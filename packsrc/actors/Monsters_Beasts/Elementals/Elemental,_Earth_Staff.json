@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "max": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The weakest type of earth elemental, summoned through a magical staff, appears as a towering, humanoid-shaped mass of rock and dirt 8 feet tall. It moves slowly but delivers crushing blows against its enemies. It cannot cross a water barrier wider than its height.</p><p>Earth elementals are most powerful when fighting on solid ground, dealing an extra 1d8 damage to any creature touching the earth.</p><p>Staff-summoned earth elementals require constant control, and if the summoner is distracted, the elemental will turn on them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take double damage from fire-based attacks, normal damage from earth and water, and minimal damage (1 HP per die) from air-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 4,000 cn at full speed or 8,000 cn at half speed.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

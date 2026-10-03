@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Large carnivorous dinosaurs are powerful and dangerous predators. They attack using both claws and bites, and some larger species may even swallow prey whole. These dinosaurs are feared in prehistoric regions and will often attack any creature they see as prey.</p>\n    <p><strong>Terrain:</strong> Forest, Jungle, Grassland.</p>",
     "wrestling": 21,
@@ -165,13 +175,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

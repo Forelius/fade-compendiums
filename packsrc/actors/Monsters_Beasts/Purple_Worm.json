@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Purple Worms are huge, slime-covered creatures over 100' long and 8' to 10' in diameter. These monsters tunnel through the earth, burrowing up from the ground to feed on surface-dwelling creatures. </p><p>They attack by biting and stinging with their tails. If the bite attack roll is 4 or more greater than needed (or a 20), they swallow man-sized or smaller creatures whole, dealing [[/r 3d6 #Damage per round swallowed]] damage each round thereafter. A tail sting requires a save vs. poison or the victim dies. Underground, tunnel size may limit attacks.</p><p>When tunneling to approach, they have a 1 in 4 chance to surprise, but [[/r 1d4+1 #Rounds until tail free]] rounds pass before the tail is free.</p><p><strong>Terrain:</strong> Cavern, Ruins, Swamp, Woods (dense)</p>",
     "config": {
@@ -158,14 +168,7 @@
         "tempMod": 0
       }
     },
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "items": [
     "o0MSqhTXFHr62r30",

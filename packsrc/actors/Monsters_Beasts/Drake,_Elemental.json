@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Elemental Drakes are rare and dangerous creatures that hail from the elemental planes. These drakes can polymorph into young giant forms (up to 4 feet shorter than normal giants) on the Prime Plane, or into small elemental forms on their home plane. In drake form, they attack with claws and a bite, dealing significant damage. Elemental Drakes are immune to normal and silver weapons, requiring magical weapons to harm them. They also possess the abilities of a 5th-level thief, making them cunning foes.</p><p><strong>Polymorph:</strong> On the Prime Plane, Elemental Drakes can polymorph into young giant forms (cloud, stone, fire, or storm giants), but cannot use giant rock-throwing abilities. On their home plane, they transform into small elemental forms with the abilities of a 6 HD elemental.</p><p><strong>Elemental Immunities:</strong> Immune to normal and silver weapons; only magical weapons can harm them.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
     "wrestling": 21,
@@ -165,13 +184,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 30,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs",

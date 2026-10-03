@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>A Neutral ghost is the trapped soul of a human who is unable to rest, often due to their body remaining unburied or because they were subjected to great betrayal, harm, or a curse. If this type of ghost is assisted, and their body is found and returned to a churchyard, the ghost will finally be able to rest in peace. In return for aid, the ghost typically reveals the location of their treasure hoard.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. The victim must make a saving throw vs. spells or fall under the ghost’s control until exorcised.</p><p><strong>Terrain:</strong> Ruins, Cursed Lands, Haunted Houses.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

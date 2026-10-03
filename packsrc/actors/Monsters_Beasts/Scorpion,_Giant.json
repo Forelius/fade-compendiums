@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>The Giant Scorpion resembles a normal arachnid but is the size of a small horse. It inhabits deserts, caves, and ruins, preying on any animal over 2 feet long and typically attacks on sight. It fights by grasping victims with its claws and stinging. If either claw hits, the stinger attack roll gains a +2 bonus. A successful sting requires a save vs. poison or the victim dies.<br><b>Terrain:</b> Cavern, Desert, Ruins</p>",
     "config": {
@@ -159,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

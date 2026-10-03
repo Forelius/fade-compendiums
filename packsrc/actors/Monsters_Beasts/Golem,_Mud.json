@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The mud golem is a shambling, humanoid construct made entirely of living mud. It stands roughly 6 feet tall and has a featureless, shifting body.</p><p><strong>Movement Through Mud & Quicksand:</strong> The mud golem can walk or swim on mud and quicksand without sinking. It can remain fully submerged in these substances indefinitely.</p><p><strong>Smothering Hug:</strong> The mud golem attacks with its massive, clay-like arms, attempting to engulf and suffocate its victim. A successful hit automatically deals 2d6 damage per round as the victim struggles for air.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

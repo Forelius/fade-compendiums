@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>The displacer beast resembles a large black feline with six legs and a pair of 6-foot long tentacles protruding from its shoulders. It uses these tentacles, which are edged with horn-like tips, to attack. The displacer beast's skin has a peculiar ability to bend light, causing it to appear several feet away from its actual position. This grants all attackers a -2 penalty to their attack rolls, while the Panther receives a +2 bonus to all saving throws.</p><p>If severely wounded (6 hit points or less), the displacer beast will resort to a ferocious bite attack, gaining a +2 bonus to hit and dealing 1d6 points of damage.</p><p>Displacer beasts are carnivorous, preying primarily on smaller herd animals in forested and jungle regions. They may occasionally wander into dungeons due to curiosity or the lure of food. They generally avoid conflict with adventurers unless driven by extreme hunger.</p><p>These creatures harbor an intense animosity towards Blink Hounds, attacking them and anyone in their vicinity on sight. It is believed that the two species originate from a distant plane and are embroiled in an endless interdimensional war.</p><p><strong>Terrain:</strong> Hill, Jungle, Woods.</p>",
     "wrestling": 21,
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": []
   },
   "prototypeToken": {

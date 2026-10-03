@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The <strong>giant sturgeon</strong> is a massive, armored fish reaching nearly <strong>30 feet in length</strong>. It is an aggressive predator, capable of swallowing prey whole.</p>\n      <p><strong>Bite Attack:</strong> The sturgeon delivers a devastating bite that deals <strong>2d10 damage</strong>.</p>\n      <p><strong>Swallow Whole:</strong> If the sturgeon rolls an <strong>18 or higher</strong> on an attack, it <strong>swallows its target</strong>. A swallowed victim takes <strong>2d6 damage per round</strong> and must make a <strong>saving throw vs. death ray</strong> or be <strong>paralyzed</strong>. If not paralyzed, they can attack from inside.</p>\n      <p><strong>Thick Scales:</strong> Its body is covered in natural armor, giving it <strong>AC 0</strong>.</p>\n      <p><strong>Terrain:</strong> River, Lake, Ocean.</p>",
     "config": {
@@ -155,13 +165,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": null,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

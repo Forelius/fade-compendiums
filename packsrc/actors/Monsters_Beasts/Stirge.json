@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>A stirge is a birdlike creature with a long nose. It attacks by thrusting its beak into the victim's body and feeds on blood. A successful hit (for [[/r 1d3 #Points of damage]]) points of damage means that it has attached itself to the victim, sucking for [[/r 1d3 #Points of damage]] points of damage per round until the victim is dead.</p><p>A flying stirge <strong>gains a bonus of +2 on its first attack roll against any one opponent</strong> due to its speedy diving attack.</p><p><strong>Terrain:</strong> Cavern, Ruins, Woods.</p>",
     "wrestling": 11,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "bugs"
     ]

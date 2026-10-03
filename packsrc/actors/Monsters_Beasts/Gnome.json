@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Gnomes are small humanoids closely related to dwarves, standing about 3 1/2' to 4' tall with long noses and full beards. They typically live in burrows or underground cities and are known for their craftsmanship.</p><p><strong>Infravision:</strong> Gnomes have well-developed infravision with a 90' range.</p><p><strong>Smiths & Miners:</strong> Excellent metalworkers, gnomes have a deep love for gold and gems and sometimes take risks to obtain them. They also have a keen interest in machinery.</p><p><strong>Preferred Weapons:</strong> Gnomes favor crossbows and war hammers in combat.</p><p><strong>Enemy of Kobolds & Goblins:</strong> Gnomes consider these creatures thieves and will attack kobolds on sight.</p><p><strong>Leadership Bonuses:</strong></p><ul><li>For every 20 gnomes, one is a leader with 11 HP, fighting as a **2 HD monster**.</li><li>In gnome villages, the **clan chieftain (18 HP, attacks as 4 HD, +1 damage)** is protected by **1d6 bodyguards (10-13 HP, attack as 3 HD).**</li><li>If the **chieftain or leader is alive**, all gnomes within sight have Morale 10 instead of 8.</li></ul><p><strong>Gnome Spellcasters:</strong> Some gnomes can use magic; see \"Monster Spellcasters\" for details.</p><p><strong>Terrain:</strong> Cavern, Open.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

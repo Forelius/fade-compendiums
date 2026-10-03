@@ -41,11 +41,30 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 150,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The Sea Hag is one of the most repulsive creatures known, feared for its horrifying appearance and deadly powers.</p><p><strong>Horrific Visage:</strong> Any creature that sees the Sea Hag or comes within 10 feet must make a saving throw vs. spells at -6 or flee in terror for 1d20+5 rounds.</p><p><strong>Energy Draining Touch:</strong> A Sea Hag’s touch acts as an energy drain, reducing the victim’s level by one (as a wight). Additionally, it causes disease (no saving throw).</p><p><strong>Undead Control:</strong> Though not undead itself, the Sea Hag can command undead as if it were a 16 HD undead creature.</p><p><strong>Weaknesses & Resistances:</strong> A Sea Hag can only be harmed by silver or magical weapons.</p><p><strong>Environment & Lair:</strong> It lives primarily in shallow coastal waters but can venture onto land for up to three hours at a time.</p><p><strong>Companions:</strong> Often accompanied by undead or other sinister creatures.</p><p><strong>Terrain:</strong> Ocean (Coast).</p>",
     "ac": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 150,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "fey",

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "max": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The most powerful type of earth elemental, summoned through a magic-user's spell, appears as a towering colossus of stone 16 feet tall. It moves deliberately but delivers catastrophic blows that can shatter rock and bone alike. It cannot cross a water barrier wider than its height.</p><p>Earth elementals are most formidable when fighting on solid ground, dealing an extra 1d8 damage to any creature touching the earth.</p><p>Spell-summoned elementals require constant control. If the summoner is distracted or their concentration is broken, the elemental will attack them. These creatures can only be harmed by magic or magical weapons.</p><p>Earth elementals take double damage from fire-based attacks, normal damage from earth and water, and minimal damage (1 HP per die) from air-based attacks.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> Can carry 8,000 cn at full speed or 16,000 cn at half speed.</p>",
     "config": {
@@ -158,13 +168,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 480,
+          "turn": 480,
+          "round": 160,
+          "day": 96,
+          "run": 480
+        }
+      ]
     },
     "encumbrance": {
       "max": 24000,
@@ -162,14 +181,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 480,
-      "max": 480,
-      "round": 160,
-      "day": 96,
-      "run": 480
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Roc, Large",

@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>A malfera is a creature from the Dimension of Nightmares, where many evil dreams are bred and released into the minds of sleeping people. A malfera appears only through the acts of a powerful magic-user or an Immortal; its dimension is believed to be poisonous and deadly to humans.</p><p>The malfera has a large, elephant-like face and a short trunk. The head is topped by large horns, and large fangs protrude from either side of the trunk. The chest is a mass of slimy, short tentacles. Long, muscular arms end in large, jagged pincers, and its feet are webbed and clawed. It is colored night-black but has red veins and eyes.</p><p>In combat, a malfera attacks with its pincers and bites. If both pincers hit the same target, the victim is dragged to the chest of the malfera on the next round. The tentacles then automatically trap the victim. These tentacles are coated with an acid slime and deal <strong>2d6 points of damage</strong> each round. The victim can be freed only when the malfera is killed.</p><p>In addition, the breath of a malfera is poisonous. Each time it hits with a bite, its victim must save vs. poison (at a +3 bonus) or die. A malfera is immune to acid and can be struck only by magical weapons.</p><p>Aside from its combat abilities, a malfera can detect invisible creatures and open all doors as if it had a knock spell. Because of its tough constitution and highly magical nature, it saves as a <strong>13th level fighter</strong>.</p><p><strong>Terrain:</strong> Any; Dimension of Nightmares.</p>",
     "isEnchanted": true,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"

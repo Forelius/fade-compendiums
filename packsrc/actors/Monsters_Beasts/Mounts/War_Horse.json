@@ -41,11 +41,21 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Horses are four-legged equines already familiar to players. They're herbivores: they run wild in the plains and can be tamed as riding beasts.</p><p>This type of horse is bred for its warlike temperament and strength. Unlike other horses, it is trained to charge. When charging, its rider can do double damage when using a lance. The horse cannot fight while charging and cannot move at charging speed for more than three rounds at a time.</p><p><strong>Terrain:</strong> Open.</p><p><span style=\"font-family: inherit\"><strong>Load:</strong></span><span style=\"font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"> 4,000 cn at full speed; 8,000 cn at half speed</span></p><p><strong>Barding Multiplier:</strong> x1</p>",
     "encumbrance": {
@@ -158,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "War Horse",

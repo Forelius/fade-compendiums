@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>A mule is a crossbreed between a horse and a donkey, known for its stubbornness. If provoked, a mule may either bite or kick in self-defense but cannot be trained to attack. Mules are particularly strong for their size and can carry heavy loads for their owners, moving at half speed when overloaded.</p><p>Mules can accompany adventurers into dungeons if permitted by the DM. When found alone, they might belong to an NPC party nearby.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed</p><p></p>",
     "wrestling": 13,
@@ -162,14 +172,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Mule",

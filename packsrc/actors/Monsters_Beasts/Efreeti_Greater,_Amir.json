@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 360,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>On the elemental plane of Fire, the rulers of the efreet are known as amirs. These mighty beings appear as enormous efreet, standing between 15 and 30 feet tall. Unlike lesser efreet, an amir <strong>cannot be harmed by normal weapons or even by magical weapons of less than +2</strong> enchantment. They also regenerate 2 hit points per round.</p><p>Amirs possess all the abilities of a lesser efreeti and can use them as often as desired, once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for one full round.</p><p>Once per day, an amir can grant another's wish, cast <em>fireball</em>, or unleash an <em>explosive cloud</em>, all as if cast by a 20th-level magic-user.</p><p>Amirs can assume a pillar of flame form without limit, igniting all flammable objects within 15 feet. While in this form, their melee attacks deal an additional 2d8 fire damage.</p><p>These beings cannot be summoned by spells and are resistant to most magical items. They rarely appear on the Prime Plane, doing so only in response to the cries of mistreated efreeti. When they do, they can appear anywhere but prefer hot environments such as deserts.</p><p><strong>Terrain:</strong> Plane of Fire</p><p><strong>Load:</strong> Flies with up to 10,000 cn at full speed or 20,000 cn at half speed. Walks with up to 20,000 cn at full speed or 40,000 cn at half speed.</p>",
     "config": {
@@ -155,13 +174,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "turn": 0,
-      "max": 360,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": [],

@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>Hailing from the elemental plane of Fire, the Lesser Phoenix appears as a striking red-orange eagle enveloped in fierce flames. On the Prime Plane, it’s an uncommon visitor, capable of thriving in any climate yet steadfastly avoiding underground lairs.</p><p>This creature remains peaceful unless provoked, resisting all forms of fire, charm, and hold spells, as well as attacks from weapons below a +3 enchantment. In combat, it employs its blazing claws and beak, while its fiery aura scorches foes within a 10' radius, inflicting [[/r 3d6 #Fire damage per round]], undeterred by conventional fire protections due to the unique nature of phoenix flame.</p><p>When vanquished, the Lesser Phoenix vanishes in a dramatic 20' radius explosion, unleashing [[/r 1d10*5 #Explosion damage]] (save vs. dragon breath for half, bypassing fire defenses). It reemerges from its ashes just 1 round later, fully restored, and swiftly flees. Only a wish can permanently extinguish it, and its method of rebirth remains an enigma.</p><p>Each defeat yields a single feather. Crafting a potion of phoenix fire resistance requires three such feathers, each valued at 10,000 gp, granting complete immunity to normal and magical fire, halving fire breath damage (quarter with a successful save), and providing typical resistance against phoenix fire.</p><p><strong>Terrain:</strong> Any; Plane of Fire</p>",
     "config": {
@@ -159,13 +178,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
-    },
     "actorGroups": [
       "enchanted",
       "planar"

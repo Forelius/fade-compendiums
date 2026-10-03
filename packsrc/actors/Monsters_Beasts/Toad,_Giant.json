@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The Giant Toad is roughly the size of a very large dog, weighing between 150-250 pounds. It has the ability to change its skin color to camouflage itself in woods or poorly lit dungeons, surprising its prey on a roll of 1-3 on 1d6. Its tongue can extend out to 15 feet, dragging victims of dwarf size or smaller towards its mouth for biting. On a natural 20 attack roll, it can swallow small prey whole, dealing [[/r 1d6 #Damage per round after being swallowed]] damage each subsequent round.</p><p><strong>Terrain:</strong> Cavern; Woods (near water)</p>",
     "config": {
@@ -157,14 +167,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Toad, Giant",

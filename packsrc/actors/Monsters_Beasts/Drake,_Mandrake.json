@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>The Mandrake is a medium-sized drake that often disguises itself as a human through its polymorph abilities. While in drake form, it attacks with two claws and a bite, dealing minor damage. Mandrakes are chaotic and fond of trickery, often using their shapeshifting abilities to integrate into human society, sometimes working as stablehands or in taverns. Though they enjoy pranks, they can also serve as agents for evil powers.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into humanoid forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
     "wrestling": 15,
@@ -165,13 +184,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 30,
-      "max": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

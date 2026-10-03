@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Werewolves are semi-intelligent creatures known for their hunting packs. Groups of five or more have a leader with 30 hit points, attacking as a 5 HD monster and dealing +2 damage per hit. Werewolves can summon normal wolves to create larger packs for attacks.</p><p>In <strong>animal form</strong>, werewolves can only be harmed by magical or silvered weapons, and they communicate with wolves. In <strong>human form</strong>, they may speak any known languages, be harmed by normal weapons, and may wield any weapon.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werewolf bite becomes a werewolf within 2d12 days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
     "wrestling": 17,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"

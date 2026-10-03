@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>This monster appears as a human figure with skeletal hands and a skull-like head adorned with flowing white hair. A Revener prowls through dark, underground caverns, as well as dust-filled tombs and crypts.</p><p>When it touches a victim, it permanently drains one of the victim's senses. The victim may make a saving throw against spells; success indicates that the loss is temporary, lasting only [[/r 2d6 #Rounds of sense loss]] rounds. The lost sense can be chosen or randomly determined, and subsequent hits always drain different senses.</p><p><strong>A rescore spell will restore one lost sense.</strong></p><p>Taste: The victim cannot identify tastes (such as those of potions).</p><p>Smell: The victim is immune to vile odor effects but suffers a -1 penalty to surprise rolls.</p><p>Hearing: The victim cannot hear and loses the ability to speak clearly, which may ruin spellcasting.</p><p>Touch: The victim's Dexterity drops by 4 points (and, if the victim is an elf, they cannot find secret doors).</p><p>Sight: The victim is blinded.</p><p>Sixth Sense: The victim may not use ESP, crystal balls, telepathy, or similar extra-sensory magical effects.</p><p><strong>Terrain</strong>: Ruins.</p>",
     "config": {
@@ -158,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "items": [
     "DfOJ5EAApH0npRBg",

@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 30,
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>The Ochre Jelly lurks as a massive, ochre-hued amoeba, thriving in the dank confines of caverns and ruins. This amorphous creature <strong>shrugs off all but fire and cold assaults</strong>, its gelatinous form seeping through tiny fissures with ease.</p><p>In combat, it delivers a corrosive touch, inflicting [[/r 2d6 #Damage per round]] to bare flesh, while swiftly dissolving wood, leather, and cloth in a single round—though metal and stone remain impervious. Weapon strikes or lightning merely fracture it into [[/r 1d4+1 #Number of smaller jellies]] smaller versions, each with 2 Hit Dice and dealing half damage ([[/r 1d6 #Smaller jelly damage]]).</p><p>These smaller offshoots persist, posing continued threats unless consumed by flame or frost, the only forces capable of halting this relentless ooze.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
     "config": {
@@ -159,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Giant spiders are simply huge versions of normal spider species. All giant spiders can be dangerous, and many are poisonous. All are carnivores, either trapping their prey in webs or jumping at victims by surprise. However, they are rarely intelligent and will often flee from fire.</p><p>A tarantella is a huge hairy magical spider that looks like a 7' long tarantula. Its bite does not kill; instead, it causes the victim (if a saving throw vs. poison is failed) to have painful spasms that resemble a frantic dance. This dance has a magical effect on onlookers. Anyone watching the dance must make a saving throw vs. spells or start to dance in the same way.</p><p>Dancing victims have a penalty of -4 on their attack rolls, and attackers gain +4 on their attack rolls. The effects of the bite last for [[/r 2d6 #Turns]] turns. However, dancers will drop from exhaustion in 5 turns, and they will then be helpless against attacks. Those caught while watching will dance as long as the original victim. (A dispel magic spell will stop the dance.)</p><p><strong>Terrain:</strong> Ruins, Woods.<br></p>",
     "wrestling": 17,
@@ -163,13 +173,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

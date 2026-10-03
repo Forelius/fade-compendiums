@@ -3,7 +3,7 @@
   "title": "Fantastic Depths Compendiums",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": 13,
+    "minimum": 14,
     "verified": 14,
     "maximum": 14
   },
@@ -12,7 +12,9 @@
       {
         "id": "fantastic-depths",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "1.4.0"
+        }
       }
     ]
   },

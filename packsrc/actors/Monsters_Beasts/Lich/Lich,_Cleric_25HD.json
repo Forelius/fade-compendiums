@@ -41,11 +41,21 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A lich is a powerful undead monster of magical origin. It looks like a skeleton wearing fine garments and was once an evil and chaotic magic-user or cleric of level 21 or greater (often 27-36). A lich is still able to use spells as it did while alive, making it extremely dangerous. A lich is not normally found wandering but instead remains in or very near a well-defended lair, which might be a dungeon, catacomb, tomb, or necropolis (\"city of the dead\").</p>\n<p>The very sight of a lich causes fear in all characters below 5th level (no saving throw). Its mere touch causes [[/r 1d10 #Touch damage]] <strong>points of damage</strong> and can paralyze any creature for [[/r 1d100 #Paralyzed for this many days]] <strong>days</strong> (though a saving throw applies, and the paralysis is magically dispellable).</p>\n<p><strong>Before any encounter with a lich, the DM should select spells for the creature with care, as a lich is extremely intelligent and uses them to its best advantage</strong>. Note that the lich's morale is given as 10, but a lich flees if in actual danger.</p>\n<p>Liches are undead and can be turned (but not destroyed) by clerics. They are immune to <em>charm</em>, <em>sleep</em>, <em>feeblemind</em>, <em>polymorph</em>, <em>cold</em>, <em>lightning</em>, and <em>death</em> spells, and can be harmed only by magical weapons. They are also immune to the effects of all spells of less than 4th level. Outside of its lair, a lich always carries [[/r 1d4 + 1 #Powerful items]] powerful magical items to be used in case of trouble. These should be chosen, not randomly determined. Within its lair, a lich has <strong>4d8</strong> additional temporary magical items (or more), plus the amounts of coins, gems, and jewelry given for Treasure Type H in Chapter 16 (with a 90% chance for each type). The number and severity of traps and other dangers to intruders should be appropriate to protect such a hoard.</p>\n<p>A magic-user lich normally has [[/r 1d2 #Spells]] <strong>spells</strong> of a permanent nature, most often detect invisible or fly. A clerical lich normally has [[/r 3d4 #Types of undead lairs nearby]] <strong>types</strong> of other undead nearby, acting as servants, with a full lair of each type (maximum number appearing) usually present.</p>\n<p>Either type of lich can summon other powerful undead for aid. The summons can be made simply by concentrating, and the creature(s) responding arrive [[/r 1d100 #rounds]] <strong>rounds</strong> later, depending on their distance. The summons may be made as often as desired, but any one type of creature will respond only once per day at most. To randomly determine the creatures appearing in response to the summons, roll [[/r 1d20 #See lich summon table for result]] and refer to the table. Roll again if a type of creature has already responded that day.</p>\n<table style=\"width:300px\">\n    <tbody><tr><th><p>Roll</p></th><th><p>Creature</p></th></tr>\n<tr><td><p>1-5</p></td><td><p>Spectre ([[/r 2d4 #Spectre]])</p></td></tr>\n<tr><td><p>6-9</p></td><td><p>Vampire ([[/r 1d6 #Vampire]])</p></td></tr>\n<tr><td><p>10-12</p></td><td><p>Phantom, Shade ([[/r 1d3 #Phantom, Shade]])</p></td></tr>\n<tr><td><p>13-15</p></td><td><p>Haunt, Ghost ([[/r 1d2 #Chaotic Haunt,Ghost]] Chaotic)</p></td></tr>\n<tr><td><p>16</p></td><td><p>Haunt, Poltergeist ([[/r 1d2 #Haunt, Poltergeist]])</p></td></tr>\n<tr><td><p>17</p></td><td><p>Spirit, Druj</p></td></tr>\n<tr><td><p>18</p></td><td><p>Spirit, Revenant</p></td></tr>\n<tr><td><p>19</p></td><td><p>Nightshade (any 1)</p></td></tr>\n<tr><td><p>20</p></td><td><p>Undead Beholder</p></td></tr>\n</tbody></table>\n<p>A summoned vampire may have a [[/r 1d100 #Summoned vampire is a magic-user or cleric on 25 or less. Roll for each]] chance (check for each) of being a magic-user or cleric of level 7-9 ([[/r 1d3 + 6 #Level]]).</p>\n<p>Liches are master villains, coordinating armies and spy networks made up of the undead. Each one has its own goal: one may want to achieve true immortality, another may serve an evil immortal of entropy, and yet another may wish to transform the entire world into a horrid playground for the undead. Each lich in a campaign should have its own name, style, and motivation.</p>\n<p><strong>Terrain:</strong> Ruins.</p>",
     "ac": {
@@ -159,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "undead",

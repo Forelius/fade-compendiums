@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Werebats are dangerous, intelligent flying lycanthropes often confused with vampires. They can transform freely between human and bat forms, summoning both normal and giant bats for assistance. Werebats have a [[/r 1d6 #Inflicts disease on a 1]] 1 in 6 chance per bite of inflicting a non-magical disease.</p><p>In <strong>animal form</strong>, werebats can only be harmed by magical or silvered weapons, and they can communicate with bats. In <strong>human form</strong>, they can use any weapon, speak any known languages, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werebat’s bite becomes a werebat within [[/r 2d12 #Days until victim becomes a Werebat]] days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
     "wrestling": 15,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 180,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"

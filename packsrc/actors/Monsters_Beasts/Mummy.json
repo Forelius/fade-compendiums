@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Mummies are undead creatures created from the bandage-wrapped remains of nobles or guardians, usually lurking in ruins or tombs. Tasked with protecting their tombs, they will relentlessly pursue trespassers.</p><p>Upon seeing a mummy, characters must make a saving throw vs. paralysis or become frozen in fear until the mummy is out of sight. The mummy’s touch causes 1d12 damage and inflicts a disease that prevents all magical healing and reduces natural healing to 10% of normal. This disease can only be cured magically.</p><p><strong>Mummies are only damaged by spells, fire, or magical weapons, and even then, these deal half damage. Mummies are immune to sleep, charm, and hold spells.</strong></p><p><strong>Terrain:</strong> Ruins</p><p></p>",
     "wrestling": 19,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

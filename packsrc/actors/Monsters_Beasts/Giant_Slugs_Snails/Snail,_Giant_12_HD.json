@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The Giant Snail, found in deep forests, is identical to the giant slug except for its great shell, which enhances its armor class. Its shell can be crafted into shields granting a +4 bonus to saving throws against acid attacks, including black dragon breath.</p><p><span style=\"font-family: Barlow, sans-serif\">The snail can burrow at a rate of 30' per turn, 10' per round.</span></p><p><strong>Terrain:</strong> Woods</p>",
     "config": {
@@ -155,13 +174,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 30,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

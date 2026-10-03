@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Lurking in the swampy depths of the wilderness, the Nekrozon looms as a formidable beast, its massive buffalo-like body crowned with a long neck, a boar’s fierce head, and a lengthy tail. Known in ancient tales as a 'catoblepas,' a name now lost to time, it haunts these boggy realms with a deadly presence.</p><p>It strikes with the bony tip of its tail, inflicting [[/r 1d6 #Tail damage]] and carrying a 50% chance to knock down and stun its target for [[/r 1d6 #Rounds stunned]] (save vs. paralysis to resist). Its gaze, a 60-foot magical death ray, activates only if it lifts its head—a 1-in-4 chance each round—killing instantly unless a save vs. death ray prevails. Accidental eye contact on complete surprise (1 on 1d6) brings unavoidable death.</p><p>Impervious to energy drains, death rays, and instant-death effects except through raw damage, the Nekrozon roams alone or in small groups of [[/r 1d3 #Nekrozons in lair]], guarding modest treasures amidst the mire.</p><p><strong>Terrain:</strong> Swamps</p>",
     "isEnchanted": false,
@@ -159,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": []
   },
   "items": [

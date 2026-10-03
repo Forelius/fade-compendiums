@@ -37,11 +37,30 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 3000,
+          "turn": 3000,
+          "round": 1000,
+          "day": 600,
+          "run": 3000
+        }
+      ]
     },
     "biography": "<p>The gargantua gargoyle is a colossal, winged stone construct, standing over 20 feet tall. Created by the mad wizard Gargantua, it is a devastating predator of the skies.</p><p><strong>Enchanted Nature:</strong> Unlike most gargantuas, this creature is fully magical. It is immune to normal weapons and can only be harmed by magical attacks or weapons.</p><p><strong>Hunting & Combat:</strong> This terrifying beast can fly at great speeds (300') and attacks with its massive stone claws, bite, and horn.</p><p><strong>Terrain:</strong> Same as the original species (Ruins, Mountains).</p>",
     "config": {
@@ -158,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 3000,
-      "max": 3000,
-      "round": 1000,
-      "day": 600,
-      "run": 3000
-    },
     "actorGroups": [
       "enchanted",
       "constructs"

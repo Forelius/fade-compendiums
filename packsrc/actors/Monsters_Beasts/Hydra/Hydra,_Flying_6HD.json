@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The flying hydra is a rare and terrifying version of the standard hydra, with enormous bat-like wings capable of carrying the creature over great distances. Unlike its land-based kin, the flying hydra can attack with up to three heads at once while in flight. It often uses its agility to swoop down and attack with surprise.</p><p>Each head delivers powerful bites, and for every 8 points of damage, one head is destroyed, reducing the hydra's ability to attack. Flying hydras are most commonly found in mountainous regions, terrorizing anything that enters their territory.</p><p><strong>Terrain:</strong> Mountain.<br></p>",
     "wrestling": 21,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

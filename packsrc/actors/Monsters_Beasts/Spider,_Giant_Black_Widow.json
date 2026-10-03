@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 120,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Giant spiders are simply huge versions of normal spider species. All giant spiders can be dangerous, and many are poisonous. All are carnivores, either trapping their prey in webs or jumping at victims by surprise. However, they are rarely intelligent and will often flee from fire.</p><p>The giant black widow spider is a 6-foot-long venomous arachnid known for the distinctive red \"hourglass\" mark on its abdomen. This predator typically stays near its webbed lair, using its webs to trap prey. These webs are as strong as those created by a magic-user's <em>web</em> spell.</p><p>Any creature bitten by a black widow spider must make a saving throw vs. poison or die within one turn. Its webs can be burned away, and adventurers can try to break free as per the *web* spell.</p><p><strong>Terrain:</strong> Ruins, Woods.<br></p>",
     "wrestling": 15,
@@ -163,13 +182,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 120,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

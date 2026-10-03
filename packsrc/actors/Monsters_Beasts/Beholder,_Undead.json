@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>An undead beholder is similar in appearance to its living counterpart but is actually a construct created for a specific malevolent purpose. These creatures are never naturally undead; instead, they are crafted for dark deeds. The undead beholder resembles a large floating sphere, about four feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks, each capable of a different magical effect, and a large central eye on the front of its body with a toothy mouth below. The creature moves using natural (non-magical) flight, and it is highly intelligent, capable of speaking many languages. A cleric of 25th level or higher can recognize it as an undead being upon sight.</p><p>Undead beholders are immune to normal, silver, and even +1 magical weapons; only a magical weapon of +2 or greater can harm them. They are unaffected by charm, hold, and sleep spells, as well as illusions, death rays, and poison. Their bodies regenerate 3 hit points per round once damaged. If reduced to 0 hit points, they shift into gaseous form and cannot regenerate until resting for 1 hour in complete darkness, after which their regeneration resumes. They often maintain areas of continual darkness around their lairs.</p><p>These creatures can assume gaseous form at will. In this state, they lose access to their special abilities but cannot be harmed except by magic that affects air. Their bite inflicts 2d10 points of damage and causes a two-level energy drain, similar to that of a vampire.</p><p>The central eye of an undead beholder projects a ray of reflection, bouncing any spell cast at it back to the caster. Similarly, any attempt to turn undead from this direction reflects back onto the cleric, who must succeed in a saving throw vs. spells or flee in terror for 2d6 rounds. The creature will typically turn to face any spellcasting character to utilize this defense. This reflective ray only works in the front arc and cannot be directed above or behind the creature.</p><p>When attacking, the player must specify whether they are targeting the body, the large eye, or an eye stalk. Each part has different armor classes and hit points:</p><ul><li>The body has AC -4 and 90 hit points.</li><li>The central eye has AC -2 and 30 hit points.</li><li>Each eye stalk has AC 3 and can withstand 20 hit points of damage. Damage to the eye stalks does not count toward destroying the creature.</li></ul><p>Small eyes and eyestalks: Each small eye can be used once per round, and only three eyes can focus in one direction (forward, backward, etc.). If the target is above the creature, all ten eyes can be used. The Undead beholder often uses only two eyes per round unless it perceives a serious threat. If an eye is destroyed, it can regrow in 1d4 + 1 hours, although this regeneration is slower than that of the body.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Animate Dead</strong> (range 60')</li><li><strong>Charm</strong> (as vampire, 120' range, with a -2 penalty to the saving throw)</li><li><strong>Continual Darkness</strong> (range 120')</li><li><strong>Death Spell</strong> (range 120')</li><li><strong>Energy Drain</strong> (1 level, as wight)</li><li><strong>Energy Drain</strong> (2 levels, as spectre)</li><li><strong>Paralysis</strong> (as ghoul, range 60'; elves are immune to this ray)</li><li><strong>Animate Object</strong> (range 60')</li><li><strong>Dispel Magic</strong> (26th level)</li><li><strong>Telekinesis</strong> (4,000 cn)</li></ol><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "wrestling": 49,
@@ -165,13 +175,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "undead",

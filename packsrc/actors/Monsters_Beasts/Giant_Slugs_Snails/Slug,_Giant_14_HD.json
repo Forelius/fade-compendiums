@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The Giant Slug is a massive, boneless creature inhabiting underground caverns and dungeons. Its rubbery body can squeeze through any opening 5' x 5' or larger. The slug can burrow at a rate of 30' per turn, 10' per round.</p><p>Due to its elasticity, attackers cannot apply strength bonuses to damage, blunt weapons only inflict magical damage (none if non-magical), and edged weapons deal half damage plus magical adjustments. The fighter's Smash option inflicts no additional damage. It can bite with its sharp tongue or spit acid, preferring the latter. The acid attack has a range of 5' per Hit Die, with the first shot always missing to range in, followed by normal attacks. Victims hit by acid take damage equal to the slug's current hit points, halved with a successful save vs. dragon breath, and failed saves may destroy equipment. Giant slugs can have up to 20 Hit Dice.<br><strong>Terrain:</strong> Cavern, Ruins</p>",
     "config": {
@@ -155,13 +174,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 30,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

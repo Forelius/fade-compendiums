@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 30,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The Colddrake is a white-scaled drake that lives in icy caverns deep underground, shunning the light of day. It can polymorph into dwarf or gnome forms to blend into underground communities. In drake form, it attacks with two claws and a bite, dealing moderate damage. Colddrakes are highly intelligent and chaotic, using their shape-changing and thief abilities to infiltrate and cause trouble among the dwarves and gnomes with whom they live.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into dwarf or gnome forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Underground, Icy Caverns</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
     "wrestling": 19,
@@ -165,13 +184,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 30,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

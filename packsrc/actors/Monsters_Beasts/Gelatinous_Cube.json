@@ -37,11 +37,21 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>The <strong>gelatinous cube</strong> is a massive, nearly invisible ooze that moves through dungeon corridors, consuming all organic material in its path.</p>\n      <p><strong>Surprise Attack:</strong> Due to its transparency, it is difficult to see, surprising foes <strong>on a roll of 1-4 (on 1d6).</strong></p>\n      <p><strong>Paralysis Attack:</strong> If a creature is struck, it takes <strong>2d4 damage</strong> and must make a <strong>saving throw vs. paralysis</strong> or be <strong>paralyzed for 2d4 turns</strong>. A paralyzed creature is automatically hit.</p>\n      <p><strong>Absorption:</strong> The cube picks up weapons, coins, and other non-digestible objects as it moves. These may be visible inside its form.</p>\n      <p><strong>Resistances:</strong> The gelatinous cube is <strong>immune to cold and lightning.</strong></p>\n      <p><strong>Reproduction:</strong> Gelatinous cubes reproduce by splitting into two full-sized adults; no smaller or \"young\" cubes exist.</p>\n      <p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "config": {
@@ -157,14 +167,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Gelatinous Cube",
