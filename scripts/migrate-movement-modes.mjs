@@ -19,7 +19,6 @@ function isMeaningfulSecondary(legacy) {
 function legacyToMode(legacy, action) {
    return {
       action,
-      label: "",
       base: legacy?.max !== undefined ? legacy.max : (action === "primary" ? 120 : 0),
       turn: legacy?.turn ?? null,
       round: legacy?.round ?? null,
@@ -28,11 +27,28 @@ function legacyToMode(legacy, action) {
    };
 }
 
+function stripModeLabels(system) {
+   const modes = system?.movement?.modes;
+   if (!Array.isArray(modes)) return false;
+   let changed = false;
+   for (const mode of modes) {
+      if (mode && Object.prototype.hasOwnProperty.call(mode, "label")) {
+         delete mode.label;
+         changed = true;
+      }
+   }
+   return changed;
+}
+
 function migrateSystem(system) {
    if (!system || typeof system !== "object") return false;
    const movement = system.movement;
    if (!movement || typeof movement !== "object") return false;
-   if (Array.isArray(movement.modes)) return false;
+
+   // Already on modes[]: just drop obsolete per-mode label fields
+   if (Array.isArray(movement.modes)) {
+      return stripModeLabels(system);
+   }
 
    const hasLegacy = Object.prototype.hasOwnProperty.call(movement, "max")
       || Object.prototype.hasOwnProperty.call(movement, "turn");
