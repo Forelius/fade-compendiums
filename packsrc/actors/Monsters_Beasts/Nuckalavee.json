@@ -42,7 +42,7 @@
       },
       "modes": [
         {
-          "action": "primary",
+          "action": "ground",
           "base": 120,
           "turn": 120,
           "round": 40,
@@ -50,12 +50,12 @@
           "run": 120
         },
         {
-          "action": "secondary",
+          "action": "water",
           "base": 360,
-          "turn": 0,
-          "round": 0,
-          "day": 0,
-          "run": 0
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
         }
       ]
     },

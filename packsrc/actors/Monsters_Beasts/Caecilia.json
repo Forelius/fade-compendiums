@@ -41,7 +41,15 @@
       },
       "modes": [
         {
-          "action": "primary",
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "burrow",
           "base": 60,
           "turn": 60,
           "round": 20,

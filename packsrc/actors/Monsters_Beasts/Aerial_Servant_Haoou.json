@@ -41,7 +41,7 @@
       },
       "modes": [
         {
-          "action": "primary",
+          "action": "ground",
           "base": 240,
           "turn": 240,
           "round": 80,
@@ -49,12 +49,12 @@
           "run": 240
         },
         {
-          "action": "secondary",
+          "action": "fly",
           "base": 720,
-          "turn": 0,
-          "round": 0,
-          "day": 0,
-          "run": 0
+          "turn": 720,
+          "round": 240,
+          "day": 144,
+          "run": 720
         }
       ]
     },
