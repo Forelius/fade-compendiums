@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Medium-sized herbivorous dinosaurs are four-legged browsing creatures, 15 to 30 feet long. Some may move into water to escape predators. Armored varieties possess heavy bony plates for protection, giving them better defense and sometimes offensive capabilities, such as horn attacks or bite defenses.</p><p>Terrain: Any warm climate (prehistoric).</p>",
     "wrestling": 21,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +171,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]
@@ -184,8 +183,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

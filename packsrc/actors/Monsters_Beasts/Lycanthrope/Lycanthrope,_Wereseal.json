@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "water",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Wereseals are typically found near cold water seacoasts. The more common female wereseal is non-aggressive, but the rarer male \"bull\" wereseal is highly dangerous, with AC 3, HD 8, and a damaging bite attack. Females avoid combat, while males protect territory fiercely.</p><p>In <strong>animal form</strong>, wereseals can only be harmed by magical or silvered weapons, and they communicate with other seals. In <strong>human form</strong>, they may speak any known languages, use weapons, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereseal’s bite becomes a wereseal within [[/r 2d12 #Days until victim becomes a Wereseal]] days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Coastal or cold seacoasts</p>",
     "wrestling": 19,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"
@@ -183,8 +190,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

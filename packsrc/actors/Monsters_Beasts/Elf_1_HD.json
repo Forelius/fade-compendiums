@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Elves are woodland humanoids, highly skilled in combat and magic. They use weapons effectively and can cast a 1st-level spell. Elves are often encountered in groups, and when a group of 15 or more appears, one of them will be a leader. This leader may possess magical items.</p>\n        <strong>Weapon Damage:</strong> Varies by weapon.<br>\n        <strong>Special:</strong> Each elf has access to a 1st-level spell.<br>\n        <strong>Terrain:</strong> Forests, Woodlands.<br>\n        <strong>Barding:</strong> None",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 5,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters",
       "fey",
@@ -184,8 +183,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/elf1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

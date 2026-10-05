@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>A plasm looks like a human- or giant-sized skeleton made of elemental matter.</p><p>There are four types, one for each element, composed of elemental material and ectoplasm (solid ether). It cannot safely exist outside the Ethereal Plane or wormholes, losing 1 Hit Die per round from energy drain on other planes, vanishing when dead.</p><p>It feeds on its element, regenerating 1 hit point per round, and gains Hit Dice from elemental magic attacks (e.g., a 9th-level fireball adds 9d8 HP to a fire plasm).</p><p>Immune to poison and normal weapons, magical weapons deal only their 'plus' damage (e.g., sword +4 deals 4 damage). Only magical weapons and opposing elemental attacks harm it.</p><p>Once per turn, it can spend 10 hit points to create a 30' diameter acid cloud lasting [[/r 1d6 #Rounds of cloud duration]] rounds, dealing 20 damage (save vs. dragon breath for half), often used when fleeing.</p><p><strong>Terrain:</strong> Ethereal Plane, Wormholes (only)</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"

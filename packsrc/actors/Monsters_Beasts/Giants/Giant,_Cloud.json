@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Cloud giants are fierce beings with white or gray skin and hair. Standing 20 feet tall, they wear pale robes and possess keen eyesight and a sharp sense of smell, making them difficult to surprise (only 1 chance in 6). They are capable of throwing boulders at ranges of 60, 130, or 200 feet. These giants reside in castles built into mountainsides or perched atop massive clouds.</p><p>As guards, they keep either [[/r 1d6 #Small roc guards]] small rocs (if in clouds or mountains) or [[/r 6d6 #Dire wolf guards]] dire wolves (only in mountains).</p><p>Cloud giants despise being disturbed and often block mountain passes to discourage trespassers.</p><p><strong>Terrain:</strong> Clouds or Mountains.<br></p>",
     "wrestling": 35,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

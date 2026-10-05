@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Neanderthals, often called cavemen, roam hills, mountains, and prehistoric wilds in family groups, their squat, robust frames boasting large bones and powerful sinew. With apelike visages marked by prominent brow ridges, they dwell in caves and caverns far from human settlements or in hidden 'lost world' enclaves.</p><p>In combat, they hurl spears or swing stone axes, clubs, or hammers, each strike bolstered by a +1 damage bonus from their brute strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear or club). Shy yet not inherently hostile, they avoid humans but stand firm if provoked, favoring lawful kin like dwarves and gnomes while despising goblins, kobolds, and ogres—the latter attacked on sight.</p><p>Living in groups of [[/r 1d10 #Neanderthals wandering]] or lairs of [[/r 1d4*10 #Neanderthals in lair]] with two leaders, they hunt cave bears, keep white apes as companions, and hoard modest treasures. Groomed and clad properly, they might pass for humans, though their grasp of Common remains rudimentary.</p><p><strong>Terrain:</strong> Hill, Mountain; Any (prehistoric)</p>",
     "isEnchanted": false,
@@ -66,9 +74,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -187,8 +186,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

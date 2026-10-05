@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The <strong>Headsman</strong> is a skilled executioner, trained in the art of swift and precise killing. Employed by dominion rulers, they are responsible for carrying out death sentences using blades, ropes, and poisons. Their loyalty is often to their guild rather than the law.</p><p><strong>Guild Affiliation:</strong> Headsmen belong to a secretive guild linked to the <strong>Thieves' Guild</strong>. Their identities are carefully concealed, often leading double lives as common townsfolk.</p><p><strong>Combat & Abilities:</strong> Headsmen rely on stealth, deception, and precision strikes. At 6+ HD, they become masters of disguise (90% undetectable), and at 10+ HD, they can even use the secret languages of other alignments.</p><p><strong>Equipment:</strong> A Headsman typically carries a sharp executioner’s blade, a coiled garrote, and vials of poison.</p><p><strong>Terrain:</strong> Any; Settled.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -178,8 +177,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

@@ -40,11 +40,27 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        },
+        {
+          "action": "water",
+          "base": 50,
+          "turn": 50,
+          "round": 16,
+          "day": 10,
+          "run": 50
+        }
+      ]
     },
     "biography": "<p>The Black Hag is a terrifying, hideous creature with black hair and warty blue-black skin. Unlike normal spellcasters, it revels in destruction and controls undead as if it were undead itself.</p><p>Undead Control: The black hag can control undead as if it had [[@hp.hd*2]] HD, making it an extremely dangerous necromantic force.</p><p>Poisonous Claws: The hag attacks with poison-coated iron claws. Any creature hit must save vs. poison at -4 or die instantly.</p><p>Spellcasting: The black hag is a natural spellcaster, casting spells as a level [[@hp.hd]] cleric. (Spells not preloaded.)</p><p>Dark Lairs & Evil Minions: Black hags live in dark caves or deep forests, usually accompanied by [[/r 3d6 #evil creatures]] evil creatures (often undead).</p><p>Companions: They often keep slimes, oozes, and puddings as allies.</p><p>Terrain: Woods.</p>",
     "ac": {
@@ -64,9 +80,7 @@
     "thbonus": 12,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -156,13 +170,6 @@
         "tempMod": 0
       }
     },
-    "movement2": {
-      "max": 50,
-      "turn": 50,
-      "round": 16,
-      "day": 10,
-      "run": 50
-    },
     "monsterTypes": [],
     "tags": [],
     "actorGroups": [
@@ -178,8 +185,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

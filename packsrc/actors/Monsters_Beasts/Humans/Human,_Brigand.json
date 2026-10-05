@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Brigands are loosely organized outlaws and renegade mercenaries who live by raiding towns and robbing caravans and travelers. Most are fighters with low levels of training and equipment.</p><p>Brigands often organize into camps of 50-300 men, with leaders who are higher-level fighters. For every 20 brigands, there is a 2nd-level fighter leader, and for every 40 brigands, there is a 4th-level commander.</p><p>Half of the brigands are mounted, wear chain mail, and carry shields and swords. The rest wear leather armor, carry shields, short bows, and swords. Leaders wear plate mail, carry swords and lances, and ride warhorses with barding.</p><p><strong>Brigand Leaders:</strong> Brigand camps may be led by a 9th-level fighter and might include higher-level clerics or magic-users. There is a 50% chance of a 9th-11th level magic-user in the camp and a 30% chance of an 8th-level cleric.</p><p><strong>Weapons and Armor:</strong> Half the brigands are equipped with leather armor and short bows; the rest ride horses with chain mail and shields.<br><strong>Terrain:</strong> Wilderness (Any).<br></p>",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

@@ -36,17 +36,31 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "fly",
+          "base": 480,
+          "turn": 480,
+          "round": 160,
+          "day": 96,
+          "run": 480
+        }
+      ]
     },
     "encumbrance": {
       "max": 72000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>Giant rocs are titanic birds of prey that resemble eagles. These creatures are highly lawful and often hostile toward neutrals or chaotic beings. They prefer isolation and attack any intruders near their nests unless approached cautiously.</p><p>Giant rocs make their nests in the highest mountains and may contain 1d6 eggs or young. If captured young, they can be trained as riding beasts.</p><p><strong>Terrain:</strong> Mountains (lair), Any (hunting).<br><strong>Load:</strong> 1,000 cn x HD at full speed; 2,000 cn x HD at half speed.<br><strong>Barding Multiplier:</strong> x 10.</p>",
     "wrestling": 81,
@@ -162,14 +176,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 480,
-      "max": 480,
-      "round": 160,
-      "day": 96,
-      "run": 480
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Roc, Giant",

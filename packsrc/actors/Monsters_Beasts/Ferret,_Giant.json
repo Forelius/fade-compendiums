@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Giant ferrets are long, slender mammals with yellow-white fur and red eyes, growing up to <strong>3 feet long</strong>. They are natural hunters of <strong>giant rats</strong>, capable of chasing them into underground lairs.</p>\n      <p>Despite their usefulness, giant ferrets are highly <strong>unpredictable</strong> and can turn aggressive, sometimes attacking their trainers.</p>\n      <p><strong>Terrain:</strong> Cavern, Woods.</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Ferret, Giant",

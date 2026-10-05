@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 210,
-      "round": 70,
-      "day": 42,
-      "run": 210,
-      "max": 210
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 210,
+          "turn": 210,
+          "round": 70,
+          "day": 42,
+          "run": 210
+        }
+      ]
     },
     "biography": "<p>Panthers are swift and agile predators, often found in plains, forests, and open shrublands. Their black fur and speed make them efficient hunters, capable of short bursts of incredible speed to catch their prey.</p>",
     "wrestling": 17,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 210,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -164,14 +170,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Panther",
@@ -181,8 +180,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

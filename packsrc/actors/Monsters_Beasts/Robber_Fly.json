@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "fly",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The Robber Fly is a 3' long giant insect that closely resembles a bee with its black and yellow stripes. However, unlike bees, the Robber Fly is a carnivore that hunts its prey with patience and stealth. From a distance, it can easily be mistaken for a giant bee.</p><p>Robber Flies prefer to prey on giant bees but may also attack adventurers when hungry. They are immune to bee poison. These flies often hide in shadows, waiting to ambush their prey, gaining surprise on a roll of 1-4 on 1d6. They can leap up to 30 feet to bite their targets.</p><p><strong>Terrain:</strong> Open, Ruins, Woods.</p>",
     "wrestling": 13,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "bugs"
     ]

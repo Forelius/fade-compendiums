@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Orc Chieftain reigns over its tribe, a menacing humanoid with animalistic features—bestial teeth and rugged visage—etched into a manlike frame. Preferring the shadows of underground lairs, it leads its nocturnal kin, shunning daylight where its attacks suffer a -1 penalty.</p><p>Wielding a favored weapon—sword, spear, axe, or club—with a +2 damage bonus, the Orc Chieftain strikes as a 4 Hit Dice foe despite its base resilience. It governs a tribe of [[/r 1d6*10 #Orcs in lair]], bolstered by a leader per group, maintaining a morale of 8 that drops to 6 if the group leader falls, reflecting their dread of mightier adversaries unless compelled.</p><p>Chaotic overlords harness Orc Chieftains to fortify armies, leveraging their grasp of mechanical devices like catapults, a skill beyond lesser orcs. Tribes harbor equal numbers of females and at least two whelps per adult pair, with chances of ogre or troll allies enhancing their lairs.</p><p><strong>Terrain:</strong> Wilderness (any)</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 3,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -188,8 +187,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Ogres are huge, fearsome humanlike creatures standing 8 to 10 feet tall. They are primitive, wearing animal skins for clothes and often living in caves. Ogres are greedy and aggressive, preferring to ambush travelers or bully them for food and gold rather than hunting for themselves.</p><p>When found outside their lair, each ogre carries [[/r 1d6 × 100 #Ogre gold pieces]] gp in large sacks. Ogres are notorious for hating neanderthals and will attack them on sight. They have no special combat tactics, relying on brute strength and large clubs to beat their prey into submission.</p><p><strong>Weapon Damage:</strong> By weapon +2 (typically a large club).<br><strong>Terrain:</strong> Cavern, Wilderness (any).</p>",
     "wrestling": 17,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

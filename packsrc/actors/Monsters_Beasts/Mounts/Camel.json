@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Camels are notoriously ill-tempered creatures, prone to biting or kicking at any creature that annoys them, including their own handlers. They typically kick with a single leg. Despite their temperament, camels are widely used as pack and riding animals in deserts and barren lands, where they can move with ease as if traversing clear terrain. A well-hydrated camel can travel for up to two weeks without drinking. While primarily herbivores that feed on grasses and grains, camels will resort to eating animal skin and bones when food is scarce.</p><p>A camel with a single hump is known as a dromedary, while those with two humps are called Bactrian camels.</p><p><strong>Terrain:</strong> Barren Lands (Bactrian), Desert (dromedary).<br><strong>Load:</strong> 3,000 cn at normal speed; 6,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x1.</p>",
     "wrestling": 13,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 150,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -164,14 +170,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Camel",

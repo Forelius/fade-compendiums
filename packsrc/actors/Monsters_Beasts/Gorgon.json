@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>A gorgon is a magical bull-like monster covered with large ironlike scales, usually found in hills or grasslands. Gorgons can attack with their great horns or with their breath weapon, a cloud of petrifying vapor extending 60' long and 10' wide. Any creature in the area must make a saving throw vs. turn to stone or be petrified. Gorgons are immune to their own breath weapon and all other petrifying attacks. Native to both the Prime Plane and their original home, the Elemental Plane of Earth, they are terrifying creatures feared for their unique petrifying ability.</p><p><strong>Terrain:</strong> Hill, Open</p>",
     "wrestling": 25,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -162,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Gorgon",

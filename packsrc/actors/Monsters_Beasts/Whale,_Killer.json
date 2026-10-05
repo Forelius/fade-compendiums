@@ -128,24 +128,23 @@
       "max": 27
     },
     "movement": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "encumbrance": {
       "value": 0,
-      "max": 0,
-      "mv": 0,
-      "mv2": 0
+      "max": 0
     },
     "acDigest": [],
     "ac": {

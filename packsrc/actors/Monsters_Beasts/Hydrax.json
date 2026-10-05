@@ -41,11 +41,27 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "water",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>A hydrax is an intelligent, crablike being formed entirely of ice. Native to the elemental plane of Water, it is seldom seen on the Prime Plane. This creature resembles a giant crab with an 8-foot-long body, six legs, and three claws evenly arranged around its form. Although hydrax display Lawful behavior, the majority are inherently evil.</p>\n<p>Hydrax are immune to conventional weapons, all 1st and 2nd level spells, and any attacks based on fire. They can detect invisible creatures at will and are capable of casting detect magic, web, dispel magic, ice storm/wall, and water to ice—much like the reverse of a magic-user's dissolve spell (substituting water and ice for mud and rock)—three times per day, as if cast by a 9th level magic-user.</p>\n<p>Using tools fashioned from ice, hydrax construct intricate cities and various devices. Their principal adversaries are the undines and the kryst, and they harbor a deep-seated fear of air-type creatures and assaults.</p>\n<p><strong>Terrain:</strong> Plane of Water</p>",
     "ac": {
@@ -65,9 +81,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 180,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"

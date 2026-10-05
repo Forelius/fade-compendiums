@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Wereboars are known for their semi-intelligence and short temper. In human form, they often appear as berserkers, gaining +2 on attack rolls and fighting to the death. Wereboars do not associate with devil swine. In combat, wereboars summon normal boars to assist.</p><p>In <strong>animal form</strong>, wereboars can only be harmed by magical or silvered weapons, and they communicate with boars. In <strong>human form</strong>, they may speak any known languages, be harmed by normal weapons, and wield any weapon.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereboar’s tusk slash becomes a wereboar within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
     "wrestling": 17,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"
@@ -183,8 +182,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

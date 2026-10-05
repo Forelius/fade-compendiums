@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        },
+        {
+          "action": "fly",
+          "base": 720,
+          "turn": 720,
+          "round": 240,
+          "day": 144,
+          "run": 720
+        }
+      ]
     },
     "gm": {
       "notes": ""
@@ -51,9 +67,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 240,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 720,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]
@@ -185,8 +192,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

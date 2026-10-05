@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Ghouls are hideous, bestial undead that hunger for the flesh of the living. They retain no real memories of their past lives, act like ravenous predators, and are incapable of speech.</p><p><strong>Undead Nature:</strong> Ghouls are immune to sleep and charm spells.</p><p><strong>Paralyzing Attacks:</strong> Any creature ogre-sized or smaller (except elves) hit by a ghoul must make a saving throw vs. paralysis or be paralyzed for 2d4 turns. A ghoul will ignore paralyzed victims to attack other opponents.</p><p><strong>Sunlight Aversion:</strong> While not harmed by the sun, ghouls avoid daylight and prefer to hunt at night.</p><p><strong>Scavengers:</strong> When living prey is unavailable, ghouls feast on rotting flesh and carrion.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead"
     ]
@@ -177,8 +176,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>The Manscorpion Cleric, a sinister fusion of human and giant scorpion, stalks caverns, deserts, and mountains, its upper body humanoid yet its lower half a venomous arachnid menace. Wielding dark clerical powers of 12th level, these rare spellcasters rule their kind from lairs, their hatred fueling raids on human desert settlements.</p><p>Armed with a massive pole arm (dealing [[/r 3d6 #Pole arm damage]]) or other weapons, it strikes alongside a lethal tail sting ([[/r 1d10 #Tail damage]] + poison, save vs. poison or die, paralysis for [[/r 1d8-1 #Rounds paralyzed]] even if saved). Immune to scorpion venom, it wields its arsenal with chaotic precision.</p><p>Warlike and intelligent, groups of [[/r 1d8 #Manscorpions wandering]] or lairs of [[/r 2d10 #Manscorpions in lair]] hoard lavish treasures, often doubled in value. Allied only with giant scorpions, they shun other races, their spellcasting prowess (HD 12, XP 5625) a terror to all.<br><strong>Terrain:</strong> Cavern, Desert, Mountain</p>",
     "isEnchanted": true,
@@ -66,9 +74,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs",
       "spellcasters",

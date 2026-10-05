@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Pirates are sea raiders who engage in plundering ships and coastal towns. They are often Chaotic fighters known for their cruelty and lawlessness. Pirates are organized into crews based on ship size, with 10 to 80 pirates per ship.</p>\n        <p>For every 30 pirates, there is a 4th-level fighter leader, and each ship has a 5th-level captain. For every fleet of 100 or more pirates, there is an 8th-level commander. Larger pirate fleets may also include an 11th-level Pirate Lord, with a 75% chance of an accompanying 9th-10th level magic-user.</p>\n        <p>Pirates often wear **leather armor**, wield **swords**, and some may carry **crossbows**. Pirates may carry treasure with them or have maps to buried treasure.</p>\n        <strong>Weapons and Armor:</strong> Leather armor, sword, and crossbow.<br>\n        <strong>Special Organization:</strong> Ship-based crew with leadership based on ship size.<br>\n        <strong>Terrain:</strong> Rivers, Lakes, Oceans.<br>",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

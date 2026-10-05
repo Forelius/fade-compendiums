@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p><strong>Giant spiny rockfish</strong> are found in shallow saltwater, lurking motionless on the sea floor. Their natural camouflage makes them difficult to detect; <strong>observers have a 70% chance of mistaking them for a rock or lump of coal.</strong></p>\n      <p>When disturbed, the rockfish lashes out with <strong>four venomous spines</strong>. If a creature is <strong>hit or touches the rockfish</strong>, it is automatically struck by all four spines.</p>\n      <p><strong>Poison:</strong> Any creature struck by a spine must make a <strong>saving throw vs. poison</strong> for each hit. Failure results in instant death.</p>\n      <p>Despite their dangerous defenses, rockfish are normally peaceful and attack only when provoked.</p>\n      <p><strong>Terrain:</strong> Ocean (Shallow Waters).</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 5,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -155,13 +161,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": null,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": [],

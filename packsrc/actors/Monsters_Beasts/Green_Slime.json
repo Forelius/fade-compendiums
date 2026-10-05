@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 3,
-      "turn": 3,
-      "round": 1,
-      "day": 0,
-      "run": 3
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 3,
+          "turn": 3,
+          "round": 1,
+          "day": 0,
+          "run": 3
+        }
+      ]
     },
     "biography": "<p>The green slime is a horrifying, mindless ooze that clings to ceilings and walls, waiting to drop onto unsuspecting victims.</p><p><strong>Always Hit:</strong> The green slime is AC 20 and can always be hit by attacks.</p><p><strong>Destructive Touch:</strong> It dissolves cloth and leather instantly, wood and metal in 6 rounds, but cannot dissolve stone.</p><p><strong>Body Transformation:</strong> When green slime touches flesh, it sticks and starts transforming the victim into green slime. The process is irreversible after 1d4 rounds unless it is burned off or removed with <em>cure disease</em>.</p><p><strong>Burning & Removal:</strong> Green slime cannot be scraped off. Fire and cold damage it, but fire also harms the victim (splitting damage between both).</p><p><strong>Resistances & Weaknesses:</strong></p><ul><li>Immune to all attacks except fire or cold.</li><li>Cannot be harmed by normal weapons.</li></ul><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted"
     ]

@@ -41,11 +41,19 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>This creature is a formless mass of searing, molten rock that resembles either a stagnant puddle or a streaming ribbon, spanning roughly 10' x 10'. It typically inhabits areas near active volcanoes or other regions marked by extreme heat, and although it originates from the Prime Plane, it can also thrive on the elemental plane of Fire.</p><p>The lava ooze is exceptionally fluid, capable of squeezing through even the narrowest crevices, and it detects vibrations within a 60' radius. In combat, it projects up to three pseudopods per round that can reach targets up to 15' away. Each pseudopod strike deals [[/r 4d6 #strike damage]] points of damage and leaves a burning layer of lava on the target, which then inflicts an additional [[/r 3d6 #Heat damage]] points of heat damage per round for [[/r 1d4 #rounds]]. While multiple strikes on the same foe do not increase the per-round heat damage, their durations do stack.</p><p>This mindless ooze relentlessly attacks until it is destroyed. It is immune to both natural and magical fire as well as to all mind-affecting attacks (such as charm or ESP), but it takes double damage from cold-based assaults.</p><p><strong>Terrain:</strong> Mountain (volcanic)</p>",
     "ac": {
@@ -65,9 +73,7 @@
     "thbonus": 8,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,14 +164,7 @@
         "tempMod": 0
       }
     },
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Lava Ooze",

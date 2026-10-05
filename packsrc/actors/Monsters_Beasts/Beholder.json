@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>A beholder, also known as a “sphere of many eyes,” resembles a large floating ball about 4 feet in diameter, covered with tough, armor-plated skin. It has ten small eyes on stalks atop its body, each with its own unique magical power, and a large central eye positioned on the front, with a toothy mouth below.</p><p>The beholder moves by means of a slow, natural flight that cannot be dispelled. It is highly intelligent, cruel, and greedy, and speaks many languages. This creature is typically found alone but may be accompanied by 1d6 young (each with 1/10 normal Hit Dice and eye effects, dealing 1d4 points of bite damage) with a 5% chance.</p><p>The central eye of an beholder emits an anti-magic ray, which negates all magical effects within 60 feet in front of it. Magical weapons in this area are treated as non-magical, and spells cast within the area of effect are instantly disrupted. Spells cast from outside the area are ruined when they enter its range. The beholder will turn to face any character who begins spellcasting, disrupting the spell. Once the anti-magic ray is no longer directed at an object or area, magical items and effects return to their normal function.</p><p>The anti-magic ray cannot be directed above or below the creature, only straight ahead. As the ray can negate any magic, even that of the smaller eyes, the beholder cannot use its smaller eye powers on targets within this area.</p><p>When attacking an beholder, players must declare whether they are aiming at the body, the large central eye, or an eye stalk, each with distinct armor class and hit points:</p><ul><li>The body has AC 0 and 50 hit points.</li><li>The central eye has AC 2 and 20 hit points.</li><li>An eye stalk has AC 7 and can withstand 12 hit points of damage. Damage to eye stalks does not contribute to killing the creature.</li></ul><p><strong>Small Eyes and Eyestalks:</strong> If an attack hits an eye stalk, the GM should randomly determine which stalk is damaged. A severed eye stalk is rendered nonfunctional, but partial damage does not impede its operation. Lost eyes regenerate in 2d4 days, and partially damaged stalks heal at a rate of 1 hit point per day.</p><p>The beholder can only direct four small eyes in one direction at a time and cannot target directly beneath its body. Each eye can fire a ray with a different spell-like effect once per round. The spell effects are detailed below, with reversed versions indicated by an asterisk.</p><p><strong>Eye Powers:</strong></p><ol><li><strong>Charm Person</strong> (range 120')</li><li><strong>Charm Monster</strong> (range 120')</li><li><strong>Sleep</strong> (range 240')</li><li><strong>Telekinesis</strong> (range 120', up to 5,000 cn weight)</li><li><strong>Flesh to Stone</strong>* (range 120')</li><li><strong>Disintegrate</strong> (range 60')</li><li><strong>Cause Fear</strong>* (range 120')</li><li><strong>Slow</strong>* (range 240')</li><li><strong>Cause Serious Wounds</strong>* (range 60')</li><li><strong>Death Spell</strong> (range 240')</li></ol><p><strong>Terrain:</strong> Caverns, Ruins.</p>",
     "wrestling": 31,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 0,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 9,
@@ -165,13 +171,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "spellcasters"
     ]
@@ -184,8 +183,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

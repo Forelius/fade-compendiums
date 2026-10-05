@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Weresharks are mermen afflicted with lycanthropy, transforming into a mako shark form in darkness. During a full moon, they must change and become bloodthirsty, losing intelligence and becoming dangerous predators. In animal form, they are harmed only by magical or silvered weapons. Rumors persist of humans with the same affliction in coastal areas.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wereshark’s bite becomes a wereshark within 2d12 days. The disease is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Coastal or open sea</p>",
     "wrestling": 17,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"

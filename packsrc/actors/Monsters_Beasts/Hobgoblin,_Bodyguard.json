@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Hobgoblins are larger, meaner relatives of goblins, standing taller and bulkier. They often live underground in caves or dungeons, but regularly venture into rough wilderness or wastelands for hunting, without suffering any penalties in daylight.</p><p>A hobgoblin king, along with 1d4 bodyguards, leads the group in their lair. The king has 22 hit points and fights as a 5 HD monster with an additional +2 damage bonus. His bodyguards are as tough as 4 HD monsters, and each has 3d6 hit points. If the king is present and alive, hobgoblin morale increases to 10.</p><p><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
     "wrestling": 15,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -161,13 +167,6 @@
         "tempMod": 0
       }
     },
-    "movement2": {
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0,
-      "max": 0
-    },
     "monsterTypes": [],
     "tags": [],
     "actorGroups": [
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

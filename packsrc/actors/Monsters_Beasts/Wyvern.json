@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "fly",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>A wyvern is a fearsome creature that resembles a two-legged dragon, complete with a long, spiked tail. Unlike true dragons, wyverns lack forelimbs and are usually seen in hues of brown, red, or rust-red. They are commonly found in mountainous regions or dense forests, though they can be encountered in many environments.</p>\n        <p>In battle, wyverns use both their bite and their venomous stinger. The creature arches its tail over its head to sting enemies in front of it, and those struck by the stinger must make a saving throw vs. poison or die. Wyverns are carnivorous, often preying on large herd animals such as elk and moose, but they will not hesitate to attack humans if encountered.</p>\n        <strong>Terrain:</strong> Mountain, Woods.<br>\n        <strong>Load:</strong> 3,500 cn at full speed; 7,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 3.<br>",
     "wrestling": 23,
     "encumbrance": {
       "max": 7000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

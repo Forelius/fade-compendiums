@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A cyclops (plural: cyclopes) is a rare type of giant, noted for its great size and the single eye in the center of its forehead. A cyclops is about 20' tall. It has poor depth perception because of its single eye, and it strikes with a penalty of -2 on all attack rolls. A cyclops will usually fight with a wooden club and can throw rocks to a 200' range (60/130/200), each hit causing 3d6 points of damage.</p>\n    <p>Some cyclopes (5%) are able to cast a curse once a week. The DM should decide the exact nature of the curse. Cyclopes are usually solitary but may sometimes share a large cave with a small group. They are known for their stupidity, and a clever party can often escape from them by trickery.</p>\n    <p><strong>Terrain:</strong> Hill, Mountain.</p>",
     "wrestling": 35,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 90,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +171,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

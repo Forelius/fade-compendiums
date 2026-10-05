@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>Griffons are large, majestic creatures with the head, wings, and front claws of an eagle and the body and hindquarters of a lion. They are known for their fierce nature and have a particular hunger for horses. When within 120 feet of a horse, a griffon must make a <strong>morale check</strong> or attack immediately.</p><p>Griffons are capable of carrying off horse-sized creatures at half their flying speed. Although wild griffons can be tamed if captured young, even trained griffons retain their instinctive urge to attack horses and must check morale when near them.</p><p><strong>Terrain:</strong> Mountain.<br><strong>Load:</strong> 3,500 cn at full speed, 7,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x5</p>",
     "wrestling": 23,
     "encumbrance": {
       "max": 7000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
-    },
     "actorGroups": []
   },
   "prototypeToken": {

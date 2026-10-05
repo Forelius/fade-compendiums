@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 60,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The Poltergeist is an invisible haunt that exists to torment intruders. Unlike other haunts, it has no physical form and cannot be seen without magic. Its presence is known only by the eerie movement of objects and the sudden formation of an ectoplasmic net.</p><p>The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</p><p><strong>Invisibility:</strong> The Poltergeist is naturally invisible and can only be detected by magical means.</p><p><strong>Telekinetic Assault:</strong> The Poltergeist can hurl two objects per round at opponents, dealing damage based on the object’s size. A saving throw vs. spells is required to avoid the aging effect.</p><p><strong>Terrain:</strong> Ruins, Haunted Buildings.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"
@@ -179,8 +178,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

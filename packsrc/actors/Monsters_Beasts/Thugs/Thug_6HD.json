@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The <strong>Thug</strong>, also called an Assassin, belongs to the <strong>Pragmati</strong>, a ruthless organization of rogue executioners who take contracts for murder. Unlike the <strong>Thieves' Guild</strong>, the Pragmati operate independently, using secrecy, extortion, and violence to maintain power.</p>\n\n      <p><strong>Stealth & Deception:</strong> Thugs rely on <strong>disguise, ambush tactics, and treachery</strong>. They use garrotes, poison, and cheap but effective weapons, avoiding traceable magical items. They rarely attack openly, preferring to strike unseen and disappear without a trace.</p>\n\n      <p><strong>Guild Secrecy:</strong> Thugs work in the shadows, often blackmailing former clients. They will betray anyone, even their employers, for the right price.</p>\n\n      <p><strong>Combat & Assassination:</strong> Thugs have the abilities of a thief of the same level, including <strong>move silently, hide in shadows, and climb walls</strong>. When setting an ambush, they roll <strong>1-3 on 1d6</strong> for surprise instead of the usual 1-2. If they gain surprise, they may attempt an <strong>instant kill</strong> with a base <strong>50% ± (5% per HD difference)</strong>. If the attempt fails, they deal normal weapon damage.</p>\n\n      <p><strong>Weakness & Strategy:</strong> If wounded or exposed, thugs prefer retreat over combat. They sometimes work as guards for high-ranking criminals, occasionally partnering with <strong>bandits or renegades</strong>, though often without their allies' knowledge.</p>\n\n      <p><strong>Terrain:</strong> Any; Settled.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 5,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -178,8 +177,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Traders are merchants who travel in caravans between cities, buying and selling various goods such as wines, silks, jewels, and precious metals. They typically wear chain mail and carry a sword and dagger for protection.</p><p>Traders often organize themselves in caravans, consisting of several merchants and fighters for protection. The fighters wear chain mail and wield swords, daggers, and crossbows. The number of traders appearing in a caravan depends on the size of the caravan, which may range from small groups to large organized caravans with numerous wagons.</p><p><strong>Weapons and Armor:</strong> Chain mail armor, sword, and dagger.<br><strong>Organization:</strong> Traders travel in caravans, with fighters providing protection and animals carrying goods.<br><strong>Terrain:</strong> Any (between cities).<br></p>",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

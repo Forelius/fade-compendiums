@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Normal Humans represent the everyday folk who shun the call of adventure, lacking the specialized training of character classes yet sometimes boasting General Skills tailored to their lives. Found across settled lands, they embody the common populace—peasants, children, housewives, workers, artists, villagers, townsfolk, fishermen, and scholars.</p><p>Their resilience varies by age, health, and trade, with hit points selected rather than rolled, ranging from 1 for a frail child or ailing beggar to 7 for a robust blacksmith. In combat, they wield a single weapon—its damage dictated by type—though most play little role in grand tales, their lives too mundane to stir the threads of heroism.</p><p>Certain professions elevate their utility: merchants offer goods, soldiers lend martial aid with bolstered morale, lords wield influence, scouts provide guidance, sages share wisdom, and healers mend wounds. These exceptions aside, Normal Humans remain humble threads in the tapestry of settled existence.</p><p><strong>Terrain:</strong> Settled</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": -1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -187,8 +186,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

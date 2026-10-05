@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>These are hollow-boned flying and gliding reptiles. They have long beaks filled with numerous teeth, and reptilian arm structures with skin webbing which constitutes their wings.<br>Pteranodons are much larger and more aggressive. They have a wingspan of up to 50'. They will often attack and carry off man-sized creatures.</p><p><strong>Load:</strong> 2,000 cn at full speed; 3,000 cn at half speed.<br><strong>Terrain:</strong> Hill, Mountain, Jungle (prehistoric)<br><strong>Barding Multiplier:</strong> x1</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]
@@ -177,8 +176,8 @@
     "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

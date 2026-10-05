@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Giant Shrews resemble large, brown-furred rats with elongated snouts. They are adept at burrowing, climbing, or jumping up to 5 feet. Their weak eyes render them unaffected by light or darkness, relying instead on radar-like squeaks to 'see' within 60 feet as effectively as normal sight. A silence 15' radius spell blinds them, reducing their AC to 8 and imposing a -4 penalty on attack rolls due to confusion. </p><p>These shrews always take initiative on their first attack and gain a +1 bonus on initiative rolls thereafter. Their ferocious bites target the head and shoulders, forcing victims of 3 Hit Dice or less to save vs. death ray or flee in fear. </p><p>Though they only eat insects and vegetable matter, their nervousness and aggression lead them to attack anything within 20 feet.</p><p><strong>Terrain:</strong> Open, Ruins, Woods</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 0,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,14 +164,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Shrew, Giant",

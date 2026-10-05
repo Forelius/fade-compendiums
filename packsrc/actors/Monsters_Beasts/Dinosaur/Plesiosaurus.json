@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>This lake- or sea-dwelling dinosaur has a heavy body featuring two sets of flippers (forelimbs and hind limbs) and a long neck. It grows to about 30'-50' long, about half of which is neck. Plesiosaurs dive to hunt fish and squid, but actually spend most of their time at the water's surface. They are aggressive and may rise up underneath a small vessel and tip its sailors and passengers into the sea, resulting in a feeding frenzy of plesiosaurs and other marine creatures.</p><p><strong>Terrain:</strong> Ocean</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 12,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

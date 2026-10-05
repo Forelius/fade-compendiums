@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The prehistoric mastodon is a massive, shaggy elephant-like creature that roams cold, icy lands and \"lost world\" environments. It is larger and stronger than modern elephants and has longer, curved tusks that serve as devastating weapons.</p>\n      <p><strong>Combat:</strong> Mastodons attack with a <strong>charge</strong> whenever possible, dealing <strong>double tusk damage</strong>. In later rounds, they have a <strong>75% chance to attack with their tusks</strong> and a <strong>25% chance to trample.</strong></p>\n      <p><strong>Ivory Value:</strong> Mastodon tusks are highly valuable, worth <strong>200-800 gp each.</strong></p>\n      <p><strong>War & Hunting:</strong> Some primitive cultures hunt mastodons for their meat and ivory, while others train them for war, equipping them with barding (cost multiplied by <strong>3x</strong>).</p>\n      <p><strong>Load Capacity:</strong> 7,500 cn at full speed, 15,000 cn at half speed.</p>\n      <p><strong>Terrain:</strong> Open, Woods (Prehistoric).</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 11,
     "encumbrance": {
       "value": 0,
-      "max": 15000,
-      "mv": 0,
-      "mv2": 0
+      "max": 15000
     },
     "initiative": {
       "value": 0
@@ -155,13 +161,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

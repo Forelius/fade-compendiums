@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The gecko is a 5' long nocturnal carnivore with pale blue skin and orange-brown spots. Its specialized feet allow it to climb walls or trees, dropping onto its prey to attack with a powerful bite.</p>\n        <strong>Terrain:</strong> Cavern, Desert, Woods.<br>\n        <strong>Load:</strong> 1,500 cn at full speed; 3,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 3.<br>",
     "wrestling": 15,
     "encumbrance": {
       "max": 3000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

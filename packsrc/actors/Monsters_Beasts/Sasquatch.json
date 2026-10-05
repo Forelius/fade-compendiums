@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Sasquatches are shy, low-intelligence humanoids dwelling deep in dark woods and high mountains. These tall, apelike creatures have crested heads, large feet, and thick hair—dark brown in woodlands, white in mountains. Omnivorous, they occasionally slay animals but prefer plants and berries. </p><p>Though not aggressive with a low morale of 6, they defend their cavern lairs fiercely, raising their morale to 11 when protecting their home, using clublike fists. They can also throw boulders up to 50 feet. If both claws hit one victim, they hug for an additional 4d6 damage. </p><p>Known as 'Bigfoot' in woods and 'Yeti' or 'Abominable Snowman' in mountains, they can rarely be spellcasters.</p><p><strong>Terrain:</strong> Mountain, Woods</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,14 +164,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "items": [
     "F3WxriTAWLyOmJRt",

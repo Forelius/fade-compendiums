@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Mermen, water-breathing humanoids of the ocean, blend human torsos with the tails of large fish, thriving in coastal waters where they hunt fish and harvest kelp. Common across the seas, they form small hunting parties or vast underwater villages, mirroring the roles of human NPCs in aquatic realms.</p><p>Armed with spears, tridents, or daggers, they strike with skill, dealing damage by weapon type (e.g., [[/r 1d6 #Weapon damage]] for spear). Leading their kind are those of greater prowess, while standard Mermen wield 1 Hit Die, their resilience honed as novice fighters.</p><p>Hunting in groups of [[/r 1d20 #Mermen in party]], with villages of [[/r 1d3*100 #Mermen in village]], they guard their homes with trained marine beasts. Intelligent and neutral, they hoard vast treasures, their presence a staple of oceanic life.</p><p><strong>Terrain:</strong> Ocean</p>",
     "isEnchanted": false,
@@ -66,9 +74,7 @@
     "thbonus": 0,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing",
       "weapon-using"
@@ -189,8 +188,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

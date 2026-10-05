@@ -36,17 +36,23 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "encumbrance": {
       "max": 1000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>Wolves are large, intelligent canine carnivores that hunt in packs. Though they prefer wilderness areas, wolves may occasionally be found living in caves. They are relentless hunters but can be domesticated if captured as cubs, though the process is difficult.</p><p>If a wolf pack is reduced to less than 50% of its original numbers, or if three or fewer wolves are encountered, their morale drops to 6 instead of 8.</p><p><strong>Terrain:</strong> Woods.<br><strong>Load:</strong> 500 cn at full speed; 1,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x 1/2.</p>",
     "wrestling": 13,
@@ -162,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Wolf, Normal",
@@ -179,8 +178,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

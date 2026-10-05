@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Wererats are unusual lycanthropes because their natural form is that of a large rat, and they transform into human form as needed. Intelligent and sly, they often set ambushes and prefer man-sized rat form in combat, surprising foes on a roll of 1-4 on [[/r 1d6 #Opponent surprised on 1-4]]. Wererats summon giant rats to aid them in battle, and only their bite transmits lycanthropy.</p><p>In <strong>animal form</strong>, wererats can only be harmed by magical or silvered weapons or spells, and they communicate with rats. In <strong>human form</strong>, wererats may use any weapon, speak any known languages, and be harmed by normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a wererat's bite becomes a wererat within [[/r2d12 #Days until victim turns into a wererat]] days. The condition kills demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
     "wrestling": 15,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted",
@@ -184,8 +183,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

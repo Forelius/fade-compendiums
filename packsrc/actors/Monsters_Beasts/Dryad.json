@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Dryads are elusive, beautiful tree spirits inhabiting deep forests. Though peaceful by nature, they are wary of outsiders. If a Dryad wishes to avoid detection, she merges with her tree, becoming part of it. She can cast <strong>Charm Person</strong> at will, but only uses this power on those who threaten her or on males she finds attractive. Victims of this charm save with a -2 penalty.</p>\n       <p>Charmed individuals may be sent to deadly ambushes or drawn into her tree. Once inside, victims often disappear unless rescued quickly. Dryads will go to great lengths to protect their trees, as they are bound to them and will die if separated from their tree by more than 240 feet for over a turn. They typically do not carry weapons but may wield a javelin or spear if defending their home.</p>\n       <p>They store treasures in hidden hollows beneath their tree’s roots. If a Dryad’s tree is threatened, she will often negotiate, releasing any captured individuals rather than risk its destruction.</p>\n       <strong>Terrain:</strong> Woods (dense)",
     "wrestling": 13,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "fey",
       "weapon-using"
@@ -183,8 +182,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

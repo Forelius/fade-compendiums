@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Giant spiders are simply huge versions of normal spider species. All giant spiders can be dangerous, and many are poisonous. All are carnivores, either trapping their prey in webs or jumping at victims by surprise. However, they are rarely intelligent and will often flee from fire.</p><p>The crab spider is a 5-foot-long predator with a chameleon-like ability to blend into its surroundings, surprising its prey on a roll of 1-4 on 1d6. It tends to cling to ceilings or walls and ambushes by dropping onto unsuspecting victims. Once it has attacked, it can be seen and fought normally.</p><p>Its bite is venomous, and a failed saving throw vs. poison means the victim dies in 1d4 turns. However, the poison is weak, and the saving throw roll is made with a +2 bonus.</p><p><strong>Terrain:</strong> Cavern, Ruins.<br></p>",
     "wrestling": 13,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

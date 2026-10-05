@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Gnolls are large, ferocious humanoids with low intelligence. They resemble a cross between a human and a hyena, and are often found in rough, rugged wasteland or wilderness areas. Though they are strong, they are lazy, preferring to bully and steal rather than work. Most gnolls do not craft their own metal weapons, instead stealing them from humans.</p><p>For every group of 20 gnolls, one will be a leader with 16 hit points who fights as a monster with 3 Hit Dice. Gnolls are rumored to have originated from a magical combination of a gnome and a troll created by an evil magic-user.</p><p><strong>Weapon Damage:</strong> By weapon +1.<br><strong>Terrain:</strong> Hills, Mountains.</p>",
     "wrestling": 13,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

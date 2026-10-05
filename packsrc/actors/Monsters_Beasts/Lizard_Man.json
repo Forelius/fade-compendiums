@@ -37,11 +37,27 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Lizard Men thrive in swamps, rivers, lakes, and coastal caverns, their humanoid forms adorned with scaly hides, clawed hands, tails, and reptilian heads. Ranging from drab green or brown to vivid reds, blues, yellows, or greens, these water-dwelling tribes hunt relentlessly, often capturing humans and demihumans for feasts at their lairs.</p><p>Semi-intelligent, they wield spears or large clubs—treated as maces—with a +1 damage bonus from their formidable strength (e.g., [[/r 1d6+1 #Weapon damage]] for spear). One in ten speaks rudimentary Common, allowing tense negotiations—though hunger may override talk if food isn’t offered, driving them to dine on their interlocutors.</p><p>Living arduous lives, they roam in bands of [[/r 2d4 #Lizard Men wandering]] or lairs of [[/r 6d6 #Lizard Men in lair]], sometimes serving other races as warriors or scouts for sustenance. Neutral and pragmatic, they hoard modest treasures, valuing only what aids their survival (HD 2 + 1, XP 25).</p><p><strong>Terrain:</strong> Cavern, River/Lake, Swamps</p>",
     "isEnchanted": false,
@@ -66,9 +82,7 @@
     "thbonus": 2,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 120,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs",
       "weapon-using"
@@ -190,8 +197,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

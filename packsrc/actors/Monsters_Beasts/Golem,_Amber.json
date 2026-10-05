@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The amber golem is an enchanted construct shaped like a giant feline, typically resembling a lion or tiger. It is crafted from polished amber, giving it a gleaming, translucent appearance.</p><p><strong>Faultless Tracker:</strong> The amber golem is an expert at tracking its target, following scents and trails without fail.</p><p><strong>Detects Invisibility:</strong> The amber golem can see invisible creatures within 60 feet, making it difficult to evade.</p><p><strong>Resistances:</strong></p><ul><li>Immune to sleep, charm, and hold spells.</li><li>Does not breathe, making it immune to all gas-based attacks.</li></ul><p><strong>Terrain:</strong> Variable.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 9,
     "encumbrance": {
       "value": 0,
-      "max": 1000,
-      "mv": 0,
-      "mv2": 0
+      "max": 1000
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

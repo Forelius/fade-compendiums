@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "fly",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>Djinn are intelligent, free-willed enchanted creatures from the elemental plane of Air. They appear as tall, humanlike beings, with equal chances of being male or female. Despite their Chaotic alignment, they are generally good-hearted and often use their powers to aid others.</p><p>Djinn are highly magical in nature and can only be harmed by magic or magical weapons. Each djinni has seven unique powers that they can use three times per day:</p><ul><li>Create food and drink (as a 7th-level cleric).</li><li>Create metallic objects up to 1,000 cn in weight (temporary: gold lasts 1 day, iron lasts 1 round).</li><li>Create soft goods and wooden objects up to 1,000 cn in weight (permanent).</li><li>Become invisible.</li><li>Assume gaseous form.</li><li>Form a whirlwind.</li><li>Create illusions affecting sight and hearing (lasts until touched or dispelled).</li></ul><p>A djinni can attack with a powerful fist or transform into a whirlwind that deals 2d6 damage to all in its path. The transformation takes five rounds, and the whirlwind can sweep away creatures with fewer than 2 HD unless they make a saving throw vs. death ray. If a djinni is slain, its spirit returns to its own plane.</p><p>Djinn dislike being enslaved by magic-users and view them with suspicion. On their own plane, they are immune to normal weapons, all 1st-level spells, and attacks based on water. They can also detect invisible creatures at will.</p><p><strong>Terrain:</strong> Plane of Air, Desert (preferred).</p><p><strong>Load:</strong> A djinni can carry 3,500 cn of weight at full speed or 7,000 cn at half speed. In times of great need, it can carry up to 12,000 cn for a short duration but must rest afterward.</p>",
     "wrestling": 23,
@@ -51,9 +67,7 @@
       "max": 7000,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 90,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "enchanted"
     ]

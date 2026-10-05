@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>In its dire wolf form, the vampire becomes a terrifying beast with heightened physical prowess. The dire wolf is larger, more aggressive, and retains all the supernatural abilities of the vampire, including regeneration and the ability to summon creatures. Though the vampire's intelligence does not increase, its combat effectiveness does, allowing it to make multiple attacks with its powerful jaws and claws.</p><p><strong>Terrain:</strong> Similar to human form, especially in wilderness or areas with cover like forests or ruins.</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 6,
     "encumbrance": {
       "value": 0,
-      "max": 2000,
-      "mv": 0,
-      "mv2": 0
+      "max": 2000
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Merman Leaders guide their oceanic kin, their human upper bodies melding with fish-like tails, ruling over coastal waters where they fish and gather kelp. Emerging as stalwart figures among the common folk of the sea, they anchor underwater communities with strength and wisdom.</p><p>Wielding spears, tridents, or daggers, they deliver strikes with a practiced hand, inflicting damage by weapon type (e.g., [[/r 1d6 #Weapon damage]] for spear). Found one per every ten in parties of [[/r 1d20 #Mermen in party]], they lead villages of [[/r 1d3*100 #Mermen in village]] with marine allies at their side.</p><p>With 2 Hit Dice and the grit of seasoned fighters, they bolster their groups, their neutrality and intellect shaping a society rich in treasure. Spellcasters may rise among them, enhancing their dominion beneath the waves.</p><p><strong>Terrain:</strong> Ocean</p>",
     "isEnchanted": false,
@@ -66,9 +74,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing",
       "weapon-using"
@@ -189,8 +188,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

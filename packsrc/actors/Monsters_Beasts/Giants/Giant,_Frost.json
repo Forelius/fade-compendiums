@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Frost giants are massive beings with pale skin and light yellow or light blue hair. Standing 18 feet tall, they have long, full beards and wear fur skins along with iron armor. They are capable of hurling rocks at ranges of 60, 130, or 200 feet. These giants typically construct castles above the timberline in snow-capped mountains.</p><p>They always have either [[/r 1d100 #Polar bear guards if roll equal to or under 20 otherwise wolves]]  [[/r 3d6 #Polar bear guards]] polar bears (20%)  or [[/r 6d6 #Wolf guards]] wolves (80%) as guards.</p><p>They are completely immune to cold-based attacks.</p><p><strong>Giant Weapon Damage:</strong> 4d6.<br><strong>Rock Damage:</strong> 3d6, up to 200 range.<br><strong>Terrain:</strong> Snow-capped Mountains.<br></p>",
     "wrestling": 29,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

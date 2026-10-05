@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "fly",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Pixies are small humanoid creatures with insect-like wings. Standing at only 1-2 feet tall, they are distantly related to elves. Pixies are naturally invisible unless they wish to be seen or are detected by magic.</p><p>Unlike creatures affected by invisibility spells, <strong>pixies can attack while remaining invisible</strong>. They always gain surprise when doing so, and cannot be attacked in the first round of combat. In subsequent rounds, attackers can attempt to strike them, but with a -4 penalty to attack rolls.</p><p>Pixies live in secluded wilderness communities and rarely attack humans unless provoked. They may, however, assist friendly adventurers with guidance through the wilderness or lead them to hidden locations.</p><p><strong>Terrain:</strong> Woods.<br><strong>Flight Limitation:</strong> Pixies can fly for up to three turns before requiring a full turn of rest.</p>",
     "wrestling": 11,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
-    },
     "actorGroups": [
       "fey",
       "weapon-using"

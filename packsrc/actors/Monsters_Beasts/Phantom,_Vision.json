@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Vision, a collective of [[/r 2d4 #Number of lost souls]] lost souls resembling battle-fallen humanoids, haunts a fixed 500-square-foot ruin, shunning sunlight but indifferent to magical light. Ethereal at first, it’s intangible until it materializes.</p><p>Upon encounter, its souls wail within 90', forcing a save vs. spells or inducing despair for [[/r 1d10+10 #Rounds of despair]] rounds, with continuous saves required each round. After [[/r 1d3 #Rounds of wailing]] rounds, it rises (AC 0), attacking with [[/r 2d4 #Spectral swords]] 2-8 swords as a 12 HD entity, each dealing [[/r 1d8 #Sword damage]]. Damage is collective across its forms.</p><p>Resistant to turning (saving throw vs. spells reflects 'T' results), it vanishes for [[/r 1d6 #Hours of disappearance]] hours if turned, reappearing in its domain. <strong>Bound to its area, it moves at 40' per round via swords</strong>, dropping treasure upon destruction.</p><p><strong>Terrain:</strong> Ruins</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted",
@@ -193,8 +192,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

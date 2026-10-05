@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Spectral Hounds are eerie creatures hailing from the Dimensional Vortex, the void between dimensions. They manifest in this world as ghostly, pale, translucent dogs with eyes like formless pools of utter blackness. Renowned for their tracking prowess, they pursue their quarry relentlessly for days. These hounds are bred and trained by interplanar beings such as elemental rulers, amirs, and pashas as hunting animals, often deployed to track intrusive adventurers back to their home planes or, conversely, potentially <em>charmed</em> by adventurers to hunt villains across dimensions. They never appear on the Prime Plane unless summoned by greater powers.</p><p>In combat, a spectral hound bites, dealing damage and triggering a save vs. spells. A successful save limits the damage to 2d6, but failure initiates a gradual fading process, turning the victim translucent like the hound over 24 hours. The victim's equipment remains unaffected, but once fully faded, they cannot hold normal items, hear, or speak to unfaded beings, perceiving normal things as translucent while faded entities appear solid.</p><p>A <em>dimension door</em> spell can restore a faded character to normal at any time by allowing them to step through it.</p><p>Spectral hounds can only be harmed by silver or magical weapons, not normal ones, and are immune to fire- and cold-based spells.</p><p><strong>Terrain:</strong> Any; including all dimensional planes</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"
@@ -178,8 +177,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

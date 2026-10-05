@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Weretigers are fierce, intelligent lycanthropes, closely related to the great cats. Known for their curiosity, they become highly dangerous when provoked. Weretigers are skilled swimmers and quiet trackers, often surprising prey on a roll of 1-4 on 1d6. They can summon great cats (preferring tigers) to aid them if nearby.</p><p>In <strong>animal form</strong>, weretigers can only be harmed by magical or silvered weapons, and they communicate with other cats. In <strong>human form</strong>, they may wield weapons, speak any known language, and can be attacked with normal weapons.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a weretiger’s claws or bite becomes a weretiger within 2d12 days. The condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><strong>Terrain:</strong> Variable, often as animal type",
     "wrestling": 19,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted"

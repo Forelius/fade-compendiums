@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Flying carnivorous dinosaurs are dangerous aerial predators with sharp teeth and claws. They may swoop down on unsuspecting prey, inflicting severe damage. Some can even pick up halfling-sized creatures, carrying them off to devour later.</p>\n    <p><strong>Terrain:</strong> Mountains, Forest, Jungle.</p>",
     "wrestling": 11,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 150,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +171,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

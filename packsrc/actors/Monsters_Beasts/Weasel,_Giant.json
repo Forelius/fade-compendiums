@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 150,
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>A giant weasel is an 8- to 9-foot-long predator with richly colored fur, typically white, gold, or brown. These quick and vicious hunters either stalk prey alone or in small groups. They possess infravision up to 30 feet and can track creatures by scent, prioritizing wounded prey.</p>\n      <p>Once a giant weasel bites, it latches onto its victim and begins draining blood, automatically dealing 2d4 points of damage each round until the prey is dead or the weasel is slain. These creatures make their homes in underground tunnels and often ambush their targets from below.</p>\n      <p><b>Terrain:</b> Cavern, Ruins, Woods.</p>\n      <p><b>Load:</b> 2,000 cn at full speed; 4,000 cn at half speed.</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 4000,
-      "mv": 0,
-      "mv2": 0
+      "max": 4000
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Weasel, Giant",

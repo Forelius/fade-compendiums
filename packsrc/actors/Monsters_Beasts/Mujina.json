@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Mujina haunts regions where humans dwell, its natural form a chilling mimicry of humanity—featureless, with a smooth, egg-like face devoid of eyes, nose, ears, or mouth. A magical creation born to torment mankind, it crafts illusions to don any visage, often posing as an unassuming human until the moment it strikes.</p><p>Possessing uncanny strength, it wields two-handed weapons—save lances, pole arms, or crossbows—in each hand with equal prowess, dealing [[/r 1d6 #Weapon damage]] or more by type. Its blank face, revealed at will, terrifies foes: those of 5 HD or less flee for [[/r 1d3 #Rounds of fear]] at triple speed, while stronger beings must save vs. wands or join them in panic.</p><p>Cunning and hateful, the Mujina infiltrates adventurer bands as a loyal retainer, biding its time before robbing them blind and vanishing. Appearing in groups of [[/r 1d4 #Mujinas wandering]] or [[/r 1d4 #Mujinas in lair]], it speaks Common, its own tongue, and Chaotic, its loathing for human individuality driving its treachery.</p><p><strong>Terrain:</strong> Any, where humans are found</p>",
     "isEnchanted": false,
@@ -66,9 +74,7 @@
     "thbonus": 7,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -189,8 +188,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

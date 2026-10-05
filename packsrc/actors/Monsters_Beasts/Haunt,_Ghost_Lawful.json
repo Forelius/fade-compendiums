@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 90,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>A Lawful ghost appears as a transparent human figure, typically carrying a lantern or candle. If attacked, it can retaliate with the same attacks as any other ghost. However, if approached with caution, the ghost will gesture, and if followed, it will lead the way to a special clue or treasure before disappearing. Some Lawful ghosts exist solely to guide Lawful living beings away from areas of great danger.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Magic Jar (Possession):</strong> Once per turn, the ghost can attempt to possess a creature within 30'. If successful, the ghost controls their body until exorcised.</p><p><strong>Terrain:</strong> Ruins, Graveyards, Forgotten Shrines.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 11,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"
@@ -179,8 +178,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

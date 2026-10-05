@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>A Blast Spore closely resembles a dangerous floating creature known as an Orb Guardian. However, it is actually a type of airborne fungus. In dim light, a Blast Spore is often mistaken for an Orb Guardian, with only a 10% chance to discern its true nature (roll 1-10 on a d100). When characters come within 10 feet, the chance of detection improves to 25%.</p><p>If a Blast Spore sustains any damage, it detonates violently, dealing 6d6 points of damage to all creatures within a 20-foot radius. Affected targets can make a saving throw vs. wands to halve the damage. This explosion does not release spores as its usual attack does.</p><p>When threatened, the Blast Spore may release a cloud of spores in a 20-foot cube around it. Each creature in this area must make a saving throw vs. poison. Failure means the spores take root, and within 24 hours, the victim will spawn 1d6 new Blast Spores, leading to certain death unless cured by a <em>cure disease</em> spell.</p><p><strong>Terrain:</strong> Caverns, Ruins.</p>",
     "wrestling": 11,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 30,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -164,14 +170,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Blast Spore",
@@ -181,8 +180,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

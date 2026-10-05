@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Meks, towering metallic constructs 15 to 25 feet tall, roam any terrain as relics of a vanished race of insectoid sorcerers. Crafted with insect-like features—barrel chests, barbed, double-jointed limbs—some mimic giants or lizards, serving as guards for masters or wandering chaotically to assail all in their path.</p><p>Striking twice with heavy limbs for [[/r 1d6*10 #Limb damage]] each, they unleash a 20' paralyzing breath cloud, forcing a save vs. breath weapon each round or paralysis for [[/r 1d3 #Turns paralyzed]] turns. Cold slows them to half speed, but only disintegrate pierces their immunity to other spells.</p><p>Unintelligent yet responsive to simple commands when mastered, they appear singly ([[/r 1 #Meks encountered]]), their alignment shifting from lawful servitude to chaotic rampage without guidance. Their treasures vary, hoarded from fallen foes (HD 11, XP 2700).</p><p><strong>Terrain:</strong> Any</p>",
     "isEnchanted": true,
@@ -66,9 +74,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

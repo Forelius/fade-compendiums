@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        },
+        {
+          "action": "water",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The Dragon Turtle is a massive aquatic beast feared by sailors and pirates alike. Known for its enormous size and strength, the Dragon Turtle can crush ships with its powerful claws and devastating bite. Its breath weapon, a scalding cone of steam, can boil the water around it and incinerate its enemies in a deadly 50-foot long, 40-foot wide cone. Dragon Turtles are highly intelligent and are known to hoard treasures from sunken ships.</p><p><strong>Breath Weapon:</strong> Steam cone, 50 feet long and 40 feet wide, dealing damage equal to the dragon turtle's current hit points.<br><strong>Terrain:</strong> Oceans, Large Lakes<br><strong>Barding:</strong> None</p>",
     "wrestling": 69,
@@ -51,9 +67,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 30,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 90,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs",

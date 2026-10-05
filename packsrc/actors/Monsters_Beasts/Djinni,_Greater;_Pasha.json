@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>Pashas are the rulers of the djinn on the elemental plane of Air. They appear as very large djinn and are <strong>immune to non-magical weapons or weapons with less than +2 enchantment</strong>. Pashas regenerate 3 hit points per round and can perform all the abilities of a normal djinni as often as desired, up to once per round. Additionally, they can enter or leave the Ethereal Plane by concentrating for 1 full round.</p><p>Pashas have special powers usable once per day, including granting another's wish, casting <em>cloudkill</em>, <em>water to gas</em>, and <em>weather control</em>. When in their whirlwind form, which they can assume or leave in a single round, they stand 120 feet tall and 40 feet in diameter at the top. This form deals 3d12 damage to all in its path and slays any creature with fewer than 5 Hit Dice unless the victim makes a saving throw vs. death ray.</p><p>Pashas cannot be summoned by spells and are influenced by very few magical items. They appear on the Prime Plane only when a mistreated djinni cries out for aid.</p><p><strong>Terrain:</strong> Plane of Air, Desert.</p><p><strong>Load:</strong> 10,000 cn at full speed; 20,000 cn at half speed. When walking, they can carry double these amounts.</p>",
     "wrestling": 39,
@@ -51,9 +67,7 @@
       "max": 20000,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 6,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
-    },
     "actorGroups": [
       "spellcasters",
       "enchanted"

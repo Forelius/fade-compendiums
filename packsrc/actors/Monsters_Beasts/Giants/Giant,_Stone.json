@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>These giants stand 14 feet tall and have gray, rock-like skin. They wield large stalactites as clubs and frequently throw rocks with ranges of 100/200/300 feet. Their dwellings consist of caves or crude stone huts, and there is a [[/r 1d100 #Roll 50 or under for cave bear guards]] 50% chance that they have [[/r 1d4 #Cave bear guards]] cave bears acting as guards.</p><p><strong>Club Damage:</strong> 3d6.<br><strong>Rock Damage:</strong> 3d6, up to 300 range.<br><strong>Terrain:</strong> Caves, Mountains.<br></p>",
     "wrestling": 27,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

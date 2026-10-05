@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A medusa looks like a human female with live snakes growing from her head instead of hair. Medusae are very magical, and the mere sight of a medusa will turn a creature to stone unless the victim makes a saving throw vs. turn to stone. However, this will affect only one character per round, and characters may watch the reflection of a medusa in a mirror without danger. If a medusa sees her own reflection, she must make a saving throw vs. turn to stone or she will petrify herself!</p><p>In combat, the medusa makes one attack roll for the bites of the snakes, and if they hit, the victim must make a saving throw vs. poison (in addition to taking <strong>1d6 points of damage</strong>) or die in one turn. A medusa will often wear a robe with a hood for disguise so she can trick her victims into looking at her. Medusae occasionally use weapons.</p><p>Anyone who tries to attack a medusa without looking at her must subtract <strong>4</strong> from the attack roll, and the snakes may attack with a <strong>+2 bonus</strong> to the attack roll. A medusa also gains <strong>+2</strong> on all saving throws vs. spells due to her magical nature.</p><p>Many medusae are evil. Others are reclusive scholars, ancient sages who can guide heroes on their quests and who conceal their deadly visages under veils.</p><p>There are also medusa spellcasters (see \"Monster Spellcasters\").</p><p>Medusae are native to both the Prime Plane and their original home, the elemental plane of Earth.</p><p><strong>Plane of Earth:</strong> On the plane of Earth, a medusa is an ugly writhing mass of <strong>10-foot</strong> long tentacles connected to a small lumpy spherical body. Several eyes on foot-long eyestalks also protrude from the body; the mouth has many teeth. The tentacles are used both for movement (<strong>180' (60')</strong>) and combat. The medusa can attack with <strong>10 tentacles</strong> per round; each hit requires a saving throw vs. paralysis (lasting <strong>2d4 rounds</strong> if failed). A paralyzed victim is drawn to the mouth and bitten for <strong>2-16 (2d8)</strong> points of damage per round (no attack roll required while the victim is paralyzed).</p><p><strong>Elemental Plane of Earth Statistics:</strong> AC <strong>4</strong>, HD <strong>8**</strong>, MV <strong>180' (60')</strong>, NA <strong>1-4</strong>, Save <strong>F4</strong>, ML <strong>9</strong>, TT(V) <strong>F</strong>, AL <strong>C</strong>, XP <strong>1,750</strong>.</p><p><strong>Terrain:</strong> Cavern, Ruins; Plane of Earth.</p>",
     "wrestling": 17,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "planar"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

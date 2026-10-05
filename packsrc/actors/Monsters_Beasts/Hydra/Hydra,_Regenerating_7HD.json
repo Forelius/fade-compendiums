@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The hydra is a massive beast with a dragon-like body and multiple heads resembling snakes. Each hydra has between 5 and 12 heads, with one Hit Die and 8 hit points per head. The hydra attacks ferociously, using each of its heads every round. If a hydra loses a head, the damage it takes determines how many heads remain in the fight.</p>\n        <p>For every 8 points of damage taken, one of the hydra's heads is destroyed, reducing its ability to attack. For example, a hydra with 7 heads that takes 16 points of damage will lose two heads and attack with only five heads the following round.</p>\n        <p>Hydras can be found guarding treasures in remote and dangerous locations. While most hydras are found in swamps or other wilderness areas, variations of this creature exist with specialized abilities.</p>\n        <strong>Terrain:</strong> Swamp.<br>",
     "wrestling": 23,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -160,13 +166,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0,
-      "max": 0
     },
     "monsterTypes": [],
     "tags": [],

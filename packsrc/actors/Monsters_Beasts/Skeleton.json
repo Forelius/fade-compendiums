@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>Animated skeletons are undead creatures often created as guards by high-level spellcasters or greater undead. Found in ruins, graveyards, and dungeons, skeletons fight relentlessly until destroyed. They can be turned by clerics and are unaffected by sleep, charm, or mind-affecting spells.</p><strong>Terrain:</strong> Ruins</p>",
     "wrestling": 11,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted",
@@ -184,8 +183,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

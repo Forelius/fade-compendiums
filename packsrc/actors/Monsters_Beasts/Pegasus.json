@@ -36,17 +36,31 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        },
+        {
+          "action": "fly",
+          "base": 480,
+          "turn": 480,
+          "round": 160,
+          "day": 96,
+          "run": 480
+        }
+      ]
     },
     "encumbrance": {
       "max": 6000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>Pegasi are semi-intelligent flying horses that are wild and shy. They cannot be tamed by normal means, but will serve Lawful characters if captured and trained while young. Pegasi are natural enemies of hippogriffs, and will react aggressively toward them.</p><p><strong>Terrain:</strong> Hill, Mountain, Open.<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x 1.</p>",
     "wrestling": 13,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 480,
-      "max": 480,
-      "round": 160,
-      "day": 96,
-      "run": 480
-    },
     "actorGroups": [
       "fey"
     ]

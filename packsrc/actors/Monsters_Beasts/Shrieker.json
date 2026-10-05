@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 9,
-      "turn": 9,
-      "round": 3,
-      "day": 1,
-      "run": 9
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 1,
+          "run": 9
+        }
+      ]
     },
     "biography": "<p>Shriekers resemble giant mushrooms, thriving in underground caverns and capable of slow movement. They react to light within 60 feet or movement within 30 feet by emitting a piercing shriek lasting for [[/r 1d3 #Rounds of shrieking]] rounds. Each round of shrieking prompts a 1d6 roll by the DM; a result of 4-6 means a wandering monster hears the noise and arrives in [[/r 2d6 #Rounds until arrival]] rounds. </p><p>This shriek can stun small animals, particularly birds and bats, which the shriekers then crawl over to consume through feeding orifices on the bottom of their stalks. They also scavenge carrion left nearby.</p><p><br><strong>Terrain:</strong> Cavern, Ruins</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 2,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,14 +164,7 @@
         "tempMod": 0
       }
     },
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Shrieker",
@@ -175,8 +174,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

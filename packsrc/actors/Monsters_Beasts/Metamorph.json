@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Metamorphs look very similar to humans but have pointed ears and pure white eyes. They are closely related to humans but, as a species, are masters of the ancient art of shapeshifting. They are not lycanthropes, though they are sometimes mistaken for them.</p><p>A metamorph can shapeshift up to <strong>11 times</strong> each day, but only into certain forms. Unlike the polymorph self spell effect, this nonmagical shapeshift gives the metamorph all the abilities of the new form; even special attacks (such as a skunk's spray) are gained. Metamorphs cannot take giant-sized or fantastic forms but can take any normal nonmagical form.</p><p>The forms a metamorph can use each day are:</p><ul><li>Worm</li><li>Insect</li><li>Reptile</li><li>Leech</li><li>Crustacean</li><li>Amphibian</li><li>Spider</li><li>Mammal</li><li>Fish</li><li>Centipede</li><li>Bird</li></ul><p>For example, a metamorph can turn into a mammal once per day. One day, he may choose to become a monkey, and the next day a wolf. Once a choice has been used, the metamorph cannot change into that choice any more that day. Each shapeshift lasts up to <strong>1 hour</strong>, and the metamorph can assume normal form at any time.</p><p>Metamorphs have good relations with elves, halflings, and druids but avoid most human settlements. They live in strongholds similar to those of demihumans, but with many differences adapted to their special abilities. Most are Chaotic (though Neutral and Lawful ones do exist), but few are noticeably evil or good.</p><p>If ten or more are present, one will be a leader with <strong>5+2 Hit Dice</strong>. As long as the leader is with the group, their morale is <strong>10</strong>.</p><p><strong>Terrain:</strong> Open, Mountain, Woods.</p>",
     "isEnchanted": false,
@@ -66,9 +74,7 @@
     "thbonus": 3,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -188,8 +187,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

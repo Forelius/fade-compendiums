@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Sharks are predatory fish with little intelligence and unpredictable behavior, primarily feeding on fish. They are drawn to blood within 300 feet, entering a feeding frenzy where they attack without morale checks. Found exclusively in salt water.</p><p>These 8' long, brown sharks ram their prey to stun it (save vs. paralysis or be stunned for 3 rounds) before biting.</p><p><strong>Terrain:</strong> Ocean</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing"
     ]
@@ -178,8 +177,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

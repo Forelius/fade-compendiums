@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The tuatara is an 8' long carnivorous lizard with pebble-colored skin and white spikes along its back. It has a membrane over its eyes that allows it to sense changes in temperature and \"see\" in darkness, giving it 90' infravision.</p>\n        <strong>Special Ability:</strong> 90' Infravision.<br>\n        <strong>Terrain:</strong> Cavern, Desert, Woods.<br>\n        <strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 3.<br>",
     "wrestling": 21,
     "encumbrance": {
       "max": 6000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

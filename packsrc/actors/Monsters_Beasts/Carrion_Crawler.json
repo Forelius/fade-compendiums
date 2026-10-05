@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>This scavenger, known as a Carrion Crawler, is a 9-foot-long, 3-foot-high, many-legged creature. It can move effortlessly across floors, walls, and ceilings. Its small mouth is surrounded by eight 2-foot-long tentacles, which can paralyze a victim upon a successful hit unless a saving throw vs. paralysis is made. The tentacles themselves do not inflict any damage.</p><p>Carrion Crawlers are notorious scavengers, typically feeding on the remains of dead animals. However, they will eagerly pursue fresh prey if the opportunity arises. They often attack small groups of travelers, paralyzing their victims and consuming them within three turns unless interrupted. The paralysis will naturally wear off in 2d4 turns unless cured magically.</p><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "wrestling": 15,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +171,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "biography": "<p>Mountain giants resemble stone or hill giants in appearance. They are covered in hair, have grayish skin, and stand between 12 to 20 feet tall, typically measuring 1 foot in height per Hit Die.</p><p>These giants frequently [[/r 1d100 # &lt; 80 is carrying boulders]] (80% of the time) carry boulders, which they can hurl over vast distances (100/200/400) for [[/r 4d6 # Boulder damage]] damage per hit. Generally reclusive, mountain giants can also be mercenaries, willing to fight for any significant force. I</p><p>n melee combat, they wield massive swords or stone clubs, dealing [[/r 5d10 # Giant weapon damage]] damage.</p><p><strong>Giant Weapon Damage:</strong> 5d10.<br><strong>Rock Damage:</strong> 4d6, up to 400 range.<br><strong>Terrain:</strong> Mountains.<br></p>",
     "wrestling": 39,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

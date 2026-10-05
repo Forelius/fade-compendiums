@@ -37,11 +37,27 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>A wraith is a spectral undead entity, a pale and almost transparent mist-like figure. It is the spirit of the selfish dead, clinging to the Prime Plane by draining life from the living.</p><p><strong>Defenses:</strong> A wraith is immune to sleep, charm, and hold spells. It can only be harmed by silver or magical weapons, but silver weapons inflict half damage.</p><p><strong>Energy Drain:</strong> The touch of a wraith drains 1 experience level from its victim and also deals 1d6 damage. Any creature slain by a wraith will rise as a new wraith in one day, under the control of its slayer.</p><p><strong>Terrain:</strong> Barren Lands, Ruins.</p>",
     "config": {
@@ -65,9 +81,7 @@
     "thbonus": 3,
     "encumbrance": {
       "value": 0,
-      "max": null,
-      "mv": 0,
-      "mv2": 0
+      "max": null
     },
     "initiative": {
       "value": 0
@@ -158,13 +172,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "max": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
-    },
     "actorGroups": [
       "undead",
       "enchanted"
@@ -179,8 +186,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

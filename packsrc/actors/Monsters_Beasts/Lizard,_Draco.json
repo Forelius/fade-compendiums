@@ -36,17 +36,31 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "encumbrance": {
       "max": 1000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>The Draco lizard is a 6' long creature with wide flaps of skin between its legs. It uses these flaps to glide through the air, much like a flying squirrel. Dracos are commonly found above ground, though they may take refuge in caves during periods of extreme weather.</p><p>They are carnivores and are known to attack adventurers when provoked. Although they can glide for long distances, they cannot actually fly. Draco lizards are generally not tamed as mounts without special training and DM approval.</p><p><strong>Terrain:</strong> Cavern, Desert, Woods.<br><strong>Load:</strong> Giant lizards can carry 500 cn x their HD at full speed or 1,000 cn x their HD at half speed.<br><strong>Barding Multiplier:</strong> x 3.</p>",
     "wrestling": 17,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 150,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]
@@ -182,8 +189,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

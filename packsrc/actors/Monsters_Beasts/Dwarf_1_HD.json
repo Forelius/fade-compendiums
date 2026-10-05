@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        }
+      ]
     },
     "biography": "<p>A Level 1 Dwarf, standing about 4' tall with a stocky build, typically armed with an axe and wearing heavy armor. Dwarves are known for their craftsmanship and fondness for good food and drink. They can see in the dark (Infravision) up to 60 feet and are resistant to magic with good saving throws.</p>\n       <p>The Dwarf’s morale is 8, but it increases to 10 if fighting under the leadership of a superior. Dwarves are expert miners and can detect traps, sliding walls, sloping corridors, and new constructions with a 2-in-6 chance.</p>\n       <strong>Terrain:</strong> Underground, Mountain, Hills.",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

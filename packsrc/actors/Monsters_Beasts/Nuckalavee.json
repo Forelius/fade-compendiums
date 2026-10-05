@@ -37,11 +37,27 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "water",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>Dwelling in coastal oceans, tranquil lakes, and desolate ruins, the Nuckalavee emerges as a malevolent amphibious kin to the centaur, its form marked by a grotesque, oversized head. Its transparent skin reveals a ghastly sight—white, sinewy muscles, yellow veins pulsing with life, and dark blood flowing beneath—evoking dread in all who behold it.</p><p>This fearsome creature shrugs off fire and poison, regenerating [[/r 3 #Hit points per round]] each round, yet it recoils from crossing flowing freshwater. Its mere presence radiates terror within a 50' radius, forcing all nearby to save vs. paralysis or flee for [[/r 2d6 #Rounds of fear]], a test repeated each round they linger. Small creatures and insects with 2 hit points or less perish instantly within 120' of its aura.</p><p>In battle, the Nuckalavee rends with two claws, each dealing [[/r 3d8 #Claw damage]] plus a deadly curse—victims must save vs. death ray or perish. Every three rounds, it unleashes a chilling cone of cold, 60' long and 10' wide at the base, inflicting damage equal to its current hit points (save vs. dragon breath for half). Allied with undead, it converses freely with them, immune to their attacks unless under strict command.</p><p><strong>Terrain:</strong> Lake (not river), Ocean (coastal), Ruins<br><strong>Load:</strong> 3,000 cn at full speed; 6,000 cn at half speed</p>",
     "config": {
@@ -65,9 +81,7 @@
     "thbonus": 9,
     "encumbrance": {
       "value": 0,
-      "max": 6000,
-      "mv": 0,
-      "mv2": 0
+      "max": 6000
     },
     "initiative": {
       "value": 0
@@ -158,14 +172,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 360,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "items": [
     "v2NvVtwFGmNxNzlZ",

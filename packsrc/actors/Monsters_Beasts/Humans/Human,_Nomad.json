@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Nomads are wandering tribespeople, often seen in the desert or steppes. They may be peaceful traders or fierce raiders, depending on their alignment. Small groups of nomads may be found hunting or foraging, while larger groups form large camps, with leaders of higher levels guiding them.</p><p>Desert nomads are often mounted on camels or horses, equipped with lances, bows, and leather armor. Steppe nomads similarly favor bows, leather armor, and lances, but are mounted on horses.</p><p>For every 25 nomads, there is a <strong>2nd-level fighter</strong> leader, while for every 40, there is a <strong>4th-level fighter</strong>. Larger groups may be led by a <strong>5th-level</strong> or <strong>8th-level</strong> chieftain, with clerics and magic-users also sometimes present.</p><p><strong>Weapons and Armor:</strong> Lances, bows, and leather armor.<br><strong>Leadership:</strong> Nomad bands may be led by higher-level fighters, clerics, and magic-users, depending on the size of the group.<br><strong>Terrain:</strong> Desert, Steppe.<br></p>",
     "wrestling": 11,
     "encumbrance": {
       "max": 2400,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -182,8 +181,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

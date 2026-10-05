@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 240,
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 240,
+          "turn": 240,
+          "round": 80,
+          "day": 48,
+          "run": 240
+        }
+      ]
     },
     "biography": "<p>The gargantua troll is a towering, regenerating brute, standing over 30 feet tall. Created by the mad wizard Gargantua, this enormous troll is a terrifying force of destruction.</p><p><strong>Hunting & Combat:</strong> A gargantua troll can move at incredible speed (240') and unleashes devastating attacks with two massive claws and a crushing bite.</p><p><strong>Regeneration:</strong> The troll regenerates 12 hit points per round. Even severed limbs will grow back rapidly unless destroyed by fire or acid.</p><p><strong>Terrain:</strong> Same as the original species (Swamp, Hills, Caverns).</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 18,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Gargantua, Troll",

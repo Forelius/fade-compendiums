@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The horned chameleon is a 7' long lizard that blends into its surroundings with its camouflage. It surprises its prey on a roll of 1-5 (on 1d6), attacking with a sticky tongue or its horn. The tongue can pull prey in for a vicious bite.</p>\n        <strong>Special Ability:</strong> Surprise on a roll of 1-5 (on 1d6).<br>\n        <strong>Terrain:</strong> Cavern, Desert, Woods.<br>\n        <strong>Load:</strong> 2,500 cn at full speed; 5,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 3.<br>",
     "wrestling": 19,
     "encumbrance": {
       "max": 5000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

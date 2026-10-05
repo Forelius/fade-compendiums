@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The sporacle appears identical to a beholder at first glance: a floating ball-like creature, in diameter, with a huge gaping mouth and a large central eye above it. Tentacles sprout from its entire body. It has six eyes, positioned evenly about the surface of the body (top, bottom, front, back, sides). It normally keeps all but a few upper tentacles retracted.</p><p>A sporacle regenerates by submersing itself in fresh water (but not in brine) at the rate of 3 hit points per round so lost body parts may be rapidly regrown. If a loose tentacle falls or is placed in water, it will grow into a whole creature in 1 hour. This is their only method of reproduction, so they are often found near a water source.</p><p>A sporacle may attack anything, but prefers humanoids as food. As it moves into combat, it extends all its tentacles, appearing to sprout them as it attacks. It moves through air or water by magical flight, but is very quick. It spins rapidly in all directions when in combat, using all of its tentacles each round against 1 or 2 opponents. A sporacle has average intelligence (10) and cannot use spells or magical items.</p><p>The sporacle prefers not to bite victims that are still moving. It uses its tentacle attacks only until all have been destroyed; only then will it resort to its ferocious bite. Each tentacle hit inflicts 1 point of damage, and each requires a saving throw vs. paralysis. Failure indicates that the venomous tentacle has struck skin, and takes effect. This paralysis is a delayed sort, however, taking effect after 1 round passes; it lasts for 1 turn thereafter unless cured. If its opponents flee, it will remain to feast upon its paralyzed victims; if there are none, it always pursues.</p><p>The sporacle may be damaged by any sort of edged weapon, and by any missile weapon except a sling. However, it is immune to blunt weapons and to all spells and magical devices except those that cause damage; these will destroy one tentacle per die of damage (or per magic missile), not affecting the creature's hit points. Once all the tentacles are destroyed, such spells have no further effect. Sporacles cannot hear and are immune to all sound-based effects; they are also immune to poison, paralysis, and charms.</p><p>If any attacker declares the tentacles to be the target of the blow and wields an edged weapon, <strong>the tentacle is AC 4 and easily severed</strong>. After falling off, a tentacle will live for up to 1 hour, remaining venomous for that time. When the creature is reduced to 0 hit points or less, its body comes apart grotesquely, spinning wildly and sending all remaining tentacles in various directions. (Make final attack rolls as applicable.)</p><p><strong>Terrain:</strong> Cavern</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 6,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Sporacle",
@@ -174,8 +173,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

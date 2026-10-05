@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>The rock python is a massive snake, reaching lengths of up to 30 feet. Its scales are patterned in brown and yellow spirals, helping it blend into rocky terrain. It strikes first with a bite attack, sinking its fangs into the target.</p>\n        <p>If the bite is successful, the python wraps its powerful coils around the victim, squeezing for 2d4 points of damage each round until the snake dies or releases its prey.</p>\n        <strong>Terrain:</strong> Any except Arctic.<br>",
     "wrestling": 19,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

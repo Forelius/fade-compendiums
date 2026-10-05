@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Rust Monster resembles a giant armadillo with a long tail and two long front antennae. It’s attracted to the smell of metal, feeding on the rust it creates. When its antennae hit a target, any nonmagical metal armor or weapon crumbles to rust instantly. Magical metal items lose one 'plus' per hit unless they resist (10% chance per 'plus'—e.g., a shield +1 has a 10% chance to survive). The creature can be struck by any weapon type without harming the weapon if the body is hit, not the antennae.</p><p><strong>Terrain:</strong> Cavern, Ruins</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,14 +164,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "items": [
     "Twv4yNQN8H1wgFV8",

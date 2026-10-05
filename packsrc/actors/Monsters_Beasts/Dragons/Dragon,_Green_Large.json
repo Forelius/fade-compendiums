@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 300,
+          "turn": 300,
+          "round": 100,
+          "day": 60,
+          "run": 300
+        }
+      ]
     },
     "biography": "<p>The Large Green Dragon is known for its deadly chlorine gas breath, which can blanket entire groups in a toxic cloud. This dragon's breath weapon covers a large area—50 feet wide, 40 feet deep, and 30 feet high—and deals damage equal to the dragon's current hit point value. With its intelligence and ability to cast spells, it is a formidable foe both on the ground and in the air.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Large dragons use all attacks except wings. Kick attacks can be used against any opponents</p><p>within 10' of the body. A tail attack can be aimed at any opponent to the rear or sides. If its swoop attack hits, a large dragon can pick up one or two man-sized opponents, or one horse-sized creature.</p><p>Large and huge dragons use breath weapons intelligently, not randomly. They rarely aim at single opponents and normally save the attack for use against groups. The volume of the breath weapon increases with the size of the dragon.</p><p></p><p><strong>Breath Weapon:</strong> Chlorine gas cloud, 50 feet wide, 40 feet deep, and 30 feet high, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Forests, Swamps</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
     "wrestling": 33,
@@ -51,9 +67,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 5,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 300,
-      "max": 300,
-      "round": 100,
-      "day": 60,
-      "run": 300
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

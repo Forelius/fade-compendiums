@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 30,
+          "turn": 30,
+          "round": 10,
+          "day": 6,
+          "run": 30
+        }
+      ]
     },
     "biography": "<p>The Wooddrake is a drake with dark green scales that can polymorph into elf or halfling forms at will. In drake form, they attack with two claws and a bite, dealing moderate damage. Wooddrakes are clever and mischievous, often integrating themselves into elven or halfling communities through their shapeshifting abilities. They are chaotic and fond of causing trouble, using their thief abilities to carry out pranks and theft.</p><p><strong>Special Abilities:</strong> Immune to all spells of 4th level or lower, but can suppress this immunity for 1 round. They also possess the abilities of a 5th-level thief and can polymorph into elf or halfling forms.</p><p><strong>Flight:</strong> The drake can fly at a speed of 30 feet per turn, but only for 1 hour at a time.</p><p><strong>Terrain:</strong> Any</p><p><strong>Load:</strong> 20,000 cn at full speed; 40,000 cn at up to half speed.</p><p><strong>Barding:</strong> None</p>",
     "wrestling": 17,
@@ -51,9 +67,7 @@
       "max": 40000,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 30,
-      "max": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"
@@ -185,8 +192,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

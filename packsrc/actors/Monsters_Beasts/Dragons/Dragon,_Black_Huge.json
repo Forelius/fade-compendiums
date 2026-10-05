@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        },
+        {
+          "action": "fly",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>The Huge Black Dragon is a menacing and vile creature that rules over swampy areas and marshes with fear. It can spew a line of corrosive acid up to 120 feet long and 5 feet wide, capable of melting armor and flesh alike. With its increased intelligence and magical abilities, this dragon is a formidable foe both on the ground and in the air.</p><h3>Types of Physical Attacks</h3><p>Dragons usually make two claw attacks and one bite attack; at the OM's option, they can use other special attack forms (kick, tail, wing) defined later. When a flying dragon attacks an aerial target, it gets two claw attacks and one bite attack but cannot use wing, kick, or tail attacks. When attacking a ground-level victim from the air, a dragon can use one Crush, Hover, or Swoop attack (as described below), but not two in combination.</p><p>If a dragon attacks while on the ground, it can substitute a wing, kick, or tail attack for any of its normal attacks, so long as it makes only three attacks in the round. (For example, the dragon might bite one target, kick another, and sweep its tail across a third instead of using two claws and one bite.)</p><h3>Combat Tactics</h3><p>Huge dragons use all attacks effectively against any opponent within melee range through maneuvering. Wing attacks can be aimed at any opponents to the sides, or, if more than one opponent is in front of the dragon, against those on either side. If its swoop attack hits, a huge dragon can pick up one, two, or three man-sized victims, two horse-sized victims, or one giant-sized opponent.</p><p>Large and huge dragons use breath weapons intelligently, not randomly. They rarely aim at single opponents and normally save the attack for use against groups. The volume of the breath weapon increases with the size of the dragon.</p><p></p><p><strong>Breath Weapon:</strong> Acid, 120 feet long and 5 feet wide, dealing damage equal to the dragon's current hit points.</p><p><strong>Terrain:</strong> Swamps, Marshes</p><p><strong>Load:</strong> A dragon can move at its full speed when carrying 1,000 times its Hit Dice; or at half speed when carrying 2,000 times its Hit Dice.</p><p><strong>Barding Multiplier:</strong> This varies depending on size: Small Dragon x 3, Large Dragon x 5, Huge Dragon x 10.</p>",
     "wrestling": 37,
@@ -51,9 +67,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 150,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 5,
@@ -165,13 +179,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

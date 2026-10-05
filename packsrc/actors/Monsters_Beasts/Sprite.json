@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 60,
+          "turn": 60,
+          "round": 20,
+          "day": 12,
+          "run": 60
+        },
+        {
+          "action": "fly",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>Sprites are small, winged humanoids standing about 1 foot tall. They are related to pixies and elves. Though they tend to be shy, sprites are curious creatures with a strange sense of humor.</p><p>When five sprites work together, they can cast a curse in the form of a magic practical joke. Examples of this include making someone trip or causing a person's nose to grow. The exact effect is left to the DM's imagination. A remove curse spell can counter these effects. Sprites never aim to cause death, even if attacked.</p><p><strong>Terrain:</strong> Woods.</p>",
     "wrestling": 10,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 180,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "fey"
     ]

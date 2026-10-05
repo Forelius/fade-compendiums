@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 0,
-      "max": 120,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Giant bass are massive freshwater fish, normally shy and avoiding combat. However, they <strong>attack if a halfling-sized or smaller creature</strong> is floating nearby, mistaking them for food.</p>\n      <p>Giant bass are sometimes summoned and commanded by <strong>nixies</strong> to fight on their behalf.</p>\n      <p><strong>Terrain:</strong> River, Lake.</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -155,13 +161,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": null,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

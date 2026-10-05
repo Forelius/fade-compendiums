@@ -36,11 +36,27 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        },
+        {
+          "action": "fly",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "biography": "<p>The Sphinx is a majestic, winged creature with a lion's body and a human's face, often found in dry climates but can be encountered anywhere, typically as a guard. Chaotic sphinxes might be very territorial. Both male and female sphinxes are extremely intelligent spellcasters; the female acts as a 12th-level cleric, the male as a 12th-level magic-user, with all saves against their spells at a -4 penalty.</p><p>In combat, they use claws, bites, or spells, but their roar is their most formidable attack, usable twice per day. This roar affects all within 120 feet, forcing a save vs. spells at -4 or flee in fear for 1d6 turns. Within 60 feet, victims also face paralysis, being stunned for 1-6 rounds if they fail another save. Within 10 feet, the effects include fear, stun, 6d6 damage, and deafness for 1d10 turns without a save. </p><p><strong>Sphinxes are immune to 1st, 2nd, and 3rd-level spells and nonmagical weapons.</strong></p><p>They enjoy puzzles, riddles, and trivia; solving these can avoid combat or gain friendship. When more than one sphinx is encountered, they are either a mated pair or with cubs.</p><p><strong>Terrain:</strong> Any; especially Desert<br><strong>Load:</strong> 6,000 cn at full speed; 12,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x3</p>",
     "config": {
@@ -64,9 +80,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +171,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 360,
-      "max": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Sphinx",

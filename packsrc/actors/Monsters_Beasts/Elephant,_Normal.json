@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Elephants are massive, four-legged herbivores that inhabit the edges of sub-tropical forests, living in large herds. Despite their calm nature, they become extremely dangerous when provoked or defending their young.</p>\n      <p>Elephants attack with a <strong>charge</strong> whenever possible, dealing <strong>double tusk damage</strong>. In the following rounds, they have a <strong>75% chance to attack with their tusks</strong> and a <strong>25% chance to trample</strong>.</p>\n      <p><strong>Ivory Value:</strong> Elephants' tusks are highly valued, selling for <strong>100-600 gp per tusk</strong>.</p>\n      <p><strong>War & Labor:</strong> Elephants are sometimes trained as war mounts and can be equipped with barding (cost multiplied by <strong>3x</strong>). They are also used as draft and riding animals.</p>\n      <p><strong>Load Capacity:</strong> 9,000 cn at full speed, 18,000 cn at half speed.</p>\n      <p><strong>Terrain:</strong> Open, Woods (subtropical).</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 8,
     "encumbrance": {
       "value": 0,
-      "max": 18000,
-      "mv": 0,
-      "mv2": 0
+      "max": 18000
     },
     "initiative": {
       "value": 0
@@ -155,13 +161,6 @@
         "loyaltyMod": 0,
         "tempMod": 0
       }
-    },
-    "movement2": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
     },
     "monsterTypes": [],
     "tags": []

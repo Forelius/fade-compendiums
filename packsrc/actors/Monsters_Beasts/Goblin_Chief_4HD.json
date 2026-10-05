@@ -38,19 +38,25 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Goblins are small, ugly humanoids standing between 3 1/2 to 4 1/2 feet tall. They have pointed ears, misshapen teeth, and their skin varies from chalky tan to livid gray. Their eyes glow red in dim light, allowing them to see in the dark with infravision up to 90 feet.</p><p>Goblins live in underground caves and caverns, and they are uncomfortable in daylight, fighting with a -1 penalty to attack rolls in bright light. They send hunting parties at night to scavenge food and ambush weakly-defended human groups. Goblins hate dwarves, attacking them on sight.</p><p>In their lair, a goblin king with 15 hit points leads them. He fights as a 3 HD monster, dealing +1 extra damage. The king is always accompanied by a bodyguard of 2d6 goblins who fight as 2 HD creatures. Goblin morale is improved to 9 when their king is present and alive.</p><p><strong>Terrain:</strong> Cavern, Hill, Mountain, Woods.</p>",
     "wrestling": 17,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -165,13 +171,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

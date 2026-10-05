@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 0,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 0,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Grab grass appears identical to normal tall grass (3'-5' high) but is actually an animated, predatory plant.</p><p><strong>Grasping Attack:</strong> Anyone who moves into or through grab grass will be restrained as the grass attempts to hold them in place.</p><p><strong>Breaking Free:</strong> A trapped individual has a 5% chance per round to escape if they have a strength of 12 or lower. For each point of strength above 12, the chance increases by +5% per point (e.g., STR 16 = 25% chance per round).</p><p><strong>Destroying the Grass:</strong> The grab grass patch has 1 Hit Die per 5' square. Every 8 damage destroys a 5' section.</p><p><strong>Terrain:</strong> Hill, Jungle, Open.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 0,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Grab Grass",
@@ -174,8 +173,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

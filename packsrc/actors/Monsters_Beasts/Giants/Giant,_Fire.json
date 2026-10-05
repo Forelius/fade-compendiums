@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Fire giants have red skin, dark black hair, and thick beards. Standing 16 feet tall, they wear armor made of copper, brass, or bronze. They frequently throw rocks at ranges of 60, 130, or 200 feet. These giants typically dwell near volcanoes or other intensely hot environments, with their castles often constructed from black baked mud reinforced with crude iron.</p><p>As guards, they always have either [[/r 1d100 #Hydra guards if roll equal to or under 20, otherwise Hellhound guards]] [[/r 1d3 #Hydra guards]] hydras (20%) or [[/r 3d6 #Hellhound guards]] hellhounds (80%).</p><p>They are completely immune to fire-based attacks.</p><p><strong>Terrain:</strong> Volcanoes, Intensely Hot Environments.<br></p>",
     "wrestling": 31,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "giantkind",
       "weapon-using"

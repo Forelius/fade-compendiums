@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "max": 180,
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>The Planar Spiders are intelligent, plane-traveling arachnids with an enigmatic civilization. They can move through planes and dimensions at will, often appearing from the Ethereal plane to attack and then 'shift' back. Most commonly encountered with 5 Hit Dice, leaders can have up to 12. Their home plane is described as a world covered with cities made of imperishable white webs, though no such cities have been found. </p><p>These spiders speak Common and are not inherently hostile, capable of interactions similar to human NPCs. In combat, they gain automatic initiative when shifting planes, and there's a 75% chance they cannot be attacked before leaving unless the opponent is hasted. </p><p>Their bite deals damage and requires a saving throw vs. poison at -4, or death, though they can choose to not use their poison. </p><p>May have [[/r 1d3 #miscellaneous magical items]] miscellaneous magical items or [[/r 1d4 #odd but nonmagical items]] odd but nonmagical items familiar to spiders.</p><p>Rarely, some are spellcasters, either clerics or magic-users up to 9th level, with extra asterisks for XP calculation based on spellcasting ability. Spellcasting spiders cannot phase out in the same round they cast a spell.</p><p><strong>Terrain:</strong> Any</p>",
     "config": {
@@ -64,9 +72,7 @@
     "thbonus": 4,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "planar"
     ]
@@ -177,8 +176,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

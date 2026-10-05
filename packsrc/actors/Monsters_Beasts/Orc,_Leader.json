@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The Orc Leader stands as a formidable figure among its kin, a brutish humanoid blending animalistic traits with a manlike form, often sporting beastly facial features and jagged teeth. Nocturnal by nature, it thrives underground, leading its group with a harsh temperament and a distaste for outsiders.</p><p>In daylight, the Orc Leader suffers a -1 penalty to attack rolls, wielding a preferred weapon—sword, spear, axe, or club—with a +1 bonus to damage rolls due to its prowess. It commands a group of 2d4 orcs in the wild or up to [[/r 1d6*10 #Orcs in lair]] in a lair, maintaining a morale of 8; if slain, the group’s morale drops to 6, reflecting their fear of stronger foes unless driven by its authority.</p><p>Chaotic leaders, both human and monstrous, often enlist Orc Leaders to bolster their forces, exploiting their inability to use complex machinery like catapults, a skill reserved for these commanders alone. Each tribe includes females and whelps, doubling the adult count with at least two children per pair.</p><p><strong>Terrain:</strong> Wilderness (any)</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 1,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]
@@ -189,8 +188,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

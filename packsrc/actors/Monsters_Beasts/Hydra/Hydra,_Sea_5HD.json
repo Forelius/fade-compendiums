@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The sea hydra is an aquatic version of its land-dwelling cousin, with fins in place of legs. Found in deep lakes or oceans, it is otherwise identical to the normal hydra. Each head attacks in the same way, using its powerful bites in combat, and for every 8 points of damage taken, one head is destroyed.</p>\n        <p>Though adapted for life underwater, sea hydras are no less dangerous and are often used to guard treasure hidden beneath the waves.</p>\n        <strong>Terrain:</strong> Lake, Ocean.<br>",
     "wrestling": 19,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

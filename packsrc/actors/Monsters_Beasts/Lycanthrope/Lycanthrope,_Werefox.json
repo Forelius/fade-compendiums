@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        },
+        {
+          "action": "water",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>Werefoxes are intelligent and nimble lycanthropes who favor dense underbrush, where they maintain full or near-full movement. Highly intelligent, they may also be magic-users, though spells can only be cast in human form. Werefoxes can charm (either persons in human form or animals in fox form) up to three times per day, lasting up to 24 hours.</p><p>In <strong>animal form</strong>, werefoxes can only be harmed by magical or silvered weapons, and they communicate with other foxes. In <strong>human form</strong>, they can use any weapon, cast spells, and are vulnerable to normal attacks.</p><p><strong>Lycanthropy</strong>: Any human who loses more than half of their hit points to a werefox’s bite or weapon attack becomes a werefox within [[/r 2d12 #Target becomes a Werefox in this many days]] days. This condition is fatal to demihumans and can only be cured by a cleric of 11th level or higher.</p><p><strong>Terrain:</strong> Variable, often as animal type</p>",
     "wrestling": 15,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +177,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 90,
-      "max": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
-    },
     "actorGroups": [
       "lycanthropes",
       "enchanted",
@@ -184,8 +191,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

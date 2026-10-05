@@ -36,17 +36,31 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        },
+        {
+          "action": "fly",
+          "base": 360,
+          "turn": 360,
+          "round": 120,
+          "day": 72,
+          "run": 360
+        }
+      ]
     },
     "encumbrance": {
       "max": 6000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>A hippogriff is a magical creature that has the foreparts and head of a giant eagle, and the hindquarters of a horse. These creatures are carnivorous, preferring to hunt herd animals. They are descended from a magical crossbreed of griffons and horses.</p><p>Hippogriffs are capable of carrying off man-sized or smaller prey and can be tamed to serve as mounts if raised from a young age. They usually nest in rocky crags but will fly wherever they need to hunt. They are natural enemies of pegasi, and when they encounter these creatures, hippogriffs must make a morale check or attack them despite their rider's commands.</p><p><strong>Terrain:</strong> Mountain.<br><strong>Load:</strong> 3,000 cn at full speed, 6,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x1</p>",
     "wrestling": 15,
@@ -162,14 +176,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 360,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Hippogriff",

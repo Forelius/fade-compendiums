@@ -31,24 +31,23 @@
       "max": 18
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
-    },
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": null,
-      "day": null,
-      "run": null
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": null,
-      "mv2": null
+      "max": 2400
     },
     "acDigest": [],
     "ac": {
@@ -189,8 +188,8 @@
       "offsetX": 0,
       "offsetY": 0,
       "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75

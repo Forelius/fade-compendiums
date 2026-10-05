@@ -24,24 +24,23 @@
       "max": 9
     },
     "movement": {
-      "turn": 120,
-      "max": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
-    },
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "encumbrance": {
       "value": 0,
-      "max": 6000,
-      "mv": 0,
-      "mv2": 0
+      "max": 6000
     },
     "acDigest": [],
     "ac": {

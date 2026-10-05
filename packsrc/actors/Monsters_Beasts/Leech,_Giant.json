@@ -41,11 +41,27 @@
       }
     },
     "movement": {
-      "max": 90,
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "water",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        }
+      ]
     },
     "biography": "<p>A giant leech is a loathsome wormlike creature, thicker in the middle than at the ends; it has reddish-brown skin and is about 3'-4' long. It is a parasitic creature that sucks the blood of its prey. In combat, this giant leech attacks with its suckerlike mouth – if it hits, it holds on and sucks blood, dealing 1d6 points of damage per round. It must be killed to be removed.</p>\n<p><strong>Terrain:</strong> Swamp</p>",
     "ac": {
@@ -65,9 +81,7 @@
     "thbonus": 5,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +173,6 @@
       }
     },
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": []
   },
   "prototypeToken": {

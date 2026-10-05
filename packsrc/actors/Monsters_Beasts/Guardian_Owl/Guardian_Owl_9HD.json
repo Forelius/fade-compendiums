@@ -129,24 +129,31 @@
       "max": null
     },
     "movement": {
-      "turn": 90,
-      "max": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90
-    },
-    "movement2": {
-      "turn": 210,
-      "max": 210,
-      "round": 70,
-      "day": 42,
-      "run": 210
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 90,
+          "turn": 90,
+          "round": 30,
+          "day": 18,
+          "run": 90
+        },
+        {
+          "action": "fly",
+          "base": 210,
+          "turn": 210,
+          "round": 70,
+          "day": 42,
+          "run": 210
+        }
+      ]
     },
     "encumbrance": {
       "value": 0,
-      "max": 500,
-      "mv": 0,
-      "mv2": 0
+      "max": 500
     },
     "acDigest": [],
     "ac": {

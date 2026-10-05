@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The <strong>wood golem</strong> is a crude, 3-foot-tall humanoid construct, animated by magic to serve as a guardian or servant.</p>\n      <p><strong>Stiff Movements:</strong> Due to its rigid form, it <strong>suffers a -1 penalty on initiative rolls.</strong></p>\n      <p><strong>Fire Vulnerability:</strong> Wood golems <strong>burn easily</strong>, suffering a <strong>-2 penalty on all saving throws vs. fire.</strong> Fire attacks also deal <strong>+1 point per die of extra damage.</strong></p>\n      <p><strong>Resistances:</strong> </p>\n      <ul>\n      <li><strong>Immune to cold-based attacks.</strong></li>\n      <li><strong>Immune to missile attacks</strong>, including *magic missile*.</li>\n      </ul>\n      <p><strong>Terrain:</strong> Variable.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 2,
     "encumbrance": {
       "value": 0,
-      "max": 1000,
-      "mv": 0,
-      "mv2": 0
+      "max": 1000
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "constructs",
       "enchanted"

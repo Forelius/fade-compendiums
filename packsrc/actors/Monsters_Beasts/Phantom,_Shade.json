@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 120,
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Similar to an apparition, this creature looks like a single humanoid wielding a dagger, haunts indoor and underground ruins, evading sunlight but unfazed by magical light. It begins in an ethereal state, untouchable from the Prime Plane until it strikes.</p><p>With a 90% chance to surprise, it emerges through walls or doors, its gaze forcing a victim within 120' to save vs. spells or flee (3 HD or less fail automatically, refusing to return). Its initial assault brandishes the dagger, requiring a save vs. death ray or instant death from horror.</p><p>Materializing (AC 0), the Shade slashes with its dagger for [[/r 3d4 #Dagger damage]], favoring nearby targets. Resistant to turning (saving throw vs. spells reflects 'T' results), it retreats ethereally if threatened or morale falters, stashing its victims’ treasures close by.</p><p><strong>Terrain:</strong> Ruins</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 9,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -159,13 +165,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"
@@ -193,8 +192,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 0.9,
-      "scaleY": 0.9,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

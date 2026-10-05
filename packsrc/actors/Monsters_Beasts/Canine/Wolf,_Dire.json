@@ -36,17 +36,23 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 150,
+          "turn": 150,
+          "round": 50,
+          "day": 30,
+          "run": 150
+        }
+      ]
     },
     "encumbrance": {
       "max": 2000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "biography": "<p>Dire wolves are larger and more ferocious versions of normal wolves. Semi-intelligent and fierce, they are capable hunters and often operate in packs. They are sometimes trained by goblins as mounts, though their savage nature makes this process difficult.</p><p>Dire wolves prefer to live in caves, woods, or mountains. If captured young, they may be trained as mounts if the DM permits.</p><p><strong>Terrain:</strong> Woods.<br><strong>Load:</strong> 1,000 cn at full speed; 2,000 cn at half speed.<br><strong>Barding Multiplier:</strong> x 1/2.</p>",
     "wrestling": 17,
@@ -162,14 +168,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Wolf, Dire",
@@ -179,8 +178,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

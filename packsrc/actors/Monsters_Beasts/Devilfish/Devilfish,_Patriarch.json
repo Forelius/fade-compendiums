@@ -36,11 +36,19 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "water",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>Devilfish are a race of Chaotic undersea clerics resembling manta rays in shape, size, and appearance. Outside their lairs, they are always found in groups of 20 or more. The tail and bite of a Patriarch devilfish inflicts 1d4/1d6 points of damage as well as a double level drain.</p><p>They can only be harmed by magical or silver weapons (or holy items, as vampires), but can be turned by a cleric, like regular vampires. They can charm and regenerate as normal vampires, but cannot change shape.</p><p>A wandering devilfish group consists of the following monsters per 20:</p><ul><li><p>15 Acolytes (1HD)</p></li><li><p>1 Priest (2HD)</p></li><li><p>1 Curate (3HD)</p></li><li><p>1 Bishop (4HD)</p></li><li><p>1 Patriarch (5HD)</p></li><li><p>1 Matriarch (6HD)</p></li></ul><p><strong>Terrain:</strong> Ocean, Coastal Rivers, Shores.</p>",
     "wrestling": 19,
@@ -51,9 +59,7 @@
       "max": 0,
       "value": 0,
       "label": "Unencumbered",
-      "mv": 120,
-      "desc": "Free to move without any hindrance.",
-      "mv2": 0
+      "desc": "Free to move without any hindrance."
     },
     "config": {
       "maxSpellLevel": 7,
@@ -165,13 +171,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "water-breathing",
       "spellcasters",

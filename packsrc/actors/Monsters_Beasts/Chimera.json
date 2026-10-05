@@ -36,19 +36,33 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        },
+        {
+          "action": "fly",
+          "base": 180,
+          "turn": 180,
+          "round": 60,
+          "day": 36,
+          "run": 180
+        }
+      ]
     },
     "biography": "<p>A chimera is a fearsome and terrifying creature, a mix of three beasts: a lion, a goat, and a dragon. Its body is a combination of these creatures, with the forequarters of a lion, hindquarters of a goat, and wings and tail of a dragon. It possesses three heads, each of which serves a different purpose in battle.</p>\n        <p>The chimera is a highly territorial and solitary beast, rarely seen in the company of others. It typically dwells in wild hills but can sometimes be found in deep dungeons or ruins. In some instances, chimeras are known to mate and live with their young in a small family group.</p>\n        <p>In combat, the chimera attacks fiercely with its multiple heads: the goat's head attempts to butt its foes, the lion’s head bites with deadly force, and the dragon’s head can either bite or unleash a fiery breath weapon. The dragon head’s breath attack is a cone of fire that extends 50 feet long and 10 feet wide at the far end, dealing 3d6 damage. It can breathe fire up to three times per day. In combat, there is a 50% chance each round that the chimera will use its breath attack if it has uses left.</p>\n        <p>Occasionally, a chimera will become rogue, attacking any nearby human settlements and attempting to drive all life from the area. These rogue chimeras are even more dangerous, as they will not stop their rampage until they are killed or their territory is completely empty of life.</p>\n        <strong>Terrain:</strong> Cavern, Hill, Mountain, Ruins.<br>\n        <strong>Load:</strong> 4,500 cn at full speed, 9,000 cn at half speed.<br>\n        <strong>Barding Multiplier:</strong> x 3.<br>",
     "wrestling": 27,
     "encumbrance": {
       "max": 9000,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -162,14 +176,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 180,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Chimera",

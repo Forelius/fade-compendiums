@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 60,
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "fly",
+          "base": 60,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>The banshee is a lonely haunt that favors desolate moors and outdoor locations, although it can occasionally be found underground. It acts as a guardian of sorts and may aid a specific race in its territory (often sprites or pixies) by frightening and chasing away enemies. According to rumor, a banshee is the spirit of an evil female elf, seeking to atone for its past misdeeds.</p><p><span style=\"font-family: Barlow, sans-serif\">The haunt is immune to sleep, charm, and mind-affecting spells. It can only be harmed by +2 or better magical weapons and is immune to all spells except those affecting evil beings.</span></p><p><strong>Wail of Death:</strong> The Banshee can unleash a piercing wail three times per day. All creatures within 60' must make a saving throw vs. death ray or die instantly. The Banshee typically uses one wail at a distance to scare off intruders; NPCs and monsters hearing the wail must make a morale check at a +4 penalty. If avoided, the Banshee will not pursue.</p><p>The Banshee guards the wealth of past victims, stored somewhere within its haunted domain.</p><p><strong>Terrain:</strong> Ruins, Moors, Deep Forests.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 10,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -158,13 +164,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "fey",
       "undead",
@@ -179,8 +178,8 @@
     "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-      "scaleX": 1,
-      "scaleY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
       "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,

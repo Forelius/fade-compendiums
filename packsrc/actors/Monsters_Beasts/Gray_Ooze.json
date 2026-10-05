@@ -37,11 +37,19 @@
       }
     },
     "movement": {
-      "max": 10,
-      "turn": 10,
-      "round": 3,
-      "day": 2,
-      "run": 10
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 10,
+          "turn": 10,
+          "round": 3,
+          "day": 2,
+          "run": 10
+        }
+      ]
     },
     "biography": "<p>The gray ooze is a dangerous, seeping horror that appears as a patch of wet stone (8' in diameter) or a boulder-like mass (4' in diameter), making it difficult to detect.</p><p><strong>Armor & Weapon Dissolution:</strong> Normal armor and weapons are destroyed in 1 round when touched by the ooze. Magical items dissolve in 1 turn.</p><p><strong>Clinging Ooze:</strong> Once it hits a victim, the ooze sticks to them, continuing to inflict 2d8 damage per round and automatically destroying non-magical armor.</p><p><strong>Resistances & Weaknesses:</strong></p><ul><li>Immune to cold and fire.</li><li>Can be harmed by weapons and lightning.</li></ul><p><strong>Terrain:</strong> Cavern, Ruins.</p>",
     "config": {
@@ -65,9 +73,7 @@
     "thbonus": 2,
     "encumbrance": {
       "value": 0,
-      "max": 2400,
-      "mv": 0,
-      "mv2": 0
+      "max": 2400
     },
     "initiative": {
       "value": 0
@@ -157,14 +163,7 @@
       }
     },
     "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    }
+    "tags": []
   },
   "prototypeToken": {
     "name": "Gray Ooze",

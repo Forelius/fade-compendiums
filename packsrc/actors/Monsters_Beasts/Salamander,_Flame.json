@@ -36,19 +36,25 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "modifiers": {
+        "encumbrance": 1
+      },
+      "modes": [
+        {
+          "action": "ground",
+          "base": 120,
+          "turn": 120,
+          "round": 40,
+          "day": 24,
+          "run": 120
+        }
+      ]
     },
     "biography": "<p>The flame salamander is a fearsome creature from the elemental plane of Fire. It resembles a massive snakelike lizard, measuring between 12 and 16 feet in length, with bright orange-yellow and orange-red scales. While native to the plane of Fire, it is sometimes found in very hot environments on the Prime Plane, such as volcanoes or desert lands.</p>\n        <p>In combat, it attacks with its claws and powerful bite. Additionally, the heat it radiates is intense and affects all creatures within 20 feet, inflicting 1d8 points of heat damage per round. The salamander itself is completely immune to all forms of fire.</p>\n        <p>Flame salamanders are mortal enemies of frost salamanders and will attack them on sight.</p>\n        <strong>Terrain:</strong> Plane of Fire.<br>",
     "wrestling": 25,
     "encumbrance": {
       "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
+      "value": 0
     },
     "config": {
       "maxSpellLevel": 0,
@@ -163,13 +169,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "enchanted",
       "planar"
