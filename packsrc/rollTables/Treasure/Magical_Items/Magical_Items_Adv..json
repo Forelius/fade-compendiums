@@ -24,7 +24,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -43,17 +43,15 @@
       "_id": "9w14dcJQtkJx3to1",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Miscellaneous Items",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.6TbdY8QOlvIWA7Nz",
-      "description": "",
-      "text": "Miscellaneous Items"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.ClScryondv2pKWpY",
-      "text": "Ring",
       "range": [
         47,
         52
@@ -63,16 +61,16 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "ClScryondv2pKWpY",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Ring",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.EPaLRdstGu9jklP8",
-      "text": "Armor or shield",
       "range": [
         63,
         72
@@ -82,16 +80,16 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "EPaLRdstGu9jklP8",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Armor or shield",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.HtklkiOVaItmxuKg",
-      "text": "Potion",
       "range": [
         1,
         25
@@ -101,12 +99,13 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "HtklkiOVaItmxuKg",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Potion",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.M0pbv1NQWraCk89h",
@@ -121,38 +120,35 @@
       "_id": "M0pbv1NQWraCk89h",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Missile Weapons &amp; Missiles (Adv.)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.lr1ZqU1jO9KhuJJj",
-      "description": "",
-      "text": "Missile Weapons &amp; Missiles (Adv.)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.NWi4jarMd9OuQsBC",
       "type": "document",
-      "documentCollection": "RollTable",
       "weight": 1,
       "range": [
         73,
         83
       ],
       "drawn": false,
-      "text": "Missile Weapons and Missiles",
-      "documentId": "lr1ZqU1jO9KhuJJj",
       "img": "icons/weapons/bows/shortbow-white.webp",
       "_id": "NWi4jarMd9OuQsBC",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "name": "Missile Weapons and Missiles"
+      "name": "Missile Weapons and Missiles",
+      "description": "",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.lr1ZqU1jO9KhuJJj"
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.OxtklaJJByVfUpHv",
-      "text": "Miscellaneous magical item",
       "range": [
         53,
         62
@@ -162,12 +158,13 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "OxtklaJJByVfUpHv",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Miscellaneous magical item",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.QFm9KXSy0ydVTa8P",
@@ -182,17 +179,15 @@
       "_id": "QFm9KXSy0ydVTa8P",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Magic Armor",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.mYpxzeQa9MJ3NsEI",
-      "description": "",
-      "text": "Magic Armor"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.S3o2UvBPQTShNTE5",
-      "text": "Sword",
       "range": [
         84,
         92
@@ -202,16 +197,16 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "S3o2UvBPQTShNTE5",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Sword",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.ZpHiEWzHr7n3MJi4",
-      "text": "Missile weapon or missile",
       "range": [
         73,
         83
@@ -221,16 +216,16 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "ZpHiEWzHr7n3MJi4",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Missile weapon or missile",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.b0SVphfDM3D0ACZu",
-      "text": "Scroll",
       "range": [
         26,
         37
@@ -240,12 +235,13 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "b0SVphfDM3D0ACZu",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Scroll",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.bRW6ZDZUUvh9gjQY",
@@ -260,13 +256,12 @@
       "img": "icons/weapons/wands/wand-gem-purple.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Wands, Staves, and Rods",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.ijhIjC095Q38i6Nf",
-      "description": "",
-      "text": "Wands, Staves, and Rods"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.guGMDM8Qjuph4IZP",
@@ -281,13 +276,12 @@
       "_id": "guGMDM8Qjuph4IZP",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Swords (Advanced)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.7ZQrxrxPJZjUHLi3",
-      "description": "",
-      "text": "Swords (Advanced)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.iHYTyScW3pA079Dc",
@@ -302,13 +296,12 @@
       "img": "icons/sundries/scrolls/scroll-runed-brown-grey.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Scrolls",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.d8izv97FUAkovQwX",
-      "description": "",
-      "text": "Scrolls"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.kaSVsULWeNCdJL3S",
@@ -323,13 +316,12 @@
       "_id": "kaSVsULWeNCdJL3S",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Misc.Weapons (Adv.)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.lE9RUFaxWvCgjFnV",
-      "description": "",
-      "text": "Misc.Weapons (Adv.)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.kwFa7JJHk7oowvHs",
@@ -344,13 +336,12 @@
       "img": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Magic Rings",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.3eunvWJn4eieoI28",
-      "description": "",
-      "text": "Magic Rings"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.l6vjcZD1GH9wPvqE",
@@ -365,17 +356,15 @@
       "img": "icons/consumables/potions/potion-flash-open-blue.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "Potions",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.cHNzk2Ffn8VXtWUb",
-      "description": "",
-      "text": "Potions"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.nboOM6Ep54lTiiPW",
-      "text": "Wand, staff, or rod",
       "range": [
         38,
         46
@@ -385,16 +374,16 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "nboOM6Ep54lTiiPW",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Wand, staff, or rod",
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!02fHcxmjAa7Zkxe3.w6eSQJ7b3hR6MQJr",
-      "text": "Miscellaneous weapon",
       "range": [
         93,
         100
@@ -404,12 +393,13 @@
       "drawn": false,
       "img": "icons/svg/d20-grey.svg",
       "_id": "w6eSQJ7b3hR6MQJr",
-      "documentId": null,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "name": "Miscellaneous weapon",
+      "description": ""
     }
   ]
 }

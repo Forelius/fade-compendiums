@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "sort": 0,
@@ -54,7 +54,7 @@
       "_id": "0ScBsWzsyKegpVFs",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -73,7 +73,7 @@
       "_id": "2rllkIjclCNtLwtE",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -92,7 +92,7 @@
       "_id": "7jlviPj9iFbHciF6",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -111,7 +111,7 @@
       "_id": "8EILJvtVg4I6IOao",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -120,7 +120,6 @@
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.99Sw4BRvPgxFxhcG",
       "type": "document",
-      "documentCollection": "RollTable",
       "weight": 1,
       "range": [
         1,
@@ -128,15 +127,15 @@
       ],
       "drawn": false,
       "_id": "99Sw4BRvPgxFxhcG",
-      "text": "Armor Size Table",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "Plyb3V4zi41SFJqQ",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "name": "Armor Size Table"
+      "name": "Armor Size Table",
+      "description": "",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.Plyb3V4zi41SFJqQ"
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.BOMNqxibZKCzkU40",
@@ -151,7 +150,7 @@
       "_id": "BOMNqxibZKCzkU40",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -170,7 +169,7 @@
       "_id": "DapciWLWH69Ryd5P",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -189,7 +188,7 @@
       "_id": "GsnwtSysI2KfRpLg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -208,13 +207,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Plate or Suit)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rwnLnpBgEh6DbW9D",
-      "description": "",
-      "text": "AC Mod (Plate or Suit)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.KT1kU4ksZM7XBOWT",
@@ -229,18 +227,16 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Chain)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DO6nEkJytGomCYvI",
-      "description": "",
-      "text": "AC Mod (Chain)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.SlNUKluk77sJRiDf",
       "type": "document",
-      "documentCollection": "RollTable",
       "weight": 1,
       "range": [
         1,
@@ -248,15 +244,15 @@
       ],
       "drawn": false,
       "_id": "SlNUKluk77sJRiDf",
-      "text": "Cursed Armor Check",
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
-      "documentId": "DiBm2M0JVor1hnMe",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "name": "Cursed Armor Check"
+      "name": "Cursed Armor Check",
+      "description": "",
+      "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DiBm2M0JVor1hnMe"
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.VXixyS0i4KjqF78d",
@@ -271,13 +267,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Banded, Scale or Leather)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.wUS8Z9T8nlkTPEnS",
-      "description": "",
-      "text": "AC Mod (Banded, Scale or Leather)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.XoE91uzcrPeII7EC",
@@ -292,13 +287,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Banded, Scale or Leather)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.wUS8Z9T8nlkTPEnS",
-      "description": "",
-      "text": "AC Mod (Banded, Scale or Leather)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.aJdyng71JIZUIfGC",
@@ -313,7 +307,7 @@
       "_id": "aJdyng71JIZUIfGC",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -332,13 +326,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Plate or Suit)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.rwnLnpBgEh6DbW9D",
-      "description": "",
-      "text": "AC Mod (Plate or Suit)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.epZWRLt8Z65mPDG0",
@@ -353,13 +346,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Banded, Scale or Leather)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.wUS8Z9T8nlkTPEnS",
-      "description": "",
-      "text": "AC Mod (Banded, Scale or Leather)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.gFs3eUWXwykeHZXJ",
@@ -374,7 +366,7 @@
       "_id": "gFs3eUWXwykeHZXJ",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -393,7 +385,7 @@
       "_id": "m6NRCBHdgVQrtD8t",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -412,13 +404,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Banded, Scale or Leather)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.wUS8Z9T8nlkTPEnS",
-      "description": "",
-      "text": "AC Mod (Banded, Scale or Leather)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.xABI59PleSPtafsI",
@@ -433,13 +424,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Shield)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.YsVgpv8bV9sJ2wGK",
-      "description": "",
-      "text": "AC Mod (Shield)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.zD29TgEjTY4vmE5N",
@@ -454,13 +444,12 @@
       "img": "icons/equipment/chest/breastplate-helmet-metal.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "name": "AC Mod (Chain)",
       "documentUuid": "Compendium.fade-compendiums.roll-table-compendium.RollTable.DO6nEkJytGomCYvI",
-      "description": "",
-      "text": "AC Mod (Chain)"
+      "description": ""
     },
     {
       "_originalKey": "!tables.results!mYpxzeQa9MJ3NsEI.zye4Q7jGdOl4WXaP",
@@ -475,7 +464,7 @@
       "_id": "zye4Q7jGdOl4WXaP",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
