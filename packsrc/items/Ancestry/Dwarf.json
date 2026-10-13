@@ -1,0 +1,95 @@
+{
+  "folder": "D5e3w4vCRxlgXfJV",
+  "name": "Dwarf",
+  "type": "species",
+  "img": "icons/svg/cowled.svg",
+  "_id": "RQDaANp7lDxQeqdz",
+  "system": {
+    "key": "",
+    "description": "<p>Dwarves are short, squat demihumans standing about 4 feet tall and weighing around 150 pounds. Male dwarves wear long beards, and their overall appearance features ruddy or earth-colored skin with dark brown, gray, or black hair. Stubborn yet practical, they love good food, drink, craftsmanship, and gold. Organized into family Clans, dwarves make their homes in underground cavern complexes located in mountains and hills, and they can attain a maximum of 12 experience levels.</p><p>While a dwarf class shares similar tasks with fighters, it is distinguished by specialized abilities and limitations. Dwarves possess a prime requisite of Strength and must have a Constitution score of 9 or better to be played. Their special capabilities include infravision to see in the dark, heightened resistance to magic at higher levels, fighter combat options, and a 1-in-3 chance to detect traps, sliding walls, sloping corridors, or new construction.</p><p>Regarding communication, a dwarf character knows the standard Common tongue and a secret alignment tongue, alongside spoken languages for dwarves, gnomes, goblins, and kobolds. However, speaking these extra racial languages does not grant the ability to read or write them unless additional intelligence slots or general skills are spent.</p>",
+    "languages": [
+      "Common",
+      "Alignment",
+      "Dwarf"
+    ],
+    "baseMovement": 120,
+    "basicProficiency": true,
+    "mod": {
+      "vsGroup": {}
+    },
+    "ancestryItems": [],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 3
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 3
+      },
+      "con": {
+        "min": 9
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "heightFormulaM": "3'8\"-4'4\"",
+    "weightFormulaM": "1300-1650cn",
+    "heightFormulaF": "3'8\"-4'4\"",
+    "weightFormulaF": "1250-1600cn",
+    "ageFormula": "45-400",
+    "classes": [
+      {
+        "name": "Dwarf",
+        "maxLevel": 22
+      }
+    ],
+    "specialAbilities": [
+      {
+        "name": "Detect Secret Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.akgcSVIh27fXqbVW",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Find Trap",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BDFBtg7fOKRvlzbd",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Listen Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.qTQsTNYfcHpEki7V",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Open Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.nPZLQJzGQ7b0g665",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!RQDaANp7lDxQeqdz"
+}

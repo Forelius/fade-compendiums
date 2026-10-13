@@ -1,0 +1,95 @@
+{
+  "folder": "D5e3w4vCRxlgXfJV",
+  "name": "Halfling",
+  "type": "species",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "key": "",
+    "description": "<p>Halflings are short demihumans standing about 3 feet tall and weighing around 60 pounds, bearing a strong resemblance to human children with slightly pointed ears and rarely growing beards. They are outgoing woodland folk who love good food, drink, conversation, and the comforts of home, organizing their communities into shires and clans led by a recognized spokesman called a sheriff. Halflings can attain a maximum of 8 experience levels, utilizing Strength and Dexterity as their prime requisites while requiring a minimum score of 9 in both Dexterity and Constitution.</p><p>In combat, halflings function similarly to fighters and dwarves, gaining special defensive advantages such as a -2 bonus to Armor Class against monsters larger than man-sized, a +1 bonus to missile weapon attack rolls, and a +1 bonus to individual initiative. As they accumulate experience, they gain significant damage reductions, taking half damage from spells at 300,000 XP and half damage from breath weapons at 2,100,000 XP. Outdoors, they possess a 90% chance to remain unseen when hiding motionless in woodlands, dropping to a 33% chance in dimly lit building interiors.</p>",
+    "languages": [
+      "Common",
+      "Halfling",
+      "Alignment"
+    ],
+    "baseMovement": 120,
+    "basicProficiency": true,
+    "mod": {
+      "vsGroup": {}
+    },
+    "ancestryItems": [],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 3
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 9
+      },
+      "con": {
+        "min": 9
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "heightFormulaM": "2'10\"-3'2\"",
+    "weightFormulaM": "580-620cn",
+    "heightFormulaF": "2'10\"-3'2\"",
+    "weightFormulaF": "580-620cn",
+    "ageFormula": "30-200",
+    "classes": [
+      {
+        "name": "Halfling",
+        "maxLevel": 18
+      }
+    ],
+    "specialAbilities": [
+      {
+        "name": "Detect Secret Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.akgcSVIh27fXqbVW",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Find Trap",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BDFBtg7fOKRvlzbd",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Listen Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.qTQsTNYfcHpEki7V",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Open Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.nPZLQJzGQ7b0g665",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "k8J2S8XxoOTsCcXL",
+  "_originalKey": "!items!k8J2S8XxoOTsCcXL"
+}

@@ -1,0 +1,133 @@
+{
+  "folder": "D5e3w4vCRxlgXfJV",
+  "name": "Human",
+  "type": "species",
+  "img": "icons/svg/cowled.svg",
+  "_id": "VaOxQl2pIYGMzyo1",
+  "system": {
+    "key": "",
+    "description": "<p>Humans are the most prolific and widespread of all intelligent beings, possessing the greatest potential of any race. While demihuman character classes are restricted to moderate milestones—such as the 8th level for halflings, 10th level for elves, and 12th level for dwarves—each of the four basic human character classes (cleric, fighter, magic-user, and thief) can climb all the way to the 36th experience level. Culturally, human civilization in standard campaigns often mirrors Western Europe during the late Middle Ages and early Renaissance, featuring feudal fiefdoms ruled by a king and queen and a rising middle class of traders and craftsmen, though Dungeon Masters can alternatively model human societies after ancient cultures or custom fantasy worlds. </p><p>When it comes to communication, a human character with an average intelligence score of 9 to 12 knows two native languages: the campaign's standard Common tongue and a secret alignment tongue, both of which they can read and write. Characters with exceptional intelligence bonuses can learn additional spoken and written languages, while those with penalties may struggle with writing or speech. Alignment itself guides a human's core code of behavior across Law, Neutrality, or Chaos, each of which features its own secret alignment language composed of passwords, hand signals, and body motions that intelligent creatures instinctively know and recognize without any written form. </p>",
+    "languages": [
+      "Common"
+    ],
+    "baseMovement": 120,
+    "basicProficiency": false,
+    "mod": {
+      "vsGroup": {}
+    },
+    "ancestryItems": [],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 3
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 3
+      },
+      "con": {
+        "min": 3
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "heightFormulaM": "4'10\" - 6'4\"",
+    "weightFormulaM": "1100-2000cn",
+    "heightFormulaF": "4'10\" - 6'4\"",
+    "weightFormulaF": "1050-1750cn",
+    "ageFormula": "18-100",
+    "classes": [
+      {
+        "name": "Cleric",
+        "maxLevel": 36
+      },
+      {
+        "name": "Fighter",
+        "maxLevel": 36
+      },
+      {
+        "name": "Magic-User",
+        "maxLevel": 36
+      },
+      {
+        "name": "Thief",
+        "maxLevel": 36
+      },
+      {
+        "name": "Mystic",
+        "maxLevel": 16
+      },
+      {
+        "name": "Druid",
+        "maxLevel": 36
+      },
+      {
+        "name": "Paladin",
+        "maxLevel": 36
+      },
+      {
+        "name": "Paladin (C)",
+        "maxLevel": 36
+      },
+      {
+        "name": "Bard",
+        "maxLevel": 36
+      },
+      {
+        "name": "Avenger",
+        "maxLevel": 36
+      },
+      {
+        "name": "Avenger (C)",
+        "maxLevel": 36
+      }
+    ],
+    "specialAbilities": [
+      {
+        "name": "Detect Secret Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.akgcSVIh27fXqbVW",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Find Trap",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BDFBtg7fOKRvlzbd",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Listen Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.qTQsTNYfcHpEki7V",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Open Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.nPZLQJzGQ7b0g665",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VaOxQl2pIYGMzyo1"
+}

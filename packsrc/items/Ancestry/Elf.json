@@ -1,0 +1,95 @@
+{
+  "folder": "D5e3w4vCRxlgXfJV",
+  "name": "Elf",
+  "type": "species",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "key": "",
+    "description": "<p>Elves are slender and graceful demihumans, standing between 5 and 5.5 feet tall and weighing about 120 pounds, with delicate features, pointed ears, and a general appearance that ranges from 4.8 to 5.8 feet tall with corresponding weights depending on sex. Most elves prefer to spend their time feasting, frolicking in woodland glades, and collecting magical items or spells, rarely visiting human cities except when adventuring. Their families live in clans, and they can attain a maximum of 10 experience levels.</p><p>Playing an elf requires two prime requisites—Strength and Intelligence—along with a mandatory minimum Intelligence score of 9. Their unique blend of combat and spellcasting allows them to use any armor, shield, and weapon, while also casting magic-user spells up to 5th level. Over time, experienced elves gain special abilities such as infravision, a 1-in-3 chance to detect secret and hidden doors, immunity to ghoul paralysis, and fighter combat options or special defenses like taking half damage from dragon breath at higher experience thresholds.</p><p>Regarding communication, elves know the standard Common tongue and a secret alignment tongue, as well as the spoken languages of elves, gnolls, hobgoblins, and orcs. However, speaking these extra racial languages does not grant the ability to read or write them unless they expend additional intelligence slots or general skills.</p>",
+    "languages": [
+      "Common",
+      "Alignment",
+      "Elf"
+    ],
+    "baseMovement": 120,
+    "basicProficiency": true,
+    "mod": {
+      "vsGroup": {}
+    },
+    "ancestryItems": [],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 9
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 3
+      },
+      "con": {
+        "min": 3
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "heightFormulaM": "4'8\"-5'8\"",
+    "weightFormulaM": "900-1400cn",
+    "heightFormulaF": "4'8\"-5'8\"",
+    "weightFormulaF": "750-1200cn",
+    "ageFormula": "100-800",
+    "classes": [
+      {
+        "name": "Elf",
+        "maxLevel": 20
+      }
+    ],
+    "specialAbilities": [
+      {
+        "name": "Detect Secret Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.akgcSVIh27fXqbVW",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Find Trap",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.BDFBtg7fOKRvlzbd",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Listen Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.qTQsTNYfcHpEki7V",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      },
+      {
+        "name": "Open Door",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.nPZLQJzGQ7b0g665",
+        "classKey": "",
+        "target": null,
+        "changes": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4XnxIDHAJiAW8T0O",
+  "_originalKey": "!items!4XnxIDHAJiAW8T0O"
+}
