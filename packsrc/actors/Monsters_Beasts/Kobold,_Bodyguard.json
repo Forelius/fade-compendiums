@@ -181,12 +181,9 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -237,13 +234,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "range": 60,
         "enabled": true
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -267,7 +263,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "PqWby05zIrd4uQcq",

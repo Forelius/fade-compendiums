@@ -32,47 +32,45 @@
       "disabled": false,
       "_id": "dK0AnOkNlGWWxim1",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.save.all",
-          "mode": 2,
-          "value": "-4",
-          "priority": null
-        },
-        {
-          "key": "system.mod.ac",
-          "mode": 2,
-          "value": "4",
-          "priority": null
-        },
-        {
-          "key": "system.mod.rangedAc",
-          "mode": 2,
-          "value": "4",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHit",
-          "mode": 2,
-          "value": "-6",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "-6",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.save.all",
+            "value": -4,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.ac",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.rangedAc",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHit",
+            "value": -6,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHitRanged",
+            "value": -6,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -86,7 +84,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

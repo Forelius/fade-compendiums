@@ -54,46 +54,51 @@
   "embedded": [
     {
       "_originalKey": "!items.effects!5mQtRp24nbe5DoyV.HZ1Yt6io2coJOJJX",
-      "origin": "Guardian Angels",
+      "origin": null,
       "duration": {
-        "seconds": 100,
-        "startTime": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": 100,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
       },
-      "changes": [
-        {
-          "key": "system.attributes.ac.value",
-          "mode": 2,
-          "value": "-2",
-          "priority": 20
-        },
-        {
-          "key": "flags.bardicSpellImmunity",
-          "mode": 5,
-          "value": "true",
-          "priority": 20
-        }
-      ],
       "name": "Guardian Angels - AC Bonus",
       "img": "systems/fantastic-depths/assets/img/item/spell.png",
       "_id": "HZ1Yt6io2coJOJJX",
       "type": "base",
-      "system": {},
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.ac.value",
+            "value": -2,
+            "priority": 20,
+            "type": "add"
+          },
+          {
+            "key": "flags.bardicSpellImmunity",
+            "value": true,
+            "priority": 20,
+            "type": "override"
+          }
+        ]
+      },
       "disabled": false,
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "core": {
+          "originText": "Guardian Angels"
+        }
+      },
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

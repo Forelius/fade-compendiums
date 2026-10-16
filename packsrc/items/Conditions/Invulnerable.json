@@ -31,32 +31,30 @@
       "img": "systems/fantastic-depths/assets/img/ui/invulnerable.webp",
       "origin": "Item.qp7GJ2hwgZsb5nQ5",
       "duration": {
-        "rounds": 1,
-        "startTime": null,
-        "seconds": 600,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": 600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
       },
       "disabled": false,
       "_id": "qHPt0PTFZdRfA9F6",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.ac",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        },
-        {
-          "key": "system.mod.save.all",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.ac",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.save.all",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffe5fe",
       "transfer": true,
@@ -68,7 +66,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

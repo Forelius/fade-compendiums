@@ -185,11 +185,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1.2,
       "scaleY": 1.2,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -243,13 +240,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -273,7 +269,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "2pylvx4sONY1jR20",
@@ -310,32 +307,30 @@
       "img": "icons/svg/aura.svg",
       "origin": "Actor.5px1PtF3VqfpotTy",
       "duration": {
-        "rounds": null,
-        "startTime": 4470930,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "UI6YTCr9SVtNoxiX",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.dmg",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHit",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.dmg",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHit",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": false,
@@ -345,7 +340,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4470930,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!actors.items!5px1PtF3VqfpotTy.2pylvx4sONY1jR20",

@@ -32,47 +32,45 @@
       "disabled": false,
       "_id": "vCUlvxnq56L622VL",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.details.morale",
-          "mode": 2,
-          "value": "-1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHit",
-          "mode": 2,
-          "value": "-1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "-1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.dmg",
-          "mode": 2,
-          "value": "-1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.dmgRanged",
-          "mode": 2,
-          "value": "-1",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.details.morale",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHit",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHitRanged",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.dmg",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.dmgRanged",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "duration": {
-        "startTime": null,
-        "seconds": 3600,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": 3600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -86,7 +84,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

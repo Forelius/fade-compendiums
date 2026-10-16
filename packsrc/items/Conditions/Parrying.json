@@ -32,23 +32,21 @@
       "disabled": false,
       "_id": "0TzviecOf6z5yd7n",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.ac",
-          "mode": 2,
-          "value": "4",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.ac",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "duration": {
-        "startTime": null,
-        "seconds": 6,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": 6,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -62,7 +60,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

@@ -32,16 +32,14 @@
       "disabled": false,
       "_id": "78CydxKPXBH4x8wI",
       "type": "base",
-      "system": {},
-      "changes": [],
+      "system": {
+        "changes": []
+      },
       "duration": {
-        "startTime": null,
-        "seconds": 4200,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": 4200,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
       },
       "description": "<p>The affected actor is sleeping and will not awaken until the condition wears off or they are awakened by someone. To awaken someone who is magically asleep, one must slap their face, shake them, or pour cold or hot water on them—essentially, anything that will snap them out of their slumber.</p>",
       "origin": null,
@@ -55,7 +53,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

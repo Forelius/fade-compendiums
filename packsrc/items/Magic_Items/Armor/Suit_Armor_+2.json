@@ -1,0 +1,105 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Suit Armor +2",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/suitarmor.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0 plus magic bonus, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 375,
+    "cost": 250,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 0,
+    "isShield": false,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "Suit Armor",
+    "unidentifiedDesc": "<p> This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armor must be specially made to fit its owner—and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armor. Suit armor gives a character an armor class of 0, and also reduces all damage done to the character by area effect attacks (such as Fireball spells and dragon’s breath) by one point per die of damage. If the suit armor is magical, it reduces such damage by an additional point per two points of enhancement bonus. Unfortunately, since suit armor is designed for tourney use and parades where the wearer spends their time on horseback, it is very bulky and noisy when worn on foot. When on foot, someone wearing suit armor can he heard moving up to 120’ away, negating any chance of surprise; and only has a 1 in 6 chance per round of being able to stand unaided if knocked prone.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 375,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
+  },
+  "effects": [
+    "SI9m3usGcEpikbMx"
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "T8cEOd3yP3t3DsRN",
+  "sort": 0,
+  "_originalKey": "!items!T8cEOd3yP3t3DsRN",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!T8cEOd3yP3t3DsRN.SI9m3usGcEpikbMx",
+      "name": "Armor+2",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.ujas2l0sP7SZ9hY5",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "_id": "SI9m3usGcEpikbMx",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod",
+            "type": "add",
+            "value": 2,
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.0.0",
+        "systemId": "fantastic-depths"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ]
+}

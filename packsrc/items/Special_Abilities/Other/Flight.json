@@ -52,19 +52,17 @@
       "img": "icons/svg/wing.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
       "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": true,
       "_id": "dVk7ObKq7OLVfn9j",
       "type": "base",
-      "system": {},
-      "changes": [],
+      "system": {
+        "changes": []
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -76,7 +74,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
     }
   ]
 }

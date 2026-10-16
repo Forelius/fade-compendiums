@@ -58,26 +58,24 @@
       "img": "icons/svg/upgrade.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.0F3JvLtlCeIYVvMe",
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "gQaaFsbBZL8BcZng",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.dmgScale",
-          "mode": 4,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.dmgScale",
+            "value": 2,
+            "priority": null,
+            "type": "upgrade"
+          }
+        ]
+      },
       "description": "",
       "tint": "#85caff",
       "transfer": true,
@@ -87,7 +85,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

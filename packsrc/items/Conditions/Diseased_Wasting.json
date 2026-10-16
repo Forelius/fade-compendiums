@@ -32,29 +32,27 @@
       "disabled": false,
       "_id": "j60CyM0fapdd0O7E",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.toHit",
-          "mode": 2,
-          "value": "-2",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "-2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.toHit",
+            "value": -2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.combat.toHitRanged",
+            "value": -2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "duration": {
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "description": "",
       "origin": null,
@@ -66,7 +64,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

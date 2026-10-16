@@ -185,11 +185,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/elf1a.webp",
       "scaleX": 0.85,
       "scaleY": 0.85,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -243,13 +240,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -273,7 +269,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "ar1mWVzSp6GdE0ad",

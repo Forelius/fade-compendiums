@@ -1,0 +1,104 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of the Wyrm (Black)",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>Usable by any character.</p><table><thead><tr><th><p>1d10</p></th><th><p>Alignment</p></th><th><p>Dragon</p></th><th><p>AC</p></th><th><p>Breath(s)</p></th></tr></thead><tbody><tr><td><p>9-10</p></td><td><p>Chaotic</p></td><td><p>Black</p></td><td><p>2</p></td><td><p>Acid</p></td></tr></tbody></table><p>Each is a rod +5 and each inflicts 1d8 +5 (6-13) points of damage per hit (but without Strength bonuses). Once per day, the rod may be turned into a small dragon of the appropriate type. The created dragon has 30 hit points and can only be affected by magic (weapons, spells, etc.). It will understand and faithfully serve the user of the rod to the best of its ability; for example, it can act as messenger, steed, or guard. It will fight to the death unless commanded otherwise. The dragon knows no spells. It will return to rod form on command; if slain in dragon form, however, it cannot return to rod form and is forever destroyed. Spells and other magical forms of healing can be used to heal the creature, if desired, but not after it is killed.</p><p>If a dragon is created by a user of a different alignment, the dragon will attack the user immediately, fighting to the death. When this occurs, it cannot be commanded to return to rod form.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "mod": {
+      "dmg": 5,
+      "toHit": 5,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Mysterious Rod",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 1,
+    "chargesMax": null,
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "3LwVEay1z1CPrIGT",
+  "sort": 300000,
+  "_originalKey": "!items!3LwVEay1z1CPrIGT"
+}

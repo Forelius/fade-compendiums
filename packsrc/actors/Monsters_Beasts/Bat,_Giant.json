@@ -191,11 +191,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 0.85,
       "scaleY": 0.85,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -248,13 +245,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -278,7 +274,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "QUSkarHpqLcy401l",
@@ -783,19 +780,17 @@
       "img": "icons/svg/wing.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.pcdBLWKxB0T2tZST",
       "duration": {
-        "rounds": null,
-        "startTime": 4644910,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": true,
       "_id": "dVk7ObKq7OLVfn9j",
       "type": "base",
-      "system": {},
-      "changes": [],
+      "system": {
+        "changes": []
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -807,7 +802,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "showIcon": 2,
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4644910,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "folder": null
     }
   ]
 }

@@ -58,26 +58,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Item.5BQM4xh7i40jkvuD",
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "8ettk0UhCNiM0mBc",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.selfToHit",
-          "mode": 2,
-          "value": "-2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.selfToHit",
+            "value": -2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -87,7 +85,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!items.effects!F5IcK6AuP07bFV2E.p6ycUBuztdeuXL9b",
@@ -95,38 +96,36 @@
       "img": "icons/svg/aura.svg",
       "origin": "Item.5BQM4xh7i40jkvuD",
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "p6ycUBuztdeuXL9b",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.save.spell",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        },
-        {
-          "key": "system.mod.save.wand",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        },
-        {
-          "key": "system.mod.save.paralysis",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.save.spell",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.save.wand",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.save.paralysis",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -136,7 +135,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

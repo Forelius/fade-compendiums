@@ -183,11 +183,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -241,13 +238,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -271,7 +267,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "ugbdcSraqhoPUPmy",
@@ -309,26 +306,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Actor.R811fYr1SDwwKNGd",
       "duration": {
-        "rounds": null,
-        "startTime": 4470930,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "h4EkUkuz8sopMi5u",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.dmg",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.dmg",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": false,
@@ -338,7 +333,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4470930,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!actors.items!R811fYr1SDwwKNGd.2j3V58cuq4PjDdFk",

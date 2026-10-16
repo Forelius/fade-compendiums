@@ -58,26 +58,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Item.DUZjh5pS5cCBZmzL",
       "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "jc9Ojrbgn5E710v9",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.abilities.str.total",
-          "mode": 4,
-          "value": "18",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.str.total",
+            "value": 18,
+            "priority": null,
+            "type": "upgrade"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -87,7 +85,10 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

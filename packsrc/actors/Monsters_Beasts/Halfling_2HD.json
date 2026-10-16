@@ -183,11 +183,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -241,13 +238,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -271,7 +267,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "s3Um7qXmUAG501Ap",
@@ -1108,26 +1105,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.ZfID3ksMSPpUiGFM",
       "duration": {
-        "rounds": null,
-        "startTime": 4644910,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "USsPJi89yOvhMuPL",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.initiative",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.initiative",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -1137,7 +1132,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4644910,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!actors.items.effects!HAixVC58xx8ZcMMO.0fFrf4mD0vK9tQPo.ZErQ5xWnSL3z4Gcl",
@@ -1145,26 +1150,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.j1FIuV7aJhu48YOk",
       "duration": {
-        "rounds": null,
-        "startTime": 4644910,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "ZErQ5xWnSL3z4Gcl",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.toHitRanged",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -1174,7 +1177,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4644910,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!actors.items.effects!HAixVC58xx8ZcMMO.0fFrf4mD0vK9tQPo.m17nznbg8xOnJYvf",
@@ -1182,26 +1195,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.j1FIuV7aJhu48YOk",
       "duration": {
-        "rounds": null,
-        "startTime": 4644910,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "m17nznbg8xOnJYvf",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.acVsLarge",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.acVsLarge",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -1211,7 +1222,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": null,
+        "time": 4644910,
+        "turn": null,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

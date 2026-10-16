@@ -189,11 +189,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "scaleX": 0.85,
       "scaleY": 0.85,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -247,7 +244,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -271,7 +268,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "effects": [
     "p7EXPovNVvtu1pch"
@@ -295,26 +293,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fade-compendiums.actor-compendium.Actor.JNrudHb64zpfOJA5",
       "duration": {
-        "rounds": null,
-        "startTime": 4557930,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": 2,
-        "startTurn": 6
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "p7EXPovNVvtu1pch",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "",
-          "mode": 2,
-          "value": "",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "",
+            "value": "",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": false,
@@ -324,7 +320,17 @@
       "_stats": {
         "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": {
+        "combat": null,
+        "round": 2,
+        "time": 4557930,
+        "turn": 6,
+        "combatant": null,
+        "initiative": null
+      },
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!actors.items!JNrudHb64zpfOJA5.3rSqNQawMBPzHeWM",

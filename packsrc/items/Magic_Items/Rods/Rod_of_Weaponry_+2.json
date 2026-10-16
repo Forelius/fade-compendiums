@@ -1,0 +1,104 @@
+{
+  "folder": "HjZtKZzJdRy9F9uG",
+  "name": "Rod of Weaponry +2",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-banded-purple.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>See Rod of Weaponry +5. This is the rod when split into two.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 20,
+    "cost": null,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "mod": {
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Mysterious Rod",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A mysterious 3' foot long rod with strange markings.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 1,
+    "chargesMax": null,
+    "weightEquipped": 20,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "DW4e9XnXsC3zG9D8",
+  "sort": 700000,
+  "_originalKey": "!items!DW4e9XnXsC3zG9D8"
+}
