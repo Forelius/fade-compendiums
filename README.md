@@ -4,7 +4,7 @@
 For Foundry VTT v14
 
 ![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffantastic-depths%2Frefs%2Fheads%2Fstable%2Fsystem.json)
-![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfull%26style%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffade-compendiums%2Frefs%2Fheads%2Fstable%2Fmodule.json)
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfull%26style%3Dflat%26url%3Dhttps%3A%2F%2Fgithub.com%2FForelius%2Ffade-compendiums%2Freleases%2Flatest%2Fdownload%2Fmodule.json)
 
 Compendiums module for Fantastic Depths Foundry VTT System.
 
@@ -12,9 +12,9 @@ This module contains compendiums for Fantastic Depths Monsters, Items, Rollable 
 
 Token artwork for the monster actors is available separately in [Fantastic Depths Compendiums Tokens](https://github.com/Forelius/fade-compendiums-tokens).
 
-Manual Install (Stable): 
-https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/stable/module.json
+## Install
 
-Manual Install (Pre-Release): 
-https://raw.githubusercontent.com/Forelius/fade-compendiums/refs/heads/main/module.json
+Manual install URL (latest release):
+https://github.com/Forelius/fade-compendiums/releases/download/latest/module.json
 
+For a specific version, use `https://github.com/Forelius/fade-compendiums/releases/download/<tag>/module.json`.
