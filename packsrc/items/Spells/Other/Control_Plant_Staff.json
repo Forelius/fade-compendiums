@@ -1,0 +1,57 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Control  Plant (Staff)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The user may control all plants and plantlike creatures (including monsters) in a 30' x 30' area up to 60' away. Normal plants controlled may entangle victims in their area, but they cannot cause damage.</p><p>It lasts as long as the caster's concentration is unbroken.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "Concentration",
+    "effect": "Control plants and plantlike creatures",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Xrile5iqpO0m6P73",
+        "name": "Controlling Plants",
+        "remove": false
+      }
+    ],
+    "classes": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "ZH24U5tRmX0xgHeS",
+  "sort": 0,
+  "_originalKey": "!items!ZH24U5tRmX0xgHeS"
+}

@@ -1,0 +1,57 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Control Animals (Staff)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Can control up to [[/r 1d6 #Hit Dice worth of animals]] hit dice worth of animals (normal or single giant-sized, but not fantastic or magical) for the duration. Affected animals will be afraid and leave the area when the control ends. The user must see the animals to control them, and cannot force them to harm themselves.</p><p>It lasts as long as the caster's concentration is unbroken.</p><p><em>In some situations the DM may rule that the controlled creatures can make a saving throw vs. spells to resist.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "Concentration",
+    "effect": "Control up to 1d6 Hit Dice worth of animals",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Controlled",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.NhnrHKk7jsxQEdM1",
+        "remove": false
+      }
+    ],
+    "classes": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "oMDTiOazzyYT6ejI",
+  "sort": 0,
+  "_originalKey": "!items!oMDTiOazzyYT6ejI"
+}

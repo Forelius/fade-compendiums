@@ -1,0 +1,51 @@
+{
+  "name": "Control Human (Staff)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "v09OaHHDLUBrw7Db",
+  "system": {
+    "tags": [],
+    "description": "<p>The wielder can subjugate up to 6 Hit Dice of humans at once, with normal men counting as 1/2 Hit Die each, operating much like a charm person spell with a range of 60 feet.</p><p>Affects humans, demi-humans, and humanoid creatures up to ogre size (excluding animals, magical constructs, and undead). The target receives a saving throw vs. spells; if failed, they become <em>charmed</em>, regarding the user as a trusted friend and defending them from threats.</p><p>If a shared language exists, the user may issue suggestions. The victim usually obeys reasonable requests, but automatically refuses suicidal commands or orders directly contrary to their nature/alignment. Conflicting input from former allies causes confusion rather than immediate realization.</p><p>The effect ends immediately if the user attacks the victim with a weapon or spell. Otherwise, the victim makes periodic saving throws to break the effect based on Intelligence:</p><table style=\"max-width:250px;\"><tbody><tr><td><p><strong>Target Intelligence:</strong></p></td><td><p><strong>Save Frequency:</strong></p></td></tr><tr><td><p>High (13-18)</p></td><td><p>1 day</p></td></tr><tr><td><p>Average (9-12)</p></td><td><p>1 week</p></td></tr><tr><td><p>Low (3-8)</p></td><td><p>1 month</p></td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "Varies",
+    "effect": "Varies",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "2s6g7kD7RdIWWc03",
+  "sort": 0,
+  "_originalKey": "!items!2s6g7kD7RdIWWc03"
+}
