@@ -1,0 +1,21 @@
+{
+  "name": "Set World Actor Token Size From Size",
+  "type": "script",
+  "command": "(async () => {\nconst isOneByOne = (w, h) => Number(w) === 1 && Number(h) === 1;\n\n  function buildTokenUpdate(actor) {\n    const size = actor.system?.details?.size;\n    if (!size) return null;\n\n    const pt = actor.prototypeToken;\n    let width = pt.width ?? 1;\n    let height = pt.height ?? 1;\n    const update = { _id: actor.id };\n\n    if (isOneByOne(width, height)) {\n      if (size === \"L\") { width = 1.5; height = 1.5; }\n      else if (size === \"G\") { width = 2; height = 2; }\n      else if (size === \"I\") { width = 3; height = 3; }\n    }\n\n    update[\"prototypeToken.width\"] = width;\n    update[\"prototypeToken.height\"] = height;\n    update[\"prototypeToken.texture.fit\"] = \"fill\";\n\n    const stillOne = isOneByOne(width, height);\n    let scale = null;\n    if (size === \"T\") scale = 0.5;\n    else if (size === \"S\") scale = 0.75;\n    else if (size === \"M\" && stillOne) scale = 0.9;\n\n    if (scale !== null) {\n      update[\"prototypeToken.texture.scaleX\"] = scale;\n      update[\"prototypeToken.texture.scaleY\"] = scale;\n    }\n\n    return update;\n  }\n\n  const actors = game.actors.filter(a => a.system?.details?.size);\n  if (!actors.length) {\n    return ui.notifications.info(\"No world actors with a size found.\");\n  }\n\n  const updates = actors.map(buildTokenUpdate).filter(Boolean);\n  if (!updates.length) {\n    return ui.notifications.warn(\"Nothing to update.\");\n  }\n\n  await Actor.updateDocuments(updates);\n  ui.notifications.info(`Updated prototype tokens on ${updates.length} world actor(s).`);\n})();",
+  "img": "icons/svg/dice-target.svg",
+  "folder": "8QnG4j2FXrIxRegn",
+  "_id": "f0wHXp3YejUhWYlw",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!f0wHXp3YejUhWYlw"
+}

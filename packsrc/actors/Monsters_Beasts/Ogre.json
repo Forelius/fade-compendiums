@@ -177,15 +177,15 @@
     "name": "Ogre",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 1.5,
+    "height": 1.5,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "fit": "contain",
+      "fit": "fill",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },

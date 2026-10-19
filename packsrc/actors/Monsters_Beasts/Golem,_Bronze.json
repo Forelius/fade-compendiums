@@ -173,15 +173,15 @@
     "name": "Golem, Bronze*",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1.webp",
       "scaleX": 1,
       "scaleY": 1,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "fit": "contain",
+      "fit": "fill",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
