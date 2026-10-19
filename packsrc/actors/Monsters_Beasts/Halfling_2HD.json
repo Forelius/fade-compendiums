@@ -50,7 +50,7 @@
         }
       ]
     },
-    "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in woods or underbrush, where there is only a 10% chance of being detected while hiding.</p><p>In combat, halflings gain a +2 bonus to Armor Class when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of level 2, and as long as the leader is alive and fighting alongside them, their morale is 10 rather than 8.</p><p>Halflings typically live in villages, or shires, of 30 to 300 inhabitants. Each village is led by a sheriff (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p><p><strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and a +2 bonus to Armor Class when fighting larger creatures.<br><strong>Terrain:</strong> Hill, Open.</p>",
+    "biography": "<p>Halflings are small, demihuman creatures who often live near their villages. They are skilled with missile weapons, receiving a +1 bonus to attack rolls when using them. Halflings are excellent at hiding, particularly in woods or underbrush, where there is only a 10% chance of being detected while hiding.</p><p>In combat, halflings improve AC by 2 when fighting larger than man-sized enemies. For every 10 halflings, one will be a leader of level 2, and as long as the leader is alive and fighting alongside them, their morale is 10 rather than 8.</p><p>Halflings typically live in villages, or shires, of 30 to 300 inhabitants. Each village is led by a sheriff (a fighter of level 2-7) and protected by a village guard of 5-20 militia (each with 2 Hit Dice).</p><p><strong>Special Abilities:</strong> Halflings get a +1 bonus to attack rolls when using missile weapons and improve AC by 2 when fighting larger creatures.<br><strong>Terrain:</strong> Hill, Open.</p>",
     "wrestling": 13,
     "encumbrance": {
       "max": 1200,
@@ -308,7 +308,7 @@
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and a -2 AC bonus when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
+        "description": "<p>Halflings gain a +1 bonus to all attack rolls when using missile weapons, a +1 bonus to individual initiative, and their AC improves by 2 when attacked by creatures larger than man-sized.</p><p>A creature is considered larger than man-sized if its description includes terms like \"giant,\" \"gargantuan,\" or \"enormous.\" Additionally, real-world creatures that the DM deems larger than a human (such as a horse) also fall into this category. As a general guideline, any non-humanoid creature without a specified size can be assumed to be larger than man-sized if it has 4 or more Hit Dice (HD).</p>",
         "gm": {
           "notes": ""
         },
@@ -1191,7 +1191,7 @@
     },
     {
       "_originalKey": "!actors.items.effects!HAixVC58xx8ZcMMO.0fFrf4mD0vK9tQPo.m17nznbg8xOnJYvf",
-      "name": "AC +1 vs Large",
+      "name": "AC Bonus 2 vs Large",
       "img": "icons/svg/aura.svg",
       "origin": "Compendium.fade-compendiums.item-compendium.Item.j1FIuV7aJhu48YOk",
       "duration": {
