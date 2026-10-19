@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>Characters can be blinded by a variety of effects. For example, a <em>light</em> or <em>continual light</em> spell may be cast directly on a character's eyes, or a character without <em>infravision</em> may find himself in an area of complete darkness.</p><p>A character who is completely blind, for whatever reason, suffers a -4 penalty to all saving throws, a -6 penalty to all attack rolls (he has to guess where his target is by hearing), and a +4 penalty to his armor class for the duration of his blindness.</p><p>A character who is forced to travel great distances while blind must move very slowly. If he is to walk slowly enough that he will not fall down steps and walk unknowingly into pits, he must move at one-third his normal speed, and whether he is indoors or outdoors, that speed is measured in <em>feet</em>, not yards.</p><p>A blind character who is guided by a sighted character can move safely at two-thirds his normal rate, and his movement is measured in yards when outdoors. A character mounted on a horse suffers no movement penalty if someone else is guiding that horse.</p>",
+    "description": "<p>Characters can be blinded by a variety of effects. For example, a <em>light</em> or <em>continual light</em> spell may be cast directly on a character's eyes, or a character without <em>infravision</em> may find himself in an area of complete darkness.</p><p>A character who is completely blind, for whatever reason, suffers a -4 penalty to all saving throws, a -6 penalty to all attack rolls (he has to guess where his target is by hearing), and his AC worsens by 4 for the duration of his blindness.</p><p>A character who is forced to travel great distances while blind must move very slowly. If he is to walk slowly enough that he will not fall down steps and walk unknowingly into pits, he must move at one-third his normal speed, and whether he is indoors or outdoors, that speed is measured in <em>feet</em>, not yards.</p><p>A blind character who is guided by a sighted character can move safely at two-thirds his normal rate, and his movement is measured in yards when outdoors. A character mounted on a horse suffers no movement penalty if someone else is guiding that horse.</p>",
     "addStatusEffect": false
   },
   "effects": [
@@ -42,13 +42,13 @@
           },
           {
             "key": "system.mod.ac",
-            "value": 4,
+            "value": -4,
             "priority": null,
             "type": "add"
           },
           {
             "key": "system.mod.rangedAc",
-            "value": 4,
+            "value": -4,
             "priority": null,
             "type": "add"
           },

@@ -5,7 +5,7 @@
   "folder": "k9fcbR0oQznbrWf7",
   "system": {
     "tags": [],
-    "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures gain a -2 bonus to AC, applied against all attacks.</li><li>Recipients become immune to all effects from other bardic spell-songs while this effect lasts.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 15' + 5' per bard level.</li></ul>",
+    "description": "<p>Once sung, this spell-song grants the bard and all recipients within range a protective blessing for its duration.</p><p><strong>Effects:</strong></p><ul><li>All affected creatures improve AC by 2, applied against all attacks.</li><li>Recipients become immune to all effects from other bardic spell-songs while this effect lasts.</li></ul><p><strong>Area of Effect:</strong></p><ul><li>Affects the bard and all allies within 15' + 5' per bard level.</li></ul>",
     "gm": {
       "notes": ""
     },
@@ -61,7 +61,7 @@
         "expiry": "turnStart",
         "expired": false
       },
-      "name": "Guardian Angels - AC Bonus",
+      "name": "AC Bonus 2",
       "img": "systems/fantastic-depths/assets/img/item/spell.png",
       "_id": "HZ1Yt6io2coJOJJX",
       "type": "base",
