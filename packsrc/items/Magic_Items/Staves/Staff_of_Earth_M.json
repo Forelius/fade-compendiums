@@ -1,0 +1,123 @@
+{
+  "folder": "0r7EBadxyTmAsTP8",
+  "name": "Staff of Earth (M)",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p data-path-to-node=\"1\"><em data-path-to-node=\"1\" data-index-in-node=\"0\">Usable only by Magic-Users</em></p><p data-path-to-node=\"2\">Carved from dense, subterranean stone, this heavy staff acts as a <em data-path-to-node=\"2\" data-index-in-node=\"66\">staff +2</em>, striking for 1d6+2 points of damage without expending any charges.</p><p data-path-to-node=\"3\">While on the Prime Material Plane, the wielder receives a +4 bonus to saving throws against all earth-based attacks and gains absolute immunity to attacks from earth elementals. At the cost of 1 charge, the wielder may summon an 8-Hit Die earth elemental once per day as if casting the magic-user spell. The staff can also invoke the <em data-path-to-node=\"3\" data-index-in-node=\"334\">web</em> or <em data-path-to-node=\"3\" data-index-in-node=\"341\">wall of stone</em> spells (cast as if by a 10th-level spellcaster) for 1 charge per use.</p><p data-path-to-node=\"4\">The staff can be used to negate air-based effects, as air is its opposing element. Dispelling an effect created by a <em data-path-to-node=\"4\" data-index-in-node=\"117\">Staff of Air</em> costs 1 charge, whereas negating a standard air spell costs 2 charges. A summoned air elemental can similarly be banished back to its home plane at the same charge cost, provided the wielder touches the creature with the staff (requiring a standard attack roll in combat).</p><p data-path-to-node=\"5\">When carried onto the Elemental Plane of Earth, the staff alters its functionality so long as at least 1 charge remains inside it. The wielder becomes immune to the environmental damage of the plane, gains vision out to a range of 60 feet, moves at a rate of 120 feet per turn (40 feet per round), can speak with any inhabitant of the plane, and receives a -4 bonus to Armor Class against attacks from its native residents. The staff does not provide the ability to breathe on the plane; however, when worn alongside a matching <em data-path-to-node=\"5\" data-index-in-node=\"528\">Ring of Elemental Adaptation</em> or <em data-path-to-node=\"5\" data-index-in-node=\"560\">Talisman of Elemental Travel</em>, all of these planar protections extend to a 10-foot radius around the user.</p><p data-path-to-node=\"6\"><strong data-path-to-node=\"6\" data-index-in-node=\"0\">Warning:</strong> If the <em data-path-to-node=\"6\" data-index-in-node=\"16\">Staff of Earth</em> is ever brought to its opposed realm—the Elemental Plane of Air—it instantly detonates in a violent explosion. The blast fills a 60-foot radius sphere, dealing 20 points of electrical damage plus 1d8 points of damage per charge remaining in the staff. All creatures within the area may attempt a saving throw vs. spells with a -4 penalty to take half damage, but the wielder receives no saving throw whatsoever.</p>",
+    "gm": {
+      "notes": "Some effects have no automation."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 15,
+    "chargesMax": 30,
+    "weight": 40,
+    "weightEquipped": 40,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "unidentifiedName": "Unusual Staff",
+    "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "damageType": "physical",
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": true,
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "natural": false,
+    "mod": {
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Ubtvai2BYbTsRp4A",
+        "action": "cast",
+        "castAs": "",
+        "name": "Summon Earth Elemental (Staff)"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.OGK2GxR6EeHXrp4m",
+        "action": "cast",
+        "castAs": "M10",
+        "name": "Web"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.gtmwMueUnbISKenY",
+        "action": "cast",
+        "castAs": "M10",
+        "name": "Wall of Stone"
+      }
+    ],
+    "specialAbilities": [],
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "S71yINoHkpKJXYib",
+  "sort": 0,
+  "_originalKey": "!items!S71yINoHkpKJXYib"
+}

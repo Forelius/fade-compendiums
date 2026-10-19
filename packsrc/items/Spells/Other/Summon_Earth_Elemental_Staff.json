@@ -1,0 +1,51 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Summon Earth Elemental (Staff)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to summon one 8HD earth elemental. The caster can only summon one of each type of elemental (earth, air, fire, water) in one day.</p><p>The elemental will perform any tasks within its power (carrying, attacking, etc.) as long as the caster maintains control by concentrating. The caster cannot fight, cast other spells, or move over half Normal Speed, else he will lose control of the elemental. If he loses control, he cannot regain it. An uncontrolled elemental will try to slay its summoner, and may attack anyone in its path while pursuing him.</p><p>The spell's caster may return a controlled elemental to its home plane simply by concentration. A dispel magic or dispel evil spell can return an uncontrolled elemental to its plane.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "",
+    "duration": "Instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "Ubtvai2BYbTsRp4A",
+  "sort": 100000,
+  "_originalKey": "!items!Ubtvai2BYbTsRp4A"
+}
