@@ -1,0 +1,51 @@
+{
+  "name": "Gain Spells",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "kh3Yk3wUGXMnnp8w",
+  "system": {
+    "tags": [],
+    "description": "<p>Gain one extra spell of each spell level. The extra spells must be selected when the usual spells are acquired (usually during morning meditation).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Self",
+    "duration": "Instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "folder": "v09OaHHDLUBrw7Db",
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 200000,
+  "_originalKey": "!items!kh3Yk3wUGXMnnp8w"
+}
