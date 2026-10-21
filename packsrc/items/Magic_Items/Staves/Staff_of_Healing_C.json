@@ -1,0 +1,104 @@
+{
+  "folder": "0r7EBadxyTmAsTP8",
+  "name": "Staff of Healing (C)",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p><em>Usable only by clerics</em>, this use. It may only be used once per day per person, but it will heal any number of persons once a day. It does not have or use charges for healing.</p>",
+    "gm": {
+      "notes": "As an option, the DM may add charges to the staff (in addition to its curing abilities) to create the following effects, at the cost of the charges indicated.\n+-----------------------+-----------+\n| Type                  | Charges   |\n+-----------------------+-----------+\n| Cure blindness        | 1 charge  |\n| Cure disease          | 1 charge  |\n| Cure serious wounds   | 2 charges |\n| Neutralize poison     | 2 charges |\n+-----------------------+-----------+"
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 15,
+    "chargesMax": 30,
+    "weight": 40,
+    "weightEquipped": 40,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "unidentifiedName": "Unusual Staff",
+    "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "damageType": "physical",
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": true,
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "spells": [],
+    "specialAbilities": [],
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "2pOwgOyd84cqO27k",
+  "sort": 0,
+  "_originalKey": "!items!2pOwgOyd84cqO27k"
+}

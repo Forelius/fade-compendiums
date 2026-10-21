@@ -34,6 +34,23 @@
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
+    ],
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.VGj4HQF0HCZqs7js",
+        "name": "Diseased (Dying)",
+        "remove": true
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.GXKrN7Bjvj1A2aMS",
+        "name": "Diseased (Incapacitated)",
+        "remove": true
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.DEtxUEvRqfwOvoSg",
+        "name": "Diseased (Wasting)",
+        "remove": true
+      }
     ]
   },
   "flags": {},

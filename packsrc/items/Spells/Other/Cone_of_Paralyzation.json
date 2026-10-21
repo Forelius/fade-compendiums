@@ -1,6 +1,6 @@
 {
   "folder": "v09OaHHDLUBrw7Db",
-  "name": "Paralyze (Wand)",
+  "name": "Cone of Paralyzation",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
@@ -32,7 +32,12 @@
         "remove": false
       }
     ],
-    "classes": []
+    "classes": [],
+    "template": {
+      "type": "cone",
+      "distance": "60",
+      "angle": "28"
+    }
   },
   "effects": [],
   "ownership": {

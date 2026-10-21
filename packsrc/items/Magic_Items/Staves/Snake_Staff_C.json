@@ -1,0 +1,111 @@
+{
+  "folder": "0r7EBadxyTmAsTP8",
+  "name": "Snake Staff (C)",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p><em>Usable only by clerics</em>, this magical staff is a staff +1 and will inflict 1d6 +1 points of damage per hit.</p><p>Upon command, the staff turns into a snake and coils around the creature struck. The command may be spoken when the victim is hit. The victim is allowed to make a saving throw vs. spells to avoid the serpent's coil. Any man-sized or smaller victim will be held helpless for 1d4 turns (unless the snake is ordered by the owner to release the victim before that time). Larger creatures cannot be ensnared in the snake's coils. The snake's characteristics are as follows.</p><p><strong>Snake:</strong> AC 5; HD 3; hp 20; MV 60' (20'); #AT 1 (special); Dmg Nil (special); Save C3; ML 12; XP6</p><p>When freed, the snake crawls back to its owner and becomes a staff once again. The snake is completely healed when it returns to staff form. If killed in snake form, it cannot return to staff form and it loses all magical properties. This item does not have or use charges.</p><p>At the DM's option, the staff can be given charges. The user can spend charges to add bonuses to the snake's attack foil (+1 bonus per charge spent); up to five charges can be used in a single attack (for a +5 bonus).</p><p>A charge can also be used to cure the snake while it is in combat. The user casts a curing spell of any type and expends one charge to transfer the cure to the snake. The amount of curing is determined normally; no range limit applies.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 15,
+    "chargesMax": 30,
+    "weight": 40,
+    "weightEquipped": 40,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "unidentifiedName": "Unusual Staff",
+    "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "damageType": "physical",
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": true,
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "natural": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.DncbpSzXykZ3mhLT",
+        "action": "cast",
+        "castAs": "",
+        "name": "Staff to Snake (Staff)"
+      }
+    ],
+    "specialAbilities": [],
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "moHjniSnj6qL0xpE",
+  "sort": 0,
+  "_originalKey": "!items!moHjniSnj6qL0xpE"
+}

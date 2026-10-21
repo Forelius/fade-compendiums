@@ -1,0 +1,51 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Staff to Snake (Staff)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "_id": "DncbpSzXykZ3mhLT",
+  "system": {
+    "tags": [],
+    "description": "<p>Upon command, the staff turns into a snake and coils around the creature struck. The command may be spoken when the victim is hit. The victim is allowed to make a saving throw vs. spells to avoid the serpent's coil. Any man-sized or smaller victim will be held helpless for 1d4 turns (unless the snake is ordered by the owner to release the victim before that time). Larger creatures cannot be ensnared in the snake's coils. The snake's characteristics are as follows.</p><p><strong>Snake:</strong> AC 5; HD 3; hp 20; MV 60' (20'); #AT 1 (special); Dmg Nil (special); Save C3; ML 12; XP6</p><p>When freed, the snake crawls back to its owner and becomes a staff once again. The snake is completely healed when it returns to staff form. If killed in snake form, it cannot return to staff form and it loses all magical properties. This item does not have or use charges.</p><p>At the DM's option, the staff can be given charges. The user can spend charges to add bonuses to the snake's attack foil (+1 bonus per charge spent); up to five charges can be used in a single attack (for a +5 bonus).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "20",
+    "duration": "Instant",
+    "effect": "Transform staff into a 3HD Snake",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "conditions": [],
+    "classes": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DncbpSzXykZ3mhLT"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Whirlwind",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Create a whirlwind that deals 2d6 damage to all creatures in its path. Small creatures must save vs. death ray or be swept aside.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "0",
+    "rollMode": "publicroll",
+    "savingThrow": "death",
+    "dmgFormula": "2d6",
+    "healFormula": "",
+    "damageType": "physical",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "category": "",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customCode": "",
+    "classKey": "",
+    "showResult": false,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    }
+  },
+  "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
+  "_id": "Dg8LQON2gHdBiwjZ",
+  "effects": [],
+  "folder": "164Li2oYfnb0Z7S7",
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!Dg8LQON2gHdBiwjZ"
+}

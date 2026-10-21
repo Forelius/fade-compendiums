@@ -10,7 +10,7 @@
     "isCursed": false,
     "shortName": "",
     "tags": [],
-    "description": "<p>This staff, <span style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">designed exclusively for magic-users</span>, is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal<br><br>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): fireball, lightning bolt, and ice storm. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring. This staff is usable only by magic-users.<br><br>Striking: this weapon inflicts [[/r 2d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p>",
+    "description": "<p>This staff, <span style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, &#x27;Proxima Nova&#x27;, -apple-system, BlinkMacSystemFont, &#x27;Segoe UI&#x27;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &#x27;Helvetica Neue&#x27;, Arial, &#x27;Noto Sans&#x27;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><em>designed exclusively for magic-users</em></span>, is a tall, straight staff of fine wood or ivory, often topped with a glowing gem or orb and featuring intricate carvings of symbols, with dangling bits of cloth or metal.<br><br>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): fireball, lightning bolt, and ice storm. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring. </p><p><strong>Striking:</strong> this weapon inflicts an additional [[/r 1d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p>",
     "gm": {
       "notes": ""
     },
@@ -62,10 +62,16 @@
         "action": "cast",
         "castAs": "M12",
         "name": "Telekinesis"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.QyuHlAGNqVKYAH0W",
+        "action": "use",
+        "castAs": "C6",
+        "name": "Striking"
       }
     ],
     "conditions": [],
-    "damageRoll": "2d6",
+    "damageRoll": "1d6",
     "damageLabel": "1d6",
     "damageType": "physical",
     "breath": "",
@@ -123,6 +129,6 @@
     "systemId": "fantastic-depths"
   },
   "_id": "ora5Zl9bq5zK9k1O",
-  "sort": 0,
+  "sort": 700000,
   "_originalKey": "!items!ora5Zl9bq5zK9k1O"
 }

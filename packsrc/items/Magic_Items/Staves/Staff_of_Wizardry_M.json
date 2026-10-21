@@ -1,0 +1,178 @@
+{
+  "folder": "0r7EBadxyTmAsTP8",
+  "name": "Staff of Wizardry (M)",
+  "type": "weapon",
+  "img": "modules/fade-compendiums/assets/img/weapon/staff.webp",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p><em>Usable only by magic-users</em>, this staff +1 has the magic-user spell effects of <em>invisibility</em>, <em>passwall</em>, <em>web</em>, and <em>conjure elemental</em>. It may also be used to create a <em>whirlwind</em> (as if from a djinni) or shoot a cone of paralyzation (as the wand).</p><p>This item can be used as a <em>staff of striking</em> and can also be used to create any of the following magic-user spell effects (each doing 8d6 points of damage): <em>fireball</em>, <em>lightning bolt</em>, and <em>ice storm</em>. It can also create a continual light effect or move 2,400 cn of weight by telekinesis. as the ring.<br><br><strong>Striking:</strong> this weapon inflicts an additional [[/r 1d6 #points of damage]] points of damage per charge if the hit is successful. Only one charge may be used per strike.</p><p>Finally, the user may break the staff, which releases all of its power at once. This final strike is an explosion that inflicts 8 points of damage per charge remaining in the staff. All creatures within 30' (including the user!) take damage (but all may make a saving throw vs. staff for half damage).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 15,
+    "chargesMax": 30,
+    "weight": 40,
+    "weightEquipped": 40,
+    "cost": null,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "unidentifiedName": "Unusual Staff",
+    "unidentifiedDesc": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">This staff has a sturdy, polished appearance, made from a rich, dark wood. The top is adorned with a beautifully carved symbol of healing, surrounded by intricate designs that evoke a sense of divine power.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "damageType": "physical",
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": true,
+    "saveDmgFormula": "",
+    "mastery": "Staff",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "natural": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "spells": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.QyuHlAGNqVKYAH0W",
+        "action": "use",
+        "castAs": "C6",
+        "name": "Striking"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4ziiafnwn68rWOcO",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Fireball"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.t9TZWdxPe32XgyHI",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Lightning Bolt"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.ifzidTKvHXX6mTmj",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Ice Storm"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.6k6WDJ5VohAD5D8G",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Continual Light*"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.jj20td8lMRDBW0V5",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Telekinesis"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.CRokTWBgRgtlXqP1",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Invisibility"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.c575QGhnXcF8obg8",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Passwall"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.OGK2GxR6EeHXrp4m",
+        "action": "cast",
+        "castAs": "M8",
+        "name": "Web"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.1swkhnr0VEO6edzd",
+        "action": "cast",
+        "castAs": "M9",
+        "name": "Conjure Elemental"
+      },
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.HWNCQcwXn9Y8Qm4N",
+        "action": "use",
+        "castAs": "",
+        "name": "Cone of Paralyzation"
+      }
+    ],
+    "specialAbilities": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.Dg8LQON2gHdBiwjZ",
+        "action": "use",
+        "name": "Whirlwind",
+        "mod": 0
+      }
+    ],
+    "conditions": [],
+    "template": {
+      "type": "",
+      "distance": "",
+      "direction": "",
+      "angle": "",
+      "width": ""
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "ownership": {
+    "default": 0,
+    "0eogAKq916hYXsfQ": 3
+  },
+  "_id": "QARhaB9tFJe8bBD6",
+  "sort": 0,
+  "_originalKey": "!items!QARhaB9tFJe8bBD6"
+}

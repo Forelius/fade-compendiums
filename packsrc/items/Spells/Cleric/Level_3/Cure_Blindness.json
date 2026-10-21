@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": null,
+    "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -33,6 +33,13 @@
       {
         "name": "Druid",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.7hYg7xET18gfdhUd",
+        "name": "Blinded",
+        "remove": true
       }
     ]
   },
