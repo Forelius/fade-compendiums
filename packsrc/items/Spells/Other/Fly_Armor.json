@@ -1,0 +1,50 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Fly (Armor)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>On command, the wearer can fly for 12 turns. While concentrating, the wearer moves up to 360' (120'). The wearer can hover without concentrating. Flight can be in any direction.</p><p>Apply the Flying condition from the chat card. Ending the flight early is manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "12 turns",
+    "effect": "Wearer flies for 12 turns",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Flying",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.DZlIb5H2bDRbBo9e",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "7uUUbcFPAjPYQS0c",
+  "sort": 9100000,
+  "_originalKey": "!items!7uUUbcFPAjPYQS0c"
+}

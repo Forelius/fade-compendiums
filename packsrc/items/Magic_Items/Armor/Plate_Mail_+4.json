@@ -1,0 +1,104 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Plate Mail +4",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/platemail.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 250,
+    "cost": 60,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 3,
+    "isShield": false,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "Plate Mail",
+    "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 250,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
+  },
+  "effects": [
+    "MQMgzGJnyNmujmw9"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZFVFixfnAGVoO4n0",
+  "sort": 6000013,
+  "_originalKey": "!items!ZFVFixfnAGVoO4n0",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!ZFVFixfnAGVoO4n0.MQMgzGJnyNmujmw9",
+      "name": "Armor+4",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.ZFVFixfnAGVoO4n0",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "_id": "MQMgzGJnyNmujmw9",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.0.0",
+        "systemId": "fantastic-depths"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ]
+}

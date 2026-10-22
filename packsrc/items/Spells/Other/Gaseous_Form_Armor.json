@@ -1,0 +1,44 @@
+{
+  "folder": "v09OaHHDLUBrw7Db",
+  "name": "Gaseous Form (Armor)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>On command, the wearer and all equipment carried or worn become gaseous for up to 6 turns. Equipment is included, unlike a potion of gaseous form. The wearer can end the effect early.</p><p>There is no Gaseous condition. Track the form manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "Up to 6 turns",
+    "effect": "Wearer and equipment become gaseous",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Vb3hvHI0RWyJ3TkI",
+  "sort": 9140000,
+  "_originalKey": "!items!Vb3hvHI0RWyJ3TkI"
+}

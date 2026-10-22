@@ -1,0 +1,104 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Scale Mail +3",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/scalemail.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 150,
+    "cost": 30,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 6,
+    "isShield": false,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "Scale Mail",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armor class of 6</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 150,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
+  },
+  "effects": [
+    "iHVjpEXRXqotJL03"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "jFGTSlqhphCrB1jD",
+  "sort": 6000003,
+  "_originalKey": "!items!jFGTSlqhphCrB1jD",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!jFGTSlqhphCrB1jD.iHVjpEXRXqotJL03",
+      "name": "Armor+3",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.jFGTSlqhphCrB1jD",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "_id": "iHVjpEXRXqotJL03",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod",
+            "value": 3,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.0.0",
+        "systemId": "fantastic-depths"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ]
+}

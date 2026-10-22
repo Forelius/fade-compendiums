@@ -1,0 +1,104 @@
+{
+  "folder": "rFt6SAkE1DlWg4D8",
+  "name": "Chain Mail +5",
+  "type": "armor",
+  "img": "modules/fade-compendiums/assets/img/armor/chainmail.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a magic suit of armor primarily composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5, but this armor provides an additional bonus.</p><p><em>Magic armor weighs half that of its nonmagic counterpart.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 200,
+    "cost": 40,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 5,
+    "isShield": false,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "unidentifiedName": "Chain Mail",
+    "isIdentified": false,
+    "shortName": "",
+    "fuelType": "",
+    "unidentifiedDesc": "<p>This is a suit primarily  composed of small metal rings that are linked together to form a flexible protective material. Chain mail gives a character an armor class of 5.</p>",
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "weightEquipped": 200,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "av": "",
+    "modRanged": 0,
+    "totalRangedAC": 9,
+    "totalRangedAAC": 9
+  },
+  "effects": [
+    "1WiXAvs0WFf4meno"
+  ],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "suhtgb4xEYRToCYG",
+  "sort": 6000008,
+  "_originalKey": "!items!suhtgb4xEYRToCYG",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!suhtgb4xEYRToCYG.1WiXAvs0WFf4meno",
+      "name": "Armor+5",
+      "img": "icons/svg/aura.svg",
+      "origin": "Item.suhtgb4xEYRToCYG",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "_id": "1WiXAvs0WFf4meno",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod",
+            "value": 5,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.0.0",
+        "systemId": "fantastic-depths"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ]
+}

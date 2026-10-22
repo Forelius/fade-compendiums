@@ -1,0 +1,62 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Charmed",
+  "type": "condition",
+  "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+  "_id": "TmQhQhoSVhcs6F2f",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>The creature regards the charmer as its best friend and tries to defend the charmer against threats, real or imagined. If they share a language, the creature usually follows suggestions. It may refuse an order that contradicts its nature, and it will not kill itself.</p><p>The charm ends if the charmer attacks the creature. Otherwise the creature may save again after a period based on its Intelligence: each day if high (13–18), each week if average (9–12), or each month if low (3–8).</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "shTZizzkIqKPcCdD"
+  ],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!TmQhQhoSVhcs6F2f",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!TmQhQhoSVhcs6F2f.shTZizzkIqKPcCdD",
+      "name": "Charmed",
+      "img": "systems/fantastic-depths/assets/img/ui/possessed.png",
+      "disabled": false,
+      "_id": "shTZizzkIqKPcCdD",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "possessed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.0.0",
+        "systemId": "fantastic-depths"
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null
+    }
+  ]
+}
