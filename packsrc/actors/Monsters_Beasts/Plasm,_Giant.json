@@ -699,7 +699,11 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "circle",
+          "distance": "15"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "oohr9XhtRDCS4lCs",

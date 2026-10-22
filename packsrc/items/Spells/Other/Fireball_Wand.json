@@ -26,7 +26,11 @@
     "attackType": "",
     "damageType": "fire",
     "classes": [],
-    "conditions": []
+    "conditions": [],
+    "template": {
+      "type": "circle",
+      "distance": "20"
+    }
   },
   "effects": [],
   "ownership": {

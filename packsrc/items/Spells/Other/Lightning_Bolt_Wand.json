@@ -26,7 +26,12 @@
     "attackType": "",
     "damageType": "magic",
     "classes": [],
-    "conditions": []
+    "conditions": [],
+    "template": {
+      "type": "ray",
+      "distance": "60",
+      "width": "5"
+    }
   },
   "effects": [],
   "ownership": {

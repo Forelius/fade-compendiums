@@ -455,7 +455,12 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "cone",
+          "distance": "50",
+          "angle": "33.4"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "VvkVToJWvCsdFKKE",
@@ -639,7 +644,12 @@
         "showResult": true,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "template": {
+          "type": "cone",
+          "distance": "120",
+          "angle": "28.1"
+        }
       },
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "_id": "eU9NkD77b1hmQhrW",

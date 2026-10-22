@@ -767,7 +767,7 @@
       "type": "weapon",
       "system": {
         "tags": [],
-        "description": "<p>A female Archon can breathe a 10' cone of fire, causing 4d6 points of damage.</p>",
+        "description": "<p>A female Archon can breathe a cone of fire, 10' long and 10' wide at the far end, causing 4d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -831,7 +831,8 @@
         "damageLabel": "1d6",
         "template": {
           "type": "cone",
-          "distance": "10"
+          "distance": "10",
+          "angle": "53.13"
         }
       },
       "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",

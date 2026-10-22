@@ -668,7 +668,12 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6",
+        "template": {
+          "type": "rect",
+          "distance": "20",
+          "width": "20"
+        }
       },
       "img": "icons/magic/air/fog-gas-smoke-green.webp",
       "_id": "aLuQ5SIGOAid6fjg",

@@ -693,8 +693,9 @@
         "isTreasure": false,
         "damageLabel": "1d6",
         "template": {
-          "type": "circle",
-          "distance": "50"
+          "type": "rect",
+          "distance": "60",
+          "width": "10"
         }
       },
       "img": "icons/svg/sword.svg",

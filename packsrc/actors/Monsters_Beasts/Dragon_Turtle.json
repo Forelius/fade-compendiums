@@ -461,9 +461,9 @@
         "isTreasure": false,
         "damageLabel": "1d6",
         "template": {
-          "type": "rect",
-          "distance": "64.0312423743285",
-          "direction": "38.65980825409009"
+          "type": "cone",
+          "distance": "50",
+          "angle": "43.6"
         }
       },
       "img": "icons/magic/air/fog-gas-smoke-gray.webp",

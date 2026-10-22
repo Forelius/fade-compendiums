@@ -26,7 +26,12 @@
     "attackType": "breath",
     "damageType": "hull",
     "conditions": [],
-    "classes": []
+    "classes": [],
+    "template": {
+      "type": "cone",
+      "distance": "100",
+      "angle": "11.4"
+    }
   },
   "effects": [],
   "ownership": {

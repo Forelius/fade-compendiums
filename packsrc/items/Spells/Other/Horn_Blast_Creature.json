@@ -27,7 +27,12 @@
     "attackType": "",
     "damageType": "physical",
     "conditions": [],
-    "classes": []
+    "classes": [],
+    "template": {
+      "type": "cone",
+      "distance": "100",
+      "angle": "11.4"
+    }
   },
   "effects": [],
   "sort": 600000,
