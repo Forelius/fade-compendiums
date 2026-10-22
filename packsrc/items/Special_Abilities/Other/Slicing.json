@@ -1,0 +1,46 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Slicing",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Edged weapons only. If the attack roll is 19 or 20 counting the weapon's magical bonus but no other bonuses, the opponent must save vs. death ray or die. On a successful save, the victim still takes triple damage. This does not apply vs constructs or undead.</p><p>Resolve the special hit, save, and damage manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "death",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTSlicing000016",
+  "sort": 9217000,
+  "_originalKey": "!items!SwTSlicing000016"
+}

@@ -1,10 +1,12 @@
 import { preloadHandlebarsTemplates } from './system/templates.mjs';
 import { FADEPACK } from "./system/config.mjs"
 import { registerMagicArmorDrop } from "./magicArmorComposer.mjs";
+import { registerMagicSwordDrop } from "./magicSwordComposer.mjs";
 
 Hooks.once('init', async function () {
    //console.debug('FADEPACK: init hook called.');
    registerMagicArmorDrop();
+   registerMagicSwordDrop();
 });
 
 Hooks.once('beforeFadeInit', async function (fadeRegistry) {

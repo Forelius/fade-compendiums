@@ -1,0 +1,46 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Deceiving",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>On command, this talent changes the appearance of the user. Size cannot change, but features and equipment can. This is an illusion. The weapon must be held (unsheathed if edged) and cannot disguise itself.</p><p>Track appearance and duration manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTDeceiving0003",
+  "sort": 9210000,
+  "_originalKey": "!items!SwTDeceiving0003"
+}

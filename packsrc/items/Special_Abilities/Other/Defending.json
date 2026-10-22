@@ -1,0 +1,46 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Defending",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Each round, the weapon's magical bonus may be used either as an attack and damage bonus, or as a bonus to the user's Armor Class. A missile weapon cannot have this talent.</p><p>Choose which use each round manually. There is no automatic AC toggle.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTDefending0004",
+  "sort": 9211000,
+  "_originalKey": "!items!SwTDefending0004"
+}

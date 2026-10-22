@@ -1,0 +1,46 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Watching",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Command the weapon to watch for one monster type or race. It vibrates if that type comes within 60'. Only one race or type per day.</p><p>Sense and daily limit are manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTWatching00020",
+  "sort": 9220000,
+  "_originalKey": "!items!SwTWatching00020"
+}

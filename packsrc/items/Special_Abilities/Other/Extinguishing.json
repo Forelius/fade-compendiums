@@ -1,0 +1,46 @@
+{
+  "folder": "164Li2oYfnb0Z7S7",
+  "name": "Extinguishing",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This weapon is cool to the touch. Against fire-using creatures, its magical bonus is doubled. It can douse a normal fire if thrust into it. It has no effect on magical fire.</p><p>When composed onto a sword, vsGroup extras for fire-using foes may be applied. Thrusting into a fire is manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTExtinguish007",
+  "sort": 9214000,
+  "_originalKey": "!items!SwTExtinguish007"
+}
