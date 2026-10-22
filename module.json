@@ -26,6 +26,13 @@
   "esmodules": [
     "scripts/fadeCompendiums.mjs"
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "packs": [
     {
       "name": "item-compendium",

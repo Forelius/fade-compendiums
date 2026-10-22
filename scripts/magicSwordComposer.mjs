@@ -18,226 +18,60 @@ const SWORD_MASTERIES = new Set([
 ]);
 
 /**
- * Opponent groups from CONFIG.FADE.ActorGroups that map to RC weapon opponents.
- * Labels are for the compose dialog only.
- */
-const OPPONENT_GROUPS = [
-   { id: "bugs", label: "Bugs" },
-   { id: "constructs", label: "Constructs" },
-   { id: "dragonkind", label: "Dragonkind" },
-   { id: "enchanted", label: "Enchanted monsters" },
-   { id: "giantkind", label: "Giantkind" },
-   { id: "lycanthropes", label: "Lycanthropes" },
-   { id: "planar", label: "Planar monsters" },
-   { id: "regenerating", label: "Regenerating monsters" },
-   { id: "reptiles-dinosaurs", label: "Reptiles and dinosaurs" },
-   { id: "spell-immune", label: "Spell-immune monsters" },
-   { id: "spellcasters", label: "Spellcasters" },
-   { id: "undead", label: "Undead" },
-   { id: "water-breathing", label: "Water-breathing monsters" },
-   { id: "weapon-using", label: "Weapon-using monsters" }
-];
-
-/**
  * Weapon talents. Spell talents link through system.spells; special abilities through system.specialAbilities.
- * @type {Array<{id: string, label: string, kind: "spell"|"specialAbility", uuid: string, docName: string, action: string, summary: string, vsGroups?: Array<{id: string, toHit: number, dmg: number}>}>}
+ * Labels/summaries live in FADEPACK.SwordTalent.<id>.
+ * @type {Array<{id: string, kind: "spell"|"specialAbility", uuid: string, docName: string, action: string, vsGroups?: Array<{id: string, toHit: number, dmg: number, doubleBonus?: boolean}>}>}
  */
 const SWORD_TALENTS = [
-   {
-      id: "breathing",
-      label: "Breathing",
-      kind: "spell",
-      uuid: `${PACK}.SwTBreathing0001`,
-      docName: "Breathing (Weapon)",
-      action: "use",
-      summary: "Once per day: water breathing or air breathing (1 turn). Air breathing does not stop breath weapons. Daily limit is manual."
-   },
-   {
-      id: "charming",
-      label: "Charming",
-      kind: "spell",
-      uuid: `${PACK}.SwTCharming00002`,
-      docName: "Charming (Weapon)",
-      action: "use",
-      summary: "Once per day: charm person to 120'. Apply Charmed from the chat card. Save and daily limit are manual."
-   },
-   {
-      id: "deceiving",
-      label: "Deceiving",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTDeceiving0003`,
-      docName: "Deceiving",
-      action: "use",
-      summary: "Disguise the user's appearance while the weapon is held. Illusion only; size cannot change. Manual."
-   },
-   {
-      id: "defending",
-      label: "Defending",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTDefending0004`,
-      docName: "Defending",
-      action: "use",
-      summary: "Each round, use the weapon's bonus either for attack and damage or for Armor Class. Choose manually."
-   },
-   {
-      id: "deflecting",
-      label: "Deflecting",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTDeflecting005`,
-      docName: "Deflecting",
-      action: "use",
-      summary: "Deflect an energy-drain hit at the cost of one magical bonus per level drained. Track bonus loss manually."
-   },
-   {
-      id: "draining",
-      label: "Draining",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTDraining00006`,
-      docName: "Draining",
-      action: "use",
-      summary: "On command after a hit, drain one level (1d4+4 total uses, then gone). Manual."
-   },
+   { id: "breathing", kind: "spell", uuid: `${PACK}.SwTBreathing0001`, docName: "Breathing (Weapon)", action: "use" },
+   { id: "charming", kind: "spell", uuid: `${PACK}.SwTCharming00002`, docName: "Charming (Weapon)", action: "use" },
+   { id: "deceiving", kind: "specialAbility", uuid: `${PACK}.SwTDeceiving0003`, docName: "Deceiving", action: "use" },
+   { id: "defending", kind: "specialAbility", uuid: `${PACK}.SwTDefending0004`, docName: "Defending", action: "use" },
+   { id: "deflecting", kind: "specialAbility", uuid: `${PACK}.SwTDeflecting005`, docName: "Deflecting", action: "use" },
+   { id: "draining", kind: "specialAbility", uuid: `${PACK}.SwTDraining00006`, docName: "Draining", action: "use" },
    {
       id: "extinguishing",
-      label: "Extinguishing",
       kind: "specialAbility",
       uuid: `${PACK}.SwTExtinguish007`,
       docName: "Extinguishing",
       action: "use",
-      summary: "Cool to the touch; double bonus vs fire-using creatures; douse normal fire. Thrust into fire is manual.",
       vsGroups: [{ id: "flaming-weak", toHit: 0, dmg: 0, doubleBonus: true }]
    },
-   {
-      id: "finding",
-      label: "Finding",
-      kind: "spell",
-      uuid: `${PACK}.SwTFinding000008`,
-      docName: "Finding (Weapon)",
-      action: "use",
-      summary: "Once per day: locate object to 120'. Daily limit is manual."
-   },
+   { id: "finding", kind: "spell", uuid: `${PACK}.SwTFinding000008`, docName: "Finding (Weapon)", action: "use" },
    {
       id: "flaming",
-      label: "Flaming",
       kind: "specialAbility",
       uuid: `${PACK}.SwTFlaming000009`,
       docName: "Flaming",
       action: "use",
-      summary: "On command, blade flames: +2 vs flaming-weak foes, +3 vs undead. Lighting fires is manual.",
       vsGroups: [
          { id: "flaming-weak", toHit: 2, dmg: 2 },
          { id: "undead", toHit: 3, dmg: 3 }
       ]
    },
-   {
-      id: "flying",
-      label: "Flying",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTFlying0000010`,
-      docName: "Flying (Weapon)",
-      action: "use",
-      summary: "After one normal attack, the weapon can fly and attack alone for 3 rounds. Resolve manually."
-   },
-   {
-      id: "healing",
-      label: "Healing",
-      kind: "spell",
-      uuid: `${PACK}.SwTHealing000011`,
-      docName: "Healing (Weapon)",
-      action: "use",
-      summary: "Once per day: cure serious wounds on the user only (2d6+2). Daily limit is manual."
-   },
-   {
-      id: "hiding",
-      label: "Hiding",
-      kind: "spell",
-      uuid: `${PACK}.SwTHiding0000012`,
-      docName: "Hiding (Weapon)",
-      action: "use",
-      summary: "Invisibility on the user; weapon can turn invisible 3/day separately. Apply Invisible from the chat card."
-   },
-   {
-      id: "holding",
-      label: "Holding",
-      kind: "spell",
-      uuid: `${PACK}.SwTHolding000013`,
-      docName: "Holding (Weapon)",
-      action: "use",
-      summary: "Once per day: hold person to 180'. Save and daily limit are manual."
-   },
-   {
-      id: "lighting",
-      label: "Lighting",
-      kind: "spell",
-      uuid: `${PACK}.SwTLighting00014`,
-      docName: "Lighting (Weapon)",
-      action: "use",
-      summary: "Once per day: light to 120' for 6 turns. Daily limit is manual."
-   },
-   {
-      id: "silencing",
-      label: "Silencing",
-      kind: "spell",
-      uuid: `${PACK}.SwTSilencing0015`,
-      docName: "Silencing (Weapon)",
-      action: "use",
-      summary: "Once per day: silence 15' radius to 180'. Daily limit is manual."
-   },
-   {
-      id: "slicing",
-      label: "Slicing",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTSlicing000016`,
-      docName: "Slicing",
-      action: "use",
-      summary: "On a 19–20 with magical bonus only, save vs death ray or die; save still takes triple damage. Manual."
-   },
-   {
-      id: "slowing",
-      label: "Slowing",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTSlowing000017`,
-      docName: "Slowing",
-      action: "use",
-      summary: "On a hit, may slow the foe for 1 turn (no save). Apply Slowed from the chat card. On-hit choice is manual."
-   },
-   {
-      id: "speeding",
-      label: "Speeding",
-      kind: "spell",
-      uuid: `${PACK}.SwTSpeeding00018`,
-      docName: "Speeding (Weapon)",
-      action: "use",
-      summary: "Once per day: haste on the user for 1 turn. Apply Hasted from the chat card."
-   },
-   {
-      id: "translating",
-      label: "Translating",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTTranslating19`,
-      docName: "Translating",
-      action: "use",
-      summary: "Understand all languages heard for 6 turns. Duration is manual."
-   },
-   {
-      id: "watching",
-      label: "Watching",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTWatching00020`,
-      docName: "Watching",
-      action: "use",
-      summary: "Sense one monster type or race within 60' (vibrates). One type per day. Manual."
-   },
-   {
-      id: "wishing",
-      label: "Wishing",
-      kind: "specialAbility",
-      uuid: `${PACK}.SwTWishing000021`,
-      docName: "Wishing",
-      action: "use",
-      summary: "Grants 1d3 wishes. Track remaining wishes manually."
-   }
+   { id: "flying", kind: "specialAbility", uuid: `${PACK}.SwTFlying0000010`, docName: "Flying (Weapon)", action: "use" },
+   { id: "healing", kind: "spell", uuid: `${PACK}.SwTHealing000011`, docName: "Healing (Weapon)", action: "use" },
+   { id: "hiding", kind: "spell", uuid: `${PACK}.SwTHiding0000012`, docName: "Hiding (Weapon)", action: "use" },
+   { id: "holding", kind: "spell", uuid: `${PACK}.SwTHolding000013`, docName: "Holding (Weapon)", action: "use" },
+   { id: "lighting", kind: "spell", uuid: `${PACK}.SwTLighting00014`, docName: "Lighting (Weapon)", action: "use" },
+   { id: "silencing", kind: "spell", uuid: `${PACK}.SwTSilencing0015`, docName: "Silencing (Weapon)", action: "use" },
+   { id: "slicing", kind: "specialAbility", uuid: `${PACK}.SwTSlicing000016`, docName: "Slicing", action: "use" },
+   { id: "slowing", kind: "specialAbility", uuid: `${PACK}.SwTSlowing000017`, docName: "Slowing", action: "use" },
+   { id: "speeding", kind: "spell", uuid: `${PACK}.SwTSpeeding00018`, docName: "Speeding (Weapon)", action: "use" },
+   { id: "translating", kind: "specialAbility", uuid: `${PACK}.SwTTranslating19`, docName: "Translating", action: "use" },
+   { id: "watching", kind: "specialAbility", uuid: `${PACK}.SwTWatching00020`, docName: "Watching", action: "use" },
+   { id: "wishing", kind: "specialAbility", uuid: `${PACK}.SwTWishing000021`, docName: "Wishing", action: "use" }
 ];
+
+/** @param {string} key @param {Record<string, unknown>} [data] */
+function L(key, data) {
+   return data ? game.i18n.format(key, data) : game.i18n.localize(key);
+}
+
+/** @param {string} groupId */
+function opponentLabel(groupId) {
+   return game.i18n.localize(`FADE.Actor.actorGroups.${groupId}`);
+}
 
 /**
  * Magical swords use nonzero toHit/dmg mods, or are cursed.
@@ -282,34 +116,35 @@ function escapeHtml(value) {
  */
 async function promptForCompose(item) {
    const { DialogV2 } = foundry.applications.api;
-   const opponentOptions = OPPONENT_GROUPS
-      .map((group) => `<option value="${group.id}">${escapeHtml(group.label)}</option>`)
+   const opponentOptions = (CONFIG.FADE?.ActorGroups ?? [])
+      .filter((group) => !group.special)
+      .map((group) => `<option value="${group.id}">${escapeHtml(opponentLabel(group.id))}</option>`)
       .join("");
    const talentOptions = SWORD_TALENTS
-      .map((talent) => `<option value="${talent.id}">${escapeHtml(talent.label)}</option>`)
+      .map((talent) => `<option value="${talent.id}">${escapeHtml(talent.docName)}</option>`)
       .join("");
    const choice = await DialogV2.wait({
-      window: { title: "Magic Sword" },
+      window: { title: L("FADEPACK.MagicSword.title") },
       position: { width: 480, height: "auto" },
       rejectClose: false,
       modal: true,
       classes: ["fantastic-depths"],
       content: `<form>
-         <p>Add <strong>${escapeHtml(item.name)}</strong> as it is, or attach one additional modifier (opponent bonus or talent — not both). Optionally mark it cursed.</p>
+         <p>${L("FADEPACK.MagicSword.intro", { name: escapeHtml(item.name) })}</p>
          <div class="form-group">
-            <label>Mode</label>
+            <label>${escapeHtml(L("FADEPACK.MagicSword.mode"))}</label>
             <select name="mode">
-               <option value="none">None — add as is</option>
-               <option value="opponent">Bonus vs opponent</option>
-               <option value="talent">Talent</option>
+               <option value="none">${escapeHtml(L("FADEPACK.MagicSword.modeNone"))}</option>
+               <option value="opponent">${escapeHtml(L("FADEPACK.MagicSword.modeOpponent"))}</option>
+               <option value="talent">${escapeHtml(L("FADEPACK.MagicSword.modeTalent"))}</option>
             </select>
          </div>
          <div class="form-group sword-compose-opponent" style="display: none;">
-            <label>Opponent</label>
+            <label>${escapeHtml(L("FADEPACK.MagicSword.opponent"))}</label>
             <select name="groupId">${opponentOptions}</select>
          </div>
          <div class="form-group sword-compose-opponent" style="display: none;">
-            <label>Extra bonus</label>
+            <label>${escapeHtml(L("FADEPACK.MagicSword.extraBonus"))}</label>
             <select name="extra">
                <option value="1">+1</option>
                <option value="2" selected>+2</option>
@@ -319,17 +154,17 @@ async function promptForCompose(item) {
             </select>
          </div>
          <div class="form-group sword-compose-talent" style="display: none;">
-            <label>Talent</label>
+            <label>${escapeHtml(L("FADEPACK.MagicSword.talent"))}</label>
             <select name="talentId">${talentOptions}</select>
          </div>
          <div class="form-group">
-            <label><input type="checkbox" name="cursed" value="1"/> Cursed (negate magical bonuses)</label>
+            <label><input type="checkbox" name="cursed" value="1"/> ${escapeHtml(L("FADEPACK.MagicSword.cursed"))}</label>
          </div>
       </form>`,
       buttons: [
          {
             action: "add",
-            label: "Add",
+            label: L("FADEPACK.add"),
             default: true,
             callback: (_event, button) => {
                const form = new foundry.applications.ux.FormDataExtended(button.form).object;
@@ -344,7 +179,7 @@ async function promptForCompose(item) {
          },
          {
             action: "cancel",
-            label: "Cancel",
+            label: game.i18n.localize("FADE.dialog.cancel"),
             callback: () => null
          }
       ],
@@ -380,20 +215,24 @@ function applyCompose(itemData, choice) {
 
    if (choice.mode === "opponent" && choice.groupId) {
       const extra = Math.min(5, Math.max(1, Number(choice.extra) || 1));
-      const group = OPPONENT_GROUPS.find((entry) => entry.id === choice.groupId);
-      const label = group?.label ?? choice.groupId;
+      const label = opponentLabel(choice.groupId);
       // Store EXTRA only; base toHit/dmg already apply, so totals match RC naming.
       itemData.system.mod.vsGroup[choice.groupId] = {
          toHit: extra,
          dmg: extra,
          special: null
       };
-      const suffix = `, +${extra} vs ${label}`;
+      const suffix = L("FADEPACK.MagicSword.vsNameSuffix", { extra, group: label });
       if (!itemData.name.includes(` vs ${label}`)) itemData.name = `${itemData.name}${suffix}`;
       const marker = `data-sword-vs="${choice.groupId}"`;
       if (!String(itemData.system.description ?? "").includes(marker)) {
-         const totalHint = (Number(itemData.system.mod.toHit) || 0) + extra;
-         itemData.system.description = `${itemData.system.description ?? ""}<p ${marker}><strong>Additional modifier:</strong> +${extra} extra (+${totalHint} total) vs ${escapeHtml(label)}.</p>`;
+         const total = (Number(itemData.system.mod.toHit) || 0) + extra;
+         itemData.system.description = `${itemData.system.description ?? ""}${L("FADEPACK.MagicSword.vsDescription", {
+            marker,
+            extra,
+            total,
+            group: escapeHtml(label)
+         })}`;
       }
    } else if (choice.mode === "talent" && choice.talentId) {
       const talent = SWORD_TALENTS.find((entry) => entry.id === choice.talentId);
@@ -409,13 +248,17 @@ function applyCompose(itemData, choice) {
  */
 function applyTalent(itemData, talent) {
    const linked = [...itemData.system.spells, ...itemData.system.specialAbilities];
-   const suffix = ` of ${talent.label}`;
-   if (!itemData.name.endsWith(suffix) && !itemData.name.includes(` of ${talent.label}`)) {
+   const label = talent.docName;
+   const suffix = L("FADEPACK.MagicSword.talentNameSuffix", { talent: label });
+   if (!itemData.name.endsWith(suffix) && !itemData.name.includes(suffix)) {
       itemData.name = `${itemData.name}${suffix}`;
    }
    const marker = `data-sword-talent="${talent.id}"`;
    if (!String(itemData.system.description ?? "").includes(marker)) {
-      itemData.system.description = `${itemData.system.description ?? ""}<p ${marker}><strong>Talent: ${escapeHtml(talent.label)}.</strong> ${escapeHtml(talent.summary)}</p>`;
+      itemData.system.description = `${itemData.system.description ?? ""}${L("FADEPACK.MagicSword.talentDescription", {
+         marker,
+         talent: escapeHtml(label)
+      })}`;
    }
    if (!linked.some((entry) => entry.uuid === talent.uuid)) {
       if (talent.kind === "spell") {
@@ -475,10 +318,12 @@ function applyCurse(itemData) {
       if (damage > 0) modData.dmg = -damage;
       itemData.system.mod.vsGroup[groupId] = modData;
    }
-   if (!/\bCursed\b/i.test(itemData.name)) itemData.name = `Cursed ${itemData.name}`;
+   if (!/\bCursed\b/i.test(itemData.name)) {
+      itemData.name = L("FADEPACK.MagicSword.cursedNamePrefix", { name: itemData.name });
+   }
    const marker = 'data-sword-cursed="1"';
    if (!String(itemData.system.description ?? "").includes(marker)) {
-      itemData.system.description = `${itemData.system.description ?? ""}<p ${marker}><strong>Cursed.</strong> Magical bonuses are penalties. The wielder cannot willingly discard it once used in battle (unequip blocked for non-GM). Compulsion to always use it in battle is manual. Remove curse / dispel evil may lift the compulsion or restore the sword per RC.</p>`;
+      itemData.system.description = `${itemData.system.description ?? ""}${L("FADEPACK.MagicSword.cursedDescription", { marker })}`;
    }
 }
 

@@ -3,41 +3,37 @@
       <div class="summary flexrow">
          <div class="flex1" style="max-width:70px;">
             <input type="text" name="flags.fade-compendiums.intelligent.intelligence" value="{{intelligent.intelligence}}" data-dtype="Number" />
-            <label>INT</label>
+            <label>{{localize "FADE.Actor.Abilities.int.abbr"}}</label>
          </div>
          <div class="flex1">
             <select name="flags.fade-compendiums.intelligent.communication">
                {{selectOptions communicationOptions selected=intelligent.communication}}
             </select>
-            <label>Comm</label>
+            <label>{{localize "FADEPACK.IntelligentWeapon.communication"}}</label>
          </div>
          <div class="flex1">
             <select name="flags.fade-compendiums.intelligent.alignment">
                {{selectOptions alignmentOptions selected=intelligent.alignment}}
             </select>
-            <label>Align</label>
+            <label>{{localize "FADE.Actor.Alignment"}}</label>
          </div>
          <div class="flex1" style="max-width:70px;">
             <input type="text" name="flags.fade-compendiums.intelligent.ego" value="{{intelligent.ego}}" data-dtype="Number" />
-            <label>Ego</label>
+            <label>{{localize "FADEPACK.IntelligentWeapon.ego"}}</label>
          </div>
          <div class="flex1" style="max-width:70px;">
             <input type="text" value="{{intelligentWillPower}}" disabled />
-            <label>Will</label>
-         </div>
-         <div class="flex1" style="max-width:70px;">
-            <input type="checkbox" name="flags.fade-compendiums.intelligent.readMagic" data-dtype="Boolean" {{#if intelligent.readMagic}} checked{{/if}} />
-            <label>Read magic</label>
+            <label>{{localize "FADEPACK.IntelligentWeapon.will"}}</label>
          </div>
       </div>
       <div class="summary flexrow">
          <div class="flex1">
-            <input type="text" name="flags.fade-compendiums.intelligent.languages" value="{{intelligentLanguages}}" data-dtype="String" placeholder="Common, Dwarvish, …" />
-            <label>Languages</label>
+            <input type="text" name="flags.fade-compendiums.intelligent.languages" value="{{intelligentLanguages}}" data-dtype="String" placeholder="{{localize 'FADEPACK.IntelligentWeapon.languagesPlaceholder'}}" />
+            <label>{{localize "FADE.Actor.Languages"}}</label>
          </div>
       </div>
-      <label for="intel-notes">Notes</label>
+      <label for="intel-notes">{{localize "FADEPACK.IntelligentWeapon.notes"}}</label>
       <textarea id="intel-notes" name="flags.fade-compendiums.intelligent.notes" rows="3">{{intelligent.notes}}</textarea>
    </div>
-   <p class="notes">Primary and extraordinary powers go on the Special Abilities / Spells tab. Will includes each linked extraordinary power.</p>
+   <p class="notes">{{localize "FADEPACK.IntelligentWeapon.powersHint"}}</p>
 </section>

@@ -18,7 +18,6 @@ export function defaultIntelligentWeapon() {
       languages: [],
       alignment: "",
       ego: null,
-      readMagic: false,
       notes: ""
    };
 }
@@ -110,15 +109,15 @@ export function registerIntelligentWeaponSheet() {
             ? intelligent.languages.join(", ")
             : "";
          context.communicationOptions = {
-            "": "—",
-            empathy: "Empathy",
-            speech: "Speech"
+            "": game.i18n.localize("FADEPACK.IntelligentWeapon.communicationNone"),
+            empathy: game.i18n.localize("FADEPACK.IntelligentWeapon.empathy"),
+            speech: game.i18n.localize("FADEPACK.IntelligentWeapon.speech")
          };
          context.alignmentOptions = {
-            "": "—",
-            lawful: "Lawful",
-            neutral: "Neutral",
-            chaotic: "Chaotic"
+            "": game.i18n.localize("FADEPACK.IntelligentWeapon.alignmentNone"),
+            lawful: game.i18n.localize("FADEPACK.IntelligentWeapon.lawful"),
+            neutral: game.i18n.localize("FADEPACK.IntelligentWeapon.neutral"),
+            chaotic: game.i18n.localize("FADEPACK.IntelligentWeapon.chaotic")
          };
 
          if (game.user.isGM && intelligent.enabled) {
@@ -127,7 +126,7 @@ export function registerIntelligentWeaponSheet() {
             const intelTab = {
                id: "intelligent",
                group,
-               label: "Intelligence",
+               label: "FADE.Actor.Abilities.int.long",
                active,
                cssClass: active ? "active" : ""
             };
@@ -181,7 +180,7 @@ export function registerIntelligentWeaponSheet() {
    gItems.registerSheet(MODULE_ID, IntelligentWeaponItemSheet, {
       types: ["weapon"],
       makeDefault: true,
-      label: "Intelligent Weapon Sheet"
+      label: "FADEPACK.SheetLabel.IntelligentWeaponItem"
    });
 
    game.fade.sheets.IntelligentWeaponItemSheet = IntelligentWeaponItemSheet;

@@ -5,122 +5,37 @@ const ARMOR_BONUS_EFFECT = /^Armor[+-]\d+$/;
 
 /**
  * Armor powers the composer can attach. Stock armor has no power.
- * Spell powers link through system.spells. Special abilities link through system.specialAbilities.
- * @type {Array<{id: string, label: string, kind: "spell"|"specialAbility", uuid: string, docName: string, action: string, castAs?: string, charges?: number, forbidCurse?: boolean, summary: string}>}
+ * Labels/summaries live in FADEPACK.MagicArmor.powers.<id>.
+ * @type {Array<{id: string, kind: "spell"|"specialAbility", uuid: string, docName: string, action: string, castAs?: string, charges?: number, forbidCurse?: boolean}>}
  */
 const ARMOR_POWERS = [
-   {
-      id: "absorption",
-      label: "Absorption",
-      kind: "specialAbility",
-      uuid: `${PACK}.hpdvqgxVZlVolPam`,
-      docName: "Absorption",
-      action: "use",
-      summary: "Energy drain strikes the armor instead of the wearer. Each level absorbed lowers the magical bonus by 1. At +0 the armor is no longer magical. Track this manually."
-   },
-   {
-      id: "charm",
-      label: "Charm",
-      kind: "specialAbility",
-      uuid: `${PACK}.uz8qiLITjPPfR0lp`,
-      docName: "Charm",
-      action: "use",
-      summary: "A creature that hits the wearer in melee saves vs. spells at +4 or is charmed (charm person or charm monster). Only one successful charm per day. The hit and the save are manual."
-   },
-   {
-      id: "cureWounds",
-      label: "Cure Wounds",
-      kind: "specialAbility",
-      uuid: `${PACK}.MUoGHFs2tmE5eAq8`,
-      docName: "Cure Wounds",
-      action: "use",
-      summary: "Once per day, heals the wearer for half the damage of the blow just received. There is no fixed heal formula."
-   },
-   {
-      id: "electricity",
-      label: "Electricity",
-      kind: "specialAbility",
-      uuid: `${PACK}.PsqXkOiHKlHWvTxC`,
-      docName: "Electricity",
-      action: "use",
-      summary: "Once per day the wearer can charge the armor. The next melee hit against the wearer deals 6d6 and spends the charge. Charging and which blow discharges it are manual."
-   },
-   {
-      id: "energyDrain",
-      label: "Energy Drain",
-      kind: "specialAbility",
-      uuid: `${PACK}.o0dqrlmm9LcxwTpe`,
-      docName: "Energy Drain",
-      action: "use",
-      summary: "Once per day the wearer can charge the armor. The next melee hit against the wearer drains one level. Charging and the drain are manual."
-   },
-   {
-      id: "ethereality",
-      label: "Ethereality",
-      kind: "spell",
-      uuid: `${PACK}.t8nO1MW5J5bAsrt6`,
-      docName: "Ethereality (Armor)",
-      action: "use",
-      summary: "Two command words, each once per day: become ethereal, or return. The wearer may remain ethereal as long as desired."
-   },
-   {
-      id: "fly",
-      label: "Fly",
-      kind: "spell",
-      uuid: `${PACK}.7uUUbcFPAjPYQS0c`,
-      docName: "Fly (Armor)",
-      action: "use",
-      summary: "On command, the wearer flies for 12 turns."
-   },
-   {
-      id: "gaseousForm",
-      label: "Gaseous Form",
-      kind: "spell",
-      uuid: `${PACK}.Vb3hvHI0RWyJ3TkI`,
-      docName: "Gaseous Form (Armor)",
-      action: "use",
-      summary: "On command, the wearer and all equipment carried become gaseous for up to 6 turns."
-   },
-   {
-      id: "haste",
-      label: "Haste",
-      kind: "spell",
-      uuid: `${PACK}.DKAYO11kzagXJanT`,
-      docName: "Haste (Armor)",
-      action: "use",
-      summary: "Once per day, the wearer is hasted for 1 turn."
-   },
-   {
-      id: "invisibility",
-      label: "Invisibility",
-      kind: "spell",
-      uuid: `${PACK}.27EF3s0bHQkPUXQi`,
-      docName: "Invisibility (Armor)",
-      action: "use",
-      summary: "The wearer can become invisible until they attack or cast a spell. The armor itself can be made invisible three times per day; that does not hide the wearer and is tracked manually."
-   },
-   {
-      id: "reflection",
-      label: "Reflection",
-      kind: "specialAbility",
-      uuid: `${PACK}.2gmwppZJ6W6ivKJU`,
-      docName: "Reflection",
-      action: "use",
-      summary: "Light-based attacks and gaze attacks aimed at the wearer are reflected back at their source. Apply this manually."
-   },
+   { id: "absorption", kind: "specialAbility", uuid: `${PACK}.hpdvqgxVZlVolPam`, docName: "Absorption", action: "use" },
+   { id: "charm", kind: "specialAbility", uuid: `${PACK}.uz8qiLITjPPfR0lp`, docName: "Charm", action: "use" },
+   { id: "cureWounds", kind: "specialAbility", uuid: `${PACK}.MUoGHFs2tmE5eAq8`, docName: "Cure Wounds", action: "use" },
+   { id: "electricity", kind: "specialAbility", uuid: `${PACK}.PsqXkOiHKlHWvTxC`, docName: "Electricity", action: "use" },
+   { id: "energyDrain", kind: "specialAbility", uuid: `${PACK}.o0dqrlmm9LcxwTpe`, docName: "Energy Drain", action: "use" },
+   { id: "ethereality", kind: "spell", uuid: `${PACK}.t8nO1MW5J5bAsrt6`, docName: "Ethereality (Armor)", action: "use" },
+   { id: "fly", kind: "spell", uuid: `${PACK}.7uUUbcFPAjPYQS0c`, docName: "Fly (Armor)", action: "use" },
+   { id: "gaseousForm", kind: "spell", uuid: `${PACK}.Vb3hvHI0RWyJ3TkI`, docName: "Gaseous Form (Armor)", action: "use" },
+   { id: "haste", kind: "spell", uuid: `${PACK}.DKAYO11kzagXJanT`, docName: "Haste (Armor)", action: "use" },
+   { id: "invisibility", kind: "spell", uuid: `${PACK}.27EF3s0bHQkPUXQi`, docName: "Invisibility (Armor)", action: "use" },
+   { id: "reflection", kind: "specialAbility", uuid: `${PACK}.2gmwppZJ6W6ivKJU`, docName: "Reflection", action: "use" },
    {
       id: "removeCurse",
-      label: "Remove Curse",
       kind: "spell",
       uuid: `${PACK}.pADDtGB2RFNc6gXT`,
       docName: "Remove Curse (Armor)",
       action: "none",
       castAs: "C36",
       charges: 3,
-      forbidCurse: true,
-      summary: "Three charges. Each charge removes one curse from the wearer only, as a 36th-level cleric. This armor cannot be cursed."
+      forbidCurse: true
    }
 ];
+
+/** @param {string} key @param {Record<string, unknown>} [data] */
+function L(key, data) {
+   return data ? game.i18n.format(key, data) : game.i18n.localize(key);
+}
 
 /**
  * Magic armor is cursed, or it has an Armor+N / Armor-N effect that changes system.mod.
@@ -166,32 +81,32 @@ function escapeHtml(value) {
  */
 async function promptForPower(item) {
    const { DialogV2 } = foundry.applications.api;
-   const options = ['<option value="">None — add as is</option>']
-      .concat(ARMOR_POWERS.map((power) => `<option value="${power.id}">${escapeHtml(power.label)}</option>`))
+   const options = [`<option value="">${escapeHtml(L("FADEPACK.MagicArmor.powerNone"))}</option>`]
+      .concat(ARMOR_POWERS.map((power) => `<option value="${power.id}">${escapeHtml(power.docName)}</option>`))
       .join("");
    const choice = await DialogV2.wait({
-      window: { title: "Magic Armor" },
+      window: { title: L("FADEPACK.MagicArmor.title") },
       position: { width: 440, height: "auto" },
       rejectClose: false,
       modal: true,
       classes: ["fantastic-depths"],
       content: `<form>
-         <p>Add <strong>${escapeHtml(item.name)}</strong> as it is, or attach one special power.</p>
+         <p>${L("FADEPACK.MagicArmor.intro", { name: escapeHtml(item.name) })}</p>
          <div class="form-group">
-            <label>Special power</label>
+            <label>${escapeHtml(L("FADEPACK.MagicArmor.power"))}</label>
             <select name="power">${options}</select>
          </div>
       </form>`,
       buttons: [
          {
             action: "add",
-            label: "Add",
+            label: L("FADEPACK.add"),
             default: true,
             callback: (_event, button) => new foundry.applications.ux.FormDataExtended(button.form).object.power ?? ""
          },
          {
             action: "cancel",
-            label: "Cancel",
+            label: game.i18n.localize("FADE.dialog.cancel"),
             callback: () => null
          }
       ],
@@ -208,11 +123,15 @@ function applyPower(itemData, power) {
    itemData.system.spells ??= [];
    itemData.system.specialAbilities ??= [];
    const linked = [...itemData.system.spells, ...itemData.system.specialAbilities];
-   const suffix = ` of ${power.label}`;
+   const label = power.docName;
+   const suffix = L("FADEPACK.MagicArmor.powerNameSuffix", { power: label });
    if (!itemData.name.endsWith(suffix)) itemData.name = `${itemData.name}${suffix}`;
    const marker = `data-armor-power="${power.id}"`;
    if (!String(itemData.system.description ?? "").includes(marker)) {
-      const paragraph = `<p ${marker}><strong>Special power: ${escapeHtml(power.label)}.</strong> ${escapeHtml(power.summary)}</p>`;
+      const paragraph = L("FADEPACK.MagicArmor.powerDescription", {
+         marker,
+         power: escapeHtml(label)
+      });
       itemData.system.description = `${itemData.system.description ?? ""}${paragraph}`;
    }
    if (!linked.some((entry) => entry.uuid === power.uuid)) {

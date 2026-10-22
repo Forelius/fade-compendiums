@@ -1,0 +1,50 @@
+{
+   "FADEPACK": {
+      "add": "Add",
+      "SheetLabel": {
+         "IntelligentWeaponItem": "Intelligent Weapon Sheet"
+      },
+      "IntelligentWeapon": {
+         "enabled": "Intelligent",
+         "communication": "Communication",
+         "ego": "Ego",
+         "will": "Will",
+         "languagesPlaceholder": "Common, Dwarvish, …",
+         "notes": "Notes",
+         "powersHint": "Primary and extraordinary powers go on the Special Abilities / Spells tab. Will includes each linked extraordinary power.",
+         "communicationNone": "—",
+         "empathy": "Empathy",
+         "speech": "Speech",
+         "alignmentNone": "—",
+         "lawful": "Lawful",
+         "neutral": "Neutral",
+         "chaotic": "Chaotic"
+      },
+      "MagicSword": {
+         "title": "Magic Sword",
+         "intro": "Add <strong>{name}</strong> as it is, or attach one additional modifier (opponent bonus or talent — not both). Optionally mark it cursed.",
+         "mode": "Mode",
+         "modeNone": "None — add as is",
+         "modeOpponent": "Bonus vs opponent",
+         "modeTalent": "Talent",
+         "opponent": "Opponent",
+         "extraBonus": "Extra bonus",
+         "talent": "Talent",
+         "cursed": "Cursed (negate magical bonuses)",
+         "vsNameSuffix": ", +{extra} vs {group}",
+         "vsDescription": "<p {marker}><strong>Additional modifier:</strong> +{extra} extra (+{total} total) vs {group}.</p>",
+         "talentNameSuffix": " of {talent}",
+         "talentDescription": "<p {marker}><strong>Talent:</strong> {talent}.</p>",
+         "cursedNamePrefix": "Cursed {name}",
+         "cursedDescription": "<p {marker}><strong>Cursed.</strong> Magical bonuses are penalties. The wielder cannot willingly discard it once used in battle (unequip blocked for non-GM). Compulsion to always use it in battle is manual. Remove curse / dispel evil may lift the compulsion or restore the sword per RC.</p>"
+      },
+      "MagicArmor": {
+         "title": "Magic Armor",
+         "intro": "Add <strong>{name}</strong> as it is, or attach one special power.",
+         "power": "Special power",
+         "powerNone": "None — add as is",
+         "powerNameSuffix": " of {power}",
+         "powerDescription": "<p {marker}><strong>Special power:</strong> {power}.</p>"
+      }
+   }
+}
