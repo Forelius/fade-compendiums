@@ -1,0 +1,50 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Charming (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, this talent creates one charm person spell effect to a 120' range. Apply the Charmed condition from the chat card. The save and daily limit are manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "Varies",
+    "effect": "Charm person, 120' range",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Charmed",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.TmQhQhoSVhcs6F2f",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTCharming00002",
+  "sort": 9201000,
+  "_originalKey": "!items!SwTCharming00002"
+}

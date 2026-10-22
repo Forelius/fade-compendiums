@@ -1,0 +1,44 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Healing (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, this talent creates one cure serious wounds effect on the user only, healing 2d6+2 hit points. Track the daily limit manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Self",
+    "duration": "Instant",
+    "effect": "Cure serious wounds on the user only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "2d6+2",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTHealing000011",
+  "sort": 9203000,
+  "_originalKey": "!items!SwTHealing000011"
+}

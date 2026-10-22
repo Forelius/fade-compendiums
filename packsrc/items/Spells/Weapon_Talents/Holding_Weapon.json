@@ -1,0 +1,44 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Holding (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, this talent creates one hold person spell effect to a 180' range. The save and daily limit are manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "180'",
+    "duration": "As hold person",
+    "effect": "Hold person, 180' range",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1d4",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTHolding000013",
+  "sort": 9205000,
+  "_originalKey": "!items!SwTHolding000013"
+}

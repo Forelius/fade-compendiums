@@ -1,0 +1,46 @@
+{
+  "folder": "SwWeaponTalent01",
+  "name": "Deflecting",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>If the user is hit by a blow that would cause an energy drain, this talent can deflect the blow. After the hit, the user decides whether to deflect. Each level deflected drains one magical bonus from the weapon. If the drain would reduce the bonus below zero, the weapon disintegrates and the excess does not affect the user.</p><p>Track bonus loss and disintegration manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTDeflecting005",
+  "sort": 9212000,
+  "_originalKey": "!items!SwTDeflecting005"
+}

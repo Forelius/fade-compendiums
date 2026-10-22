@@ -1,0 +1,43 @@
+<section class="tab {{tabs.intelligent.cssClass}}" data-group="primary" data-tab="intelligent">
+   <div class="bordered">
+      <div class="summary flexrow">
+         <div class="flex1" style="max-width:70px;">
+            <input type="text" name="flags.fade-compendiums.intelligent.intelligence" value="{{intelligent.intelligence}}" data-dtype="Number" />
+            <label>INT</label>
+         </div>
+         <div class="flex1">
+            <select name="flags.fade-compendiums.intelligent.communication">
+               {{selectOptions communicationOptions selected=intelligent.communication}}
+            </select>
+            <label>Comm</label>
+         </div>
+         <div class="flex1">
+            <select name="flags.fade-compendiums.intelligent.alignment">
+               {{selectOptions alignmentOptions selected=intelligent.alignment}}
+            </select>
+            <label>Align</label>
+         </div>
+         <div class="flex1" style="max-width:70px;">
+            <input type="text" name="flags.fade-compendiums.intelligent.ego" value="{{intelligent.ego}}" data-dtype="Number" />
+            <label>Ego</label>
+         </div>
+         <div class="flex1" style="max-width:70px;">
+            <input type="text" value="{{intelligentWillPower}}" disabled />
+            <label>Will</label>
+         </div>
+         <div class="flex1" style="max-width:70px;">
+            <input type="checkbox" name="flags.fade-compendiums.intelligent.readMagic" data-dtype="Boolean" {{#if intelligent.readMagic}} checked{{/if}} />
+            <label>Read magic</label>
+         </div>
+      </div>
+      <div class="summary flexrow">
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.intelligent.languages" value="{{intelligentLanguages}}" data-dtype="String" placeholder="Common, Dwarvish, …" />
+            <label>Languages</label>
+         </div>
+      </div>
+      <label for="intel-notes">Notes</label>
+      <textarea id="intel-notes" name="flags.fade-compendiums.intelligent.notes" rows="3">{{intelligent.notes}}</textarea>
+   </div>
+   <p class="notes">Primary and extraordinary powers go on the Special Abilities / Spells tab. Will includes each linked extraordinary power.</p>
+</section>

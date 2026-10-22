@@ -6,5 +6,8 @@
 export const preloadHandlebarsTemplates = async function () {
    // TODO: Remove after v12 support.
    const fn = foundry?.applications?.handlebars?.loadTemplates ? foundry.applications.handlebars.loadTemplates : loadTemplates;
-   await fn({});
+   await fn([
+      "modules/fade-compendiums/templates/item/weapon/attributes.hbs",
+      "modules/fade-compendiums/templates/item/weapon/intelligent.hbs"
+   ]);
 };

@@ -1,0 +1,44 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Breathing (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, this talent creates either one water breathing effect or one air breathing effect. Air breathing supplies only the user with pure air for 1 turn. It counters airlessness and poisoned air, but not breath weapons.</p><p>Choose which form when used. Track the daily limit manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "1 turn",
+    "effect": "Water breathing or air breathing for the user",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTBreathing0001",
+  "sort": 9200000,
+  "_originalKey": "!items!SwTBreathing0001"
+}

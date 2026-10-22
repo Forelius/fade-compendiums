@@ -1,0 +1,44 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Silencing (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, this talent creates one silence, 15' radius spell effect to a 180' range. Track the daily limit manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "180'",
+    "duration": "As silence 15' radius",
+    "effect": "Silence 15' radius, 180' range",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTSilencing0015",
+  "sort": 9207000,
+  "_originalKey": "!items!SwTSilencing0015"
+}

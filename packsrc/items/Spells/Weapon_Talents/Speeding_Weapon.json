@@ -1,0 +1,50 @@
+{
+  "folder": "SpWeaponTalent01",
+  "name": "Speeding (Weapon)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Once per day, on command, this talent creates a haste effect on the user only for 1 turn. The user moves at double speed and attacks twice per round. Apply the Hasted condition from the chat card. Track the daily limit manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Self",
+    "duration": "1 turn",
+    "effect": "Haste on the user only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Hasted",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.cXvJhpE5XD2k0Hmm",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTSpeeding00018",
+  "sort": 9208000,
+  "_originalKey": "!items!SwTSpeeding00018"
+}

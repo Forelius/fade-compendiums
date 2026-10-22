@@ -1,0 +1,52 @@
+{
+  "folder": "SwWeaponTalent01",
+  "name": "Slowing",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>On a successful hit, this talent can slow the opponent for 1 turn (as the reverse of haste). No saving throw. The user may decide after the hit whether to use the effect.</p><p>Apply the Slowed condition from the chat card. On-hit timing is manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "name": "Slowed",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.73BmTVHh88kGcTAF",
+        "durationFormula": "60"
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SwTSlowing000017",
+  "sort": 9218000,
+  "_originalKey": "!items!SwTSlowing000017"
+}
