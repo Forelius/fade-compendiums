@@ -1,13 +1,13 @@
 import { preloadHandlebarsTemplates } from './system/templates.mjs';
 import { FADEPACK } from "./system/config.mjs"
-import { registerMagicArmorDrop } from "./magicArmorComposer.mjs";
-import { registerMagicSwordDrop } from "./magicSwordComposer.mjs";
-import { registerIntelligentWeaponSheet } from "./intelligentWeapon.mjs";
+import { MagicArmorComposer } from "./magicArmorComposer.mjs";
+import { MagicSwordComposer } from "./magicSwordComposer.mjs";
+import { IntelligentWeapon } from "./intelligentWeapon.mjs";
 
 Hooks.once('init', async function () {
    //console.debug('FADEPACK: init hook called.');
-   registerMagicArmorDrop();
-   registerMagicSwordDrop();
+   MagicArmorComposer.register();
+   MagicSwordComposer.register();
 });
 
 Hooks.once('beforeFadeInit', async function (fadeRegistry) {
@@ -16,7 +16,7 @@ Hooks.once('beforeFadeInit', async function (fadeRegistry) {
 
 Hooks.once('afterFadeInit', async function (fadeRegistry) {
    //console.debug('FADEPACK: afterFadeInit hook called.');
-   registerIntelligentWeaponSheet();
+   IntelligentWeapon.register();
 
    // Preload Handlebars templates.
    await preloadHandlebarsTemplates();
