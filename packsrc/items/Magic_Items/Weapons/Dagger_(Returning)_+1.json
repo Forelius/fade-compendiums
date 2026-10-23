@@ -1,0 +1,82 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Dagger (Returning) +1",
+  "type": "weapon",
+  "_id": "HND6vURn2xmAA0cN",
+  "img": "modules/fade-compendiums/assets/img/weapon/dagger.webp",
+  "system": {
+    "tags": [
+      "magic-user",
+      "thrown"
+    ],
+    "description": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p><p><strong>Returning:</strong> After being thrown, this weapon returns to the wielder.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 10,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d4",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Dagger",
+    "weaponType": "handheld",
+    "range": {
+      "short": 10,
+      "medium": 20,
+      "long": 30
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {}
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Dagger",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A small blade with a one-handed grip. It can be used in melee or thrown as a ranged weapon.</p><p><strong>Returning:</strong> After being thrown, this weapon returns to the wielder.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!HND6vURn2xmAA0cN"
+}

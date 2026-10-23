@@ -1,29 +1,31 @@
 const PACK = "Compendium.fade-compendiums.item-compendium.Item";
 
+/** Masteries / name stems treated as missile weapons (separate Ch16 talent table). */
+const MISSILE_MASTERIES = new Set([
+   "Bow, Long",
+   "Bow, Short",
+   "Crossbow, Hvy",
+   "Crossbow, Heavy",
+   "Crossbow, Lt",
+   "Crossbow, Light",
+   "Sling"
+]);
+
 /**
- * Compose magical swords on actor-sheet drop (as-is / vs-opponent / talent / cursed).
+ * Compose magical melee weapons on actor-sheet drop (as-is / vs-opponent / talent / cursed).
  *
  * Manual smoke checks (GM, actor sheet):
  * 1. Drop Sword, Normal +3 — add as is; confirm +3 toHit/dmg.
- * 2. Drop Sword, Short +2 — vs opponent undead, extra +2; confirm name and vsGroup undead toHit/dmg = 2.
- * 3. Drop Sword, Bastard (1H) +1 — talent Flaming; confirm Flaming SA linked and flaming-weak / undead vsGroup set.
- * 4. Drop Sword, Two-Handed +2 — cursed; confirm isCursed and negated mods.
+ * 2. Drop Axe, Battle +2 — talent Flaming; confirm Flaming SA linked.
+ * 3. Drop Spear +1 — vs opponent undead, extra +2; confirm vsGroup.
+ * 4. Drop Mace +1 — cursed; confirm isCursed and negated mods.
  */
-export class MagicSwordComposer {
-   /** Sword masteries used by stock magical swords. */
-   static SWORD_MASTERIES = new Set([
-      "Sword, Short",
-      "Sword, Normal",
-      "Sword, Bastard (1H)",
-      "Sword, Bastard (2H)",
-      "Sword, Two-Handed"
-   ]);
-
+export class MagicWeaponComposer {
    /**
-    * Weapon talents. Spell talents link through system.spells; special abilities through system.specialAbilities.
+    * Melee weapon talents (Ch16). Spell talents link through system.spells; special abilities through system.specialAbilities.
     * @type {Array<{id: string, kind: "spell"|"specialAbility", uuid: string, docName: string, action: string, vsGroups?: Array<{id: string, toHit: number, dmg: number, doubleBonus?: boolean}>}>}
     */
-   static SWORD_TALENTS = [
+   static WEAPON_TALENTS = [
       { id: "breathing", kind: "spell", uuid: `${PACK}.SwTBreathing0001`, docName: "Breathing (Weapon)", action: "use" },
       { id: "charming", kind: "spell", uuid: `${PACK}.SwTCharming00002`, docName: "Charming (Weapon)", action: "use" },
       { id: "deceiving", kind: "specialAbility", uuid: `${PACK}.SwTDeceiving0003`, docName: "Deceiving", action: "use" },
@@ -64,20 +66,20 @@ export class MagicSwordComposer {
       { id: "wishing", kind: "specialAbility", uuid: `${PACK}.SwTWishing000021`, docName: "Wishing", action: "use" }
    ];
 
-   /** Listen for magic sword drops and offer to compose one additional modifier. */
+   /** Listen for magic melee weapon drops and offer to compose one additional modifier. */
    static register() {
-      const composer = new MagicSwordComposer();
+      const composer = new MagicWeaponComposer();
       Hooks.on("fadeDropActorSheet", (context) => composer.onDropActorSheet(context));
    }
 
    /**
-    * Magical swords use nonzero toHit/dmg mods, or are cursed.
+    * Magical melee weapons use nonzero toHit/dmg mods, or are cursed.
     * @param {Item|null} item
     * @returns {boolean}
     */
-   static isMagicSword(item) {
+   static isMagicMeleeWeapon(item) {
       if (!item || item.type !== "weapon") return false;
-      if (!MagicSwordComposer.#isSwordWeapon(item)) return false;
+      if (!MagicWeaponComposer.#isMeleeComposeWeapon(item)) return false;
       if (item.system?.isCursed === true) return true;
       const toHit = Number(item.system?.mod?.toHit) || 0;
       const dmg = Number(item.system?.mod?.dmg) || 0;
@@ -89,7 +91,7 @@ export class MagicSwordComposer {
     */
    async onDropActorSheet(context) {
       const document = context?.document;
-      if (!document || !MagicSwordComposer.isMagicSword(document)) return;
+      if (!document || !MagicWeaponComposer.isMagicMeleeWeapon(document)) return;
       const actor = context.sheet?.actor;
       if (document.parent?.uuid && actor?.uuid && document.parent.uuid === actor.uuid) return;
       if (!game.user.isGM) return;
@@ -109,14 +111,19 @@ export class MagicSwordComposer {
    }
 
    /**
+    * Handheld melee (or thrown melee) gear — not ammo, natural attacks, or dedicated missile weapons.
     * @param {Item} item
     * @returns {boolean}
     */
-   static #isSwordWeapon(item) {
+   static #isMeleeComposeWeapon(item) {
+      if (item.system?.natural === true) return false;
+      if (item.system?.isAmmo === true) return false;
       const mastery = item.system?.mastery ?? "";
-      if (MagicSwordComposer.SWORD_MASTERIES.has(mastery)) return true;
+      if (MISSILE_MASTERIES.has(mastery)) return false;
       const name = item.name ?? "";
-      return /^Sword,\s/i.test(name) || /^Sword\s/i.test(name);
+      if (/^(Bow|Crossbow|Sling)\b/i.test(name)) return false;
+      if (/^(Arrow|Quarrel|Pellet|Dart|Bullet)\b/i.test(name)) return false;
+      return true;
    }
 
    /**
@@ -145,12 +152,12 @@ export class MagicSwordComposer {
     */
    async #promptForCompose(item) {
       const { DialogV2 } = foundry.applications.api;
-      const escapeHtml = MagicSwordComposer.#escapeHtml;
+      const escapeHtml = MagicWeaponComposer.#escapeHtml;
       const opponentOptions = (CONFIG.FADE?.ActorGroups ?? [])
          .filter((group) => !group.special)
-         .map((group) => `<option value="${group.id}">${escapeHtml(MagicSwordComposer.#opponentLabel(group.id))}</option>`)
+         .map((group) => `<option value="${group.id}">${escapeHtml(MagicWeaponComposer.#opponentLabel(group.id))}</option>`)
          .join("");
-      const talentOptions = MagicSwordComposer.SWORD_TALENTS
+      const talentOptions = MagicWeaponComposer.WEAPON_TALENTS
          .map((talent) => `<option value="${talent.id}">${escapeHtml(talent.docName)}</option>`)
          .join("");
       const choice = await DialogV2.wait({
@@ -169,11 +176,11 @@ export class MagicSwordComposer {
                <option value="talent">${escapeHtml(game.i18n.localize("FADEPACK.MagicSword.modeTalent"))}</option>
             </select>
          </div>
-         <div class="form-group sword-compose-opponent" style="display: none;">
+         <div class="form-group weapon-compose-opponent" style="display: none;">
             <label>${escapeHtml(game.i18n.localize("FADEPACK.MagicSword.opponent"))}</label>
             <select name="groupId">${opponentOptions}</select>
          </div>
-         <div class="form-group sword-compose-opponent" style="display: none;">
+         <div class="form-group weapon-compose-opponent" style="display: none;">
             <label>${escapeHtml(game.i18n.localize("FADEPACK.MagicSword.extraBonus"))}</label>
             <select name="extra">
                <option value="1">+1</option>
@@ -183,7 +190,7 @@ export class MagicSwordComposer {
                <option value="5">+5</option>
             </select>
          </div>
-         <div class="form-group sword-compose-talent" style="display: none;">
+         <div class="form-group weapon-compose-talent" style="display: none;">
             <label>${escapeHtml(game.i18n.localize("FADEPACK.MagicSword.talent"))}</label>
             <select name="talentId">${talentOptions}</select>
          </div>
@@ -219,10 +226,10 @@ export class MagicSwordComposer {
             const modeSelect = root.querySelector('[name="mode"]');
             const syncModeFields = () => {
                const mode = modeSelect?.value || "none";
-               root.querySelectorAll(".sword-compose-opponent").forEach((el) => {
+               root.querySelectorAll(".weapon-compose-opponent").forEach((el) => {
                   el.style.display = mode === "opponent" ? "" : "none";
                });
-               root.querySelectorAll(".sword-compose-talent").forEach((el) => {
+               root.querySelectorAll(".weapon-compose-talent").forEach((el) => {
                   el.style.display = mode === "talent" ? "" : "none";
                });
             };
@@ -245,7 +252,7 @@ export class MagicSwordComposer {
 
       if (choice.mode === "opponent" && choice.groupId) {
          const extra = Math.min(5, Math.max(1, Number(choice.extra) || 1));
-         const label = MagicSwordComposer.#opponentLabel(choice.groupId);
+         const label = MagicWeaponComposer.#opponentLabel(choice.groupId);
          // Store EXTRA only; base toHit/dmg already apply, so totals match RC naming.
          itemData.system.mod.vsGroup[choice.groupId] = {
             toHit: extra,
@@ -254,18 +261,18 @@ export class MagicSwordComposer {
          };
          const suffix = game.i18n.format("FADEPACK.MagicSword.vsNameSuffix", { extra, group: label });
          if (!itemData.name.includes(` vs ${label}`)) itemData.name = `${itemData.name}${suffix}`;
-         const marker = `data-sword-vs="${choice.groupId}"`;
+         const marker = `data-weapon-vs="${choice.groupId}"`;
          if (!String(itemData.system.description ?? "").includes(marker)) {
             const total = (Number(itemData.system.mod.toHit) || 0) + extra;
             itemData.system.description = `${itemData.system.description ?? ""}${game.i18n.format("FADEPACK.MagicSword.vsDescription", {
                marker,
                extra,
                total,
-               group: MagicSwordComposer.#escapeHtml(label)
+               group: MagicWeaponComposer.#escapeHtml(label)
             })}`;
          }
       } else if (choice.mode === "talent" && choice.talentId) {
-         const talent = MagicSwordComposer.SWORD_TALENTS.find((entry) => entry.id === choice.talentId);
+         const talent = MagicWeaponComposer.WEAPON_TALENTS.find((entry) => entry.id === choice.talentId);
          if (talent) this.#applyTalent(itemData, talent);
       }
 
@@ -274,7 +281,7 @@ export class MagicSwordComposer {
 
    /**
     * @param {object} itemData
-    * @param {typeof MagicSwordComposer.SWORD_TALENTS[number]} talent
+    * @param {typeof MagicWeaponComposer.WEAPON_TALENTS[number]} talent
     */
    #applyTalent(itemData, talent) {
       const linked = [...itemData.system.spells, ...itemData.system.specialAbilities];
@@ -283,11 +290,11 @@ export class MagicSwordComposer {
       if (!itemData.name.endsWith(suffix) && !itemData.name.includes(suffix)) {
          itemData.name = `${itemData.name}${suffix}`;
       }
-      const marker = `data-sword-talent="${talent.id}"`;
+      const marker = `data-weapon-talent="${talent.id}"`;
       if (!String(itemData.system.description ?? "").includes(marker)) {
          itemData.system.description = `${itemData.system.description ?? ""}${game.i18n.format("FADEPACK.MagicSword.talentDescription", {
             marker,
-            talent: MagicSwordComposer.#escapeHtml(label)
+            talent: MagicWeaponComposer.#escapeHtml(label)
          })}`;
       }
       if (!linked.some((entry) => entry.uuid === talent.uuid)) {
@@ -351,7 +358,7 @@ export class MagicSwordComposer {
       if (!/\bCursed\b/i.test(itemData.name)) {
          itemData.name = game.i18n.format("FADEPACK.MagicSword.cursedNamePrefix", { name: itemData.name });
       }
-      const marker = 'data-sword-cursed="1"';
+      const marker = 'data-weapon-cursed="1"';
       if (!String(itemData.system.description ?? "").includes(marker)) {
          itemData.system.description = `${itemData.system.description ?? ""}${game.i18n.format("FADEPACK.MagicSword.cursedDescription", { marker })}`;
       }

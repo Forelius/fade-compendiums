@@ -1,0 +1,81 @@
+{
+  "folder": "favTmZE4nPgpoSYx",
+  "name": "Hammer, War (Returning) +5",
+  "type": "weapon",
+  "_id": "3Oos6hU9wik0VDA0",
+  "img": "modules/fade-compendiums/assets/img/weapon/warhammer.webp",
+  "system": {
+    "tags": [
+      "cleric"
+    ],
+    "description": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p><p><strong>Returning:</strong> After being thrown, this weapon returns to the wielder.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Hammer, War",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 5,
+      "toHit": 5,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {}
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Hammer, War",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A war hammer is a large one-handed hammer, usually 2' to 3' in length. The head of a war hammer is often symmetrical to aid in balance.</p><p><strong>Returning:</strong> After being thrown, this weapon returns to the wielder.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 0,
+  "_originalKey": "!items!3Oos6hU9wik0VDA0"
+}
