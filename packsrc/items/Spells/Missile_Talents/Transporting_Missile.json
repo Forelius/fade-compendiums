@@ -1,0 +1,56 @@
+{
+  "folder": "SpMissileTalent1",
+  "name": "Transporting (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Victim hit must save vs. spells or be sent up to 360' away as chosen by the user (as dimension door). Cannot appear within a solid object.</p><p>Resolve transport manually after the save.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "Dimension door 360'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "action": "use",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTTransport0019",
+  "sort": 9300018,
+  "_originalKey": "!items!AmTTransport0019"
+}

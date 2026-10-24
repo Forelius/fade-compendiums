@@ -1,0 +1,56 @@
+{
+  "folder": "SpMissileTalent1",
+  "name": "Climbing (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Only functions when shot at an object. The missile fastens to the object hit and creates a magical 50' rope that supports any weight of climbers. The rope disappears after 1 turn or on command. The missile cannot be moved after it hits and disappears with the rope.</p><p>Object targeting and rope placement are manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "50' rope on object",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "action": "use",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTClimbing00004",
+  "sort": 9300003,
+  "_originalKey": "!items!AmTClimbing00004"
+}

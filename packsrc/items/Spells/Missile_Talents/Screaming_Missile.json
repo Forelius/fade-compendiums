@@ -1,0 +1,56 @@
+{
+  "folder": "SpMissileTalent1",
+  "name": "Screaming (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Effect occurs when shot even if it misses. As it travels, it produces a loud cry; all within 30' of its path check morale or retreat in fear for 1d8 rounds.</p><p>Resolve morale from the attack chat / table.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "Morale check 30' path",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "action": "use",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTScream0000012",
+  "sort": 9300011,
+  "_originalKey": "!items!AmTScream0000012"
+}

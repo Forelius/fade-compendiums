@@ -1,0 +1,49 @@
+<section class="tab {{tabs.compose.cssClass}}" data-group="primary" data-tab="compose">
+   <div class="bordered">
+      <div class="summary flexrow">
+         <div class="flex2">
+            <select name="flags.fade-compendiums.compose.role">
+               {{selectOptions composeRoleOptions selected=compose.role}}
+            </select>
+            <label>{{localize "FADEPACK.Compose.role"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="checkbox" name="flags.fade-compendiums.compose.promptOpponent" data-dtype="Boolean" {{#if compose.promptOpponent}} checked{{/if}} />
+            <label>{{localize "FADEPACK.Compose.promptOpponent"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="checkbox" name="flags.fade-compendiums.compose.forbidCurse" data-dtype="Boolean" {{#if compose.forbidCurse}} checked{{/if}} />
+            <label>{{localize "FADEPACK.Compose.forbidCurse"}}</label>
+         </div>
+      </div>
+      <div class="summary flexrow">
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.compose.charges" value="{{compose.charges}}" data-dtype="Number" placeholder="—" />
+            <label>{{localize "FADEPACK.Compose.charges"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="checkbox" name="flags.fade-compendiums.compose.unlimitedCharges" data-dtype="Boolean" {{#if compose.unlimitedCharges}} checked{{/if}} />
+            <label>{{localize "FADEPACK.Compose.unlimitedCharges"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.compose.cost" value="{{compose.cost}}" data-dtype="Number" />
+            <label>{{localize "FADEPACK.Compose.cost"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.compose.castAs" value="{{compose.castAs}}" data-dtype="String" />
+            <label>{{localize "FADEPACK.Compose.castAs"}}</label>
+         </div>
+      </div>
+      <div class="summary flexrow">
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.compose.action" value="{{compose.action}}" data-dtype="String" />
+            <label>{{localize "FADEPACK.Compose.action"}}</label>
+         </div>
+         <div class="flex1">
+            <input type="text" name="flags.fade-compendiums.compose.rangeMultiplier" value="{{compose.rangeMultiplier}}" data-dtype="Number" placeholder="—" />
+            <label data-tooltip="{{localize 'FADEPACK.Compose.rangeMultiplierHint'}}">{{localize "FADEPACK.Compose.rangeMultiplier"}}</label>
+         </div>
+      </div>
+   </div>
+   <p class="notes">{{localize "FADEPACK.Compose.hint"}}</p>
+</section>

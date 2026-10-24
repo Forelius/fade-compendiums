@@ -1,0 +1,67 @@
+﻿{
+  "folder": "SpMissileTalent1",
+  "name": "Stunning (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The victim hit must save vs. spells or be stunned for 1d6 rounds.</p><p>Apply Stunned from the chat card if available.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "Stun 1d6 rounds",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Stunned",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.UCDe2AQYs7QPyt22",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "charges": null,
+        "unlimitedCharges": false,
+        "forbidCurse": false,
+        "action": "use",
+        "castAs": "",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        },
+        "vsGroups": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTStunning00017",
+  "sort": 9300016,
+  "_originalKey": "!items!AmTStunning00017"
+}

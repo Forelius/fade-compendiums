@@ -1,0 +1,56 @@
+{
+  "folder": "SpMissileTalent1",
+  "name": "Lighting (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Creates a light spell effect (30' diameter) on command or when it hits. If a creature is hit, the victim must save vs. spells or be blinded. The missile disintegrates when the light is created.</p><p>Resolve light/blind from the attack chat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "Light / blind",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "action": "use",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTLight00000009",
+  "sort": 9300008,
+  "_originalKey": "!items!AmTLight00000009"
+}

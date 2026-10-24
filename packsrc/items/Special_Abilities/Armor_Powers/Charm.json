@@ -1,0 +1,70 @@
+{
+  "folder": "SwArmorPower0001",
+  "name": "Charm",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>When a creature hits the wearer in melee, that creature must save vs. spells with a +4 bonus or be charmed. A person is affected as charm person. Any other living creature is affected as charm monster.</p><p>Only one successful charm can occur per day. A successful save does not use that success. The charm follows the usual charm rules: the creature treats the wearer as its best friend, may refuse orders against its nature, and breaks free if the wearer attacks it.</p><p>The hit and the save are manual. Apply the Charmed condition from the chat card.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "spell",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": [
+      {
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.TmQhQhoSVhcs6F2f",
+        "name": "Charmed",
+        "durationFormula": null
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "armor-power",
+        "promptOpponent": false,
+        "charges": null,
+        "unlimitedCharges": true,
+        "forbidCurse": false,
+        "action": "use",
+        "castAs": "",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        },
+        "vsGroups": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "uz8qiLITjPPfR0lp",
+  "sort": 9210000,
+  "_originalKey": "!items!uz8qiLITjPPfR0lp"
+}

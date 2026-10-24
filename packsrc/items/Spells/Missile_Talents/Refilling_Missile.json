@@ -1,0 +1,56 @@
+{
+  "folder": "SpMissileTalent1",
+  "name": "Refilling (Missile)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>No special effect when shot. If left in a container with other missiles of the same type, it creates 1d20 more normal missiles of that type each day.</p><p>Do not fire this missile for the talent; track daily creation manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Missile",
+    "duration": "Instant",
+    "effect": "Create 1d20/day",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "missile-talent",
+        "promptOpponent": false,
+        "action": "use",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AmTRefill0000011",
+  "sort": 9300010,
+  "_originalKey": "!items!AmTRefill0000011"
+}

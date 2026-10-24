@@ -35,7 +35,25 @@
     "default": 0,
     "0eyrbleKg5gmY59g": 3
   },
-  "flags": {},
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "intel-extraordinary-power",
+        "promptOpponent": false,
+        "charges": null,
+        "unlimitedCharges": true,
+        "forbidCurse": false,
+        "action": "use",
+        "castAs": "",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        },
+        "vsGroups": []
+      }
+    }
+  },
   "_stats": {
     "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"

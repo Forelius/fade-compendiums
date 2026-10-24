@@ -1,0 +1,64 @@
+{
+  "folder": "SwArmorPower0001",
+  "name": "Absorption",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Passive. When the wearer would lose a level to energy drain, this armor absorbs the drain instead. Each level absorbed reduces the armor's magical bonus by 1. When the bonus reaches +0, the armor is no longer magical, and further drains affect the wearer.</p><p>There is no automatic trigger. Reduce the armor bonus manually.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "armor-power",
+        "promptOpponent": false,
+        "charges": null,
+        "unlimitedCharges": true,
+        "forbidCurse": false,
+        "action": "use",
+        "castAs": "",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        },
+        "vsGroups": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "hpdvqgxVZlVolPam",
+  "sort": 9200000,
+  "_originalKey": "!items!hpdvqgxVZlVolPam"
+}

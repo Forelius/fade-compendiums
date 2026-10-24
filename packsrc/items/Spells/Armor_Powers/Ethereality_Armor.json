@@ -1,0 +1,68 @@
+{
+  "folder": "SpArmorPower0001",
+  "name": "Ethereality (Armor)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The armor has two command words, each usable once per day. One makes the wearer ethereal. The other returns the wearer to the Prime Plane. The wearer may remain ethereal as long as desired between those commands.</p><p>Apply or remove the Ethereal condition from the chat card. The daily command limit is manual.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Self",
+    "duration": "Until dismissed",
+    "effect": "Wearer becomes ethereal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": null,
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Ethereal",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.61Xw1f6KQ9olpeuo",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {
+    "fade-compendiums": {
+      "compose": {
+        "role": "armor-power",
+        "promptOpponent": false,
+        "charges": null,
+        "unlimitedCharges": true,
+        "forbidCurse": false,
+        "action": "use",
+        "castAs": "",
+        "cost": 1,
+        "patches": {
+          "set": {},
+          "multiply": {}
+        },
+        "vsGroups": []
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "t8nO1MW5J5bAsrt6",
+  "sort": 9130000,
+  "_originalKey": "!items!t8nO1MW5J5bAsrt6"
+}

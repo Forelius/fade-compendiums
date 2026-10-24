@@ -3,6 +3,7 @@ import { FADEPACK } from "./system/config.mjs"
 import { MagicArmorComposer } from "./magicArmorComposer.mjs";
 import { MagicWeaponComposer } from "./magicWeaponComposer.mjs";
 import { IntelligentWeapon } from "./intelligentWeapon.mjs";
+import { ComposeSheets } from "./composeSheets.mjs";
 
 Hooks.once('init', async function () {
    //console.debug('FADEPACK: init hook called.');
@@ -17,6 +18,7 @@ Hooks.once('beforeFadeInit', async function (fadeRegistry) {
 Hooks.once('afterFadeInit', async function (fadeRegistry) {
    //console.debug('FADEPACK: afterFadeInit hook called.');
    IntelligentWeapon.register();
+   ComposeSheets.register();
 
    // Preload Handlebars templates.
    await preloadHandlebarsTemplates();

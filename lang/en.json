@@ -2,7 +2,44 @@
    "FADEPACK": {
       "add": "Add",
       "SheetLabel": {
-         "IntelligentWeaponItem": "Intelligent Weapon Sheet"
+         "IntelligentWeaponItem": "Intelligent Weapon Sheet",
+         "ComposeSpellItem": "Spell Sheet (Compose)",
+         "ComposeSpecialAbility": "Special Ability Sheet (Compose)"
+      },
+      "Compose": {
+         "tab": "Compose",
+         "role": "Compose role",
+         "roleNone": "— None —",
+         "roleWeaponTalent": "Weapon talent",
+         "roleArmorPower": "Armor power",
+         "roleMissileTalent": "Missile talent",
+         "roleIntelPrimary": "Intelligent weapon — primary power",
+         "roleIntelExtraordinary": "Intelligent weapon — extraordinary power",
+         "promptOpponent": "Prompt for opponent",
+         "forbidCurse": "Clear cursed",
+         "charges": "Charges",
+         "unlimitedCharges": "Unlimited charges",
+         "cost": "Link cost",
+         "castAs": "Cast as",
+         "action": "Action",
+         "rangeMultiplier": "Range ×",
+         "rangeMultiplierHint": "Multiplies system.mod.rangeMultiplier when this talent is composed onto ammo/weapons.",
+         "hint": "Used by fade-compendiums magic item composers (weapon/armor/ammo talents now; intelligent-weapon powers when that composer exists). Not shown to players as item tags."
+      },
+      "MagicAmmo": {
+         "title": "Magic Ammunition",
+         "intro": "Add <strong>{name}</strong> as it is, or attach one missile talent. Optionally mark it cursed.",
+         "mode": "Mode",
+         "modeNone": "None — add as is",
+         "modeTalent": "Talent",
+         "talent": "Missile talent",
+         "cursed": "Cursed (negate magical bonuses)",
+         "talentNameSuffix": " of {talent}",
+         "talentDescription": "<p {marker}><strong>Missile talent:</strong> {talent}.</p>",
+         "cursedNamePrefix": "Cursed {name}",
+         "cursedDescription": "<p {marker}><strong>Cursed.</strong> Magical bonuses are penalties.</p>",
+         "vsNameSuffix": " of Slaying ({group})",
+         "vsDescription": "<p {marker}><strong>Slaying:</strong> vs {group}.</p>"
       },
       "IntelligentWeapon": {
          "enabled": "Intelligent",
