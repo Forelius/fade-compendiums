@@ -161,25 +161,45 @@ export class SyncEmbeddedFromCompendium {
       return null;
    }
 
+   /** Per-type system keys that must keep the embedded item's stored values. */
+   static #STATE_KEYS = {
+      spell: ["cast", "memorized"],
+      specialAbility: ["quantity"],
+      skill: ["level"],
+      weaponMastery: [],
+   };
+
    /**
     * @returns {{ update: object, replaceEffects: boolean } | null}
     */
    static #buildUpdate(item, source) {
-      const system = foundry.utils.deepClone(source.system ?? {});
+      // Prefer persisted source over prepared system (avoids defaults / derived values).
+      const stored = item.toObject().system ?? {};
+      const incoming = source.toObject().system ?? {};
 
-      if (item.type === "spell") {
-         system.cast = item.system.cast;
-         system.memorized = item.system.memorized;
-      } else if (item.type === "specialAbility") {
-         system.quantity = item.system.quantity;
-      } else if (item.type === "skill") {
-         system.level = item.system.level;
+      for (const key of SyncEmbeddedFromCompendium.#STATE_KEYS[item.type] ?? []) {
+         delete incoming[key];
       }
 
-      const notes = item.system?.gm?.notes;
-      if (notes != null && String(notes).trim() !== "") {
-         system.gm = system.gm ?? {};
-         system.gm.notes = notes;
+      // Keep world/actor GM notes when present rather than blanking from pack.
+      const storedNotes = stored.gm?.notes;
+      if (storedNotes != null && String(storedNotes).trim() !== "") {
+         incoming.gm = incoming.gm ?? {};
+         incoming.gm.notes = storedNotes;
+      }
+
+      // Start from stored system, overlay pack definition; state keys omitted from incoming stay.
+      const system = foundry.utils.mergeObject(stored, incoming, {
+         inplace: false,
+         overwrite: true,
+         insertKeys: true,
+         insertValues: true,
+      });
+
+      for (const key of SyncEmbeddedFromCompendium.#STATE_KEYS[item.type] ?? []) {
+         if (Object.prototype.hasOwnProperty.call(stored, key)) {
+            system[key] = stored[key];
+         }
       }
 
       return {
