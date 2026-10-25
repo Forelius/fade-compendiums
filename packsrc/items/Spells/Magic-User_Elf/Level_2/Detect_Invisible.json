@@ -37,7 +37,8 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "@classes.M.castLevel*10"
+      "distance": "@classes.M.castLevel*10",
+      "maxRange": "@classes.M.castLevel*10"
     }
   },
   "flags": {},

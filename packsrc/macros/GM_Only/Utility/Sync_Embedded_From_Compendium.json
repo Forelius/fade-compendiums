@@ -1,0 +1,21 @@
+{
+  "name": "Sync Embedded From Compendium",
+  "type": "script",
+  "command": "game.modules.get(\"fade-compendiums\")?.api?.syncEmbeddedFromCompendium?.();",
+  "img": "icons/svg/upgrade.svg",
+  "folder": "8QnG4j2FXrIxRegn",
+  "_id": "1oy8NkHlPqGpn42Q",
+  "author": "0eyrbleKg5gmY59g",
+  "scope": "global",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.0.0",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!macros!1oy8NkHlPqGpn42Q"
+}

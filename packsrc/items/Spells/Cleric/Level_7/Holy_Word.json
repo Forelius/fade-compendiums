@@ -10,7 +10,7 @@
       "notes": ""
     },
     "spellLevel": 7,
-    "range": "40'",
+    "range": "0",
     "duration": "Instantaneous",
     "effect": "All creatures within 40'",
     "targetSelf": true,
@@ -33,7 +33,8 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "40"
+      "distance": "40",
+      "maxRange": "0"
     }
   },
   "effects": [],

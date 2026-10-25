@@ -4,6 +4,7 @@ import { MagicArmorComposer } from "./composers/magicArmorComposer.mjs";
 import { MagicWeaponComposer } from "./composers/magicWeaponComposer.mjs";
 import { IntelligentWeapon } from "./utils/intelligentWeapon.mjs";
 import { ComposeSheets } from "./utils/composeSheets.mjs";
+import { SyncEmbeddedFromCompendium } from "./utils/syncEmbeddedFromCompendium.mjs";
 
 Hooks.once('init', async function () {
    //console.debug('FADEPACK: init hook called.');
@@ -30,4 +31,5 @@ Hooks.once('beforeFadeReady', async function (fadeRegistry) {
 
 Hooks.once('afterFadeReady', async function (fadeRegistry) {
    //console.debug('FADEPACK: afterFadeReady hook called.');
+   SyncEmbeddedFromCompendium.register();
 });

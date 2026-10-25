@@ -82,6 +82,15 @@
          "powerNone": "None — add as is",
          "powerNameSuffix": " of {power}",
          "powerDescription": "<p {marker}><strong>Special power:</strong> {power}.</p>"
+      },
+      "SyncEmbedded": {
+         "title": "Update Embedded Items from Compendium",
+         "hint": "Update copies definition data on actor-embedded items from fade-compendiums. State such as quantity, charges, cast counts, memorized counts, and skill level is preserved.",
+         "update": "Update",
+         "gmOnly": "You must be a GM to update embedded items from the compendium.",
+         "packMissing": "Compendium pack '{pack}' was not found.",
+         "working": "Updating embedded items from the compendium…",
+         "done": "Embedded item sync finished. Updated: {updated}. No source match: {missing}. Skipped: {skipped}."
       }
    }
 }

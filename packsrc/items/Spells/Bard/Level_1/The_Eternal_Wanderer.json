@@ -34,7 +34,8 @@
     ],
     "template": {
       "type": "circle",
-      "distance": "10+(@classes.B.castLevel*2)"
+      "distance": "10+(@classes.B.castLevel*2)",
+      "maxRange": "0"
     }
   },
   "effects": [],
