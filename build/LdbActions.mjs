@@ -285,7 +285,7 @@ class LdbDumpCLI {
      */
     showHelp() {
         console.log(`
-Usage: node scripts/build/LdbActions.mjs <command> [--pack <packName>] [--backup]
+Usage: node build/LdbActions.mjs <command> [--pack <packName>] [--backup]
 
 Commands:
   dump      - Export pack data to JSON file
@@ -304,13 +304,13 @@ Options:
                    Use this if you're not using git or want extra safety
 
 Examples:
-  node scripts/build/LdbActions.mjs dump                          # Dump all packs
-  node scripts/build/LdbActions.mjs dump --pack actors            # Dump specific pack
-  node scripts/build/LdbActions.mjs restore                       # Restore all packs
-  node scripts/build/LdbActions.mjs restore --pack items          # Restore specific pack
-  node scripts/build/LdbActions.mjs restore --pack items --backup
-  node scripts/build/LdbActions.mjs checkpack --pack macros
-  node scripts/build/LdbActions.mjs list
+  node build/LdbActions.mjs dump                          # Dump all packs
+  node build/LdbActions.mjs dump --pack actors            # Dump specific pack
+  node build/LdbActions.mjs restore                       # Restore all packs
+  node build/LdbActions.mjs restore --pack items          # Restore specific pack
+  node build/LdbActions.mjs restore --pack items --backup
+  node build/LdbActions.mjs checkpack --pack macros
+  node build/LdbActions.mjs list
 `);
     }
 

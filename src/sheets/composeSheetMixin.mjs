@@ -1,4 +1,4 @@
-import { ComposeFlags, COMPOSE_MODULE_ID, COMPOSE_FLAG_KEY, COMPOSE_ROLES } from "../composeFlags.mjs";
+import { ComposeFlags, COMPOSE_MODULE_ID, COMPOSE_FLAG_KEY, COMPOSE_ROLES } from "../utils/composeFlags.mjs";
 
 /**
  * Shared Compose-tab behavior for spell and special-ability sheet subclasses.

@@ -1,9 +1,9 @@
 import { preloadHandlebarsTemplates } from './system/templates.mjs';
 import { FADEPACK } from "./system/config.mjs"
-import { MagicArmorComposer } from "./magicArmorComposer.mjs";
-import { MagicWeaponComposer } from "./magicWeaponComposer.mjs";
-import { IntelligentWeapon } from "./intelligentWeapon.mjs";
-import { ComposeSheets } from "./composeSheets.mjs";
+import { MagicArmorComposer } from "./composers/magicArmorComposer.mjs";
+import { MagicWeaponComposer } from "./composers/magicWeaponComposer.mjs";
+import { IntelligentWeapon } from "./utils/intelligentWeapon.mjs";
+import { ComposeSheets } from "./utils/composeSheets.mjs";
 
 Hooks.once('init', async function () {
    //console.debug('FADEPACK: init hook called.');

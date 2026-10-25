@@ -1,4 +1,4 @@
-import { createIntelligentWeaponItemSheet } from "./sheets/IntelligentWeaponItemSheet.mjs";
+import { createIntelligentWeaponItemSheet } from "../sheets/IntelligentWeaponItemSheet.mjs";
 
 const MODULE_ID = "fade-compendiums";
 const FLAG_KEY = "intelligent";

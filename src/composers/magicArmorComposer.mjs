@@ -1,4 +1,4 @@
-import { ComposeFlags, COMPOSE_ROLES } from "./composeFlags.mjs";
+import { ComposeFlags, COMPOSE_ROLES } from "../utils/composeFlags.mjs";
 import { MagicItemCompose } from "./magicItemCompose.mjs";
 
 /** ActiveEffect name for a magical armor bonus or penalty, such as Armor+2. */

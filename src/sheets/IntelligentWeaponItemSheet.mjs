@@ -1,4 +1,4 @@
-import { IntelligentWeapon } from "../intelligentWeapon.mjs";
+import { IntelligentWeapon } from "../utils/intelligentWeapon.mjs";
 
 const MODULE_ID = "fade-compendiums";
 const FLAG_KEY = "intelligent";

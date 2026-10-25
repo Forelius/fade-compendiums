@@ -648,10 +648,10 @@ Options:
   --help                 Show help
 
 Examples:
-  node "scripts/build/dbConvert.mjs" extract --pack actors
-  node "scripts/build/dbConvert.mjs" extract --file ./packs/actors.db
-  node "scripts/build/dbConvert.mjs" compile --pack actors
-  node "scripts/build/dbConvert.mjs" help
+  node "build/dbConvert.mjs" extract --pack actors
+  node "build/dbConvert.mjs" extract --file ./packs/actors.db
+  node "build/dbConvert.mjs" compile --pack actors
+  node "build/dbConvert.mjs" help
         `);
     }
 

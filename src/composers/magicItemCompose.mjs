@@ -1,4 +1,4 @@
-import { ComposeFlags } from "./composeFlags.mjs";
+import { ComposeFlags } from "../utils/composeFlags.mjs";
 
 /**
  * Shared apply helpers for magic weapon / armor / ammo composers.

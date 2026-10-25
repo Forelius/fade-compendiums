@@ -1,5 +1,5 @@
-import { createComposeSpellItemSheet } from "./sheets/ComposeSpellItemSheet.mjs";
-import { createComposeSpecialAbilitySheet } from "./sheets/ComposeSpecialAbilitySheet.mjs";
+import { createComposeSpellItemSheet } from "../sheets/ComposeSpellItemSheet.mjs";
+import { createComposeSpecialAbilitySheet } from "../sheets/ComposeSpecialAbilitySheet.mjs";
 
 const MODULE_ID = "fade-compendiums";
 

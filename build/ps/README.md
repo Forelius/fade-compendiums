@@ -10,7 +10,7 @@ This directory contains PowerShell scripts that provide a project-specific devel
 ### PowerShell launch
 ```powershell
 cd "path\to\your\project"
-powershell.exe -NoExit -ExecutionPolicy Bypass -Command "& 'scripts\ps\PowerShell_Profile.ps1' -ProjectName 'your-project'"
+powershell.exe -NoExit -ExecutionPolicy Bypass -Command "& 'build\ps\PowerShell_Profile.ps1' -ProjectName 'your-project'"
 ```
 
 ## Available Aliases
@@ -34,7 +34,7 @@ The profile automatically detects and creates aliases for **all npm scripts** in
 
 To adapt this setup for your project:
 
-1. **Copy the files**: Copy the `scripts\ps` folder to your new project
+1. **Copy the files**: Copy the `build\ps` folder to your new project
 2. **Update project name**: Change the project name when calling the PowerShell profile script
 3. **Add to .gitignore**: Ensure `PowerShell_History.txt` is ignored by version control
 
@@ -43,7 +43,7 @@ To adapt this setup for your project:
 ```
 your-project/
 ├── PowerShell_History.txt        # Project command history (auto-created, git-ignored)
-└── scripts/
+└── build/
     └── ps/
         ├── PowerShell_Profile.ps1 # Main profile script
         └── README.md              # This documentation

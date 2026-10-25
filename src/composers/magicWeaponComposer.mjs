@@ -1,4 +1,4 @@
-import { ComposeFlags, COMPOSE_ROLES } from "./composeFlags.mjs";
+import { ComposeFlags, COMPOSE_ROLES } from "../utils/composeFlags.mjs";
 import { MagicItemCompose } from "./magicItemCompose.mjs";
 
 /** Masteries / name stems treated as missile weapons (separate Ch16 talent table). */
